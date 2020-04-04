@@ -39,8 +39,8 @@ SourceFiles
 #ifndef functionObjects_writeFile_H
 #define functionObjects_writeFile_H
 
-#include "objectRegistry.H"
-#include "IOmanip.H"
+#include "OpenFOAM/db/objectRegistry/objectRegistry.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOmanip.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

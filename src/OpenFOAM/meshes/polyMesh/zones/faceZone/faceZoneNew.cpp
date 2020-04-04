@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceZone.H"
-#include "dictionary.H"
+#include "OpenFOAM/meshes/polyMesh/zones/faceZone/faceZone.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

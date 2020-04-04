@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicPointPatchFields.H"
-#include "pointPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/fields/pointPatchFields/constraint/cyclic/cyclicPointPatchFields.hpp"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFields.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

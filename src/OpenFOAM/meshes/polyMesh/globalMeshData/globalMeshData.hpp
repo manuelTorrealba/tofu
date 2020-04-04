@@ -81,9 +81,9 @@ SourceFiles
 #ifndef globalMeshData_H
 #define globalMeshData_H
 
-#include "processorTopology.H"
-#include "labelPair.H"
-#include "indirectPrimitivePatch.H"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/processorTopology.hpp"
+#include "OpenFOAM/primitives/Pair/labelPair.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

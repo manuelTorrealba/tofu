@@ -34,7 +34,7 @@ SourceFiles
 #ifndef linearInterpolationWeights_H
 #define linearInterpolationWeights_H
 
-#include "interpolationWeights.H"
+#include "OpenFOAM/interpolations/interpolationWeights/interpolationWeights/interpolationWeights.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

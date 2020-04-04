@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mapAddedPolyMesh.H"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapAddedPolyMesh.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

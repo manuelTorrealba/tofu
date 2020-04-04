@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nonuniformTransformCyclicPointPatchFields.H"
-#include "pointPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/fields/pointPatchFields/constraint/nonuniformTransformCyclic/nonuniformTransformCyclicPointPatchFields.hpp"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFields.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

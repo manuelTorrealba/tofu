@@ -37,13 +37,13 @@ SourceFiles
 #ifndef GAMGAgglomeration_H
 #define GAMGAgglomeration_H
 
-#include "MeshObject.H"
-#include "lduPrimitiveMesh.H"
-#include "lduInterfacePtrsList.H"
-#include "primitiveFields.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM/meshes/MeshObject/MeshObject.hpp"
+#include "OpenFOAM/meshes/lduMesh/lduPrimitiveMesh.hpp"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/lduInterfacePtrsList.hpp"
+#include "OpenFOAM/fields/Fields/primitiveFields.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
-#include "boolList.H"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

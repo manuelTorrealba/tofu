@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "halfCosineRamp.H"
-#include "mathematicalConstants.H"
+#include "OpenFOAM/primitives/functions/Function1/halfCosineRamp/halfCosineRamp.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

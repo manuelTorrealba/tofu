@@ -26,11 +26,11 @@ License
 #ifndef Function1Fwd_H
 #define Function1Fwd_H
 
-#include "Function1.H"
-#include "vector.H"
-#include "symmTensor.H"
-#include "sphericalTensor.H"
-#include "tensor.H"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/primitives/SymmTensor/symmTensor/symmTensor.hpp"
+#include "OpenFOAM/primitives/SphericalTensor/sphericalTensor/sphericalTensor.hpp"
+#include "OpenFOAM/primitives/Tensor/tensor/tensor.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

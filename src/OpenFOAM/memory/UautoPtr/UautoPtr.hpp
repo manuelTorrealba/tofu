@@ -134,7 +134,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "UautoPtrI.H"
+#include "OpenFOAM/memory/UautoPtr/UautoPtrI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

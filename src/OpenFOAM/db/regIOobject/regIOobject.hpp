@@ -38,10 +38,12 @@ SourceFiles
 #ifndef regIOobject_H
 #define regIOobject_H
 
-#include "IOobject.H"
-#include "typeInfo.H"
-#include "OSspecific.H"
-#include "NamedEnum.H"
+#include "OpenFOAM/db/IOobject/IOobject.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/include/OSspecific.hpp"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
+#include "OpenFOAM/db/IOstreams/Sstreams/ISstream.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -315,7 +317,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "regIOobjectI.H"
+#include "OpenFOAM/db/regIOobject/regIOobjectI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

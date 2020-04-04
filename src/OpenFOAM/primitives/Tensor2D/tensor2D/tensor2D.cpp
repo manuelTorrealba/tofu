@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tensor2D.H"
-#include "quadraticEqn.H"
+#include "OpenFOAM/primitives/Tensor2D/tensor2D/tensor2D.hpp"
+#include "OpenFOAM/primitives/polynomialEqns/quadraticEqn/quadraticEqn.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

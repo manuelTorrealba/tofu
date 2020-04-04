@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreams.H"
-#include "pointHit.H"
-#include "mathematicalConstants.H"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/pointHit.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * //
 

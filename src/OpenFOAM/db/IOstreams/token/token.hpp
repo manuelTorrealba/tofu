@@ -37,16 +37,16 @@ SourceFiles
 #ifndef token_H
 #define token_H
 
-#include "label.H"
-#include "uLabel.H"
-#include "scalar.H"
-#include "word.H"
-#include "InfoProxy.H"
-#include "refCount.H"
-#include "typeInfo.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/primitives/ints/uLabel/uLabel.hpp"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/InfoProxy.hpp"
+#include "OpenFOAM/memory/refCount/refCount.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 
 #define NoHashTableC
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 #include <iostream>
 
@@ -465,8 +465,8 @@ Ostream& operator<<(Ostream& os, const InfoProxy<token>& ip);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "tokenI.H"
-#include "Istream.H"
+#include "OpenFOAM/db/IOstreams/token/tokenI.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Istream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

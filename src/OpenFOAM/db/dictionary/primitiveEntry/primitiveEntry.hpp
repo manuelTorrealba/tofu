@@ -42,12 +42,12 @@ SourceFiles
 #ifndef primitiveEntry_H
 #define primitiveEntry_H
 
-#include "IStringStream.H"
-#include "OStringStream.H"
+#include "OpenFOAM/db/IOstreams/StringStreams/IStringStream.hpp"
+#include "OpenFOAM/db/IOstreams/StringStreams/OStringStream.hpp"
 
-#include "entry.H"
-#include "ITstream.H"
-#include "InfoProxy.H"
+#include "OpenFOAM/db/dictionary/entry/entry.hpp"
+#include "OpenFOAM/db/IOstreams/Tstreams/ITstream.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/InfoProxy.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

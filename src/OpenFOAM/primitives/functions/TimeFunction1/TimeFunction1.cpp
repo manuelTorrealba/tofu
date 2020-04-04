@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TimeFunction1.H"
+#include "OpenFOAM/primitives/functions/TimeFunction1/TimeFunction1.hpp"
 
 // * * * * * * * * * * * * * * * * Constructor * * * * * * * * * * * * * * * //
 

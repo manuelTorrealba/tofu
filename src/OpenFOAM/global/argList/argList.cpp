@@ -23,19 +23,22 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "OSspecific.H"
-#include "clock.H"
-#include "IFstream.H"
-#include "dictionary.H"
-#include "IOobject.H"
-#include "jobInfo.H"
-#include "labelList.H"
-#include "regIOobject.H"
-#include "dynamicCode.H"
-#include "fileOperation.H"
-#include "fileOperationInitialise.H"
-#include "stringListOps.H"
+#include "OpenFOAM/global/argList/argList.hpp"
+#include "OpenFOAM/include/OSspecific.hpp"
+#include "OpenFOAM/global/clock/clock.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/db/IOobject/IOobject.hpp"
+#include "OpenFOAM/global/jobInfo/jobInfo.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
+#include "OpenFOAM/db/dynamicLibrary/dynamicCode/dynamicCode.hpp"
+#include "OpenFOAM/global/fileOperations/fileOperation/fileOperation.hpp"
+#include "OpenFOAM/global/fileOperations/fileOperationInitialise/fileOperationInitialise.hpp"
+#include "OpenFOAM/primitives/strings/lists/stringListOps.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.cpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.cpp"
+
 
 #include <cctype>
 

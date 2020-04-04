@@ -35,7 +35,7 @@ SourceFiles
 #ifndef DiagonalSolver_H
 #define DiagonalSolver_H
 
-#include "LduMatrix.H"
+#include "OpenFOAM/matrices/LduMatrixN/LduMatrix/LduMatrix.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

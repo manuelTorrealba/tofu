@@ -36,9 +36,9 @@ SourceFiles
 #ifndef dimensionSets_H
 #define dimensionSets_H
 
-#include "scalarMatrices.H"
-#include "dimensionedScalarFwd.H"
-#include "PtrList.H"
+#include "OpenFOAM/matrices/scalarMatrices/scalarMatrices.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalarFwd.hpp"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

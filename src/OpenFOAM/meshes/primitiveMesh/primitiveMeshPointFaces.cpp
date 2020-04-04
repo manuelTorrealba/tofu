@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveMesh.H"
-#include "ListOps.H"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
 
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //

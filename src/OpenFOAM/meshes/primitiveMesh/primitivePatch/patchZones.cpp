@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchZones.H"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/patchZones.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

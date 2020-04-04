@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nonuniformTransformCyclicPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/nonuniformTransformCyclic/nonuniformTransformCyclicPolyPatch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

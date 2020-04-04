@@ -37,12 +37,12 @@ SourceFiles
 #ifndef Matrix_H
 #define Matrix_H
 
-#include "bool.H"
-#include "label.H"
-#include "uLabel.H"
-#include "Field.H"
-#include "zero.H"
-#include "autoPtr.H"
+#include "OpenFOAM/primitives/bools/bool/bool.hpp"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/primitives/ints/uLabel/uLabel.hpp"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
+#include "OpenFOAM/primitives/zero/zero.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -375,7 +375,7 @@ tmp<Field<Type>> operator*
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "MatrixI.H"
+#include "OpenFOAM/matrices/Matrix/MatrixI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "calculatedPointPatchField.H"
+#include "OpenFOAM/fields/pointPatchFields/basic/calculated/calculatedPointPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

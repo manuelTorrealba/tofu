@@ -40,10 +40,10 @@ SourceFiles
 #ifndef pointConstraint_H
 #define pointConstraint_H
 
-#include "label.H"
-#include "vector.H"
-#include "Tuple2.H"
-#include "transform.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
+#include "OpenFOAM/primitives/transform/transform.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -116,7 +116,7 @@ inline bool contiguous<pointConstraint>() {return true;}
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pointConstraintI.H"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointConstraint/pointConstraintI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

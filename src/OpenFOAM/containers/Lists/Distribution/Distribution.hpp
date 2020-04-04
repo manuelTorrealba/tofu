@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Distribution_H
 #define Distribution_H
 
-#include "List.H"
-#include "Pair.H"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
+#include "OpenFOAM/primitives/Pair/Pair.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -192,7 +192,7 @@ Distribution<Type> operator+
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DistributionI.H"
+#include "OpenFOAM/containers/Lists/Distribution/DistributionI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

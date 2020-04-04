@@ -35,11 +35,11 @@ SourceFiles
 #ifndef DimensionedSymmTensorField_H
 #define DimensionedSymmTensorField_H
 
-#include "DimensionedField.H"
-#include "symmTensor.H"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.hpp"
+#include "OpenFOAM/primitives/SymmTensor/symmTensor/symmTensor.hpp"
 
 #define TEMPLATE template<class GeoMesh>
-#include "DimensionedFieldFunctionsM.H"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedFieldFunctionsM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -73,7 +73,7 @@ UNARY_OPERATOR(vector, symmTensor, *, hdual, transform)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 #ifdef NoRepository
     #include "DimensionedSymmTensorField.C"

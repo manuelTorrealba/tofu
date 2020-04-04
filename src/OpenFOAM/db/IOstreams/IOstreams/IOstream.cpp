@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstream.H"
-#include "error.H"
-#include "Switch.H"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOstream.hpp"
+#include "OpenFOAM/db/error/error.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
 #include <sstream>
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

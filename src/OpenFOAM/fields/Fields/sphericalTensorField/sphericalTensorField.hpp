@@ -35,11 +35,11 @@ SourceFiles
 #ifndef sphericalTensorField_H
 #define sphericalTensorField_H
 
-#include "scalarField.H"
-#include "sphericalTensor.H"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/primitives/SphericalTensor/sphericalTensor/sphericalTensor.hpp"
 
 #define TEMPLATE
-#include "FieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/FieldFunctionsM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -65,7 +65,7 @@ BINARY_TYPE_OPERATOR(sphericalTensor, scalar, sphericalTensor, /, divide)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Vector.H"
-#include "Tensor.H"
+#include "OpenFOAM/primitives/Vector/Vector.hpp"
+#include "OpenFOAM/primitives/Tensor/Tensor.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

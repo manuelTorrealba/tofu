@@ -31,8 +31,8 @@ Description
 #ifndef FieldM_H
 #define FieldM_H
 
-#include "error.H"
-#include "ListLoopM.H"
+#include "OpenFOAM/db/error/error.hpp"
+#include "OpenFOAM/containers/Lists/List/ListLoopM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

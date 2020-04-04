@@ -23,18 +23,21 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "decomposedBlockData.H"
-#include "OPstream.H"
-#include "IPstream.H"
-#include "PstreamBuffers.H"
-#include "OFstream.H"
-#include "IFstream.H"
-#include "IStringStream.H"
-#include "dictionary.H"
-#include "objectRegistry.H"
-#include "SubList.H"
-#include "labelPair.H"
-#include "masterUncollatedFileOperation.H"
+#include "OpenFOAM/db/IOobjects/decomposedBlockData/decomposedBlockData.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamBuffers.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/db/IOstreams/StringStreams/IStringStream.hpp"
+#include "OpenFOAM/db/IOstreams/StringStreams/OStringStream.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/db/objectRegistry/objectRegistry.hpp"
+#include "OpenFOAM/containers/Lists/SubList/SubList.hpp"
+#include "OpenFOAM/primitives/Pair/labelPair.hpp"
+#include "OpenFOAM/global/fileOperations/masterUncollatedFileOperation/masterUncollatedFileOperation.hpp"
+#include "OpenFOAM/global/argList/argList.hpp"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

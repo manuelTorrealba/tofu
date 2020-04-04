@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "localIOdictionary.H"
+#include "OpenFOAM/db/IOobjects/IOdictionary/localIOdictionary.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -36,8 +36,8 @@ See also
 #ifndef Pair_H
 #define Pair_H
 
-#include "FixedList.H"
-#include "Istream.H"
+#include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Istream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

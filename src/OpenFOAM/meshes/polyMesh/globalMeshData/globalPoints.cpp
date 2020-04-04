@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "globalPoints.H"
-#include "processorPolyPatch.H"
-#include "cyclicPolyPatch.H"
-#include "polyMesh.H"
-#include "mapDistribute.H"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalPoints.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

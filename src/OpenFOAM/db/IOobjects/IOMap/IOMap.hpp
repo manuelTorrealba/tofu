@@ -36,8 +36,8 @@ SourceFiles
 #ifndef IOMap_H
 #define IOMap_H
 
-#include "Map.H"
-#include "regIOobject.H"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

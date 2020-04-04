@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "indexedOctree.H"
-#include "linePointRef.H"
-#include "OFstream.H"
-#include "ListOps.H"
-#include "memInfo.H"
+#include "OpenFOAM/algorithms/indexedOctree/indexedOctree.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/line/linePointRef.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "OSspecific/POSIX/memInfo/memInfo.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

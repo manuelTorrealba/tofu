@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "zeroGradientPointPatchFields.H"
-#include "pointPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/fields/pointPatchFields/basic/zeroGradient/zeroGradientPointPatchFields.hpp"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFields.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

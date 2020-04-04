@@ -50,14 +50,14 @@ SourceFiles
 #ifndef LduMatrix_H
 #define LduMatrix_H
 
-#include "lduMesh.H"
-#include "Field.H"
-#include "FieldField.H"
-#include "LduInterfaceFieldPtrsList.H"
+#include "OpenFOAM/meshes/lduMesh/lduMesh.hpp"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
+#include "OpenFOAM/fields/FieldFields/FieldField/FieldField.hpp"
+#include "OpenFOAM/matrices/LduMatrixN/LduMatrix/LduInterfaceField/LduInterfaceFieldPtrsList.hpp"
 #include "SolverPerformance.H"
-#include "typeInfo.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -797,7 +797,7 @@ LduMatrix<Type, DType, LUType>::solver::                                       \
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LduMatrixI.H"
+#include "OpenFOAM/matrices/LduMatrixN/LduMatrix/LduMatrixI.hpp"
     #include "LduMatrix.C"
 #endif
 

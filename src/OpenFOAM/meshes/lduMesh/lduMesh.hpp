@@ -33,10 +33,10 @@ Description
 #ifndef lduMesh_H
 #define lduMesh_H
 
-#include "lduAddressing.H"
-#include "lduInterfacePtrsList.H"
-#include "typeInfo.H"
-#include "InfoProxy.H"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduAddressing.hpp"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/lduInterfacePtrsList.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/InfoProxy.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

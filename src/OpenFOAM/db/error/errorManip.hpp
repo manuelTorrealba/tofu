@@ -40,7 +40,7 @@ Usage
 #ifndef errorManip_H
 #define errorManip_H
 
-#include "error.H"
+#include "OpenFOAM/db/error/error.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

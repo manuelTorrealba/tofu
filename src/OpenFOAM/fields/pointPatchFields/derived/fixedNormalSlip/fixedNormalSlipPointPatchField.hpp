@@ -35,7 +35,7 @@ SourceFiles
 #ifndef fixedNormalSlipPointPatchField_H
 #define fixedNormalSlipPointPatchField_H
 
-#include "slipPointPatchField.H"
+#include "OpenFOAM/fields/pointPatchFields/derived/slip/slipPointPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -24,8 +24,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "PatchToPatchInterpolation.H"
-#include "objectHit.H"
-#include "pointHit.H"
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/objectHit.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/pointHit.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

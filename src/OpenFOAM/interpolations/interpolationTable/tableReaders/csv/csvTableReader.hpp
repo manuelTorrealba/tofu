@@ -35,8 +35,8 @@ SourceFiles
 #ifndef csvTableReader_H
 #define csvTableReader_H
 
-#include "tableReader.H"
-#include "labelList.H"
+#include "OpenFOAM/interpolations/interpolationTable/tableReaders/tableReader.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

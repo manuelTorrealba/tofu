@@ -34,8 +34,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "PrimitivePatch.H"
-#include "DynamicList.H"
+#include "OpenFOAM/meshes/primitiveMesh/PrimitivePatchN/PrimitivePatch.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
 
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

@@ -44,8 +44,8 @@ Description
 #ifndef labelList_H
 #define labelList_H
 
-#include "label.H"
-#include "List.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

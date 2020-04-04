@@ -36,7 +36,7 @@ SourceFiles
 #ifndef localIOdictionary_H
 #define localIOdictionary_H
 
-#include "baseIOdictionary.H"
+#include "OpenFOAM/db/IOobjects/IOdictionary/baseIOdictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

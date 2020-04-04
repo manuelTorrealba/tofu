@@ -35,9 +35,9 @@ SourceFiles
 #ifndef stringOps_H
 #define stringOps_H
 
-#include "string.H"
-#include "dictionary.H"
-#include "HashTable.H"
+#include "OpenFOAM/primitives/strings/string/string.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

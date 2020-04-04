@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "commSchedule.H"
-#include "SortableList.H"
-#include "boolList.H"
-#include "IOstreams.H"
-#include "IOmanip.H"
-#include "OStringStream.H"
-#include "Pstream.H"
+#include "OpenFOAM/meshes/ProcessorTopology/commSchedule.hpp"
+#include "OpenFOAM/containers/Lists/SortableList/SortableList.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOmanip.hpp"
+#include "OpenFOAM/db/IOstreams/StringStreams/OStringStream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

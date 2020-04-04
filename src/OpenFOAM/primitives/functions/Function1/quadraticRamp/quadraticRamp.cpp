@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "quadraticRamp.H"
+#include "OpenFOAM/primitives/functions/Function1/quadraticRamp/quadraticRamp.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

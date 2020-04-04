@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "codedFixedValuePointPatchFields.H"
-#include "pointPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/fields/pointPatchFields/derived/codedFixedValue/codedFixedValuePointPatchFields.hpp"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFields.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

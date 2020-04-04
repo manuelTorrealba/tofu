@@ -25,6 +25,8 @@ License
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
+#include "OpenFOAM/containers/Lists/UList/UList.hpp"
+
 template <Foam::direction N>
 inline Foam::Roots<N>::Roots()
 :

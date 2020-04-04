@@ -43,8 +43,8 @@ SourceFiles
 #ifndef MatrixBlock_H
 #define MatrixBlock_H
 
-#include "Matrix.H"
-#include "MatrixSpace.H"
+#include "OpenFOAM/matrices/Matrix/Matrix.hpp"
+#include "OpenFOAM/primitives/MatrixSpace/MatrixSpace.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -225,7 +225,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "MatrixBlockI.H"
+#include "OpenFOAM/matrices/MatrixBlock/MatrixBlockI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -24,7 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "PatchToPatchInterpolation.H"
-#include "demandDrivenData.H"
+#include "OpenFOAM/include/demandDrivenData.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

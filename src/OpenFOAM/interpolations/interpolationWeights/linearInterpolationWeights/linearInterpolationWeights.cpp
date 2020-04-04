@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearInterpolationWeights.H"
-#include "addToRunTimeSelectionTable.H"
-#include "ListOps.H"
-#include "Pair.H"
+#include "OpenFOAM/interpolations/interpolationWeights/linearInterpolationWeights/linearInterpolationWeights.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "OpenFOAM/primitives/Pair/Pair.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

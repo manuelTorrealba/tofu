@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ISstream.H"
-#include "int.H"
-#include "token.H"
+#include "OpenFOAM/db/IOstreams/Sstreams/ISstream.hpp"
+#include "OpenFOAM/primitives/ints/int/int.hpp"
+#include "OpenFOAM/db/IOstreams/token/token.hpp"
 #include <cctype>
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //

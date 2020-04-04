@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "word.H"
-#include "Ostream.H"
-#include "token.H"
-#include "keyType.H"
-#include "IOstreams.H"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Ostream.hpp"
+#include "OpenFOAM/db/IOstreams/token/token.hpp"
+#include "OpenFOAM/primitives/strings/keyType/keyType.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

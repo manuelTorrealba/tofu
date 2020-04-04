@@ -26,8 +26,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "scalarField.H"
-#include "unitConversion.H"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
 
 #define TEMPLATE
 #include "FieldFunctionsM.C"
@@ -199,6 +199,6 @@ BesselFunc(yn)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // ************************************************************************* //

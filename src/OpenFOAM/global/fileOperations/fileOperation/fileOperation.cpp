@@ -23,16 +23,20 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fileOperation.H"
-#include "uncollatedFileOperation.H"
-#include "regIOobject.H"
-#include "argList.H"
-#include "HashSet.H"
-#include "objectRegistry.H"
-#include "decomposedBlockData.H"
-#include "polyMesh.H"
-#include "registerSwitch.H"
-#include "Time.H"
+#include "OpenFOAM/global/fileOperations/fileOperation/fileOperation.hpp"
+#include "OpenFOAM/global/fileOperations/uncollatedFileOperation/uncollatedFileOperation.hpp"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
+#include "OpenFOAM/global/argList/argList.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/db/objectRegistry/objectRegistry.hpp"
+#include "OpenFOAM/db/IOobjects/decomposedBlockData/decomposedBlockData.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/global/debug/registerSwitch.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
+
+#include <algorithm>
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

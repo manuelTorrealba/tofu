@@ -35,7 +35,8 @@ SourceFiles
 #ifndef spatialTensor_H
 #define spatialTensor_H
 
-#include "SpatialTensor.H"
+#include "OpenFOAM/primitives/spatialVectorAlgebra/SpatialTensor/SpatialTensor.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

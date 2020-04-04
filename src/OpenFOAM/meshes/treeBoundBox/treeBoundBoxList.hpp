@@ -34,8 +34,8 @@ SourceFiles
 #ifndef treeBoundBoxList_H
 #define treeBoundBoxList_H
 
-#include "treeBoundBox.H"
-#include "List.H"
+#include "OpenFOAM/meshes/treeBoundBox/treeBoundBox.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

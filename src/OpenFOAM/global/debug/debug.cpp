@@ -26,15 +26,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "debug.H"
-#include "dictionary.H"
-#include "IFstream.H"
-#include "etcFiles.H"
-#include "Ostream.H"
-#include "demandDrivenData.H"
-#include "simpleObjectRegistry.H"
-#include "IOobject.H"
-#include "HashSet.H"
+#include "OpenFOAM/global/debug/debug.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/global/etcFiles/etcFiles.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Ostream.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
+#include "OpenFOAM/global/debug/simpleObjectRegistry.hpp"
+#include "OpenFOAM/db/IOobject/IOobject.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/db/IOstreams/StringStreams/IStringStream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

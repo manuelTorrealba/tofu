@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SVD.H"
-#include "scalarList.H"
-#include "scalarMatrices.H"
-#include "ListOps.H"
+#include "OpenFOAM/matrices/scalarMatrices/SVD/SVD.hpp"
+#include "OpenFOAM/primitives/Scalar/lists/scalarList.hpp"
+#include "OpenFOAM/matrices/scalarMatrices/scalarMatrices.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
 
 // * * * * * * * * * * * * * * * * Constructor  * * * * * * * * * * * * * * //
 

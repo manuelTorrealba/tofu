@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rawGraph.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/graph/writers/rawGraph/rawGraph.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

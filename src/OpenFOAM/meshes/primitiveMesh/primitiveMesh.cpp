@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveMesh.H"
-#include "demandDrivenData.H"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

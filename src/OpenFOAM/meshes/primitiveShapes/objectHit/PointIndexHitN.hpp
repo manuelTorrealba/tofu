@@ -38,8 +38,8 @@ SourceFiles
 #ifndef PointIndexHit_H
 #define PointIndexHit_H
 
-#include "bool.H"
-#include "point.H"
+#include "OpenFOAM/primitives/bools/bool/bool.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

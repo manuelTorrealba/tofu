@@ -79,7 +79,7 @@ SourceFiles
 #ifndef Square_H
 #define Square_H
 
-#include "Function1.H"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -167,7 +167,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SquareI.H"
+#include "OpenFOAM/primitives/functions/Function1/Square/SquareI.hpp"
 
 #ifdef NoRepository
     #include "Square.C"

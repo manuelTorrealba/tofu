@@ -32,8 +32,8 @@ Description
 #ifndef parRun_H
 #define parRun_H
 
-#include "Pstream.H"
-#include "IOstreams.H"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

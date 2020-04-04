@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorCyclicGAMGInterface.H"
-#include "addToRunTimeSelectionTable.H"
-#include "Map.H"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaces/processorCyclicGAMGInterface/processorCyclicGAMGInterface.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

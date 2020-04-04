@@ -37,8 +37,8 @@ SourceFiles
 #ifndef SymmetricSquareMatrix_H
 #define SymmetricSquareMatrix_H
 
-#include "SquareMatrix.H"
-#include "Identity.H"
+#include "OpenFOAM/matrices/SquareMatrix/SquareMatrix.hpp"
+#include "OpenFOAM/primitives/SphericalTensor/Identity.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -108,7 +108,7 @@ Type det(const SymmetricSquareMatrix<Type>&);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SymmetricSquareMatrixI.H"
+#include "OpenFOAM/matrices/SymmetricSquareMatrix/SymmetricSquareMatrixI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

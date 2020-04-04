@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "barycentric2D.H"
-#include "Random.H"
+#include "OpenFOAM/primitives/Barycentric2D/barycentric2D/barycentric2D.hpp"
+#include "OpenFOAM/primitives/Random/Random.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -42,12 +42,12 @@ SourceFiles
 #ifndef syncTools_H
 #define syncTools_H
 
-#include "Pstream.H"
-#include "EdgeMap.H"
-#include "PackedBoolList.H"
-#include "polyMesh.H"
-#include "coupledPolyPatch.H"
-#include "mapDistribute.H"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/meshes/meshShapes/edge/EdgeMap.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

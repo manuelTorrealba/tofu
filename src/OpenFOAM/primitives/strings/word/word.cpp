@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "word.H"
-#include "debug.H"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "OpenFOAM/global/debug/debug.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

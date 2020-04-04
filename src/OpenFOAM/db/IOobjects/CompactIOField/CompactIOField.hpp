@@ -39,8 +39,8 @@ SourceFiles
 #ifndef CompactIOField_H
 #define CompactIOField_H
 
-#include "IOField.H"
-#include "regIOobject.H"
+#include "OpenFOAM/db/IOobjects/IOField/IOField.hpp"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

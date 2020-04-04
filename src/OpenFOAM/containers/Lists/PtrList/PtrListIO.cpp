@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PtrList.H"
-#include "SLList.H"
-#include "Istream.H"
-#include "Ostream.H"
-#include "INew.H"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "OpenFOAM/containers/LinkedLists/user/SLList.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Istream.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Ostream.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/INew.hpp"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

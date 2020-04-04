@@ -39,7 +39,7 @@ SourceFiles
 #ifndef DiagTensor_H
 #define DiagTensor_H
 
-#include "Tensor.H"
+#include "OpenFOAM/primitives/Tensor/Tensor.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -112,7 +112,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Include inline implementations
-#include "DiagTensorI.H"
+#include "OpenFOAM/primitives/DiagTensor/DiagTensorI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

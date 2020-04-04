@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sphericalTensorField.H"
-#include "transformField.H"
+#include "OpenFOAM/fields/Fields/sphericalTensorField/sphericalTensorField.hpp"
+#include "OpenFOAM/fields/Fields/transformField/transformField.hpp"
 
 #define TEMPLATE
 #include "FieldFunctionsM.C"
@@ -95,6 +95,6 @@ tmp<Field<sphericalTensor>> transformFieldMask<sphericalTensor>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // ************************************************************************* //

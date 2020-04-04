@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coupledFacePointPatch.H"
-#include "pointBoundaryMesh.H"
+#include "OpenFOAM/meshes/pointMesh/pointPatches/derived/coupled/coupledFacePointPatch.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointBoundaryMesh/pointBoundaryMesh.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

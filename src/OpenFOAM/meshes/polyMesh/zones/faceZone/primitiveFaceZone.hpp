@@ -31,10 +31,10 @@ Description
 #ifndef primitiveFaceZone_H
 #define primitiveFaceZone_H
 
-#include "face.H"
-#include "PrimitivePatch.H"
-#include "indirectFaceList.H"
-#include "pointField.H"
+#include "OpenFOAM/meshes/meshShapes/face/face.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/PrimitivePatchN/PrimitivePatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/zones/faceZone/indirectFaceList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

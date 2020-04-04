@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellShape.H"
-#include "token.H"
-#include "cellModeller.H"
+#include "OpenFOAM/meshes/meshShapes/cellShape/cellShape.hpp"
+#include "OpenFOAM/db/IOstreams/token/token.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellModeller/cellModeller.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

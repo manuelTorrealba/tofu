@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointPatchFields.H"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

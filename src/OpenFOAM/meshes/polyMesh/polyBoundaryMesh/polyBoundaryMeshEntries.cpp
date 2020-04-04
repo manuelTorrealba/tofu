@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyBoundaryMeshEntries.H"
+#include "OpenFOAM/meshes/polyMesh/polyBoundaryMesh/polyBoundaryMeshEntries.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

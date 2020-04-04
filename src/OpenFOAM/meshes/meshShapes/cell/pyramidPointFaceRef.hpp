@@ -31,9 +31,9 @@ Description
 #ifndef pyramidPointFaceRef_H
 #define pyramidPointFaceRef_H
 
-#include "point.H"
-#include "face.H"
-#include "pyramid.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/face.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/pyramid/pyramid.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

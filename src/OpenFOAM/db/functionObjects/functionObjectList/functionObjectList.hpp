@@ -40,11 +40,11 @@ SourceFiles
 #ifndef functionObjectList_H
 #define functionObjectList_H
 
-#include "PtrList.H"
-#include "functionObject.H"
-#include "SHA1Digest.H"
-#include "HashTable.H"
-#include "HashSet.H"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "OpenFOAM/db/functionObjects/functionObject/functionObject.hpp"
+#include "OpenFOAM/primitives/hashes/SHA1/SHA1Digest.hpp"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

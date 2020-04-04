@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cloud.H"
-#include "Time.H"
+#include "OpenFOAM/fields/cloud/cloud.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -45,10 +45,10 @@ SourceFiles
 #ifndef PatchTools_H
 #define PatchTools_H
 
-#include "PrimitivePatch.H"
-#include "HashSet.H"
-#include "globalIndex.H"
-#include "autoPtr.H"
+#include "OpenFOAM/meshes/primitiveMesh/PrimitivePatchN/PrimitivePatch.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ZoneMesh.H"
-#include "entry.H"
-#include "demandDrivenData.H"
-#include "stringListOps.H"
-#include "Pstream.H"
+#include "OpenFOAM/meshes/polyMesh/zones/ZoneMesh/ZoneMesh.hpp"
+#include "OpenFOAM/db/dictionary/entry/entry.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
+#include "OpenFOAM/primitives/strings/lists/stringListOps.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

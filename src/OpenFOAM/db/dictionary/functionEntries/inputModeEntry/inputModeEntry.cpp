@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "inputModeEntry.H"
-#include "dictionary.H"
-#include "addToMemberFunctionSelectionTable.H"
+#include "OpenFOAM/db/dictionary/functionEntries/inputModeEntry/inputModeEntry.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

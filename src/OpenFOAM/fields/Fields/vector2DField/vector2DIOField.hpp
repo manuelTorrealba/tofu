@@ -32,8 +32,8 @@ Description
 #ifndef vector2DIOField_H
 #define vector2DIOField_H
 
-#include "vector2DField.H"
-#include "IOField.H"
+#include "OpenFOAM/fields/Fields/vector2DField/vector2DField.hpp"
+#include "OpenFOAM/db/IOobjects/IOField/IOField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

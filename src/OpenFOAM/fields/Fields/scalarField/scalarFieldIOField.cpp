@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "scalarFieldIOField.H"
+#include "OpenFOAM/fields/Fields/scalarField/scalarFieldIOField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

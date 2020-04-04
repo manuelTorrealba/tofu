@@ -49,7 +49,7 @@ SourceFiles
 #ifndef inputModeEntry_H
 #define inputModeEntry_H
 
-#include "functionEntry.H"
+#include "OpenFOAM/db/dictionary/functionEntries/functionEntry/functionEntry.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

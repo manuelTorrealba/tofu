@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "universalConstants.H"
-#include "mathematicalConstants.H"
+#include "OpenFOAM/global/constants/universal/universalConstants.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
 
-#include "dimensionedConstants.H"
+#include "OpenFOAM/global/constants/dimensionedConstants.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,8 +36,8 @@ See also
 #ifndef MapPointField_H
 #define MapPointField_H
 
-#include "Field.H"
-#include "pointMesh.H"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

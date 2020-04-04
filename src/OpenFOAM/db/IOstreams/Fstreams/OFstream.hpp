@@ -35,9 +35,9 @@ SourceFiles
 #ifndef OFstream_H
 #define OFstream_H
 
-#include "OSstream.H"
-#include "fileName.H"
-#include "className.H"
+#include "OpenFOAM/db/IOstreams/Sstreams/OSstream.hpp"
+#include "OpenFOAM/primitives/strings/fileName/fileName.hpp"
+#include "OpenFOAM/db/typeInfo/className.hpp"
 
 #include <fstream>
 using std::ofstream;

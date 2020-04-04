@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DictionaryBase.H"
+#include "OpenFOAM/containers/Dictionaries/DictionaryBase/DictionaryBase.hpp"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

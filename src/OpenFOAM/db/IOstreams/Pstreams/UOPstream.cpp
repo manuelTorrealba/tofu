@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UOPstream.H"
-#include "int.H"
-#include "token.H"
+#include "OpenFOAM/db/IOstreams/Pstreams/UOPstream.hpp"
+#include "OpenFOAM/primitives/ints/int/int.hpp"
+#include "OpenFOAM/db/IOstreams/token/token.hpp"
 
 #include <cctype>
 

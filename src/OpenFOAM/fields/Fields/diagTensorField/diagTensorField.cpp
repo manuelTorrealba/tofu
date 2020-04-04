@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "diagTensorField.H"
+#include "OpenFOAM/fields/Fields/diagTensorField/diagTensorField.hpp"
 
 #define TEMPLATE
 #include "FieldFunctionsM.C"
@@ -61,6 +61,6 @@ BINARY_TYPE_OPERATOR(vector, vector, diagTensor, /, divide)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // ************************************************************************* //

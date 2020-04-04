@@ -37,7 +37,7 @@ SourceFiles
 #ifndef QRMatrix_H
 #define QRMatrix_H
 
-#include "SquareMatrix.H"
+#include "OpenFOAM/matrices/SquareMatrix/SquareMatrix.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -118,7 +118,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "QRMatrixI.H"
+#include "OpenFOAM/matrices/QRMatrix/QRMatrixI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

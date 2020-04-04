@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "scalarMatrices.H"
-#include "SVD.H"
+#include "OpenFOAM/matrices/scalarMatrices/scalarMatrices.hpp"
+#include "OpenFOAM/matrices/scalarMatrices/SVD/SVD.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

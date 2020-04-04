@@ -43,8 +43,8 @@ See also
 #ifndef PackedBoolList_H
 #define PackedBoolList_H
 
-#include "PackedList.H"
-#include "UIndirectList.H"
+#include "OpenFOAM/containers/Lists/PackedList/PackedList.hpp"
+#include "OpenFOAM/containers/Lists/UIndirectList/UIndirectList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -293,7 +293,7 @@ PackedBoolList operator|
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PackedBoolListI.H"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolListI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GeometricField.H"
-#include "Time.H"
-#include "demandDrivenData.H"
-#include "dictionary.H"
-#include "localIOdictionary.H"
-#include "data.H"
+#include "OpenFOAM/fields/GeometricFields/GeometricField/GeometricField.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/db/IOobjects/IOdictionary/localIOdictionary.hpp"
+#include "OpenFOAM/meshes/data/data.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

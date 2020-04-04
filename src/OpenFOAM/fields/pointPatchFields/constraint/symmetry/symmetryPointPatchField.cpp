@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "symmetryPointPatchField.H"
+#include "OpenFOAM/fields/pointPatchFields/constraint/symmetry/symmetryPointPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

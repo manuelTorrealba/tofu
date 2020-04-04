@@ -70,11 +70,11 @@ SourceFiles
 #ifndef mapDistributeBase_H
 #define mapDistributeBase_H
 
-#include "labelList.H"
-#include "labelPair.H"
-#include "Pstream.H"
-#include "boolList.H"
-#include "Map.H"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/primitives/Pair/labelPair.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

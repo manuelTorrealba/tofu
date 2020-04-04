@@ -40,9 +40,9 @@ SourceFiles
 #include <climits>
 #include <cstdlib>
 
-#include "word.H"
-#include "pTraits.H"
-#include "direction.H"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "OpenFOAM/primitives/pTraits/pTraits.hpp"
+#include "OpenFOAM/primitives/direction/direction.hpp"
 
 #ifndef UINT64_MIN
 #define UINT64_MIN 0

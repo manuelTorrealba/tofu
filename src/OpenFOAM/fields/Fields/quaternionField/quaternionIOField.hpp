@@ -32,8 +32,8 @@ Description
 #ifndef quaternionIOField_H
 #define quaternionIOField_H
 
-#include "quaternionField.H"
-#include "IOField.H"
+#include "OpenFOAM/fields/Fields/quaternionField/quaternionField.hpp"
+#include "OpenFOAM/db/IOobjects/IOField/IOField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

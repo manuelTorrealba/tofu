@@ -35,9 +35,9 @@ SourceFiles
 #ifndef labelVector_H
 #define labelVector_H
 
-#include "label.H"
-#include "Vector.H"
-#include "contiguous.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/primitives/Vector/Vector.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

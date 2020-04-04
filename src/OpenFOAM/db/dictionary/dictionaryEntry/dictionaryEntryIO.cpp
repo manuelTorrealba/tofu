@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "keyType.H"
-#include "dictionaryEntry.H"
-#include "IOstreams.H"
+#include "OpenFOAM/primitives/strings/keyType/keyType.hpp"
+#include "OpenFOAM/db/dictionary/dictionaryEntry/dictionaryEntry.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorGAMGInterface.H"
-#include "addToRunTimeSelectionTable.H"
-#include "HashTable.H"
-#include "labelPair.H"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaces/processorGAMGInterface/processorGAMGInterface.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
+#include "OpenFOAM/primitives/Pair/labelPair.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

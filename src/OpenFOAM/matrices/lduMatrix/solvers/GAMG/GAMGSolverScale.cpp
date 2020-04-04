@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GAMGSolver.H"
-#include "vector2D.H"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGSolver.hpp"
+#include "OpenFOAM/primitives/Vector2D/vector2D/vector2D.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

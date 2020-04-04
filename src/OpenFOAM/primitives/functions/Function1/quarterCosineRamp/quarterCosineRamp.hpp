@@ -39,7 +39,7 @@ SourceFiles
 #ifndef quarterCosineRamp_H
 #define quarterCosineRamp_H
 
-#include "ramp.H"
+#include "OpenFOAM/primitives/functions/Function1/ramp/ramp.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -96,7 +96,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "quarterCosineRampI.H"
+#include "OpenFOAM/primitives/functions/Function1/quarterCosineRamp/quarterCosineRampI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

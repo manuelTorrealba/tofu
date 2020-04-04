@@ -35,7 +35,7 @@ SourceFiles
 #ifndef noPreconditioner_H
 #define noPreconditioner_H
 
-#include "lduMatrix.H"
+#include "OpenFOAM/matrices/lduMatrix/lduMatrix/lduMatrix.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

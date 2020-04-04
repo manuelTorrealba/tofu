@@ -37,7 +37,7 @@ Description
 #ifndef oneFieldField_H
 #define oneFieldField_H
 
-#include "oneField.H"
+#include "OpenFOAM/fields/Fields/oneField/oneField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -74,7 +74,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-    #include "oneFieldFieldI.H"
+#include "OpenFOAM/fields/FieldFields/oneFieldField/oneFieldFieldI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

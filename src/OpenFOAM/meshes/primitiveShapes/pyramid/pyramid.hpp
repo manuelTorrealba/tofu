@@ -131,7 +131,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pyramidI.H"
+#include "OpenFOAM/meshes/primitiveShapes/pyramid/pyramidI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

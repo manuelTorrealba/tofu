@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "xmgrGraph.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/graph/writers/xmgrGraph/xmgrGraph.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

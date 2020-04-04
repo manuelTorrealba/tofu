@@ -35,9 +35,9 @@ SourceFiles
 #ifndef cyclicGAMGInterfaceField_H
 #define cyclicGAMGInterfaceField_H
 
-#include "GAMGInterfaceField.H"
-#include "cyclicGAMGInterface.H"
-#include "cyclicLduInterfaceField.H"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaceFields/GAMGInterfaceField/GAMGInterfaceField.hpp"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaces/cyclicGAMGInterface/cyclicGAMGInterface.hpp"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterfaceFields/cyclicLduInterfaceField/cyclicLduInterfaceField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

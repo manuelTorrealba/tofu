@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "facePointPatch.H"
+#include "OpenFOAM/meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -32,8 +32,8 @@ Description
 #ifndef triadIOField_H
 #define triadIOField_H
 
-#include "triadField.H"
-#include "IOField.H"
+#include "OpenFOAM/fields/Fields/triadField/triadField.hpp"
+#include "OpenFOAM/db/IOobjects/IOField/IOField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

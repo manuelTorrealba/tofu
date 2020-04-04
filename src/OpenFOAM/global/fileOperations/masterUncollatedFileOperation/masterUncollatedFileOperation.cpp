@@ -23,19 +23,24 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "masterUncollatedFileOperation.H"
-#include "addToRunTimeSelectionTable.H"
-#include "Pstream.H"
-#include "Time.H"
-#include "instant.H"
-#include "IFstream.H"
-#include "masterOFstream.H"
-#include "decomposedBlockData.H"
-#include "registerSwitch.H"
-#include "dummyISstream.H"
-#include "SubList.H"
-#include "unthreadedInitialise.H"
-#include "PackedBoolList.H"
+#include "OpenFOAM/global/fileOperations/masterUncollatedFileOperation/masterUncollatedFileOperation.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/db/Time/instant/instant.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/masterOFstream.hpp"
+#include "OpenFOAM/db/IOobjects/decomposedBlockData/decomposedBlockData.hpp"
+#include "OpenFOAM/global/debug/registerSwitch.hpp"
+#include "OpenFOAM/db/IOstreams/dummyISstream/dummyISstream.hpp"
+#include "OpenFOAM/containers/Lists/SubList/SubList.hpp"
+#include "OpenFOAM/global/fileOperations/fileOperationInitialise/unthreadedInitialise.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
+#include "OpenFOAM/global/argList/argList.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.cpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.cpp"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

@@ -36,7 +36,7 @@ SourceFiles
 #ifndef pairGAMGAgglomeration_H
 #define pairGAMGAgglomeration_H
 
-#include "GAMGAgglomeration.H"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/GAMGAgglomeration/GAMGAgglomeration.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "autoPtr.H"
-#include "tmp.H"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/memory/tmp/tmp.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

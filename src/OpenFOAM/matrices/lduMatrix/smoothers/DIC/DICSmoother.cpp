@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DICSmoother.H"
-#include "DICPreconditioner.H"
+#include "OpenFOAM/matrices/lduMatrix/smoothers/DIC/DICSmoother.hpp"
+#include "OpenFOAM/matrices/lduMatrix/preconditioners/DICPreconditioner/DICPreconditioner.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

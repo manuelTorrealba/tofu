@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lduPrimitiveMesh.H"
-#include "processorLduInterface.H"
-#include "EdgeMap.H"
-#include "labelPair.H"
-#include "processorGAMGInterface.H"
+#include "OpenFOAM/meshes/lduMesh/lduPrimitiveMesh.hpp"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/processorLduInterface.hpp"
+#include "OpenFOAM/meshes/meshShapes/edge/EdgeMap.hpp"
+#include "OpenFOAM/primitives/Pair/labelPair.hpp"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaces/processorGAMGInterface/processorGAMGInterface.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

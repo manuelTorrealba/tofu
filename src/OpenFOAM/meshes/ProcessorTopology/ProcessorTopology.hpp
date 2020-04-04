@@ -41,8 +41,8 @@ SourceFiles
 #ifndef ProcessorTopology_H
 #define ProcessorTopology_H
 
-#include "labelList.H"
-#include "lduSchedule.H"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduSchedule/lduSchedule.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

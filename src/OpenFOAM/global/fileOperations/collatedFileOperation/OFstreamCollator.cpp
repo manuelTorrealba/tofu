@@ -23,10 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "OFstreamCollator.H"
-#include "OFstream.H"
-#include "decomposedBlockData.H"
-#include "masterUncollatedFileOperation.H"
+#include "OpenFOAM/global/fileOperations/collatedFileOperation/OFstreamCollator.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/db/IOobjects/decomposedBlockData/decomposedBlockData.hpp"
+#include "OpenFOAM/global/fileOperations/masterUncollatedFileOperation/masterUncollatedFileOperation.hpp"
+#include "OpenFOAM/global/argList/argList.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/UIPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/UOPstream.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

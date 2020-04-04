@@ -35,12 +35,12 @@ SourceFiles
 #ifndef GeometricTensorField_H
 #define GeometricTensorField_H
 
-#include "GeometricSphericalTensorField.H"
-#include "GeometricSymmTensorField.H"
-#include "DimensionedTensorField.H"
+#include "OpenFOAM/fields/GeometricFields/GeometricSphericalTensorField/GeometricSphericalTensorField.hpp"
+#include "OpenFOAM/fields/GeometricFields/GeometricSymmTensorField/GeometricSymmTensorField.hpp"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedTensorField/DimensionedTensorField.hpp"
 
 #define TEMPLATE template<template<class> class PatchField, class GeoMesh>
-#include "GeometricFieldFunctionsM.H"
+#include "OpenFOAM/fields/GeometricFields/GeometricField/GeometricFieldFunctionsM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -82,7 +82,7 @@ BINARY_TYPE_OPERATOR(vector, vector, tensor, /, '|', divide)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 #ifdef NoRepository
     #include "GeometricTensorField.C"

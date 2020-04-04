@@ -40,8 +40,8 @@ SourceFiles
 #ifndef SubDimensionedField_H
 #define SubDimensionedField_H
 
-#include "Field.H"
-#include "SubField.H"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
+#include "OpenFOAM/fields/Fields/Field/SubField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -128,7 +128,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SubDimensionedFieldI.H"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/SubDimensionedFieldI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

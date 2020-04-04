@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "symmTensorFieldField.H"
+#include "OpenFOAM/fields/FieldFields/symmTensorFieldField/symmTensorFieldField.hpp"
 
 #define TEMPLATE template<template<class> class Field>
 #include "FieldFieldFunctionsM.C"
@@ -66,6 +66,6 @@ BINARY_TYPE_OPERATOR(tensor, symmTensor, symmTensor, &, dot)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // ************************************************************************* //

@@ -33,8 +33,8 @@ Description
 #ifndef registerSwitch_H
 #define registerSwitch_H
 
-#include "simpleRegIOobject.H"
-#include "macros.H"
+#include "OpenFOAM/global/debug/simpleRegIOobject.hpp"
+#include "OpenFOAM/include/macros.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

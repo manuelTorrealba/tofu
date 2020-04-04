@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "OPstream.H"
+#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.hpp"
 
 // * * * * * * * * * * * * * * * * Constructor * * * * * * * * * * * * * * * //
 

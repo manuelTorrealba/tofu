@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOmapDistribute.H"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/IOmapDistribute.hpp"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

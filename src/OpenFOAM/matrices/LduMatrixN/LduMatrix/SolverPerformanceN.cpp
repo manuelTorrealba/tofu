@@ -24,7 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "SolverPerformance.H"
-#include "IOstreams.H"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

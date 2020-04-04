@@ -36,7 +36,7 @@ SourceFiles
 #ifndef PCG_H
 #define PCG_H
 
-#include "lduMatrix.H"
+#include "OpenFOAM/matrices/lduMatrix/lduMatrix/lduMatrix.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

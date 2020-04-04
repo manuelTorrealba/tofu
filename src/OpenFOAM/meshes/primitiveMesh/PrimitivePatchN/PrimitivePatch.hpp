@@ -51,13 +51,13 @@ SourceFiles
 #ifndef PrimitivePatch_H
 #define PrimitivePatch_H
 
-#include "boolList.H"
-#include "labelList.H"
-#include "edgeList.H"
-#include "point.H"
-#include "intersection.H"
-#include "HashSet.H"
-#include "objectHit.H"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/meshes/meshShapes/edge/edgeList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/triangle/intersection.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/objectHit.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

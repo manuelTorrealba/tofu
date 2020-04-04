@@ -41,9 +41,9 @@ SourceFiles
 #ifndef complexFields_H
 #define complexFields_H
 
-#include "complex.H"
-#include "complexVector.H"
-#include "primitiveFields.H"
+#include "OpenFOAM/primitives/complex/complex.hpp"
+#include "OpenFOAM/primitives/Vector/complexVector/complexVector.hpp"
+#include "OpenFOAM/fields/Fields/primitiveFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

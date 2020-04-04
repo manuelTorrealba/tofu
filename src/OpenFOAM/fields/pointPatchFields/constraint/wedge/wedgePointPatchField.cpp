@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wedgePointPatchField.H"
-#include "transformField.H"
+#include "OpenFOAM/fields/pointPatchFields/constraint/wedge/wedgePointPatchField.hpp"
+#include "OpenFOAM/fields/Fields/transformField/transformField.hpp"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

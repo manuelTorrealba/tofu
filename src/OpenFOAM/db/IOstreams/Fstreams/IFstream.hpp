@@ -35,9 +35,9 @@ SourceFiles
 #ifndef IFstream_H
 #define IFstream_H
 
-#include "ISstream.H"
-#include "fileName.H"
-#include "className.H"
+#include "OpenFOAM/db/IOstreams/Sstreams/ISstream.hpp"
+#include "OpenFOAM/primitives/strings/fileName/fileName.hpp"
+#include "OpenFOAM/db/typeInfo/className.hpp"
 
 #include <fstream>
 using std::ifstream;

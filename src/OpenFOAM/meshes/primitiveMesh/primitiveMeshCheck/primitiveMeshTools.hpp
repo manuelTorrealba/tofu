@@ -34,8 +34,8 @@ SourceFiles
 #ifndef primitiveMeshTools_H
 #define primitiveMeshTools_H
 
-#include "primitiveMesh.H"
-#include "PackedBoolList.H"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

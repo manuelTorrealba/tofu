@@ -49,7 +49,7 @@ SourceFiles
 #ifndef CompactListList_H
 #define CompactListList_H
 
-#include "labelList.H"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -254,7 +254,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-    #include "CompactListListI.H"
+#include "OpenFOAM/containers/Lists/CompactListList/CompactListListI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

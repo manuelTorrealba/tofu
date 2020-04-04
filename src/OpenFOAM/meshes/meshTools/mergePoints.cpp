@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ListOps.H"
-#include "point.H"
-#include "Field.H"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

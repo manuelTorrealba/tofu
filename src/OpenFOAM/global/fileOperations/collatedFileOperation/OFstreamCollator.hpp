@@ -53,10 +53,12 @@ SourceFiles
 
 #include <thread>
 #include <mutex>
-#include "IOstream.H"
-#include "labelList.H"
-#include "FIFOStack.H"
-#include "SubList.H"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOstream.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/containers/LinkedLists/user/FIFOStack.hpp"
+#include "OpenFOAM/containers/Lists/SubList/SubList.hpp"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

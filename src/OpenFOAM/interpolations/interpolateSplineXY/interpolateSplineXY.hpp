@@ -38,8 +38,8 @@ SourceFiles
 #ifndef interpolateSplineXY_H
 #define interpolateSplineXY_H
 
-#include "scalar.H"
-#include "primitiveFieldsFwd.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/fields/Fields/primitiveFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

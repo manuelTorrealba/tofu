@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UList.H"
-#include "ListLoopM.H"
-#include "contiguous.H"
+#include "OpenFOAM/containers/Lists/UList/UList.hpp"
+#include "OpenFOAM/containers/Lists/List/ListLoopM.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
 
 #include <algorithm>
 

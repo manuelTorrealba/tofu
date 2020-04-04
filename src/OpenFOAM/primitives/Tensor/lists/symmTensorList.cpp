@@ -26,8 +26,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "symmTensorList.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/db/IOstreams/token/token.hpp"
+#include "OpenFOAM/primitives/Tensor/lists/symmTensorList.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

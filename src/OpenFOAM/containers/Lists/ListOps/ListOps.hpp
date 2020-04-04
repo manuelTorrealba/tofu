@@ -36,8 +36,8 @@ SourceFiles
 #ifndef ListOps_H
 #define ListOps_H
 
-#include "labelList.H"
-#include "ops.H"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/primitives/ops/ops.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

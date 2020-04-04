@@ -26,8 +26,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "edgeIOList.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/meshes/meshShapes/edge/edgeIOList.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

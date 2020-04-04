@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "hexMatcher.H"
-#include "primitiveMesh.H"
-#include "ListOps.H"
+#include "OpenFOAM/meshes/meshShapes/cellMatcher/hexMatcher.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

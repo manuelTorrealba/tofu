@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DILUGaussSeidelSmoother.H"
+#include "OpenFOAM/matrices/lduMatrix/smoothers/DILUGaussSeidel/DILUGaussSeidelSmoother.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

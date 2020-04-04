@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SlicedGeometricField.H"
-#include "processorFvPatch.H"
+#include "OpenFOAM/fields/GeometricFields/SlicedGeometricField/SlicedGeometricField.hpp"
+#include "finiteVolume/fvMesh/fvPatches/constraint/processor/processorFvPatch.hpp"
 
 // * * * * * * * * * * * * Private Member Functions * * * * * * * * * * * * * //
 

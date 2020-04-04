@@ -32,8 +32,8 @@ Description
 #ifndef scalarFieldIOField_H
 #define scalarFieldIOField_H
 
-#include "scalarField.H"
-#include "CompactIOField.H"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/db/IOobjects/CompactIOField/CompactIOField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

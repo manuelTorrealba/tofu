@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CSV.H"
-#include "DynamicList.H"
-//#include "IFstream.H"
+#include "OpenFOAM/primitives/functions/Function1/CSV/CSV.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

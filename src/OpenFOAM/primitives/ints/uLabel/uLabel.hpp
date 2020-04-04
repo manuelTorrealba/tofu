@@ -36,7 +36,7 @@ Description
 #ifndef uLabel_H
 #define uLabel_H
 
-#include "uint.H"
+#include "OpenFOAM/primitives/ints/uint/uint.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMesh.H"
-#include "primitiveMesh.H"
-#include "globalMeshData.H"
-#include "MeshObject.H"
-#include "indexedOctree.H"
-#include "treeDataCell.H"
-#include "pointMesh.H"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.hpp"
+#include "OpenFOAM/meshes/MeshObject/MeshObject.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/indexedOctree.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/treeDataCell.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointMesh.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

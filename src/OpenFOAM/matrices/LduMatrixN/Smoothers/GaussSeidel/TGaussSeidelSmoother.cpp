@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TGaussSeidelSmoother.H"
+#include "OpenFOAM/matrices/LduMatrixN/Smoothers/GaussSeidel/TGaussSeidelSmoother.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

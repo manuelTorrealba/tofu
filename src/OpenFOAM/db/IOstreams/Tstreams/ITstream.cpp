@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "ITstream.H"
+#include "OpenFOAM/db/error/error.hpp"
+#include "OpenFOAM/db/IOstreams/Tstreams/ITstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

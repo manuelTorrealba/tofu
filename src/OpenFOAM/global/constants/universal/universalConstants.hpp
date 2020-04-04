@@ -32,7 +32,7 @@ Description
 #ifndef universalConstants_H
 #define universalConstants_H
 
-#include "dimensionedScalar.H"
+#include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

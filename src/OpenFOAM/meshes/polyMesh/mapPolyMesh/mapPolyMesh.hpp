@@ -139,11 +139,11 @@ SourceFiles
 #ifndef mapPolyMesh_H
 #define mapPolyMesh_H
 
-#include "labelList.H"
-#include "objectMap.H"
-#include "pointField.H"
-#include "HashSet.H"
-#include "Map.H"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/objectMap/objectMap.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

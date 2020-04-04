@@ -39,10 +39,10 @@ SourceFiles
 #ifndef polyPatch_H
 #define polyPatch_H
 
-#include "patchIdentifier.H"
-#include "primitivePatch.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM/meshes/Identifiers/patch/patchIdentifier.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/primitivePatch.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "quarterSineRamp.H"
+#include "OpenFOAM/primitives/functions/Function1/quarterSineRamp/quarterSineRamp.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

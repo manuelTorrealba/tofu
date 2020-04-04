@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReadFields.H"
-#include "IOobjectList.H"
-#include "objectRegistry.H"
+#include "OpenFOAM/fields/ReadFields/ReadFields.hpp"
+#include "OpenFOAM/db/IOobjectList/IOobjectList.hpp"
+#include "OpenFOAM/db/objectRegistry/objectRegistry.hpp"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

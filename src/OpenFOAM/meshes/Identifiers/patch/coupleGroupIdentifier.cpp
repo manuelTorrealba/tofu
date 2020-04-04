@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coupleGroupIdentifier.H"
-#include "polyMesh.H"
-#include "Time.H"
+#include "OpenFOAM/meshes/Identifiers/patch/coupleGroupIdentifier.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

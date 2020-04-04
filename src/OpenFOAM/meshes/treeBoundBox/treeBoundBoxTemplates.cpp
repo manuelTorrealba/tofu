@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "treeBoundBox.H"
-#include "FixedList.H"
+#include "OpenFOAM/meshes/treeBoundBox/treeBoundBox.hpp"
+#include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

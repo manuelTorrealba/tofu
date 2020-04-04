@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "symmTransformField.H"
-#include "FieldM.H"
+#include "OpenFOAM/fields/Fields/symmTransformField/symmTransformField.hpp"
+#include "OpenFOAM/fields/Fields/Field/FieldM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

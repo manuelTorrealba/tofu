@@ -39,8 +39,8 @@ SourceFiles
 #ifndef dimensionedConstants_H
 #define dimensionedConstants_H
 
-#include "dictionary.H"
-#include "dimensionedScalar.H"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

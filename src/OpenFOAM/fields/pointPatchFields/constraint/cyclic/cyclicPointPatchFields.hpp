@@ -26,8 +26,8 @@ License
 #ifndef cyclicPointPatchFields_H
 #define cyclicPointPatchFields_H
 
-#include "cyclicPointPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/pointPatchFields/constraint/cyclic/cyclicPointPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

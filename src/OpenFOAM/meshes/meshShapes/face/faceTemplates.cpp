@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "face.H"
-#include "DynamicList.H"
+#include "OpenFOAM/meshes/meshShapes/face/face.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

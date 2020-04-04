@@ -30,14 +30,14 @@ Description
 #ifndef fieldTypes_H
 #define fieldTypes_H
 
-#include "label.H"
-#include "scalar.H"
-#include "vector.H"
-#include "sphericalTensor.H"
-#include "symmTensor.H"
-#include "tensor.H"
-#include "triad.H"
-#include "macros.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/primitives/SphericalTensor/sphericalTensor/sphericalTensor.hpp"
+#include "OpenFOAM/primitives/SymmTensor/symmTensor/symmTensor.hpp"
+#include "OpenFOAM/primitives/Tensor/tensor/tensor.hpp"
+#include "OpenFOAM/primitives/triad/triad.hpp"
+#include "OpenFOAM/include/macros.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

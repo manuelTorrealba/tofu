@@ -39,7 +39,7 @@ SourceFiles
 #ifndef SubList_H
 #define SubList_H
 
-#include "List.H"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -104,7 +104,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SubListI.H"
+#include "OpenFOAM/containers/Lists/SubList/SubListI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

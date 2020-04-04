@@ -26,8 +26,8 @@ License
 #ifndef fixedNormalSlipPointPatchFields_H
 #define fixedNormalSlipPointPatchFields_H
 
-#include "fixedNormalSlipPointPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/pointPatchFields/derived/fixedNormalSlip/fixedNormalSlipPointPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

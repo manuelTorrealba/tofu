@@ -32,8 +32,8 @@ Description
 #ifndef stringIOList_H
 #define stringIOList_H
 
-#include "stringList.H"
-#include "IOList.H"
+#include "OpenFOAM/primitives/strings/lists/stringList.hpp"
+#include "OpenFOAM/db/IOobjects/IOList/IOList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

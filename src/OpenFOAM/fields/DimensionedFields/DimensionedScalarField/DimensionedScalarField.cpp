@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DimensionedScalarField.H"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedScalarField/DimensionedScalarField.hpp"
 
 #define TEMPLATE template<class GeoMesh>
 #include "DimensionedFieldFunctionsM.C"
@@ -821,6 +821,6 @@ BesselFunc(yn)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // ************************************************************************* //

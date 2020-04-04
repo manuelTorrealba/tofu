@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorCyclicPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "SubField.H"
-#include "cyclicPolyPatch.H"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/processorCyclic/processorCyclicPolyPatch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/fields/Fields/Field/SubField.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

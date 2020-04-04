@@ -41,7 +41,7 @@ SourceFiles
 #ifndef PtrList_H
 #define PtrList_H
 
-#include "UPtrList.H"
+#include "OpenFOAM/containers/Lists/UPtrList/UPtrList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -187,7 +187,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PtrListI.H"
+#include "OpenFOAM/containers/Lists/PtrList/PtrListI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

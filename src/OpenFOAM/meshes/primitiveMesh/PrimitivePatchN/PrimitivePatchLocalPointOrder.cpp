@@ -26,8 +26,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "SLList.H"
-#include "boolList.H"
+#include "OpenFOAM/containers/LinkedLists/user/SLList.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tensorField.H"
-#include "transformField.H"
+#include "OpenFOAM/fields/Fields/tensorField/tensorField.hpp"
+#include "OpenFOAM/fields/Fields/transformField/transformField.hpp"
 
 #define TEMPLATE
 #include "FieldFunctionsM.C"
@@ -164,6 +164,6 @@ BINARY_TYPE_OPERATOR(vector, vector, tensor, /, divide)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // ************************************************************************* //

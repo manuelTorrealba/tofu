@@ -43,9 +43,9 @@ SourceFiles
 #ifndef spatialTransform_H
 #define spatialTransform_H
 
-#include "tensor.H"
-#include "spatialVector.H"
-#include "spatialTensor.H"
+#include "OpenFOAM/primitives/Tensor/tensor/tensor.hpp"
+#include "OpenFOAM/primitives/spatialVectorAlgebra/SpatialVector/spatialVector/spatialVector.hpp"
+#include "OpenFOAM/primitives/spatialVectorAlgebra/SpatialTensor/spatialTensor/spatialTensor.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -200,7 +200,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "spatialTransformI.H"
+#include "OpenFOAM/primitives/spatialVectorAlgebra/spatialTransform/spatialTransformI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

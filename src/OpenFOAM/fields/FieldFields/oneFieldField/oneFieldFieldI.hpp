@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "oneFieldField.H"
+#include "OpenFOAM/fields/FieldFields/oneFieldField/oneFieldField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

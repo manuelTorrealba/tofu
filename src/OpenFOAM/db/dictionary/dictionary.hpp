@@ -50,14 +50,14 @@ SourceFiles
 #ifndef dictionary_H
 #define dictionary_H
 
-#include "entry.H"
-#include "IDLList.H"
-#include "DLList.H"
-#include "fileName.H"
-#include "ITstream.H"
-#include "HashTable.H"
-#include "wordList.H"
-#include "className.H"
+#include "OpenFOAM/db/dictionary/entry/entry.hpp"
+#include "OpenFOAM/containers/LinkedLists/user/IDLList.hpp"
+#include "OpenFOAM/containers/LinkedLists/user/DLList.hpp"
+#include "OpenFOAM/primitives/strings/fileName/fileName.hpp"
+#include "OpenFOAM/db/IOstreams/Tstreams/ITstream.hpp"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
+#include "OpenFOAM/primitives/strings/lists/wordList.hpp"
+#include "OpenFOAM/db/typeInfo/className.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

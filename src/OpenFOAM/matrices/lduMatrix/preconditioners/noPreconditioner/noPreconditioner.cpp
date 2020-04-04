@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noPreconditioner.H"
+#include "OpenFOAM/matrices/lduMatrix/preconditioners/noPreconditioner/noPreconditioner.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

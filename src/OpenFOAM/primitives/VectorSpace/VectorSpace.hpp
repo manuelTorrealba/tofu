@@ -39,10 +39,10 @@ SourceFiles
 #ifndef VectorSpace_H
 #define VectorSpace_H
 
-#include "direction.H"
-#include "scalar.H"
-#include "word.H"
-#include "zero.H"
+#include "OpenFOAM/primitives/direction/direction.hpp"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "OpenFOAM/primitives/zero/zero.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -223,7 +223,7 @@ word name(const VectorSpace<Form, Cmpt, Ncmpts>&);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "VectorSpaceI.H"
+#include "OpenFOAM/primitives/VectorSpace/VectorSpaceI.hpp"
 
 #ifdef NoRepository
     #include "VectorSpace.C"

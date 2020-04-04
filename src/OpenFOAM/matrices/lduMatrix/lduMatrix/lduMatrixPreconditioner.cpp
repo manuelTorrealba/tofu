@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lduMatrix.H"
+#include "OpenFOAM/matrices/lduMatrix/lduMatrix/lduMatrix.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

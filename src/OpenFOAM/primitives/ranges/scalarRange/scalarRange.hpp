@@ -39,7 +39,7 @@ SourceFiles
 #ifndef scalarRange_H
 #define scalarRange_H
 
-#include "scalar.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

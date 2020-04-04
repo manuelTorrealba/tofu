@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "HashPtrTable.H"
-#include "Istream.H"
-#include "Ostream.H"
-#include "INew.H"
-#include "dictionary.H"
+#include "OpenFOAM/containers/HashTables/HashPtrTable/HashPtrTable.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Istream.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Ostream.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/INew.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

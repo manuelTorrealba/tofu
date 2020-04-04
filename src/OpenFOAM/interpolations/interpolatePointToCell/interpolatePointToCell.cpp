@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolatePointToCell.H"
+#include "OpenFOAM/interpolations/interpolatePointToCell/interpolatePointToCell.hpp"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

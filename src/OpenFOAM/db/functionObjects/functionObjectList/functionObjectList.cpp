@@ -23,16 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "functionObjectList.H"
-#include "Time.H"
-#include "mapPolyMesh.H"
-#include "argList.H"
-#include "timeControlFunctionObject.H"
-#include "dictionaryEntry.H"
-#include "stringOps.H"
-#include "Tuple2.H"
-#include "etcFiles.H"
-#include "IOdictionary.H"
+#include "OpenFOAM/db/functionObjects/functionObjectList/functionObjectList.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "OpenFOAM/global/argList/argList.hpp"
+#include "OpenFOAM/db/functionObjects/timeControl/timeControlFunctionObject.hpp"
+#include "OpenFOAM/db/dictionary/dictionaryEntry/dictionaryEntry.hpp"
+#include "OpenFOAM/primitives/strings/stringOps/stringOps.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
+#include "OpenFOAM/global/etcFiles/etcFiles.hpp"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

@@ -23,18 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "dictionary.H"
-#include "SubField.H"
-#include "demandDrivenData.H"
-#include "matchPoints.H"
-#include "OFstream.H"
-#include "polyMesh.H"
-#include "Time.H"
-#include "transformList.H"
-#include "PstreamBuffers.H"
-#include "ConstCirculator.H"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/fields/Fields/Field/SubField.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
+#include "OpenFOAM/meshes/meshTools/matchPoints.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/fields/Fields/transformList/transformList.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamBuffers.hpp"
+#include "OpenFOAM/containers/Circulators/ConstCirculator/ConstCirculator.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

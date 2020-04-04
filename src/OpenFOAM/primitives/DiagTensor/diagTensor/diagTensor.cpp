@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "diagTensor.H"
+#include "OpenFOAM/primitives/DiagTensor/diagTensor/diagTensor.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

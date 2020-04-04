@@ -76,7 +76,7 @@ SourceFiles
 #ifndef includeFuncEntry_H
 #define includeFuncEntry_H
 
-#include "functionEntry.H"
+#include "OpenFOAM/db/dictionary/functionEntries/functionEntry/functionEntry.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

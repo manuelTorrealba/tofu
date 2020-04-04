@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "septernion.H"
-#include "IOstreams.H"
-#include "OStringStream.H"
+#include "OpenFOAM/primitives/septernion/septernion.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
+#include "OpenFOAM/db/IOstreams/StringStreams/OStringStream.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

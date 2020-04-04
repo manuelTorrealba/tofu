@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CompactIOList.H"
-#include "labelList.H"
+#include "OpenFOAM/db/IOobjects/CompactIOList/CompactIOList.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

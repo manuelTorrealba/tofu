@@ -36,8 +36,8 @@ SourceFiles
 #ifndef UILList_H
 #define UILList_H
 
-#include "label.H"
-#include "uLabel.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/primitives/ints/uLabel/uLabel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

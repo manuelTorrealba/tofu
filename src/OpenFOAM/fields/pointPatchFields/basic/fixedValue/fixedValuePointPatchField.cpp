@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fixedValuePointPatchField.H"
-#include "boolList.H"
+#include "OpenFOAM/fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pairGAMGAgglomeration.H"
-#include "lduAddressing.H"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/pairGAMGAgglomeration/pairGAMGAgglomeration.hpp"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduAddressing.hpp"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

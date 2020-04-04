@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dimensionedType.H"
-#include "pTraits.H"
-#include "dictionary.H"
+#include "OpenFOAM/dimensionedTypes/dimensionedType/dimensionedType.hpp"
+#include "OpenFOAM/primitives/pTraits/pTraits.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

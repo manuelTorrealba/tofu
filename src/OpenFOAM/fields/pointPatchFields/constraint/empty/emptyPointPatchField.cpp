@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "emptyPointPatchField.H"
+#include "OpenFOAM/fields/pointPatchFields/constraint/empty/emptyPointPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

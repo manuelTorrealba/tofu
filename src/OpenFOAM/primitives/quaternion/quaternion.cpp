@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "quaternion.H"
-#include "IOstreams.H"
-#include "OStringStream.H"
+#include "OpenFOAM/primitives/quaternion/quaternion.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
+#include "OpenFOAM/db/IOstreams/StringStreams/OStringStream.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

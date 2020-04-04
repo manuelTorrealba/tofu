@@ -43,7 +43,7 @@ SourceFiles
 #ifndef SlicedGeometricField_H
 #define SlicedGeometricField_H
 
-#include "GeometricField.H"
+#include "OpenFOAM/fields/GeometricFields/GeometricField/GeometricField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

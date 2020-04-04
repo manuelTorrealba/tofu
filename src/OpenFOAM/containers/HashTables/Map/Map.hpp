@@ -35,7 +35,10 @@ See also
 #ifndef Map_H
 #define Map_H
 
-#include "HashTable.H"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
+#include "OpenFOAM/primitives/hashes/Hash/Hash.hpp"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -32,9 +32,9 @@ Description
 #ifndef barycentricTensor_H
 #define barycentricTensor_H
 
-#include "scalar.H"
-#include "BarycentricTensor.H"
-#include "contiguous.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/primitives/Barycentric/BarycentricTensor.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "quarterSineRamp.H"
-#include "mathematicalConstants.H"
+#include "OpenFOAM/primitives/functions/Function1/quarterSineRamp/quarterSineRamp.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

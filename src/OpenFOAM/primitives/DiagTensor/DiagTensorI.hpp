@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SphericalTensor.H"
-#include "SymmTensor.H"
+#include "OpenFOAM/primitives/SphericalTensor/SphericalTensor.hpp"
+#include "OpenFOAM/primitives/SymmTensor/SymmTensor.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

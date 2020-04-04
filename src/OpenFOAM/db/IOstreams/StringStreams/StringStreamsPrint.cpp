@@ -26,8 +26,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IStringStream.H"
-#include "OStringStream.H"
+#include "OpenFOAM/db/IOstreams/StringStreams/IStringStream.hpp"
+#include "OpenFOAM/db/IOstreams/StringStreams/OStringStream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

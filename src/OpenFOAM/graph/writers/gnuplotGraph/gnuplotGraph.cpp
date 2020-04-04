@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "gnuplotGraph.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/graph/writers/gnuplotGraph/gnuplotGraph.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

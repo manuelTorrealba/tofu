@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LduInterfaceField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM/matrices/LduMatrixN/LduMatrix/LduInterfaceField/LduInterfaceField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

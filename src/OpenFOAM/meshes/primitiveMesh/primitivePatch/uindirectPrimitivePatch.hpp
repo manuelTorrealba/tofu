@@ -32,10 +32,10 @@ Description
 #ifndef uindirectPrimitivePatch_H
 #define uindirectPrimitivePatch_H
 
-#include "PrimitivePatch.H"
-#include "face.H"
-#include "UIndirectList.H"
-#include "pointField.H"
+#include "OpenFOAM/meshes/primitiveMesh/PrimitivePatchN/PrimitivePatch.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/face.hpp"
+#include "OpenFOAM/containers/Lists/UIndirectList/UIndirectList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

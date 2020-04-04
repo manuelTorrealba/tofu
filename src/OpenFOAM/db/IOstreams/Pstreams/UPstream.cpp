@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UPstream.H"
-#include "debug.H"
-#include "registerSwitch.H"
-#include "dictionary.H"
-#include "IOstreams.H"
+#include "OpenFOAM/db/IOstreams/Pstreams/UPstream.hpp"
+#include "OpenFOAM/global/debug/debug.hpp"
+#include "OpenFOAM/global/debug/registerSwitch.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

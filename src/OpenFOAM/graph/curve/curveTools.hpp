@@ -1,11 +1,11 @@
 #ifndef curveTools_H
 #define curveTools_H
 
-#include "scalar.H"
-#include "vector.H"
-#include "curve.H"
-#include "char.H"
-#include "List.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/graph/curve/curve.hpp"
+#include "OpenFOAM/primitives/chars/char/char.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

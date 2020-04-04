@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "graph.H"
-#include "OFstream.H"
-#include "IOmanip.H"
-#include "Pair.H"
-#include "OSspecific.H"
+#include "OpenFOAM/graph/graph.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOmanip.hpp"
+#include "OpenFOAM/primitives/Pair/Pair.hpp"
+#include "OpenFOAM/include/OSspecific.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

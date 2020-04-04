@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "slipPointPatchField.H"
+#include "OpenFOAM/fields/pointPatchFields/derived/slip/slipPointPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

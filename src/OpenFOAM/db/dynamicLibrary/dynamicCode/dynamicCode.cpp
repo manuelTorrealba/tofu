@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dynamicCode.H"
-#include "dynamicCodeContext.H"
-#include "stringOps.H"
-#include "IFstream.H"
-#include "OFstream.H"
-#include "OSspecific.H"
-#include "etcFiles.H"
-#include "dictionary.H"
+#include "OpenFOAM/db/dynamicLibrary/dynamicCode/dynamicCode.hpp"
+#include "OpenFOAM/db/dynamicLibrary/dynamicCode/dynamicCodeContext.hpp"
+#include "OpenFOAM/primitives/strings/stringOps/stringOps.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/include/OSspecific.hpp"
+#include "OpenFOAM/global/etcFiles/etcFiles.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

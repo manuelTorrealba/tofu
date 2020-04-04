@@ -36,9 +36,9 @@ SourceFiles
 #ifndef interpolation2DTable_H
 #define interpolation2DTable_H
 
-#include "List.H"
-#include "Tuple2.H"
-#include "tableReader.H"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
+#include "OpenFOAM/interpolations/interpolationTable/tableReaders/tableReader.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dictionary.H"
-#include "inputModeEntry.H"
-#include "regExp.H"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/db/dictionary/functionEntries/inputModeEntry/inputModeEntry.hpp"
+#include "OSspecific/POSIX/regExp.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

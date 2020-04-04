@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicLduInterfaceField.H"
-#include "diagTensorField.H"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterfaceFields/cyclicLduInterfaceField/cyclicLduInterfaceField.hpp"
+#include "OpenFOAM/fields/Fields/diagTensorField/diagTensorField.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

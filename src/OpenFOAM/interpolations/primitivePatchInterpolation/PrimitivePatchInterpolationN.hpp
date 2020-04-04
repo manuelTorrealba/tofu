@@ -36,8 +36,8 @@ SourceFiles
 #ifndef PrimitivePatchInterpolation_H
 #define PrimitivePatchInterpolation_H
 
-#include "scalarList.H"
-#include "Field.H"
+#include "OpenFOAM/primitives/Scalar/lists/scalarList.hpp"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

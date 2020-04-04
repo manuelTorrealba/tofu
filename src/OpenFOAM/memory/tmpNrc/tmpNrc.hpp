@@ -38,7 +38,7 @@ See also
 #ifndef tmpNrc_H
 #define tmpNrc_H
 
-#include "word.H"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -162,7 +162,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "tmpNrcI.H"
+#include "OpenFOAM/memory/tmpNrc/tmpNrcI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -32,7 +32,7 @@ Description
 \*---------------------------------------------------------------------------*/
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-#include "foamVersion.H"
+#include "OpenFOAM/global/foamVersion.hpp"
 
 const char* const Foam::FOAMversion = "VERSION_STRING";
 const char* const Foam::FOAMbuild = "BUILD_STRING";
@@ -40,55 +40,55 @@ const char* const Foam::FOAMbuild = "BUILD_STRING";
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Setup an error handler for the global new operator
 
-#include "new.C"
+#include "OpenFOAM/global/new.cpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Create the nullObject singleton
 
-#include "nullObject.C"
+#include "OpenFOAM/primitives/nullObject/nullObject.cpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Global IO streams
 
-#include "IOstreams.C"
+#include "OpenFOAM/db/IOstreams/IOstreams.cpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "jobInfo.H"
+#include "OpenFOAM/global/jobInfo/jobInfo.hpp"
 bool Foam::jobInfo::constructed(false);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Global error definitions (initialised by construction)
 
-#include "messageStream.C"
-#include "error.C"
-#include "IOerror.C"
-#include "token.C"
+#include "OpenFOAM/db/error/messageStream.cpp"
+#include "OpenFOAM/db/error/error.cpp"
+#include "OpenFOAM/db/error/IOerror.cpp"
+#include "OpenFOAM/db/IOstreams/token/token.cpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Read the debug and info switches
 
-#include "debug.C"
+#include "OpenFOAM/global/debug/debug.cpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Read file modification checking switches
 
-#include "regIOobject.C"
+#include "OpenFOAM/db/regIOobject/regIOobject.cpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Read parallel communication switches
 
-#include "UPstream.C"
+#include "OpenFOAM/db/IOstreams/Pstreams/UPstream.cpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Read constants
 
-#include "constants.C"
-#include "dimensionedConstants.C"
+#include "OpenFOAM/global/constants/constants.cpp"
+#include "OpenFOAM/global/constants/dimensionedConstants.cpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Create the jobInfo file in the $FOAM_JOB_DIR/runningJobs directory
 
-#include "jobInfo.C"
+#include "OpenFOAM/global/jobInfo/jobInfo.cpp"
 
 // ************************************************************************* //

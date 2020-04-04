@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dlLibraryTable.H"
-#include "OSspecific.H"
-#include "int.H"
+#include "OpenFOAM/db/dynamicLibrary/dlLibraryTable/dlLibraryTable.hpp"
+#include "OpenFOAM/include/OSspecific.hpp"
+#include "OpenFOAM/primitives/ints/int/int.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

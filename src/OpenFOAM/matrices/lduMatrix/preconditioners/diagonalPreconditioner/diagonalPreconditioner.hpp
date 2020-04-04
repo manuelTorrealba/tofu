@@ -38,7 +38,7 @@ SourceFiles
 #ifndef diagonalPreconditioner_H
 #define diagonalPreconditioner_H
 
-#include "lduMatrix.H"
+#include "OpenFOAM/matrices/lduMatrix/lduMatrix/lduMatrix.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -32,8 +32,8 @@ Description
 #ifndef EdgeMap_H
 #define EdgeMap_H
 
-#include "HashTable.H"
-#include "edge.H"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
+#include "OpenFOAM/meshes/meshShapes/edge/edge.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

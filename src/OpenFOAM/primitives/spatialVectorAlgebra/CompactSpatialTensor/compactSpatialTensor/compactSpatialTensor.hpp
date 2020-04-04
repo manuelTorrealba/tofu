@@ -35,7 +35,8 @@ SourceFiles
 #ifndef compactSpatialTensor_H
 #define compactSpatialTensor_H
 
-#include "CompactSpatialTensor.H"
+#include "OpenFOAM/primitives/spatialVectorAlgebra/CompactSpatialTensor/CompactSpatialTensor.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

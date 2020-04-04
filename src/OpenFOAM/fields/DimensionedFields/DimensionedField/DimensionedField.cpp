@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DimensionedField.H"
-#include "dimensionedType.H"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedType/dimensionedType.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

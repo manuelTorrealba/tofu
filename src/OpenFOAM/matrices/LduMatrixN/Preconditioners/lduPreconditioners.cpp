@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoPreconditioner.H"
-#include "DiagonalPreconditioner.H"
-#include "TDILUPreconditioner.H"
-#include "fieldTypes.H"
+#include "OpenFOAM/matrices/LduMatrixN/Preconditioners/NoPreconditioner/NoPreconditioner.hpp"
+#include "OpenFOAM/matrices/LduMatrixN/Preconditioners/DiagonalPreconditioner/DiagonalPreconditioner.hpp"
+#include "OpenFOAM/matrices/LduMatrixN/Preconditioners/DILUPreconditioner/TDILUPreconditioner.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 #define makeLduPreconditioners(Type, DType, LUType)                            \
                                                                                \

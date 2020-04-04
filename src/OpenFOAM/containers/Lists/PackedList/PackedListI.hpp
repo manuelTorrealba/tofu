@@ -24,6 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include <climits>
+#include "OpenFOAM/db/IOstreams/IOstreams/Istream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tetCell.H"
-#include "cellShape.H"
-#include "cellModeller.H"
+#include "OpenFOAM/meshes/meshShapes/tetCell/tetCell.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellShape/cellShape.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellModeller/cellModeller.hpp"
 
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //

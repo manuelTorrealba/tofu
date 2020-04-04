@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "doubleScalar.H"
-#include "IOstreams.H"
+#include "OpenFOAM/primitives/Scalar/doubleScalar/doubleScalar.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 #include <sstream>
 
@@ -36,7 +36,7 @@ License
 #define ScalarRootVGreat doubleScalarRootVGreat
 #define ScalarRootVSmall doubleScalarRootVSmall
 #define readScalar readDoubleScalar
-#include "Scalar.C"
+#include "OpenFOAM/primitives/Scalar/Scalar.cpp"
 #undef Scalar
 #undef ScalarVGreat
 #undef ScalarVSmall

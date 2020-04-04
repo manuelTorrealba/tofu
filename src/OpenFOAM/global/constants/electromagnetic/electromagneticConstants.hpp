@@ -32,7 +32,7 @@ Description
 #ifndef electromagneticConstants_H
 #define electromagneticConstants_H
 
-#include "dimensionedScalar.H"
+#include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

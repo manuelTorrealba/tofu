@@ -34,8 +34,8 @@ Description
 #ifndef PointHit_H
 #define PointHit_H
 
-#include "bool.H"
-#include "token.H"
+#include "OpenFOAM/primitives/bools/bool/bool.hpp"
+#include "OpenFOAM/db/IOstreams/token/token.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

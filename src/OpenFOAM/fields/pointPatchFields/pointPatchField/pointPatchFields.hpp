@@ -26,9 +26,9 @@ License
 #ifndef pointPatchFields_H
 #define pointPatchFields_H
 
-#include "pointPatchField.H"
-#include "fieldTypes.H"
-#include "pointPatchFieldsFwd.H"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

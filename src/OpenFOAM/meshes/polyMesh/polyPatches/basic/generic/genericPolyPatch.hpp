@@ -40,7 +40,7 @@ SourceFiles
 #ifndef genericPolyPatch_H
 #define genericPolyPatch_H
 
-#include "polyPatch.H"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

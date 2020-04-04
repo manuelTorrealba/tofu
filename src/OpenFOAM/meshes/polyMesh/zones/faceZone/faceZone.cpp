@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceZone.H"
-#include "addToRunTimeSelectionTable.H"
-#include "faceZoneMesh.H"
-#include "polyMesh.H"
-#include "primitiveMesh.H"
-#include "demandDrivenData.H"
-#include "mapPolyMesh.H"
-#include "syncTools.H"
+#include "OpenFOAM/meshes/polyMesh/zones/faceZone/faceZone.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/meshes/polyMesh/zones/ZoneMesh/faceZoneMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

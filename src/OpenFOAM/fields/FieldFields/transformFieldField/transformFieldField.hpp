@@ -36,8 +36,8 @@ SourceFiles
 #ifndef transformFieldField_H
 #define transformFieldField_H
 
-#include "transform.H"
-#include "tensorFieldField.H"
+#include "OpenFOAM/primitives/transform/transform.hpp"
+#include "OpenFOAM/fields/FieldFields/tensorFieldField/tensorFieldField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,7 +36,8 @@ SourceFiles
 #ifndef LList_H
 #define LList_H
 
-#include "label.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/containers/LinkedLists/linkTypes/SLListBase/SLListBase.hpp"
 #include <initializer_list>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

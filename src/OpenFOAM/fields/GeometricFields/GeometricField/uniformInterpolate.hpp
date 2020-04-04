@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GeometricField.H"
-#include "HashPtrTable.H"
+#include "OpenFOAM/fields/GeometricFields/GeometricField/GeometricField.hpp"
+#include "OpenFOAM/containers/HashTables/HashPtrTable/HashPtrTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

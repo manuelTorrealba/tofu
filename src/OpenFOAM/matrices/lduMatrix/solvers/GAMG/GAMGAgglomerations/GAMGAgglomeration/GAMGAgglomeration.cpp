@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GAMGAgglomeration.H"
-#include "lduMesh.H"
-#include "lduMatrix.H"
-#include "Time.H"
-#include "GAMGInterface.H"
-#include "GAMGProcAgglomeration.H"
-#include "pairGAMGAgglomeration.H"
-#include "IOmanip.H"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/GAMGAgglomeration/GAMGAgglomeration.hpp"
+#include "OpenFOAM/meshes/lduMesh/lduMesh.hpp"
+#include "OpenFOAM/matrices/lduMatrix/lduMatrix/lduMatrix.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaces/GAMGInterface/GAMGInterface.hpp"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGProcAgglomerations/GAMGProcAgglomeration/GAMGProcAgglomeration.hpp"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/pairGAMGAgglomeration/pairGAMGAgglomeration.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOmanip.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

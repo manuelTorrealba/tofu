@@ -36,8 +36,8 @@ SourceFiles
 #ifndef RowVector_H
 #define RowVector_H
 
-#include "MatrixSpace.H"
-#include "Vector.H"
+#include "OpenFOAM/primitives/MatrixSpace/MatrixSpace.hpp"
+#include "OpenFOAM/primitives/Vector/Vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -121,7 +121,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "RowVectorI.H"
+#include "OpenFOAM/primitives/RowVector/RowVectorI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

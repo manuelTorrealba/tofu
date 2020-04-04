@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "spatialVector.H"
+#include "OpenFOAM/primitives/spatialVectorAlgebra/SpatialVector/spatialVector/spatialVector.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

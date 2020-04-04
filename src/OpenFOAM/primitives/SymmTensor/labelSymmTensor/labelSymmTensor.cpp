@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "labelSymmTensor.H"
+#include "OpenFOAM/primitives/SymmTensor/labelSymmTensor/labelSymmTensor.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

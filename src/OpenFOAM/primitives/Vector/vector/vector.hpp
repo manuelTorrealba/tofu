@@ -35,9 +35,9 @@ SourceFiles
 #ifndef vector_H
 #define vector_H
 
-#include "scalar.H"
-#include "Vector.H"
-#include "contiguous.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/primitives/Vector/Vector.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

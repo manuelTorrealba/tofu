@@ -34,8 +34,8 @@ SourceFiles
 #ifndef uniformFixedValuePointPatchFields_H
 #define uniformFixedValuePointPatchFields_H
 
-#include "uniformFixedValuePointPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/pointPatchFields/derived/uniformFixedValue/uniformFixedValuePointPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

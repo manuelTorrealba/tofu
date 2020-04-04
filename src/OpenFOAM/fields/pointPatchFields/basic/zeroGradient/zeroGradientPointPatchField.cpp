@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "zeroGradientPointPatchField.H"
+#include "OpenFOAM/fields/pointPatchFields/basic/zeroGradient/zeroGradientPointPatchField.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

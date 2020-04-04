@@ -35,7 +35,7 @@ SourceFiles
 #ifndef mapDistributeLagrangian_H
 #define mapDistributeLagrangian_H
 
-#include "mapDistribute.H"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

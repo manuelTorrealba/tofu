@@ -26,9 +26,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "PrimitivePatch.H"
-#include "SLList.H"
-#include "ListOps.H"
+#include "OpenFOAM/meshes/primitiveMesh/PrimitivePatchN/PrimitivePatch.hpp"
+#include "OpenFOAM/containers/LinkedLists/user/SLList.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
 
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

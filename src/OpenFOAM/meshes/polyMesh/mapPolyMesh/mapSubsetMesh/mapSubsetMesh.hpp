@@ -34,7 +34,7 @@ SourceFiles
 #ifndef mapSubsetMesh_H
 #define mapSubsetMesh_H
 
-#include "labelList.H"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

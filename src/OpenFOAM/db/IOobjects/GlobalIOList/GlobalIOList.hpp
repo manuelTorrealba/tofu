@@ -35,8 +35,8 @@ SourceFiles
 #ifndef GlobalIOList_H
 #define GlobalIOList_H
 
-#include "List.H"
-#include "regIOobject.H"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

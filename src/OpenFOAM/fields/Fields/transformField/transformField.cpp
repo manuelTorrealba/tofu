@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "transformField.H"
-#include "FieldM.H"
-#include "diagTensor.H"
+#include "OpenFOAM/fields/Fields/transformField/transformField.hpp"
+#include "OpenFOAM/fields/Fields/Field/FieldM.hpp"
+#include "OpenFOAM/primitives/DiagTensor/diagTensor/diagTensor.hpp"
 
 // * * * * * * * * * * * * * * * global functions  * * * * * * * * * * * * * //
 

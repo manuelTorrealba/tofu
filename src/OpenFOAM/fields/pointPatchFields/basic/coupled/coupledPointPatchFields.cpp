@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coupledPointPatchFields.H"
+#include "OpenFOAM/fields/pointPatchFields/basic/coupled/coupledPointPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

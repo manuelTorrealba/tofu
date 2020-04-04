@@ -43,8 +43,8 @@ SourceFiles
 #ifndef Istream_H
 #define Istream_H
 
-#include "IOstream.H"
-#include "token.H"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOstream.hpp"
+#include "OpenFOAM/db/IOstreams/token/token.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

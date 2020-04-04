@@ -26,9 +26,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellModeller.H"
-#include "IFstream.H"
-#include "etcFiles.H"
+#include "OpenFOAM/meshes/meshShapes/cellModeller/cellModeller.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/global/etcFiles/etcFiles.hpp"
 
 // * * * * * * * * * * * * * * * Static data * * * * * * * * * * * * * * * * //
 

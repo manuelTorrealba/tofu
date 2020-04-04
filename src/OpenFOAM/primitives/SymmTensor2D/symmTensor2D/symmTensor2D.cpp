@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "symmTensor2D.H"
+#include "OpenFOAM/primitives/SymmTensor2D/symmTensor2D/symmTensor2D.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

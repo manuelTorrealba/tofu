@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TDILUPreconditioner.H"
+#include "OpenFOAM/matrices/LduMatrixN/Preconditioners/DILUPreconditioner/TDILUPreconditioner.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

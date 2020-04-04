@@ -35,11 +35,11 @@ SourceFiles
 #ifndef triadField_H
 #define triadField_H
 
-#include "Field.H"
-#include "triad.H"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
+#include "OpenFOAM/primitives/triad/triad.hpp"
 
 #define TEMPLATE
-#include "FieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/FieldFunctionsM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -54,7 +54,7 @@ typedef Field<triad> triadField;
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lduPrimitiveMesh.H"
+#include "OpenFOAM/meshes/lduMesh/lduPrimitiveMesh.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

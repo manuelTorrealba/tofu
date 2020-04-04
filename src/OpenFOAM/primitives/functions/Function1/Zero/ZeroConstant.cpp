@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ZeroConstant.H"
+#include "OpenFOAM/primitives/functions/Function1/Zero/ZeroConstant.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

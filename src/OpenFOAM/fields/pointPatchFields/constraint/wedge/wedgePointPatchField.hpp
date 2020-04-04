@@ -35,8 +35,8 @@ SourceFiles
 #ifndef wedgePointPatchField_H
 #define wedgePointPatchField_H
 
-#include "pointPatchField.H"
-#include "wedgePointPatch.H"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchField.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointPatches/constraint/wedge/wedgePointPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

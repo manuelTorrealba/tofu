@@ -40,7 +40,7 @@ SourceFiles
 #ifndef Constant_H
 #define Constant_H
 
-#include "Function1.H"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -141,7 +141,7 @@ tmp<Field<label>> Function1Types::Constant<label>::integrate
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ConstantI.H"
+#include "OpenFOAM/primitives/functions/Function1/Constant/ConstantI.hpp"
 
 #ifdef NoRepository
     #include "Constant.C"

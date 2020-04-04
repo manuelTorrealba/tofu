@@ -38,21 +38,21 @@ SourceFiles
 #ifndef Time_H
 #define Time_H
 
-#include "TimePaths.H"
-#include "objectRegistry.H"
-#include "unwatchedIOdictionary.H"
-#include "FIFOStack.H"
-#include "clock.H"
-#include "cpuTime.H"
-#include "TimeState.H"
-#include "Switch.H"
-#include "instantList.H"
-#include "NamedEnum.H"
-#include "typeInfo.H"
-#include "dlLibraryTable.H"
-#include "functionObjectList.H"
-#include "sigWriteNow.H"
-#include "sigStopAtWriteNow.H"
+#include "OpenFOAM/db/Time/TimePaths.hpp"
+#include "OpenFOAM/db/objectRegistry/objectRegistry.hpp"
+#include "OpenFOAM/db/IOobjects/IOdictionary/unwatchedIOdictionary.hpp"
+#include "OpenFOAM/containers/LinkedLists/user/FIFOStack.hpp"
+#include "OpenFOAM/global/clock/clock.hpp"
+#include "OSspecific/POSIX/cpuTime/cpuTime.hpp"
+#include "OpenFOAM/db/Time/TimeState.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
+#include "OpenFOAM/db/Time/instant/instantList.hpp"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/db/dynamicLibrary/dlLibraryTable/dlLibraryTable.hpp"
+#include "OpenFOAM/db/functionObjects/functionObjectList/functionObjectList.hpp"
+#include "OSspecific/POSIX/signals/sigWriteNow.hpp"
+#include "OSspecific/POSIX/signals/sigStopAtWriteNow.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMeshTools.H"
-#include "syncTools.H"
-#include "pyramidPointFaceRef.H"
-#include "primitiveMeshTools.H"
-#include "polyMeshTools.H"
+#include "OpenFOAM/meshes/polyMesh/polyMeshCheck/polyMeshTools.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
+#include "OpenFOAM/meshes/meshShapes/cell/pyramidPointFaceRef.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMeshCheck/primitiveMeshTools.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMeshCheck/polyMeshTools.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "face.H"
-#include "triFace.H"
-#include "triPointRef.H"
-#include "mathematicalConstants.H"
-#include "Swap.H"
-#include "ConstCirculator.H"
+#include "OpenFOAM/meshes/meshShapes/face/face.hpp"
+#include "OpenFOAM/meshes/meshShapes/triFace/triFace.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/triangle/triPointRef.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
+#include "OpenFOAM/primitives/Swap/Swap.hpp"
+#include "OpenFOAM/containers/Circulators/ConstCirculator/ConstCirculator.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

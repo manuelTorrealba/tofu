@@ -26,14 +26,14 @@ License
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Constants supplied in the main controlDict
-#include "fundamentalConstants.C"
+#include "OpenFOAM/global/constants/fundamental/fundamentalConstants.cpp"
 
 // Derived constants.
 // Note: order is important
-#include "universalConstants.C"
-#include "electromagneticConstants.C"
-#include "atomicConstants.C"
-#include "physicoChemicalConstants.C"
-#include "thermodynamicConstants.C"
+#include "OpenFOAM/global/constants/universal/universalConstants.cpp"
+#include "OpenFOAM/global/constants/electromagnetic/electromagneticConstants.cpp"
+#include "OpenFOAM/global/constants/atomic/atomicConstants.cpp"
+#include "OpenFOAM/global/constants/physicoChemical/physicoChemicalConstants.cpp"
+#include "OpenFOAM/global/constants/thermodynamic/thermodynamicConstants.cpp"
 
 // ************************************************************************* //

@@ -23,16 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "globalMeshData.H"
-#include "Pstream.H"
-#include "PstreamCombineReduceOps.H"
-#include "processorPolyPatch.H"
-#include "globalPoints.H"
-#include "polyMesh.H"
-#include "mapDistribute.H"
-#include "labelIOList.H"
-#include "mergePoints.H"
-#include "globalIndexAndTransform.H"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamCombineReduceOps.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalPoints.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelIOList.hpp"
+#include "OpenFOAM/meshes/meshTools/mergePoints.hpp"
+#include "OpenFOAM/primitives/globalIndexAndTransform/globalIndexAndTransform.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

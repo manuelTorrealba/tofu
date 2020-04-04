@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "timeControlFunctionObject.H"
-#include "polyMesh.H"
-#include "mapPolyMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/db/functionObjects/timeControl/timeControlFunctionObject.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

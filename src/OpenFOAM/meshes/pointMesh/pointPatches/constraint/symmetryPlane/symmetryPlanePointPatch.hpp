@@ -35,8 +35,8 @@ SourceFiles
 #ifndef symmetryPlanePointPatch_H
 #define symmetryPlanePointPatch_H
 
-#include "facePointPatch.H"
-#include "symmetryPlanePolyPatch.H"
+#include "OpenFOAM/meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/symmetryPlane/symmetryPlanePolyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

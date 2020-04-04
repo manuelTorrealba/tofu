@@ -23,10 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "globalIndexAndTransform.H"
-#include "cyclicPolyPatch.H"
-#include "DynamicField.H"
-#include "globalMeshData.H"
+#include "OpenFOAM/primitives/globalIndexAndTransform/globalIndexAndTransform.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.hpp"
+#include "OpenFOAM/fields/Fields/DynamicField/DynamicField.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.hpp"
 
 // * * * * * * * * * * * * Private Static Data Members * * * * * * * * * * * //
 

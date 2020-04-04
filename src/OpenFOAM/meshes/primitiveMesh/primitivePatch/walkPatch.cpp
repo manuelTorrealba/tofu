@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "walkPatch.H"
-#include "ListOps.H"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/walkPatch.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

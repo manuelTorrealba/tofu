@@ -26,8 +26,8 @@ License
 #ifndef calculatedPointPatchFields_H
 #define calculatedPointPatchFields_H
 
-#include "calculatedPointPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/pointPatchFields/basic/calculated/calculatedPointPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

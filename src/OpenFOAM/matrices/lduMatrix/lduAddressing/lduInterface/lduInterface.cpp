@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lduInterface.H"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/lduInterface.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

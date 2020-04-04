@@ -36,10 +36,10 @@ SourceFiles
 #ifndef plane_H
 #define plane_H
 
-#include "point.H"
-#include "scalarList.H"
-#include "dictionary.H"
-#include "line.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "OpenFOAM/primitives/Scalar/lists/scalarList.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/line/line.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

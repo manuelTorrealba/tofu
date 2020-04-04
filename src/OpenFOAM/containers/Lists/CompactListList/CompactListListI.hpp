@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ListOps.H"
-#include "SubList.H"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "OpenFOAM/containers/Lists/SubList/SubList.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

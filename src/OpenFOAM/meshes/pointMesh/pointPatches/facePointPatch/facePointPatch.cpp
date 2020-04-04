@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "facePointPatch.H"
-#include "pointBoundaryMesh.H"
-#include "pointMesh.H"
-#include "demandDrivenData.H"
-#include "boolList.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointBoundaryMesh/pointBoundaryMesh.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointMesh.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

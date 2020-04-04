@@ -133,10 +133,10 @@ SourceFiles
 #ifndef mapDistribute_H
 #define mapDistribute_H
 
-#include "mapDistributeBase.H"
-#include "transformList.H"
-#include "vectorTensorTransform.H"
-#include "coupledPolyPatch.H"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributeBase.hpp"
+#include "OpenFOAM/fields/Fields/transformList/transformList.hpp"
+#include "OpenFOAM/primitives/globalIndexAndTransform/vectorTensorTransform/vectorTensorTransform.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

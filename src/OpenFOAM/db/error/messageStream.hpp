@@ -47,8 +47,8 @@ SourceFiles
 #ifndef messageStream_H
 #define messageStream_H
 
-#include "label.H"
-#include "string.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/primitives/strings/string/string.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -214,7 +214,7 @@ extern bool writeInfoHeader;
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "OSstream.H"
+#include "OpenFOAM/db/IOstreams/Sstreams/OSstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Convenience macros to add the file name and line number to the function name

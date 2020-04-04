@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FieldM.H"
-#include "FieldFieldReuseFunctions.H"
+#include "OpenFOAM/fields/Fields/Field/FieldM.hpp"
+#include "OpenFOAM/fields/FieldFields/FieldField/FieldFieldReuseFunctions.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

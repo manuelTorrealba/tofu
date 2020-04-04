@@ -34,10 +34,10 @@ SourceFiles
 #ifndef pointFields_H
 #define pointFields_H
 
-#include "GeometricFields.H"
-#include "fieldTypes.H"
-#include "pointPatchFields.H"
-#include "pointMesh.H"
+#include "OpenFOAM/fields/GeometricFields/GeometricField/GeometricFields.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFields.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

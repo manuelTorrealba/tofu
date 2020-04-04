@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sphericalTensor2D.H"
+#include "OpenFOAM/primitives/SphericalTensor2D/sphericalTensor2D/sphericalTensor2D.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

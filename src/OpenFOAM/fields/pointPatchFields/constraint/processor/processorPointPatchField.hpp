@@ -35,8 +35,8 @@ SourceFiles
 #ifndef processorPointPatchField_H
 #define processorPointPatchField_H
 
-#include "coupledPointPatchField.H"
-#include "processorPointPatch.H"
+#include "OpenFOAM/fields/pointPatchFields/basic/coupled/coupledPointPatchField.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointPatches/constraint/processor/processorPointPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

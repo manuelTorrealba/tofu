@@ -32,7 +32,7 @@ Description
 #ifndef products_H
 #define products_H
 
-#include "pTraits.H"
+#include "OpenFOAM/primitives/pTraits/pTraits.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

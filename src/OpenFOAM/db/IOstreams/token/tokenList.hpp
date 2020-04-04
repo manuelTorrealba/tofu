@@ -32,8 +32,8 @@ Description
 #ifndef tokenList_H
 #define tokenList_H
 
-#include "token.H"
-#include "List.H"
+#include "OpenFOAM/db/IOstreams/token/token.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

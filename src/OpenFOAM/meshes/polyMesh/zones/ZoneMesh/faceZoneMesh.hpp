@@ -29,9 +29,9 @@ Description
 #ifndef faceZoneMesh_H
 #define faceZoneMesh_H
 
-#include "ZoneMesh.H"
-#include "faceZone.H"
-#include "faceZoneMeshFwd.H"
+#include "OpenFOAM/meshes/polyMesh/zones/ZoneMesh/ZoneMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/zones/faceZone/faceZone.hpp"
+#include "OpenFOAM/meshes/polyMesh/zones/ZoneMesh/faceZoneMeshFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

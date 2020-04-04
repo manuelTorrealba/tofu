@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lduAddressing.H"
-#include "demandDrivenData.H"
-#include "scalarField.H"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduAddressing.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

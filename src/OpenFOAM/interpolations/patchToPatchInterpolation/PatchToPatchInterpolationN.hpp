@@ -38,13 +38,13 @@ SourceFiles
 #ifndef PatchToPatchInterpolation_H
 #define PatchToPatchInterpolation_H
 
-#include "className.H"
-#include "labelList.H"
-#include "scalarField.H"
-#include "pointField.H"
-#include "FieldFields.H"
-#include "faceList.H"
-#include "intersection.H"
+#include "OpenFOAM/db/typeInfo/className.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/fields/FieldFields/FieldField/FieldFields.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/faceList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/triangle/intersection.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

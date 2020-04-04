@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LduMatrix.H"
-#include "fieldTypes.H"
+#include "OpenFOAM/matrices/LduMatrixN/LduMatrix/LduMatrix.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 namespace Foam
 {

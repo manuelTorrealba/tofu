@@ -26,8 +26,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "readHexLabel.H"
-#include "ReadHex.H"
+#include "OpenFOAM/db/IOstreams/Sstreams/readHexLabel.hpp"
+#include "OpenFOAM/db/IOstreams/Sstreams/ReadHex.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

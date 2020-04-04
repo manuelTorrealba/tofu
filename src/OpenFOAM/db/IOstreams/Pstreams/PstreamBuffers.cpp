@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PstreamBuffers.H"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamBuffers.hpp"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

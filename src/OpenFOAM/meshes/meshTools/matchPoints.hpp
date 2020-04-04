@@ -32,8 +32,8 @@ SourceFiles
 #ifndef matchPoints_H
 #define matchPoints_H
 
-#include "scalarField.H"
-#include "pointField.H"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

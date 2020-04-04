@@ -36,8 +36,8 @@ Description
 #ifndef oneField_H
 #define oneField_H
 
-#include "one.H"
-#include "scalar.H"
+#include "OpenFOAM/primitives/one/one.hpp"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -86,7 +86,7 @@ inline const oneField& operator/(const oneField&, const oneField&);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "oneFieldI.H"
+#include "OpenFOAM/fields/Fields/oneField/oneFieldI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

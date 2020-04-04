@@ -23,12 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "stringOps.H"
-#include "typeInfo.H"
-#include "OSspecific.H"
-#include "etcFiles.H"
-#include "OStringStream.H"
-
+#include "OpenFOAM/primitives/strings/stringOps/stringOps.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/include/OSspecific.hpp"
+#include "OpenFOAM/global/etcFiles/etcFiles.hpp"
+#include "OpenFOAM/db/IOstreams/StringStreams/OStringStream.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/db/dictionary/primitiveEntry/primitiveEntry.hpp"
+#include "OpenFOAM/db/dictionary/entry/entry.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -29,7 +29,7 @@ Class
 #ifndef unthreadedInitialise_H
 #define unthreadedInitialise_H
 
-#include "fileOperationInitialise.H"
+#include "OpenFOAM/global/fileOperations/fileOperationInitialise/fileOperationInitialise.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

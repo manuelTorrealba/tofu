@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

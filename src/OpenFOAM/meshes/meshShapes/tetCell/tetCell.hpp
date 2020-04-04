@@ -39,11 +39,11 @@ SourceFiles
 #ifndef tetCell_H
 #define tetCell_H
 
-#include "FixedList.H"
-#include "triFace.H"
-#include "edge.H"
-#include "pointField.H"
-#include "tetPointRef.H"
+#include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
+#include "OpenFOAM/meshes/meshShapes/triFace/triFace.hpp"
+#include "OpenFOAM/meshes/meshShapes/edge/edge.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/tetrahedron/tetPointRef.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -128,7 +128,7 @@ inline bool contiguous<tetCell>() {return true;}
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "tetCellI.H"
+#include "OpenFOAM/meshes/meshShapes/tetCell/tetCellI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

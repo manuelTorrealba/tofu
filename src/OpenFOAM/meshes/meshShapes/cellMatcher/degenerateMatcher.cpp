@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "degenerateMatcher.H"
-#include "ListOps.H"
+#include "OpenFOAM/meshes/meshShapes/cellMatcher/degenerateMatcher.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "vectorListIOList.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/primitives/Vector/lists/vectorListIOList.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

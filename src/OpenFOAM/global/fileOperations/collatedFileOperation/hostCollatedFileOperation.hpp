@@ -57,7 +57,7 @@ SourceFiles
 #ifndef fileOperations_hostCollatedFileOperation_H
 #define fileOperations_hostCollatedFileOperation_H
 
-#include "collatedFileOperation.H"
+#include "OpenFOAM/global/fileOperations/collatedFileOperation/collatedFileOperation.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

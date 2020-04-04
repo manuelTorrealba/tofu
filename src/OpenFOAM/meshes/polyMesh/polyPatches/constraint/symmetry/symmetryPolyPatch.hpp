@@ -38,7 +38,7 @@ See also
 #ifndef symmetryPolyPatch_H
 #define symmetryPolyPatch_H
 
-#include "polyPatch.H"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

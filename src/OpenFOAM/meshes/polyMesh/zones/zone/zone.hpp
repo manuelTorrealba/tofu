@@ -35,11 +35,11 @@ SourceFiles
 #ifndef zone_H
 #define zone_H
 
-#include "labelList.H"
-#include "typeInfo.H"
-#include "dictionary.H"
-#include "Map.H"
-#include "pointFieldFwd.H"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointFieldFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

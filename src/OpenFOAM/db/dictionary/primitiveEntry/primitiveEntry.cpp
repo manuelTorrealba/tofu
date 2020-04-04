@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveEntry.H"
-#include "dictionary.H"
-#include "OSspecific.H"
-#include "stringOps.H"
+#include "OpenFOAM/db/dictionary/primitiveEntry/primitiveEntry.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/include/OSspecific.hpp"
+#include "OpenFOAM/primitives/strings/stringOps/stringOps.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

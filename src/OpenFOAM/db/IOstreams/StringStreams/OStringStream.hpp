@@ -35,7 +35,7 @@ SourceFiles
 #ifndef OStringStream_H
 #define OStringStream_H
 
-#include "OSstream.H"
+#include "OpenFOAM/db/IOstreams/Sstreams/OSstream.hpp"
 #include <sstream>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

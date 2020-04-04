@@ -39,15 +39,15 @@ SourceFiles
 #ifndef tetrahedron_H
 #define tetrahedron_H
 
-#include "point.H"
-#include "primitiveFieldsFwd.H"
-#include "pointHit.H"
-#include "Random.H"
-#include "FixedList.H"
-#include "UList.H"
-#include "triPointRef.H"
-#include "boundBox.H"
-#include "barycentric.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "OpenFOAM/fields/Fields/primitiveFieldsFwd.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/pointHit.hpp"
+#include "OpenFOAM/primitives/Random/Random.hpp"
+#include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
+#include "OpenFOAM/containers/Lists/UList/UList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/triangle/triPointRef.hpp"
+#include "OpenFOAM/meshes/boundBox/boundBox.hpp"
+#include "OpenFOAM/primitives/Barycentric/barycentric/barycentric.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -237,7 +237,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "tetrahedronI.H"
+#include "OpenFOAM/meshes/primitiveShapes/tetrahedron/tetrahedronI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

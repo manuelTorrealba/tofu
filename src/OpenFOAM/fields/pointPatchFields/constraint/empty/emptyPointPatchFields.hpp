@@ -26,8 +26,8 @@ License
 #ifndef emptyPointPatchFields_H
 #define emptyPointPatchFields_H
 
-#include "emptyPointPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/pointPatchFields/constraint/empty/emptyPointPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

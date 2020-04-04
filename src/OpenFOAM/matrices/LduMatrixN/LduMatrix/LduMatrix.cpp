@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lduMatrix.H"
-#include "IOstreams.H"
+#include "OpenFOAM/matrices/lduMatrix/lduMatrix/lduMatrix.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

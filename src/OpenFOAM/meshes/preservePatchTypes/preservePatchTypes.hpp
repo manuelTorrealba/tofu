@@ -35,9 +35,9 @@ SourceFiles
 #ifndef preservePatchTypes_H
 #define preservePatchTypes_H
 
-#include "fileName.H"
-#include "wordList.H"
-#include "dictionary.H"
+#include "OpenFOAM/primitives/strings/fileName/fileName.hpp"
+#include "OpenFOAM/primitives/strings/lists/wordList.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

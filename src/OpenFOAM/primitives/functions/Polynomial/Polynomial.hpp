@@ -50,10 +50,10 @@ SourceFiles
 #ifndef Polynomial_H
 #define Polynomial_H
 
-#include "word.H"
-#include "scalar.H"
-#include "Ostream.H"
-#include "VectorSpace.H"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Ostream.hpp"
+#include "OpenFOAM/primitives/VectorSpace/VectorSpace.hpp"
 #include <type_traits>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

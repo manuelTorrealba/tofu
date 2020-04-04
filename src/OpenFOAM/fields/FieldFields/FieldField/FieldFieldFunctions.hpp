@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "scalarFieldField.H"
+#include "OpenFOAM/fields/FieldFields/scalarFieldField/scalarFieldField.hpp"
 
 #define TEMPLATE template<template<class> class Field, class Type>
-#include "FieldFieldFunctionsM.H"
+#include "OpenFOAM/fields/FieldFields/FieldField/FieldFieldFunctionsM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -452,6 +452,6 @@ PRODUCT_OPERATOR(scalarProduct, &&, dotdot)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // ************************************************************************* //

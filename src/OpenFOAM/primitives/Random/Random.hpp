@@ -44,7 +44,7 @@ SourceFiles
 #ifndef Random_H
 #define Random_H
 
-#include "scalar.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -166,7 +166,7 @@ inline scalar Random::sampleNormal();
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "RandomI.H"
+#include "OpenFOAM/primitives/Random/RandomI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

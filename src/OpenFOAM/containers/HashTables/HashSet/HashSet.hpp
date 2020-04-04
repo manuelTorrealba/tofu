@@ -44,8 +44,9 @@ Description
 #ifndef HashSet_H
 #define HashSet_H
 
-#include "HashTable.H"
-#include "nil.H"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
+#include "OpenFOAM/primitives/nil/nil.hpp"
+#include "OpenFOAM/primitives/hashes/Hash/Hash.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

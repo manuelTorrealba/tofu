@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PstreamReduceOps.H"
-#include "FieldFieldReuseFunctions.H"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
+#include "OpenFOAM/fields/FieldFields/FieldField/FieldFieldReuseFunctions.hpp"
 
 #define TEMPLATE template<template<class> class Field, class Type>
 #include "FieldFieldFunctionsM.C"
@@ -915,6 +915,6 @@ PRODUCT_OPERATOR(scalarProduct, &&, dotdot)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // ************************************************************************* //

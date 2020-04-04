@@ -23,8 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "baseIOdictionary.H"
-#include "Pstream.H"
+#include "OpenFOAM/db/IOobjects/IOdictionary/baseIOdictionary.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/global/argList/argList.hpp"
 
 // * * * * * * * * * * * * * * * Members Functions * * * * * * * * * * * * * //
 

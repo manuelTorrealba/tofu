@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "codedFixedValuePointPatchField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "pointPatchFieldMapper.H"
-#include "pointFields.H"
-#include "dynamicCode.H"
-#include "dynamicCodeContext.H"
-#include "stringOps.H"
+#include "OpenFOAM/fields/pointPatchFields/derived/codedFixedValue/codedFixedValuePointPatchField.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFieldMapper.hpp"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFields.hpp"
+#include "OpenFOAM/db/dynamicLibrary/dynamicCode/dynamicCode.hpp"
+#include "OpenFOAM/db/dynamicLibrary/dynamicCode/dynamicCodeContext.hpp"
+#include "OpenFOAM/primitives/strings/stringOps/stringOps.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

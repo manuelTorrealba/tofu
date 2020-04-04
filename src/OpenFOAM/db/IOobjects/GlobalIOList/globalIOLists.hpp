@@ -33,8 +33,8 @@ Description
 #ifndef globalIOLists_H
 #define globalIOLists_H
 
-#include "primitiveFields.H"
-#include "GlobalIOList.H"
+#include "OpenFOAM/fields/Fields/primitiveFields.hpp"
+#include "OpenFOAM/db/IOobjects/GlobalIOList/GlobalIOList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

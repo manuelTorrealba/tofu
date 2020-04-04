@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "indexedOctree.H"
+#include "OpenFOAM/algorithms/indexedOctree/indexedOctree.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

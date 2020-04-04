@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Time.H"
-#include "PstreamReduceOps.H"
-#include "argList.H"
-#include "IOdictionary.H"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
+#include "OpenFOAM/global/argList/argList.hpp"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
 
 #include <sstream>
 

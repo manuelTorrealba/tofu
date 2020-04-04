@@ -26,8 +26,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "ISstream.H"
-#include "OSstream.H"
+#include "OpenFOAM/db/IOstreams/Sstreams/ISstream.hpp"
+#include "OpenFOAM/db/IOstreams/Sstreams/OSstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

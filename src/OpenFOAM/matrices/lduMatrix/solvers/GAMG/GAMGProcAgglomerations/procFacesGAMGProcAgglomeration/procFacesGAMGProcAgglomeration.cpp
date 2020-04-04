@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "procFacesGAMGProcAgglomeration.H"
-#include "addToRunTimeSelectionTable.H"
-#include "GAMGAgglomeration.H"
-#include "Random.H"
-#include "lduMesh.H"
-#include "processorLduInterface.H"
-#include "processorGAMGInterface.H"
-#include "pairGAMGAgglomeration.H"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGProcAgglomerations/procFacesGAMGProcAgglomeration/procFacesGAMGProcAgglomeration.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/GAMGAgglomeration/GAMGAgglomeration.hpp"
+#include "OpenFOAM/primitives/Random/Random.hpp"
+#include "OpenFOAM/meshes/lduMesh/lduMesh.hpp"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/processorLduInterface.hpp"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaces/processorGAMGInterface/processorGAMGInterface.hpp"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/pairGAMGAgglomeration/pairGAMGAgglomeration.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

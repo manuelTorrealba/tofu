@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearEqn.H"
-#include "quadraticEqn.H"
-#include "cubicEqn.H"
+#include "OpenFOAM/primitives/polynomialEqns/linearEqn/linearEqn.hpp"
+#include "OpenFOAM/primitives/polynomialEqns/quadraticEqn/quadraticEqn.hpp"
+#include "OpenFOAM/primitives/polynomialEqns/cubicEqn/cubicEqn.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

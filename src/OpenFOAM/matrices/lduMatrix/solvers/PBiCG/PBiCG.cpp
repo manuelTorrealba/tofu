@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PBiCG.H"
+#include "OpenFOAM/matrices/lduMatrix/solvers/PBiCG/PBiCG.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

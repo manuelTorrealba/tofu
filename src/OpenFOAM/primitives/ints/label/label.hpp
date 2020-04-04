@@ -36,7 +36,7 @@ Description
 #ifndef label_H
 #define label_H
 
-#include "int.H"
+#include "OpenFOAM/primitives/ints/int/int.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -92,7 +92,7 @@ inline label component(const label l, const direction)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "labelSpecific.H"
+#include "OpenFOAM/primitives/ints/label/labelSpecific.hpp"
 
 #undef INT_ADD_SIZE
 #undef INT_ADD_DEF_SIZE

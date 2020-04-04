@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMesh.H"
-#include "Time.H"
-#include "primitiveMesh.H"
-#include "DynamicList.H"
-#include "indexedOctree.H"
-#include "treeDataCell.H"
-#include "globalMeshData.H"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/indexedOctree.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/treeDataCell.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

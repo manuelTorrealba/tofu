@@ -41,20 +41,20 @@ SourceFiles
 #ifndef polyMesh_H
 #define polyMesh_H
 
-#include "objectRegistry.H"
-#include "primitiveMesh.H"
-#include "pointField.H"
-#include "faceList.H"
-#include "cellList.H"
-#include "cellShapeList.H"
-#include "pointIOField.H"
-#include "faceIOList.H"
-#include "labelIOList.H"
-#include "polyBoundaryMesh.H"
-#include "boundBox.H"
-#include "pointZoneMesh.H"
-#include "faceZoneMesh.H"
-#include "cellZoneMesh.H"
+#include "OpenFOAM/db/objectRegistry/objectRegistry.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/faceList.hpp"
+#include "OpenFOAM/meshes/meshShapes/cell/cellList.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellShape/cellShapeList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointIOField.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/faceIOList.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelIOList.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.hpp"
+#include "OpenFOAM/meshes/boundBox/boundBox.hpp"
+#include "OpenFOAM/meshes/polyMesh/zones/ZoneMesh/pointZoneMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/zones/ZoneMesh/faceZoneMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/zones/ZoneMesh/cellZoneMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "subModelBase.H"
+#include "OpenFOAM/primitives/subModelBase/subModelBase.hpp"
 
 // * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * * //
 

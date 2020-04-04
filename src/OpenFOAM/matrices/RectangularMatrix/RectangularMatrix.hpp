@@ -38,8 +38,8 @@ SourceFiles
 #ifndef RectangularMatrix_H
 #define RectangularMatrix_H
 
-#include "Matrix.H"
-#include "SquareMatrix.H"
+#include "OpenFOAM/matrices/Matrix/Matrix.hpp"
+#include "OpenFOAM/matrices/SquareMatrix/SquareMatrix.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -136,7 +136,7 @@ RectangularMatrix<Type> outer(const Field<Type>& f1, const Field<Type>& f2);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "RectangularMatrixI.H"
+#include "OpenFOAM/matrices/RectangularMatrix/RectangularMatrixI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

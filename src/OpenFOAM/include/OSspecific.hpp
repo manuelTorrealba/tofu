@@ -36,7 +36,7 @@ SourceFiles
 #ifndef OSspecific_H
 #define OSspecific_H
 
-#include "fileNameList.H"
+#include "OpenFOAM/primitives/strings/lists/fileNameList.hpp"
 
 #include <sys/types.h>
 

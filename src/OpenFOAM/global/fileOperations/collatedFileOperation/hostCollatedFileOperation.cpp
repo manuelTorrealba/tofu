@@ -23,9 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "hostCollatedFileOperation.H"
-#include "addToRunTimeSelectionTable.H"
-#include "PackedBoolList.H"
+#include "OpenFOAM/global/fileOperations/collatedFileOperation/hostCollatedFileOperation.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
+#include "OpenFOAM/db/IOstreams/StringStreams/IStringStream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/UPstream.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

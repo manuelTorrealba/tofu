@@ -37,7 +37,7 @@ SourceFiles
 #ifndef one_H
 #define one_H
 
-#include "label.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -95,7 +95,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "oneI.H"
+#include "OpenFOAM/primitives/one/oneI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

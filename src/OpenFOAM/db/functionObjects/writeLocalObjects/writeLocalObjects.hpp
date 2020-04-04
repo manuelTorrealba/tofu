@@ -65,8 +65,8 @@ SourceFiles
 #ifndef functionObjects_writeLocalObjects_H
 #define functionObjects_writeLocalObjects_H
 
-#include "wordList.H"
-#include "writeObjectsBase.H"
+#include "OpenFOAM/primitives/strings/lists/wordList.hpp"
+#include "OpenFOAM/db/functionObjects/writeObjectsBase/writeObjectsBase.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

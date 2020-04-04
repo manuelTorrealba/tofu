@@ -36,9 +36,9 @@ SourceFiles
 #ifndef treeDataCell_H
 #define treeDataCell_H
 
-#include "polyMesh.H"
-#include "treeBoundBoxList.H"
-#include "volumeType.H"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/treeBoundBox/treeBoundBoxList.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/volumeType.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

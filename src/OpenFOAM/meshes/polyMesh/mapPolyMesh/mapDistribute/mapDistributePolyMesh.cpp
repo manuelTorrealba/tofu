@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mapDistributePolyMesh.H"
-#include "polyMesh.H"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributePolyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
 
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

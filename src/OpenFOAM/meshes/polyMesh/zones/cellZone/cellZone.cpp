@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellZone.H"
-#include "addToRunTimeSelectionTable.H"
-#include "cellZoneMesh.H"
-#include "polyMesh.H"
-#include "primitiveMesh.H"
-#include "IOstream.H"
-#include "demandDrivenData.H"
+#include "OpenFOAM/meshes/polyMesh/zones/cellZone/cellZone.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/meshes/polyMesh/zones/ZoneMesh/cellZoneMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOstream.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

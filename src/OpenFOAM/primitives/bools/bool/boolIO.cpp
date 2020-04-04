@@ -28,11 +28,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
+#include "OpenFOAM/db/error/error.hpp"
 
-#include "bool.H"
-#include "Switch.H"
-#include "IOstreams.H"
+#include "OpenFOAM/primitives/bools/bool/bool.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

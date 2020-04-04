@@ -26,8 +26,8 @@ License
 #ifndef valuePointPatchFields_H
 #define valuePointPatchFields_H
 
-#include "valuePointPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/pointPatchFields/basic/value/valuePointPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

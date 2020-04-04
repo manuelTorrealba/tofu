@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DimensionedField.H"
-#include "IOstreams.H"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

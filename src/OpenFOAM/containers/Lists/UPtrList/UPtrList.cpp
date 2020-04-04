@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UPtrList.H"
+#include "OpenFOAM/containers/Lists/UPtrList/UPtrList.hpp"
 
 // * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * * //
 

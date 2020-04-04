@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "writeObjectsBase.H"
-#include "Time.H"
-#include "dictionary.H"
+#include "OpenFOAM/db/functionObjects/writeObjectsBase/writeObjectsBase.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

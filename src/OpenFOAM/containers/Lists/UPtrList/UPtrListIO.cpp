@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UPtrList.H"
-#include "Ostream.H"
+#include "OpenFOAM/containers/Lists/UPtrList/UPtrList.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Ostream.hpp"
 
 // * * * * * * * * * * * * * * * Ostream Operators * * * * * * * * * * * * * //
 

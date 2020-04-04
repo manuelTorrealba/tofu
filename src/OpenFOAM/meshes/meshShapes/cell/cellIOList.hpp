@@ -32,8 +32,8 @@ Description
 #ifndef cellIOList_H
 #define cellIOList_H
 
-#include "cell.H"
-#include "CompactIOList.H"
+#include "OpenFOAM/meshes/meshShapes/cell/cell.hpp"
+#include "OpenFOAM/db/IOobjects/CompactIOList/CompactIOList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "token.H"
+#include "OpenFOAM/db/error/error.hpp"
+#include "OpenFOAM/db/IOstreams/token/token.hpp"
 
-#include "IOstreams.H"
-#include "scalar.H"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

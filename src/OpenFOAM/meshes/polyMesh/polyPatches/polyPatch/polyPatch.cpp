@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "polyBoundaryMesh.H"
-#include "polyMesh.H"
-#include "primitiveMesh.H"
-#include "SubField.H"
-#include "entry.H"
-#include "dictionary.H"
-#include "pointPatchField.H"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
+#include "OpenFOAM/fields/Fields/Field/SubField.hpp"
+#include "OpenFOAM/db/dictionary/entry/entry.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchField.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -1,6 +1,6 @@
-#include "scalar.H"
-#include "vector.H"
-#include "curveTools.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/graph/curve/curveTools.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

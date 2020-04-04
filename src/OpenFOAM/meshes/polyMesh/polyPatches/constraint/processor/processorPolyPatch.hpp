@@ -39,10 +39,10 @@ SourceFiles
 #ifndef processorPolyPatch_H
 #define processorPolyPatch_H
 
-#include "coupledPolyPatch.H"
-#include "polyBoundaryMesh.H"
-#include "faceListFwd.H"
-#include "polyMesh.H"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/faceListFwd.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

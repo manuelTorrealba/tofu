@@ -36,7 +36,7 @@ SourceFiles
 #ifndef HashPtrTable_H
 #define HashPtrTable_H
 
-#include "HashTable.H"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

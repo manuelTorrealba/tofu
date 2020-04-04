@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CompactListList.H"
-#include "Istream.H"
+#include "OpenFOAM/containers/Lists/CompactListList/CompactListList.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Istream.hpp"
 
 // * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMeshTetDecomposition.H"
+#include "OpenFOAM/meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

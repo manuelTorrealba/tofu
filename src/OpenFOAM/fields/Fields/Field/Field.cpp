@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FieldMapper.H"
-#include "FieldM.H"
-#include "dictionary.H"
-#include "contiguous.H"
-#include "mapDistributeBase.H"
-#include "flipOp.H"
+#include "OpenFOAM/fields/Fields/Field/FieldMapper.hpp"
+#include "OpenFOAM/fields/Fields/Field/FieldM.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributeBase.hpp"
+#include "OpenFOAM/primitives/ops/flipOp.hpp"
 
 // * * * * * * * * * * * * * * * Static Members  * * * * * * * * * * * * * * //
 

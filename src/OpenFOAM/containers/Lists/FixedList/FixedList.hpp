@@ -37,11 +37,11 @@ SourceFiles
 #ifndef FixedList_H
 #define FixedList_H
 
-#include "bool.H"
-#include "label.H"
-#include "uLabel.H"
-#include "Hash.H"
-#include "autoPtr.H"
+#include "OpenFOAM/primitives/bools/bool/bool.hpp"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/primitives/ints/uLabel/uLabel.hpp"
+#include "OpenFOAM/primitives/hashes/Hash/Hash.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 #include <type_traits>
 #include <initializer_list>
 
@@ -378,7 +378,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "FixedListI.H"
+#include "OpenFOAM/containers/Lists/FixedList/FixedListI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

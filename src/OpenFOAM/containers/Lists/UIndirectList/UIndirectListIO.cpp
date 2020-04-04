@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UIndirectList.H"
-#include "Ostream.H"
-#include "token.H"
-#include "contiguous.H"
+#include "OpenFOAM/containers/Lists/UIndirectList/UIndirectList.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Ostream.hpp"
+#include "OpenFOAM/db/IOstreams/token/token.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
 
 // * * * * * * * * * * * * * * * Ostream Operator *  * * * * * * * * * * * * //
 

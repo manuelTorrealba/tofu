@@ -36,10 +36,10 @@ SourceFiles
 #ifndef complex_H
 #define complex_H
 
-#include "scalar.H"
-#include "bool.H"
-#include "word.H"
-#include "contiguous.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/primitives/bools/bool/bool.hpp"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -196,7 +196,7 @@ inline bool contiguous<complex>() {return true;}
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "complexI.H"
+#include "OpenFOAM/primitives/complex/complexI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

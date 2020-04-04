@@ -38,8 +38,8 @@ SourceFiles
 #ifndef timeVaryingUniformFixedValuePointPatchField_H
 #define timeVaryingUniformFixedValuePointPatchField_H
 
-#include "fixedValuePointPatchField.H"
-#include "interpolationTable.H"
+#include "OpenFOAM/fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.hpp"
+#include "OpenFOAM/interpolations/interpolationTable/interpolationTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

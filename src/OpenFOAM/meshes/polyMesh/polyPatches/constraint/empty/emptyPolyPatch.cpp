@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "emptyPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

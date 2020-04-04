@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointIndexHitList.H"
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/pointIndexHitList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

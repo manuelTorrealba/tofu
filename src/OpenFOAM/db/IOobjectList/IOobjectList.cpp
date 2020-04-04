@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOobjectList.H"
-#include "Time.H"
-#include "OSspecific.H"
-#include "IOList.H"
+#include "OpenFOAM/db/IOobjectList/IOobjectList.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/include/OSspecific.hpp"
+#include "OpenFOAM/db/IOobjects/IOList/IOList.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

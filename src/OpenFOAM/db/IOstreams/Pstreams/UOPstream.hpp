@@ -33,15 +33,15 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#include "Pstream.H"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
 
 #ifndef UOPstream_H
 #define UOPstream_H
 
-#include "UPstream.H"
-#include "Ostream.H"
-#include "DynamicList.H"
-#include "PstreamBuffers.H"
+#include "OpenFOAM/db/IOstreams/Pstreams/UPstream.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Ostream.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamBuffers.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

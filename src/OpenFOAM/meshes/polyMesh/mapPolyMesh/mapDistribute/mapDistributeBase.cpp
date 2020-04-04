@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mapDistributeBase.H"
-#include "commSchedule.H"
-#include "HashSet.H"
-#include "globalIndex.H"
-#include "ListOps.H"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributeBase.hpp"
+#include "OpenFOAM/meshes/ProcessorTopology/commSchedule.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef splineInterpolationWeights_H
 #define splineInterpolationWeights_H
 
-#include "interpolationWeights.H"
+#include "OpenFOAM/interpolations/interpolationWeights/interpolationWeights/interpolationWeights.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

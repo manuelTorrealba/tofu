@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dimensionedScalar.H"
+#include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

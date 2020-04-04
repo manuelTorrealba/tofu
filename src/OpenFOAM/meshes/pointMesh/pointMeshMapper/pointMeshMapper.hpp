@@ -36,8 +36,8 @@ SourceFiles
 #ifndef pointMeshMapper_H
 #define pointMeshMapper_H
 
-#include "pointMapper.H"
-#include "pointBoundaryMeshMapper.H"
+#include "OpenFOAM/meshes/pointMesh/pointMeshMapper/pointMapper.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointMeshMapper/pointBoundaryMeshMapper.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

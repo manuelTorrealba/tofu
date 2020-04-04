@@ -37,8 +37,8 @@ SourceFiles
 #ifndef eagerGAMGProcAgglomeration_H
 #define eagerGAMGProcAgglomeration_H
 
-#include "GAMGProcAgglomeration.H"
-#include "DynamicList.H"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGProcAgglomerations/GAMGProcAgglomeration/GAMGProcAgglomeration.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

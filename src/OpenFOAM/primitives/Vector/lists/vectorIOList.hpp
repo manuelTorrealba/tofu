@@ -32,8 +32,8 @@ Description
 #ifndef vectorIOList_H
 #define vectorIOList_H
 
-#include "vector.H"
-#include "IOList.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/db/IOobjects/IOList/IOList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

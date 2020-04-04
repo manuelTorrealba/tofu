@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundBox.H"
-#include "pointField.H"
+#include "OpenFOAM/meshes/boundBox/boundBox.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

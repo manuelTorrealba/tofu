@@ -35,8 +35,8 @@ SourceFiles
 #ifndef transformGeometricField_H
 #define transformGeometricField_H
 
-#include "transform.H"
-#include "GeometricField.H"
+#include "OpenFOAM/primitives/transform/transform.hpp"
+#include "OpenFOAM/fields/GeometricFields/GeometricField/GeometricField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

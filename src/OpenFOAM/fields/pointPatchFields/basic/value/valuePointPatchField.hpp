@@ -35,7 +35,7 @@ SourceFiles
 #ifndef valuePointPatchField_H
 #define valuePointPatchField_H
 
-#include "pointPatchField.H"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

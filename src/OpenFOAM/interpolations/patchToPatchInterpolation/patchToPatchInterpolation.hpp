@@ -27,10 +27,10 @@ License
 #define patchToPatchInterpolation_H
 
 #include "PatchToPatchInterpolation.H"
-#include "PrimitivePatch.H"
-#include "face.H"
-#include "SubList.H"
-#include "pointField.H"
+#include "OpenFOAM/meshes/primitiveMesh/PrimitivePatchN/PrimitivePatch.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/face.hpp"
+#include "OpenFOAM/containers/Lists/SubList/SubList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

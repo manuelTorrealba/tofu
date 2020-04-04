@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GeometricScalarField.H"
+#include "OpenFOAM/fields/GeometricFields/GeometricScalarField/GeometricScalarField.hpp"
 
 #define TEMPLATE \
     template<class Type, template<class> class PatchField, class GeoMesh>
-#include "GeometricFieldFunctionsM.H"
+#include "OpenFOAM/fields/GeometricFields/GeometricField/GeometricFieldFunctionsM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -509,6 +509,6 @@ PRODUCT_OPERATOR(scalarProduct, &&, dotdot)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // ************************************************************************* //

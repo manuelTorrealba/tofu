@@ -32,7 +32,7 @@ Description
 #ifndef subCycle_H
 #define subCycle_H
 
-#include "subCycleTime.H"
+#include "OpenFOAM/db/Time/subCycleTime.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

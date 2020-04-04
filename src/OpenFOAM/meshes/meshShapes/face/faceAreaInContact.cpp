@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "face.H"
-#include "scalarField.H"
+#include "OpenFOAM/meshes/meshShapes/face/face.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
 
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //

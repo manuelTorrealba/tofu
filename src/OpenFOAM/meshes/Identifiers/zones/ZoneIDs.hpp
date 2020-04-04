@@ -26,11 +26,11 @@ License
 #ifndef ZoneIDs_H
 #define ZoneIDs_H
 
-#include "DynamicID.H"
+#include "OpenFOAM/meshes/Identifiers/DynamicID/DynamicID.hpp"
 
-#include "cellZoneMeshFwd.H"
-#include "faceZoneMeshFwd.H"
-#include "pointZoneMeshFwd.H"
+#include "OpenFOAM/meshes/polyMesh/zones/ZoneMesh/cellZoneMeshFwd.hpp"
+#include "OpenFOAM/meshes/polyMesh/zones/ZoneMesh/faceZoneMeshFwd.hpp"
+#include "OpenFOAM/meshes/polyMesh/zones/ZoneMesh/pointZoneMeshFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

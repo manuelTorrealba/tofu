@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CompactListList.H"
+#include "OpenFOAM/containers/Lists/CompactListList/CompactListList.hpp"
 
 // * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * * //
 

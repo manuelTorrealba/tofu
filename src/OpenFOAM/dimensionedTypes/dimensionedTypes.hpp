@@ -28,11 +28,11 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "dimensionedScalar.H"
-#include "dimensionedVector.H"
-#include "dimensionedSphericalTensor.H"
-#include "dimensionedSymmTensor.H"
-#include "dimensionedTensor.H"
+#include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedVector/dimensionedVector.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedSphericalTensor/dimensionedSphericalTensor.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedSymmTensor/dimensionedSymmTensor.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedTensor/dimensionedTensor.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

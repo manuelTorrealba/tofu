@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOobject.H"
-#include "Time.H"
-#include "IFstream.H"
+#include "OpenFOAM/db/IOobject/IOobject.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

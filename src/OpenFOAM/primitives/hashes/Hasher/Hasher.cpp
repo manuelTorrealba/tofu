@@ -25,8 +25,8 @@ Description
     Hashing functions, mostly from Bob Jenkins
 \*---------------------------------------------------------------------------*/
 
-#include "Hasher.H"
-#include "HasherInt.H"
+#include "OpenFOAM/primitives/hashes/Hasher/Hasher.hpp"
+#include "OpenFOAM/primitives/hashes/Hasher/HasherInt.hpp"
 
 #if defined (__GLIBC__)
     #include <endian.h>

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Random.H"
-#include "PstreamReduceOps.H"
+#include "OpenFOAM/primitives/Random/Random.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

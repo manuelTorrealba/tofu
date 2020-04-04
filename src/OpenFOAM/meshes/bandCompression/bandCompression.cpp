@@ -30,12 +30,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "bandCompression.H"
-#include "SLList.H"
-#include "IOstreams.H"
-#include "DynamicList.H"
-#include "ListOps.H"
-#include "PackedBoolList.H"
+#include "OpenFOAM/meshes/bandCompression/bandCompression.hpp"
+#include "OpenFOAM/containers/LinkedLists/user/SLList.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

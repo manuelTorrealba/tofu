@@ -76,7 +76,7 @@ SourceFiles
 #ifndef ConstCirculator_H
 #define ConstCirculator_H
 
-#include "CirculatorBase.H"
+#include "OpenFOAM/containers/Circulators/CirculatorBase/CirculatorBase.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -238,7 +238,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ConstCirculatorI.H"
+#include "OpenFOAM/containers/Circulators/ConstCirculator/ConstCirculatorI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -39,13 +39,13 @@ SourceFiles
 #ifndef UPstream_H
 #define UPstream_H
 
-#include "labelList.H"
-#include "DynamicList.H"
-#include "HashTable.H"
-#include "string.H"
-#include "NamedEnum.H"
-#include "ListOps.H"
-#include "LIFOStack.H"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
+#include "OpenFOAM/primitives/strings/string/string.hpp"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "OpenFOAM/containers/LinkedLists/user/LIFOStack.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

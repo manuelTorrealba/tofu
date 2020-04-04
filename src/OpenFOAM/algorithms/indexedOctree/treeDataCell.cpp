@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "treeDataCell.H"
-#include "indexedOctree.H"
-#include "polyMesh.H"
+#include "OpenFOAM/algorithms/indexedOctree/treeDataCell.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/indexedOctree.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

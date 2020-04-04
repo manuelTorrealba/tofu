@@ -41,8 +41,8 @@ SourceFiles
 #ifndef cellZone_H
 #define cellZone_H
 
-#include "zone.H"
-#include "cellZoneMeshFwd.H"
+#include "OpenFOAM/meshes/polyMesh/zones/zone/zone.hpp"
+#include "OpenFOAM/meshes/polyMesh/zones/ZoneMesh/cellZoneMeshFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TimeState.H"
-#include "Time.H"
+#include "OpenFOAM/db/Time/TimeState.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

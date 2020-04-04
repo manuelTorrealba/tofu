@@ -50,15 +50,15 @@ SourceFiles
 #ifndef lduMatrix_H
 #define lduMatrix_H
 
-#include "lduMesh.H"
-#include "primitiveFieldsFwd.H"
-#include "FieldField.H"
-#include "lduInterfaceFieldPtrsList.H"
-#include "typeInfo.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
-#include "solverPerformance.H"
-#include "InfoProxy.H"
+#include "OpenFOAM/meshes/lduMesh/lduMesh.hpp"
+#include "OpenFOAM/fields/Fields/primitiveFieldsFwd.hpp"
+#include "OpenFOAM/fields/FieldFields/FieldField/FieldField.hpp"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterfaceFields/lduInterfaceField/lduInterfaceFieldPtrsList.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
+#include "OpenFOAM/matrices/LduMatrixN/LduMatrix/solverPerformance.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/InfoProxy.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

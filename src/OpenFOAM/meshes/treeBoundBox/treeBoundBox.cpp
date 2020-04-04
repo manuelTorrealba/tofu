@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "treeBoundBox.H"
-#include "ListOps.H"
-#include "OFstream.H"
+#include "OpenFOAM/meshes/treeBoundBox/treeBoundBox.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

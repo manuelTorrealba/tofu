@@ -35,7 +35,7 @@ SourceFiles
 #ifndef GaussSeidelSmoother_H
 #define GaussSeidelSmoother_H
 
-#include "lduMatrix.H"
+#include "OpenFOAM/matrices/lduMatrix/lduMatrix/lduMatrix.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

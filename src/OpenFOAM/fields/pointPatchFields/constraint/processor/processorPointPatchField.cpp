@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorPointPatchField.H"
-#include "processorPolyPatch.H"
+#include "OpenFOAM/fields/pointPatchFields/constraint/processor/processorPointPatchField.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * //
 

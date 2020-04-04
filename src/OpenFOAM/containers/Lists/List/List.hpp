@@ -40,9 +40,9 @@ SourceFiles
 #ifndef List_H
 #define List_H
 
-#include "UList.H"
-#include "autoPtr.H"
-#include "Xfer.H"
+#include "OpenFOAM/containers/Lists/UList/UList.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/memory/Xfer/Xfer.hpp"
 #include <initializer_list>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -301,7 +301,7 @@ List<T> readList(Istream&);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ListI.H"
+#include "OpenFOAM/containers/Lists/List/ListI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

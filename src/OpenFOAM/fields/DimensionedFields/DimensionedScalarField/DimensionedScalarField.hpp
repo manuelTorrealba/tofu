@@ -35,11 +35,11 @@ SourceFiles
 #ifndef DimensionedScalarField_H
 #define DimensionedScalarField_H
 
-#include "DimensionedField.H"
-#include "scalar.H"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.hpp"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
 
 #define TEMPLATE template<class GeoMesh>
-#include "DimensionedFieldFunctionsM.H"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedFieldFunctionsM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -151,7 +151,7 @@ BesselFunc(yn)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 #ifdef NoRepository
     #include "DimensionedScalarField.C"

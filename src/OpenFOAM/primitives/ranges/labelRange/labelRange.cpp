@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "labelRange.H"
-#include "token.H"
+#include "OpenFOAM/primitives/ranges/labelRange/labelRange.hpp"
+#include "OpenFOAM/db/IOstreams/token/token.hpp"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

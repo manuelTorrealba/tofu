@@ -33,9 +33,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IPstream.H"
-#include "OPstream.H"
-#include "contiguous.H"
+#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

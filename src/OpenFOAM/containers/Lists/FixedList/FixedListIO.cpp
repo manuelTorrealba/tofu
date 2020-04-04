@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FixedList.H"
-#include "Istream.H"
-#include "Ostream.H"
-#include "token.H"
-#include "contiguous.H"
+#include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Istream.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Ostream.hpp"
+#include "OpenFOAM/db/IOstreams/token/token.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
 
 // * * * * * * * * * * * * * * * IOstream Operators  * * * * * * * * * * * * //
 

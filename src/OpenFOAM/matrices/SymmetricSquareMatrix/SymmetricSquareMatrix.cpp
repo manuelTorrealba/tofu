@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SymmetricSquareMatrix.H"
+#include "OpenFOAM/matrices/SymmetricSquareMatrix/SymmetricSquareMatrix.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

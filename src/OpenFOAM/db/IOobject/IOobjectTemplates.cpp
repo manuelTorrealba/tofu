@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOobject.H"
-#include "fileOperation.H"
-#include "Istream.H"
-#include "IOstreams.H"
-#include "Pstream.H"
+#include "OpenFOAM/db/IOobject/IOobject.hpp"
+#include "OpenFOAM/global/fileOperations/fileOperation/fileOperation.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Istream.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

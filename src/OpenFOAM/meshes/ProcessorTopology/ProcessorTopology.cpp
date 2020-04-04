@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ProcessorTopology.H"
-#include "ListOps.H"
-#include "Pstream.H"
-#include "commSchedule.H"
-#include "boolList.H"
+#include "OpenFOAM/meshes/ProcessorTopology/ProcessorTopology.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/meshes/ProcessorTopology/commSchedule.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

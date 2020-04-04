@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "pTraits.H"
-#include "Swap.H"
+#include "OpenFOAM/db/error/error.hpp"
+#include "OpenFOAM/primitives/pTraits/pTraits.hpp"
+#include "OpenFOAM/primitives/Swap/Swap.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

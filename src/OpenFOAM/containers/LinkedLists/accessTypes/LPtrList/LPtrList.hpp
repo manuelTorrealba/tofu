@@ -36,7 +36,7 @@ SourceFiles
 #ifndef LPtrList_H
 #define LPtrList_H
 
-#include "LList.H"
+#include "OpenFOAM/containers/LinkedLists/accessTypes/LList/LList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -42,7 +42,7 @@ SourceFiles
 #ifndef globalIndex_H
 #define globalIndex_H
 
-#include "Pstream.H"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -262,7 +262,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "globalIndexI.H"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndexI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

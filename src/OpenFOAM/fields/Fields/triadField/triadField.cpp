@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triadField.H"
-#include "transformField.H"
+#include "OpenFOAM/fields/Fields/triadField/triadField.hpp"
+#include "OpenFOAM/fields/Fields/transformField/transformField.hpp"
 
 #define TEMPLATE
 #include "FieldFunctionsM.C"
@@ -41,6 +41,6 @@ namespace Foam
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // ************************************************************************* //

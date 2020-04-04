@@ -39,8 +39,8 @@ SourceFiles
 #ifndef Pstream_H
 #define Pstream_H
 
-#include "UPstream.H"
-#include "DynamicList.H"
+#include "OpenFOAM/db/IOstreams/Pstreams/UPstream.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

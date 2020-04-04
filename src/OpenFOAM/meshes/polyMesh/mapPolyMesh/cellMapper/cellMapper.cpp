@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellMapper.H"
-#include "demandDrivenData.H"
-#include "polyMesh.H"
-#include "mapPolyMesh.H"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/cellMapper/cellMapper.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

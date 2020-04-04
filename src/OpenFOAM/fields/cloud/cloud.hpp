@@ -35,7 +35,7 @@ SourceFiles
 #ifndef cloud_H
 #define cloud_H
 
-#include "objectRegistry.H"
+#include "OpenFOAM/db/objectRegistry/objectRegistry.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

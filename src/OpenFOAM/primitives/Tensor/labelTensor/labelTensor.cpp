@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "labelTensor.H"
+#include "OpenFOAM/primitives/Tensor/labelTensor/labelTensor.hpp"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

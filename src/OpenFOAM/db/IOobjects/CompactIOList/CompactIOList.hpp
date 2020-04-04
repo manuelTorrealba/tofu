@@ -39,8 +39,8 @@ SourceFiles
 #ifndef CompactIOList_H
 #define CompactIOList_H
 
-#include "IOList.H"
-#include "regIOobject.H"
+#include "OpenFOAM/db/IOobjects/IOList/IOList.hpp"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

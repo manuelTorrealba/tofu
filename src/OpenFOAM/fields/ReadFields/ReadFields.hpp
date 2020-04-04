@@ -35,10 +35,10 @@ SourceFiles
 #ifndef ReadFields_H
 #define ReadFields_H
 
-#include "PtrList.H"
-#include "wordList.H"
-#include "HashSet.H"
-#include "LIFOStack.H"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "OpenFOAM/primitives/strings/lists/wordList.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/containers/LinkedLists/user/LIFOStack.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

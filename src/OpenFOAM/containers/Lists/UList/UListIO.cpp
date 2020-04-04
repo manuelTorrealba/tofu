@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UList.H"
-#include "Ostream.H"
-#include "token.H"
-#include "SLList.H"
-#include "contiguous.H"
+#include "OpenFOAM/containers/Lists/UList/UList.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Ostream.hpp"
+#include "OpenFOAM/db/IOstreams/token/token.hpp"
+#include "OpenFOAM/containers/LinkedLists/user/SLList.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
 
 // * * * * * * * * * * * * * * * Ostream Operator *  * * * * * * * * * * * * //
 

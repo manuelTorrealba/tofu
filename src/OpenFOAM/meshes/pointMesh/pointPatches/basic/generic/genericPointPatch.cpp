@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "genericPointPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/meshes/pointMesh/pointPatches/basic/generic/genericPointPatch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -42,11 +42,11 @@ SourceFiles
 #ifndef UList_H
 #define UList_H
 
-#include "bool.H"
-#include "label.H"
-#include "uLabel.H"
-#include "nullObject.H"
-#include "zero.H"
+#include "OpenFOAM/primitives/bools/bool/bool.hpp"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/primitives/ints/uLabel/uLabel.hpp"
+#include "OpenFOAM/primitives/nullObject/nullObject.hpp"
+#include "OpenFOAM/primitives/zero/zero.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -413,7 +413,7 @@ inline void reverse(UList<T>&);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "UListI.H"
+#include "OpenFOAM/containers/Lists/UList/UListI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

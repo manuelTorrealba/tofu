@@ -34,8 +34,8 @@ SourceFiles
 #ifndef simpleObjectRegistry_H
 #define simpleObjectRegistry_H
 
-#include "Dictionary.H"
-#include "simpleRegIOobject.H"
+#include "OpenFOAM/containers/Dictionaries/Dictionary/Dictionary.hpp"
+#include "OpenFOAM/global/debug/simpleRegIOobject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

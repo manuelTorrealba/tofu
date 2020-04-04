@@ -32,8 +32,8 @@ Description
 #ifndef cellList_H
 #define cellList_H
 
-#include "cell.H"
-#include "List.H"
+#include "OpenFOAM/meshes/meshShapes/cell/cell.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

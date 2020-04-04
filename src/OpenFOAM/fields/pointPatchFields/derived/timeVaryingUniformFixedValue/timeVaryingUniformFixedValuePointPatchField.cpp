@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "timeVaryingUniformFixedValuePointPatchField.H"
-#include "Time.H"
+#include "OpenFOAM/fields/pointPatchFields/derived/timeVaryingUniformFixedValue/timeVaryingUniformFixedValuePointPatchField.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -23,9 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "functionEntry.H"
-#include "IOstreams.H"
-#include "ISstream.H"
+#include "OpenFOAM/db/dictionary/functionEntries/functionEntry/functionEntry.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
+#include "OpenFOAM/db/IOstreams/Sstreams/ISstream.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

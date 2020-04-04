@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMesh.H"
-#include "polyMeshTools.H"
-#include "unitConversion.H"
-#include "syncTools.H"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMeshCheck/polyMeshTools.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

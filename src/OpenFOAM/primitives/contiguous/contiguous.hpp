@@ -35,7 +35,7 @@ Description
 #ifndef contiguous_H
 #define contiguous_H
 
-#include "int.H"
+#include "OpenFOAM/primitives/ints/int/int.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

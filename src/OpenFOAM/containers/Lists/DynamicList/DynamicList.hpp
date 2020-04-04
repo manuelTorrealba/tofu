@@ -43,7 +43,7 @@ SourceFiles
 #ifndef DynamicList_H
 #define DynamicList_H
 
-#include "List.H"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
 #include <type_traits>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -261,7 +261,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DynamicListI.H"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicListI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

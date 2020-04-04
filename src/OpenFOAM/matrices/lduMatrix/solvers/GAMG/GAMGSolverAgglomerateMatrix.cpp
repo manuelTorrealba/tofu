@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GAMGSolver.H"
-#include "GAMGInterfaceField.H"
-#include "processorLduInterfaceField.H"
-#include "processorGAMGInterfaceField.H"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGSolver.hpp"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaceFields/GAMGInterfaceField/GAMGInterfaceField.hpp"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterfaceFields/processorLduInterfaceField/processorLduInterfaceField.hpp"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaceFields/processorGAMGInterfaceField/processorGAMGInterfaceField.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellShapeIOList.H"
+#include "OpenFOAM/meshes/meshShapes/cellShape/cellShapeIOList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

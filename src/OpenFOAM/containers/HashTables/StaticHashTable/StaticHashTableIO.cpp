@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "StaticHashTable.H"
-#include "Istream.H"
-#include "Ostream.H"
+#include "OpenFOAM/containers/HashTables/StaticHashTable/StaticHashTable.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Istream.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Ostream.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

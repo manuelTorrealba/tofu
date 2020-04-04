@@ -35,7 +35,8 @@ SourceFiles
 #ifndef spatialVector_H
 #define spatialVector_H
 
-#include "SpatialVector.H"
+#include "OpenFOAM/primitives/spatialVectorAlgebra/SpatialVector/SpatialVector.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

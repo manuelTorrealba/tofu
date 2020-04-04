@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "codedBase.H"
-#include "SHA1Digest.H"
-#include "dynamicCode.H"
-#include "dynamicCodeContext.H"
-#include "dlLibraryTable.H"
-#include "PstreamReduceOps.H"
-#include "OSspecific.H"
-#include "regIOobject.H"
+#include "OpenFOAM/db/dynamicLibrary/codedBase/codedBase.hpp"
+#include "OpenFOAM/primitives/hashes/SHA1/SHA1Digest.hpp"
+#include "OpenFOAM/db/dynamicLibrary/dynamicCode/dynamicCode.hpp"
+#include "OpenFOAM/db/dynamicLibrary/dynamicCode/dynamicCodeContext.hpp"
+#include "OpenFOAM/db/dynamicLibrary/dlLibraryTable/dlLibraryTable.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
+#include "OpenFOAM/include/OSspecific.hpp"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

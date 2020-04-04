@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "prismMatcher.H"
-#include "primitiveMesh.H"
-#include "ListOps.H"
+#include "OpenFOAM/meshes/meshShapes/cellMatcher/prismMatcher.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

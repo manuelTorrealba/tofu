@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DimensionedSphericalTensorField.H"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedSphericalTensorField/DimensionedSphericalTensorField.hpp"
 
 #define TEMPLATE template<class GeoMesh>
 #include "DimensionedFieldFunctionsM.C"
@@ -50,6 +50,6 @@ BINARY_TYPE_OPERATOR(sphericalTensor, scalar, sphericalTensor, /, '|', divide)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // ************************************************************************* //

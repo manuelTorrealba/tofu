@@ -35,7 +35,7 @@ SourceFiles
 #ifndef labelRange_H
 #define labelRange_H
 
-#include "label.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -212,7 +212,7 @@ private:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "labelRangeI.H"
+#include "OpenFOAM/primitives/ranges/labelRange/labelRangeI.hpp"
 
 #endif
 

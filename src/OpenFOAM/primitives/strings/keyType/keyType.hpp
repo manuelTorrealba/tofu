@@ -38,7 +38,7 @@ SourceFiles
 #ifndef keyType_H
 #define keyType_H
 
-#include "word.H"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -149,7 +149,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "keyTypeI.H"
+#include "OpenFOAM/primitives/strings/keyType/keyTypeI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

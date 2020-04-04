@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "splineInterpolationWeights.H"
-#include "addToRunTimeSelectionTable.H"
-#include "ListOps.H"
-#include "linearInterpolationWeights.H"
+#include "OpenFOAM/interpolations/interpolationWeights/splineInterpolationWeights/splineInterpolationWeights.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "OpenFOAM/interpolations/interpolationWeights/linearInterpolationWeights/linearInterpolationWeights.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,8 +36,8 @@ SourceFiles
 #ifndef OSstream_H
 #define OSstream_H
 
-#include "Ostream.H"
-#include "fileName.H"
+#include "OpenFOAM/db/IOstreams/IOstreams/Ostream.hpp"
+#include "OpenFOAM/primitives/strings/fileName/fileName.hpp"
 #include <iostream>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -204,7 +204,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "OSstreamI.H"
+#include "OpenFOAM/db/IOstreams/Sstreams/OSstreamI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

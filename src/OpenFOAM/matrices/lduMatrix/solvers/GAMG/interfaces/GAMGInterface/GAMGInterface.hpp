@@ -36,9 +36,9 @@ SourceFiles
 #ifndef GAMGInterface_H
 #define GAMGInterface_H
 
-#include "autoPtr.H"
-#include "lduInterfacePtrsList.H"
-#include "GAMGAgglomeration.H"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/lduInterfacePtrsList.hpp"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/GAMGAgglomeration/GAMGAgglomeration.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -34,7 +34,7 @@ SourceFiles
 #ifndef dummyIstream_H
 #define dummyIstream_H
 
-#include "Istream.H"
+#include "OpenFOAM/db/IOstreams/IOstreams/Istream.hpp"
 //#include <sstream>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -36,8 +36,8 @@ SourceFiles
 #ifndef SolverPerformance_H
 #define SolverPerformance_H
 
-#include "word.H"
-#include "FixedList.H"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

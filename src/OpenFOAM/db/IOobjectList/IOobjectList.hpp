@@ -35,9 +35,9 @@ SourceFiles
 #ifndef IOobjectList_H
 #define IOobjectList_H
 
-#include "HashPtrTable.H"
-#include "IOobject.H"
-#include "wordReList.H"
+#include "OpenFOAM/containers/HashTables/HashPtrTable/HashPtrTable.hpp"
+#include "OpenFOAM/db/IOobject/IOobject.hpp"
+#include "OpenFOAM/primitives/strings/lists/wordReList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "simpleMatrix.H"
+#include "OpenFOAM/matrices/simpleMatrix/simpleMatrix.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

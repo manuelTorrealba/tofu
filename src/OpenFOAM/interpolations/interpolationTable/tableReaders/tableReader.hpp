@@ -35,15 +35,15 @@ SourceFiles
 #ifndef tableReader_H
 #define tableReader_H
 
-#include "fileName.H"
-#include "wordList.H"
-#include "vector.H"
-#include "tensor.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
-#include "autoPtr.H"
-#include "dictionary.H"
-#include "Tuple2.H"
+#include "OpenFOAM/primitives/strings/fileName/fileName.hpp"
+#include "OpenFOAM/primitives/strings/lists/wordList.hpp"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/primitives/Tensor/tensor/tensor.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

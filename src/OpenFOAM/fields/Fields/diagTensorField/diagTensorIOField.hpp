@@ -32,8 +32,8 @@ Description
 #ifndef diagTensorIOField_H
 #define diagTensorIOField_H
 
-#include "diagTensorField.H"
-#include "IOField.H"
+#include "OpenFOAM/fields/Fields/diagTensorField/diagTensorField.hpp"
+#include "OpenFOAM/db/IOobjects/IOField/IOField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

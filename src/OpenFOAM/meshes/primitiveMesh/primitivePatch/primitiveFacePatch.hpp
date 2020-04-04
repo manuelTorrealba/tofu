@@ -32,10 +32,10 @@ Description
 #ifndef primitiveFacePatch_H
 #define primitiveFacePatch_H
 
-#include "PrimitivePatch.H"
-#include "face.H"
-#include "List.H"
-#include "pointField.H"
+#include "OpenFOAM/meshes/primitiveMesh/PrimitivePatchN/PrimitivePatch.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/face.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,9 +35,9 @@ SourceFiles
 #ifndef doubleScalar_H
 #define doubleScalar_H
 
-#include "doubleFloat.H"
-#include "direction.H"
-#include "word.H"
+#include "OpenFOAM/primitives/Scalar/doubleFloat.hpp"
+#include "OpenFOAM/primitives/direction/direction.hpp"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
 
 #include <limits>
 using std::numeric_limits;
@@ -117,7 +117,7 @@ inline Scalar func(const Scalar s) \
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "Scalar.H"
+#include "OpenFOAM/primitives/Scalar/Scalar.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

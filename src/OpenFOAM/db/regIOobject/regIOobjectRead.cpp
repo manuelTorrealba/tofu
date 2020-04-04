@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regIOobject.H"
-#include "IFstream.H"
-#include "Time.H"
-#include "Pstream.H"
-#include "HashSet.H"
-#include "fileOperation.H"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/global/fileOperations/fileOperation/fileOperation.hpp"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

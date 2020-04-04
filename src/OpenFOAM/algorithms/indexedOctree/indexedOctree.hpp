@@ -35,14 +35,14 @@ SourceFiles
 #ifndef indexedOctree_H
 #define indexedOctree_H
 
-#include "treeBoundBox.H"
-#include "pointIndexHit.H"
-#include "FixedList.H"
-#include "Ostream.H"
-#include "HashSet.H"
-#include "labelBits.H"
-#include "PackedList.H"
-#include "volumeType.H"
+#include "OpenFOAM/meshes/treeBoundBox/treeBoundBox.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/pointIndexHit.hpp"
+#include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Ostream.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/labelBits.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedList.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/volumeType.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

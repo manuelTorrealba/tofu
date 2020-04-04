@@ -23,19 +23,19 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Constant.H"
-#include "Uniform.H"
-#include "ZeroConstant.H"
-#include "OneConstant.H"
-#include "PolynomialEntry.H"
-#include "Sine.H"
-#include "Square.H"
-#include "CSV.H"
-#include "Table.H"
-#include "TableFile.H"
-#include "Scale.H"
+#include "OpenFOAM/primitives/functions/Function1/Constant/Constant.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Uniform/Uniform.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Zero/ZeroConstant.hpp"
+#include "OpenFOAM/primitives/functions/Function1/One/OneConstant.hpp"
+#include "OpenFOAM/primitives/functions/Function1/PolynomialEntry/PolynomialEntry.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Sine/Sine.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Square/Square.hpp"
+#include "OpenFOAM/primitives/functions/Function1/CSV/CSV.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Table/Table.hpp"
+#include "OpenFOAM/primitives/functions/Function1/TableFile/TableFile.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Scale/Scale.hpp"
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

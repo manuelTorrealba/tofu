@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GAMGSolver.H"
-#include "GAMGInterface.H"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGSolver.hpp"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaces/GAMGInterface/GAMGInterface.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

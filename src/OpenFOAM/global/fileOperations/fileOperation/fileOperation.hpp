@@ -29,16 +29,16 @@ Class
 #ifndef fileOperation_H
 #define fileOperation_H
 
-#include "ISstream.H"
-#include "Ostream.H"
-#include "autoPtr.H"
-#include "fileNameList.H"
-#include "instantList.H"
-#include "fileMonitor.H"
-#include "labelList.H"
-#include "Switch.H"
-#include "tmpNrc.H"
-#include "NamedEnum.H"
+#include "OpenFOAM/db/IOstreams/Sstreams/ISstream.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Ostream.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/primitives/strings/lists/fileNameList.hpp"
+#include "OpenFOAM/db/Time/instant/instantList.hpp"
+#include "OSspecific/POSIX/fileMonitor.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
+#include "OpenFOAM/memory/tmpNrc/tmpNrc.hpp"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

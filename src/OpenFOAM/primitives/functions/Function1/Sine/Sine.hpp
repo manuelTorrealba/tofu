@@ -75,7 +75,7 @@ SourceFiles
 #ifndef Sine_H
 #define Sine_H
 
-#include "Function1.H"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -160,7 +160,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SineI.H"
+#include "OpenFOAM/primitives/functions/Function1/Sine/SineI.hpp"
 
 #ifdef NoRepository
     #include "Sine.C"

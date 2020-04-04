@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GeometricSphericalTensorField.H"
+#include "OpenFOAM/fields/GeometricFields/GeometricSphericalTensorField/GeometricSphericalTensorField.hpp"
 
 #define TEMPLATE template<template<class> class PatchField, class GeoMesh>
 #include "GeometricFieldFunctionsM.C"
@@ -50,6 +50,6 @@ BINARY_TYPE_OPERATOR(sphericalTensor, scalar, sphericalTensor, /, '|', divide)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // ************************************************************************* //

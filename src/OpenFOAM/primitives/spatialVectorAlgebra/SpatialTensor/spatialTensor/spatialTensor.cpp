@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "spatialTensor.H"
+#include "OpenFOAM/primitives/spatialVectorAlgebra/SpatialTensor/spatialTensor/spatialTensor.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

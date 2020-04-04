@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchTools.H"
+#include "OpenFOAM/meshes/primitiveMesh/PatchTools/PatchTools.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

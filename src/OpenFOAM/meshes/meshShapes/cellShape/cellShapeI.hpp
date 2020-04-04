@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Istream.H"
-#include "cell.H"
-#include "cellModeller.H"
+#include "OpenFOAM/db/IOstreams/IOstreams/Istream.hpp"
+#include "OpenFOAM/meshes/meshShapes/cell/cell.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellModeller/cellModeller.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

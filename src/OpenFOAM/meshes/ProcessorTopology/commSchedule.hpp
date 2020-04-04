@@ -50,9 +50,9 @@ SourceFiles
 #ifndef commSchedule_H
 #define commSchedule_H
 
-#include "DynamicList.H"
-#include "labelPair.H"
-#include "labelList.H"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/primitives/Pair/labelPair.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

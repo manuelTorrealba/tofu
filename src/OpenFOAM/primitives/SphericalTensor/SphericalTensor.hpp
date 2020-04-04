@@ -37,7 +37,7 @@ SourceFiles
 #ifndef SphericalTensor_H
 #define SphericalTensor_H
 
-#include "VectorSpace.H"
+#include "OpenFOAM/primitives/VectorSpace/VectorSpace.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -119,7 +119,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Include inline implementations
-#include "SphericalTensorI.H"
+#include "OpenFOAM/primitives/SphericalTensor/SphericalTensorI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

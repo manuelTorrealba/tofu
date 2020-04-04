@@ -32,9 +32,9 @@ Description
 #ifndef labelFieldIOField_H
 #define labelFieldIOField_H
 
-#include "labelField.H"
-#include "IOField.H"
-#include "CompactIOField.H"
+#include "OpenFOAM/fields/Fields/labelField/labelField.hpp"
+#include "OpenFOAM/db/IOobjects/IOField/IOField.hpp"
+#include "OpenFOAM/db/IOobjects/CompactIOField/CompactIOField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

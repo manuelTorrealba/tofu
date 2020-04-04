@@ -34,8 +34,8 @@ SourceFiles
 #ifndef uniformDimensionedFields_H
 #define uniformDimensionedFields_H
 
-#include "UniformDimensionedField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/UniformDimensionedFields/UniformDimensionedField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

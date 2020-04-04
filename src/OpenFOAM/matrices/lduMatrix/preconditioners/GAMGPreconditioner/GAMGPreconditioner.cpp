@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GAMGPreconditioner.H"
+#include "OpenFOAM/matrices/lduMatrix/preconditioners/GAMGPreconditioner/GAMGPreconditioner.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

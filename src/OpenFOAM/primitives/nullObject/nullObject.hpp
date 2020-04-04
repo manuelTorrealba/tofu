@@ -101,7 +101,7 @@ inline bool notNull(const T* t);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "nullObjectI.H"
+#include "OpenFOAM/primitives/nullObject/nullObjectI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

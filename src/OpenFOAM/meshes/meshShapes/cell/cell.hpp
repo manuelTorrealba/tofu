@@ -35,8 +35,8 @@ SourceFiles
 #ifndef cell_H
 #define cell_H
 
-#include "faceList.H"
-#include "oppositeFace.H"
+#include "OpenFOAM/meshes/meshShapes/face/faceList.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/oppositeFace.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -141,7 +141,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cellI.H"
+#include "OpenFOAM/meshes/meshShapes/cell/cellI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

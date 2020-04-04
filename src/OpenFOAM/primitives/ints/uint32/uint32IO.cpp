@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uint32.H"
-#include "IOstreams.H"
+#include "OpenFOAM/primitives/ints/uint32/uint32.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 #include <sstream>
 

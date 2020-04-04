@@ -38,9 +38,9 @@ SourceFiles
 #ifndef DimensionedField_H
 #define DimensionedField_H
 
-#include "regIOobject.H"
-#include "Field.H"
-#include "dimensionedType.H"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedType/dimensionedType.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -359,8 +359,8 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DimensionedFieldI.H"
-#include "DimensionedFieldFunctions.H"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedFieldI.hpp"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedFieldFunctions.hpp"
 
 #ifdef NoRepository
     #include "DimensionedField.C"

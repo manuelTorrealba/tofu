@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GeometricSymmTensorField.H"
-#include "symmTensorFieldField.H"
+#include "OpenFOAM/fields/GeometricFields/GeometricSymmTensorField/GeometricSymmTensorField.hpp"
+#include "OpenFOAM/fields/FieldFields/symmTensorFieldField/symmTensorFieldField.hpp"
 
 #define TEMPLATE template<template<class> class PatchField, class GeoMesh>
 #include "GeometricFieldFunctionsM.C"
@@ -64,6 +64,6 @@ BINARY_TYPE_OPERATOR(tensor, symmTensor, symmTensor, &, '&', dot)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // ************************************************************************* //

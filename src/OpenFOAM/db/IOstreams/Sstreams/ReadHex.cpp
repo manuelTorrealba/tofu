@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReadHex.H"
+#include "OpenFOAM/db/IOstreams/Sstreams/ReadHex.hpp"
 #include <cctype>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

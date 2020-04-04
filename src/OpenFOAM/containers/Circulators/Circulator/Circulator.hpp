@@ -60,7 +60,7 @@ SourceFiles
 #ifndef Circulator_H
 #define Circulator_H
 
-#include "CirculatorBase.H"
+#include "OpenFOAM/containers/Circulators/CirculatorBase/CirculatorBase.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -218,7 +218,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "CirculatorI.H"
+#include "OpenFOAM/containers/Circulators/Circulator/CirculatorI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

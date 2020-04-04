@@ -33,7 +33,7 @@ Description
 #ifndef UniformField_H
 #define UniformField_H
 
-#include "label.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -75,7 +75,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "UniformFieldI.H"
+#include "OpenFOAM/fields/Fields/uniformField/UniformFieldI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

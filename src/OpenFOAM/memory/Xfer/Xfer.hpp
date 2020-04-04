@@ -186,7 +186,7 @@ inline Xfer<To> xferMoveTo(From&);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "XferI.H"
+#include "OpenFOAM/memory/Xfer/XferI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

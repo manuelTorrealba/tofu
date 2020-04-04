@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GeometricScalarField.H"
+#include "OpenFOAM/fields/GeometricFields/GeometricScalarField/GeometricScalarField.hpp"
 
 #define TEMPLATE template<template<class> class PatchField, class GeoMesh>
 #include "GeometricFieldFunctionsM.C"
@@ -978,6 +978,6 @@ BesselFunc(yn)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // ************************************************************************* //

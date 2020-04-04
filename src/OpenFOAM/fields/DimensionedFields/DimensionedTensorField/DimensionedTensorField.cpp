@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DimensionedTensorField.H"
-#include "tensorField.H"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedTensorField/DimensionedTensorField.hpp"
+#include "OpenFOAM/fields/Fields/tensorField/tensorField.hpp"
 
 #define TEMPLATE template<class GeoMesh>
 #include "DimensionedFieldFunctionsM.C"
@@ -65,6 +65,6 @@ UNARY_OPERATOR(tensor, vector, *, hdual, transform)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // ************************************************************************* //

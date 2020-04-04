@@ -38,7 +38,7 @@ SourceFiles
 #ifndef SmoothSolver_H
 #define SmoothSolver_H
 
-#include "lduMatrix.H"
+#include "OpenFOAM/matrices/lduMatrix/lduMatrix/lduMatrix.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

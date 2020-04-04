@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "includeIfPresentEntry.H"
-#include "dictionary.H"
-#include "IFstream.H"
-#include "addToMemberFunctionSelectionTable.H"
-#include "fileOperation.H"
+#include "OpenFOAM/db/dictionary/functionEntries/includeIfPresentEntry/includeIfPresentEntry.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.hpp"
+#include "OpenFOAM/global/fileOperations/fileOperation/fileOperation.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

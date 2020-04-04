@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionFunctionObject.H"
-#include "objectRegistry.H"
+#include "OpenFOAM/db/functionObjects/regionFunctionObject/regionFunctionObject.hpp"
+#include "OpenFOAM/db/objectRegistry/objectRegistry.hpp"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

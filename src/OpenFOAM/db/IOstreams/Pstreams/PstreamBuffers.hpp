@@ -65,14 +65,14 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#include "Pstream.H"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
 
 #ifndef PstreamBuffers_H
 #define PstreamBuffers_H
 
-#include "DynamicList.H"
-#include "UPstream.H"
-#include "IOstream.H"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/UPstream.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

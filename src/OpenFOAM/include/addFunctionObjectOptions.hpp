@@ -1,4 +1,4 @@
-#include "addDictOption.H"
+#include "OpenFOAM/include/addDictOption.hpp"
 Foam::argList::addOption
 (
     "field",

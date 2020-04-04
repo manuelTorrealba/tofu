@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "treeBoundBox.H"
-#include "Random.H"
+#include "OpenFOAM/meshes/treeBoundBox/treeBoundBox.hpp"
+#include "OpenFOAM/primitives/Random/Random.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolationWeights.H"
-#include "ListOps.H"
-#include "IOobject.H"
-#include "HashSet.H"
-#include "objectRegistry.H"
+#include "OpenFOAM/interpolations/interpolationWeights/interpolationWeights/interpolationWeights.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "OpenFOAM/db/IOobject/IOobject.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/db/objectRegistry/objectRegistry.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,9 +36,9 @@ SourceFiles
 #ifndef lduInterfaceField_H
 #define lduInterfaceField_H
 
-#include "lduInterface.H"
-#include "primitiveFieldsFwd.H"
-#include "Pstream.H"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/lduInterface.hpp"
+#include "OpenFOAM/fields/Fields/primitiveFieldsFwd.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

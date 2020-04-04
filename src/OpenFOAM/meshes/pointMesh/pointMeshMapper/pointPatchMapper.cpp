@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointPatchMapper.H"
-#include "pointPatch.H"
-#include "mapPolyMesh.H"
-#include "faceMapper.H"
-#include "demandDrivenData.H"
+#include "OpenFOAM/meshes/pointMesh/pointMeshMapper/pointPatchMapper.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointPatches/pointPatch/pointPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/faceMapper/faceMapper.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

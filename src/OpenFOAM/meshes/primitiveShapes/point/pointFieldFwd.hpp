@@ -32,8 +32,8 @@ Description
 #ifndef pointFieldFwd_H
 #define pointFieldFwd_H
 
-#include "point.H"
-#include "primitiveFieldsFwd.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "OpenFOAM/fields/Fields/primitiveFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

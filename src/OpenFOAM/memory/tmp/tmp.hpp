@@ -39,8 +39,8 @@ See also
 #ifndef tmp_H
 #define tmp_H
 
-#include "refCount.H"
-#include "word.H"
+#include "OpenFOAM/memory/refCount/refCount.hpp"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -172,7 +172,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "tmpI.H"
+#include "OpenFOAM/memory/tmp/tmpI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

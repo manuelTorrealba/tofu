@@ -35,14 +35,14 @@ SourceFiles
 #ifndef tensorField_H
 #define tensorField_H
 
-#include "scalarField.H"
-#include "vectorField.H"
-#include "sphericalTensorField.H"
-#include "symmTensorField.H"
-#include "tensor.H"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/fields/Fields/vectorField/vectorField.hpp"
+#include "OpenFOAM/fields/Fields/sphericalTensorField/sphericalTensorField.hpp"
+#include "OpenFOAM/fields/Fields/symmTensorField/symmTensorField.hpp"
+#include "OpenFOAM/primitives/Tensor/tensor/tensor.hpp"
 
 #define TEMPLATE
-#include "FieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/FieldFunctionsM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -85,7 +85,7 @@ BINARY_TYPE_OPERATOR(vector, vector, tensor, /, divide)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

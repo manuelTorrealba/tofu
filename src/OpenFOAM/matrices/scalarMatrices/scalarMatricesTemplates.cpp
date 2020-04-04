@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "scalarMatrices.H"
-#include "Swap.H"
-#include "ListOps.H"
+#include "OpenFOAM/matrices/scalarMatrices/scalarMatrices.hpp"
+#include "OpenFOAM/primitives/Swap/Swap.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

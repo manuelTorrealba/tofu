@@ -29,7 +29,7 @@ Description
 #ifndef className_H
 #define className_H
 
-#include "defineDebugSwitch.H"
+#include "OpenFOAM/global/debug/defineDebugSwitch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Declarations (without debug information)

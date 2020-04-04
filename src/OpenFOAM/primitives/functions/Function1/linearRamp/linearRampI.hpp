@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearRamp.H"
+#include "OpenFOAM/primitives/functions/Function1/linearRamp/linearRamp.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

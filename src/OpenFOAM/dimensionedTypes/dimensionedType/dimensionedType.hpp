@@ -35,10 +35,10 @@ SourceFiles
 #ifndef dimensionedType_H
 #define dimensionedType_H
 
-#include "word.H"
-#include "direction.H"
-#include "dimensionSet.H"
-#include "VectorSpace.H"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "OpenFOAM/primitives/direction/direction.hpp"
+#include "OpenFOAM/dimensionSet/dimensionSet.hpp"
+#include "OpenFOAM/primitives/VectorSpace/VectorSpace.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

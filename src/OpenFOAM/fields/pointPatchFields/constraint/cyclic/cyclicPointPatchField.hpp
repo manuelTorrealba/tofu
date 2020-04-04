@@ -35,8 +35,8 @@ SourceFiles
 #ifndef cyclicPointPatchField_H
 #define cyclicPointPatchField_H
 
-#include "coupledPointPatchField.H"
-#include "cyclicPointPatch.H"
+#include "OpenFOAM/fields/pointPatchFields/basic/coupled/coupledPointPatchField.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointPatches/constraint/cyclic/cyclicPointPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

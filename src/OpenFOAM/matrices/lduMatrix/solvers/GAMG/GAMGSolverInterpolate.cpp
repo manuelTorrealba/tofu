@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GAMGSolver.H"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGSolver.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

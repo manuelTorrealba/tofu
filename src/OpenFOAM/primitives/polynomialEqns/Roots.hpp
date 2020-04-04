@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Roots_H
 #define Roots_H
 
-#include "VectorSpace.H"
+#include "OpenFOAM/primitives/VectorSpace/VectorSpace.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -122,7 +122,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "RootsI.H"
+#include "OpenFOAM/primitives/polynomialEqns/RootsI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -48,7 +48,7 @@ SourceFiles
 #ifndef error_H
 #define error_H
 
-#include "messageStream.H"
+#include "OpenFOAM/db/error/messageStream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -369,7 +369,7 @@ extern IOerror FatalIOError;
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "errorManip.H"
+#include "OpenFOAM/db/error/errorManip.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

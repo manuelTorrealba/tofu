@@ -40,8 +40,8 @@ SourceFiles
 #ifndef baseIOdictionary_H
 #define baseIOdictionary_H
 
-#include "dictionary.H"
-#include "regIOobject.H"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

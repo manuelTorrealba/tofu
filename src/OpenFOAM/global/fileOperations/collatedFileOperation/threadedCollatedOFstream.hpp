@@ -35,7 +35,7 @@ SourceFiles
 #ifndef threadedCollatedOFstream_H
 #define threadedCollatedOFstream_H
 
-#include "OStringStream.H"
+#include "OpenFOAM/db/IOstreams/StringStreams/OStringStream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,8 +38,8 @@ See also
 #ifndef symmetryPointPatch_H
 #define symmetryPointPatch_H
 
-#include "facePointPatch.H"
-#include "symmetryPolyPatch.H"
+#include "OpenFOAM/meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/symmetry/symmetryPolyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,17 +35,17 @@ Description
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Mathematical constants
-#include "mathematicalConstants.H"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
 
 // Fundamental constants
-#include "fundamentalConstants.H"
+#include "OpenFOAM/global/constants/fundamental/fundamentalConstants.hpp"
 
 // Derived constants
-#include "universalConstants.H"
-#include "electromagneticConstants.H"
-#include "atomicConstants.H"
-#include "physicoChemicalConstants.H"
-#include "thermodynamicConstants.H"
+#include "OpenFOAM/global/constants/universal/universalConstants.hpp"
+#include "OpenFOAM/global/constants/electromagnetic/electromagneticConstants.hpp"
+#include "OpenFOAM/global/constants/atomic/atomicConstants.hpp"
+#include "OpenFOAM/global/constants/physicoChemical/physicoChemicalConstants.hpp"
+#include "OpenFOAM/global/constants/thermodynamic/thermodynamicConstants.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

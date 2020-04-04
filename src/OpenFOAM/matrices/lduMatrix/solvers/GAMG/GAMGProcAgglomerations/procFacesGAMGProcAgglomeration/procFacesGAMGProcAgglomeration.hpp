@@ -40,9 +40,9 @@ SourceFiles
 #ifndef procFacesGAMGProcAgglomeration_H
 #define procFacesGAMGProcAgglomeration_H
 
-#include "GAMGProcAgglomeration.H"
-#include "DynamicList.H"
-#include "labelField.H"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGProcAgglomerations/GAMGProcAgglomeration/GAMGProcAgglomeration.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/fields/Fields/labelField/labelField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,18 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMesh.H"
-#include "Time.H"
-#include "cellIOList.H"
-#include "wedgePolyPatch.H"
-#include "emptyPolyPatch.H"
-#include "globalMeshData.H"
-#include "processorPolyPatch.H"
-#include "polyMeshTetDecomposition.H"
-#include "indexedOctree.H"
-#include "treeDataCell.H"
-#include "MeshObject.H"
-#include "pointMesh.H"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/meshes/meshShapes/cell/cellIOList.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/indexedOctree.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/treeDataCell.hpp"
+#include "OpenFOAM/meshes/MeshObject/MeshObject.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointMesh.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

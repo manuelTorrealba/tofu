@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "globalIOLists.H"
+#include "OpenFOAM/db/IOobjects/GlobalIOList/globalIOLists.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

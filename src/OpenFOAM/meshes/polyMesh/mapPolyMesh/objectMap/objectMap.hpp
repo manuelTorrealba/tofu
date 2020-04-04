@@ -36,7 +36,7 @@ SourceFiles
 #ifndef objectMap_H
 #define objectMap_H
 
-#include "labelList.H"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -112,7 +112,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "objectMapI.H"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/objectMap/objectMapI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

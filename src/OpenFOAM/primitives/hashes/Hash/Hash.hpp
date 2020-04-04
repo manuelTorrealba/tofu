@@ -33,12 +33,12 @@ Description
 #ifndef Hash_H
 #define Hash_H
 
-#include "label.H"
-#include "uLabel.H"
-#include "Hasher.H"
-#include "pTraits.H"
-#include "fileName.H"
-#include "wordRe.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/primitives/ints/uLabel/uLabel.hpp"
+#include "OpenFOAM/primitives/hashes/Hasher/Hasher.hpp"
+#include "OpenFOAM/primitives/pTraits/pTraits.hpp"
+#include "OpenFOAM/primitives/strings/fileName/fileName.hpp"
+#include "OpenFOAM/primitives/strings/wordRe/wordRe.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

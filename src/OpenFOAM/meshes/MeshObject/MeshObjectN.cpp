@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MeshObject.H"
-#include "objectRegistry.H"
-#include "IOstreams.H"
+#include "OpenFOAM/meshes/MeshObject/MeshObject.hpp"
+#include "OpenFOAM/db/objectRegistry/objectRegistry.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

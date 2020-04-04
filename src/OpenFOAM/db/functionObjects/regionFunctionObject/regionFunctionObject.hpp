@@ -39,7 +39,7 @@ SourceFiles
 #ifndef functionObjects_regionFunctionObject_H
 #define functionObjects_regionFunctionObject_H
 
-#include "functionObject.H"
+#include "OpenFOAM/db/functionObjects/functionObject/functionObject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

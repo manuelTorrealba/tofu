@@ -38,8 +38,8 @@ Description
 #ifndef scalarList_H
 #define scalarList_H
 
-#include "scalar.H"
-#include "List.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

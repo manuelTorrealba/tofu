@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "tensorFieldField.H"
+#include "OpenFOAM/fields/FieldFields/tensorFieldField/tensorFieldField.hpp"
 
 #define TEMPLATE template<template<class> class Field>
 #include "FieldFieldFunctionsM.C"
@@ -70,6 +70,6 @@ BINARY_TYPE_OPERATOR(vector, vector, tensor, /, divide)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // ************************************************************************* //

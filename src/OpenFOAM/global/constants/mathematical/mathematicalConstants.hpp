@@ -32,7 +32,7 @@ Description
 #ifndef mathematicalConstants_H
 #define mathematicalConstants_H
 
-#include "scalar.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

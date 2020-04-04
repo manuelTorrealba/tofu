@@ -34,10 +34,10 @@ SourceFiles
 #ifndef labelBits_H
 #define labelBits_H
 
-#include "label.H"
-//#include "uLabel.H"
-#include "direction.H"
-#include "error.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/primitives/ints/uLabel/uLabel.hpp"
+#include "OpenFOAM/primitives/direction/direction.hpp"
+#include "OpenFOAM/db/error/error.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

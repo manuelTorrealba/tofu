@@ -41,7 +41,7 @@ SourceFiles
 #ifndef UIndirectList_H
 #define UIndirectList_H
 
-#include "List.H"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -162,7 +162,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "UIndirectListI.H"
+#include "OpenFOAM/containers/Lists/UIndirectList/UIndirectListI.hpp"
 
 #ifdef NoRepository
     #include "UIndirectListIO.C"

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PtrListDictionary.H"
+#include "OpenFOAM/containers/Dictionaries/PtrListDictionary/PtrListDictionary.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

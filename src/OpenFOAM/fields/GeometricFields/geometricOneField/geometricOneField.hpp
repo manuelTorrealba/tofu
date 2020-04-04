@@ -37,9 +37,9 @@ Description
 #ifndef geometricOneField_H
 #define geometricOneField_H
 
-#include "oneFieldField.H"
-#include "dimensionSet.H"
-#include "scalar.H"
+#include "OpenFOAM/fields/FieldFields/oneFieldField/oneFieldField.hpp"
+#include "OpenFOAM/dimensionSet/dimensionSet.hpp"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -134,7 +134,7 @@ inline const geometricOneField::Internal& operator/
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "geometricOneFieldI.H"
+#include "OpenFOAM/fields/GeometricFields/geometricOneField/geometricOneFieldI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

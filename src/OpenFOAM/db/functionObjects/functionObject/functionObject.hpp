@@ -118,10 +118,10 @@ SourceFiles
 #ifndef functionObject_H
 #define functionObject_H
 
-#include "typeInfo.H"
-#include "autoPtr.H"
-#include "Switch.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

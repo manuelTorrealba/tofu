@@ -37,7 +37,7 @@ SourceFiles
 #ifndef flipOp_H
 #define flipOp_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

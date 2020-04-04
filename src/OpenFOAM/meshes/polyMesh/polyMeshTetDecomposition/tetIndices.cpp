@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tetIndices.H"
+#include "OpenFOAM/meshes/polyMesh/polyMeshTetDecomposition/tetIndices.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

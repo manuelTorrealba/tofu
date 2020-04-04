@@ -32,8 +32,8 @@ Description
 #ifndef pointIndexHitIOList_H
 #define pointIndexHitIOList_H
 
-#include "pointIndexHit.H"
-#include "IOList.H"
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/pointIndexHit.hpp"
+#include "OpenFOAM/db/IOobjects/IOList/IOList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

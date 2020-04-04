@@ -35,7 +35,7 @@ SourceFiles
 #ifndef linearEqn_H
 #define linearEqn_H
 
-#include "Roots.H"
+#include "OpenFOAM/primitives/polynomialEqns/Roots.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -98,7 +98,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "linearEqnI.H"
+#include "OpenFOAM/primitives/polynomialEqns/linearEqn/linearEqnI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

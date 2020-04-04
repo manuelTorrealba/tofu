@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellMatcher.H"
+#include "OpenFOAM/meshes/meshShapes/cellMatcher/cellMatcher.hpp"
 
-#include "primitiveMesh.H"
-#include "Map.H"
-#include "faceList.H"
-#include "labelList.H"
-#include "ListOps.H"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/faceList.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

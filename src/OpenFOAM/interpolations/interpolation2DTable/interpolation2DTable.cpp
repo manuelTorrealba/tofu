@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-//#include "IFstream.H"
-#include "openFoamTableReader.H"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/interpolations/interpolationTable/tableReaders/openFoam/openFoamTableReader.hpp"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

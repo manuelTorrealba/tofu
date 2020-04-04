@@ -40,11 +40,11 @@ SourceFiles
 #ifndef interpolationLookUpTable_H
 #define interpolationLookUpTable_H
 
-#include "List.H"
-#include "ListOps.H"
-#include "scalarField.H"
-#include "HashTable.H"
-#include "IOdictionary.H"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -218,7 +218,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "interpolationLookUpTableI.H"
+#include "OpenFOAM/interpolations/interpolationLookUpTable/interpolationLookUpTableI.hpp"
 
 #ifdef NoRepository
     #include "interpolationLookUpTable.C"

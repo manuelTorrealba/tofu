@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "jobInfo.H"
-#include "OSspecific.H"
-#include "clock.H"
-#include "OFstream.H"
-#include "Pstream.H"
+#include "OpenFOAM/global/jobInfo/jobInfo.hpp"
+#include "OpenFOAM/include/OSspecific.hpp"
+#include "OpenFOAM/global/clock/clock.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

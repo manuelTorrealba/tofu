@@ -23,13 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "codeStream.H"
-#include "addToMemberFunctionSelectionTable.H"
-#include "IStringStream.H"
-#include "OStringStream.H"
-#include "dynamicCode.H"
-#include "dynamicCodeContext.H"
-#include "Time.H"
+#include "OpenFOAM/db/dictionary/functionEntries/codeStream/codeStream.hpp"
+#include "OpenFOAM/db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.hpp"
+#include "OpenFOAM/db/IOstreams/StringStreams/IStringStream.hpp"
+#include "OpenFOAM/db/IOstreams/StringStreams/OStringStream.hpp"
+#include "OpenFOAM/db/dynamicLibrary/dynamicCode/dynamicCode.hpp"
+#include "OpenFOAM/db/dynamicLibrary/dynamicCode/dynamicCodeContext.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/global/argList/argList.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

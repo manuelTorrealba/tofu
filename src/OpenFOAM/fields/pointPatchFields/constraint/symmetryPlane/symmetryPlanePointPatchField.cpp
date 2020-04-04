@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "symmetryPlanePointPatchField.H"
+#include "OpenFOAM/fields/pointPatchFields/constraint/symmetryPlane/symmetryPlanePointPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dimensionSet.H"
-#include "dimensionedScalar.H"
-#include "simpleRegIOobject.H"
-#include "demandDrivenData.H"
+#include "OpenFOAM/dimensionSet/dimensionSet.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.hpp"
+#include "OpenFOAM/global/debug/simpleRegIOobject.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

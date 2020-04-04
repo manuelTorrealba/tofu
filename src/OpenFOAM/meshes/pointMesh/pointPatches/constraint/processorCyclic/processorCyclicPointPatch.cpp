@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorCyclicPointPatch.H"
-#include "pointBoundaryMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/meshes/pointMesh/pointPatches/constraint/processorCyclic/processorCyclicPointPatch.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointBoundaryMesh/pointBoundaryMesh.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

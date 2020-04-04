@@ -35,8 +35,8 @@ SourceFiles
 #ifndef GAMGProcAgglomeration_H
 #define GAMGProcAgglomeration_H
 
-#include "runTimeSelectionTables.H"
-#include "labelList.H"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LUscalarMatrix.H"
-#include "SubField.H"
+#include "OpenFOAM/matrices/LUscalarMatrix/LUscalarMatrix.hpp"
+#include "OpenFOAM/fields/Fields/Field/SubField.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

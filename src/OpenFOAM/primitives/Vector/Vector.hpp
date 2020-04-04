@@ -41,7 +41,7 @@ SourceFiles
 #ifndef Vector_H
 #define Vector_H
 
-#include "VectorSpace.H"
+#include "OpenFOAM/primitives/VectorSpace/VectorSpace.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -139,7 +139,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "VectorI.H"
+#include "OpenFOAM/primitives/Vector/VectorI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

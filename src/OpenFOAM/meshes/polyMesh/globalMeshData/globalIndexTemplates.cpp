@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "globalIndex.H"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

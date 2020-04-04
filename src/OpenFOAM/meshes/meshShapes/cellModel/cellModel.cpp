@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellModel.H"
-#include "pyramid.H"
+#include "OpenFOAM/meshes/meshShapes/cellModel/cellModel.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/pyramid/pyramid.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

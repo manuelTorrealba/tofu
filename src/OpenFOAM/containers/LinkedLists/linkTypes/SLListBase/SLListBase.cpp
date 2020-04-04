@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "SLListBase.H"
+#include "OpenFOAM/db/error/error.hpp"
+#include "OpenFOAM/containers/LinkedLists/linkTypes/SLListBase/SLListBase.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

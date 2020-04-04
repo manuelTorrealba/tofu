@@ -26,9 +26,9 @@ License
 #ifndef StaticHashTable_C
 #define StaticHashTable_C
 
-#include "StaticHashTable.H"
-#include "List.H"
-#include "IOstreams.H"
+#include "OpenFOAM/containers/HashTables/StaticHashTable/StaticHashTable.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

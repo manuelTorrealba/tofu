@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyBoundaryMesh.H"
-#include "polyMesh.H"
-#include "primitiveMesh.H"
-#include "processorPolyPatch.H"
-#include "stringListOps.H"
-#include "PstreamBuffers.H"
-#include "lduSchedule.H"
-#include "globalMeshData.H"
-#include "stringListOps.H"
+#include "OpenFOAM/meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.hpp"
+#include "OpenFOAM/primitives/strings/lists/stringListOps.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamBuffers.hpp"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduSchedule/lduSchedule.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.hpp"
+#include "OpenFOAM/primitives/strings/lists/stringListOps.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "quaternionField.H"
+#include "OpenFOAM/fields/Fields/quaternionField/quaternionField.hpp"
 
 #define TEMPLATE
 #include "FieldFunctionsM.C"
@@ -40,6 +40,6 @@ namespace Foam
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // ************************************************************************* //

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PCICG.H"
-#include "PBiCCCG.H"
-#include "PBiCICG.H"
-#include "SmoothSolver.H"
-#include "fieldTypes.H"
+#include "OpenFOAM/matrices/LduMatrixN/Solvers/PCICG/PCICG.hpp"
+#include "OpenFOAM/matrices/LduMatrixN/Solvers/PBiCCCG/PBiCCCG.hpp"
+#include "OpenFOAM/matrices/LduMatrixN/Solvers/PBiCICG/PBiCICG.hpp"
+#include "OpenFOAM/matrices/LduMatrixN/Solvers/SmoothSolver/SmoothSolver.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 #define makeLduSolvers(Type, DType, LUType)                                    \
                                                                                \

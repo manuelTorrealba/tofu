@@ -40,7 +40,7 @@ SourceFiles
 #ifndef OneConstant_H
 #define OneConstant_H
 
-#include "Function1.H"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -119,7 +119,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "OneConstantI.H"
+#include "OpenFOAM/primitives/functions/Function1/One/OneConstantI.hpp"
 
 #ifdef NoRepository
     #include "OneConstant.C"

@@ -32,8 +32,8 @@ Description
 #ifndef vectorFieldIOField_H
 #define vectorFieldIOField_H
 
-#include "vectorField.H"
-#include "CompactIOField.H"
+#include "OpenFOAM/fields/Fields/vectorField/vectorField.hpp"
+#include "OpenFOAM/db/IOobjects/CompactIOField/CompactIOField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -32,12 +32,12 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#include "Pstream.H"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
 
 #ifndef IPstream_H
 #define IPstream_H
 
-#include "UIPstream.H"
+#include "OpenFOAM/db/IOstreams/Pstreams/UIPstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

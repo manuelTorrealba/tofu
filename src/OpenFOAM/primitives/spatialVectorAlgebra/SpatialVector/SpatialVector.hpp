@@ -48,7 +48,7 @@ See also
 #ifndef SpatialVector_H
 #define SpatialVector_H
 
-#include "Vector.H"
+#include "OpenFOAM/primitives/Vector/Vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -163,7 +163,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Include inline implementations
-#include "SpatialVectorI.H"
+#include "OpenFOAM/primitives/spatialVectorAlgebra/SpatialVector/SpatialVectorI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

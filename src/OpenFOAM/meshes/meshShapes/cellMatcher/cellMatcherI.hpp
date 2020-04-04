@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveMesh.H"
-#include "cellModeller.H"
-#include "cellModel.H"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellModeller/cellModeller.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellModel/cellModel.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

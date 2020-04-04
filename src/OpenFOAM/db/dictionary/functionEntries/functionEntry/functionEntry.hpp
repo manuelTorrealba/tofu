@@ -46,9 +46,9 @@ SourceFiles
 #ifndef functionEntry_H
 #define functionEntry_H
 
-#include "word.H"
-#include "memberFunctionSelectionTables.H"
-#include "primitiveEntry.H"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "OpenFOAM/db/runTimeSelection/memberFunctions/memberFunctionSelectionTables.hpp"
+#include "OpenFOAM/db/dictionary/primitiveEntry/primitiveEntry.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

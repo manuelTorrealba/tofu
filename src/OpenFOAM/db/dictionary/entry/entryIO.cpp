@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "entry.H"
-#include "primitiveEntry.H"
-#include "dictionaryEntry.H"
-#include "functionEntry.H"
-#include "includeEntry.H"
-#include "inputModeEntry.H"
-#include "stringOps.H"
-#include "dictionaryListEntry.H"
+#include "OpenFOAM/db/dictionary/entry/entry.hpp"
+#include "OpenFOAM/db/dictionary/primitiveEntry/primitiveEntry.hpp"
+#include "OpenFOAM/db/dictionary/dictionaryEntry/dictionaryEntry.hpp"
+#include "OpenFOAM/db/dictionary/functionEntries/functionEntry/functionEntry.hpp"
+#include "OpenFOAM/db/dictionary/functionEntries/includeEntry/includeEntry.hpp"
+#include "OpenFOAM/db/dictionary/functionEntries/inputModeEntry/inputModeEntry.hpp"
+#include "OpenFOAM/primitives/strings/stringOps/stringOps.hpp"
+#include "OpenFOAM/db/dictionary/dictionaryListEntry/dictionaryListEntry.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

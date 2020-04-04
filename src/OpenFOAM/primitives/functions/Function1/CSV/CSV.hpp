@@ -53,11 +53,11 @@ SourceFiles
 #ifndef CSV_H
 #define CSV_H
 
-#include "Function1.H"
-#include "TableBase.H"
-#include "Tuple2.H"
-#include "labelList.H"
-#include "ISstream.H"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Table/TableBase.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/db/IOstreams/Sstreams/ISstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

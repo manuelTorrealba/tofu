@@ -38,11 +38,11 @@ SourceFiles
 #ifndef vectorTensorTransform_H
 #define vectorTensorTransform_H
 
-#include "tensor.H"
-#include "word.H"
-#include "contiguous.H"
-#include "pointField.H"
-#include "transformField.H"
+#include "OpenFOAM/primitives/Tensor/tensor/tensor.hpp"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/fields/Fields/transformField/transformField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -258,7 +258,7 @@ inline vectorTensorTransform operator&
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "vectorTensorTransformI.H"
+#include "OpenFOAM/primitives/globalIndexAndTransform/vectorTensorTransform/vectorTensorTransformI.hpp"
 
 #ifdef NoRepository
     #include "vectorTensorTransformTemplates.C"

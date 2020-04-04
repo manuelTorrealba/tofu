@@ -29,7 +29,7 @@ Class
 #ifndef fileOperationInitialise_H
 #define fileOperationInitialise_H
 
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

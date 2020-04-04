@@ -39,7 +39,7 @@ SourceFiles
 #ifndef demandDrivenEntry_H
 #define demandDrivenEntry_H
 
-#include "dictionary.H"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -124,7 +124,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "demandDrivenEntryI.H"
+#include "OpenFOAM/primitives/demandDrivenEntry/demandDrivenEntryI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "floatTensor.H"
+#include "OpenFOAM/primitives/Tensor/floatTensor/floatTensor.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

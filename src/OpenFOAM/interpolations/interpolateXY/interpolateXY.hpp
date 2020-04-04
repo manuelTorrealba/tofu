@@ -36,8 +36,8 @@ SourceFiles
 #ifndef interpolateXY_H
 #define interpolateXY_H
 
-#include "scalar.H"
-#include "primitiveFieldsFwd.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/fields/Fields/primitiveFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

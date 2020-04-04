@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coupleGroupIdentifier.H"
+#include "OpenFOAM/meshes/Identifiers/patch/coupleGroupIdentifier.hpp"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

@@ -36,8 +36,8 @@ SourceFiles
 #ifndef Ostream_H
 #define Ostream_H
 
-#include "IOstream.H"
-#include "keyType.H"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOstream.hpp"
+#include "OpenFOAM/primitives/strings/keyType/keyType.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

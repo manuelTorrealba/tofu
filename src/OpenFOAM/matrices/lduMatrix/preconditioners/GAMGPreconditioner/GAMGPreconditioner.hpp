@@ -38,7 +38,7 @@ SourceFiles
 #ifndef GAMGPreconditioner_H
 #define GAMGPreconditioner_H
 
-#include "GAMGSolver.H"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGSolver.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

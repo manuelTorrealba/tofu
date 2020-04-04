@@ -40,7 +40,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "mathematicalConstants.H"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
 using namespace Foam::constant::mathematical;
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

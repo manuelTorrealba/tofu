@@ -35,8 +35,8 @@ SourceFiles
 #ifndef floatVector_H
 #define floatVector_H
 
-#include "Vector.H"
-#include "contiguous.H"
+#include "OpenFOAM/primitives/Vector/Vector.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

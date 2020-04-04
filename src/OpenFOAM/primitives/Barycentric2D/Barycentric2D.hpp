@@ -36,7 +36,7 @@ SourceFiles
 #ifndef Barycentric2D_H
 #define Barycentric2D_H
 
-#include "VectorSpace.H"
+#include "OpenFOAM/primitives/VectorSpace/VectorSpace.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -105,7 +105,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "Barycentric2DI.H"
+#include "OpenFOAM/primitives/Barycentric2D/Barycentric2DI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

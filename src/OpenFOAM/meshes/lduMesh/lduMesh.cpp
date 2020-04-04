@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lduMesh.H"
-#include "objectRegistry.H"
-#include "processorLduInterface.H"
+#include "OpenFOAM/meshes/lduMesh/lduMesh.hpp"
+#include "OpenFOAM/db/objectRegistry/objectRegistry.hpp"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/processorLduInterface.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -38,8 +38,8 @@ Description
 #ifndef wordList_H
 #define wordList_H
 
-#include "word.H"
-#include "List.H"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

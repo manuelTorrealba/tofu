@@ -35,7 +35,7 @@ SourceFiles
 #ifndef etcFiles_H
 #define etcFiles_H
 
-#include "fileNameList.H"
+#include "OpenFOAM/primitives/strings/lists/fileNameList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

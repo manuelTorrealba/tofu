@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DiagonalPreconditioner.H"
+#include "OpenFOAM/matrices/LduMatrixN/Preconditioners/DiagonalPreconditioner/DiagonalPreconditioner.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

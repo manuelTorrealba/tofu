@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearEqn.H"
-#include "quadraticEqn.H"
+#include "OpenFOAM/primitives/polynomialEqns/linearEqn/linearEqn.hpp"
+#include "OpenFOAM/primitives/polynomialEqns/quadraticEqn/quadraticEqn.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

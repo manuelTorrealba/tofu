@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicSlipPointPatch.H"
-#include "pointConstraint.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/meshes/pointMesh/pointPatches/constraint/cyclicSlip/cyclicSlipPointPatch.hpp"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointConstraint/pointConstraint.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

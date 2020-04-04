@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "OStringStream.H"
-#include "fileName.H"
-#include "dictionary.H"
-#include "jobInfo.H"
-#include "Pstream.H"
-#include "OSspecific.H"
+#include "OpenFOAM/db/error/error.hpp"
+#include "OpenFOAM/db/IOstreams/StringStreams/OStringStream.hpp"
+#include "OpenFOAM/primitives/strings/fileName/fileName.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/global/jobInfo/jobInfo.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/include/OSspecific.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

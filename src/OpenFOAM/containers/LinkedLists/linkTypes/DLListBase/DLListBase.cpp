@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
+#include "OpenFOAM/db/error/error.hpp"
 
-#include "DLListBase.H"
-#include "IOstreams.H"
+#include "OpenFOAM/containers/LinkedLists/linkTypes/DLListBase/DLListBase.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

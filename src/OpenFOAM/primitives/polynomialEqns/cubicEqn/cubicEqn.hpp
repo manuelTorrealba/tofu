@@ -36,7 +36,7 @@ SourceFiles
 #ifndef cubicEqn_H
 #define cubicEqn_H
 
-#include "Roots.H"
+#include "OpenFOAM/primitives/polynomialEqns/Roots.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -109,7 +109,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cubicEqnI.H"
+#include "OpenFOAM/primitives/polynomialEqns/cubicEqn/cubicEqnI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

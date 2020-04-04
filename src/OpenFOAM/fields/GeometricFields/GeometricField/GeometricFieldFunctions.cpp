@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GeometricFieldReuseFunctions.H"
+#include "OpenFOAM/fields/GeometricFields/GeometricField/GeometricFieldReuseFunctions.hpp"
 
 #define TEMPLATE \
     template<class Type, template<class> class PatchField, class GeoMesh>
@@ -985,6 +985,6 @@ PRODUCT_OPERATOR(scalarProduct, &&, dotdot)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

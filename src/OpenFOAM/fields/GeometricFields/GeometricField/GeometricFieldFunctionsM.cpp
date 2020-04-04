@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GeometricFieldReuseFunctions.H"
+#include "OpenFOAM/fields/GeometricFields/GeometricField/GeometricFieldReuseFunctions.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

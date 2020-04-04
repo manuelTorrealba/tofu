@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "List.H"
-#include "ListLoopM.H"
-#include "FixedList.H"
-#include "PtrList.H"
-#include "SLList.H"
-#include "IndirectList.H"
-#include "UIndirectList.H"
-#include "BiIndirectList.H"
-#include "contiguous.H"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
+#include "OpenFOAM/containers/Lists/List/ListLoopM.hpp"
+#include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "OpenFOAM/containers/LinkedLists/user/SLList.hpp"
+#include "OpenFOAM/containers/Lists/IndirectList/IndirectList.hpp"
+#include "OpenFOAM/containers/Lists/UIndirectList/UIndirectList.hpp"
+#include "OpenFOAM/containers/Lists/BiIndirectList/BiIndirectList.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
 
 // * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * * //
 

@@ -101,8 +101,9 @@ SourceFiles
 #ifndef PackedList_H
 #define PackedList_H
 
-#include "labelList.H"
-#include "UIndirectList.H"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/containers/Lists/UIndirectList/UIndirectList.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 #include <type_traits>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -638,7 +639,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PackedListI.H"
+#include "OpenFOAM/containers/Lists/PackedList/PackedListI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

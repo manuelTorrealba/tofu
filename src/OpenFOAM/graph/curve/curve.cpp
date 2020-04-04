@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "curve.H"
-#include "Ostream.H"
+#include "OpenFOAM/graph/curve/curve.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Ostream.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

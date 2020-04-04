@@ -23,12 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "masterOFstream.H"
-#include "OFstream.H"
-#include "OSspecific.H"
-#include "PstreamBuffers.H"
-#include "masterUncollatedFileOperation.H"
-#include "boolList.H"
+#include "OpenFOAM/db/IOstreams/Fstreams/masterOFstream.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/include/OSspecific.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamBuffers.hpp"
+#include "OpenFOAM/global/fileOperations/masterUncollatedFileOperation/masterUncollatedFileOperation.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/UIPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/UOPstream.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DynamicField.H"
+#include "OpenFOAM/fields/Fields/DynamicField/DynamicField.hpp"
 
 // * * * * * * * * * * * * * * * IOstream Operators  * * * * * * * * * * * * //
 

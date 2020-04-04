@@ -39,7 +39,7 @@ SourceFiles
 #ifndef IndirectList_H
 #define IndirectList_H
 
-#include "UIndirectList.H"
+#include "OpenFOAM/containers/Lists/UIndirectList/UIndirectList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -159,7 +159,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "IndirectListI.H"
+#include "OpenFOAM/containers/Lists/IndirectList/IndirectListI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

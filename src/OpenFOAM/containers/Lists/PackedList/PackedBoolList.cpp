@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PackedBoolList.H"
-#include "IOstreams.H"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

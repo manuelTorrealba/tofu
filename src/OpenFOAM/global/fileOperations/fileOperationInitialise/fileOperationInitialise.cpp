@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fileOperationInitialise.H"
-#include "addToRunTimeSelectionTable.H"
-#include "OSspecific.H"
+#include "OpenFOAM/global/fileOperations/fileOperationInitialise/fileOperationInitialise.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/include/OSspecific.hpp"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

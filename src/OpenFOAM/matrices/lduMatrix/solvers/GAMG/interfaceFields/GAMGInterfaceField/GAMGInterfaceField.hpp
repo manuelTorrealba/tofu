@@ -36,9 +36,9 @@ SourceFiles
 #ifndef GAMGInterfaceField_H
 #define GAMGInterfaceField_H
 
-#include "lduInterfaceField.H"
-#include "GAMGInterface.H"
-#include "autoPtr.H"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterfaceFields/lduInterfaceField/lduInterfaceField.hpp"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaces/GAMGInterface/GAMGInterface.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

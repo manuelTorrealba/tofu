@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dimensionedSphericalTensor.H"
+#include "OpenFOAM/dimensionedTypes/dimensionedSphericalTensor/dimensionedSphericalTensor.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -31,8 +31,8 @@ Description
 #ifndef MapDimensionedFields_H
 #define MapDimensionedFields_H
 
-#include "polyMesh.H"
-#include "MapFvVolField.H"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "finiteVolume/interpolation/mapping/fvFieldMappers/MapFvVolField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

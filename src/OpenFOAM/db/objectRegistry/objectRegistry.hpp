@@ -35,9 +35,9 @@ SourceFiles
 #ifndef objectRegistry_H
 #define objectRegistry_H
 
-#include "HashTable.H"
-#include "regIOobject.H"
-#include "wordReList.H"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
+#include "OpenFOAM/primitives/strings/lists/wordReList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

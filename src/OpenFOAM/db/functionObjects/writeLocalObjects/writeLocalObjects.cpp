@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "writeLocalObjects.H"
-#include "stringListOps.H"
-#include "dictionary.H"
+#include "OpenFOAM/db/functionObjects/writeLocalObjects/writeLocalObjects.hpp"
+#include "OpenFOAM/primitives/strings/lists/stringListOps.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

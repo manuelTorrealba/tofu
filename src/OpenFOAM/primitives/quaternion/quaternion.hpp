@@ -36,11 +36,12 @@ SourceFiles
 #ifndef quaternion_H
 #define quaternion_H
 
-#include "scalar.H"
-#include "vector.H"
-#include "tensor.H"
-#include "word.H"
-#include "contiguous.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/primitives/Tensor/tensor/tensor.hpp"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
+#include "OpenFOAM/containers/Lists/UList/UList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -301,7 +302,7 @@ inline quaternion operator/(const quaternion& q, const scalar s);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "quaternionI.H"
+#include "OpenFOAM/primitives/quaternion/quaternionI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

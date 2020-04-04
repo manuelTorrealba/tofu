@@ -41,11 +41,11 @@ SourceFiles
 #ifndef septernion_H
 #define septernion_H
 
-#include "vector.H"
-#include "quaternion.H"
-#include "spatialTransform.H"
-#include "word.H"
-#include "contiguous.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/primitives/quaternion/quaternion.hpp"
+#include "OpenFOAM/primitives/spatialVectorAlgebra/spatialTransform/spatialTransform.hpp"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -203,7 +203,7 @@ inline septernion operator/(const septernion& tr, const scalar s);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "septernionI.H"
+#include "OpenFOAM/primitives/septernion/septernionI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

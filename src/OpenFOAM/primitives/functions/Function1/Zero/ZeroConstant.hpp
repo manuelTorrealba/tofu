@@ -40,7 +40,7 @@ SourceFiles
 #ifndef ZeroConstant_H
 #define ZeroConstant_H
 
-#include "Function1.H"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -100,7 +100,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ZeroConstantI.H"
+#include "OpenFOAM/primitives/functions/Function1/Zero/ZeroConstantI.hpp"
 
 #ifdef NoRepository
     #include "ZeroConstant.C"

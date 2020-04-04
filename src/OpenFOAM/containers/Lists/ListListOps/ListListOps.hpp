@@ -86,7 +86,7 @@ SourceFiles
 #ifndef ListListOps_H
 #define ListListOps_H
 
-#include "labelList.H"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

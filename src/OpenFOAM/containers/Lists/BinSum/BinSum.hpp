@@ -35,7 +35,7 @@ SourceFiles
 #ifndef BinSum_H
 #define BinSum_H
 
-#include "ops.H"
+#include "OpenFOAM/primitives/ops/ops.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,17 +23,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "oldCyclicPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "polyBoundaryMesh.H"
-#include "polyMesh.H"
-#include "demandDrivenData.H"
-#include "OFstream.H"
-#include "patchZones.H"
-#include "matchPoints.H"
-#include "Time.H"
-#include "transformList.H"
-#include "cyclicPolyPatch.H"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/oldCyclic/oldCyclicPolyPatch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/patchZones.hpp"
+#include "OpenFOAM/meshes/meshTools/matchPoints.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/fields/Fields/transformList/transformList.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

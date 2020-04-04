@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "genericPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/basic/generic/genericPolyPatch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

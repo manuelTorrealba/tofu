@@ -36,7 +36,7 @@ SourceFiles
 #ifndef ILList_H
 #define ILList_H
 
-#include "UILList.H"
+#include "OpenFOAM/containers/LinkedLists/accessTypes/UILList/UILList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

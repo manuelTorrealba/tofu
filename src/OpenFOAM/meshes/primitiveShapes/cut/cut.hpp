@@ -34,12 +34,12 @@ SourceFiles:
 #ifndef cut_H
 #define cut_H
 
-#include "FixedList.H"
-#include "nil.H"
-#include "plane.H"
-#include "tetPointRef.H"
-#include "triPointRef.H"
-#include "zero.H"
+#include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
+#include "OpenFOAM/primitives/nil/nil.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/plane/plane.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/tetrahedron/tetPointRef.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/triangle/triPointRef.hpp"
+#include "OpenFOAM/primitives/zero/zero.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -526,7 +526,7 @@ typename cut::opAddResult<AboveOp, BelowOp>::type tetCut
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cutI.H"
+#include "OpenFOAM/meshes/primitiveShapes/cut/cutI.hpp"
 
 #ifdef NoRepository
     #include "cutTemplates.C"

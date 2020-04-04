@@ -36,8 +36,8 @@ SourceFiles
 #ifndef genericPointPatch_H
 #define genericPointPatch_H
 
-#include "facePointPatch.H"
-#include "genericPolyPatch.H"
+#include "OpenFOAM/meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/basic/generic/genericPolyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

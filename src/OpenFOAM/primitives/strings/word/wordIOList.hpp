@@ -32,8 +32,8 @@ Description
 #ifndef wordIOList_H
 #define wordIOList_H
 
-#include "wordList.H"
-#include "IOList.H"
+#include "OpenFOAM/primitives/strings/lists/wordList.hpp"
+#include "OpenFOAM/db/IOobjects/IOList/IOList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

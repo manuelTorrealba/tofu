@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "transformField.H"
-#include "FieldM.H"
+#include "OpenFOAM/fields/Fields/transformField/transformField.hpp"
+#include "OpenFOAM/fields/Fields/Field/FieldM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -66,7 +66,7 @@ SourceFiles
 #ifndef ramp_H
 #define ramp_H
 
-#include "Function1.H"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

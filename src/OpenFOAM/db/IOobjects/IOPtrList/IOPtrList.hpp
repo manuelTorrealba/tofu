@@ -35,8 +35,8 @@ SourceFiles
 #ifndef IOPtrList_H
 #define IOPtrList_H
 
-#include "PtrList.H"
-#include "regIOobject.H"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

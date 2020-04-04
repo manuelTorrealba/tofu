@@ -47,7 +47,7 @@ Description
 
         // codeInclude
         //#{
-        //    #include "fvCFD.H"
+#include "finiteVolume/cfdTools/general/include/fvCFD.hpp"
         //#};
 
         // codeOptions
@@ -82,8 +82,8 @@ SourceFiles
 #ifndef codedFixedValuePointPatchField_H
 #define codedFixedValuePointPatchField_H
 
-#include "fixedValuePointPatchFields.H"
-#include "codedBase.H"
+#include "OpenFOAM/fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchFields.hpp"
+#include "OpenFOAM/db/dynamicLibrary/codedBase/codedBase.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

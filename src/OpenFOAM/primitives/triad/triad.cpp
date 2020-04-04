@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triad.H"
-#include "transform.H"
-#include "quaternion.H"
+#include "OpenFOAM/primitives/triad/triad.hpp"
+#include "OpenFOAM/primitives/transform/transform.hpp"
+#include "OpenFOAM/primitives/quaternion/quaternion.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

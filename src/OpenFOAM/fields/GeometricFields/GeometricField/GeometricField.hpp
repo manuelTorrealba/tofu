@@ -39,12 +39,12 @@ SourceFiles
 #ifndef GeometricField_H
 #define GeometricField_H
 
-#include "regIOobject.H"
-#include "dimensionedTypes.H"
-#include "DimensionedField.H"
-#include "FieldField.H"
-#include "lduInterfaceFieldPtrsList.H"
-#include "LduInterfaceFieldPtrsList.H"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedTypes.hpp"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.hpp"
+#include "OpenFOAM/fields/FieldFields/FieldField/FieldField.hpp"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterfaceFields/lduInterfaceField/lduInterfaceFieldPtrsList.hpp"
+#include "OpenFOAM/matrices/LduMatrixN/LduMatrix/LduInterfaceField/LduInterfaceFieldPtrsList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -654,13 +654,13 @@ Ostream& operator<<
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "GeometricFieldI.H"
+#include "OpenFOAM/fields/GeometricFields/GeometricField/GeometricFieldI.hpp"
 
 #ifdef NoRepository
     #include "GeometricField.C"
 #endif
 
-#include "GeometricFieldFunctions.H"
+#include "OpenFOAM/fields/GeometricFields/GeometricField/GeometricFieldFunctions.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

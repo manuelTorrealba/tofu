@@ -26,8 +26,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "vectorList.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/primitives/Vector/lists/vectorList.hpp"
+#include "OpenFOAM/db/IOstreams/token/token.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

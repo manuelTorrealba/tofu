@@ -36,7 +36,7 @@ See also
 #ifndef refCount_H
 #define refCount_H
 
-#include "bool.H"
+#include "OpenFOAM/primitives/bools/bool/bool.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

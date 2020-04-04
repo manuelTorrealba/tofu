@@ -76,20 +76,20 @@ SourceFiles
 #ifndef argList_H
 #define argList_H
 
-#include "stringList.H"
-#include "SubList.H"
-#include "SLList.H"
-#include "HashTable.H"
-#include "word.H"
-#include "fileName.H"
-#include "parRun.H"
-#include "IStringStream.H"
-#include "OSspecific.H"
+#include "OpenFOAM/primitives/strings/lists/stringList.hpp"
+#include "OpenFOAM/containers/Lists/SubList/SubList.hpp"
+#include "OpenFOAM/containers/LinkedLists/user/SLList.hpp"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "OpenFOAM/primitives/strings/fileName/fileName.hpp"
+#include "OpenFOAM/global/argList/parRun.hpp"
+#include "OpenFOAM/db/IOstreams/StringStreams/IStringStream.hpp"
+#include "OpenFOAM/include/OSspecific.hpp"
 
-#include "sigFpe.H"
-#include "sigInt.H"
-#include "sigQuit.H"
-#include "sigSegv.H"
+#include "OSspecific/POSIX/signals/sigFpe.hpp"
+#include "OSspecific/POSIX/signals/sigInt.hpp"
+#include "OSspecific/POSIX/signals/sigQuit.hpp"
+#include "OSspecific/POSIX/signals/sigSegv.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -407,7 +407,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "argListI.H"
+#include "OpenFOAM/global/argList/argListI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

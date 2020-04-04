@@ -35,8 +35,8 @@ SourceFiles
 #ifndef int_H
 #define int_H
 
-#include "int32.H"
-#include "int64.H"
+#include "OpenFOAM/primitives/ints/int32/int32.hpp"
+#include "OpenFOAM/primitives/ints/int64/int64.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

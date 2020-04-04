@@ -35,8 +35,8 @@ SourceFiles
 #ifndef lduPrimitiveMesh_H
 #define lduPrimitiveMesh_H
 
-#include "lduMesh.H"
-#include "labelList.H"
+#include "OpenFOAM/meshes/lduMesh/lduMesh.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

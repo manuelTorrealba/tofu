@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dimensionSet.H"
-#include "IOstreams.H"
-#include "dimensionedScalar.H"
+#include "OpenFOAM/dimensionSet/dimensionSet.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.hpp"
 #include <limits>
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellShape.H"
-#include "degenerateMatcher.H"
+#include "OpenFOAM/meshes/meshShapes/cellShape/cellShape.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellMatcher/degenerateMatcher.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

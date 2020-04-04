@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GAMGSolver.H"
-#include "PCG.H"
-#include "PBiCGStab.H"
-#include "SubField.H"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGSolver.hpp"
+#include "OpenFOAM/matrices/lduMatrix/solvers/PCG/PCG.hpp"
+#include "OpenFOAM/matrices/lduMatrix/solvers/PBiCGStab/PBiCGStab.hpp"
+#include "OpenFOAM/fields/Fields/Field/SubField.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

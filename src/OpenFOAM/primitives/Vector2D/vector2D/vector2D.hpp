@@ -35,9 +35,9 @@ SourceFiles
 #ifndef vector2D_H
 #define vector2D_H
 
-#include "scalar.H"
-#include "Vector2D.H"
-#include "contiguous.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/primitives/Vector2D/Vector2D.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

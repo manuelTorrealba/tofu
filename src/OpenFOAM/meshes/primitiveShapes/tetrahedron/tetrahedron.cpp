@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tetrahedron.H"
-#include "triPointRef.H"
-#include "scalarField.H"
+#include "OpenFOAM/meshes/primitiveShapes/tetrahedron/tetrahedron.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/triangle/triPointRef.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermodynamicConstants.H"
-#include "physicoChemicalConstants.H"
+#include "OpenFOAM/global/constants/thermodynamic/thermodynamicConstants.hpp"
+#include "OpenFOAM/global/constants/physicoChemical/physicoChemicalConstants.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

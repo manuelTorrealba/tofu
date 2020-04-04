@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dynamicCodeContext.H"
-#include "stringOps.H"
-#include "OSHA1stream.H"
+#include "OpenFOAM/db/dynamicLibrary/dynamicCode/dynamicCodeContext.hpp"
+#include "OpenFOAM/primitives/strings/stringOps/stringOps.hpp"
+#include "OpenFOAM/db/IOstreams/hashes/OSHA1stream.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -35,8 +35,8 @@ SourceFiles
 #ifndef wallPointPatch_H
 #define wallPointPatch_H
 
-#include "facePointPatch.H"
-#include "wallPolyPatch.H"
+#include "OpenFOAM/meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

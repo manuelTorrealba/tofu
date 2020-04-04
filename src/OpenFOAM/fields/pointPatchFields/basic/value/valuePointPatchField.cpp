@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "valuePointPatchField.H"
-#include "pointPatchFieldMapper.H"
+#include "OpenFOAM/fields/pointPatchFields/basic/value/valuePointPatchField.hpp"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFieldMapper.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

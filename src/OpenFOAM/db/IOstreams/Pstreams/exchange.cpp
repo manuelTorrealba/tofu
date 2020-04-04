@@ -26,10 +26,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "Pstream.H"
-#include "contiguous.H"
-#include "PstreamCombineReduceOps.H"
-#include "UPstream.H"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamCombineReduceOps.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/UPstream.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

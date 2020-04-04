@@ -37,8 +37,8 @@ SourceFiles
 #ifndef coupleGroupIdentifier_H
 #define coupleGroupIdentifier_H
 
-#include "word.H"
-#include "label.H"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -119,7 +119,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "coupleGroupIdentifierI.H"
+#include "OpenFOAM/meshes/Identifiers/patch/coupleGroupIdentifierI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

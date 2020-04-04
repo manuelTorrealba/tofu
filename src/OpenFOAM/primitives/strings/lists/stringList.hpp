@@ -38,8 +38,8 @@ Description
 #ifndef stringList_H
 #define stringList_H
 
-#include "string.H"
-#include "List.H"
+#include "OpenFOAM/primitives/strings/string/string.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

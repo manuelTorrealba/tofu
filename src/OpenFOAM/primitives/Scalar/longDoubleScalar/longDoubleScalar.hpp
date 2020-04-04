@@ -35,9 +35,9 @@ SourceFiles
 #ifndef longDoubleScalar_H
 #define longDoubleScalar_H
 
-#include "doubleFloat.H"
-#include "direction.H"
-#include "word.H"
+#include "OpenFOAM/primitives/Scalar/doubleFloat.hpp"
+#include "OpenFOAM/primitives/direction/direction.hpp"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
 
 #include <limits>
 using std::numeric_limits;
@@ -126,7 +126,7 @@ inline Scalar func(const Scalar s) \
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "Scalar.H"
+#include "OpenFOAM/primitives/Scalar/Scalar.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -144,7 +144,7 @@ inline Scalar atan2(const Scalar y, const Scalar x)
 {
     return ::atan2l(y, x);
 }
-
+/*
 inline Scalar jn(const int n, const Scalar s)
 {
     return ::jnl(n, s);
@@ -154,7 +154,7 @@ inline Scalar yn(const int n, const Scalar s)
 {
     return ::ynl(n, s);
 }
-
+*/
 #undef Scalar
 #undef ScalarVGreat
 #undef ScalarVSmall

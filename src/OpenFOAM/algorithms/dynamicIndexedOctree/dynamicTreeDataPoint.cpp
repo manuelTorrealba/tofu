@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dynamicTreeDataPoint.H"
-#include "treeBoundBox.H"
-#include "dynamicIndexedOctree.H"
+#include "OpenFOAM/algorithms/dynamicIndexedOctree/dynamicTreeDataPoint.hpp"
+#include "OpenFOAM/meshes/treeBoundBox/treeBoundBox.hpp"
+#include "OpenFOAM/algorithms/dynamicIndexedOctree/dynamicIndexedOctree.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

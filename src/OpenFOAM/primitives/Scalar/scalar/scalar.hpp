@@ -36,9 +36,9 @@ SourceFiles
 #ifndef scalar_H
 #define scalar_H
 
-#include "floatScalar.H"
-#include "doubleScalar.H"
-#include "longDoubleScalar.H"
+#include "OpenFOAM/primitives/Scalar/floatScalar/floatScalar.hpp"
+#include "OpenFOAM/primitives/Scalar/doubleScalar/doubleScalar.hpp"
+#include "OpenFOAM/primitives/Scalar/longDoubleScalar/longDoubleScalar.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

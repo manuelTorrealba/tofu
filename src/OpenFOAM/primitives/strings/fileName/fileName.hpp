@@ -45,7 +45,7 @@ SourceFiles
 #ifndef fileName_H
 #define fileName_H
 
-#include "word.H"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -249,7 +249,7 @@ fileName operator/(const string&, const string&);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "fileNameI.H"
+#include "OpenFOAM/primitives/strings/fileName/fileNameI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

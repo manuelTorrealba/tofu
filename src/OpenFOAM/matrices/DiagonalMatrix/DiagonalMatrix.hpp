@@ -36,7 +36,7 @@ SourceFiles
 #ifndef DiagonalMatrix_H
 #define DiagonalMatrix_H
 
-#include "List.H"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

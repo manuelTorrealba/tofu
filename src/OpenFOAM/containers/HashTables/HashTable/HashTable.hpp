@@ -44,11 +44,11 @@ SourceFiles
 #ifndef HashTable_H
 #define HashTable_H
 
-#include "label.H"
-#include "uLabel.H"
-#include "word.H"
-#include "Xfer.H"
-#include "className.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/primitives/ints/uLabel/uLabel.hpp"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "OpenFOAM/memory/Xfer/Xfer.hpp"
+#include "OpenFOAM/db/typeInfo/className.hpp"
 #include <initializer_list>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -557,7 +557,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-    #include "HashTableI.H"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTableI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

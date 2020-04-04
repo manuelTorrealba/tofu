@@ -35,7 +35,7 @@ SourceFiles
 #ifndef emptyPolyPatch_H
 #define emptyPolyPatch_H
 
-#include "polyPatch.H"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

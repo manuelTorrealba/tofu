@@ -37,7 +37,7 @@ SourceFiles
 #ifndef processorCyclicPolyPatch_H
 #define processorCyclicPolyPatch_H
 
-#include "processorPolyPatch.H"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

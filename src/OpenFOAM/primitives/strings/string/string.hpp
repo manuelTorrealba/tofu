@@ -45,8 +45,8 @@ SourceFiles
 #ifndef string_H
 #define string_H
 
-#include "char.H"
-#include "Hasher.H"
+#include "OpenFOAM/primitives/chars/char/char.hpp"
+#include "OpenFOAM/primitives/hashes/Hasher/Hasher.hpp"
 
 #include <string>
 #include <cstring>
@@ -230,7 +230,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "stringI.H"
+#include "OpenFOAM/primitives/strings/string/stringI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

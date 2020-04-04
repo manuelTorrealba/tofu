@@ -37,8 +37,8 @@ SourceFiles
 #ifndef IOmapDistribute_H
 #define IOmapDistribute_H
 
-#include "mapDistribute.H"
-#include "regIOobject.H"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.hpp"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

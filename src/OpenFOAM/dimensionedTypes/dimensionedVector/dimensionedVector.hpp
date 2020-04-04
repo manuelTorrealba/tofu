@@ -35,8 +35,8 @@ SourceFiles
 #ifndef dimensionedVector_H
 #define dimensionedVector_H
 
-#include "dimensionedScalar.H"
-#include "vector.H"
+#include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.hpp"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

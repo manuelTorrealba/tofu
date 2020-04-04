@@ -35,8 +35,8 @@ SourceFiles
 #ifndef cyclicSlipPointPatch_H
 #define cyclicSlipPointPatch_H
 
-#include "cyclicPointPatch.H"
-#include "cyclicSlipPolyPatch.H"
+#include "OpenFOAM/meshes/pointMesh/pointPatches/constraint/cyclic/cyclicPointPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclicSlip/cyclicSlipPolyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

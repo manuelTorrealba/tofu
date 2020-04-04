@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pyrMatcher.H"
-#include "cellMatcher.H"
-#include "primitiveMesh.H"
-#include "primitiveMesh.H"
-#include "cellModeller.H"
-#include "ListOps.H"
+#include "OpenFOAM/meshes/meshShapes/cellMatcher/pyrMatcher.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellMatcher/cellMatcher.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellModeller/cellModeller.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

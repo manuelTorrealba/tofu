@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DimensionedScalarField.H"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedScalarField/DimensionedScalarField.hpp"
 
 #define TEMPLATE template<class Type, class GeoMesh>
-#include "DimensionedFieldFunctionsM.H"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedFieldFunctionsM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -264,6 +264,6 @@ PRODUCT_OPERATOR(scalarProduct, &&, dotdot)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // ************************************************************************* //

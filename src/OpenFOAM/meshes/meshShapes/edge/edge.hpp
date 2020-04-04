@@ -36,9 +36,9 @@ SourceFiles
 #ifndef edge_H
 #define edge_H
 
-#include "FixedList.H"
-#include "pointField.H"
-#include "linePointRef.H"
+#include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/line/linePointRef.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -180,7 +180,7 @@ inline bool contiguous<edge>()  {return true;}
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "edgeI.H"
+#include "OpenFOAM/meshes/meshShapes/edge/edgeI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

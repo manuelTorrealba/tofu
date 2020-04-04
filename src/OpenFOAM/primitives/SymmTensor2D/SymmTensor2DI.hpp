@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Vector2D.H"
-#include "Tensor2D.H"
+#include "OpenFOAM/primitives/Vector2D/Vector2D.hpp"
+#include "OpenFOAM/primitives/Tensor2D/Tensor2D.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

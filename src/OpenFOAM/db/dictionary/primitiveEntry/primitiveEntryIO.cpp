@@ -26,8 +26,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveEntry.H"
-#include "functionEntry.H"
+#include "OpenFOAM/db/dictionary/primitiveEntry/primitiveEntry.hpp"
+#include "OpenFOAM/db/dictionary/functionEntries/functionEntry/functionEntry.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

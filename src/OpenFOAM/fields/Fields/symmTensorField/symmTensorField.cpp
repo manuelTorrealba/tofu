@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "symmTensorField.H"
-#include "transformField.H"
+#include "OpenFOAM/fields/Fields/symmTensorField/symmTensorField.hpp"
+#include "OpenFOAM/fields/Fields/transformField/transformField.hpp"
 
 #define TEMPLATE
 #include "FieldFunctionsM.C"
@@ -175,6 +175,6 @@ BINARY_TYPE_OPERATOR(tensor, symmTensor, symmTensor, &, dot)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // ************************************************************************* //

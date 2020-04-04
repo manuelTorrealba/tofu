@@ -39,8 +39,8 @@ SourceFiles
 #ifndef Function1_H
 #define Function1_H
 
-#include "dictionary.H"
-#include "Field.H"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -255,7 +255,7 @@ public:
 
 #ifdef NoRepository
     #include "Function1.C"
-    #include "Constant.H"
+#include "OpenFOAM/primitives/functions/Function1/Constant/Constant.hpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

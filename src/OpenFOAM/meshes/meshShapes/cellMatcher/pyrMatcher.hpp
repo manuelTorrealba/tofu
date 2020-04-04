@@ -38,7 +38,7 @@ SourceFiles
 #ifndef pyrMatcher_H
 #define pyrMatcher_H
 
-#include "cellMatcher.H"
+#include "OpenFOAM/meshes/meshShapes/cellMatcher/cellMatcher.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "timeSelector.H"
-#include "ListOps.H"
-#include "argList.H"
-#include "Time.H"
-#include "IStringStream.H"
+#include "OpenFOAM/db/Time/timeSelector.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "OpenFOAM/global/argList/argList.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/db/IOstreams/StringStreams/IStringStream.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

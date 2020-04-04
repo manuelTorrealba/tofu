@@ -58,12 +58,12 @@ Description
 #ifndef fileOperations_masterUncollatedFileOperation_H
 #define fileOperations_masterUncollatedFileOperation_H
 
-#include "fileOperation.H"
-#include "OSspecific.H"
-#include "HashPtrTable.H"
-#include "Switch.H"
-#include "unthreadedInitialise.H"
-#include "boolList.H"
+#include "OpenFOAM/global/fileOperations/fileOperation/fileOperation.hpp"
+#include "OpenFOAM/include/OSspecific.hpp"
+#include "OpenFOAM/containers/HashTables/HashPtrTable/HashPtrTable.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
+#include "OpenFOAM/global/fileOperations/fileOperationInitialise/unthreadedInitialise.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

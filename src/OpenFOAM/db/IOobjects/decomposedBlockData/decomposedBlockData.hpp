@@ -35,9 +35,9 @@ SourceFiles
 #ifndef decomposedBlockData_H
 #define decomposedBlockData_H
 
-#include "IOList.H"
-#include "regIOobject.H"
-#include "UPstream.H"
+#include "OpenFOAM/db/IOobjects/IOList/IOList.hpp"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/UPstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -32,8 +32,8 @@ Description
 #ifndef tensorFieldIOField_H
 #define tensorFieldIOField_H
 
-#include "tensorField.H"
-#include "CompactIOField.H"
+#include "OpenFOAM/fields/Fields/tensorField/tensorField.hpp"
+#include "OpenFOAM/db/IOobjects/CompactIOField/CompactIOField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

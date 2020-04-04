@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "procLduInterface.H"
-#include "lduInterfaceField.H"
-#include "cyclicLduInterface.H"
-#include "processorLduInterface.H"
+#include "OpenFOAM/matrices/LUscalarMatrix/procLduInterface.hpp"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterfaceFields/lduInterfaceField/lduInterfaceField.hpp"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/cyclicLduInterface.hpp"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/processorLduInterface.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

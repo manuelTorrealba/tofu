@@ -35,8 +35,8 @@ SourceFiles
 #ifndef dynamicCodeContext_H
 #define dynamicCodeContext_H
 
-#include "dictionary.H"
-#include "SHA1Digest.H"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/primitives/hashes/SHA1/SHA1Digest.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

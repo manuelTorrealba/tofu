@@ -34,8 +34,8 @@ SourceFiles
 #ifndef timeVaryingUniformFixedValuePointPatchFields_H
 #define timeVaryingUniformFixedValuePointPatchFields_H
 
-#include "timeVaryingUniformFixedValuePointPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/pointPatchFields/derived/timeVaryingUniformFixedValue/timeVaryingUniformFixedValuePointPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

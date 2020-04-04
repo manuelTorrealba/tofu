@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PackedList.H"
-#include "IOstreams.H"
+#include "OpenFOAM/containers/Lists/PackedList/PackedList.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polynomialFunction.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/primitives/functions/Polynomial/polynomialFunction.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicSymmetryPointPatchField.H"
-#include "transformField.H"
-#include "symmTransformField.H"
+#include "OpenFOAM/fields/pointPatchFields/basic/basicSymmetry/basicSymmetryPointPatchField.hpp"
+#include "OpenFOAM/fields/Fields/transformField/transformField.hpp"
+#include "OpenFOAM/fields/Fields/symmTransformField/symmTransformField.hpp"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

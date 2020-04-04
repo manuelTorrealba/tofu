@@ -33,7 +33,7 @@ Description
 #ifndef Identity_H
 #define Identity_H
 
-#include "SphericalTensor.H"
+#include "OpenFOAM/primitives/SphericalTensor/SphericalTensor.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

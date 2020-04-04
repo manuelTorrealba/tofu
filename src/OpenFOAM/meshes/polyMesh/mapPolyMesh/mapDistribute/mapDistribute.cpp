@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mapDistribute.H"
-#include "globalIndexAndTransform.H"
-#include "transformField.H"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.hpp"
+#include "OpenFOAM/primitives/globalIndexAndTransform/globalIndexAndTransform.hpp"
+#include "OpenFOAM/fields/Fields/transformField/transformField.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

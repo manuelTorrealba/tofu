@@ -35,11 +35,11 @@ SourceFiles
 #ifndef line_H
 #define line_H
 
-#include "vector.H"
-#include "PointHit.H"
-#include "point2D.H"
-#include "FixedList.H"
-#include "UList.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/PointHitN.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point2D/point2D.hpp"
+#include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
+#include "OpenFOAM/containers/Lists/UList/UList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -165,7 +165,7 @@ scalar line<point2D, const point2D&>::nearestDist
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "lineI.H"
+#include "OpenFOAM/meshes/primitiveShapes/line/lineI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

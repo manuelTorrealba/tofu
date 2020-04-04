@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "includeFuncEntry.H"
-#include "functionObjectList.H"
-#include "addToMemberFunctionSelectionTable.H"
+#include "OpenFOAM/db/dictionary/functionEntries/includeFuncEntry/includeFuncEntry.hpp"
+#include "OpenFOAM/db/functionObjects/functionObjectList/functionObjectList.hpp"
+#include "OpenFOAM/db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

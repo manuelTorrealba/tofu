@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniformFixedValuePointPatchField.H"
+#include "OpenFOAM/fields/pointPatchFields/derived/uniformFixedValue/uniformFixedValuePointPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * * //
 

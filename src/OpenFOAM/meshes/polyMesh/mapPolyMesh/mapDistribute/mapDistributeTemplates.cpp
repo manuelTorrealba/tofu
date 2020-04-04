@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Pstream.H"
-#include "PstreamBuffers.H"
-#include "PstreamCombineReduceOps.H"
-#include "globalIndexAndTransform.H"
-#include "transformField.H"
-#include "flipOp.H"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamBuffers.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamCombineReduceOps.hpp"
+#include "OpenFOAM/primitives/globalIndexAndTransform/globalIndexAndTransform.hpp"
+#include "OpenFOAM/fields/Fields/transformField/transformField.hpp"
+#include "OpenFOAM/primitives/ops/flipOp.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

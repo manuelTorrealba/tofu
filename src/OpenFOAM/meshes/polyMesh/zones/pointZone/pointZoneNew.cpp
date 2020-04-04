@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointZone.H"
-#include "dictionary.H"
+#include "OpenFOAM/meshes/polyMesh/zones/pointZone/pointZone.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

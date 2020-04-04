@@ -35,8 +35,8 @@ SourceFiles
 #ifndef TableBase_H
 #define TableBase_H
 
-#include "Function1.H"
-#include "Tuple2.H"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

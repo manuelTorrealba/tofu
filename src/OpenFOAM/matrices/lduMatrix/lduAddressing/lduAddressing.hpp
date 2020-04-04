@@ -96,9 +96,9 @@ SourceFiles
 #ifndef lduAddressing_H
 #define lduAddressing_H
 
-#include "labelList.H"
-#include "lduSchedule.H"
-#include "Tuple2.H"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduSchedule/lduSchedule.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

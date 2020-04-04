@@ -35,11 +35,11 @@ SourceFiles
 #ifndef ZoneMesh_H
 #define ZoneMesh_H
 
-#include "List.H"
-#include "regIOobject.H"
-#include "pointField.H"
-#include "Map.H"
-#include "PackedBoolList.H"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

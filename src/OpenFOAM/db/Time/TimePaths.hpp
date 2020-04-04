@@ -35,7 +35,7 @@ SourceFiles
 #ifndef TimePaths_H
 #define TimePaths_H
 
-#include "fileName.H"
+#include "OpenFOAM/primitives/strings/fileName/fileName.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

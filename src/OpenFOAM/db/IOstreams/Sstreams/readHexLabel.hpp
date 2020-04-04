@@ -35,8 +35,8 @@ SourceFiles
 #ifndef readHexLabel_H
 #define readHexLabel_H
 
-#include "label.H"
-#include "ISstream.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/db/IOstreams/Sstreams/ISstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

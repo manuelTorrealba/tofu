@@ -40,9 +40,9 @@ SourceFiles
 #ifndef functionObjects_logFiles_H
 #define functionObjects_logFiles_H
 
-#include "writeFile.H"
-#include "OFstream.H"
-#include "PtrList.H"
+#include "OpenFOAM/db/functionObjects/writeFile/writeFile.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

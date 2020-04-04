@@ -26,13 +26,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMesh.H"
-#include "mapPolyMesh.H"
-#include "Time.H"
-#include "globalMeshData.H"
-#include "pointMesh.H"
-#include "indexedOctree.H"
-#include "treeDataCell.H"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointMesh.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/indexedOctree.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/treeDataCell.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

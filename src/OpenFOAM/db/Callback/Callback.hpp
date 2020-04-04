@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Callback_H
 #define Callback_H
 
-#include "CallbackRegistry.H"
+#include "OpenFOAM/db/CallbackRegistry/CallbackRegistry.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

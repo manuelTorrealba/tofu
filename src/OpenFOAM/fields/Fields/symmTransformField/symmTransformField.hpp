@@ -35,9 +35,9 @@ SourceFiles
 #ifndef symmTransformField_H
 #define symmTransformField_H
 
-#include "symmTransform.H"
-#include "symmTensorField.H"
-#include "sphericalTensor.H"
+#include "OpenFOAM/primitives/transform/symmTransform.hpp"
+#include "OpenFOAM/fields/Fields/symmTensorField/symmTensorField.hpp"
+#include "OpenFOAM/primitives/SphericalTensor/sphericalTensor/sphericalTensor.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

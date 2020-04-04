@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ParSortableList.H"
-#include "SortableList.H"
-#include "Pstream.H"
-#include "ListListOps.H"
-#include "PstreamReduceOps.H"
+#include "OpenFOAM/containers/Lists/SortableList/ParSortableList.hpp"
+#include "OpenFOAM/containers/Lists/SortableList/SortableList.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/containers/Lists/ListListOps/ListListOps.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

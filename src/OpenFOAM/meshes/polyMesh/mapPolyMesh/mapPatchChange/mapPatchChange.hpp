@@ -35,7 +35,7 @@ SourceFiles
 #ifndef mapPatchChange_H
 #define mapPatchChange_H
 
-#include "labelList.H"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

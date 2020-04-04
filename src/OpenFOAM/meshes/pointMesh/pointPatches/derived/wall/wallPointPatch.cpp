@@ -26,8 +26,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallPointPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/meshes/pointMesh/pointPatches/derived/wall/wallPointPatch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

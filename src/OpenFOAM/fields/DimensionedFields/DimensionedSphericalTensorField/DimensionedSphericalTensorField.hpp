@@ -35,11 +35,11 @@ SourceFiles
 #ifndef DimensionedSphericalTensorField_H
 #define DimensionedSphericalTensorField_H
 
-#include "DimensionedField.H"
-#include "sphericalTensor.H"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.hpp"
+#include "OpenFOAM/primitives/SphericalTensor/sphericalTensor/sphericalTensor.hpp"
 
 #define TEMPLATE template<class GeoMesh>
-#include "DimensionedFieldFunctionsM.H"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedFieldFunctionsM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -63,7 +63,7 @@ BINARY_TYPE_OPERATOR(sphericalTensor, scalar, sphericalTensor, /, '|', divide)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 #ifdef NoRepository
     #include "DimensionedSphericalTensorField.C"

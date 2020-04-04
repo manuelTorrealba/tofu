@@ -72,7 +72,7 @@ SourceFiles
 #ifndef Scale_H
 #define Scale_H
 
-#include "Function1.H"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -148,7 +148,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ScaleI.H"
+#include "OpenFOAM/primitives/functions/Function1/Scale/ScaleI.hpp"
 
 #ifdef NoRepository
     #include "Scale.C"

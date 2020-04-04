@@ -31,10 +31,10 @@ Description
 #ifndef faceList_H
 #define faceList_H
 
-#include "face.H"
-#include "List.H"
-#include "SubList.H"
-#include "faceListFwd.H"
+#include "OpenFOAM/meshes/meshShapes/face/face.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
+#include "OpenFOAM/containers/Lists/SubList/SubList.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/faceListFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

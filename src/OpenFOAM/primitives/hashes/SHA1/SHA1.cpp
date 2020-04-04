@@ -33,8 +33,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "SHA1.H"
-#include "IOstreams.H"
+#include "OpenFOAM/primitives/hashes/SHA1/SHA1.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 #include <cstring>
 

@@ -26,8 +26,8 @@ License
 #ifndef wedgePointPatchFields_H
 #define wedgePointPatchFields_H
 
-#include "wedgePointPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/pointPatchFields/constraint/wedge/wedgePointPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

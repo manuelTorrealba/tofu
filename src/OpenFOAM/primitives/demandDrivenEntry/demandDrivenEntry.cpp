@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "demandDrivenEntry.H"
+#include "OpenFOAM/primitives/demandDrivenEntry/demandDrivenEntry.hpp"
 
 // * * * * * * * * * * * * * * * Constructor * * * * * * * * * * * * * * * * //
 

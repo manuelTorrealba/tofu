@@ -36,7 +36,7 @@ SourceFiles
 #ifndef SVD_H
 #define SVD_H
 
-#include "scalarMatrices.H"
+#include "OpenFOAM/matrices/scalarMatrices/scalarMatrices.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -120,7 +120,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SVDI.H"
+#include "OpenFOAM/matrices/scalarMatrices/SVD/SVDI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

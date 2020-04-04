@@ -23,14 +23,20 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uncollatedFileOperation.H"
-#include "Time.H"
-#include "IFstream.H"
-#include "OFstream.H"
-#include "addToRunTimeSelectionTable.H"
-#include "decomposedBlockData.H"
-#include "dummyISstream.H"
-#include "unthreadedInitialise.H"
+#include "OpenFOAM/global/fileOperations/uncollatedFileOperation/uncollatedFileOperation.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/global/argList/argList.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/db/IOobjects/decomposedBlockData/decomposedBlockData.hpp"
+#include "OpenFOAM/db/IOstreams/dummyISstream/dummyISstream.hpp"
+#include "OpenFOAM/global/fileOperations/fileOperationInitialise/unthreadedInitialise.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.cpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.cpp"
+
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

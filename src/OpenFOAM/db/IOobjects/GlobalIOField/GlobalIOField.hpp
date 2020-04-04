@@ -35,8 +35,8 @@ SourceFiles
 #ifndef GlobalIOField_H
 #define GlobalIOField_H
 
-#include "regIOobject.H"
-#include "Field.H"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

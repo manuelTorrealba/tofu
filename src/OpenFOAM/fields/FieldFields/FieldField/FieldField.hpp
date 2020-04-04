@@ -35,11 +35,11 @@ SourceFiles
 #ifndef FieldField_H
 #define FieldField_H
 
-#include "tmp.H"
-#include "PtrList.H"
-#include "scalar.H"
-#include "direction.H"
-#include "VectorSpace.H"
+#include "OpenFOAM/memory/tmp/tmp.hpp"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/primitives/direction/direction.hpp"
+#include "OpenFOAM/primitives/VectorSpace/VectorSpace.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -192,7 +192,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "FieldFieldFunctions.H"
+#include "OpenFOAM/fields/FieldFields/FieldField/FieldFieldFunctions.hpp"
 
 #ifdef NoRepository
     #include "FieldField.C"

@@ -53,8 +53,8 @@ Description
 #ifndef typeInfo_H
 #define typeInfo_H
 
-#include "error.H"
-#include "className.H"
+#include "OpenFOAM/db/error/error.hpp"
+#include "OpenFOAM/db/typeInfo/className.hpp"
 #include <typeinfo>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

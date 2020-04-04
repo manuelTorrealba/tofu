@@ -36,7 +36,7 @@ SourceFiles
 #ifndef nonuniformTransformCyclicPolyPatch_H
 #define nonuniformTransformCyclicPolyPatch_H
 
-#include "cyclicPolyPatch.H"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

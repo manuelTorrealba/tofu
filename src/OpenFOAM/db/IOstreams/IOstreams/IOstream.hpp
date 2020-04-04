@@ -42,13 +42,13 @@ SourceFiles
 #ifndef IOstream_H
 #define IOstream_H
 
-#include "char.H"
-#include "bool.H"
-#include "label.H"
-#include "uLabel.H"
-#include "scalar.H"
-#include "fileName.H"
-#include "InfoProxy.H"
+#include "OpenFOAM/primitives/chars/char/char.hpp"
+#include "OpenFOAM/primitives/bools/bool/bool.hpp"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/primitives/ints/uLabel/uLabel.hpp"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/primitives/strings/fileName/fileName.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/InfoProxy.hpp"
 
 #include <iostream>
 

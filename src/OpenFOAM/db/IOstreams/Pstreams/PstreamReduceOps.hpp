@@ -32,9 +32,10 @@ Description
 #ifndef PstreamReduceOps_H
 #define PstreamReduceOps_H
 
-#include "Pstream.H"
-#include "ops.H"
-#include "vector2D.H"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/primitives/ops/ops.hpp"
+#include "OpenFOAM/primitives/Vector2D/vector2D/vector2D.hpp"
+#include "OpenFOAM/global/argList/argList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,9 +26,9 @@ License
 #ifndef coupledPointPatchFields_H
 #define coupledPointPatchFields_H
 
-#include "coupledPointPatchField.H"
-#include "coupledPointPatch.H"
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/pointPatchFields/basic/coupled/coupledPointPatchField.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointPatches/basic/coupled/coupledPointPatch.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

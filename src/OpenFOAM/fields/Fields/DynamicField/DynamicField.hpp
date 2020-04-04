@@ -36,7 +36,7 @@ SourceFiles
 #ifndef DynamicField_H
 #define DynamicField_H
 
-#include "Field.H"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
 #include <type_traits>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -247,7 +247,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DynamicFieldI.H"
+#include "OpenFOAM/fields/Fields/DynamicField/DynamicFieldI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

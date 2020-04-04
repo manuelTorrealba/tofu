@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "jplotGraph.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/graph/writers/jplotGraph/jplotGraph.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

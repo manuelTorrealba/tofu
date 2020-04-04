@@ -32,9 +32,9 @@ Description
 #ifndef barycentric_H
 #define barycentric_H
 
-#include "scalar.H"
-#include "Barycentric.H"
-#include "contiguous.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/primitives/Barycentric/Barycentric.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

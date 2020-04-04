@@ -38,7 +38,7 @@ SourceFiles
 #ifndef bandCompression_H
 #define bandCompression_H
 
-#include "labelList.H"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

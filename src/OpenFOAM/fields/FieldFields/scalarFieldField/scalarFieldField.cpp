@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "scalarFieldField.H"
+#include "OpenFOAM/fields/FieldFields/scalarFieldField/scalarFieldField.hpp"
 
 #define TEMPLATE template<template<class> class Field>
 #include "FieldFieldFunctionsM.C"
@@ -193,6 +193,6 @@ BesselFunc(yn)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // ************************************************************************* //

@@ -23,10 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fileName.H"
-#include "wordList.H"
-#include "DynamicList.H"
-#include "OSspecific.H"
+#include "OpenFOAM/primitives/strings/fileName/fileName.hpp"
+#include "OpenFOAM/primitives/strings/lists/wordList.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/include/OSspecific.hpp"
+#include "OpenFOAM/global/debug/debug.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicSlipPointPatchField.H"
-#include "transformField.H"
-#include "symmTransformField.H"
+#include "OpenFOAM/fields/pointPatchFields/constraint/cyclicSlip/cyclicSlipPointPatchField.hpp"
+#include "OpenFOAM/fields/Fields/transformField/transformField.hpp"
+#include "OpenFOAM/fields/Fields/symmTransformField/symmTransformField.hpp"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

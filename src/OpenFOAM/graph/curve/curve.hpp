@@ -35,9 +35,9 @@ SourceFiles
 #ifndef curve_H
 #define curve_H
 
-#include "string.H"
-#include "primitiveFields.H"
-#include "autoPtr.H"
+#include "OpenFOAM/primitives/strings/string/string.hpp"
+#include "OpenFOAM/fields/Fields/primitiveFields.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

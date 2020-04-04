@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "quarterCosineRamp.H"
+#include "OpenFOAM/primitives/functions/Function1/quarterCosineRamp/quarterCosineRamp.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

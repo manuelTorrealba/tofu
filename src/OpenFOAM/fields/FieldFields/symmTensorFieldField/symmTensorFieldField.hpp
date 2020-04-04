@@ -35,11 +35,11 @@ SourceFiles
 #ifndef symmTensorFieldField_H
 #define symmTensorFieldField_H
 
-#include "FieldField.H"
-#include "symmTensor.H"
+#include "OpenFOAM/fields/FieldFields/FieldField/FieldField.hpp"
+#include "OpenFOAM/primitives/SymmTensor/symmTensor/symmTensor.hpp"
 
 #define TEMPLATE template<template<class> class Field>
-#include "FieldFieldFunctionsM.H"
+#include "OpenFOAM/fields/FieldFields/FieldField/FieldFieldFunctionsM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -76,7 +76,7 @@ BINARY_TYPE_OPERATOR(tensor, symmTensor, symmTensor, &, dot)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 #ifdef NoRepository
     #include "symmTensorFieldField.C"

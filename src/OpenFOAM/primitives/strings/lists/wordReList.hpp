@@ -38,8 +38,8 @@ Description
 #ifndef wordReList_H
 #define wordReList_H
 
-#include "wordRe.H"
-#include "List.H"
+#include "OpenFOAM/primitives/strings/wordRe/wordRe.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

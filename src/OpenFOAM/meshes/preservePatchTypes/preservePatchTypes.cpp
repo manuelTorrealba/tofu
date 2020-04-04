@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "preservePatchTypes.H"
-#include "polyBoundaryMeshEntries.H"
-#include "polyBoundaryMesh.H"
+#include "OpenFOAM/meshes/preservePatchTypes/preservePatchTypes.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyBoundaryMesh/polyBoundaryMeshEntries.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.hpp"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

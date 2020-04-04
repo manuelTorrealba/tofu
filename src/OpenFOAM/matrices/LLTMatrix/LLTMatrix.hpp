@@ -39,8 +39,8 @@ SourceFiles
 #ifndef LLTMatrix_H
 #define LLTMatrix_H
 
-#include "SquareMatrix.H"
-#include "Field.H"
+#include "OpenFOAM/matrices/SquareMatrix/SquareMatrix.hpp"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

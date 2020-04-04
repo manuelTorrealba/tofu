@@ -35,8 +35,8 @@ SourceFiles
 #ifndef emptyPointPatchField_H
 #define emptyPointPatchField_H
 
-#include "pointPatchField.H"
-#include "emptyPointPatch.H"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchField.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointPatches/constraint/empty/emptyPointPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "sphericalTensorFieldIOField.H"
+#include "OpenFOAM/fields/Fields/sphericalTensorField/sphericalTensorFieldIOField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

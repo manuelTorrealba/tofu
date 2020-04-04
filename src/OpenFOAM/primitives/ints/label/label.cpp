@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "label.H"
-#include "error.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/db/error/error.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

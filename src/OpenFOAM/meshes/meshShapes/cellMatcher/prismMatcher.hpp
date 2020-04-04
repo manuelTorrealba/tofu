@@ -38,7 +38,7 @@ SourceFiles
 #ifndef prismMatcher_H
 #define prismMatcher_H
 
-#include "cellMatcher.H"
+#include "OpenFOAM/meshes/meshShapes/cellMatcher/cellMatcher.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

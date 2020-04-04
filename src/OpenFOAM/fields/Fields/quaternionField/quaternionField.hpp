@@ -35,11 +35,11 @@ SourceFiles
 #ifndef quaternionField_H
 #define quaternionField_H
 
-#include "Field.H"
-#include "quaternion.H"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
+#include "OpenFOAM/primitives/quaternion/quaternion.hpp"
 
 #define TEMPLATE
-#include "FieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/FieldFunctionsM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -55,7 +55,7 @@ typedef Field<quaternion> quaternionField;
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

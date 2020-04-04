@@ -39,7 +39,7 @@ SourceFiles
 #ifndef IOdictionary_H
 #define IOdictionary_H
 
-#include "baseIOdictionary.H"
+#include "OpenFOAM/db/IOobjects/IOdictionary/baseIOdictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

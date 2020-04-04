@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dictionaryListEntry.H"
+#include "OpenFOAM/db/dictionary/dictionaryListEntry/dictionaryListEntry.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

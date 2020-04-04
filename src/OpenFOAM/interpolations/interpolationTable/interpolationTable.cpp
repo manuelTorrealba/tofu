@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolationTable.H"
-#include "openFoamTableReader.H"
+#include "OpenFOAM/interpolations/interpolationTable/interpolationTable.hpp"
+#include "OpenFOAM/interpolations/interpolationTable/tableReaders/openFoam/openFoamTableReader.hpp"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

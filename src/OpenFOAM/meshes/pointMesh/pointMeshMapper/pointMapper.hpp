@@ -37,7 +37,7 @@ SourceFiles
 #ifndef pointMapper_H
 #define pointMapper_H
 
-#include "morphFieldMapper.H"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/morphFieldMapper.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

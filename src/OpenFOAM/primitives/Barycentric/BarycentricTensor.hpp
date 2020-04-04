@@ -38,9 +38,9 @@ SourceFiles
 #ifndef BarycentricTensor_H
 #define BarycentricTensor_H
 
-#include "Barycentric.H"
-#include "Tensor.H"
-#include "Vector.H"
+#include "OpenFOAM/primitives/Barycentric/Barycentric.hpp"
+#include "OpenFOAM/primitives/Tensor/Tensor.hpp"
+#include "OpenFOAM/primitives/Vector/Vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -130,7 +130,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "BarycentricTensorI.H"
+#include "OpenFOAM/primitives/Barycentric/BarycentricTensorI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

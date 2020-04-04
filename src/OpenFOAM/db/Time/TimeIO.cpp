@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Time.H"
-#include "Pstream.H"
-#include "simpleObjectRegistry.H"
-#include "dimensionedConstants.H"
-#include "IOdictionary.H"
-#include "fileOperation.H"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/global/debug/simpleObjectRegistry.hpp"
+#include "OpenFOAM/global/constants/dimensionedConstants.hpp"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "OpenFOAM/global/fileOperations/fileOperation/fileOperation.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

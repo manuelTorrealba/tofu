@@ -35,8 +35,8 @@ SourceFiles
 #ifndef processorGAMGInterface_H
 #define processorGAMGInterface_H
 
-#include "GAMGInterface.H"
-#include "processorLduInterface.H"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaces/GAMGInterface/GAMGInterface.hpp"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/processorLduInterface.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

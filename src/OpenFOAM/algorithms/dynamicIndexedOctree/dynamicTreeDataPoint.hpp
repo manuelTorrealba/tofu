@@ -40,10 +40,10 @@ SourceFiles
 #ifndef dynamicTreeDataPoint_H
 #define dynamicTreeDataPoint_H
 
-#include "pointField.H"
-#include "treeBoundBox.H"
-#include "linePointRef.H"
-#include "volumeType.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/meshes/treeBoundBox/treeBoundBox.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/line/linePointRef.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/volumeType.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

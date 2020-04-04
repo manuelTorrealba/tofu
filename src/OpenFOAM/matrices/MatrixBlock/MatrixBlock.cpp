@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MatrixBlock.H"
+#include "OpenFOAM/matrices/MatrixBlock/MatrixBlock.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

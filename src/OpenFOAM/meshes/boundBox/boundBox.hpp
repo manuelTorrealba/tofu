@@ -32,8 +32,8 @@ Description
 #ifndef boundBox_H
 #define boundBox_H
 
-#include "pointField.H"
-#include "faceList.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/faceList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -256,7 +256,7 @@ inline bool contiguous<boundBox>() {return contiguous<point>();}
 
 } // End namespace Foam
 
-#include "boundBoxI.H"
+#include "OpenFOAM/meshes/boundBox/boundBoxI.hpp"
 
 #ifdef NoRepository
     #include "boundBoxTemplates.C"

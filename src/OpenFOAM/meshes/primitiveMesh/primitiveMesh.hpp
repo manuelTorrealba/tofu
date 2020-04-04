@@ -50,16 +50,16 @@ SourceFiles
 #ifndef primitiveMesh_H
 #define primitiveMesh_H
 
-#include "DynamicList.H"
-#include "edgeList.H"
-#include "pointField.H"
-#include "faceList.H"
-#include "cellList.H"
-#include "cellShapeList.H"
-#include "labelList.H"
-#include "boolList.H"
-#include "HashSet.H"
-#include "Map.H"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/meshes/meshShapes/edge/edgeList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/faceList.hpp"
+#include "OpenFOAM/meshes/meshShapes/cell/cellList.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellShape/cellShapeList.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -899,7 +899,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "primitiveMeshI.H"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMeshI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

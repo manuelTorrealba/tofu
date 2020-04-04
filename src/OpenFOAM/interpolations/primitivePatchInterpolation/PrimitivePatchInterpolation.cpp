@@ -24,8 +24,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "PrimitivePatchInterpolation.H"
-#include "faceList.H"
-#include "demandDrivenData.H"
+#include "OpenFOAM/meshes/meshShapes/face/faceList.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

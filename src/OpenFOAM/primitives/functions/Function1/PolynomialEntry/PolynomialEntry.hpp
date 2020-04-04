@@ -45,9 +45,9 @@ SourceFiles
 #ifndef PolynomialEntry_H
 #define PolynomialEntry_H
 
-#include "Function1.H"
-#include "Tuple2.H"
-#include "Function1Fwd.H"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1Fwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

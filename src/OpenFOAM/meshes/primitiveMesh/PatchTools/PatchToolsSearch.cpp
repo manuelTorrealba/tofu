@@ -26,9 +26,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchTools.H"
-#include "PackedBoolList.H"
-#include "boundBox.H"
+#include "OpenFOAM/meshes/primitiveMesh/PatchTools/PatchTools.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
+#include "OpenFOAM/meshes/boundBox/boundBox.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

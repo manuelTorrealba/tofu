@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "smoothSolver.H"
+#include "OpenFOAM/matrices/lduMatrix/solvers/smoothSolver/smoothSolver.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

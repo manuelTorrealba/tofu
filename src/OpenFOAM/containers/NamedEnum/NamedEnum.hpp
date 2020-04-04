@@ -35,9 +35,9 @@ SourceFiles
 #ifndef NamedEnum_H
 #define NamedEnum_H
 
-#include "HashTable.H"
-#include "stringList.H"
-#include "wordList.H"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
+#include "OpenFOAM/primitives/strings/lists/stringList.hpp"
+#include "OpenFOAM/primitives/strings/lists/wordList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

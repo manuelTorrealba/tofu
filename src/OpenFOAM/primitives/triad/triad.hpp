@@ -39,9 +39,9 @@ SourceFiles
 #ifndef triad_H
 #define triad_H
 
-#include "vector.H"
-#include "tensor.H"
-#include "contiguous.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/primitives/Tensor/tensor/tensor.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -165,7 +165,7 @@ inline bool contiguous<triad>() {return true;}
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "triadI.H"
+#include "OpenFOAM/primitives/triad/triadI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

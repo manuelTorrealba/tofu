@@ -47,7 +47,7 @@ SourceFiles
 #ifndef removeEntry_H
 #define removeEntry_H
 
-#include "functionEntry.H"
+#include "OpenFOAM/db/dictionary/functionEntries/functionEntry/functionEntry.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

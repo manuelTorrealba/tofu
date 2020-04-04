@@ -56,7 +56,7 @@ Description
         //- Optional:
         codeInclude
         #{
-            #include "fvCFD.H"
+#include "finiteVolume/cfdTools/general/include/fvCFD.hpp"
         #};
 
         //- Optional:
@@ -92,7 +92,7 @@ SourceFiles
 #ifndef codeStream_H
 #define codeStream_H
 
-#include "functionEntry.H"
+#include "OpenFOAM/db/dictionary/functionEntries/functionEntry/functionEntry.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

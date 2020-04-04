@@ -31,7 +31,7 @@ Description
 #ifndef pointIndexHit_H
 #define pointIndexHit_H
 
-#include "point.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
 #include "PointIndexHit.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -38,8 +38,8 @@ Description
 #ifndef symmTensorList_H
 #define symmTensorList_H
 
-#include "symmTensor.H"
-#include "List.H"
+#include "OpenFOAM/primitives/SymmTensor/symmTensor/symmTensor.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,8 +35,8 @@ SourceFiles
 #ifndef procLduInterface_H
 #define procLduInterface_H
 
-#include "labelList.H"
-#include "scalarField.H"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

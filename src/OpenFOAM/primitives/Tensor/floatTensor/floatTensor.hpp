@@ -35,8 +35,8 @@ SourceFiles
 #ifndef floatTensor_H
 #define floatTensor_H
 
-#include "Tensor.H"
-#include "contiguous.H"
+#include "OpenFOAM/primitives/Tensor/Tensor.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

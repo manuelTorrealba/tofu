@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorCyclicPointPatchField.H"
-#include "transformField.H"
-#include "processorPolyPatch.H"
+#include "OpenFOAM/fields/pointPatchFields/constraint/processorCyclic/processorCyclicPointPatchField.hpp"
+#include "OpenFOAM/fields/Fields/transformField/transformField.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.hpp"
 
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * //

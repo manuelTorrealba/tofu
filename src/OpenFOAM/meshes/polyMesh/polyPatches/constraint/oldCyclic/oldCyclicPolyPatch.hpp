@@ -39,7 +39,7 @@ SourceFiles
 #ifndef oldCyclicPolyPatch_H
 #define oldCyclicPolyPatch_H
 
-#include "coupledPolyPatch.H"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

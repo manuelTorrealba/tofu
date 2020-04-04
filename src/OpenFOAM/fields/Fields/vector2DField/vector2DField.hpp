@@ -32,8 +32,8 @@ SourceFiles
 #ifndef vector2DField_H
 #define vector2DField_H
 
-#include "vector2DFieldFwd.H"
-#include "Field.H"
+#include "OpenFOAM/fields/Fields/vector2DField/vector2DFieldFwd.hpp"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

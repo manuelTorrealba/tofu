@@ -35,8 +35,8 @@ SourceFiles
 #ifndef coupledPointPatchField_H
 #define coupledPointPatchField_H
 
-#include "pointPatchField.H"
-#include "coupledPointPatch.H"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchField.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointPatches/basic/coupled/coupledPointPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

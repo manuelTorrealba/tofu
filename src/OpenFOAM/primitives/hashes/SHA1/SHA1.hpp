@@ -45,8 +45,8 @@ SourceFiles
 #include <string>
 #include <cstddef>
 
-#include "int.H"
-#include "SHA1Digest.H"
+#include "OpenFOAM/primitives/ints/int/int.hpp"
+#include "OpenFOAM/primitives/hashes/SHA1/SHA1Digest.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -194,7 +194,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SHA1I.H"
+#include "OpenFOAM/primitives/hashes/SHA1/SHA1I.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -32,10 +32,10 @@ Description
 #ifndef pointMesh_H
 #define pointMesh_H
 
-#include "GeoMesh.H"
-#include "MeshObject.H"
-#include "polyMesh.H"
-#include "pointBoundaryMesh.H"
+#include "OpenFOAM/meshes/GeoMesh/GeoMesh.hpp"
+#include "OpenFOAM/meshes/MeshObject/MeshObject.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointBoundaryMesh/pointBoundaryMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

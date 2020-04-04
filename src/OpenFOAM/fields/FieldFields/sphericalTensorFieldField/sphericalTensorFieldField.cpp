@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "sphericalTensorFieldField.H"
+#include "OpenFOAM/fields/FieldFields/sphericalTensorFieldField/sphericalTensorFieldField.hpp"
 
 #define TEMPLATE template<template<class> class Field>
 #include "FieldFieldFunctionsM.C"
@@ -56,6 +56,6 @@ BINARY_TYPE_OPERATOR(sphericalTensor, scalar, sphericalTensor, /, divide)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // ************************************************************************* //

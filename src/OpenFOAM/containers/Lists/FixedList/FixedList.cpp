@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FixedList.H"
-#include "ListLoopM.H"
+#include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
+#include "OpenFOAM/containers/Lists/List/ListLoopM.hpp"
 
 // * * * * * * * * * * * * * * STL Member Functions  * * * * * * * * * * * * //
 

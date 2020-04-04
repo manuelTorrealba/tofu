@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "data.H"
-#include "Time.H"
-#include "solverPerformance.H"
+#include "OpenFOAM/meshes/data/data.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/matrices/LduMatrixN/LduMatrix/solverPerformance.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

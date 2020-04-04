@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "csvTableReader.H"
-#include "tableReaders.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/interpolations/interpolationTable/tableReaders/csv/csvTableReader.hpp"
+#include "OpenFOAM/interpolations/interpolationTable/tableReaders/tableReaders.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -51,7 +51,7 @@ SourceFiles
 #ifndef PBiCGStab_H
 #define PBiCGStab_H
 
-#include "lduMatrix.H"
+#include "OpenFOAM/matrices/lduMatrix/lduMatrix/lduMatrix.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

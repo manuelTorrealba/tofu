@@ -34,8 +34,8 @@ SourceFiles
 #ifndef pointHitSort_H
 #define pointHitSort_H
 
-#include "pointHit.H"
-#include "label.H"
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/pointHit.hpp"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

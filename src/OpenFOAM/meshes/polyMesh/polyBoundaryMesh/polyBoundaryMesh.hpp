@@ -35,10 +35,10 @@ SourceFiles
 #ifndef polyBoundaryMesh_H
 #define polyBoundaryMesh_H
 
-#include "polyPatchList.H"
-#include "regIOobject.H"
-#include "labelPair.H"
-#include "HashSet.H"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatchList.hpp"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
+#include "OpenFOAM/primitives/Pair/labelPair.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -48,8 +48,8 @@ SourceFiles
 #ifndef uniformFixedValuePointPatchField_H
 #define uniformFixedValuePointPatchField_H
 
-#include "fixedValuePointPatchField.H"
-#include "Function1.H"
+#include "OpenFOAM/fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

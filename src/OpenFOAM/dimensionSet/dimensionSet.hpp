@@ -40,12 +40,12 @@ SourceFiles
 #ifndef dimensionSet_H
 #define dimensionSet_H
 
-#include "bool.H"
-#include "dimensionedScalarFwd.H"
-#include "className.H"
-#include "scalarField.H"
-#include "PtrList.H"
-#include "HashTable.H"
+#include "OpenFOAM/primitives/bools/bool/bool.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalarFwd.hpp"
+#include "OpenFOAM/db/typeInfo/className.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -436,7 +436,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "dimensionSets.H"
+#include "OpenFOAM/dimensionSet/dimensionSets.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

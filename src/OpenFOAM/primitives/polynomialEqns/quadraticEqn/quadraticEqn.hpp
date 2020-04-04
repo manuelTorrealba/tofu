@@ -36,7 +36,7 @@ SourceFiles
 #ifndef quadraticEqn_H
 #define quadraticEqn_H
 
-#include "Roots.H"
+#include "OpenFOAM/primitives/polynomialEqns/Roots.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -101,7 +101,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "quadraticEqnI.H"
+#include "OpenFOAM/primitives/polynomialEqns/quadraticEqn/quadraticEqnI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

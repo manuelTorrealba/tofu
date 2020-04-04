@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "matchPoints.H"
-#include "SortableList.H"
-#include "ListOps.H"
+#include "OpenFOAM/meshes/meshTools/matchPoints.hpp"
+#include "OpenFOAM/containers/Lists/SortableList/SortableList.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

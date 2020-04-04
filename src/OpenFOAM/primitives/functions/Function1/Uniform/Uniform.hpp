@@ -43,7 +43,7 @@ SourceFiles
 #ifndef Uniform_H
 #define Uniform_H
 
-#include "Function1.H"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

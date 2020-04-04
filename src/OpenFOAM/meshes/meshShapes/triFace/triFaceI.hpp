@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreams.H"
-#include "face.H"
-#include "triPointRef.H"
-#include "Swap.H"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/face.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/triangle/triPointRef.hpp"
+#include "OpenFOAM/primitives/Swap/Swap.hpp"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

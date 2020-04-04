@@ -35,8 +35,8 @@ SourceFiles
 #ifndef labelSphericalTensor_H
 #define labelSphericalTensor_H
 
-#include "SphericalTensor.H"
-#include "contiguous.H"
+#include "OpenFOAM/primitives/SphericalTensor/SphericalTensor.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

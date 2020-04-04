@@ -55,12 +55,12 @@ SourceFiles
 #ifndef tetIndices_H
 #define tetIndices_H
 
-#include "label.H"
-#include "tetPointRef.H"
-#include "triPointRef.H"
-#include "polyMesh.H"
-#include "triFace.H"
-#include "face.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/tetrahedron/tetPointRef.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/triangle/triPointRef.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/meshShapes/triFace/triFace.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/face.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -176,7 +176,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "tetIndicesI.H"
+#include "OpenFOAM/meshes/polyMesh/polyMeshTetDecomposition/tetIndicesI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef simpleMatrix_H
 #define simpleMatrix_H
 
-#include "scalarMatrices.H"
+#include "OpenFOAM/matrices/scalarMatrices/scalarMatrices.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,7 +36,7 @@ SourceFiles
 #ifndef timeControl_H
 #define timeControl_H
 
-#include "Time.H"
+#include "OpenFOAM/db/Time/Time.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -146,7 +146,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "timeControlI.H"
+#include "OpenFOAM/db/functionObjects/timeControl/timeControlI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

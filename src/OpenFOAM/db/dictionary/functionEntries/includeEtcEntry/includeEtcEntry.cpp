@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "includeEtcEntry.H"
-#include "etcFiles.H"
-#include "stringOps.H"
-#include "addToMemberFunctionSelectionTable.H"
-#include "IOstreams.H"
-#include "fileOperation.H"
+#include "OpenFOAM/db/dictionary/functionEntries/includeEtcEntry/includeEtcEntry.hpp"
+#include "OpenFOAM/global/etcFiles/etcFiles.hpp"
+#include "OpenFOAM/primitives/strings/stringOps/stringOps.hpp"
+#include "OpenFOAM/db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
+#include "OpenFOAM/global/fileOperations/fileOperation/fileOperation.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

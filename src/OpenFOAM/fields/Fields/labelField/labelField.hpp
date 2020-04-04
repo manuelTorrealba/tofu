@@ -35,11 +35,11 @@ SourceFiles
 #ifndef labelField_H
 #define labelField_H
 
-#include "label.H"
-#include "Field.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
 
 #define TEMPLATE
-#include "FieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/FieldFunctionsM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -75,7 +75,7 @@ void labelField::replace(const direction, const labelUList& lf);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

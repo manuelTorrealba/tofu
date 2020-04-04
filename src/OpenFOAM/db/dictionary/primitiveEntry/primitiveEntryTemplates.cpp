@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveEntry.H"
-#include "dictionary.H"
+#include "OpenFOAM/db/dictionary/primitiveEntry/primitiveEntry.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -32,8 +32,8 @@ SourceFiles
 #ifndef mergePoints_H
 #define mergePoints_H
 
-#include "scalar.H"
-#include "labelList.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

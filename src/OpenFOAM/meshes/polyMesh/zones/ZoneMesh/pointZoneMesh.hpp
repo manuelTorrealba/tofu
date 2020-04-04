@@ -29,9 +29,9 @@ Description
 #ifndef pointZoneMesh_H
 #define pointZoneMesh_H
 
-#include "ZoneMesh.H"
-#include "pointZone.H"
-#include "pointZoneMeshFwd.H"
+#include "OpenFOAM/meshes/polyMesh/zones/ZoneMesh/ZoneMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/zones/pointZone/pointZone.hpp"
+#include "OpenFOAM/meshes/polyMesh/zones/ZoneMesh/pointZoneMeshFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

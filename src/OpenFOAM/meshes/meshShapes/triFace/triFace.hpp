@@ -40,13 +40,13 @@ SourceFiles
 #ifndef triFace_H
 #define triFace_H
 
-#include "FixedList.H"
-#include "edgeList.H"
-#include "pointHit.H"
-#include "intersection.H"
-#include "pointField.H"
-#include "triPointRef.H"
-#include "ListListOps.H"
+#include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
+#include "OpenFOAM/meshes/meshShapes/edge/edgeList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/pointHit.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/triangle/intersection.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/triangle/triPointRef.hpp"
+#include "OpenFOAM/containers/Lists/ListListOps/ListListOps.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -293,7 +293,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "triFaceI.H"
+#include "OpenFOAM/meshes/meshShapes/triFace/triFaceI.hpp"
 
 #ifdef NoRepository
     #include "triFaceTemplates.C"

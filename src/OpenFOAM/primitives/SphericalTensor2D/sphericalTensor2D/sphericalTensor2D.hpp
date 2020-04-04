@@ -35,9 +35,9 @@ SourceFiles
 #ifndef sphericalTensor2D_H
 #define sphericalTensor2D_H
 
-#include "SphericalTensor2D.H"
-#include "tensor.H"
-#include "contiguous.H"
+#include "OpenFOAM/primitives/SphericalTensor2D/SphericalTensor2D.hpp"
+#include "OpenFOAM/primitives/Tensor/tensor/tensor.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

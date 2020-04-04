@@ -26,8 +26,8 @@ License
 #ifndef nonuniformTransformCyclicPointPatchFields_H
 #define nonuniformTransformCyclicPointPatchFields_H
 
-#include "nonuniformTransformCyclicPointPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/pointPatchFields/constraint/nonuniformTransformCyclic/nonuniformTransformCyclicPointPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -34,7 +34,7 @@ Description
 #ifndef unwatchedIOdictionary_H
 #define unwatchedIOdictionary_H
 
-#include "baseIOdictionary.H"
+#include "OpenFOAM/db/IOobjects/IOdictionary/baseIOdictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "labelField.H"
+#include "OpenFOAM/fields/Fields/labelField/labelField.hpp"
 
 #define TEMPLATE
 #include "FieldFunctionsM.C"
@@ -72,6 +72,6 @@ void labelField::replace(const direction, const labelUList& lf)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // ************************************************************************* //

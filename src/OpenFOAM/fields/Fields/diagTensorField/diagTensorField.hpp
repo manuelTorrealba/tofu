@@ -35,11 +35,11 @@ SourceFiles
 #ifndef diagTensorField_H
 #define diagTensorField_H
 
-#include "tensorField.H"
-#include "diagTensor.H"
+#include "OpenFOAM/fields/Fields/tensorField/tensorField.hpp"
+#include "OpenFOAM/primitives/DiagTensor/diagTensor/diagTensor.hpp"
 
 #define TEMPLATE
-#include "FieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/FieldFunctionsM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -73,7 +73,7 @@ BINARY_TYPE_OPERATOR(vector, vector, diagTensor, /, divide)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

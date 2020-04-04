@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchTools.H"
-#include "SortableList.H"
-#include "transform.H"
+#include "OpenFOAM/meshes/primitiveMesh/PatchTools/PatchTools.hpp"
+#include "OpenFOAM/containers/Lists/SortableList/SortableList.hpp"
+#include "OpenFOAM/primitives/transform/transform.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

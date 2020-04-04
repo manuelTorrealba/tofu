@@ -32,7 +32,7 @@ Description
 #ifndef point_H
 #define point_H
 
-#include "vector.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

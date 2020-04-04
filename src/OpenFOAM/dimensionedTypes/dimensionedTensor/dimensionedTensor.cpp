@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dimensionedTensor.H"
+#include "OpenFOAM/dimensionedTypes/dimensionedTensor/dimensionedTensor.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

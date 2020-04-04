@@ -35,8 +35,8 @@ SourceFiles
 #ifndef dimensionedSymmTensor_H
 #define dimensionedSymmTensor_H
 
-#include "dimensionedVector.H"
-#include "symmTensor.H"
+#include "OpenFOAM/dimensionedTypes/dimensionedVector/dimensionedVector.hpp"
+#include "OpenFOAM/primitives/SymmTensor/symmTensor/symmTensor.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

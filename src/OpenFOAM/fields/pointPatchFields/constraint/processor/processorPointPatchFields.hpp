@@ -26,8 +26,8 @@ License
 #ifndef processorPointPatchFields_H
 #define processorPointPatchFields_H
 
-#include "processorPointPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/pointPatchFields/constraint/processor/processorPointPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

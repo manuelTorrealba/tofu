@@ -61,11 +61,11 @@ SourceFiles
 #ifndef interpolationTable_H
 #define interpolationTable_H
 
-#include "List.H"
-#include "Tuple2.H"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
 
-#include "tableReader.H"
-#include "autoPtr.H"
+#include "OpenFOAM/interpolations/interpolationTable/tableReaders/tableReader.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

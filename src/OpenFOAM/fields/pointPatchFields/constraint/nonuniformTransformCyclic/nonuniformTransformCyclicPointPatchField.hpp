@@ -35,8 +35,8 @@ SourceFiles
 #ifndef nonuniformTransformCyclicPointPatchField_H
 #define nonuniformTransformCyclicPointPatchField_H
 
-#include "cyclicPointPatchField.H"
-#include "nonuniformTransformCyclicPointPatch.H"
+#include "OpenFOAM/fields/pointPatchFields/constraint/cyclic/cyclicPointPatchField.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointPatches/constraint/nonuniformTransformCyclic/nonuniformTransformCyclicPointPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

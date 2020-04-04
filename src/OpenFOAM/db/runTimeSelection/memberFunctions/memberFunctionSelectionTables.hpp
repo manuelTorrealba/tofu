@@ -29,12 +29,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "token.H"
+#include "OpenFOAM/db/IOstreams/token/token.hpp"
 
 #ifndef memberFunctionSelectionTables_H
 #define memberFunctionSelectionTables_H
 
-#include "HashTable.H"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

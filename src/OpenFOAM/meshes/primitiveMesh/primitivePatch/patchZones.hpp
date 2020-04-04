@@ -38,9 +38,9 @@ SourceFiles
 #ifndef patchZones_H
 #define patchZones_H
 
-#include "labelList.H"
-#include "pointField.H"
-#include "polyPatch.H"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

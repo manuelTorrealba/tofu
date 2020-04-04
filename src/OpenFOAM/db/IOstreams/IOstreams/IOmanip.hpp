@@ -32,8 +32,8 @@ Description
 #ifndef IOmanip_H
 #define IOmanip_H
 
-#include "Istream.H"
-#include "Ostream.H"
+#include "OpenFOAM/db/IOstreams/IOstreams/Istream.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Ostream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

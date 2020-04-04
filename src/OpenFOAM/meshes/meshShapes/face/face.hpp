@@ -43,14 +43,14 @@ SourceFiles
 #ifndef face_H
 #define face_H
 
-#include "pointField.H"
-#include "labelList.H"
-#include "edgeList.H"
-#include "vectorField.H"
-#include "faceListFwd.H"
-#include "intersection.H"
-#include "pointHit.H"
-#include "ListListOps.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/meshes/meshShapes/edge/edgeList.hpp"
+#include "OpenFOAM/fields/Fields/vectorField/vectorField.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/faceListFwd.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/triangle/intersection.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/pointHit.hpp"
+#include "OpenFOAM/containers/Lists/ListListOps/ListListOps.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -426,7 +426,7 @@ label longestEdge(const face& f, const pointField& pts);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "faceI.H"
+#include "OpenFOAM/meshes/meshShapes/face/faceI.hpp"
 
 #ifdef NoRepository
     #include "faceTemplates.C"

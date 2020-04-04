@@ -32,7 +32,7 @@ Description
 #ifndef physicoChemicalConstants_H
 #define physicoChemicalConstants_H
 
-#include "dimensionedScalar.H"
+#include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

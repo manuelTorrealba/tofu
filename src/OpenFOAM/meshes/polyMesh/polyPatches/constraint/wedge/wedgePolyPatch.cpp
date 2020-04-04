@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wedgePolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "SubField.H"
-#include "transform.H"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/fields/Fields/Field/SubField.hpp"
+#include "OpenFOAM/primitives/transform/transform.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

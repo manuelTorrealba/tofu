@@ -38,8 +38,8 @@ Description
 #ifndef sphericalTensorList_H
 #define sphericalTensorList_H
 
-#include "sphericalTensor.H"
-#include "List.H"
+#include "OpenFOAM/primitives/SphericalTensor/sphericalTensor/sphericalTensor.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

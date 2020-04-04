@@ -23,15 +23,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "collatedFileOperation.H"
-#include "addToRunTimeSelectionTable.H"
-#include "Pstream.H"
-#include "Time.H"
-#include "threadedCollatedOFstream.H"
-#include "decomposedBlockData.H"
-#include "registerSwitch.H"
-#include "masterOFstream.H"
-#include "OFstream.H"
+#include "OpenFOAM/global/fileOperations/collatedFileOperation/collatedFileOperation.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/global/fileOperations/collatedFileOperation/threadedCollatedOFstream.hpp"
+#include "OpenFOAM/db/IOobjects/decomposedBlockData/decomposedBlockData.hpp"
+#include "OpenFOAM/global/debug/registerSwitch.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/masterOFstream.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/db/IOstreams/StringStreams/IStringStream.hpp"
+#include "OpenFOAM/global/argList/argList.hpp"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

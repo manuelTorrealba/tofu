@@ -26,9 +26,9 @@ License
 #ifndef HashTable_C
 #define HashTable_C
 
-#include "HashTable.H"
-#include "List.H"
-#include "Tuple2.H"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

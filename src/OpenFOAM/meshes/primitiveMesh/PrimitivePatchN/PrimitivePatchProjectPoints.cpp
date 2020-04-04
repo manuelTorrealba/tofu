@@ -27,10 +27,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "boolList.H"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
 #include "PointHit.H"
-#include "objectHit.H"
-#include "bandCompression.H"
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/objectHit.hpp"
+#include "OpenFOAM/meshes/bandCompression/bandCompression.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

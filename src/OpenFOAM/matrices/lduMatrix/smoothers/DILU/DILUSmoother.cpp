@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DILUSmoother.H"
-#include "DILUPreconditioner.H"
+#include "OpenFOAM/matrices/lduMatrix/smoothers/DILU/DILUSmoother.hpp"
+#include "OpenFOAM/matrices/lduMatrix/preconditioners/DILUPreconditioner/DILUPreconditioner.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

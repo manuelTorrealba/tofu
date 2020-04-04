@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DynamicList.H"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
 
 // * * * * * * * * * * * * * * * IOstream Operators  * * * * * * * * * * * * //
 

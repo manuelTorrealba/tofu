@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorPointPatch.H"
-#include "pointBoundaryMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "pointMesh.H"
-#include "faceList.H"
-#include "primitiveFacePatch.H"
-#include "emptyPolyPatch.H"
+#include "OpenFOAM/meshes/pointMesh/pointPatches/constraint/processor/processorPointPatch.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointBoundaryMesh/pointBoundaryMesh.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointMesh.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/faceList.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/primitiveFacePatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

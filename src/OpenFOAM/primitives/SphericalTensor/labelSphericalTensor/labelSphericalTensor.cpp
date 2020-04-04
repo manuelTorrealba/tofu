@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "labelSphericalTensor.H"
+#include "OpenFOAM/primitives/SphericalTensor/labelSphericalTensor/labelSphericalTensor.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

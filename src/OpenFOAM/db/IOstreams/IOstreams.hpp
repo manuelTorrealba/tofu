@@ -35,12 +35,12 @@ Description
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ISstream.H"
-#include "prefixOSstream.H"
-#include "token.H"
-#include "char.H"
-#include "int.H"
-#include "uint.H"
+#include "OpenFOAM/db/IOstreams/Sstreams/ISstream.hpp"
+#include "OpenFOAM/db/IOstreams/Sstreams/prefixOSstream.hpp"
+#include "OpenFOAM/db/IOstreams/token/token.hpp"
+#include "OpenFOAM/primitives/chars/char/char.hpp"
+#include "OpenFOAM/primitives/ints/int/int.hpp"
+#include "OpenFOAM/primitives/ints/uint/uint.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Global predefined streams for standard input, output

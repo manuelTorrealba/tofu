@@ -24,8 +24,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #define TEMPLATE template<class Type>
-#include "FieldFunctionsM.H"
-#include "UPstream.H"
+#include "OpenFOAM/fields/Fields/Field/FieldFunctionsM.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/UPstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -356,7 +356,7 @@ PRODUCT_OPERATOR(scalarProduct, &&, dotdot)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
-#include "scalarField.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
 
 // ************************************************************************* //

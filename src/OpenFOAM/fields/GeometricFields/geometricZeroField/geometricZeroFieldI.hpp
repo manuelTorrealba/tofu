@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "geometricZeroField.H"
+#include "OpenFOAM/fields/GeometricFields/geometricZeroField/geometricZeroField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

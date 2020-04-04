@@ -42,9 +42,9 @@ See also
 #ifndef Tensor_H
 #define Tensor_H
 
-#include "MatrixSpace.H"
-#include "Vector.H"
-#include "SphericalTensor.H"
+#include "OpenFOAM/primitives/MatrixSpace/MatrixSpace.hpp"
+#include "OpenFOAM/primitives/Vector/Vector.hpp"
+#include "OpenFOAM/primitives/SphericalTensor/SphericalTensor.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -228,7 +228,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Include inline implementations
-#include "TensorI.H"
+#include "OpenFOAM/primitives/Tensor/TensorI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

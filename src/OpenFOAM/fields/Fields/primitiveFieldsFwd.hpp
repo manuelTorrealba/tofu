@@ -33,7 +33,7 @@ Description
 #ifndef primitiveFieldsFwd_H
 #define primitiveFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

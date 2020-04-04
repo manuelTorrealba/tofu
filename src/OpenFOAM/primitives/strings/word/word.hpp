@@ -39,7 +39,7 @@ SourceFiles
 #ifndef word_H
 #define word_H
 
-#include "string.H"
+#include "OpenFOAM/primitives/strings/string/string.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -141,7 +141,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "wordI.H"
+#include "OpenFOAM/primitives/strings/word/wordI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

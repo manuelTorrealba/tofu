@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "products.H"
-#include "VectorSpaceOps.H"
-#include "ops.H"
+#include "OpenFOAM/db/error/error.hpp"
+#include "OpenFOAM/primitives/VectorSpace/products.hpp"
+#include "OpenFOAM/primitives/VectorSpace/VectorSpaceOps.hpp"
+#include "OpenFOAM/primitives/ops/ops.hpp"
 #include <type_traits>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

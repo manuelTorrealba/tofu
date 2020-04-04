@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "diagonalSolver.H"
+#include "OpenFOAM/matrices/lduMatrix/solvers/diagonalSolver/diagonalSolver.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

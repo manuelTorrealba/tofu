@@ -23,8 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "IOstreams.H"
+#include "OpenFOAM/db/error/error.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
+#include "OpenFOAM/containers/Lists/UList/UList.hpp"
 
 // * * * * * * * * * * * * * Private Member Classes * * * * * * * * * * * * //
 

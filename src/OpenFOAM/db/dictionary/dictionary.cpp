@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dictionary.H"
-#include "primitiveEntry.H"
-#include "dictionaryEntry.H"
-#include "regExp.H"
-#include "OSHA1stream.H"
-#include "DynamicList.H"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/db/dictionary/primitiveEntry/primitiveEntry.hpp"
+#include "OpenFOAM/db/dictionary/dictionaryEntry/dictionaryEntry.hpp"
+#include "OSspecific/POSIX/regExp.hpp"
+#include "OpenFOAM/db/IOstreams/hashes/OSHA1stream.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

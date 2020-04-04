@@ -35,11 +35,11 @@ SourceFiles
 #ifndef stringListOps_H
 #define stringListOps_H
 
-#include "regExp.H"
-#include "labelList.H"
-#include "stringList.H"
-#include "wordReList.H"
-#include "wordReListMatcher.H"
+#include "OSspecific/POSIX/regExp.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/primitives/strings/lists/stringList.hpp"
+#include "OpenFOAM/primitives/strings/lists/wordReList.hpp"
+#include "OpenFOAM/primitives/strings/lists/wordReListMatcher.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

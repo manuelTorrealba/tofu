@@ -32,8 +32,8 @@ Description
 #ifndef labelIOList_H
 #define labelIOList_H
 
-#include "label.H"
-#include "IOList.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/db/IOobjects/IOList/IOList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

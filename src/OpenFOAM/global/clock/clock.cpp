@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "clock.H"
-#include "string.H"
+#include "OpenFOAM/global/clock/clock.hpp"
+#include "OpenFOAM/primitives/strings/string/string.hpp"
 
 #include <sstream>
 #include <iomanip>

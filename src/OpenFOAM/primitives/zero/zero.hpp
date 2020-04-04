@@ -36,7 +36,7 @@ SourceFiles
 #ifndef zero_H
 #define zero_H
 
-#include "label.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -104,7 +104,7 @@ static const zero Zero;
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "zeroI.H"
+#include "OpenFOAM/primitives/zero/zeroI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

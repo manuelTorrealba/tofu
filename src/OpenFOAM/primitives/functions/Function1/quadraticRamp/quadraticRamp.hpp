@@ -39,7 +39,7 @@ SourceFiles
 #ifndef quadraticRamp_H
 #define quadraticRamp_H
 
-#include "ramp.H"
+#include "OpenFOAM/primitives/functions/Function1/ramp/ramp.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -96,7 +96,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "quadraticRampI.H"
+#include "OpenFOAM/primitives/functions/Function1/quadraticRamp/quadraticRampI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

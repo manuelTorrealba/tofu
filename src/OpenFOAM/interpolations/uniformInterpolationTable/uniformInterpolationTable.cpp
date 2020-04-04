@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniformInterpolationTable.H"
-#include "Time.H"
-#include "IOdictionary.H"
+#include "OpenFOAM/interpolations/uniformInterpolationTable/uniformInterpolationTable.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
 
 // * * * * * * * * * * * *  Private Member Functions * * * * * * * * * * * * //
 

@@ -37,7 +37,7 @@ Description
 #ifndef zeroFieldField_H
 #define zeroFieldField_H
 
-#include "zeroField.H"
+#include "OpenFOAM/fields/Fields/zeroField/zeroField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -74,7 +74,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-    #include "zeroFieldFieldI.H"
+#include "OpenFOAM/fields/FieldFields/zeroFieldField/zeroFieldFieldI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

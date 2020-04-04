@@ -37,8 +37,8 @@ SourceFiles
 #ifndef UniformDimensionedField_H
 #define UniformDimensionedField_H
 
-#include "regIOobject.H"
-#include "dimensionedType.H"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedType/dimensionedType.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

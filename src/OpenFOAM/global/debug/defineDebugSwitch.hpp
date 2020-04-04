@@ -29,9 +29,9 @@ Description
 #ifndef defineDebugSwitch_H
 #define defineDebugSwitch_H
 
-#include "simpleRegIOobject.H"
-#include "debug.H"
-#include "label.H"
+#include "OpenFOAM/global/debug/simpleRegIOobject.hpp"
+#include "OpenFOAM/global/debug/debug.hpp"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

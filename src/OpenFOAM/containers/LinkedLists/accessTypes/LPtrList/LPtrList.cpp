@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LPtrList.H"
+#include "OpenFOAM/containers/LinkedLists/accessTypes/LPtrList/LPtrList.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -32,9 +32,9 @@ Description
 #ifndef cellShapeList_H
 #define cellShapeList_H
 
-#include "cellShape.H"
-#include "List.H"
-#include "PtrList.H"
+#include "OpenFOAM/meshes/meshShapes/cellShape/cellShape.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

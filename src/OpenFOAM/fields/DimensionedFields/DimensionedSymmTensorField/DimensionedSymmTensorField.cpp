@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DimensionedSymmTensorField.H"
-#include "symmTensorField.H"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedSymmTensorField/DimensionedSymmTensorField.hpp"
+#include "OpenFOAM/fields/Fields/symmTensorField/symmTensorField.hpp"
 
 #define TEMPLATE template<class GeoMesh>
 #include "DimensionedFieldFunctionsM.C"
@@ -61,6 +61,6 @@ UNARY_OPERATOR(vector, symmTensor, *, hdual, transform)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 // ************************************************************************* //

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SHA1Digest.H"
-#include "IOstreams.H"
+#include "OpenFOAM/primitives/hashes/SHA1/SHA1Digest.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 #include <cstring>
 

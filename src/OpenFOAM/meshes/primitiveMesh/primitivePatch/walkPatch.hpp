@@ -35,8 +35,8 @@ SourceFiles
 #ifndef walkPatch_H
 #define walkPatch_H
 
-#include "labelList.H"
-#include "primitivePatch.H"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/primitivePatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

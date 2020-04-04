@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VectorSpace.H"
-#include "IOstreams.H"
+#include "OpenFOAM/primitives/VectorSpace/VectorSpace.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 #include <sstream>
 

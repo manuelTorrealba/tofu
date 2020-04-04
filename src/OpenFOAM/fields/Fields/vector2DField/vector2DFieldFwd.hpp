@@ -35,7 +35,7 @@ SourceFiles
 #ifndef vector2DFieldFwd_H
 #define vector2DFieldFwd_H
 
-#include "vector2D.H"
+#include "OpenFOAM/primitives/Vector2D/vector2D/vector2D.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

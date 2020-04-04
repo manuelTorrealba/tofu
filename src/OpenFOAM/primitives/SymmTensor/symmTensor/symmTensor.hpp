@@ -35,8 +35,8 @@ SourceFiles
 #ifndef symmTensor_H
 #define symmTensor_H
 
-#include "SymmTensor.H"
-#include "contiguous.H"
+#include "OpenFOAM/primitives/SymmTensor/SymmTensor.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

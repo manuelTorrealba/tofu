@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicPointPatchField.H"
-#include "Swap.H"
-#include "transformField.H"
-#include "pointFields.H"
+#include "OpenFOAM/fields/pointPatchFields/constraint/cyclic/cyclicPointPatchField.hpp"
+#include "OpenFOAM/primitives/Swap/Swap.hpp"
+#include "OpenFOAM/fields/Fields/transformField/transformField.hpp"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFields.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

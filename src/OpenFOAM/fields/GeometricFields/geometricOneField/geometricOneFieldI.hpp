@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "geometricOneField.H"
+#include "OpenFOAM/fields/GeometricFields/geometricOneField/geometricOneField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

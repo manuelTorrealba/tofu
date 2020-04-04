@@ -35,9 +35,9 @@ SourceFiles
 #ifndef dynamicCode_H
 #define dynamicCode_H
 
-#include "Tuple2.H"
-#include "HashTable.H"
-#include "DynamicList.H"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

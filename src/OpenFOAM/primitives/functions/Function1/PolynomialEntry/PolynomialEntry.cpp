@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PolynomialEntry.H"
+#include "OpenFOAM/primitives/functions/Function1/PolynomialEntry/PolynomialEntry.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

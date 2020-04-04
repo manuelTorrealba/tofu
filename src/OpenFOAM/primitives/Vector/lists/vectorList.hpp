@@ -38,8 +38,8 @@ Description
 #ifndef vectorList_H
 #define vectorList_H
 
-#include "vector.H"
-#include "List.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

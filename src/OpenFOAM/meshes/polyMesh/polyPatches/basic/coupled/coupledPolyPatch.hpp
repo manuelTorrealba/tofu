@@ -37,8 +37,8 @@ SourceFiles
 #ifndef coupledPolyPatch_H
 #define coupledPolyPatch_H
 
-#include "polyPatch.H"
-#include "diagTensorField.H"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.hpp"
+#include "OpenFOAM/fields/Fields/diagTensorField/diagTensorField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

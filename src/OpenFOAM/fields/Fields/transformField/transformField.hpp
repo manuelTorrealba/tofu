@@ -35,11 +35,11 @@ SourceFiles
 #ifndef transformField_H
 #define transformField_H
 
-#include "transform.H"
-#include "quaternion.H"
-#include "septernion.H"
-#include "vectorField.H"
-#include "tensorField.H"
+#include "OpenFOAM/primitives/transform/transform.hpp"
+#include "OpenFOAM/primitives/quaternion/quaternion.hpp"
+#include "OpenFOAM/primitives/septernion/septernion.hpp"
+#include "OpenFOAM/fields/Fields/vectorField/vectorField.hpp"
+#include "OpenFOAM/fields/Fields/tensorField/tensorField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

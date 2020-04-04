@@ -39,7 +39,7 @@ SourceFiles
 #ifndef linearRamp_H
 #define linearRamp_H
 
-#include "ramp.H"
+#include "OpenFOAM/primitives/functions/Function1/ramp/ramp.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -96,7 +96,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "linearRampI.H"
+#include "OpenFOAM/primitives/functions/Function1/linearRamp/linearRampI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

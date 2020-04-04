@@ -32,8 +32,8 @@ Description
 #ifndef IDLList_H
 #define IDLList_H
 
-#include "ILList.H"
-#include "DLListBase.H"
+#include "OpenFOAM/containers/LinkedLists/accessTypes/ILList/ILList.hpp"
+#include "OpenFOAM/containers/LinkedLists/linkTypes/DLListBase/DLListBase.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

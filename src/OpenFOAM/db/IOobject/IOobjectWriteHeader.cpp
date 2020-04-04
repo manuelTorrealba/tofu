@@ -27,8 +27,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOobject.H"
-#include "objectRegistry.H"
+#include "OpenFOAM/db/IOobject/IOobject.hpp"
+#include "OpenFOAM/db/objectRegistry/objectRegistry.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

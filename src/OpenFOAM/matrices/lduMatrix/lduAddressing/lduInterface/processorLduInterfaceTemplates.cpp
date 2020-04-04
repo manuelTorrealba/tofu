@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorLduInterface.H"
-#include "IPstream.H"
-#include "OPstream.H"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/processorLduInterface.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions * * *  * * * * * * * * * * //
 

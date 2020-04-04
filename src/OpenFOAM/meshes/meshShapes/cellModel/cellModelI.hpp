@@ -25,8 +25,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "cellModel.H"
+#include "OpenFOAM/db/error/error.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellModel/cellModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

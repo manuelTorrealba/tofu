@@ -77,10 +77,10 @@ SourceFiles
 #ifndef globalPoints_H
 #define globalPoints_H
 
-#include "DynamicList.H"
-#include "indirectPrimitivePatch.H"
-#include "globalIndex.H"
-#include "globalIndexAndTransform.H"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
+#include "OpenFOAM/primitives/globalIndexAndTransform/globalIndexAndTransform.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "diagTensorFieldIOField.H"
+#include "OpenFOAM/fields/Fields/diagTensorField/diagTensorFieldIOField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,9 +35,9 @@ SourceFiles
 #ifndef dimensionedScalar_H
 #define dimensionedScalar_H
 
-#include "dimensionedType.H"
-#include "scalar.H"
-#include "dimensionedScalarFwd.H"
+#include "OpenFOAM/dimensionedTypes/dimensionedType/dimensionedType.hpp"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalarFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

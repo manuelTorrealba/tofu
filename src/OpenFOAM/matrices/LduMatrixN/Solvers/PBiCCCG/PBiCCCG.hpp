@@ -36,7 +36,7 @@ SourceFiles
 #ifndef PBiCCCG_H
 #define PBiCCCG_H
 
-#include "LduMatrix.H"
+#include "OpenFOAM/matrices/LduMatrixN/LduMatrix/LduMatrix.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

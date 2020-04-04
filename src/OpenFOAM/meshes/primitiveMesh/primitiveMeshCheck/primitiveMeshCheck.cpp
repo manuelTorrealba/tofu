@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveMesh.H"
-#include "pyramidPointFaceRef.H"
-#include "ListOps.H"
-#include "unitConversion.H"
-#include "SortableList.H"
-#include "EdgeMap.H"
-#include "primitiveMeshTools.H"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
+#include "OpenFOAM/meshes/meshShapes/cell/pyramidPointFaceRef.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
+#include "OpenFOAM/containers/Lists/SortableList/SortableList.hpp"
+#include "OpenFOAM/meshes/meshShapes/edge/EdgeMap.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMeshCheck/primitiveMeshTools.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

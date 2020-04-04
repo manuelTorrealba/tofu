@@ -25,7 +25,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreams.H"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

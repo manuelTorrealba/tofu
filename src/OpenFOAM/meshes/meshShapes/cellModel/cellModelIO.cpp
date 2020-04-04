@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellModel.H"
-#include "dictionaryEntry.H"
+#include "OpenFOAM/meshes/meshShapes/cellModel/cellModel.hpp"
+#include "OpenFOAM/db/dictionary/dictionaryEntry/dictionaryEntry.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

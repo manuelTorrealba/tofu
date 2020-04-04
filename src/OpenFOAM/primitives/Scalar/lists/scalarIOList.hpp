@@ -32,8 +32,8 @@ Description
 #ifndef scalarIOList_H
 #define scalarIOList_H
 
-#include "scalar.H"
-#include "IOList.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/db/IOobjects/IOList/IOList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "plane.H"
-#include "tensor.H"
+#include "OpenFOAM/meshes/primitiveShapes/plane/plane.hpp"
+#include "OpenFOAM/primitives/Tensor/tensor/tensor.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

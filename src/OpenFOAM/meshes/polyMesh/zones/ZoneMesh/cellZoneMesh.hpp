@@ -29,9 +29,9 @@ Description
 #ifndef cellZoneMesh_H
 #define cellZoneMesh_H
 
-#include "ZoneMesh.H"
-#include "cellZone.H"
-#include "cellZoneMeshFwd.H"
+#include "OpenFOAM/meshes/polyMesh/zones/ZoneMesh/ZoneMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/zones/cellZone/cellZone.hpp"
+#include "OpenFOAM/meshes/polyMesh/zones/ZoneMesh/cellZoneMeshFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

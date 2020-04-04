@@ -26,9 +26,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "keyType.H"
-#include "regExp.H"
-#include "IOstreams.H"
+#include "OpenFOAM/primitives/strings/keyType/keyType.hpp"
+#include "OSspecific/POSIX/regExp.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

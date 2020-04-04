@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "threadedCollatedOFstream.H"
-#include "decomposedBlockData.H"
-#include "OFstreamCollator.H"
+#include "OpenFOAM/global/fileOperations/collatedFileOperation/threadedCollatedOFstream.hpp"
+#include "OpenFOAM/db/IOobjects/decomposedBlockData/decomposedBlockData.hpp"
+#include "OpenFOAM/global/fileOperations/collatedFileOperation/OFstreamCollator.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

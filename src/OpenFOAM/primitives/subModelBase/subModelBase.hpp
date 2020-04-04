@@ -37,7 +37,7 @@ SourceFiles
 #ifndef subModelBase_H
 #define subModelBase_H
 
-#include "dictionary.H"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

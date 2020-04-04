@@ -67,8 +67,8 @@ SourceFiles
 #ifndef MeshObject_H
 #define MeshObject_H
 
-#include "regIOobject.H"
-#include "objectRegistry.H"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
+#include "OpenFOAM/db/objectRegistry/objectRegistry.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -40,12 +40,12 @@ SourceFiles
 #ifndef scalarMatrices_H
 #define scalarMatrices_H
 
-#include "RectangularMatrix.H"
-#include "SquareMatrix.H"
-#include "SymmetricSquareMatrix.H"
-#include "DiagonalMatrix.H"
-#include "scalarField.H"
-#include "labelList.H"
+#include "OpenFOAM/matrices/RectangularMatrix/RectangularMatrix.hpp"
+#include "OpenFOAM/matrices/SquareMatrix/SquareMatrix.hpp"
+#include "OpenFOAM/matrices/SymmetricSquareMatrix/SymmetricSquareMatrix.hpp"
+#include "OpenFOAM/matrices/DiagonalMatrix/DiagonalMatrix.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

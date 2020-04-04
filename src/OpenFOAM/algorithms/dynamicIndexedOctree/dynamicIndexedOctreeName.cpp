@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dynamicIndexedOctree.H"
+#include "OpenFOAM/algorithms/dynamicIndexedOctree/dynamicIndexedOctree.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

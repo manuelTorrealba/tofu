@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "syncTools.H"
-#include "polyMesh.H"
-#include "processorPolyPatch.H"
-#include "cyclicPolyPatch.H"
-#include "globalMeshData.H"
-#include "contiguous.H"
-#include "transform.H"
-#include "transformList.H"
-#include "SubField.H"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
+#include "OpenFOAM/primitives/transform/transform.hpp"
+#include "OpenFOAM/fields/Fields/transformList/transformList.hpp"
+#include "OpenFOAM/fields/Fields/Field/SubField.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

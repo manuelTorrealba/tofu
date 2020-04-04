@@ -35,15 +35,15 @@ SourceFiles
 #ifndef triangle_H
 #define triangle_H
 
-#include "intersection.H"
-#include "vector.H"
-#include "tensor.H"
-#include "pointHit.H"
-#include "Random.H"
-#include "FixedList.H"
-#include "UList.H"
-#include "linePointRef.H"
-#include "barycentric2D.H"
+#include "OpenFOAM/meshes/primitiveShapes/triangle/intersection.hpp"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/primitives/Tensor/tensor/tensor.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/pointHit.hpp"
+#include "OpenFOAM/primitives/Random/Random.hpp"
+#include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
+#include "OpenFOAM/containers/Lists/UList/UList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/line/linePointRef.hpp"
+#include "OpenFOAM/primitives/Barycentric2D/barycentric2D/barycentric2D.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -264,7 +264,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "triangleI.H"
+#include "OpenFOAM/meshes/primitiveShapes/triangle/triangleI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

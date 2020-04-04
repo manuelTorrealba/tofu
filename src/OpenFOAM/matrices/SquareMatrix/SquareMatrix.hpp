@@ -37,8 +37,8 @@ SourceFiles
 #ifndef SquareMatrix_H
 #define SquareMatrix_H
 
-#include "Matrix.H"
-#include "Identity.H"
+#include "OpenFOAM/matrices/Matrix/Matrix.hpp"
+#include "OpenFOAM/primitives/SphericalTensor/Identity.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -156,7 +156,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SquareMatrixI.H"
+#include "OpenFOAM/matrices/SquareMatrix/SquareMatrixI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

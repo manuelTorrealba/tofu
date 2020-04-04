@@ -39,11 +39,11 @@ SourceFiles
 #ifndef cellModel_H
 #define cellModel_H
 
-#include "pointField.H"
-#include "edgeList.H"
-#include "faceList.H"
-#include "InfoProxy.H"
-#include "autoPtr.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/meshes/meshShapes/edge/edgeList.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/faceList.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/InfoProxy.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -185,7 +185,7 @@ Ostream& operator<<(Ostream& os, const InfoProxy<cellModel>& ip);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cellModelI.H"
+#include "OpenFOAM/meshes/meshShapes/cellModel/cellModelI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

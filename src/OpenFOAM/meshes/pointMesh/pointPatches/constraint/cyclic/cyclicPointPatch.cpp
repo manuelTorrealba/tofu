@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicPointPatch.H"
-#include "pointBoundaryMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "pointMesh.H"
-#include "edgeList.H"
+#include "OpenFOAM/meshes/pointMesh/pointPatches/constraint/cyclic/cyclicPointPatch.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointBoundaryMesh/pointBoundaryMesh.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointMesh.hpp"
+#include "OpenFOAM/meshes/meshShapes/edge/edgeList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

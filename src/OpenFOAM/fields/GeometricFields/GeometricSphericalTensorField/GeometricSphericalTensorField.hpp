@@ -35,11 +35,11 @@ SourceFiles
 #ifndef GeometricSphericalTensorField_H
 #define GeometricSphericalTensorField_H
 
-#include "GeometricField.H"
-#include "sphericalTensor.H"
+#include "OpenFOAM/fields/GeometricFields/GeometricField/GeometricField.hpp"
+#include "OpenFOAM/primitives/SphericalTensor/sphericalTensor/sphericalTensor.hpp"
 
 #define TEMPLATE template<template<class> class PatchField, class GeoMesh>
-#include "GeometricFieldFunctionsM.H"
+#include "OpenFOAM/fields/GeometricFields/GeometricField/GeometricFieldFunctionsM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -63,7 +63,7 @@ BINARY_TYPE_OPERATOR(sphericalTensor, scalar, sphericalTensor, /, '|', divide)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 #ifdef NoRepository
     #include "GeometricSphericalTensorField.C"

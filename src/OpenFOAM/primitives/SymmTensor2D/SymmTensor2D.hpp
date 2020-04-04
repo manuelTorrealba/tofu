@@ -38,8 +38,8 @@ SourceFiles
 #ifndef SymmTensor2D_H
 #define SymmTensor2D_H
 
-#include "VectorSpace.H"
-#include "SphericalTensor2D.H"
+#include "OpenFOAM/primitives/VectorSpace/VectorSpace.hpp"
+#include "OpenFOAM/primitives/SphericalTensor2D/SphericalTensor2D.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -135,7 +135,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Include inline implementations
-#include "SymmTensor2DI.H"
+#include "OpenFOAM/primitives/SymmTensor2D/SymmTensor2DI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

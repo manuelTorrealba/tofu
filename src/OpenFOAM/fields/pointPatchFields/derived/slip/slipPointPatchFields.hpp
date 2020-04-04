@@ -26,8 +26,8 @@ License
 #ifndef slipPointPatchFields_H
 #define slipPointPatchFields_H
 
-#include "slipPointPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/pointPatchFields/derived/slip/slipPointPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

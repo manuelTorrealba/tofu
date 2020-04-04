@@ -26,8 +26,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "boolList.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/db/IOstreams/token/token.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

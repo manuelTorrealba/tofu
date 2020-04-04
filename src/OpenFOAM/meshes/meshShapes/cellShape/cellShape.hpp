@@ -41,11 +41,11 @@ SourceFiles
 #ifndef cellShape_H
 #define cellShape_H
 
-#include "pointField.H"
-#include "labelList.H"
-#include "cellModel.H"
-#include "autoPtr.H"
-#include "InfoProxy.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellModel/cellModel.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/InfoProxy.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -182,7 +182,7 @@ Ostream& operator<<(Ostream& os, const InfoProxy<cellShape>& ip);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cellShapeI.H"
+#include "OpenFOAM/meshes/meshShapes/cellShape/cellShapeI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

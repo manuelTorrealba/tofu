@@ -31,8 +31,8 @@ Description
 #ifndef tetPointRef_H
 #define tetPointRef_H
 
-#include "point.H"
-#include "tetrahedron.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/tetrahedron/tetrahedron.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

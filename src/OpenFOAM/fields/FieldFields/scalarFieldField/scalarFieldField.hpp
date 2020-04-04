@@ -35,11 +35,11 @@ SourceFiles
 #ifndef scalarFieldField_H
 #define scalarFieldField_H
 
-#include "FieldField.H"
-#include "scalar.H"
+#include "OpenFOAM/fields/FieldFields/FieldField/FieldField.hpp"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
 
 #define TEMPLATE template<template<class> class Field>
-#include "FieldFieldFunctionsM.H"
+#include "OpenFOAM/fields/FieldFields/FieldField/FieldFieldFunctionsM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -152,7 +152,7 @@ BesselFunc(yn)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 #ifdef NoRepository
     #include "scalarFieldField.C"

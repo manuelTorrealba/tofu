@@ -35,8 +35,8 @@ See also
 #ifndef HasherInt_H
 #define HasherInt_H
 
-#include "Hasher.H"
-#include "int.H"
+#include "OpenFOAM/primitives/hashes/Hasher/Hasher.hpp"
+#include "OpenFOAM/primitives/ints/int/int.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

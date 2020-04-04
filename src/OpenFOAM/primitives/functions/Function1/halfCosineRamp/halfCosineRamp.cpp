@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "halfCosineRamp.H"
+#include "OpenFOAM/primitives/functions/Function1/halfCosineRamp/halfCosineRamp.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

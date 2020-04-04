@@ -77,10 +77,10 @@ SourceFiles
 #ifndef cellMatcher_H
 #define cellMatcher_H
 
-#include "labelList.H"
-#include "faceList.H"
-#include "boolList.H"
-#include "Map.H"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/faceList.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -278,7 +278,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cellMatcherI.H"
+#include "OpenFOAM/meshes/meshShapes/cellMatcher/cellMatcherI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

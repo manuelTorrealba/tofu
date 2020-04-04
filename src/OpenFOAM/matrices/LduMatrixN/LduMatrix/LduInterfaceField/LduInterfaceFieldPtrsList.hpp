@@ -32,8 +32,8 @@ Description
 #ifndef LduInterfaceFieldPtrsList_H
 #define LduInterfaceFieldPtrsList_H
 
-#include "LduInterfaceField.H"
-#include "UPtrList.H"
+#include "OpenFOAM/matrices/LduMatrixN/LduMatrix/LduInterfaceField/LduInterfaceField.hpp"
+#include "OpenFOAM/containers/Lists/UPtrList/UPtrList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,8 +35,8 @@ SourceFiles
 #ifndef scalarRanges_H
 #define scalarRanges_H
 
-#include "scalarRange.H"
-#include "List.H"
+#include "OpenFOAM/primitives/ranges/scalarRange/scalarRange.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dynamicIndexedOctree.H"
-#include "linePointRef.H"
-#include "OFstream.H"
-#include "ListOps.H"
+#include "OpenFOAM/algorithms/dynamicIndexedOctree/dynamicIndexedOctree.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/line/linePointRef.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

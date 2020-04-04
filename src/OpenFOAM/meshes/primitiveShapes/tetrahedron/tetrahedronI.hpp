@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triangle.H"
-#include "IOstreams.H"
-#include "plane.H"
+#include "OpenFOAM/meshes/primitiveShapes/triangle/triangle.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/plane/plane.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -39,9 +39,9 @@ SourceFiles
 #ifndef SubField_H
 #define SubField_H
 
-#include "SubList.H"
-#include "Field.H"
-#include "VectorSpace.H"
+#include "OpenFOAM/containers/Lists/SubList/SubList.hpp"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
+#include "OpenFOAM/primitives/VectorSpace/VectorSpace.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -131,7 +131,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SubFieldI.H"
+#include "OpenFOAM/fields/Fields/Field/SubFieldI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

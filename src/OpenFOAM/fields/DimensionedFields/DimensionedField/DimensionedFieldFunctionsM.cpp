@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DimensionedFieldReuseFunctions.H"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedFieldReuseFunctions.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

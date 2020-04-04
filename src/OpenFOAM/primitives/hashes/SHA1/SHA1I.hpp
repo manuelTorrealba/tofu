@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SHA1.H"
+#include "OpenFOAM/primitives/hashes/SHA1/SHA1.hpp"
 #include <cstring>
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

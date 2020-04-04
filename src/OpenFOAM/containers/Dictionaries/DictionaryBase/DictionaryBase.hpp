@@ -48,8 +48,8 @@ SourceFiles
 #ifndef DictionaryBase_H
 #define DictionaryBase_H
 
-#include "HashTable.H"
-#include "wordList.H"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
+#include "OpenFOAM/primitives/strings/lists/wordList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

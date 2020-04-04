@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "HashPtrTable.H"
+#include "OpenFOAM/db/error/error.hpp"
+#include "OpenFOAM/containers/HashTables/HashPtrTable/HashPtrTable.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

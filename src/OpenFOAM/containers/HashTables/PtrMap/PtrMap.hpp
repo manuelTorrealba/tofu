@@ -35,7 +35,7 @@ See also
 #ifndef PtrMap_H
 #define PtrMap_H
 
-#include "HashPtrTable.H"
+#include "OpenFOAM/containers/HashTables/HashPtrTable/HashPtrTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

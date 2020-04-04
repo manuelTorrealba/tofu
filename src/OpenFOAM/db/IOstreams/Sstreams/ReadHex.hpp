@@ -35,7 +35,7 @@ SourceFiles
 #ifndef ReadHex_H
 #define ReadHex_H
 
-#include "ISstream.H"
+#include "OpenFOAM/db/IOstreams/Sstreams/ISstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

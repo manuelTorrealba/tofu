@@ -72,11 +72,11 @@ SourceFiles
 #ifndef IOobject_H
 #define IOobject_H
 
-#include "fileName.H"
-#include "typeInfo.H"
-#include "autoPtr.H"
-#include "InfoProxy.H"
-#include "NamedEnum.H"
+#include "OpenFOAM/primitives/strings/fileName/fileName.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/InfoProxy.hpp"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -523,7 +523,7 @@ inline fileName typeFilePath(const IOobject& io)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "IOobjectI.H"
+#include "OpenFOAM/db/IOobject/IOobjectI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

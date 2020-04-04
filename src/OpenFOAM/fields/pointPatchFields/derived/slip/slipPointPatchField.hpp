@@ -35,7 +35,7 @@ SourceFiles
 #ifndef slipPointPatchField_H
 #define slipPointPatchField_H
 
-#include "basicSymmetryPointPatchField.H"
+#include "OpenFOAM/fields/pointPatchFields/basic/basicSymmetry/basicSymmetryPointPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

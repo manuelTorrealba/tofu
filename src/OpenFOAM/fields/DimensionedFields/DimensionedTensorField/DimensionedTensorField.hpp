@@ -35,12 +35,12 @@ SourceFiles
 #ifndef DimensionedTensorField_H
 #define DimensionedTensorField_H
 
-#include "DimensionedSphericalTensorField.H"
-#include "DimensionedSymmTensorField.H"
-#include "tensor.H"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedSphericalTensorField/DimensionedSphericalTensorField.hpp"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedSymmTensorField/DimensionedSymmTensorField.hpp"
+#include "OpenFOAM/primitives/Tensor/tensor/tensor.hpp"
 
 #define TEMPLATE template<class GeoMesh>
-#include "DimensionedFieldFunctionsM.H"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedFieldFunctionsM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -78,7 +78,7 @@ UNARY_OPERATOR(tensor, vector, *, hdual, transform)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 #ifdef NoRepository
     #include "DimensionedTensorField.C"

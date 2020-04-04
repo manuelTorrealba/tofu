@@ -34,11 +34,11 @@ Description
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "labelField.H"
-#include "scalarField.H"
-#include "vectorField.H"
-#include "tensorField.H"
-#include "sphericalTensorField.H"
+#include "OpenFOAM/fields/Fields/labelField/labelField.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/fields/Fields/vectorField/vectorField.hpp"
+#include "OpenFOAM/fields/Fields/tensorField/tensorField.hpp"
+#include "OpenFOAM/fields/Fields/sphericalTensorField/sphericalTensorField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

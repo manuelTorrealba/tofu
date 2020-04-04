@@ -64,8 +64,8 @@ SourceFiles
 #ifndef functionObjects_writeObjectsBase_H
 #define functionObjects_writeObjectsBase_H
 
-#include "wordList.H"
-#include "wordReList.H"
+#include "OpenFOAM/primitives/strings/lists/wordList.hpp"
+#include "OpenFOAM/primitives/strings/lists/wordReList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

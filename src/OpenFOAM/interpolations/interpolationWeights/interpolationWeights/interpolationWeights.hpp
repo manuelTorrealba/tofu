@@ -36,10 +36,10 @@ SourceFiles
 #ifndef interpolationWeights_H
 #define interpolationWeights_H
 
-#include "scalarField.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
-#include "pointField.H"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

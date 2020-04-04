@@ -35,9 +35,9 @@ SourceFiles
 #ifndef SLListBase_H
 #define SLListBase_H
 
-#include "bool.H"
-#include "label.H"
-#include "uLabel.H"
+#include "OpenFOAM/primitives/bools/bool/bool.hpp"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/primitives/ints/uLabel/uLabel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -263,7 +263,7 @@ private:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SLListBaseI.H"
+#include "OpenFOAM/containers/LinkedLists/linkTypes/SLListBase/SLListBaseI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

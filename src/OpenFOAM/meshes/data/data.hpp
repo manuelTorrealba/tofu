@@ -38,8 +38,8 @@ SourceFiles
 #ifndef data_H
 #define data_H
 
-#include "IOdictionary.H"
-#include "solverPerformance.H"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "OpenFOAM/matrices/LduMatrixN/LduMatrix/solverPerformance.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,8 +26,8 @@ License
 #ifndef symmetryPlanePointPatchFields_H
 #define symmetryPlanePointPatchFields_H
 
-#include "symmetryPlanePointPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/pointPatchFields/constraint/symmetryPlane/symmetryPlanePointPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

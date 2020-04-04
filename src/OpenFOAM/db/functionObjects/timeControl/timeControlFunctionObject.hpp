@@ -40,9 +40,9 @@ SourceFiles
 #ifndef timeControlFunctionObject_H
 #define timeControlFunctionObject_H
 
-#include "functionObject.H"
-#include "dictionary.H"
-#include "timeControl.H"
+#include "OpenFOAM/db/functionObjects/functionObject/functionObject.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/db/functionObjects/timeControl/timeControl.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -179,7 +179,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "timeControlFunctionObjectI.H"
+#include "OpenFOAM/db/functionObjects/timeControl/timeControlFunctionObjectI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,18 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "polyBoundaryMesh.H"
-#include "polyMesh.H"
-#include "demandDrivenData.H"
-#include "OFstream.H"
-#include "matchPoints.H"
-#include "EdgeMap.H"
-#include "Time.H"
-#include "transformField.H"
-#include "SubField.H"
-#include "unitConversion.H"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/meshes/meshTools/matchPoints.hpp"
+#include "OpenFOAM/meshes/meshShapes/edge/EdgeMap.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/fields/Fields/transformField/transformField.hpp"
+#include "OpenFOAM/fields/Fields/Field/SubField.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

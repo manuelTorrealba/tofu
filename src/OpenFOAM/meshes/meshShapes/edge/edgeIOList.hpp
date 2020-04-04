@@ -32,8 +32,8 @@ Description
 #ifndef edgeIOList_H
 #define edgeIOList_H
 
-#include "edge.H"
-#include "CompactIOList.H"
+#include "OpenFOAM/meshes/meshShapes/edge/edge.hpp"
+#include "OpenFOAM/db/IOobjects/CompactIOList/CompactIOList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

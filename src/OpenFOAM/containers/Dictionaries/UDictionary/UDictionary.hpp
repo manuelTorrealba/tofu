@@ -39,8 +39,8 @@ SourceFiles
 #ifndef UDictionary_H
 #define UDictionary_H
 
-#include "DictionaryBase.H"
-#include "UIDLList.H"
+#include "OpenFOAM/containers/Dictionaries/DictionaryBase/DictionaryBase.hpp"
+#include "OpenFOAM/containers/LinkedLists/user/UIDLList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

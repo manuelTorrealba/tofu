@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dimensionedSymmTensor.H"
+#include "OpenFOAM/dimensionedTypes/dimensionedSymmTensor/dimensionedSymmTensor.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coupledPolyPatch.H"
-#include "ListOps.H"
-#include "transform.H"
-#include "OFstream.H"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "OpenFOAM/primitives/transform/transform.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

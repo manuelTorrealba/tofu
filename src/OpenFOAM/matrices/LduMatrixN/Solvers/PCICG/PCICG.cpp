@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PCICG.H"
+#include "OpenFOAM/matrices/LduMatrixN/Solvers/PCICG/PCICG.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -53,11 +53,11 @@ SourceFiles
 #ifndef GAMGSolver_H
 #define GAMGSolver_H
 
-#include "GAMGAgglomeration.H"
-#include "lduMatrix.H"
-#include "labelField.H"
-#include "primitiveFields.H"
-#include "LUscalarMatrix.H"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/GAMGAgglomeration/GAMGAgglomeration.hpp"
+#include "OpenFOAM/matrices/lduMatrix/lduMatrix/lduMatrix.hpp"
+#include "OpenFOAM/fields/Fields/labelField/labelField.hpp"
+#include "OpenFOAM/fields/Fields/primitiveFields.hpp"
+#include "OpenFOAM/matrices/LUscalarMatrix/LUscalarMatrix.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

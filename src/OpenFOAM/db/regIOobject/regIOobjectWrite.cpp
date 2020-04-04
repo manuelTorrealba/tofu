@@ -26,10 +26,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "regIOobject.H"
-#include "Time.H"
-#include "OSspecific.H"
-#include "OFstream.H"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/include/OSspecific.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

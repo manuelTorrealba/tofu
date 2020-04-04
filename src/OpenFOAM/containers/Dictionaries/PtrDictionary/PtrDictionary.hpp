@@ -38,8 +38,8 @@ SourceFiles
 #ifndef PtrDictionary_H
 #define PtrDictionary_H
 
-#include "DictionaryBase.H"
-#include "DLPtrList.H"
+#include "OpenFOAM/containers/Dictionaries/DictionaryBase/DictionaryBase.hpp"
+#include "OpenFOAM/containers/LinkedLists/user/DLPtrList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef codedBase_H
 #define codedBase_H
 
-#include "dictionary.H"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "compactSpatialTensor.H"
-#include "CompactSpatialTensorT.H"
+#include "OpenFOAM/primitives/spatialVectorAlgebra/CompactSpatialTensor/compactSpatialTensor/compactSpatialTensor.hpp"
+#include "OpenFOAM/primitives/spatialVectorAlgebra/CompactSpatialTensorT/CompactSpatialTensorT.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
