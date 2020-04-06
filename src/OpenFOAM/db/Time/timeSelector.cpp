@@ -28,6 +28,7 @@ License
 #include "OpenFOAM/global/argList/argList.hpp"
 #include "OpenFOAM/db/Time/Time.hpp"
 #include "OpenFOAM/db/IOstreams/StringStreams/IStringStream.hpp"
+#include "OpenFOAM/global/fileOperations/fileOperation/fileOperation.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

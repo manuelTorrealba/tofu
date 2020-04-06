@@ -27,7 +27,7 @@ License
 #include "OpenFOAM/fields/Fields/Field/FieldReuseFunctions.hpp"
 
 #define TEMPLATE template<class Type>
-#include "FieldFunctionsM.C"
+#include "OpenFOAM/fields/Fields/Field/FieldFunctionsM.cpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

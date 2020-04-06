@@ -26,7 +26,7 @@ License
 #include "OpenFOAM/fields/Fields/quaternionField/quaternionField.hpp"
 
 #define TEMPLATE
-#include "FieldFunctionsM.C"
+#include "OpenFOAM/fields/Fields/Field/FieldFunctionsM.cpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

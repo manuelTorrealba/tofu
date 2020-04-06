@@ -26,6 +26,7 @@ License
 #include "OpenFOAM/db/dynamicLibrary/dlLibraryTable/dlLibraryTable.hpp"
 #include "OpenFOAM/include/OSspecific.hpp"
 #include "OpenFOAM/primitives/ints/int/int.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

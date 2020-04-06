@@ -29,7 +29,7 @@ Description
 #include "OpenFOAM/fields/Fields/diagTensorField/diagTensorField.hpp"
 
 #define TEMPLATE
-#include "FieldFunctionsM.C"
+#include "OpenFOAM/fields/Fields/Field/FieldFunctionsM.cpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

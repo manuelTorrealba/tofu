@@ -29,6 +29,7 @@ License
 #include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
 #include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
 #include "OpenFOAM/global/fileOperations/fileOperation/fileOperation.hpp"
+#include "OpenFOAM/global/argList/argList.hpp"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

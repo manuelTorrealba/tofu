@@ -28,6 +28,11 @@ License
 #include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
 #include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
 #include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.cpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.cpp"
+#include "OpenFOAM/global/argList/argList.hpp"
+#include "OpenFOAM/containers/Lists/UIndirectList/UIndirectList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/cut/cut.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -894,7 +899,7 @@ void Foam::mapDistributeBase::compact(const boolList& elemIsUsed, const int tag)
                         elemIsUsed,
                         map[i],
                         constructHasFlip_,
-                        noOp()          // do not flip elemIsUsed value
+                        cut::noOp()          // do not flip elemIsUsed value
                     );
                 }
 
@@ -924,7 +929,7 @@ void Foam::mapDistributeBase::compact(const boolList& elemIsUsed, const int tag)
                     elemIsUsed,
                     map[i],
                     constructHasFlip_,
-                    noOp()              // do not flip elemIsUsed value
+                    cut::noOp()              // do not flip elemIsUsed value
                 );
             }
         }

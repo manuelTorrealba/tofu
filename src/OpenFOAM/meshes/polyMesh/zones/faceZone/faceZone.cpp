@@ -31,6 +31,7 @@ License
 #include "OpenFOAM/include/demandDrivenData.hpp"
 #include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
 #include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

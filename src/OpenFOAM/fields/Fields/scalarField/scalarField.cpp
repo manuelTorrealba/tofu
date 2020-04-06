@@ -30,7 +30,7 @@ Description
 #include "OpenFOAM/global/unitConversion/unitConversion.hpp"
 
 #define TEMPLATE
-#include "FieldFunctionsM.C"
+#include "OpenFOAM/fields/Fields/Field/FieldFunctionsM.cpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

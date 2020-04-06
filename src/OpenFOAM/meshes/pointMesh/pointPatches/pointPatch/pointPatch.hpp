@@ -38,6 +38,7 @@ SourceFiles
 #include "OpenFOAM/primitives/ints/lists/labelList.hpp"
 #include "OpenFOAM/fields/Fields/vectorField/vectorField.hpp"
 #include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

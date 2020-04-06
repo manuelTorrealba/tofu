@@ -25,6 +25,8 @@ License
 
 #include "OpenFOAM/matrices/solution/solution.hpp"
 #include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/db/IOstreams/StringStreams/IStringStream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

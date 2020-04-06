@@ -26,6 +26,7 @@ License
 #include "OpenFOAM/meshes/meshTools/matchPoints.hpp"
 #include "OpenFOAM/containers/Lists/SortableList/SortableList.hpp"
 #include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "OpenFOAM/global/argList/argList.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -35,6 +35,8 @@ License
 #include "OpenFOAM/fields/Fields/transformList/transformList.hpp"
 #include "OpenFOAM/db/IOstreams/Pstreams/PstreamBuffers.hpp"
 #include "OpenFOAM/containers/Circulators/ConstCirculator/ConstCirculator.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/UOPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/UIPstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
