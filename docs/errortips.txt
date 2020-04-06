@@ -1,0 +1,75 @@
+You need to install zlib-devel
+
+Compilation next:
+OSSpecific  - check
+OpenFOAM - check
+Pstream - check
+fileFormats - x
+surfMesh - x
+
+
+
+forAll not found:
+UList
+#include "OpenFOAM/containers/Lists/UList/UList.hpp"
+
+Tuple2
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
+
+returnReduce
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
+
+SLListBase:
+#include "OpenFOAM/containers/LinkedLists/linkTypes/SLListBase/SLListBase.hpp"
+
+IOstreams:
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
+
+List<>, token::SPACE:
+#include "OpenFOAM/db/IOstreams/token/token.hpp"
+
+PtrList:
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+
+PStream:
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.cpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.cpp"
+#include "OpenFOAM/db/IOstreams/StringStreams/IStringStream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/UPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/UIPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/UOPstream.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Istream.hpp"
+
+reduce not found:
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
+
+TypeName not defined, dynamicCast not found:
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+
+findIndex not found:
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+
+POut not found, SOut not found:
+#include "OpenFOAM/global/argList/argList.hpp"
+
+mapDistribute:
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.hpp"
+
+dictionary:
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/containers/Lists/UIndirectList/UIndirectList.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
+
+fileHandler:
+#include "OpenFOAM/global/fileOperations/fileOperation/fileOperation.hpp"
+
+renamed headers:
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/PointHitN.hpp"
+#include "OpenFOAM/matrices/LduMatrixN/LduMatrix/SolverPerformanceN.hpp"
+
+debug:
+#include "OpenFOAM/global/debug/debug.hpp"
+
+noOp():
+#include "OpenFOAM/meshes/primitiveShapes/cut/cut.hpp"

@@ -23,3 +23,8 @@ set(SOURCE_FILES
 )
 
 add_library(OSSpecific STATIC ${SOURCE_FILES} ${HEADER_FILES})
+
+add_custom_command(TARGET OSSpecific
+                   POST_BUILD
+                   COMMAND ${CMAKE_COMMAND} -E
+                   copy $<TARGET_FILE:OSSpecific> ${CMAKE_SOURCE_DIR}/../../lib/$<TARGET_FILE_NAME:OSSpecific>)
