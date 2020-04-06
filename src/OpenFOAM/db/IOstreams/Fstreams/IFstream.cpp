@@ -25,7 +25,7 @@ License
 
 #include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
 #include "OpenFOAM/include/OSspecific.hpp"
-#include "OpenFOAM/db/IOstreams/gzstream/gzstream.h"
+#include "OpenFOAM/db/IOstreams/gzstream/gzstream.hpp"
 
 
 
