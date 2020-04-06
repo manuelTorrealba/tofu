@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cpuTime.H"
+#include "OSspecific/POSIX/cpuTime/cpuTime.hpp"
 #include <unistd.h>
 
 // * * * * * * * * * * * * * * * Static Members  * * * * * * * * * * * * * * //

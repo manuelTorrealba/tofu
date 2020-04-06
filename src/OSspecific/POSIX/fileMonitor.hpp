@@ -43,9 +43,9 @@ SourceFiles
 #define fileMonitor_H
 
 #include <sys/types.h>
-#include "NamedEnum.H"
-#include "className.H"
-#include "DynamicList.H"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
+#include "OpenFOAM/db/typeInfo/className.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

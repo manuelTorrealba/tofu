@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "OStringStream.H"
-#include "OSspecific.H"
-#include "IFstream.H"
+#include "OpenFOAM/db/error/error.hpp"
+#include "OpenFOAM/db/IOstreams/StringStreams/OStringStream.hpp"
+#include "OpenFOAM/include/OSspecific.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
 
 #include <inttypes.h>
 #include <cxxabi.h>

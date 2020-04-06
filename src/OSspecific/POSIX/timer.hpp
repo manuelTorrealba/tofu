@@ -60,7 +60,7 @@ SourceFiles
 #ifndef timer_H
 #define timer_H
 
-#include "className.H"
+#include "OpenFOAM/db/typeInfo/className.hpp"
 
 #include <signal.h>
 #include <setjmp.h>

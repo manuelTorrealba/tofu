@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "clockTime.H"
+#include "OSspecific/POSIX/clockTime/clockTime.hpp"
 #include <sys/time.h>
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

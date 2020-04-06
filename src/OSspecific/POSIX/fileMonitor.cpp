@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fileMonitor.H"
-#include "IOstreams.H"
-#include "Pstream.H"
-#include "PackedList.H"
-#include "PstreamReduceOps.H"
-#include "OSspecific.H"
-#include "regIOobject.H"     // for fileModificationSkew symbol
+#include "OSspecific/POSIX/fileMonitor.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedList.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
+#include "OpenFOAM/include/OSspecific.hpp"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
 
 #ifdef FOAM_USE_INOTIFY
     #include <unistd.h>
@@ -40,7 +40,7 @@ License
     #define EVENT_LEN   (EVENT_SIZE + 16)
     #define EVENT_BUF_LEN     ( 1024 * EVENT_LEN )
 #else
-    #include "OSspecific.H"
+#include "OpenFOAM/include/OSspecific.hpp"
 #endif
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

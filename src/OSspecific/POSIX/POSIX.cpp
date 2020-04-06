@@ -30,16 +30,16 @@ Description
     #define _SYS_VNODE_H
 #endif
 
-#include "OSspecific.H"
-#include "POSIX.H"
-#include "foamVersion.H"
-#include "fileName.H"
-#include "fileStat.H"
-#include "timer.H"
-#include "IFstream.H"
-#include "DynamicList.H"
-#include "IOstreams.H"
-#include "Pstream.H"
+#include "OpenFOAM/include/OSspecific.hpp"
+#include "OSspecific/POSIX/POSIX.hpp"
+#include "OpenFOAM/global/foamVersion.hpp"
+#include "OpenFOAM/primitives/strings/fileName/fileName.hpp"
+#include "OSspecific/POSIX/fileStat.hpp"
+#include "OSspecific/POSIX/timer.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
 
 #include <fstream>
 #include <cstdlib>
@@ -55,7 +55,10 @@ Description
 #include <sys/socket.h>
 #include <netdb.h>
 #include <dlfcn.h>
+
+#ifndef __CYGWIN__
 #include <link.h>
+#endif
 
 #include <netinet/in.h>
 
@@ -1314,6 +1317,7 @@ bool Foam::dlSymFound(void* handle, const std::string& symbol)
     }
 }
 
+#ifndef __CYGWIN__
 
 static int collectLibsCallback
 (
@@ -1342,5 +1346,6 @@ Foam::fileNameList Foam::dlLoaded()
     return libs;
 }
 
+#endif
 
 // ************************************************************************* //

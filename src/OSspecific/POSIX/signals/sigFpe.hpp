@@ -54,7 +54,7 @@ SourceFiles
     #define LINUX_GNUC
 #endif
 
-#include "UList.H"
+#include "OpenFOAM/containers/Lists/UList/UList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

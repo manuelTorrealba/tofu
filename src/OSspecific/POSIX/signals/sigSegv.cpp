@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sigSegv.H"
-#include "error.H"
-#include "jobInfo.H"
-#include "IOstreams.H"
+#include "OSspecific/POSIX/signals/sigSegv.hpp"
+#include "OpenFOAM/db/error/error.hpp"
+#include "OpenFOAM/global/jobInfo/jobInfo.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

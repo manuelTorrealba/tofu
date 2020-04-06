@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regExp.H"
-#include "string.H"
-#include "List.H"
+#include "OSspecific/POSIX/regExp.hpp"
+#include "OpenFOAM/primitives/strings/string/string.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 
