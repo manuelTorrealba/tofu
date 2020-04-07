@@ -28,6 +28,7 @@ License
 #include "OpenFOAM/include/demandDrivenData.hpp"
 #include "OpenFOAM/primitives/strings/lists/stringListOps.hpp"
 #include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

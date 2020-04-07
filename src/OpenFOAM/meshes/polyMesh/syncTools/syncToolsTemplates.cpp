@@ -32,6 +32,10 @@ License
 #include "OpenFOAM/primitives/transform/transform.hpp"
 #include "OpenFOAM/fields/Fields/transformList/transformList.hpp"
 #include "OpenFOAM/fields/Fields/Field/SubField.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/UIPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/UOPstream.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -25,14 +25,14 @@ License
 
 #include "OpenFOAM/meshes/primitiveMesh/PatchTools/PatchTools.hpp"
 
-#include "PatchToolsCheck.C"
-#include "PatchToolsEdgeOwner.C"
-#include "PatchToolsGatherAndMerge.C"
-#include "PatchToolsSearch.C"
-#include "PatchToolsSortEdges.C"
-#include "PatchToolsSortPoints.C"
-#include "PatchToolsNormals.C"
-#include "PatchToolsMatch.C"
+// #include "PatchToolsCheck.C"
+// #include "PatchToolsEdgeOwner.C"
+// #include "PatchToolsGatherAndMerge.C"
+// #include "PatchToolsSearch.C"
+// #include "PatchToolsSortEdges.C"
+// #include "PatchToolsSortPoints.C"
+// #include "PatchToolsNormals.C"
+// #include "PatchToolsMatch.C"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -27,6 +27,8 @@ License
 #include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
 #include "OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.hpp"
 #include "OpenFOAM/meshes/meshTools/mergePoints.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 
