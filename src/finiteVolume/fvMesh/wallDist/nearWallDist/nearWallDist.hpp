@@ -36,7 +36,7 @@ SourceFiles
 #ifndef nearWallDist_H
 #define nearWallDist_H
 
-#include "volFields.H"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

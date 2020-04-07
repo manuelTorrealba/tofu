@@ -55,7 +55,7 @@ SourceFiles
 #ifndef kEqn_H
 #define kEqn_H
 
-#include "LESeddyViscosity.H"
+#include "TurbulenceModels/turbulenceModels/LES/LESeddyViscosity/LESeddyViscosity.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

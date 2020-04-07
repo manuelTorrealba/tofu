@@ -33,7 +33,7 @@ Description
 #ifndef SuppressionCollision_H
 #define SuppressionCollision_H
 
-#include "StochasticCollisionModel.H"
+#include "lagrangian/intermediate/submodels/Kinematic/StochasticCollision/StochasticCollisionModel/StochasticCollisionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

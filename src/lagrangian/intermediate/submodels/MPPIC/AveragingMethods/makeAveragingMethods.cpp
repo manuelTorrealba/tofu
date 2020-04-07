@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Field.H"
-#include "fvcGrad.H"
-#include "polyMeshTetDecomposition.H"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcGrad.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.hpp"
 
-#include "Basic.H"
-#include "Dual.H"
-#include "Moment.H"
+#include "lagrangian/intermediate/submodels/MPPIC/AveragingMethods/Basic/Basic.hpp"
+#include "lagrangian/intermediate/submodels/MPPIC/AveragingMethods/Dual/Dual.hpp"
+#include "lagrangian/intermediate/submodels/MPPIC/AveragingMethods/Moment/Moment.hpp"
 
 // Scalar interpolation
 defineNamedTemplateTypeNameAndDebug(Foam::AveragingMethod<Foam::scalar>, 0);

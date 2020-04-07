@@ -35,7 +35,7 @@ SourceFiles
 #ifndef dampedCoulomb_H
 #define dampedCoulomb_H
 
-#include "pairPotential.H"
+#include "lagrangian/molecularDynamics/potential/pairPotential/basic/pairPotential.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef heheuPsiThermo_H
 #define heheuPsiThermo_H
 
-#include "heThermo.H"
+#include "thermophysicalModels/basic/heThermo/heThermo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

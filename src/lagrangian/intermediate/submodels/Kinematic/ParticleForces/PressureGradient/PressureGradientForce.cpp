@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PressureGradientForce.H"
-#include "fvcDdt.H"
-#include "fvcGrad.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/PressureGradient/PressureGradientForce.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcDdt.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcGrad.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

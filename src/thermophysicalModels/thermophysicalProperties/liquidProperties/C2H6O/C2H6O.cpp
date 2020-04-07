@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "C2H6O.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalModels/thermophysicalProperties/liquidProperties/C2H6O/C2H6O.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

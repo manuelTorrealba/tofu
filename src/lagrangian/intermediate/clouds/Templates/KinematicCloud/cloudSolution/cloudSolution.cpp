@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cloudSolution.H"
-#include "Time.H"
-#include "localEulerDdtScheme.H"
+#include "lagrangian/intermediate/clouds/Templates/KinematicCloud/cloudSolution/cloudSolution.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "finiteVolume/finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

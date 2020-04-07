@@ -35,7 +35,7 @@ SourceFiles
 #ifndef reactingMultiphaseParcelInjectionData_H
 #define reactingMultiphaseParcelInjectionData_H
 
-#include "reactingParcelInjectionData.H"
+#include "lagrangian/intermediate/submodels/Reacting/InjectionModel/ReactingLookupTableInjection/reactingParcelInjectionData.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -150,7 +150,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "reactingMultiphaseParcelInjectionDataI.H"
+#include "lagrangian/intermediate/submodels/ReactingMultiphase/InjectionModel/ReactingMultiphaseLookupTableInjection/reactingMultiphaseParcelInjectionDataI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,9 +35,9 @@ SourceFiles
 #ifndef regionCoupledBaseGAMGInterface_H
 #define regionCoupledBaseGAMGInterface_H
 
-#include "GAMGInterface.H"
-#include "regionCoupledLduInterface.H"
-#include "GAMGAgglomeration.H"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaces/GAMGInterface/GAMGInterface.hpp"
+#include "meshTools/regionCoupled/patches/regionCoupledLduInterface/regionCoupledLduInterface.hpp"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/GAMGAgglomeration/GAMGAgglomeration.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

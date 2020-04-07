@@ -50,7 +50,7 @@ SourceFiles
 #ifndef functionObjects_flowType_H
 #define functionObjects_flowType_H
 
-#include "fieldExpression.H"
+#include "functionObjects/field/fieldExpression/fieldExpression.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

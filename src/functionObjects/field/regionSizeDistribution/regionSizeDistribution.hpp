@@ -104,13 +104,13 @@ SourceFiles
 #ifndef functionObjects_regionSizeDistribution_H
 #define functionObjects_regionSizeDistribution_H
 
-#include "fvMeshFunctionObject.H"
-#include "writeFile.H"
-#include "writer.H"
-#include "Map.H"
-#include "volFieldsFwd.H"
-#include "wordReList.H"
-#include "coordinateSystem.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
+#include "OpenFOAM/db/functionObjects/writeFile/writeFile.hpp"
+#include "fileFormats/sampledSetWriters/writer.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "OpenFOAM/primitives/strings/lists/wordReList.hpp"
+#include "meshTools/coordinateSystems/coordinateSystem.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

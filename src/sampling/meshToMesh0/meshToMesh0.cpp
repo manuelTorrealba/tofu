@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshToMesh0.H"
-#include "processorFvPatch.H"
-#include "demandDrivenData.H"
+#include "sampling/meshToMesh0/meshToMesh0.hpp"
+#include "finiteVolume/fvMesh/fvPatches/constraint/processor/processorFvPatch.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

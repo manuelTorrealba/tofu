@@ -38,7 +38,7 @@ SourceFiles
 #ifndef WallSiteData_H
 #define WallSiteData_H
 
-#include "label.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -129,7 +129,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "WallSiteDataI.H"
+#include "lagrangian/intermediate/submodels/Kinematic/CollisionModel/PairCollision/WallSiteData/WallSiteDataI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

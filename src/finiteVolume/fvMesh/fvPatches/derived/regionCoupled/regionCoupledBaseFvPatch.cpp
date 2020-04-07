@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionCoupledBaseFvPatch.H"
+#include "finiteVolume/fvMesh/fvPatches/derived/regionCoupled/regionCoupledBaseFvPatch.hpp"
 
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //

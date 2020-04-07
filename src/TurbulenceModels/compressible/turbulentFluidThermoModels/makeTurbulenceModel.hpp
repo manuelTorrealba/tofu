@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "EddyDiffusivity.H"
+#include "TurbulenceModels/compressible/EddyDiffusivity/EddyDiffusivity.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

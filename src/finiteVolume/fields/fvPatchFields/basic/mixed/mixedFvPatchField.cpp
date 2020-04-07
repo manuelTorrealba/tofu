@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mixedFvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/basic/mixed/mixedFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

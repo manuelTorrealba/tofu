@@ -34,8 +34,8 @@ SourceFiles:
 #ifndef levelSet_H
 #define levelSet_H
 
-#include "volFields.H"
-#include "pointFields.H"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "addToRunTimeSelectionTable.H"
-#include "energyJumpAMIFvPatchScalarField.H"
-#include "fixedJumpAMIFvPatchFields.H"
-#include "basicThermo.H"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "thermophysicalModels/basic/derivedFvPatchFields/energyJump/energyJumpAMI/energyJumpAMIFvPatchScalarField.hpp"
+#include "finiteVolume/fields/fvPatchFields/derived/fixedJumpAMI/fixedJumpAMIFvPatchFields.hpp"
+#include "thermophysicalModels/basic/basicThermo/basicThermo.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

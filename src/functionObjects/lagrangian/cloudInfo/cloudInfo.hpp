@@ -69,8 +69,8 @@ SourceFiles
 #ifndef functionObjects_cloudInfo_H
 #define functionObjects_cloudInfo_H
 
-#include "regionFunctionObject.H"
-#include "logFiles.H"
+#include "OpenFOAM/db/functionObjects/regionFunctionObject/regionFunctionObject.hpp"
+#include "OpenFOAM/db/functionObjects/logFiles/logFiles.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

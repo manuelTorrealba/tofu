@@ -24,6 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "OpenFOAM/meshes/lduMesh/lduMesh.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

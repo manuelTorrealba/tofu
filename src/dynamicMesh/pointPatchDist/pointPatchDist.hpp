@@ -35,7 +35,7 @@ SourceFiles
 #ifndef pointPatchDist_H
 #define pointPatchDist_H
 
-#include "pointFields.H"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

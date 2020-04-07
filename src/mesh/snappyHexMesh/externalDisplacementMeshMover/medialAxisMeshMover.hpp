@@ -41,9 +41,9 @@ SourceFiles
 #ifndef medialAxisMeshMover_H
 #define medialAxisMeshMover_H
 
-#include "externalDisplacementMeshMover.H"
-#include "motionSmootherAlgo.H"
-#include "snappyLayerDriver.H"
+#include "mesh/snappyHexMesh/externalDisplacementMeshMover/externalDisplacementMeshMover.hpp"
+#include "dynamicMesh/motionSmoother/motionSmootherAlgo.hpp"
+#include "mesh/snappyHexMesh/snappyHexMeshDriver/snappyLayerDriver.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

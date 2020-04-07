@@ -35,7 +35,7 @@ SourceFiles
 #ifndef veryInhomogeneousMixture_H
 #define veryInhomogeneousMixture_H
 
-#include "basicCombustionMixture.H"
+#include "thermophysicalModels/reactionThermo/mixtures/basicCombustionMixture/basicCombustionMixture.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -49,19 +49,19 @@ SourceFiles
 #ifndef sampledSurface_H
 #define sampledSurface_H
 
-#include "pointField.H"
-#include "word.H"
-#include "labelList.H"
-#include "faceList.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
-#include "autoPtr.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "surfaceMesh.H"
-#include "polyMesh.H"
-#include "coordinateSystems.H"
-#include "interpolation.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/faceList.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFieldsFwd.hpp"
+#include "finiteVolume/surfaceMesh/surfaceMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "meshTools/coordinateSystems/coordinateSystems.hpp"
+#include "finiteVolume/interpolation/interpolation/interpolation/interpolation.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

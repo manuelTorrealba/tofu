@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wideBandAbsorptionEmission.H"
-#include "addToRunTimeSelectionTable.H"
-#include "basicSpecieMixture.H"
-#include "unitConversion.H"
+#include "thermophysicalModels/radiation/submodels/absorptionEmissionModel/wideBandAbsorptionEmission/wideBandAbsorptionEmission.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "thermophysicalModels/reactionThermo/mixtures/basicSpecieMixture/basicSpecieMixture.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

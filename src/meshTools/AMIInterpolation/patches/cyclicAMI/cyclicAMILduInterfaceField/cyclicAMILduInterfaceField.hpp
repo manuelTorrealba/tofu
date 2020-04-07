@@ -35,7 +35,7 @@ SourceFiles
 #ifndef cyclicAMILduInterfaceField_H
 #define cyclicAMILduInterfaceField_H
 
-#include "primitiveFieldsFwd.H"
+#include "OpenFOAM/fields/Fields/primitiveFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -102,7 +102,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "tensorField.H"
+#include "OpenFOAM/fields/Fields/tensorField/tensorField.hpp"
 
 template<class Type>
 void Foam::cyclicAMILduInterfaceField::transformCoupleField

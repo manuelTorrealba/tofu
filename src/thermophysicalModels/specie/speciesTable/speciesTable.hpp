@@ -32,7 +32,7 @@ Description
 #ifndef speciesTable_H
 #define speciesTable_H
 
-#include "hashedWordList.H"
+#include "OpenFOAM/primitives/strings/lists/hashedWordList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

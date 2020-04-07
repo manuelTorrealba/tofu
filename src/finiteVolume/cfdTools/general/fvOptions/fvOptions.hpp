@@ -35,9 +35,9 @@ SourceFiles
 #ifndef fvOptions_H
 #define fvOptions_H
 
-#include "fvOptionList.H"
-#include "IOdictionary.H"
-#include "autoPtr.H"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOptionList.hpp"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

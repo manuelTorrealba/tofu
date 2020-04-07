@@ -35,7 +35,7 @@ SourceFiles
 #ifndef nearestToCell_H
 #define nearestToCell_H
 
-#include "topoSetSource.H"
+#include "meshTools/sets/topoSetSource/topoSetSource.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

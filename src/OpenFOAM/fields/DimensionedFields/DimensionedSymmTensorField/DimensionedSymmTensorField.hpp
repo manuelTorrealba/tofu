@@ -37,6 +37,8 @@ SourceFiles
 
 #include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.hpp"
 #include "OpenFOAM/primitives/SymmTensor/symmTensor/symmTensor.hpp"
+#include "OpenFOAM/primitives/SphericalTensor/sphericalTensor/sphericalTensor.hpp"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
 
 #define TEMPLATE template<class GeoMesh>
 #include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedFieldFunctionsM.hpp"

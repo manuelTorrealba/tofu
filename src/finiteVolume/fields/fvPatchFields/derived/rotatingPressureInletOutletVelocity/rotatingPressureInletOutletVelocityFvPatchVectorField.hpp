@@ -70,9 +70,9 @@ SourceFiles
 #ifndef rotatingPressureInletOutletVelocityFvPatchVectorField_H
 #define rotatingPressureInletOutletVelocityFvPatchVectorField_H
 
-#include "fvPatchFields.H"
-#include "pressureInletOutletVelocityFvPatchVectorField.H"
-#include "Function1.H"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFields.hpp"
+#include "finiteVolume/fields/fvPatchFields/derived/pressureInletOutletVelocity/pressureInletOutletVelocityFvPatchVectorField.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

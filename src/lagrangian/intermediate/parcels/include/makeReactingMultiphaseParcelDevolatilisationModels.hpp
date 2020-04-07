@@ -28,9 +28,9 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ConstantRateDevolatilisation.H"
-#include "NoDevolatilisation.H"
-#include "SingleKineticRateDevolatilisation.H"
+#include "lagrangian/intermediate/submodels/ReactingMultiphase/DevolatilisationModel/ConstantRateDevolatilisation/ConstantRateDevolatilisation.hpp"
+#include "lagrangian/intermediate/submodels/ReactingMultiphase/DevolatilisationModel/NoDevolatilisation/NoDevolatilisation.hpp"
+#include "lagrangian/intermediate/submodels/ReactingMultiphase/DevolatilisationModel/SingleKineticRateDevolatilisation/SingleKineticRateDevolatilisation.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

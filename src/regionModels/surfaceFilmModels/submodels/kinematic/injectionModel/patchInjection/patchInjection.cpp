@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchInjection.H"
-#include "addToRunTimeSelectionTable.H"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/injectionModel/patchInjection/patchInjection.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

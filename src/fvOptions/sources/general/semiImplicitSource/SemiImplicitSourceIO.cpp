@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SemiImplicitSource.H"
+#include "fvOptions/sources/general/semiImplicitSource/SemiImplicitSource.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

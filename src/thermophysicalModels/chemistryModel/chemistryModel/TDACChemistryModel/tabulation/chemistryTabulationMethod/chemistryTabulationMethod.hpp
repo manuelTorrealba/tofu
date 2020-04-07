@@ -35,10 +35,10 @@ SourceFiles
 #ifndef chemistryTabulationMethod_H
 #define chemistryTabulationMethod_H
 
-#include "IOdictionary.H"
-#include "scalarField.H"
-#include "Switch.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

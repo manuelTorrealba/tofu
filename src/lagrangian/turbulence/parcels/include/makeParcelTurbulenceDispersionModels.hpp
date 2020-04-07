@@ -28,8 +28,8 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "GradientDispersionRAS.H"
-#include "StochasticDispersionRAS.H"
+#include "lagrangian/turbulence/submodels/Kinematic/DispersionModel/GradientDispersionRAS/GradientDispersionRAS.hpp"
+#include "lagrangian/turbulence/submodels/Kinematic/DispersionModel/StochasticDispersionRAS/StochasticDispersionRAS.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

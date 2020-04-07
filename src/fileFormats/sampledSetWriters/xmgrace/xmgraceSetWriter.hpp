@@ -34,7 +34,7 @@ SourceFiles
 #ifndef xmgraceSetWriter_H
 #define xmgraceSetWriter_H
 
-#include "writer.H"
+#include "fileFormats/sampledSetWriters/writer.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

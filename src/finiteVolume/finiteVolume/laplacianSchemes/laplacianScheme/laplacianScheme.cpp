@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fv.H"
-#include "HashTable.H"
-#include "linear.H"
-#include "fvMatrix.H"
+#include "finiteVolume/finiteVolume/fv/fv.hpp"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
+#include "thermophysicalModels/specie/equationOfState/linear/linear.hpp"
+#include "finiteVolume/fvMatrices/fvMatrix/fvMatrix.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

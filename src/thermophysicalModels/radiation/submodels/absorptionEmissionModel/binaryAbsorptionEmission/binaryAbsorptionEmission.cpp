@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "binaryAbsorptionEmission.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalModels/radiation/submodels/absorptionEmissionModel/binaryAbsorptionEmission/binaryAbsorptionEmission.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

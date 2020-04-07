@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "singleComponentMixture.H"
+#include "thermophysicalModels/reactionThermo/mixtures/singleComponentMixture/singleComponentMixture.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermoParcelInjectionData.H"
+#include "lagrangian/intermediate/submodels/Thermodynamic/InjectionModel/ThermoLookupTableInjection/thermoParcelInjectionData.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

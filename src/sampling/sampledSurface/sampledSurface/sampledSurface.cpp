@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledSurface.H"
-#include "polyMesh.H"
-#include "demandDrivenData.H"
+#include "sampling/sampledSurface/sampledSurface/sampledSurface.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

@@ -37,9 +37,9 @@ SourceFiles
 #ifndef pyrolysisChemistryModel_H
 #define pyrolysisChemistryModel_H
 
-#include "volFieldsFwd.H"
-#include "DimensionedField.H"
-#include "solidChemistryModel.H"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.hpp"
+#include "thermophysicalModels/solidChemistryModel/solidChemistryModel/solidChemistryModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -238,7 +238,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-    #include "pyrolysisChemistryModelI.H"
+#include "thermophysicalModels/solidChemistryModel/pyrolysisChemistryModel/pyrolysisChemistryModelI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

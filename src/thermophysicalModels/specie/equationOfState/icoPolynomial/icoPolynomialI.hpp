@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "icoPolynomial.H"
+#include "thermophysicalModels/specie/equationOfState/icoPolynomial/icoPolynomial.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -65,8 +65,8 @@ SourceFiles
 #ifndef uniformInletOutletFvPatchField_H
 #define uniformInletOutletFvPatchField_H
 
-#include "mixedFvPatchField.H"
-#include "Function1.H"
+#include "finiteVolume/fields/fvPatchFields/basic/mixed/mixedFvPatchField.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

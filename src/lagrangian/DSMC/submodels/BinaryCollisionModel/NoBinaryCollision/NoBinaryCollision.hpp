@@ -32,7 +32,7 @@ Description
 #ifndef NoBinaryCollision_H
 #define NoBinaryCollision_H
 
-#include "BinaryCollisionModel.H"
+#include "lagrangian/DSMC/submodels/BinaryCollisionModel/BinaryCollisionModel/BinaryCollisionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

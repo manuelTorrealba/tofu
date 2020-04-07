@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kOmegaSSTLM.H"
+#include "TurbulenceModels/turbulenceModels/RAS/kOmegaSSTLM/kOmegaSSTLM.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

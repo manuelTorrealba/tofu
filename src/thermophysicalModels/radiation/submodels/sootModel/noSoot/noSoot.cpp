@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noSoot.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalModels/radiation/submodels/sootModel/noSoot/noSoot.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

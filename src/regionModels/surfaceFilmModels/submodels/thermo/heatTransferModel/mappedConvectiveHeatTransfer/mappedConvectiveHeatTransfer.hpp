@@ -36,8 +36,8 @@ SourceFiles
 #ifndef mappedConvectiveHeatTransfer_H
 #define mappedConvectiveHeatTransfer_H
 
-#include "heatTransferModel.H"
-#include "volFields.H"
+#include "regionModels/surfaceFilmModels/submodels/thermo/heatTransferModel/heatTransferModel/heatTransferModel.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

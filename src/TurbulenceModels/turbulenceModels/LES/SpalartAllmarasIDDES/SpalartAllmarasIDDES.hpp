@@ -44,8 +44,8 @@ SourceFiles
 #ifndef SpalartAllmarasIDDES_H
 #define SpalartAllmarasIDDES_H
 
-#include "SpalartAllmarasDES.H"
-#include "IDDESDelta.H"
+#include "TurbulenceModels/turbulenceModels/LES/SpalartAllmarasDES/SpalartAllmarasDES.hpp"
+#include "TurbulenceModels/turbulenceModels/LES/LESdeltas/IDDESDelta/IDDESDelta.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

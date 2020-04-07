@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Boussinesq.H"
+#include "thermophysicalModels/specie/equationOfState/Boussinesq/Boussinesq.hpp"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

@@ -46,7 +46,7 @@ Description
 #ifndef BlobsSheetAtomization_H
 #define BlobsSheetAtomization_H
 
-#include "AtomizationModel.H"
+#include "lagrangian/spray/submodels/AtomizationModel/AtomizationModel/AtomizationModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

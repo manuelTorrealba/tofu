@@ -33,7 +33,7 @@ Description
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "chemistryTabulationMethod.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/tabulation/chemistryTabulationMethod/chemistryTabulationMethod.hpp"
 
 namespace Foam
 {

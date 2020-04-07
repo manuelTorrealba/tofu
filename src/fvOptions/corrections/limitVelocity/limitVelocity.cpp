@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "limitVelocity.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvOptions/corrections/limitVelocity/limitVelocity.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

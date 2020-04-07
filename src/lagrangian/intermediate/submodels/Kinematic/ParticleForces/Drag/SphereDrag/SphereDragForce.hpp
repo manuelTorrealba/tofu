@@ -32,7 +32,7 @@ Description
 #ifndef SphereDragForce_H
 #define SphereDragForce_H
 
-#include "ParticleForce.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

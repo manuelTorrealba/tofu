@@ -35,7 +35,7 @@ SourceFiles
 #ifndef standardPhaseChange_H
 #define standardPhaseChange_H
 
-#include "phaseChangeModel.H"
+#include "regionModels/surfaceFilmModels/submodels/thermo/phaseChangeModel/phaseChangeModel/phaseChangeModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

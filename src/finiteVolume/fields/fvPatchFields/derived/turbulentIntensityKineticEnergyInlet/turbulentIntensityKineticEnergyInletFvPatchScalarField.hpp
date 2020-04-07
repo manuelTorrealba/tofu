@@ -72,7 +72,7 @@ SourceFiles
 #ifndef turbulentIntensityKineticEnergyInletFvPatchScalarField_H
 #define turbulentIntensityKineticEnergyInletFvPatchScalarField_H
 
-#include "inletOutletFvPatchFields.H"
+#include "finiteVolume/fields/fvPatchFields/derived/inletOutlet/inletOutletFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

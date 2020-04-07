@@ -36,8 +36,8 @@ SourceFiles
 #ifndef consumptionSpeed_H
 #define consumptionSpeed_H
 
-#include "IOdictionary.H"
-#include "volFields.H"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

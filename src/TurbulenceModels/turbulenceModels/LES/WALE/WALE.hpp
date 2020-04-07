@@ -56,8 +56,8 @@ SourceFiles
 #ifndef WALE_H
 #define WALE_H
 
-#include "LESModel.H"
-#include "LESeddyViscosity.H"
+#include "TurbulenceModels/turbulenceModels/LES/LESModel/LESModel.hpp"
+#include "TurbulenceModels/turbulenceModels/LES/LESeddyViscosity/LESeddyViscosity.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

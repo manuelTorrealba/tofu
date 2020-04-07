@@ -36,7 +36,7 @@ SourceFiles
 #ifndef exponentialDiffusivity_H
 #define exponentialDiffusivity_H
 
-#include "motionDiffusivity.H"
+#include "fvMotionSolver/motionDiffusivity/motionDiffusivity/motionDiffusivity.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

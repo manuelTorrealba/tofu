@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReversibleReaction.H"
+#include "thermophysicalModels/specie/reaction/ReactionsN/ReversibleReaction/ReversibleReaction.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

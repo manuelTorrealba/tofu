@@ -32,9 +32,9 @@ Description
 #ifndef basicKinematicCloud_H
 #define basicKinematicCloud_H
 
-#include "Cloud.H"
-#include "KinematicCloud.H"
-#include "basicKinematicParcel.H"
+#include "lagrangian/basic/Cloud/Cloud.hpp"
+#include "lagrangian/intermediate/clouds/Templates/KinematicCloud/KinematicCloud.hpp"
+#include "lagrangian/intermediate/parcels/derived/basicKinematicParcel/basicKinematicParcel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

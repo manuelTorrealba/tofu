@@ -37,13 +37,13 @@ SourceFiles
 #ifndef Reaction_H
 #define Reaction_H
 
-#include "speciesTable.H"
-#include "HashPtrTable.H"
-#include "scalarField.H"
-#include "simpleMatrix.H"
-#include "Tuple2.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
+#include "thermophysicalModels/specie/speciesTable/speciesTable.hpp"
+#include "OpenFOAM/containers/HashTables/HashPtrTable/HashPtrTable.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/matrices/simpleMatrix/simpleMatrix.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -431,7 +431,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ReactionI.H"
+#include "thermophysicalModels/specie/reaction/ReactionsN/Reaction/ReactionI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

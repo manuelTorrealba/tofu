@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightPart.H"
+#include "conversion/ensight/part/ensightPart.hpp"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

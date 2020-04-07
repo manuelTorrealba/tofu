@@ -55,9 +55,9 @@ SourceFiles
 #ifndef lineUniform_H
 #define lineUniform_H
 
-#include "passiveParticleCloud.H"
-#include "sampledSet.H"
-#include "DynamicList.H"
+#include "lagrangian/basic/passiveParticle/passiveParticleCloud.hpp"
+#include "sampling/sampledSet/sampledSet/sampledSet.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

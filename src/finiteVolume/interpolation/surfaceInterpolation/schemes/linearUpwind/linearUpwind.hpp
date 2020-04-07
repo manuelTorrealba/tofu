@@ -37,8 +37,8 @@ SourceFiles
 #ifndef linearUpwind_H
 #define linearUpwind_H
 
-#include "upwind.H"
-#include "gaussGrad.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/upwind/upwind.hpp"
+#include "finiteVolume/finiteVolume/gradSchemes/gaussGrad/gaussGrad.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

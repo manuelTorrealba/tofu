@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "N2.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalModels/thermophysicalProperties/liquidProperties/N2/N2.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -42,7 +42,7 @@ SourceFiles
 #ifndef solitary_H
 #define solitary_H
 
-#include "waveModel.H"
+#include "waves/waveModels/waveModel/waveModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

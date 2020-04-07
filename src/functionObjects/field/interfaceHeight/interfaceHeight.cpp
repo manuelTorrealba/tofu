@@ -23,16 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interfaceHeight.H"
-#include "fvMesh.H"
-#include "interpolation.H"
-#include "IOmanip.H"
-#include "meshSearch.H"
-#include "lineCellFace.H"
-#include "Time.H"
-#include "uniformDimensionedFields.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/field/interfaceHeight/interfaceHeight.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/interpolation/interpolation/interpolation/interpolation.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOmanip.hpp"
+#include "meshTools/meshSearch/meshSearch.hpp"
+#include "sampling/sampledSet/lineCellFace/lineCellFace.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/fields/UniformDimensionedFields/uniformDimensionedFields.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

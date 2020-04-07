@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "zoneToPoint.H"
-#include "polyMesh.H"
+#include "meshTools/sets/pointSources/zoneToPoint/zoneToPoint.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
 
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

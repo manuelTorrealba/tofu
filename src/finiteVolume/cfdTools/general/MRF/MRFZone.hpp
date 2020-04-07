@@ -39,17 +39,17 @@ SourceFiles
 #ifndef MRFZone_H
 #define MRFZone_H
 
-#include "dictionary.H"
-#include "wordList.H"
-#include "labelList.H"
-#include "dimensionedScalar.H"
-#include "dimensionedVector.H"
-#include "volFieldsFwd.H"
-#include "surfaceFields.H"
-#include "fvMatricesFwd.H"
-#include "mapPolyMesh.H"
-#include "Function1.H"
-#include "autoPtr.H"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/primitives/strings/lists/wordList.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedVector/dimensionedVector.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
+#include "finiteVolume/fvMatrices/fvMatricesFwd.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -287,7 +287,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "MRFZoneI.H"
+#include "finiteVolume/cfdTools/general/MRF/MRFZoneI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

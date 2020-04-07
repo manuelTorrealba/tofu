@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReactingParcel.H"
-#include "IOstreams.H"
+#include "lagrangian/intermediate/parcels/Templates/ReactingParcel/ReactingParcel.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

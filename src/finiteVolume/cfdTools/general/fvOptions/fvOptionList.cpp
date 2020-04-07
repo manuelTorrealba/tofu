@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvOptionList.H"
-#include "surfaceFields.H"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOptionList.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -35,8 +35,8 @@ SourceFiles
 #ifndef indexedParticleCloud_H
 #define indexedParticleCloud_H
 
-#include "Cloud.H"
-#include "indexedParticle.H"
+#include "lagrangian/basic/Cloud/Cloud.hpp"
+#include "lagrangian/basic/indexedParticle/indexedParticle.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

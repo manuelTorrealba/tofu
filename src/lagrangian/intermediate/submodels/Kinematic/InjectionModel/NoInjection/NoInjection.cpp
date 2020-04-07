@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoInjection.H"
-#include "addToRunTimeSelectionTable.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/NoInjection/NoInjection.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

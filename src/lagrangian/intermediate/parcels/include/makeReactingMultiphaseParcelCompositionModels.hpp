@@ -28,8 +28,8 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoComposition.H"
-#include "SingleMixtureFraction.H"
+#include "lagrangian/intermediate/submodels/Reacting/CompositionModel/NoComposition/NoComposition.hpp"
+#include "lagrangian/intermediate/submodels/Reacting/CompositionModel/SingleMixtureFraction/SingleMixtureFraction.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef sphericalAngularDamper_H
 #define sphericalAngularDamper_H
 
-#include "sixDoFRigidBodyMotionRestraint.H"
+#include "sixDoFRigidBodyMotion/sixDoFRigidBodyMotion/restraints/sixDoFRigidBodyMotionRestraint/sixDoFRigidBodyMotionRestraint.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

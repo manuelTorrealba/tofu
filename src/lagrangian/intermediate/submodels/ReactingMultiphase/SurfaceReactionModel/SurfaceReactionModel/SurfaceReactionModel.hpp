@@ -36,11 +36,11 @@ SourceFiles
 #ifndef SurfaceReactionModel_H
 #define SurfaceReactionModel_H
 
-#include "IOdictionary.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
-#include "CloudSubModelBase.H"
-#include "scalarField.H"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
+#include "lagrangian/intermediate/submodels/CloudSubModelBase.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

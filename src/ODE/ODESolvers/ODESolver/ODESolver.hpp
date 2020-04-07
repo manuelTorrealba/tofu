@@ -35,9 +35,9 @@ SourceFiles
 #ifndef ODESolver_H
 #define ODESolver_H
 
-#include "ODESystem.H"
-#include "typeInfo.H"
-#include "autoPtr.H"
+#include "ODE/ODESystem/ODESystem.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -226,7 +226,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ODESolverI.H"
+#include "ODE/ODESolvers/ODESolver/ODESolverI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

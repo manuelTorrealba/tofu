@@ -28,15 +28,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshSubset.H"
-#include "boolList.H"
-#include "Pstream.H"
-#include "emptyPolyPatch.H"
-#include "demandDrivenData.H"
-#include "cyclicPolyPatch.H"
-#include "removeCells.H"
-#include "polyTopoChange.H"
-#include "mapPolyMesh.H"
+#include "dynamicMesh/fvMeshSubset/fvMeshSubset.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/removeCells.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChange.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

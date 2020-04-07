@@ -26,8 +26,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMesh.H"
-#include "localBlended.H"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/localBlended/localBlended.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

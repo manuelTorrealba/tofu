@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMesh.H"
-#include "weighted.H"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/weighted/weighted.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

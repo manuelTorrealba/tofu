@@ -59,8 +59,8 @@ SourceFiles
 #ifndef temperatureDependentSurfaceTension_H
 #define temperatureDependentSurfaceTension_H
 
-#include "surfaceTensionModel.H"
-#include "Function1.H"
+#include "transportModels/interfaceProperties/surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

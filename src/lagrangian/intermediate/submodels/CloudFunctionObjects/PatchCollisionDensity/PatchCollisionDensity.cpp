@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchCollisionDensity.H"
-#include "Pstream.H"
-#include "stringListOps.H"
-#include "ListOps.H"
-#include "ListListOps.H"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/PatchCollisionDensity/PatchCollisionDensity.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/primitives/strings/lists/stringListOps.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "OpenFOAM/containers/Lists/ListListOps/ListListOps.hpp"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

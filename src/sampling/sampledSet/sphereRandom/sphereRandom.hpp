@@ -55,8 +55,8 @@ SourceFiles
 #ifndef sphereRandom_H
 #define sphereRandom_H
 
-#include "sampledSet.H"
-#include "DynamicList.H"
+#include "sampling/sampledSet/sampledSet/sampledSet.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

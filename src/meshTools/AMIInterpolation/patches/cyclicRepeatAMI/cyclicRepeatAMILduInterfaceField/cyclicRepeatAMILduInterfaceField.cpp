@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicRepeatAMILduInterfaceField.H"
-#include "diagTensorField.H"
+#include "meshTools/AMIInterpolation/patches/cyclicRepeatAMI/cyclicRepeatAMILduInterfaceField/cyclicRepeatAMILduInterfaceField.hpp"
+#include "OpenFOAM/fields/Fields/diagTensorField/diagTensorField.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

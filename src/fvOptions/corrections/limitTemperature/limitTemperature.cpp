@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "limitTemperature.H"
-#include "fvMesh.H"
-#include "basicThermo.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvOptions/corrections/limitTemperature/limitTemperature.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "thermophysicalModels/basic/basicThermo/basicThermo.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

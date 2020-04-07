@@ -39,9 +39,9 @@ SourceFiles
 #ifndef tabulated6DoFMotion_H
 #define tabulated6DoFMotion_H
 
-#include "solidBodyMotionFunction.H"
-#include "primitiveFields.H"
-#include "Vector2D.H"
+#include "dynamicMesh/motionSolvers/displacement/solidBody/solidBodyMotionFunctions/solidBodyMotionFunction/solidBodyMotionFunction.hpp"
+#include "OpenFOAM/fields/Fields/primitiveFields.hpp"
+#include "OpenFOAM/primitives/Vector2D/Vector2D.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

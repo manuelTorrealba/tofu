@@ -35,9 +35,9 @@ SourceFiles
 #ifndef regionModel1D_H
 #define regionModel1D_H
 
-#include "regionModel.H"
-#include "surfaceFields.H"
-#include "labelList.H"
+#include "regionModels/regionModel/regionModel/regionModel.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -187,7 +187,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "regionModel1DI.H"
+#include "regionModels/regionModel/regionModel1D/regionModel1DI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

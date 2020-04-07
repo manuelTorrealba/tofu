@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMesh.H"
-#include "cellCoBlended.H"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/cellCoBlended/cellCoBlended.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

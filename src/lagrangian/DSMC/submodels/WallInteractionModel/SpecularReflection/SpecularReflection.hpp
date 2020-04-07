@@ -32,7 +32,7 @@ Description
 #ifndef SpecularReflection_H
 #define SpecularReflection_H
 
-#include "WallInteractionModel.H"
+#include "lagrangian/DSMC/submodels/WallInteractionModel/WallInteractionModel/WallInteractionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

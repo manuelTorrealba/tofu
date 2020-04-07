@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfZoneIdentifier.H"
-#include "dictionary.H"
+#include "surfMesh/surfZone/surfZoneIdentifier/surfZoneIdentifier.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvPatchMapper.H"
-#include "fvPatch.H"
-#include "fvBoundaryMesh.H"
-#include "fvMesh.H"
-#include "mapPolyMesh.H"
-#include "faceMapper.H"
+#include "finiteVolume/fvMesh/fvMeshMapper/fvPatchMapper.hpp"
+#include "finiteVolume/fvMesh/fvPatches/fvPatch/fvPatch.hpp"
+#include "finiteVolume/fvMesh/fvBoundaryMesh/fvBoundaryMesh.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/faceMapper/faceMapper.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

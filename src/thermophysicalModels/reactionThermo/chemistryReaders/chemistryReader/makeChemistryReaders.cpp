@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeReactionThermo.H"
-#include "thermoPhysicsTypes.H"
-#include "solidThermoPhysicsTypes.H"
+#include "thermophysicalModels/reactionThermo/makeReactionThermo.hpp"
+#include "thermophysicalModels/specie/include/thermoPhysicsTypes.hpp"
+#include "thermophysicalModels/solidSpecie/include/solidThermoPhysicsTypes.hpp"
 
-#include "chemistryReader.H"
-#include "foamChemistryReader.H"
+#include "thermophysicalModels/reactionThermo/chemistryReaders/chemistryReader/chemistryReader.hpp"
+#include "thermophysicalModels/reactionThermo/chemistryReaders/foamChemistryReader/foamChemistryReader.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

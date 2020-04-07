@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "C8H10.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalModels/thermophysicalProperties/liquidProperties/C8H10/C8H10.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

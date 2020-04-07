@@ -41,7 +41,7 @@ Description
 #ifndef SHF_H
 #define SHF_H
 
-#include "BreakupModel.H"
+#include "lagrangian/spray/submodels/BreakupModel/BreakupModel/BreakupModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

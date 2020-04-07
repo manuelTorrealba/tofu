@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "badQualityToCell.H"
-#include "polyMesh.H"
-#include "motionSmoother.H"
-#include "addToRunTimeSelectionTable.H"
-#include "faceSet.H"
+#include "dynamicMesh/motionSmoother/badQualityToCell/badQualityToCell.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "dynamicMesh/motionSmoother/motionSmoother.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "meshTools/sets/topoSets/faceSet.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

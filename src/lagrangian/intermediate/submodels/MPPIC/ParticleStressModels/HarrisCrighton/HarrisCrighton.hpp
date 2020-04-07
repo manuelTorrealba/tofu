@@ -53,7 +53,7 @@ SourceFiles
 #ifndef HarrisCrighton_H
 #define HarrisCrighton_H
 
-#include "ParticleStressModel.H"
+#include "lagrangian/intermediate/submodels/MPPIC/ParticleStressModels/ParticleStressModel/ParticleStressModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

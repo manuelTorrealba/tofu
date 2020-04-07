@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NonEquilibriumReversibleReaction.H"
+#include "thermophysicalModels/specie/reaction/ReactionsN/NonEquilibriumReversibleReaction/NonEquilibriumReversibleReaction.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

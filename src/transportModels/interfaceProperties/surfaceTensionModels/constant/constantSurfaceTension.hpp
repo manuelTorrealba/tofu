@@ -48,7 +48,7 @@ SourceFiles
 #ifndef constantSurfaceTension_H
 #define constantSurfaceTension_H
 
-#include "surfaceTensionModel.H"
+#include "transportModels/interfaceProperties/surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

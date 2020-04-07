@@ -49,8 +49,8 @@ SourceFiles
 #ifndef topoCellLooper_H
 #define topoCellLooper_H
 
-#include "hexCellLooper.H"
-#include "typeInfo.H"
+#include "dynamicMesh/meshCut/cellLooper/hexCellLooper.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

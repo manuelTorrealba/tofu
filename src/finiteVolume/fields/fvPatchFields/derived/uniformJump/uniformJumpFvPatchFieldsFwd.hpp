@@ -26,7 +26,7 @@ License
 #ifndef uniformJumpFvPatchFieldsFwd_H
 #define uniformJumpFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

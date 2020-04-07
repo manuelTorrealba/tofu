@@ -42,13 +42,13 @@ SourceFiles
 #ifndef blockMesh_H
 #define blockMesh_H
 
-#include "blockList.H"
-#include "searchableSurfaces.H"
-#include "polyMesh.H"
-#include "IOdictionary.H"
-#include "blockVertexList.H"
-#include "blockEdgeList.H"
-#include "blockFaceList.H"
+#include "mesh/blockMesh/blocks/block/blockList.hpp"
+#include "meshTools/searchableSurfaces/searchableSurfaces/searchableSurfaces.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "mesh/blockMesh/blockVertices/blockVertex/blockVertexList.hpp"
+#include "mesh/blockMesh/blockEdges/blockEdge/blockEdgeList.hpp"
+#include "mesh/blockMesh/blockFaces/blockFace/blockFaceList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

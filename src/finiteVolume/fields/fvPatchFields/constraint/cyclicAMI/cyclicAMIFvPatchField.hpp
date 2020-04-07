@@ -54,9 +54,9 @@ SourceFiles
 #ifndef cyclicAMIFvPatchField_H
 #define cyclicAMIFvPatchField_H
 
-#include "coupledFvPatchField.H"
-#include "cyclicAMILduInterfaceField.H"
-#include "cyclicAMIFvPatch.H"
+#include "finiteVolume/fields/fvPatchFields/basic/coupled/coupledFvPatchField.hpp"
+#include "meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMILduInterfaceField/cyclicAMILduInterfaceField.hpp"
+#include "finiteVolume/fvMesh/fvPatches/constraint/cyclicAMI/cyclicAMIFvPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rotorDiskSource.H"
-#include "volFields.H"
-#include "unitConversion.H"
+#include "fvOptions/sources/derived/rotorDiskSource/rotorDiskSource.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
 
 using namespace Foam::constant;
 

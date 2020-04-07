@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointEdgePoint.H"
+#include "meshTools/algorithms/PointEdgeWave/pointEdgePoint.hpp"
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 

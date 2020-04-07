@@ -36,9 +36,9 @@ SourceFiles
 #ifndef geometricSurfacePatch_H
 #define geometricSurfacePatch_H
 
-#include "word.H"
-#include "label.H"
-#include "typeInfo.H"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

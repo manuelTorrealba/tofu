@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellMotionFvPatchField.H"
-#include "fvMesh.H"
-#include "volMesh.H"
-#include "pointFields.H"
+#include "fvMotionSolver/fvPatchFields/derived/cellMotion/cellMotionFvPatchField.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/volMesh/volMesh.hpp"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFields.hpp"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

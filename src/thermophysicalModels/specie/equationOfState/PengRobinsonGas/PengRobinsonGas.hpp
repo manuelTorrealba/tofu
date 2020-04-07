@@ -36,7 +36,7 @@ SourceFiles
 #ifndef PengRobinsonGas_H
 #define PengRobinsonGas_H
 
-#include "autoPtr.H"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -222,7 +222,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PengRobinsonGasI.H"
+#include "thermophysicalModels/specie/equationOfState/PengRobinsonGas/PengRobinsonGasI.hpp"
 
 #ifdef NoRepository
     #include "PengRobinsonGas.C"

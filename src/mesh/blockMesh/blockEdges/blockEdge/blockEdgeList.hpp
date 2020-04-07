@@ -32,8 +32,8 @@ Description
 #ifndef blockEdgeList_H
 #define blockEdgeList_H
 
-#include "blockEdge.H"
-#include "PtrList.H"
+#include "mesh/blockMesh/blockEdges/blockEdge/blockEdge.hpp"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

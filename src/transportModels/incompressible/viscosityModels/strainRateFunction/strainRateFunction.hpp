@@ -49,9 +49,9 @@ SourceFiles
 #ifndef strainRateFunction_H
 #define strainRateFunction_H
 
-#include "viscosityModel.H"
-#include "volFields.H"
-#include "Function1.H"
+#include "transportModels/incompressible/viscosityModels/viscosityModel/viscosityModel.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

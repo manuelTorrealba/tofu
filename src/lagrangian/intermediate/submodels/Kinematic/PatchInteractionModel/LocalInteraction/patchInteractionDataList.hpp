@@ -32,10 +32,10 @@ Description
 #ifndef patchInteractionDataList_H
 #define patchInteractionDataList_H
 
-#include "patchInteractionData.H"
-#include "polyMesh.H"
-#include "dictionary.H"
-#include "labelList.H"
+#include "lagrangian/intermediate/submodels/Kinematic/PatchInteractionModel/LocalInteraction/patchInteractionData.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

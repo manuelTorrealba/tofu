@@ -35,8 +35,8 @@ SourceFiles
 #ifndef kinematicCloud_H
 #define kinematicCloud_H
 
-#include "typeInfo.H"
-#include "volFieldsFwd.H"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

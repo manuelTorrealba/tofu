@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "setUpdater.H"
-#include "polyMesh.H"
-#include "Time.H"
-#include "mapPolyMesh.H"
-#include "IOobjectList.H"
+#include "dynamicMesh/setUpdater/setUpdater.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "OpenFOAM/db/IOobjectList/IOobjectList.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -60,9 +60,9 @@ SourceFiles
 #ifndef interfaceHeight_H
 #define interfaceHeight_H
 
-#include "fvMeshFunctionObject.H"
-#include "logFiles.H"
-#include "point.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
+#include "OpenFOAM/db/functionObjects/logFiles/logFiles.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

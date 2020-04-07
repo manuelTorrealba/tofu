@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "singleStepReactingMixture.H"
+#include "thermophysicalModels/reactionThermo/mixtures/singleStepReactingMixture/singleStepReactingMixture.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

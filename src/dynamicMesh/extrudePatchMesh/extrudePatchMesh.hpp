@@ -70,11 +70,11 @@ Description
 #ifndef extrudePatchMesh_H
 #define extrudePatchMesh_H
 
-#include "extrudeModel.H"
-#include "autoPtr.H"
+#include "mesh/extrudeModel/extrudeModel/extrudeModel.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 
-#include "fvMesh.H"
-#include "Time.H"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

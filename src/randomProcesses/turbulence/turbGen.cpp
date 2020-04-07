@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fft.H"
-#include "turbGen.H"
-#include "Kmesh.H"
-#include "primitiveFields.H"
-#include "Ek.H"
-#include "mathematicalConstants.H"
+#include "randomProcesses/fft/fft.hpp"
+#include "randomProcesses/turbulence/turbGen.hpp"
+#include "randomProcesses/Kmesh/Kmesh.hpp"
+#include "OpenFOAM/fields/Fields/primitiveFields.hpp"
+#include "randomProcesses/turbulence/Ek.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

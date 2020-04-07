@@ -32,8 +32,8 @@ Description
 #ifndef ensightPTraits_H
 #define ensightPTraits_H
 
-#include "pTraits.H"
-#include "fieldTypes.H"
+#include "OpenFOAM/primitives/pTraits/pTraits.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

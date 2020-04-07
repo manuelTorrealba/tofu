@@ -35,7 +35,7 @@ SourceFiles
 #ifndef fixedValue_H
 #define fixedValue_H
 
-#include "distributionModel.H"
+#include "lagrangian/distributionModels/distributionModel/distributionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,12 +37,12 @@ SourceFiles
 #ifndef waveModel_H
 #define waveModel_H
 
-#include "objectRegistry.H"
-#include "dictionary.H"
-#include "Function1.H"
-#include "runTimeSelectionTables.H"
-#include "vectorField.H"
-#include "vector2DField.H"
+#include "OpenFOAM/db/objectRegistry/objectRegistry.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
+#include "OpenFOAM/fields/Fields/vectorField/vectorField.hpp"
+#include "OpenFOAM/fields/Fields/vector2DField/vector2DField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

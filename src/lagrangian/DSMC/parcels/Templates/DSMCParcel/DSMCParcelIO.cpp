@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DSMCParcel.H"
-#include "IOstreams.H"
-#include "IOField.H"
-#include "Cloud.H"
+#include "lagrangian/DSMC/parcels/Templates/DSMCParcel/DSMCParcel.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
+#include "OpenFOAM/db/IOobjects/IOField/IOField.hpp"
+#include "lagrangian/basic/Cloud/Cloud.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

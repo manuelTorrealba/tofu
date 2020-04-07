@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoInteraction.H"
+#include "lagrangian/intermediate/submodels/Kinematic/PatchInteractionModel/NoInteraction/NoInteraction.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

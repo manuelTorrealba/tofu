@@ -56,11 +56,11 @@ SourceFiles
 #ifndef fvMeshSubset_H
 #define fvMeshSubset_H
 
-#include "fvMesh.H"
-#include "pointMesh.H"
-#include "GeometricField.H"
-#include "HashSet.H"
-#include "surfaceMesh.H"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointMesh.hpp"
+#include "OpenFOAM/fields/GeometricFields/GeometricField/GeometricField.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "finiteVolume/surfaceMesh/surfaceMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

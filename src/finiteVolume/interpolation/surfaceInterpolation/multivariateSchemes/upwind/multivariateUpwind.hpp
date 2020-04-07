@@ -35,8 +35,8 @@ SourceFiles
 #ifndef multivariateUpwind_H
 #define multivariateUpwind_H
 
-#include "multivariateSurfaceInterpolationScheme.H"
-#include "surfaceFields.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/multivariateSchemes/multivariateSurfaceInterpolationScheme/multivariateSurfaceInterpolationScheme.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

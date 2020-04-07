@@ -33,8 +33,8 @@ Description
 #ifndef interpolationPointMVC_H
 #define interpolationPointMVC_H
 
-#include "interpolation.H"
-#include "pointMVCWeight.H"
+#include "finiteVolume/interpolation/interpolation/interpolation/interpolation.hpp"
+#include "finiteVolume/interpolation/interpolation/interpolationPointMVC/pointMVCWeight.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -97,7 +97,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "interpolationPointMVCI.H"
+#include "finiteVolume/interpolation/interpolation/interpolationPointMVC/interpolationPointMVCI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

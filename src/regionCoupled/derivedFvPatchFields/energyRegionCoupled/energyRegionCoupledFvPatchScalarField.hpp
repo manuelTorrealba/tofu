@@ -38,12 +38,12 @@ SourceFiles
 #ifndef energyRegionCoupledFvPatchScalarField_H
 #define energyRegionCoupledFvPatchScalarField_H
 
-#include "regionCoupledBaseFvPatch.H"
-#include "LduInterfaceField.H"
-#include "fvPatchField.H"
-#include "NamedEnum.H"
-#include "basicThermo.H"
-#include "coupledFvPatchField.H"
+#include "finiteVolume/fvMesh/fvPatches/derived/regionCoupled/regionCoupledBaseFvPatch.hpp"
+#include "OpenFOAM/matrices/LduMatrixN/LduMatrix/LduInterfaceField/LduInterfaceField.hpp"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchField.hpp"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
+#include "thermophysicalModels/basic/basicThermo/basicThermo.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/coupled/coupledFvPatchField.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

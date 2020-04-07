@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "heatTransferModel.H"
+#include "regionModels/surfaceFilmModels/submodels/thermo/heatTransferModel/heatTransferModel/heatTransferModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

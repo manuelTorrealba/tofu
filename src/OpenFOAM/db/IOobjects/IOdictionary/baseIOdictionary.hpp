@@ -59,7 +59,9 @@ class baseIOdictionary
 {
     // Private data
 
-        static bool writeDictionaries;
+protected:
+
+    static bool writeDictionaries;
 
 public:
 

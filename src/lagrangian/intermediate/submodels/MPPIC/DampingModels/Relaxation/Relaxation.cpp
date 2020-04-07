@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Relaxation.H"
+#include "lagrangian/intermediate/submodels/MPPIC/DampingModels/Relaxation/Relaxation.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

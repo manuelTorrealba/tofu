@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvFieldDecomposer.H"
-#include "processorFvPatchField.H"
-#include "processorFvsPatchField.H"
-#include "processorCyclicFvPatchField.H"
-#include "processorCyclicFvsPatchField.H"
-#include "emptyFvPatchFields.H"
+#include "parallel/decompose/decompose/fvFieldDecomposer.hpp"
+#include "finiteVolume/fields/fvPatchFields/constraint/processor/processorFvPatchField.hpp"
+#include "finiteVolume/fields/fvsPatchFields/constraint/processor/processorFvsPatchField.hpp"
+#include "finiteVolume/fields/fvPatchFields/constraint/processorCyclic/processorCyclicFvPatchField.hpp"
+#include "finiteVolume/fields/fvsPatchFields/constraint/processorCyclic/processorCyclicFvsPatchField.hpp"
+#include "finiteVolume/fields/fvPatchFields/constraint/empty/emptyFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

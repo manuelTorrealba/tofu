@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicReactingMultiphaseParcel.H"
-#include "Cloud.H"
+#include "lagrangian/intermediate/parcels/derived/basicReactingMultiphaseParcel/basicReactingMultiphaseParcel.hpp"
+#include "lagrangian/basic/Cloud/Cloud.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

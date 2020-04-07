@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "HarrisCrighton.H"
-#include "addToRunTimeSelectionTable.H"
+#include "lagrangian/intermediate/submodels/MPPIC/ParticleStressModels/HarrisCrighton/HarrisCrighton.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

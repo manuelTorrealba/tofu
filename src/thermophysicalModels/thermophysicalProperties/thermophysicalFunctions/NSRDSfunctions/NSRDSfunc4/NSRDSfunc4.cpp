@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NSRDSfunc4.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc4/NSRDSfunc4.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

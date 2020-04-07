@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMotionSolver.H"
-#include "fixedValuePointPatchFields.H"
-#include "cellMotionFvPatchFields.H"
+#include "fvMotionSolver/fvMotionSolvers/fvMotionSolver/fvMotionSolver.hpp"
+#include "OpenFOAM/fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchFields.hpp"
+#include "fvMotionSolver/fvPatchFields/derived/cellMotion/cellMotionFvPatchFields.hpp"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

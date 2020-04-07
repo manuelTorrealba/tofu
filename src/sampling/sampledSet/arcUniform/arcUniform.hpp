@@ -61,8 +61,8 @@ SourceFiles
 #ifndef arcUniform_H
 #define arcUniform_H
 
-#include "sampledSet.H"
-#include "DynamicList.H"
+#include "sampling/sampledSet/sampledSet/sampledSet.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

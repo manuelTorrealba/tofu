@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReactingMultiphaseParcel.H"
-#include "mathematicalConstants.H"
+#include "lagrangian/intermediate/parcels/Templates/ReactingMultiphaseParcel/ReactingMultiphaseParcel.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
 
 using namespace Foam::constant::mathematical;
 

@@ -37,8 +37,8 @@ SourceFiles
 #ifndef repatchPolyTopoChanger_H
 #define repatchPolyTopoChanger_H
 
-#include "polyMesh.H"
-#include "polyTopoChange.H"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChange.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

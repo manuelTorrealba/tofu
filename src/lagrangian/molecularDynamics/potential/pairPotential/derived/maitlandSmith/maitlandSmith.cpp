@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "maitlandSmith.H"
-#include "addToRunTimeSelectionTable.H"
+#include "lagrangian/molecularDynamics/potential/pairPotential/derived/maitlandSmith/maitlandSmith.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

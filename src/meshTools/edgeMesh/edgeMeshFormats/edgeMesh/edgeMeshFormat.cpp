@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "edgeMeshFormat.H"
-#include "IOobject.H"
-#include "IFstream.H"
-#include "clock.H"
-#include "Time.H"
-#include "featureEdgeMesh.H"
+#include "meshTools/edgeMesh/edgeMeshFormats/edgeMesh/edgeMeshFormat.hpp"
+#include "OpenFOAM/db/IOobject/IOobject.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/global/clock/clock.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "meshTools/edgeMesh/featureEdgeMesh/featureEdgeMesh.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

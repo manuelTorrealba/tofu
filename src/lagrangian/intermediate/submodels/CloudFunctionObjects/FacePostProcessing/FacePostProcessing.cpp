@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FacePostProcessing.H"
-#include "Pstream.H"
-#include "ListListOps.H"
-#include "surfaceWriter.H"
-#include "globalIndex.H"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/FacePostProcessing/FacePostProcessing.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/containers/Lists/ListListOps/ListListOps.hpp"
+#include "sampling/sampledSurface/writers/surfaceWriter.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

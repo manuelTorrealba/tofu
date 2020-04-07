@@ -35,7 +35,7 @@ SourceFiles
 #ifndef cylinderToFace_H
 #define cylinderToFace_H
 
-#include "topoSetSource.H"
+#include "meshTools/sets/topoSetSource/topoSetSource.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -83,9 +83,9 @@ SourceFiles
 #ifndef fixedNormalInletOutletVelocityFvPatchVectorField_H
 #define fixedNormalInletOutletVelocityFvPatchVectorField_H
 
-#include "fvPatchFields.H"
-#include "directionMixedFvPatchFields.H"
-#include "Switch.H"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFields.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/directionMixed/directionMixedFvPatchFields.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

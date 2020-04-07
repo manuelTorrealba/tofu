@@ -35,7 +35,7 @@ SourceFiles
 #ifndef noScaling_H
 #define noScaling_H
 
-#include "energyScalingFunction.H"
+#include "lagrangian/molecularDynamics/potential/energyScalingFunction/basic/energyScalingFunction.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

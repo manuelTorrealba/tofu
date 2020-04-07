@@ -26,10 +26,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fv.H"
-#include "multivariateSurfaceInterpolationScheme.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "finiteVolume/finiteVolume/fv/fv.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/multivariateSchemes/multivariateSurfaceInterpolationScheme/multivariateSurfaceInterpolationScheme.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

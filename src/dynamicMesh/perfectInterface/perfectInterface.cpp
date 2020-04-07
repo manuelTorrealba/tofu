@@ -27,17 +27,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "perfectInterface.H"
-#include "polyTopoChanger.H"
-#include "polyMesh.H"
-#include "polyTopoChange.H"
-#include "addToRunTimeSelectionTable.H"
-#include "mapPolyMesh.H"
-#include "matchPoints.H"
-#include "polyModifyFace.H"
-#include "polyRemovePoint.H"
-#include "polyRemoveFace.H"
-#include "indirectPrimitivePatch.H"
+#include "dynamicMesh/perfectInterface/perfectInterface.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChanger/polyTopoChanger.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChange.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "OpenFOAM/meshes/meshTools/matchPoints.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/modifyObject/polyModifyFace.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/removeObject/polyRemovePoint.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/removeObject/polyRemoveFace.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

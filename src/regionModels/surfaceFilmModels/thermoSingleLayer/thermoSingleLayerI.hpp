@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermoSingleLayer.H"
-#include "filmRadiationModel.H"
-#include "heatTransferModel.H"
-#include "phaseChangeModel.H"
+#include "regionModels/surfaceFilmModels/thermoSingleLayer/thermoSingleLayer.hpp"
+#include "regionModels/surfaceFilmModels/submodels/thermo/filmRadiationModel/filmRadiationModel/filmRadiationModel.hpp"
+#include "regionModels/surfaceFilmModels/submodels/thermo/heatTransferModel/heatTransferModel/heatTransferModel.hpp"
+#include "regionModels/surfaceFilmModels/submodels/thermo/phaseChangeModel/phaseChangeModel/phaseChangeModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

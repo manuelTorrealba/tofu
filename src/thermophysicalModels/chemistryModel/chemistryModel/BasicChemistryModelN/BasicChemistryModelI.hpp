@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BasicChemistryModel.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/BasicChemistryModelN/BasicChemistryModel.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

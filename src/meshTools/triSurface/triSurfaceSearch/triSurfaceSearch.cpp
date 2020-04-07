@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurfaceSearch.H"
-#include "triSurface.H"
-#include "PatchTools.H"
-#include "volumeType.H"
+#include "meshTools/triSurface/triSurfaceSearch/triSurfaceSearch.hpp"
+#include "triSurface/triSurface/triSurface.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/PatchTools/PatchTools.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/volumeType.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

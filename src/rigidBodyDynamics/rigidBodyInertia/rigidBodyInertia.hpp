@@ -46,10 +46,10 @@ SourceFiles
 #ifndef RBD_rigidBodyInertia_H
 #define RBD_rigidBodyInertia_H
 
-#include "vector.H"
-#include "symmTensor.H"
-#include "spatialVector.H"
-#include "spatialTensor.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/primitives/SymmTensor/symmTensor/symmTensor.hpp"
+#include "OpenFOAM/primitives/spatialVectorAlgebra/SpatialVector/spatialVector/spatialVector.hpp"
+#include "OpenFOAM/primitives/spatialVectorAlgebra/SpatialTensor/spatialTensor/spatialTensor.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -169,7 +169,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "rigidBodyInertiaI.H"
+#include "rigidBodyDynamics/rigidBodyInertia/rigidBodyInertiaI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

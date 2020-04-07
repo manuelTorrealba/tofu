@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "multivariateScheme.H"
-#include "LimitedScheme.H"
-#include "Limited01.H"
-#include "Minmod.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/multivariateSchemes/multivariateScheme/multivariateScheme.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/LimitedScheme/LimitedScheme.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/Limited01/Limited01.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/Minmod/Minmod.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

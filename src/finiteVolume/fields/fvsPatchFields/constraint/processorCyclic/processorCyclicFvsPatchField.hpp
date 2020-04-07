@@ -35,8 +35,8 @@ SourceFiles
 #ifndef processorCyclicFvsPatchField_H
 #define processorCyclicFvsPatchField_H
 
-#include "coupledFvsPatchField.H"
-#include "processorCyclicFvPatch.H"
+#include "finiteVolume/fields/fvsPatchFields/basic/coupled/coupledFvsPatchField.hpp"
+#include "finiteVolume/fvMesh/fvPatches/constraint/processorCyclic/processorCyclicFvPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

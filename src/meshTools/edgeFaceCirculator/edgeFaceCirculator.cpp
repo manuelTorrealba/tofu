@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "edgeFaceCirculator.H"
-#include "primitiveMesh.H"
+#include "meshTools/edgeFaceCirculator/edgeFaceCirculator.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

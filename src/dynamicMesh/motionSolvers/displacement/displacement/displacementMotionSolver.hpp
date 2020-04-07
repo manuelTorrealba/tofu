@@ -38,7 +38,7 @@ SourceFiles
 #ifndef displacementMotionSolver_H
 #define displacementMotionSolver_H
 
-#include "points0MotionSolver.H"
+#include "dynamicMesh/motionSolvers/displacement/points0/points0MotionSolver.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

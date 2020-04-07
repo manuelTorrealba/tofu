@@ -35,7 +35,7 @@ SourceFiles
 #ifndef fvMeshTools_H
 #define fvMeshTools_H
 
-#include "fvMesh.H"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

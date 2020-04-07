@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "gaussGrad.H"
-#include "extrapolatedCalculatedFvPatchField.H"
+#include "finiteVolume/finiteVolume/gradSchemes/gaussGrad/gaussGrad.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

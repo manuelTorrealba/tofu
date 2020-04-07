@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DAC.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/reduction/DAC/DAC.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

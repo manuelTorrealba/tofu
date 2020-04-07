@@ -87,7 +87,7 @@ SourceFiles
 #ifndef omegaWallFunctionFvPatchScalarField_H
 #define omegaWallFunctionFvPatchScalarField_H
 
-#include "fixedValueFvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

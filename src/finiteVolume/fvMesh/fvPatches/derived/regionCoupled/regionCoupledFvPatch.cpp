@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionCoupledFvPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "finiteVolume/fvMesh/fvPatches/derived/regionCoupled/regionCoupledFvPatch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

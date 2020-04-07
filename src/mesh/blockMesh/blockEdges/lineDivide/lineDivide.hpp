@@ -35,9 +35,9 @@ SourceFiles
 #ifndef lineDivide_H
 #define lineDivide_H
 
-#include "pointField.H"
-#include "scalarList.H"
-#include "gradingDescriptors.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/primitives/Scalar/lists/scalarList.hpp"
+#include "mesh/blockMesh/gradingDescriptor/gradingDescriptors.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

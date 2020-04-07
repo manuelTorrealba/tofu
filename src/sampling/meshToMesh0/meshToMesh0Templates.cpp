@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshToMesh0.H"
-#include "volFields.H"
-#include "interpolationCellPoint.H"
-#include "SubField.H"
-#include "mixedFvPatchField.H"
+#include "sampling/meshToMesh0/meshToMesh0.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/interpolation/interpolation/interpolationCellPoint/interpolationCellPoint.hpp"
+#include "OpenFOAM/fields/Fields/Field/SubField.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/mixed/mixedFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

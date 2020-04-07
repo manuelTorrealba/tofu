@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundaryPoints.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "treeBoundBox.H"
-#include "treeDataFace.H"
-#include "Time.H"
-#include "meshTools.H"
-#include "mappedPatchBase.H"
+#include "sampling/sampledSet/boundaryPoints/boundaryPoints.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/meshes/treeBoundBox/treeBoundBox.hpp"
+#include "meshTools/indexedOctree/treeDataFace.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
+#include "meshTools/mappedPatches/mappedPolyPatch/mappedPatchBase.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

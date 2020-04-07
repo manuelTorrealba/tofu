@@ -36,10 +36,10 @@ SourceFiles
 #ifndef streamLineParticle_H
 #define streamLineParticle_H
 
-#include "particle.H"
-#include "autoPtr.H"
-#include "interpolation.H"
-#include "vectorList.H"
+#include "lagrangian/basic/particle/particle.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "finiteVolume/interpolation/interpolation/interpolation/interpolation.hpp"
+#include "OpenFOAM/primitives/Vector/lists/vectorList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

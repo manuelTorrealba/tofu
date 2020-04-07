@@ -35,8 +35,8 @@ SourceFiles
 #ifndef blockEdges_BSplineEdge_H
 #define blockEdges_BSplineEdge_H
 
-#include "blockEdge.H"
-#include "BSpline.H"
+#include "mesh/blockMesh/blockEdges/blockEdge/blockEdge.hpp"
+#include "mesh/blockMesh/blockEdges/BSplineEdge/BSpline.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

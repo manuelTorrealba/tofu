@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointData.H"
+#include "mesh/snappyHexMesh/snappyHexMeshDriver/pointData/pointData.hpp"
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 

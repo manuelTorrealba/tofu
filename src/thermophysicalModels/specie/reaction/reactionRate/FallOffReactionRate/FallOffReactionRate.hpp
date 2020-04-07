@@ -35,7 +35,7 @@ SourceFiles
 #ifndef FallOffReactionRate_H
 #define FallOffReactionRate_H
 
-#include "thirdBodyEfficiencies.H"
+#include "thermophysicalModels/specie/reaction/reactionRate/thirdBodyEfficiencies/thirdBodyEfficiencies.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -159,7 +159,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "FallOffReactionRateI.H"
+#include "thermophysicalModels/specie/reaction/reactionRate/FallOffReactionRate/FallOffReactionRateI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "incompressiblePerfectGas.H"
+#include "thermophysicalModels/specie/equationOfState/incompressiblePerfectGas/incompressiblePerfectGas.hpp"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

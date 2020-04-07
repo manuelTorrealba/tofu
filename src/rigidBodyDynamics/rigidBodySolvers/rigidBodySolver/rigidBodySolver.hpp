@@ -37,8 +37,8 @@ SourceFiles
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "rigidBodyMotion.H"
-#include "runTimeSelectionTables.H"
+#include "rigidBodyDynamics/rigidBodyMotion/rigidBodyMotion.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 namespace Foam
 {
@@ -156,7 +156,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "rigidBodySolverI.H"
+#include "rigidBodyDynamics/rigidBodySolvers/rigidBodySolver/rigidBodySolverI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

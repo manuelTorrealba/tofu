@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoDevolatilisation.H"
+#include "lagrangian/intermediate/submodels/ReactingMultiphase/DevolatilisationModel/NoDevolatilisation/NoDevolatilisation.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

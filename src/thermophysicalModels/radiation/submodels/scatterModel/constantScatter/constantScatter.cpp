@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constantScatter.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalModels/radiation/submodels/scatterModel/constantScatter/constantScatter.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

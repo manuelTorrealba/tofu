@@ -35,7 +35,7 @@ SourceFiles
 #ifndef cyclicACMILduInterface_H
 #define cyclicACMILduInterface_H
 
-#include "cyclicAMILduInterface.H"
+#include "meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMILduInterfaceField/cyclicAMILduInterface.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

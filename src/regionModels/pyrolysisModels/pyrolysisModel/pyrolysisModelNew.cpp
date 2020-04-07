@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pyrolysisModel.H"
-#include "fvMesh.H"
-#include "Time.H"
+#include "regionModels/pyrolysisModels/pyrolysisModel/pyrolysisModel.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

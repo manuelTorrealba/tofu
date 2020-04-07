@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "laplacianScheme.H"
+#include "finiteVolume/finiteVolume/laplacianSchemes/laplacianScheme/laplacianScheme.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

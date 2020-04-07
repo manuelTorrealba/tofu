@@ -26,8 +26,8 @@ License
 #ifndef directionMixedFvPatchFields_H
 #define directionMixedFvPatchFields_H
 
-#include "directionMixedFvPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvPatchFields/basic/directionMixed/directionMixedFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

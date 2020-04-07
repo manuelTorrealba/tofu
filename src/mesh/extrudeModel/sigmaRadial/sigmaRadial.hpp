@@ -31,7 +31,7 @@ Description
 #ifndef sigmaRadial_H
 #define sigmaRadial_H
 
-#include "extrudeModel.H"
+#include "mesh/extrudeModel/extrudeModel/extrudeModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

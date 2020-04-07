@@ -42,10 +42,10 @@ SourceFiles
 #ifndef AC3DsurfaceFormat_H
 #define AC3DsurfaceFormat_H
 
-#include "MeshedSurface.H"
-#include "MeshedSurfaceProxy.H"
-#include "UnsortedMeshedSurface.H"
-#include "AC3DsurfaceFormatCore.H"
+#include "surfMesh/MeshedSurface/MeshedSurface.hpp"
+#include "surfMesh/MeshedSurfaceProxy/MeshedSurfaceProxy.hpp"
+#include "surfMesh/UnsortedMeshedSurface/UnsortedMeshedSurface.hpp"
+#include "surfMesh/surfaceFormats/ac3d/AC3DsurfaceFormatCore.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

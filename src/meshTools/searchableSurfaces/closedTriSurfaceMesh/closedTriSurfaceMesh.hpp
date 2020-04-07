@@ -37,7 +37,7 @@ SourceFiles
 #ifndef closedTriSurfaceMesh_H
 #define closedTriSurfaceMesh_H
 
-#include "triSurfaceMesh.H"
+#include "meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

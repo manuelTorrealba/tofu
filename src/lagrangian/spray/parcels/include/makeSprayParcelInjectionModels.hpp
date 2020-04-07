@@ -28,15 +28,15 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "CellZoneInjection.H"
-#include "ConeInjection.H"
-#include "ConeNozzleInjection.H"
-#include "FieldActivatedInjection.H"
-#include "InflationInjection.H"
-#include "ManualInjection.H"
-#include "NoInjection.H"
-#include "PatchInjection.H"
-#include "PatchFlowRateInjection.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/CellZoneInjection/CellZoneInjection.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/ConeInjection/ConeInjection.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/ConeNozzleInjection/ConeNozzleInjection.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/FieldActivatedInjection/FieldActivatedInjection.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/InflationInjection/InflationInjection.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/ManualInjection/ManualInjection.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/NoInjection/NoInjection.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/PatchInjection/PatchInjection.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/PatchFlowRateInjection/PatchFlowRateInjection.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

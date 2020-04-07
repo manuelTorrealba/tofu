@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "turbulenceModel.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "wallFvPatch.H"
+#include "TurbulenceModels/turbulenceModels/turbulenceModel.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
+#include "finiteVolume/fvMesh/fvPatches/derived/wall/wallFvPatch.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

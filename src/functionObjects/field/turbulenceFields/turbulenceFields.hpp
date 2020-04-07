@@ -84,10 +84,10 @@ SourceFiles
 #ifndef functionObjects_turbulenceFields_H
 #define functionObjects_turbulenceFields_H
 
-#include "fvMeshFunctionObject.H"
-#include "HashSet.H"
-#include "NamedEnum.H"
-#include "volFieldsFwd.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

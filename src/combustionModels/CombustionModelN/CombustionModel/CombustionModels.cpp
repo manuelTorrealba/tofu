@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeCombustionTypes.H"
+#include "combustionModels/combustionModel/makeCombustionTypes.hpp"
 
-#include "CombustionModel.H"
+#include "combustionModels/CombustionModelN/CombustionModel/CombustionModel.hpp"
 
-#include "rhoReactionThermo.H"
-#include "psiReactionThermo.H"
+#include "thermophysicalModels/reactionThermo/rhoReactionThermo/rhoReactionThermo.hpp"
+#include "thermophysicalModels/reactionThermo/psiReactionThermo/psiReactionThermo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

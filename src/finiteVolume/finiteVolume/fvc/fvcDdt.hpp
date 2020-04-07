@@ -36,11 +36,11 @@ SourceFiles
 #ifndef fvcDdt_H
 #define fvcDdt_H
 
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "dimensionedTypes.H"
-#include "one.H"
-#include "geometricZeroField.H"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFieldsFwd.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedTypes.hpp"
+#include "OpenFOAM/primitives/one/one.hpp"
+#include "OpenFOAM/fields/GeometricFields/geometricZeroField/geometricZeroField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "STARCDedgeFormat.H"
-#include "ListOps.H"
-#include "clock.H"
-#include "PackedBoolList.H"
-#include "IStringStream.H"
+#include "meshTools/edgeMesh/edgeMeshFormats/starcd/STARCDedgeFormat.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "OpenFOAM/global/clock/clock.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
+#include "OpenFOAM/db/IOstreams/StringStreams/IStringStream.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

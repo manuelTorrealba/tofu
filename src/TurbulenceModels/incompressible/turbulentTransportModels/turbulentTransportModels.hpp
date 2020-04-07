@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IncompressibleTurbulenceModel.H"
+#include "TurbulenceModels/incompressible/IncompressibleTurbulenceModel/IncompressibleTurbulenceModel.hpp"
 #include "incompressible/transportModel/transportModel.H"
-#include "addToRunTimeSelectionTable.H"
-#include "makeTurbulenceModel.H"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "TurbulenceModels/turbulenceModels/makeTurbulenceModel.hpp"
 
-#include "laminarModel.H"
-#include "RASModel.H"
-#include "LESModel.H"
+#include "TurbulenceModels/turbulenceModels/laminar/laminarModel/laminarModel.hpp"
+#include "TurbulenceModels/turbulenceModels/RAS/RASModel/RASModel.hpp"
+#include "TurbulenceModels/turbulenceModels/LES/LESModel/LESModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

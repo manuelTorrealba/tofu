@@ -36,7 +36,7 @@ SourceFiles
 #ifndef SortableListEFA_H
 #define SortableListEFA_H
 
-#include "labelList.H"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -75,9 +75,9 @@ SourceFiles
 #ifndef turbulentTemperatureRadCoupledMixedFvPatchScalarField_H
 #define turbulentTemperatureRadCoupledMixedFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
-#include "temperatureCoupledBase.H"
-#include "scalarList.H"
+#include "finiteVolume/fields/fvPatchFields/basic/mixed/mixedFvPatchFields.hpp"
+#include "TurbulenceModels/compressible/turbulentFluidThermoModels/derivedFvPatchFields/temperatureCoupledBase/temperatureCoupledBase.hpp"
+#include "OpenFOAM/primitives/Scalar/lists/scalarList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

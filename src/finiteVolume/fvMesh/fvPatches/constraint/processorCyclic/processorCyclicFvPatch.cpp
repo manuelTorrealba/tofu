@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorCyclicFvPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "transformField.H"
+#include "finiteVolume/fvMesh/fvPatches/constraint/processorCyclic/processorCyclicFvPatch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/fields/Fields/transformField/transformField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

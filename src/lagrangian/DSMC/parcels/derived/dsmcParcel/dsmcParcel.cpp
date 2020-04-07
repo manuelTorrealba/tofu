@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dsmcParcel.H"
+#include "lagrangian/DSMC/parcels/derived/dsmcParcel/dsmcParcel.hpp"
 /*
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

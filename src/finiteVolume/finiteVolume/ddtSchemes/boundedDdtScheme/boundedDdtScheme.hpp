@@ -42,7 +42,7 @@ SourceFiles
 #ifndef boundedDdtScheme_H
 #define boundedDdtScheme_H
 
-#include "ddtScheme.H"
+#include "finiteVolume/finiteVolume/ddtSchemes/ddtScheme/ddtScheme.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

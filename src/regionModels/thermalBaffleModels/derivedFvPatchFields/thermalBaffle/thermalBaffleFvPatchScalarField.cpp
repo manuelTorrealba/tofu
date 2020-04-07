@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermalBaffleFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "emptyPolyPatch.H"
-#include "mappedWallPolyPatch.H"
+#include "regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.hpp"
+#include "meshTools/mappedPatches/mappedPolyPatch/mappedWallPolyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

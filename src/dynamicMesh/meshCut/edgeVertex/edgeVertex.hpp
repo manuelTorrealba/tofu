@@ -35,8 +35,8 @@ SourceFiles
 #ifndef edgeVertex_H
 #define edgeVertex_H
 
-#include "label.H"
-#include "polyMesh.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchEdgeFaceWave.H"
-#include "polyMesh.H"
-#include "globalMeshData.H"
-#include "PatchTools.H"
+#include "meshTools/algorithms/PatchEdgeFaceWave/PatchEdgeFaceWave.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/PatchTools/PatchTools.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -34,7 +34,7 @@ SourceFiles
 #ifndef snappyRefineDriver_H
 #define snappyRefineDriver_H
 
-#include "treeBoundBox.H"
+#include "OpenFOAM/meshes/treeBoundBox/treeBoundBox.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

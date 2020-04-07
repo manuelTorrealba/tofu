@@ -23,18 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOPosition.H"
+#include "lagrangian/basic/IOPosition/IOPosition.hpp"
 
-#include "cyclicPolyPatch.H"
-#include "cyclicAMIPolyPatch.H"
-#include "cyclicACMIPolyPatch.H"
-#include "cyclicRepeatAMIPolyPatch.H"
-#include "processorPolyPatch.H"
-#include "symmetryPlanePolyPatch.H"
-#include "symmetryPolyPatch.H"
-#include "wallPolyPatch.H"
-#include "wedgePolyPatch.H"
-#include "meshTools.H"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.hpp"
+#include "meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.hpp"
+#include "meshTools/AMIInterpolation/patches/cyclicACMI/cyclicACMIPolyPatch/cyclicACMIPolyPatch.hpp"
+#include "meshTools/AMIInterpolation/patches/cyclicRepeatAMI/cyclicRepeatAMIPolyPatch/cyclicRepeatAMIPolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/symmetryPlane/symmetryPlanePolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/symmetry/symmetryPolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "preserveBafflesConstraint.H"
-#include "addToRunTimeSelectionTable.H"
-#include "syncTools.H"
-#include "localPointRegion.H"
+#include "parallel/decompose/decompositionMethods/decompositionConstraints/preserveBaffles/preserveBafflesConstraint.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
+#include "meshTools/regionSplit/localPointRegion.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,13 +35,13 @@ SourceFiles
 #ifndef foamChemistryReader_H
 #define foamChemistryReader_H
 
-#include "chemistryReader.H"
-#include "fileName.H"
-#include "typeInfo.H"
-#include "HashPtrTable.H"
-#include "labelList.H"
-#include "speciesTable.H"
-#include "atomicWeights.H"
+#include "thermophysicalModels/reactionThermo/chemistryReaders/chemistryReader/chemistryReader.hpp"
+#include "OpenFOAM/primitives/strings/fileName/fileName.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/containers/HashTables/HashPtrTable/HashPtrTable.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "thermophysicalModels/specie/speciesTable/speciesTable.hpp"
+#include "thermophysicalModels/specie/atomicWeights/atomicWeights.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

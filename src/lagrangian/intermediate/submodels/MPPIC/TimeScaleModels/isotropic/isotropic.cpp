@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "isotropic.H"
-#include "addToRunTimeSelectionTable.H"
+#include "lagrangian/intermediate/submodels/MPPIC/TimeScaleModels/isotropic/isotropic.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeFvOption.H"
-#include "CodedSource.H"
+#include "finiteVolume/cfdTools/general/fvOptions/makeFvOption.hpp"
+#include "fvOptions/sources/general/codedSource/CodedSource.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,11 +38,11 @@ SourceFiles
 #ifndef removeFaces_H
 #define removeFaces_H
 
-#include "Pstream.H"
-#include "HashSet.H"
-#include "Map.H"
-#include "boolList.H"
-#include "indirectPrimitivePatch.H"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

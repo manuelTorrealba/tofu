@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "exponential.H"
-#include "addToRunTimeSelectionTable.H"
+#include "lagrangian/intermediate/submodels/MPPIC/ParticleStressModels/exponential/exponential.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

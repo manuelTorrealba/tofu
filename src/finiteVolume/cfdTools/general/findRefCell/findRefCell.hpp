@@ -36,8 +36,8 @@ SourceFiles
 #ifndef findRefCell_H
 #define findRefCell_H
 
-#include "label.H"
-#include "volFields.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

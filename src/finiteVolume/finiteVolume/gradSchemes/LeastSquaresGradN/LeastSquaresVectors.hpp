@@ -38,8 +38,8 @@ SourceFiles
 #ifndef LeastSquaresVectors_H
 #define LeastSquaresVectors_H
 
-#include "extendedCentredCellToCellStencil.H"
-#include "MeshObject.H"
+#include "finiteVolume/fvMesh/extendedStencil/cellToCell/extendedCentredCellToCellStencil.hpp"
+#include "OpenFOAM/meshes/MeshObject/MeshObject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

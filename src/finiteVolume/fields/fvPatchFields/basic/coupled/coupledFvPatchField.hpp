@@ -35,9 +35,9 @@ SourceFiles
 #ifndef coupledFvPatchField_H
 #define coupledFvPatchField_H
 
-#include "LduInterfaceField.H"
-#include "fvPatchField.H"
-#include "coupledFvPatch.H"
+#include "OpenFOAM/matrices/LduMatrixN/LduMatrix/LduInterfaceField/LduInterfaceField.hpp"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchField.hpp"
+#include "finiteVolume/fvMesh/fvPatches/basic/coupled/coupledFvPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

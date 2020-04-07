@@ -34,7 +34,7 @@ SourceFiles
 #ifndef rawSetWriter_H
 #define rawSetWriter_H
 
-#include "writer.H"
+#include "fileFormats/sampledSetWriters/writer.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

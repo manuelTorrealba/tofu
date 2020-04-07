@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DistortedSphereDragForce.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/Drag/DistortedSphereDrag/DistortedSphereDragForce.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

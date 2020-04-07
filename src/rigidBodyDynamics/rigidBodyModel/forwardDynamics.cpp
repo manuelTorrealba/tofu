@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rigidBodyModel.H"
-#include "rigidBodyModelState.H"
-#include "rigidBodyRestraint.H"
+#include "rigidBodyDynamics/rigidBodyModel/rigidBodyModel.hpp"
+#include "rigidBodyDynamics/rigidBodyModelState/rigidBodyModelState.hpp"
+#include "rigidBodyDynamics/restraints/restraint/rigidBodyRestraint.hpp"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

@@ -155,11 +155,11 @@ SourceFiles
 #define thermalBaffleFvPatchScalarField_H
 
 
-#include "autoPtr.H"
-#include "regionModel.H"
-#include "thermalBaffleModel.H"
-#include "extrudePatchMesh.H"
-#include "turbulentTemperatureRadCoupledMixedFvPatchScalarField.H"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "regionModels/regionModel/regionModel/regionModel.hpp"
+#include "regionModels/thermalBaffleModels/thermalBaffleModel/thermalBaffleModel.hpp"
+#include "dynamicMesh/extrudePatchMesh/extrudePatchMesh.hpp"
+#include "TurbulenceModels/compressible/turbulentFluidThermoModels/derivedFvPatchFields/turbulentTemperatureRadCoupledMixed/turbulentTemperatureRadCoupledMixedFvPatchScalarField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

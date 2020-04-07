@@ -36,10 +36,10 @@ SourceFiles
 #ifndef polyMeshFilterSettings_H
 #define polyMeshFilterSettings_H
 
-#include "dictionary.H"
-#include "Switch.H"
-#include "scalar.H"
-#include "label.H"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -158,7 +158,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "polyMeshFilterSettingsI.H"
+#include "dynamicMesh/polyMeshFilter/polyMeshFilterSettingsI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

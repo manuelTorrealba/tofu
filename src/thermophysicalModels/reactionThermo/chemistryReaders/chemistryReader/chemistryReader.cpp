@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "chemistryReader.H"
+#include "thermophysicalModels/reactionThermo/chemistryReaders/chemistryReader/chemistryReader.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

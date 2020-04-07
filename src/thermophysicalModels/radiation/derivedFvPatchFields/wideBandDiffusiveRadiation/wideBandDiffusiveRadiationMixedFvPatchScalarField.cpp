@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wideBandDiffusiveRadiationMixedFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvPatchFieldMapper.H"
-#include "volFields.H"
+#include "thermophysicalModels/radiation/derivedFvPatchFields/wideBandDiffusiveRadiation/wideBandDiffusiveRadiationMixedFvPatchScalarField.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
-#include "fvDOM.H"
-#include "wideBandAbsorptionEmission.H"
-#include "constants.H"
+#include "thermophysicalModels/radiation/radiationModels/fvDOM/fvDOM/fvDOM.hpp"
+#include "thermophysicalModels/radiation/submodels/absorptionEmissionModel/wideBandAbsorptionEmission/wideBandAbsorptionEmission.hpp"
+#include "OpenFOAM/global/constants/constants.hpp"
 
 using namespace Foam::constant;
 using namespace Foam::constant::mathematical;

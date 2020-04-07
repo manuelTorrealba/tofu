@@ -26,8 +26,8 @@ License
 #ifndef cyclicFvsPatchFields_H
 #define cyclicFvsPatchFields_H
 
-#include "cyclicFvsPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvsPatchFields/constraint/cyclic/cyclicFvsPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

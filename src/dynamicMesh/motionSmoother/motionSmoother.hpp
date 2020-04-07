@@ -75,8 +75,8 @@ SourceFiles
 #ifndef motionSmoother_H
 #define motionSmoother_H
 
-#include "motionSmootherData.H"
-#include "motionSmootherAlgo.H"
+#include "dynamicMesh/motionSmoother/motionSmootherData.hpp"
+#include "dynamicMesh/motionSmoother/motionSmootherAlgo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

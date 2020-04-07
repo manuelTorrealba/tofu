@@ -63,12 +63,12 @@ SourceFiles
 #ifndef isoSurface_H
 #define isoSurface_H
 
-#include "triSurface.H"
-#include "labelPair.H"
-#include "pointIndexHit.H"
-#include "PackedBoolList.H"
-#include "volFields.H"
-#include "slicedVolFields.H"
+#include "triSurface/triSurface/triSurface.hpp"
+#include "OpenFOAM/primitives/Pair/labelPair.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/pointIndexHit.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fields/volFields/slicedVolFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

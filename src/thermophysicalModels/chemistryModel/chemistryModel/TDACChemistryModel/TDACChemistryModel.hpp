@@ -64,10 +64,10 @@ SourceFiles
 #ifndef TDACChemistryModel_H
 #define TDACChemistryModel_H
 
-#include "StandardChemistryModel.H"
-#include "chemistryReductionMethod.H"
-#include "chemistryTabulationMethod.H"
-#include "OFstream.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/StandardChemistryModel/StandardChemistryModel.hpp"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/reduction/chemistryReductionMethod/chemistryReductionMethod.hpp"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/tabulation/chemistryTabulationMethod/chemistryTabulationMethod.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -288,7 +288,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "TDACChemistryModelI.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/TDACChemistryModelI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -33,9 +33,9 @@ SourceFiles
 #ifndef centredCPCCellToCellStencilObject_H
 #define centredCPCCellToCellStencilObject_H
 
-#include "extendedCentredCellToCellStencil.H"
-#include "CPCCellToCellStencil.H"
-#include "MeshObject.H"
+#include "finiteVolume/fvMesh/extendedStencil/cellToCell/extendedCentredCellToCellStencil.hpp"
+#include "finiteVolume/fvMesh/extendedStencil/cellToCell/globalIndexStencils/CPCCellToCellStencil.hpp"
+#include "OpenFOAM/meshes/MeshObject/MeshObject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

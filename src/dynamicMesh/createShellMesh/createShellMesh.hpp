@@ -39,9 +39,9 @@ SourceFiles
 #ifndef createShellMesh_H
 #define createShellMesh_H
 
-#include "primitiveFacePatch.H"
-#include "PackedBoolList.H"
-#include "labelPair.H"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/primitiveFacePatch.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
+#include "OpenFOAM/primitives/Pair/labelPair.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

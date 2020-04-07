@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pyrolysisModelCollection.H"
-#include "volFields.H"
+#include "regionModels/pyrolysisModels/pyrolysisModel/pyrolysisModelCollection.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

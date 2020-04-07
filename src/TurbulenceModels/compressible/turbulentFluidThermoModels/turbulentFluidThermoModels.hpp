@@ -23,18 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CompressibleTurbulenceModel.H"
-#include "compressibleTransportModel.H"
-#include "fluidThermo.H"
-#include "addToRunTimeSelectionTable.H"
-#include "makeTurbulenceModel.H"
+#include "TurbulenceModels/compressible/CompressibleTurbulenceModel/CompressibleTurbulenceModel.hpp"
+#include "transportModels/compressible/compressibleTransportModel/compressibleTransportModel.hpp"
+#include "thermophysicalModels/basic/fluidThermo/fluidThermo.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "TurbulenceModels/turbulenceModels/makeTurbulenceModel.hpp"
 
-#include "ThermalDiffusivity.H"
-#include "EddyDiffusivity.H"
+#include "TurbulenceModels/compressible/ThermalDiffusivity/ThermalDiffusivity.hpp"
+#include "TurbulenceModels/compressible/EddyDiffusivity/EddyDiffusivity.hpp"
 
-#include "laminarModel.H"
-#include "RASModel.H"
-#include "LESModel.H"
+#include "TurbulenceModels/turbulenceModels/laminar/laminarModel/laminarModel.hpp"
+#include "TurbulenceModels/turbulenceModels/RAS/RASModel/RASModel.hpp"
+#include "TurbulenceModels/turbulenceModels/LES/LESModel/LESModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

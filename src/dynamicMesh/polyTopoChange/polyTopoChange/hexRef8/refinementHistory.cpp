@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "refinementHistory.H"
-#include "mapPolyMesh.H"
-#include "mapDistributePolyMesh.H"
-#include "polyMesh.H"
-#include "syncTools.H"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/hexRef8/refinementHistory.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributePolyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

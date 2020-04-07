@@ -26,8 +26,8 @@ License
 #ifndef surfaceSlipDisplacementFvPatchFields_H
 #define surfaceSlipDisplacementFvPatchFields_H
 
-#include "surfaceSlipDisplacementFvPatchField.H"
-#include "fieldTypes.H"
+#include "fvMotionSolver/fvPatchFields/derived/surfaceSlipDisplacement/surfaceSlipDisplacementFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

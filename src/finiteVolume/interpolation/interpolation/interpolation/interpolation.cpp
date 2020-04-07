@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolation.H"
-#include "volFields.H"
-#include "polyMesh.H"
-#include "calculatedPointPatchFields.H"
+#include "finiteVolume/interpolation/interpolation/interpolation/interpolation.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/fields/pointPatchFields/basic/calculated/calculatedPointPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * Constructor * * * * * * * * * * * * * * * //
 

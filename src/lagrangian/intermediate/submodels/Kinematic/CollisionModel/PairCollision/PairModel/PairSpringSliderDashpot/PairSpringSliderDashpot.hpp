@@ -32,9 +32,9 @@ Description
 #ifndef PairSpringSliderDashpot_H
 #define PairSpringSliderDashpot_H
 
-#include "PairModel.H"
-#include "CollisionRecordList.H"
-#include "mathematicalConstants.H"
+#include "lagrangian/intermediate/submodels/Kinematic/CollisionModel/PairCollision/PairModel/PairModel/PairModel.hpp"
+#include "lagrangian/intermediate/parcels/Templates/CollidingParcel/CollisionRecordList/CollisionRecordList.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

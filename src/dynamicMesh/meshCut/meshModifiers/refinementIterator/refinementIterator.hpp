@@ -41,10 +41,10 @@ SourceFiles
 #ifndef refinementIterator_H
 #define refinementIterator_H
 
-#include "edgeVertex.H"
-#include "labelList.H"
-#include "Map.H"
-#include "typeInfo.H"
+#include "dynamicMesh/meshCut/edgeVertex/edgeVertex.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -33,8 +33,8 @@ Description
 #ifndef CentredFitScheme_H
 #define CentredFitScheme_H
 
-#include "CentredFitData.H"
-#include "linear.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/CentredFitScheme/CentredFitData.hpp"
+#include "thermophysicalModels/specie/equationOfState/linear/linear.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

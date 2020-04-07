@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SloanRenumber.H"
-#include "addToRunTimeSelectionTable.H"
-#include "decompositionMethod.H"
-#include "processorPolyPatch.H"
-#include "syncTools.H"
+#include "renumber/SloanRenumber/SloanRenumber.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "parallel/decompose/decompositionMethods/decompositionMethod/decompositionMethod.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
 
 #include <boost/config.hpp>
 #include <vector>

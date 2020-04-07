@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "RNGkEpsilon.H"
-#include "fvOptions.H"
-#include "bound.H"
+#include "TurbulenceModels/turbulenceModels/RAS/RNGkEpsilon/RNGkEpsilon.hpp"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOptions.hpp"
+#include "finiteVolume/cfdTools/general/bound/bound.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

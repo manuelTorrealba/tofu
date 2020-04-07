@@ -23,16 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "undoableMeshCutter.H"
-#include "polyMesh.H"
-#include "polyTopoChange.H"
-#include "DynamicList.H"
-#include "meshCutter.H"
-#include "cellCuts.H"
-#include "splitCell.H"
-#include "mapPolyMesh.H"
-#include "unitConversion.H"
-#include "meshTools.H"
+#include "dynamicMesh/meshCut/meshModifiers/undoableMeshCutter/undoableMeshCutter.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChange.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "dynamicMesh/meshCut/meshModifiers/meshCutter/meshCutter.hpp"
+#include "dynamicMesh/meshCut/cellCuts/cellCuts.hpp"
+#include "dynamicMesh/meshCut/splitCell/splitCell.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

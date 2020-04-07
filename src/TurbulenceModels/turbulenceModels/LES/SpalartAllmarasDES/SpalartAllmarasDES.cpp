@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SpalartAllmarasDES.H"
-#include "fvOptions.H"
+#include "TurbulenceModels/turbulenceModels/LES/SpalartAllmarasDES/SpalartAllmarasDES.hpp"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOptions.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sphereRandom.H"
-#include "sampledSet.H"
-#include "meshSearch.H"
-#include "DynamicList.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "word.H"
-#include "mathematicalConstants.H"
-#include "Random.H"
+#include "sampling/sampledSet/sphereRandom/sphereRandom.hpp"
+#include "sampling/sampledSet/sampledSet/sampledSet.hpp"
+#include "meshTools/meshSearch/meshSearch.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
+#include "OpenFOAM/primitives/Random/Random.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

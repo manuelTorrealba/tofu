@@ -26,8 +26,8 @@ License
 #ifndef kqRWallFunctionFvPatchFields_H
 #define kqRWallFunctionFvPatchFields_H
 
-#include "kqRWallFunctionFvPatchField.H"
-#include "fieldTypes.H"
+#include "TurbulenceModels/turbulenceModels/derivedFvPatchFields/wallFunctions/kqRWallFunctions/kqRWallFunction/kqRWallFunctionFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

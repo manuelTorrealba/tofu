@@ -52,8 +52,8 @@ SourceFiles
 #ifndef fvMeshDistribute_H
 #define fvMeshDistribute_H
 
-#include "Field.H"
-#include "fvMeshSubset.H"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
+#include "dynamicMesh/fvMeshSubset/fvMeshSubset.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

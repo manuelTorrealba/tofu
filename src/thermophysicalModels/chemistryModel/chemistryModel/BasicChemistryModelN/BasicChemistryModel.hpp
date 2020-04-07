@@ -36,9 +36,9 @@ SourceFiles
 #ifndef BasicChemistryModel_H
 #define BasicChemistryModel_H
 
-#include "basicChemistryModel.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/basicChemistryModel/basicChemistryModel.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -123,7 +123,7 @@ public:
     #include "BasicChemistryModel.C"
 #endif
 
-#include "BasicChemistryModelI.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/BasicChemistryModelN/BasicChemistryModelI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

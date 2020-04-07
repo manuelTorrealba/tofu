@@ -35,11 +35,11 @@ SourceFiles
 #ifndef fvSurfaceMapper_H
 #define fvSurfaceMapper_H
 
-#include "morphFieldMapper.H"
-#include "fvMesh.H"
-#include "faceMapper.H"
-#include "HashSet.H"
-#include "mapPolyMesh.H"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/morphFieldMapper.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/faceMapper/faceMapper.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

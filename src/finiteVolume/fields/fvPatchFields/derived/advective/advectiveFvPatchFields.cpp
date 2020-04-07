@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "advectiveFvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "finiteVolume/fields/fvPatchFields/derived/advective/advectiveFvPatchFields.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

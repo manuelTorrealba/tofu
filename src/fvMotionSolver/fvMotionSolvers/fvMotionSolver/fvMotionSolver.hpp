@@ -35,7 +35,7 @@ SourceFiles
 #ifndef fvMotionSolver_H
 #define fvMotionSolver_H
 
-#include "fvMesh.H"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

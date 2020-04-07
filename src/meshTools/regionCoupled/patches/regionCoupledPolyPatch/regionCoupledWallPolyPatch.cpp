@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionCoupledWallPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "polyPatch.H"
+#include "meshTools/regionCoupled/patches/regionCoupledPolyPatch/regionCoupledWallPolyPatch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

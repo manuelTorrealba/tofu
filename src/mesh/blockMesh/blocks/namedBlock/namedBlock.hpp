@@ -35,7 +35,7 @@ SourceFiles
 #ifndef blocks_namedBlock_H
 #define blocks_namedBlock_H
 
-#include "block.H"
+#include "mesh/blockMesh/blocks/block/block.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

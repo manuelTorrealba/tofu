@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "filmPyrolysisRadiativeCoupledMixedFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "mappedPatchBase.H"
+#include "regionModels/regionCoupling/derivedFvPatchFields/filmPyrolysisRadiativeCoupledMixed/filmPyrolysisRadiativeCoupledMixedFvPatchScalarField.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "meshTools/mappedPatches/mappedPolyPatch/mappedPatchBase.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

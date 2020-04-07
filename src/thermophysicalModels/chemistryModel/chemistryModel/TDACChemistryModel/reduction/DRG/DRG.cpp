@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DRG.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/reduction/DRG/DRG.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

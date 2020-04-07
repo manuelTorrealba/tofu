@@ -67,9 +67,9 @@ SourceFiles
 #ifndef SRFWallVelocityFvPatchVectorField_H
 #define SRFWallVelocityFvPatchVectorField_H
 
-#include "fvPatchFields.H"
-#include "fixedValueFvPatchFields.H"
-#include "Switch.H"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFields.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

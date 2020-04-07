@@ -35,7 +35,7 @@ SourceFiles
 #ifndef gaussLaplacianScheme_H
 #define gaussLaplacianScheme_H
 
-#include "laplacianScheme.H"
+#include "finiteVolume/finiteVolume/laplacianSchemes/laplacianScheme/laplacianScheme.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

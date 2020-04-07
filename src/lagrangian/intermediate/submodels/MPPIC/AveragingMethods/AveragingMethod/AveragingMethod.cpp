@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "AveragingMethod.H"
-#include "runTimeSelectionTables.H"
-#include "pointMesh.H"
+#include "lagrangian/intermediate/submodels/MPPIC/AveragingMethods/AveragingMethod/AveragingMethod.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointMesh.hpp"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

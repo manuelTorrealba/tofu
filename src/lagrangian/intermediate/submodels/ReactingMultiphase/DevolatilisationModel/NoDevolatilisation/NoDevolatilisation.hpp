@@ -32,7 +32,7 @@ Description
 #ifndef NoDevolatilisation_H
 #define NoDevolatilisation_H
 
-#include "DevolatilisationModel.H"
+#include "lagrangian/intermediate/submodels/ReactingMultiphase/DevolatilisationModel/DevolatilisationModel/DevolatilisationModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "displacementMeshMoverMotionSolver.H"
-#include "addToRunTimeSelectionTable.H"
-#include "localPointRegion.H"
+#include "mesh/snappyHexMesh/externalDisplacementMeshMover/displacementMeshMoverMotionSolver.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "meshTools/regionSplit/localPointRegion.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -60,7 +60,7 @@ SourceFiles
 #ifndef v2WallFunctionFvPatchScalarField_H
 #define v2WallFunctionFvPatchScalarField_H
 
-#include "fixedValueFvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

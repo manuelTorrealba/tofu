@@ -35,8 +35,8 @@ SourceFiles
 #ifndef fluidThermo_H
 #define fluidThermo_H
 
-#include "basicThermo.H"
-#include "compressibleTransportModel.H"
+#include "thermophysicalModels/basic/basicThermo/basicThermo.hpp"
+#include "transportModels/compressible/compressibleTransportModel/compressibleTransportModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

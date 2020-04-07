@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TrajectoryCollision.H"
+#include "lagrangian/spray/submodels/StochasticCollision/TrajectoryCollision/TrajectoryCollision.hpp"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "yPlus.H"
-#include "turbulenceModel.H"
-#include "nutWallFunctionFvPatchScalarField.H"
-#include "wallFvPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/field/yPlus/yPlus.hpp"
+#include "TurbulenceModels/turbulenceModels/turbulenceModel.hpp"
+#include "TurbulenceModels/turbulenceModels/derivedFvPatchFields/wallFunctions/nutWallFunctions/nutWallFunction/nutWallFunctionFvPatchScalarField.hpp"
+#include "finiteVolume/fvMesh/fvPatches/derived/wall/wallFvPatch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

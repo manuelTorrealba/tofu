@@ -23,17 +23,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "intersectedSurface.H"
-#include "surfaceIntersection.H"
-#include "faceList.H"
-#include "faceTriangulation.H"
-#include "treeBoundBox.H"
-#include "OFstream.H"
-#include "error.H"
-#include "meshTools.H"
-#include "edgeSurface.H"
-#include "DynamicList.H"
-#include "transform.H"
+#include "meshTools/triSurface/booleanOps/intersectedSurface/intersectedSurface.hpp"
+#include "meshTools/triSurface/booleanOps/surfaceIntersection/surfaceIntersection.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/faceList.hpp"
+#include "triSurface/faceTriangulation/faceTriangulation.hpp"
+#include "OpenFOAM/meshes/treeBoundBox/treeBoundBox.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/db/error/error.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
+#include "meshTools/triSurface/booleanOps/intersectedSurface/edgeSurface.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/primitives/transform/transform.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

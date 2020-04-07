@@ -34,7 +34,7 @@ Description
 #ifndef ReitzKHRT_H
 #define ReitzKHRT_H
 
-#include "BreakupModel.H"
+#include "lagrangian/spray/submodels/BreakupModel/BreakupModel/BreakupModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -52,7 +52,7 @@ Usage
 
         // codeInclude
         //#{
-        //    #include "fvCFD.H"
+#include "finiteVolume/cfdTools/general/include/fvCFD.hpp"
         //#};
 
         // codeOptions
@@ -90,8 +90,8 @@ SourceFiles
 #ifndef codedMixedFvPatchField_H
 #define codedMixedFvPatchField_H
 
-#include "mixedFvPatchFields.H"
-#include "codedBase.H"
+#include "finiteVolume/fields/fvPatchFields/basic/mixed/mixedFvPatchFields.hpp"
+#include "OpenFOAM/db/dynamicLibrary/codedBase/codedBase.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

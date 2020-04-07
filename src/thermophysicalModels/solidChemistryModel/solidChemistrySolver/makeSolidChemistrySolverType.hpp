@@ -30,11 +30,11 @@ Description
 #ifndef makeSolidChemistrySolverType_H
 #define makeSolidChemistrySolverType_H
 
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
-#include "noChemistrySolver.H"
-#include "EulerImplicit.H"
-#include "ode.H"
+#include "thermophysicalModels/chemistryModel/chemistrySolver/noChemistrySolver/noChemistrySolver.hpp"
+#include "thermophysicalModels/chemistryModel/chemistrySolver/EulerImplicit/EulerImplicit.hpp"
+#include "thermophysicalModels/chemistryModel/chemistrySolver/ode/ode.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

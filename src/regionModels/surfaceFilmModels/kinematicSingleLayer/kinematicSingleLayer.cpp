@@ -23,18 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kinematicSingleLayer.H"
-#include "fvm.H"
-#include "fvcDiv.H"
-#include "fvcLaplacian.H"
-#include "fvcSnGrad.H"
-#include "fvcReconstruct.H"
-#include "fvcVolumeIntegrate.H"
-#include "fvcFlux.H"
-#include "addToRunTimeSelectionTable.H"
-#include "mappedWallPolyPatch.H"
-#include "mapDistribute.H"
-#include "filmThermoModel.H"
+#include "regionModels/surfaceFilmModels/kinematicSingleLayer/kinematicSingleLayer.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvm.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcDiv.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcLaplacian.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcSnGrad.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcReconstruct.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcVolumeIntegrate.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcFlux.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "meshTools/mappedPatches/mappedPolyPatch/mappedWallPolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.hpp"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/filmThermoModel/filmThermoModel/filmThermoModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

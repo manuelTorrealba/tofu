@@ -35,7 +35,7 @@ SourceFiles
 #ifndef RBD_masslessBody_H
 #define RBD_masslessBody_H
 
-#include "rigidBody.H"
+#include "rigidBodyDynamics/bodies/rigidBody/rigidBody.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -99,7 +99,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "masslessBodyI.H"
+#include "rigidBodyDynamics/bodies/masslessBody/masslessBodyI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

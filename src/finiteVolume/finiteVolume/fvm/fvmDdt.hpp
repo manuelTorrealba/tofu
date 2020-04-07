@@ -35,9 +35,9 @@ SourceFiles
 #ifndef fvmDdt_H
 #define fvmDdt_H
 
-#include "volFieldsFwd.H"
-#include "fvMatrix.H"
-#include "one.H"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "finiteVolume/fvMatrices/fvMatrix/fvMatrix.hpp"
+#include "OpenFOAM/primitives/one/one.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

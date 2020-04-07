@@ -49,8 +49,8 @@ SourceFiles
 #ifndef seriesProfile_H
 #define seriesProfile_H
 
-#include "profileModel.H"
-#include "List.H"
+#include "fvOptions/sources/derived/rotorDiskSource/profileModel/profileModel.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

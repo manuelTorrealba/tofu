@@ -23,17 +23,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "addPatchCellLayer.H"
-#include "polyMesh.H"
-#include "polyTopoChange.H"
-#include "meshTools.H"
-#include "mapPolyMesh.H"
-#include "syncTools.H"
-#include "polyAddPoint.H"
-#include "polyAddFace.H"
-#include "polyModifyFace.H"
-#include "polyAddCell.H"
-#include "globalIndex.H"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/addPatchCellLayer.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChange.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/addObject/polyAddPoint.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/addObject/polyAddFace.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/modifyObject/polyModifyFace.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/addObject/polyAddCell.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

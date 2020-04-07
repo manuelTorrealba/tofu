@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshStructure.H"
+#include "meshTools/meshStructure/meshStructure.hpp"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

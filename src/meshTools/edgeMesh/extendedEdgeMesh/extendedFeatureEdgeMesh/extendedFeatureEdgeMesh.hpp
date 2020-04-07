@@ -36,8 +36,8 @@ SourceFiles
 #ifndef extendedFeatureEdgeMesh_H
 #define extendedFeatureEdgeMesh_H
 
-#include "extendedEdgeMesh.H"
-#include "regIOobject.H"
+#include "meshTools/edgeMesh/extendedEdgeMesh/extendedEdgeMesh.hpp"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

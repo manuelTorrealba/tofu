@@ -35,8 +35,8 @@ SourceFiles
 #ifndef blockEdges_splineEdge_H
 #define blockEdges_splineEdge_H
 
-#include "blockEdge.H"
-#include "CatmullRomSpline.H"
+#include "mesh/blockMesh/blockEdges/blockEdge/blockEdge.hpp"
+#include "mesh/blockMesh/blockEdges/splineEdge/CatmullRomSpline.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

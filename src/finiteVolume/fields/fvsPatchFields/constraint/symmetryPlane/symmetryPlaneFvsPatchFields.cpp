@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "symmetryPlaneFvsPatchFields.H"
-#include "fvsPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "finiteVolume/fields/fvsPatchFields/constraint/symmetryPlane/symmetryPlaneFvsPatchFields.hpp"
+#include "finiteVolume/fields/fvsPatchFields/fvsPatchField/fvsPatchFields.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

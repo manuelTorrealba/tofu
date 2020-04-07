@@ -39,8 +39,8 @@ SourceFiles
 #define singlePhaseTransportModel_H
 
 #include "incompressible/transportModel/transportModel.H"
-#include "IOdictionary.H"
-#include "autoPtr.H"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

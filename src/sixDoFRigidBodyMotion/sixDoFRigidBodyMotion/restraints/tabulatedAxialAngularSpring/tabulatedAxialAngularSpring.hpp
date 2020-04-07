@@ -36,10 +36,10 @@ SourceFiles
 #ifndef tabulatedAxialAngularSpring_H
 #define tabulatedAxialAngularSpring_H
 
-#include "sixDoFRigidBodyMotionRestraint.H"
-#include "point.H"
-#include "tensor.H"
-#include "interpolationTable.H"
+#include "sixDoFRigidBodyMotion/sixDoFRigidBodyMotion/restraints/sixDoFRigidBodyMotionRestraint/sixDoFRigidBodyMotionRestraint.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "OpenFOAM/primitives/Tensor/tensor/tensor.hpp"
+#include "OpenFOAM/interpolations/interpolationTable/interpolationTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

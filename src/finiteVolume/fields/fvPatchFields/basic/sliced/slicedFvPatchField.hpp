@@ -44,7 +44,7 @@ SourceFiles
 #ifndef slicedFvPatchField_H
 #define slicedFvPatchField_H
 
-#include "fvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

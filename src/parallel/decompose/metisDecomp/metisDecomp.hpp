@@ -35,7 +35,7 @@ SourceFiles
 #ifndef metisDecomp_H
 #define metisDecomp_H
 
-#include "decompositionMethod.H"
+#include "parallel/decompose/decompositionMethods/decompositionMethod/decompositionMethod.hpp"
 
 namespace Foam
 {

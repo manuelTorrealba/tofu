@@ -35,8 +35,8 @@ SourceFiles
 #ifndef cyclicRepeatAMIPointPatch_H
 #define cyclicRepeatAMIPointPatch_H
 
-#include "cyclicAMIPointPatch.H"
-#include "cyclicRepeatAMIPolyPatch.H"
+#include "meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPointPatch/cyclicAMIPointPatch.hpp"
+#include "meshTools/AMIInterpolation/patches/cyclicRepeatAMI/cyclicRepeatAMIPolyPatch/cyclicRepeatAMIPolyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

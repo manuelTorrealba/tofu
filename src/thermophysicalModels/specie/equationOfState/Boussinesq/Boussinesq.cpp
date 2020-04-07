@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Boussinesq.H"
-#include "IOstreams.H"
+#include "thermophysicalModels/specie/equationOfState/Boussinesq/Boussinesq.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

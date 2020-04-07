@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "perfectFluid.H"
-#include "IOstreams.H"
+#include "thermophysicalModels/specie/equationOfState/perfectFluid/perfectFluid.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

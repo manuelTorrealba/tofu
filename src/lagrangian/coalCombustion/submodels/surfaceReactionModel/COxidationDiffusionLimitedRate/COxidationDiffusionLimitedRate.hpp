@@ -36,7 +36,7 @@ Description
 #ifndef COxidationDiffusionLimitedRate_H
 #define COxidationDiffusionLimitedRate_H
 
-#include "SurfaceReactionModel.H"
+#include "lagrangian/intermediate/submodels/ReactingMultiphase/SurfaceReactionModel/SurfaceReactionModel/SurfaceReactionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

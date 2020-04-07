@@ -41,9 +41,9 @@ SourceFiles
 #ifndef functionObjects_specieReactionRates_H
 #define functionObjects_specieReactionRates_H
 
-#include "fvMeshFunctionObject.H"
-#include "volRegion.H"
-#include "logFiles.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
+#include "finiteVolume/functionObjects/volRegion/volRegion.hpp"
+#include "OpenFOAM/db/functionObjects/logFiles/logFiles.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

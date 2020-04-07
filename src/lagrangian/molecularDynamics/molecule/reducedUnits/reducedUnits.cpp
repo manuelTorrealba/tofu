@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reducedUnits.H"
+#include "lagrangian/molecularDynamics/molecule/reducedUnits/reducedUnits.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

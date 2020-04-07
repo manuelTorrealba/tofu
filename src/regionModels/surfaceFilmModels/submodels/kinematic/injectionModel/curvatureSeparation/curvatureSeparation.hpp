@@ -48,8 +48,8 @@ SourceFiles
 #ifndef curvatureSeparation_H
 #define curvatureSeparation_H
 
-#include "injectionModel.H"
-#include "surfaceFields.H"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/injectionModel/injectionModel/injectionModel.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

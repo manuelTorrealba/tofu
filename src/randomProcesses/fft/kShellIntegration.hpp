@@ -36,9 +36,9 @@ SourceFiles
 #ifndef kShellIntegration_H
 #define kShellIntegration_H
 
-#include "complexFields.H"
-#include "Kmesh.H"
-#include "graph.H"
+#include "OpenFOAM/fields/Fields/complexFields/complexFields.hpp"
+#include "randomProcesses/Kmesh/Kmesh.hpp"
+#include "OpenFOAM/graph/graph.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

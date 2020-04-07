@@ -57,8 +57,8 @@ SourceFiles
 #ifndef displacementLayeredMotionMotionSolver_H
 #define displacementLayeredMotionMotionSolver_H
 
-#include "displacementMotionSolver.H"
-#include "PackedBoolList.H"
+#include "dynamicMesh/motionSolvers/displacement/displacement/displacementMotionSolver.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,6 +37,7 @@ SourceFiles
 
 #include "OpenFOAM/fields/GeometricFields/GeometricField/GeometricField.hpp"
 #include "OpenFOAM/meshes/pointMesh/pointMesh.hpp"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchField.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

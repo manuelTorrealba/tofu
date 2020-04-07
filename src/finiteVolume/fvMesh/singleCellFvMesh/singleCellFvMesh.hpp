@@ -38,9 +38,9 @@ SourceFiles
 #ifndef singleCellFvMesh_H
 #define singleCellFvMesh_H
 
-#include "fvPatchFieldMapper.H"
-#include "fvMesh.H"
-#include "labelListIOList.H"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelListIOList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

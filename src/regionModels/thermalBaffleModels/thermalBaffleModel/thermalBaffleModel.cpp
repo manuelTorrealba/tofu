@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermalBaffleModel.H"
-#include "fvMesh.H"
-#include "mappedVariableThicknessWallPolyPatch.H"
-#include "wedgePolyPatch.H"
+#include "regionModels/thermalBaffleModels/thermalBaffleModel/thermalBaffleModel.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "meshTools/mappedPatches/mappedPolyPatch/mappedVariableThicknessWallPolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

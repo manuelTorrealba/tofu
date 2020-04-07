@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
+#include "OpenFOAM/db/error/error.hpp"
 
-#include "UOprocess.H"
-#include "Kmesh.H"
-#include "dictionary.H"
+#include "randomProcesses/processes/UOprocess/UOprocess.hpp"
+#include "randomProcesses/Kmesh/Kmesh.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

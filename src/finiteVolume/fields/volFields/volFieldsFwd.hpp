@@ -34,7 +34,7 @@ SourceFiles
 #ifndef volFieldsFwd_H
 #define volFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

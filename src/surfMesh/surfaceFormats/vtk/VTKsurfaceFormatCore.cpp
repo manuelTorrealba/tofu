@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VTKsurfaceFormatCore.H"
-#include "clock.H"
+#include "surfMesh/surfaceFormats/vtk/VTKsurfaceFormatCore.hpp"
+#include "OpenFOAM/global/clock/clock.hpp"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

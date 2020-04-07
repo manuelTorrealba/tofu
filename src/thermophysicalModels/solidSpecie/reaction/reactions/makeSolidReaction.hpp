@@ -32,11 +32,11 @@ Description
 #ifndef makeSolidReaction_H
 #define makeSolidReaction_H
 
-#include "SolidReaction.H"
-#include "IrreversibleReaction.H"
-#include "Reaction.H"
+#include "thermophysicalModels/solidSpecie/reaction/SolidReaction/SolidReaction.hpp"
+#include "thermophysicalModels/specie/reaction/ReactionsN/IrreversibleReaction/IrreversibleReaction.hpp"
+#include "thermophysicalModels/specie/reaction/ReactionsN/Reaction/Reaction.hpp"
 
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

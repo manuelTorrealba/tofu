@@ -43,7 +43,7 @@ SourceFiles
 #ifndef hPowerThermo_H
 #define hPowerThermo_H
 
-#include "scalar.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -222,7 +222,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "hPowerThermoI.H"
+#include "thermophysicalModels/specie/thermo/hPower/hPowerThermoI.hpp"
     #include "hPowerThermo.C"
 #endif
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef transformFvPatchField_H
 #define transformFvPatchField_H
 
-#include "fvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

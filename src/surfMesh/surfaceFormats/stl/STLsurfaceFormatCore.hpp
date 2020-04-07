@@ -36,10 +36,10 @@ SourceFiles
 #ifndef STLsurfaceFormatCore_H
 #define STLsurfaceFormatCore_H
 
-#include "STLtriangle.H"
-#include "triFace.H"
-#include "IFstream.H"
-#include "Ostream.H"
+#include "surfMesh/surfaceFormats/stl/STLtriangle.hpp"
+#include "OpenFOAM/meshes/meshShapes/triFace/triFace.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Ostream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

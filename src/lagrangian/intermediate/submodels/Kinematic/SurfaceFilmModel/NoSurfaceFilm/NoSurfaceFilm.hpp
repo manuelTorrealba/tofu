@@ -35,7 +35,7 @@ SourceFiles
 #ifndef NoSurfaceFilm_H
 #define NoSurfaceFilm_H
 
-#include "SurfaceFilmModel.H"
+#include "lagrangian/intermediate/submodels/Kinematic/SurfaceFilmModel/SurfaceFilmModel/SurfaceFilmModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

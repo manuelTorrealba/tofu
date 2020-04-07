@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volFieldValue.H"
-#include "volFields.H"
+#include "functionObjects/field/fieldValues/volFieldValue/volFieldValue.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

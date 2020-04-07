@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CollidingParcel.H"
-#include "IOstreams.H"
-#include "IOField.H"
+#include "lagrangian/intermediate/parcels/Templates/CollidingParcel/CollidingParcel.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
+#include "OpenFOAM/db/IOobjects/IOField/IOField.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

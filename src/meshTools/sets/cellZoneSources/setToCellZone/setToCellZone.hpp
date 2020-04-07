@@ -35,7 +35,7 @@ SourceFiles
 #ifndef setToCellZone_H
 #define setToCellZone_H
 
-#include "topoSetSource.H"
+#include "meshTools/sets/topoSetSource/topoSetSource.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

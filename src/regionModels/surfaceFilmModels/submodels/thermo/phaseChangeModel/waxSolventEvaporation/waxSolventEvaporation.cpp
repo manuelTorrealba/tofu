@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "waxSolventEvaporation.H"
-#include "addToRunTimeSelectionTable.H"
-#include "thermoSingleLayer.H"
-#include "zeroField.H"
+#include "regionModels/surfaceFilmModels/submodels/thermo/phaseChangeModel/waxSolventEvaporation/waxSolventEvaporation.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "regionModels/surfaceFilmModels/thermoSingleLayer/thermoSingleLayer.hpp"
+#include "OpenFOAM/fields/Fields/zeroField/zeroField.hpp"
 
-#include "fvmDdt.H"
-#include "fvmDiv.H"
-#include "fvcDiv.H"
-#include "fvmSup.H"
+#include "finiteVolume/finiteVolume/fvm/fvmDdt.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvmDiv.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcDiv.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvmSup.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

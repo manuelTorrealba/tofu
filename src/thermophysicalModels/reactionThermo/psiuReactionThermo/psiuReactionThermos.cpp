@@ -23,28 +23,28 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "psiuReactionThermo.H"
-#include "heheuPsiThermo.H"
+#include "thermophysicalModels/reactionThermo/psiuReactionThermo/psiuReactionThermo.hpp"
+#include "thermophysicalModels/reactionThermo/psiuReactionThermo/heheuPsiThermo.hpp"
 
-#include "makeReactionThermo.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalModels/reactionThermo/makeReactionThermo.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
-#include "specie.H"
-#include "perfectGas.H"
-#include "hConstThermo.H"
-#include "janafThermo.H"
-#include "thermo.H"
-#include "constTransport.H"
-#include "sutherlandTransport.H"
+#include "thermophysicalModels/specie/specie/specie.hpp"
+#include "thermophysicalModels/specie/equationOfState/perfectGas/perfectGas.hpp"
+#include "thermophysicalModels/specie/thermo/hConst/hConstThermo.hpp"
+#include "thermophysicalModels/specie/thermo/janaf/janafThermo.hpp"
+#include "thermophysicalModels/specie/thermo/thermo/thermo.hpp"
+#include "thermophysicalModels/specie/transport/const/constTransport.hpp"
+#include "thermophysicalModels/specie/transport/sutherland/sutherlandTransport.hpp"
 
-#include "absoluteEnthalpy.H"
-#include "absoluteInternalEnergy.H"
+#include "thermophysicalModels/specie/thermo/absoluteEnthalpy/absoluteEnthalpy.hpp"
+#include "thermophysicalModels/specie/thermo/absoluteInternalEnergy/absoluteInternalEnergy.hpp"
 
-#include "homogeneousMixture.H"
-#include "inhomogeneousMixture.H"
-#include "veryInhomogeneousMixture.H"
-#include "multiComponentMixture.H"
-#include "egrMixture.H"
+#include "thermophysicalModels/reactionThermo/mixtures/homogeneousMixture/homogeneousMixture.hpp"
+#include "thermophysicalModels/reactionThermo/mixtures/inhomogeneousMixture/inhomogeneousMixture.hpp"
+#include "thermophysicalModels/reactionThermo/mixtures/veryInhomogeneousMixture/veryInhomogeneousMixture.hpp"
+#include "thermophysicalModels/reactionThermo/mixtures/multiComponentMixture/multiComponentMixture.hpp"
+#include "thermophysicalModels/reactionThermo/mixtures/egrMixture/egrMixture.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

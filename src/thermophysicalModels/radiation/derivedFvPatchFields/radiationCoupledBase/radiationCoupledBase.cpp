@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "radiationCoupledBase.H"
-#include "volFields.H"
-#include "mappedPatchBase.H"
-#include "fvPatchFieldMapper.H"
-#include "radiationModel.H"
-#include "opaqueSolid.H"
-#include "absorptionEmissionModel.H"
+#include "thermophysicalModels/radiation/derivedFvPatchFields/radiationCoupledBase/radiationCoupledBase.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "meshTools/mappedPatches/mappedPolyPatch/mappedPatchBase.hpp"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.hpp"
+#include "thermophysicalModels/radiation/radiationModels/radiationModel/radiationModel.hpp"
+#include "thermophysicalModels/radiation/radiationModels/opaqueSolid/opaqueSolid.hpp"
+#include "thermophysicalModels/radiation/submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModel.hpp"
 
 // * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * * //
 

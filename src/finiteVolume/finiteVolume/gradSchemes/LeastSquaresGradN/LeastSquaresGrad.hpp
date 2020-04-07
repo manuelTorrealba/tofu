@@ -62,7 +62,7 @@ SourceFiles
 #ifndef LeastSquaresGrad_H
 #define LeastSquaresGrad_H
 
-#include "gradScheme.H"
+#include "finiteVolume/finiteVolume/gradSchemes/gradScheme/gradScheme.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

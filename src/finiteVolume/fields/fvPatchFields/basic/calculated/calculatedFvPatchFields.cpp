@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "calculatedFvPatchFields.H"
-#include "fvPatchFields.H"
-#include "volMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "finiteVolume/fields/fvPatchFields/basic/calculated/calculatedFvPatchFields.hpp"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFields.hpp"
+#include "finiteVolume/volMesh/volMesh.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

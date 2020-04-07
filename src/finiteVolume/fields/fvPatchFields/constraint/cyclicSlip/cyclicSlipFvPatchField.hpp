@@ -48,8 +48,8 @@ SourceFiles
 #ifndef cyclicSlipFvPatchField_H
 #define cyclicSlipFvPatchField_H
 
-#include "cyclicFvPatchField.H"
-#include "cyclicSlipFvPatch.H"
+#include "finiteVolume/fields/fvPatchFields/constraint/cyclic/cyclicFvPatchField.hpp"
+#include "finiteVolume/fvMesh/fvPatches/constraint/cyclicSlip/cyclicSlipFvPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

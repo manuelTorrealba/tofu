@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermalBaffle.H"
-#include "zeroGradientFvPatchFields.H"
+#include "regionModels/thermalBaffleModels/thermalBaffle/thermalBaffle.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

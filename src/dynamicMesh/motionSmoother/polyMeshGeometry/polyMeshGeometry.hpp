@@ -38,8 +38,8 @@ SourceFiles
 #ifndef polyMeshGeometry_H
 #define polyMeshGeometry_H
 
-#include "pointFields.H"
-#include "HashSet.H"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFields.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

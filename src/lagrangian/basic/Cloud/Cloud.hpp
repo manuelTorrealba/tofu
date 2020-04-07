@@ -36,12 +36,12 @@ SourceFiles
 #ifndef Cloud_H
 #define Cloud_H
 
-#include "cloud.H"
-#include "IDLList.H"
-#include "IOField.H"
-#include "CompactIOField.H"
-#include "polyMesh.H"
-#include "PackedBoolList.H"
+#include "OpenFOAM/fields/cloud/cloud.hpp"
+#include "OpenFOAM/containers/LinkedLists/user/IDLList.hpp"
+#include "OpenFOAM/db/IOobjects/IOField/IOField.hpp"
+#include "OpenFOAM/db/IOobjects/CompactIOField/CompactIOField.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

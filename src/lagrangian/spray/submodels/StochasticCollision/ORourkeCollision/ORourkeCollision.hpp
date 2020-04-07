@@ -33,8 +33,8 @@ Description
 #ifndef ORourkeCollision_H
 #define ORourkeCollision_H
 
-#include "StochasticCollisionModel.H"
-#include "liquidMixtureProperties.H"
+#include "lagrangian/intermediate/submodels/Kinematic/StochasticCollision/StochasticCollisionModel/StochasticCollisionModel.hpp"
+#include "thermophysicalModels/thermophysicalProperties/liquidProperties/liquidMixtureProperties/liquidMixtureProperties.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

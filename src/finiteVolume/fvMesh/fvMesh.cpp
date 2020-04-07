@@ -23,19 +23,19 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMesh.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "slicedVolFields.H"
-#include "slicedSurfaceFields.H"
-#include "SubField.H"
-#include "demandDrivenData.H"
-#include "fvMeshLduAddressing.H"
-#include "mapPolyMesh.H"
-#include "MapFvFields.H"
-#include "fvMeshMapper.H"
-#include "mapClouds.H"
-#include "MeshObject.H"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
+#include "finiteVolume/fields/volFields/slicedVolFields.hpp"
+#include "finiteVolume/fields/surfaceFields/slicedSurfaceFields.hpp"
+#include "OpenFOAM/fields/Fields/Field/SubField.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
+#include "finiteVolume/fvMesh/fvMeshLduAddressing.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "finiteVolume/interpolation/mapping/fvFieldMappers/MapFvFields.hpp"
+#include "finiteVolume/fvMesh/fvMeshMapper/fvMeshMapper.hpp"
+#include "OpenFOAM/fields/cloud/mapClouds.hpp"
+#include "OpenFOAM/meshes/MeshObject/MeshObject.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

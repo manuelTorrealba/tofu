@@ -26,9 +26,9 @@ License
 #ifndef makeReactionThermo_H
 #define makeReactionThermo_H
 
-#include "addToRunTimeSelectionTable.H"
-#include "makeThermo.H"
-#include "SpecieMixture.H"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "thermophysicalModels/basic/fluidThermo/makeThermo.hpp"
+#include "thermophysicalModels/reactionThermo/mixtures/SpecieMixture/SpecieMixture.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

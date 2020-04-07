@@ -34,11 +34,11 @@ SourceFiles
 #ifndef decompositionConstraint_H
 #define decompositionConstraint_H
 
-#include "dictionary.H"
-#include "runTimeSelectionTables.H"
-#include "boolList.H"
-#include "labelList.H"
-#include "labelPair.H"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/primitives/Pair/labelPair.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

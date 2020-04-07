@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvBoundaryMesh.H"
-#include "fvMesh.H"
+#include "finiteVolume/fvMesh/fvBoundaryMesh/fvBoundaryMesh.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
 
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

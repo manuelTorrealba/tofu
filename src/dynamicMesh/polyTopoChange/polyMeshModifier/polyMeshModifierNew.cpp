@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMeshModifier.H"
-#include "dictionary.H"
+#include "dynamicMesh/polyTopoChange/polyMeshModifier/polyMeshModifier.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

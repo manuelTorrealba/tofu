@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NonInertialFrameForce.H"
-#include "uniformDimensionedFields.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/NonInertialFrame/NonInertialFrameForce.hpp"
+#include "OpenFOAM/fields/UniformDimensionedFields/uniformDimensionedFields.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

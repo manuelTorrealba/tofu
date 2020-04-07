@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchDistMethod.H"
+#include "finiteVolume/fvMesh/wallDist/patchDistMethods/patchDistMethod/patchDistMethod.hpp"
 
 // * * * * * * * * * * * * * * * Static Functions  * * * * * * * * * * * * * //
 

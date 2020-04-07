@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceToCellStencil.H"
-#include "polyMesh.H"
+#include "finiteVolume/fvMesh/extendedStencil/faceToCell/globalIndexStencils/faceToCellStencil.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

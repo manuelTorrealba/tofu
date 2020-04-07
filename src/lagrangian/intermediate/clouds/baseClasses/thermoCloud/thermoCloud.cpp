@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermoCloud.H"
+#include "lagrangian/intermediate/clouds/baseClasses/thermoCloud/thermoCloud.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

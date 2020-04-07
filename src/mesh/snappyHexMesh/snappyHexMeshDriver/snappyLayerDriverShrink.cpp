@@ -26,17 +26,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "snappyLayerDriver.H"
-#include "fvMesh.H"
-#include "Time.H"
-#include "pointFields.H"
-#include "motionSmoother.H"
-#include "pointData.H"
-#include "PointEdgeWave.H"
-#include "OBJstream.H"
-#include "meshTools.H"
-#include "PatchTools.H"
-#include "unitConversion.H"
+#include "mesh/snappyHexMesh/snappyHexMeshDriver/snappyLayerDriver.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFields.hpp"
+#include "dynamicMesh/motionSmoother/motionSmoother.hpp"
+#include "mesh/snappyHexMesh/snappyHexMeshDriver/pointData/pointData.hpp"
+#include "meshTools/algorithms/PointEdgeWave/PointEdgeWave.hpp"
+#include "surfMesh/surfaceFormats/obj/OBJstream.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/PatchTools/PatchTools.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

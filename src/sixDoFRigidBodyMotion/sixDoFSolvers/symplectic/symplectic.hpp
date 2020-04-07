@@ -59,7 +59,7 @@ SourceFiles
 #ifndef symplectic_H
 #define symplectic_H
 
-#include "sixDoFSolver.H"
+#include "sixDoFRigidBodyMotion/sixDoFSolvers/sixDoFSolver/sixDoFSolver.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

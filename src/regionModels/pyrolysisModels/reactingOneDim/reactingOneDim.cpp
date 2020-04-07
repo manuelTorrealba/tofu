@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reactingOneDim.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvm.H"
-#include "fvcDiv.H"
-#include "fvcVolumeIntegrate.H"
-#include "fvcLaplacian.H"
-#include "absorptionEmissionModel.H"
+#include "regionModels/pyrolysisModels/reactingOneDim/reactingOneDim.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvm.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcDiv.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcVolumeIntegrate.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcLaplacian.hpp"
+#include "thermophysicalModels/radiation/submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

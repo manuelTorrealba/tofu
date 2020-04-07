@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LaheyKEpsilon.H"
-#include "fvOptions.H"
+#include "TurbulenceModels/phaseCompressible/RAS/LaheyKEpsilon/LaheyKEpsilon.hpp"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOptions.hpp"
 #include "twoPhaseSystem.H"
 #include "dragModel.H"
 

@@ -46,8 +46,8 @@ SourceFiles
 #ifndef mappedPatchFieldBase_H
 #define mappedPatchFieldBase_H
 
-#include "fixedValueFvPatchFields.H"
-#include "volFieldsFwd.H"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

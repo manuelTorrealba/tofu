@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvmSup.H"
-#include "SortableList.H"
+#include "finiteVolume/finiteVolume/fvm/fvmSup.hpp"
+#include "OpenFOAM/containers/Lists/SortableList/SortableList.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

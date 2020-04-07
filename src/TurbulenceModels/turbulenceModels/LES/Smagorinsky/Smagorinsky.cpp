@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Smagorinsky.H"
-#include "fvOptions.H"
+#include "TurbulenceModels/turbulenceModels/LES/Smagorinsky/Smagorinsky.hpp"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOptions.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

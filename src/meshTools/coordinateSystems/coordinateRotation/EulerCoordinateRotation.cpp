@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "EulerCoordinateRotation.H"
+#include "meshTools/coordinateSystems/coordinateRotation/EulerCoordinateRotation.hpp"
 
-#include "mathematicalConstants.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

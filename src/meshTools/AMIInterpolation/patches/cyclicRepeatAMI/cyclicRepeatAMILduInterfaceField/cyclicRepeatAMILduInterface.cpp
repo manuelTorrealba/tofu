@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicRepeatAMILduInterface.H"
+#include "meshTools/AMIInterpolation/patches/cyclicRepeatAMI/cyclicRepeatAMILduInterfaceField/cyclicRepeatAMILduInterface.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

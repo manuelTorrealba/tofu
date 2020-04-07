@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicThermoParcel.H"
-#include "Cloud.H"
+#include "lagrangian/intermediate/parcels/derived/basicThermoParcel/basicThermoParcel.hpp"
+#include "lagrangian/basic/Cloud/Cloud.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,17 +23,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "curvatureSeparation.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvMesh.H"
-#include "Time.H"
-#include "volFields.H"
-#include "kinematicSingleLayer.H"
-#include "surfaceInterpolate.H"
-#include "fvcDiv.H"
-#include "fvcGrad.H"
-#include "stringListOps.H"
-#include "cyclicPolyPatch.H"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/injectionModel/curvatureSeparation/curvatureSeparation.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "regionModels/surfaceFilmModels/kinematicSingleLayer/kinematicSingleLayer.hpp"
+#include "functionObjects/field/surfaceInterpolate/surfaceInterpolate.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcDiv.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcGrad.hpp"
+#include "OpenFOAM/primitives/strings/lists/stringListOps.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

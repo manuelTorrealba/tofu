@@ -37,13 +37,13 @@ SourceFiles
 #ifndef sampledSurfaces_H
 #define sampledSurfaces_H
 
-#include "functionObject.H"
-#include "sampledSurface.H"
-#include "surfaceWriter.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "wordReList.H"
-#include "IOobjectList.H"
+#include "OpenFOAM/db/functionObjects/functionObject/functionObject.hpp"
+#include "sampling/sampledSurface/sampledSurface/sampledSurface.hpp"
+#include "sampling/sampledSurface/writers/surfaceWriter.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFieldsFwd.hpp"
+#include "OpenFOAM/primitives/strings/lists/wordReList.hpp"
+#include "OpenFOAM/db/IOobjectList/IOobjectList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LimitedScheme.H"
-#include "QUICK.H"
-#include "QUICKV.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/LimitedScheme/LimitedScheme.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/QUICK/QUICK.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/QUICK/QUICKV.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

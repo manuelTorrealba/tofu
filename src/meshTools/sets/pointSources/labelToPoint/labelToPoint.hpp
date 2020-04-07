@@ -35,7 +35,7 @@ SourceFiles
 #ifndef labelToPoint_H
 #define labelToPoint_H
 
-#include "topoSetSource.H"
+#include "meshTools/sets/topoSetSource/topoSetSource.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

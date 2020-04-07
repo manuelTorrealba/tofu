@@ -35,8 +35,8 @@ SourceFiles
 #ifndef cartesianCS_H
 #define cartesianCS_H
 
-#include "coordinateSystem.H"
-#include "typeInfo.H"
+#include "meshTools/coordinateSystems/coordinateSystem.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

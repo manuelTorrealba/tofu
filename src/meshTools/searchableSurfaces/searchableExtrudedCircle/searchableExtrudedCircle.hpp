@@ -35,8 +35,8 @@ SourceFiles
 #ifndef searchableExtrudedCircle_H
 #define searchableExtrudedCircle_H
 
-#include "treeBoundBox.H"
-#include "searchableSurface.H"
+#include "OpenFOAM/meshes/treeBoundBox/treeBoundBox.hpp"
+#include "meshTools/searchableSurfaces/searchableSurface/searchableSurface.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

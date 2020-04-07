@@ -38,10 +38,10 @@ SourceFiles
 #ifndef harmonic_H
 #define harmonic_H
 
-#include "surfaceInterpolationScheme.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "reverseLinear.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/reverseLinear/reverseLinear.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

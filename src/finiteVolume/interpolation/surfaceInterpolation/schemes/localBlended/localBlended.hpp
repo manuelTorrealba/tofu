@@ -35,8 +35,8 @@ SourceFiles
 #ifndef localBlended_H
 #define localBlended_H
 
-#include "surfaceInterpolationScheme.H"
-#include "blendedSchemeBase.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/blendedSchemeBase/blendedSchemeBase.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

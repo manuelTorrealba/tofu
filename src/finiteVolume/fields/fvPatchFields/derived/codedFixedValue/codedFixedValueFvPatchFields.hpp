@@ -26,8 +26,8 @@ License
 #ifndef codedFixedValueFvPatchFields_H
 #define codedFixedValueFvPatchFields_H
 
-#include "codedFixedValueFvPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvPatchFields/derived/codedFixedValue/codedFixedValueFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

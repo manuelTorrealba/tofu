@@ -28,9 +28,9 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoStochasticCollision.H"
-#include "ORourkeCollision.H"
-#include "TrajectoryCollision.H"
+#include "lagrangian/intermediate/submodels/Kinematic/StochasticCollision/NoStochasticCollision/NoStochasticCollision.hpp"
+#include "lagrangian/spray/submodels/StochasticCollision/ORourkeCollision/ORourkeCollision.hpp"
+#include "lagrangian/spray/submodels/StochasticCollision/TrajectoryCollision/TrajectoryCollision.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

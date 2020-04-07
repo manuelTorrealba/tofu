@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Dual.H"
-#include "coupledPointPatchField.H"
+#include "lagrangian/intermediate/submodels/MPPIC/AveragingMethods/Dual/Dual.hpp"
+#include "OpenFOAM/fields/pointPatchFields/basic/coupled/coupledPointPatchField.hpp"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

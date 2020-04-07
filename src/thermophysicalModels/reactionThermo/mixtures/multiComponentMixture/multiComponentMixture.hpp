@@ -35,8 +35,8 @@ SourceFiles
 #ifndef multiComponentMixture_H
 #define multiComponentMixture_H
 
-#include "basicSpecieMixture.H"
-#include "HashPtrTable.H"
+#include "thermophysicalModels/reactionThermo/mixtures/basicSpecieMixture/basicSpecieMixture.hpp"
+#include "OpenFOAM/containers/HashTables/HashPtrTable/HashPtrTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

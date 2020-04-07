@@ -35,7 +35,7 @@ SourceFiles
 #ifndef meshToMeshMethod_H
 #define meshToMeshMethod_H
 
-#include "polyMesh.H"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -192,7 +192,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "meshToMeshMethodI.H"
+#include "sampling/meshToMesh/calcMethod/meshToMeshMethod/meshToMeshMethodI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

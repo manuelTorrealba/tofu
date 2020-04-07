@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NonSphereDragForce.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/Drag/NonSphereDrag/NonSphereDragForce.hpp"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

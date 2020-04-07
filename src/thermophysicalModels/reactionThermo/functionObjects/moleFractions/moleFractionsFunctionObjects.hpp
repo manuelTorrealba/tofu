@@ -41,9 +41,9 @@ SourceFiles
 #ifndef moleFractionsFunctionObjects_H
 #define moleFractionsFunctionObjects_H
 
-#include "moleFractions.H"
-#include "psiReactionThermo.H"
-#include "rhoReactionThermo.H"
+#include "thermophysicalModels/reactionThermo/functionObjects/moleFractions/moleFractions.hpp"
+#include "thermophysicalModels/reactionThermo/psiReactionThermo/psiReactionThermo.hpp"
+#include "thermophysicalModels/reactionThermo/rhoReactionThermo/rhoReactionThermo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

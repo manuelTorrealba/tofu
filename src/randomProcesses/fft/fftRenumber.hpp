@@ -36,9 +36,9 @@ SourceFiles
 #ifndef fftRenumber_H
 #define fftRenumber_H
 
-#include "complex.H"
-#include "List.H"
-#include "labelList.H"
+#include "OpenFOAM/primitives/complex/complex.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

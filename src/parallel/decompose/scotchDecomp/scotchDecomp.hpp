@@ -213,7 +213,7 @@ SourceFiles
 #ifndef scotchDecomp_H
 #define scotchDecomp_H
 
-#include "decompositionMethod.H"
+#include "parallel/decompose/decompositionMethods/decompositionMethod/decompositionMethod.hpp"
 
 namespace Foam
 {

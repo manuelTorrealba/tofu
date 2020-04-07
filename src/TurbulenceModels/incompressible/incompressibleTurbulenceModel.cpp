@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "incompressibleTurbulenceModel.H"
+#include "TurbulenceModels/incompressible/incompressibleTurbulenceModel.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

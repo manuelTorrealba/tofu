@@ -35,8 +35,8 @@ SourceFiles
 #ifndef atomicWeights_H
 #define atomicWeights_H
 
-#include "scalar.H"
-#include "HashTable.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

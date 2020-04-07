@@ -40,7 +40,7 @@ SourceFiles
 #ifndef Implicit_H
 #define Implicit_H
 
-#include "PackingModel.H"
+#include "lagrangian/intermediate/submodels/MPPIC/PackingModels/PackingModel/PackingModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -82,7 +82,7 @@ SourceFiles
 #ifndef porousBafflePressureFvPatchField_H
 #define porousBafflePressureFvPatchField_H
 
-#include "fixedJumpFvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/derived/fixedJump/fixedJumpFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

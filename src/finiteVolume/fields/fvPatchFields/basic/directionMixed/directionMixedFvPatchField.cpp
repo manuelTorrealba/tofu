@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "directionMixedFvPatchField.H"
-#include "symmTransformField.H"
+#include "finiteVolume/fields/fvPatchFields/basic/directionMixed/directionMixedFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/symmTransformField/symmTransformField.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

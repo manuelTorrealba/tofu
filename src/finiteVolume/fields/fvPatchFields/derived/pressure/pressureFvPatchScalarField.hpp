@@ -58,7 +58,7 @@ SourceFiles
 #ifndef pressureFvPatchScalarField_H
 #define pressureFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

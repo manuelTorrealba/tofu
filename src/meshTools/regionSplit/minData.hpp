@@ -35,8 +35,8 @@ SourceFiles
 #ifndef minData_H
 #define minData_H
 
-#include "point.H"
-#include "tensor.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "OpenFOAM/primitives/Tensor/tensor/tensor.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -205,7 +205,7 @@ inline bool contiguous<minData>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "minDataI.H"
+#include "meshTools/regionSplit/minDataI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

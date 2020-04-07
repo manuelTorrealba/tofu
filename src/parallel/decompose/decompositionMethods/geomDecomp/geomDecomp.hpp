@@ -35,8 +35,8 @@ SourceFiles
 #ifndef geomDecomp_H
 #define geomDecomp_H
 
-#include "decompositionMethod.H"
-#include "Vector.H"
+#include "parallel/decompose/decompositionMethods/decompositionMethod/decompositionMethod.hpp"
+#include "OpenFOAM/primitives/Vector/Vector.hpp"
 
 namespace Foam
 {

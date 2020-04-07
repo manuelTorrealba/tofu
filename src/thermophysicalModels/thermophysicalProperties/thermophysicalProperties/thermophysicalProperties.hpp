@@ -38,8 +38,8 @@ SourceFiles
 #ifndef thermophysicalProperties_H
 #define thermophysicalProperties_H
 
-#include "dictionary.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -193,7 +193,7 @@ Ostream& operator<<(Ostream& os, const thermophysicalProperties& l);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "thermophysicalPropertiesI.H"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalProperties/thermophysicalPropertiesI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

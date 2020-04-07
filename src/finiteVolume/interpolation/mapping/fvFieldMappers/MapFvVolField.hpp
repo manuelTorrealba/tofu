@@ -30,8 +30,8 @@ Description
 #ifndef MapFvVolField_H
 #define MapFvVolField_H
 
-#include "Field.H"
-#include "volMesh.H"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
+#include "finiteVolume/volMesh/volMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

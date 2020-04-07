@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CloudFunctionObjectList.H"
-#include "entry.H"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/CloudFunctionObjectList/CloudFunctionObjectList.hpp"
+#include "OpenFOAM/db/dictionary/entry/entry.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

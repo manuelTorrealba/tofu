@@ -28,13 +28,13 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoBreakup.H"
-#include "PilchErdman.H"
-#include "ReitzDiwakar.H"
-#include "ReitzKHRT.H"
-#include "TAB.H"
-#include "ETAB.H"
-#include "SHF.H"
+#include "lagrangian/spray/submodels/BreakupModel/NoBreakup/NoBreakup.hpp"
+#include "lagrangian/spray/submodels/BreakupModel/PilchErdman/PilchErdman.hpp"
+#include "lagrangian/spray/submodels/BreakupModel/ReitzDiwakar/ReitzDiwakar.hpp"
+#include "lagrangian/spray/submodels/BreakupModel/ReitzKHRT/ReitzKHRT.hpp"
+#include "lagrangian/spray/submodels/BreakupModel/TAB/TAB.hpp"
+#include "lagrangian/spray/submodels/BreakupModel/ETAB/ETAB.hpp"
+#include "lagrangian/spray/submodels/BreakupModel/SHF/SHF.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

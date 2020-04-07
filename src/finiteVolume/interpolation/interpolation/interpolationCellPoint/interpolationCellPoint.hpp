@@ -33,8 +33,8 @@ Description
 #ifndef interpolationCellPoint_H
 #define interpolationCellPoint_H
 
-#include "interpolation.H"
-#include "cellPointWeight.H"
+#include "finiteVolume/interpolation/interpolation/interpolation/interpolation.hpp"
+#include "finiteVolume/interpolation/interpolation/interpolationCellPoint/cellPointWeight/cellPointWeight.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -103,7 +103,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "interpolationCellPointI.H"
+#include "finiteVolume/interpolation/interpolation/interpolationCellPoint/interpolationCellPointI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

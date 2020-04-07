@@ -52,8 +52,8 @@ SourceFiles
 #ifndef ThermoLookupTableInjection_H
 #define ThermoLookupTableInjection_H
 
-#include "InjectionModel.H"
-#include "kinematicParcelInjectionDataIOList.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/InjectionModel/InjectionModel.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/KinematicLookupTableInjection/kinematicParcelInjectionDataIOList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

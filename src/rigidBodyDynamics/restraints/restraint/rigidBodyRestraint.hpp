@@ -42,12 +42,12 @@ SourceFiles
 #ifndef RBD_rigidBodyRestraint_H
 #define RBD_rigidBodyRestraint_H
 
-#include "dictionary.H"
-#include "autoPtr.H"
-#include "spatialVector.H"
-#include "point.H"
-#include "scalarField.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/primitives/spatialVectorAlgebra/SpatialVector/spatialVector/spatialVector.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -183,7 +183,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "rigidBodyRestraintI.H"
+#include "rigidBodyDynamics/restraints/restraint/rigidBodyRestraintI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

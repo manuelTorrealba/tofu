@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GradientDispersionRAS.H"
-#include "demandDrivenData.H"
-#include "fvcGrad.H"
+#include "lagrangian/turbulence/submodels/Kinematic/DispersionModel/GradientDispersionRAS/GradientDispersionRAS.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcGrad.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

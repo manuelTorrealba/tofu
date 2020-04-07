@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cartesianCS.H"
+#include "meshTools/coordinateSystems/cartesianCS.hpp"
 
-#include "one.H"
-#include "mathematicalConstants.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/primitives/one/one.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

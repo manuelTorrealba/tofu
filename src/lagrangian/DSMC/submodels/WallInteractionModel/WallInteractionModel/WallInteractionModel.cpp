@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "WallInteractionModel.H"
+#include "lagrangian/DSMC/submodels/WallInteractionModel/WallInteractionModel/WallInteractionModel.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PackingModel.H"
-#include "AveragingMethod.H"
-#include "ParticleStressModel.H"
-#include "CorrectionLimitingMethod.H"
+#include "lagrangian/intermediate/submodels/MPPIC/PackingModels/PackingModel/PackingModel.hpp"
+#include "lagrangian/intermediate/submodels/MPPIC/AveragingMethods/AveragingMethod/AveragingMethod.hpp"
+#include "lagrangian/intermediate/submodels/MPPIC/ParticleStressModels/ParticleStressModel/ParticleStressModel.hpp"
+#include "lagrangian/intermediate/submodels/MPPIC/CorrectionLimitingMethods/CorrectionLimitingMethod/CorrectionLimitingMethod.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

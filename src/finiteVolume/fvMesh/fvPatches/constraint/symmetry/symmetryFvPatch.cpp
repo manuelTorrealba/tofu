@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "symmetryFvPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "finiteVolume/fvMesh/fvPatches/constraint/symmetry/symmetryFvPatch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

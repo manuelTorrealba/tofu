@@ -46,8 +46,8 @@ SourceFiles
 #ifndef rotatedBoxToCell_H
 #define rotatedBoxToCell_H
 
-#include "topoSetSource.H"
-#include "treeBoundBox.H"
+#include "meshTools/sets/topoSetSource/topoSetSource.hpp"
+#include "OpenFOAM/meshes/treeBoundBox/treeBoundBox.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "streamLineParticleCloud.H"
+#include "functionObjects/field/streamLine/streamLineParticleCloud.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

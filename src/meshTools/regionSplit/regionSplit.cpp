@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionSplit.H"
-#include "FaceCellWave.H"
-#include "cyclicPolyPatch.H"
-#include "processorPolyPatch.H"
-#include "globalIndex.H"
-#include "syncTools.H"
-#include "minData.H"
+#include "meshTools/regionSplit/regionSplit.hpp"
+#include "meshTools/algorithms/MeshWave/FaceCellWave.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
+#include "meshTools/regionSplit/minData.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

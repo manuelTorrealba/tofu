@@ -51,7 +51,7 @@ SourceFiles
 #ifndef Stochastic_H
 #define Stochastic_H
 
-#include "IsotropyModel.H"
+#include "lagrangian/intermediate/submodels/MPPIC/IsotropyModels/IsotropyModel/IsotropyModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

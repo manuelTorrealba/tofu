@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kOmega.H"
-#include "fvOptions.H"
-#include "bound.H"
+#include "TurbulenceModels/turbulenceModels/RAS/kOmega/kOmega.hpp"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOptions.hpp"
+#include "finiteVolume/cfdTools/general/bound/bound.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

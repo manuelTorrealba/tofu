@@ -114,7 +114,7 @@ SourceFiles
 #ifndef externalCoupledTemperatureMixedFvPatchScalarField_H
 #define externalCoupledTemperatureMixedFvPatchScalarField_H
 
-#include "externalCoupledMixedFvPatchFields.H"
+#include "finiteVolume/fields/fvPatchFields/derived/externalCoupledMixed/externalCoupledMixedFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

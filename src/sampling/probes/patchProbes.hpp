@@ -37,7 +37,7 @@ SourceFiles
 #ifndef patchProbes_H
 #define patchProbes_H
 
-#include "probes.H"
+#include "sampling/probes/probes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

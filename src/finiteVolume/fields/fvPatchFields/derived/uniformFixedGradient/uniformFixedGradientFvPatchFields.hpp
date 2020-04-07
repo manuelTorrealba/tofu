@@ -26,8 +26,8 @@ License
 #ifndef uniformFixedGradientFvPatchFields_H
 #define uniformFixedGradientFvPatchFields_H
 
-#include "uniformFixedGradientFvPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvPatchFields/derived/uniformFixedGradient/uniformFixedGradientFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

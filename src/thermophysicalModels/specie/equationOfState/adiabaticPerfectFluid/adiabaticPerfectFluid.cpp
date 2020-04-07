@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adiabaticPerfectFluid.H"
-#include "IOstreams.H"
+#include "thermophysicalModels/specie/equationOfState/adiabaticPerfectFluid/adiabaticPerfectFluid.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

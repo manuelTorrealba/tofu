@@ -37,10 +37,10 @@ SourceFiles
 #ifndef surfMesh_H
 #define surfMesh_H
 
-#include "surfaceRegistry.H"
-#include "MeshedSurfaceIOAllocator.H"
-#include "PrimitivePatch.H"
-#include "SubField.H"
+#include "surfMesh/surfaceRegistry/surfaceRegistry.hpp"
+#include "surfMesh/MeshedSurfaceAllocator/MeshedSurfaceIOAllocator.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/PrimitivePatchN/PrimitivePatch.hpp"
+#include "OpenFOAM/fields/Fields/Field/SubField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

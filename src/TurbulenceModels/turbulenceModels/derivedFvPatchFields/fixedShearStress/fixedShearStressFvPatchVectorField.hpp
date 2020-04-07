@@ -35,8 +35,8 @@ SourceFiles
 #ifndef fixedShearStressFvPatchVectorField_H
 #define fixedShearStressFvPatchVectorField_H
 
-#include "fvPatchFields.H"
-#include "fixedValueFvPatchFields.H"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFields.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

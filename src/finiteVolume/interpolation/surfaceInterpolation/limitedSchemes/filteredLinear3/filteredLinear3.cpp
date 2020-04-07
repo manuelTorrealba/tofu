@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LimitedScheme.H"
-#include "filteredLinear3.H"
-#include "filteredLinear3V.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/LimitedScheme/LimitedScheme.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/filteredLinear3/filteredLinear3.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/filteredLinear3/filteredLinear3V.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

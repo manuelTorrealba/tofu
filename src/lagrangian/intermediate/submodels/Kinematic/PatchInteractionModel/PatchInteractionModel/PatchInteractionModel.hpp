@@ -36,13 +36,13 @@ SourceFiles
 #ifndef PatchInteractionModel_H
 #define PatchInteractionModel_H
 
-#include "IOdictionary.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
-#include "polyPatch.H"
-#include "wallPolyPatch.H"
-#include "tetIndices.H"
-#include "CloudSubModelBase.H"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMeshTetDecomposition/tetIndices.hpp"
+#include "lagrangian/intermediate/submodels/CloudSubModelBase.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef solid_ash_H
 #define solid_ash_H
 
-#include "solidProperties.H"
+#include "thermophysicalModels/thermophysicalProperties/solidProperties/solidProperties/solidProperties.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

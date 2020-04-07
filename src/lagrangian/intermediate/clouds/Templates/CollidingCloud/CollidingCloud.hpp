@@ -36,12 +36,12 @@ SourceFiles
 #ifndef CollidingCloud_H
 #define CollidingCloud_H
 
-#include "particle.H"
-#include "Cloud.H"
-#include "IOdictionary.H"
-#include "autoPtr.H"
-#include "fvMesh.H"
-#include "volFields.H"
+#include "lagrangian/basic/particle/particle.hpp"
+#include "lagrangian/basic/Cloud/Cloud.hpp"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -243,7 +243,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "CollidingCloudI.H"
+#include "lagrangian/intermediate/clouds/Templates/CollidingCloud/CollidingCloudI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

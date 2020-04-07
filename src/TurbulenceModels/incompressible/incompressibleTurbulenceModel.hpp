@@ -35,8 +35,8 @@ SourceFiles
 #ifndef incompressibleTurbulenceModel_H
 #define incompressibleTurbulenceModel_H
 
-#include "turbulenceModel.H"
-#include "geometricOneField.H"
+#include "TurbulenceModels/turbulenceModels/turbulenceModel.hpp"
+#include "OpenFOAM/fields/GeometricFields/geometricOneField/geometricOneField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

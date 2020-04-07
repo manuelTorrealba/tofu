@@ -38,9 +38,9 @@ SourceFiles
 #ifndef MPPICParcel_H
 #define MPPICParcel_H
 
-#include "particle.H"
-#include "labelFieldIOField.H"
-#include "vectorFieldIOField.H"
+#include "lagrangian/basic/particle/particle.hpp"
+#include "OpenFOAM/fields/Fields/labelField/labelFieldIOField.hpp"
+#include "OpenFOAM/fields/Fields/vectorField/vectorFieldIOField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -320,8 +320,8 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "MPPICParcelI.H"
-#include "MPPICParcelTrackingDataI.H"
+#include "lagrangian/intermediate/parcels/Templates/MPPICParcel/MPPICParcelI.hpp"
+#include "lagrangian/intermediate/parcels/Templates/MPPICParcel/MPPICParcelTrackingDataI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

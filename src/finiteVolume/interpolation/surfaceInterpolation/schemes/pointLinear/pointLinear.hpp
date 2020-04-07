@@ -38,7 +38,7 @@ SourceFiles
 #ifndef pointLinear_H
 #define pointLinear_H
 
-#include "linear.H"
+#include "thermophysicalModels/specie/equationOfState/linear/linear.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

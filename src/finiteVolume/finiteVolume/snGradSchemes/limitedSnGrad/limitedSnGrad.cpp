@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fv.H"
-#include "limitedSnGrad.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "localMax.H"
+#include "finiteVolume/finiteVolume/fv/fv.hpp"
+#include "finiteVolume/finiteVolume/snGradSchemes/limitedSnGrad/limitedSnGrad.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/localMax/localMax.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

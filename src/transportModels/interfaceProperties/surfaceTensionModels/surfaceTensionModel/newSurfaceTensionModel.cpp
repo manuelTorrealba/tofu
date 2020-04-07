@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceTensionModel.H"
-#include "constantSurfaceTension.H"
+#include "transportModels/interfaceProperties/surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.hpp"
+#include "transportModels/interfaceProperties/surfaceTensionModels/constant/constantSurfaceTension.hpp"
 
 // * * * * * * * * * * * * * * * * Selector  * * * * * * * * * * * * * * * * //
 

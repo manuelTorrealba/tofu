@@ -26,9 +26,9 @@ License
 #ifndef makeChemistryTabulationMethods_H
 #define makeChemistryTabulationMethods_H
 
-#include "chemistryTabulationMethod.H"
-#include "noChemistryTabulation.H"
-#include "ISAT.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/tabulation/chemistryTabulationMethod/chemistryTabulationMethod.hpp"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/tabulation/noChemistryTabulation/noChemistryTabulation.hpp"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/tabulation/ISAT/ISAT.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

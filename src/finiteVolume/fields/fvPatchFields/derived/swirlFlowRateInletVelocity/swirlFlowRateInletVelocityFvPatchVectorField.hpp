@@ -73,8 +73,8 @@ SourceFiles
 #ifndef swirlFlowRateInletVelocityFvPatchVectorField_H
 #define swirlFlowRateInletVelocityFvPatchVectorField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "Function1.H"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

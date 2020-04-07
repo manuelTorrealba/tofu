@@ -39,7 +39,7 @@ SourceFiles
 #ifndef v2fBase_H
 #define v2fBase_H
 
-#include "RASModel.H"
+#include "TurbulenceModels/turbulenceModels/RAS/RASModel/RASModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

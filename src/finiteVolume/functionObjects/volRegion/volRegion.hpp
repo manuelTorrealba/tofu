@@ -67,8 +67,8 @@ SourceFiles
 #ifndef functionObjects_volRegion_H
 #define functionObjects_volRegion_H
 
-#include "writeFile.H"
-#include "NamedEnum.H"
+#include "OpenFOAM/db/functionObjects/writeFile/writeFile.hpp"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -177,7 +177,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "volRegionI.H"
+#include "finiteVolume/functionObjects/volRegion/volRegionI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

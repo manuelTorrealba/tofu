@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pairPotential.H"
-#include "IOstreams.H"
+#include "lagrangian/molecularDynamics/potential/pairPotential/basic/pairPotential.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 bool Foam::pairPotential::writeEnergyAndForceTables(Ostream& os) const
 {

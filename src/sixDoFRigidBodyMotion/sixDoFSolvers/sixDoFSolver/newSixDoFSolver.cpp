@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sixDoFSolver.H"
+#include "sixDoFRigidBodyMotion/sixDoFSolvers/sixDoFSolver/sixDoFSolver.hpp"
 
 // * * * * * * * * * * * * * * * * Selector  * * * * * * * * * * * * * * * * //
 

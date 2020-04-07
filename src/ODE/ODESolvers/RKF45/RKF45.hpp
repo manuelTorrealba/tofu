@@ -52,8 +52,8 @@ SourceFiles
 #ifndef RKF45_H
 #define RKF45_H
 
-#include "ODESolver.H"
-#include "adaptiveSolver.H"
+#include "ODE/ODESolvers/ODESolver/ODESolver.hpp"
+#include "ODE/ODESolvers/adaptiveSolver/adaptiveSolver.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

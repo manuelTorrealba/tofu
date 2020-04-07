@@ -39,10 +39,10 @@ SourceFiles
 #ifndef solidChemistryModel_H
 #define solidChemistryModel_H
 
-#include "Reaction.H"
-#include "ODESystem.H"
-#include "volFields.H"
-#include "simpleMatrix.H"
+#include "thermophysicalModels/specie/reaction/ReactionsN/Reaction/Reaction.hpp"
+#include "ODE/ODESystem/ODESystem.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/matrices/simpleMatrix/simpleMatrix.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -238,7 +238,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-    #include "solidChemistryModelI.H"
+#include "thermophysicalModels/solidChemistryModel/solidChemistryModel/solidChemistryModelI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

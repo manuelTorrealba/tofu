@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ParticleForceList.H"
-#include "entry.H"
+#include "lagrangian/intermediate/submodels/ForceTypes/ParticleForceList/ParticleForceList.hpp"
+#include "OpenFOAM/db/dictionary/entry/entry.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

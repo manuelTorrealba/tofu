@@ -100,7 +100,7 @@ SourceFiles
 #define EDC_H
 
 #include "../laminar/laminar.H"
-#include "NamedEnum.H"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

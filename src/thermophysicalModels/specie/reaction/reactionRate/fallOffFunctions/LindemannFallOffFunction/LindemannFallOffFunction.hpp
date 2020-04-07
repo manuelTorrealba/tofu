@@ -35,7 +35,7 @@ SourceFiles
 #ifndef LindemannFallOffFunction_H
 #define LindemannFallOffFunction_H
 
-#include "scalar.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -112,7 +112,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "LindemannFallOffFunctionI.H"
+#include "thermophysicalModels/specie/reaction/reactionRate/fallOffFunctions/LindemannFallOffFunction/LindemannFallOffFunctionI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

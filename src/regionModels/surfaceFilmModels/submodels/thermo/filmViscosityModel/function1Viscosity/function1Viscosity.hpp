@@ -36,8 +36,8 @@ SourceFiles
 #ifndef function1Viscosity_H
 #define function1Viscosity_H
 
-#include "filmViscosityModel.H"
-#include "Function1.H"
+#include "regionModels/surfaceFilmModels/submodels/thermo/filmViscosityModel/filmViscosityModel/filmViscosityModel.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

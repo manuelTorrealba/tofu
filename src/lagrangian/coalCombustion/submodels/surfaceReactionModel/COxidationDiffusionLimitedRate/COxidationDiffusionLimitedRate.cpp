@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "COxidationDiffusionLimitedRate.H"
-#include "mathematicalConstants.H"
+#include "lagrangian/coalCombustion/submodels/surfaceReactionModel/COxidationDiffusionLimitedRate/COxidationDiffusionLimitedRate.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
 
 using namespace Foam::constant;
 

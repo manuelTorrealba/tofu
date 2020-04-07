@@ -43,7 +43,7 @@ SourceFiles
 #ifndef functionObjects_dsmcFields_H
 #define functionObjects_dsmcFields_H
 
-#include "fvMeshFunctionObject.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

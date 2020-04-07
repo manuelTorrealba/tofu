@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "AMIPatchToPatchInterpolation.H"
-#include "AMIMethod.H"
-#include "directAMI.H"
-#include "mapNearestAMI.H"
-#include "faceAreaWeightAMI.H"
-#include "partialFaceAreaWeightAMI.H"
-#include "sweptFaceAreaWeightAMI.H"
+#include "meshTools/AMIInterpolation/AMIInterpolation/AMIPatchToPatchInterpolation.hpp"
+#include "meshTools/AMIInterpolation/AMIInterpolation/AMIMethod/AMIMethod/AMIMethod.hpp"
+#include "meshTools/AMIInterpolation/AMIInterpolation/AMIMethod/directAMI/directAMI.hpp"
+#include "meshTools/AMIInterpolation/AMIInterpolation/AMIMethod/mapNearestAMI/mapNearestAMI.hpp"
+#include "meshTools/AMIInterpolation/AMIInterpolation/AMIMethod/faceAreaWeightAMI/faceAreaWeightAMI.hpp"
+#include "meshTools/AMIInterpolation/AMIInterpolation/AMIMethod/partialFaceAreaWeightAMI/partialFaceAreaWeightAMI.hpp"
+#include "meshTools/AMIInterpolation/AMIInterpolation/AMIMethod/sweptFaceAreaWeightAMI/sweptFaceAreaWeightAMI.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

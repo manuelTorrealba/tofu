@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "InjectionModel.H"
-#include "mathematicalConstants.H"
-#include "meshTools.H"
-#include "volFields.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/InjectionModel/InjectionModel.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 using namespace Foam::constant::mathematical;
 

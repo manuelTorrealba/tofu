@@ -46,8 +46,8 @@ SourceFiles
 #ifndef PatchInjection_H
 #define PatchInjection_H
 
-#include "InjectionModel.H"
-#include "patchInjectionBase.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/InjectionModel/InjectionModel.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/PatchInjection/patchInjectionBase.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

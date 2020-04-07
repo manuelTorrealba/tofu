@@ -26,20 +26,20 @@ InClass
 
 \*---------------------------------------------------------------------------*/
 
-#include "decompositionMethod.H"
-#include "globalIndex.H"
-#include "syncTools.H"
-#include "Tuple2.H"
-#include "faceSet.H"
-#include "regionSplit.H"
-#include "localPointRegion.H"
-#include "minData.H"
-#include "FaceCellWave.H"
+#include "parallel/decompose/decompositionMethods/decompositionMethod/decompositionMethod.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
+#include "meshTools/sets/topoSets/faceSet.hpp"
+#include "meshTools/regionSplit/regionSplit.hpp"
+#include "meshTools/regionSplit/localPointRegion.hpp"
+#include "meshTools/regionSplit/minData.hpp"
+#include "meshTools/algorithms/MeshWave/FaceCellWave.hpp"
 
-#include "preserveBafflesConstraint.H"
-#include "preservePatchesConstraint.H"
-#include "preserveFaceZonesConstraint.H"
-#include "singleProcessorFaceSetsConstraint.H"
+#include "parallel/decompose/decompositionMethods/decompositionConstraints/preserveBaffles/preserveBafflesConstraint.hpp"
+#include "parallel/decompose/decompositionMethods/decompositionConstraints/preservePatches/preservePatchesConstraint.hpp"
+#include "parallel/decompose/decompositionMethods/decompositionConstraints/preserveFaceZones/preserveFaceZonesConstraint.hpp"
+#include "parallel/decompose/decompositionMethods/decompositionConstraints/singleProcessorFaceSets/singleProcessorFaceSetsConstraint.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -37,7 +37,7 @@ SourceFiles
 #ifndef smoothDelta_H
 #define smoothDelta_H
 
-#include "LESdelta.H"
+#include "TurbulenceModels/turbulenceModels/LES/LESdeltas/LESdelta/LESdelta.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -300,7 +300,7 @@ inline bool contiguous<LESModels::smoothDelta::deltaData>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "smoothDeltaDeltaDataI.H"
+#include "TurbulenceModels/turbulenceModels/LES/LESdeltas/smoothDelta/smoothDeltaDeltaDataI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

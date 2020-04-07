@@ -38,7 +38,7 @@ SourceFiles
 #ifndef externalPointEdgePoint_H
 #define externalPointEdgePoint_H
 
-#include "pointField.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -263,7 +263,7 @@ inline bool contiguous<externalPointEdgePoint>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "externalPointEdgePointI.H"
+#include "dynamicMesh/pointPatchDist/externalPointEdgePointI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

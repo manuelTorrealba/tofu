@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "centredCFCCellToCellStencilObject.H"
+#include "finiteVolume/fvMesh/extendedStencil/cellToCell/MeshObjects/centredCFCCellToCellStencilObject.hpp"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

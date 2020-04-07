@@ -36,7 +36,7 @@ SourceFiles
 #ifndef backwardDdtScheme_H
 #define backwardDdtScheme_H
 
-#include "ddtScheme.H"
+#include "finiteVolume/finiteVolume/ddtSchemes/ddtScheme/ddtScheme.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

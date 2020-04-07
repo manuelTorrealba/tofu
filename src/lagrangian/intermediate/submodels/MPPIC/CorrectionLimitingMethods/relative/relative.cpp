@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "relative.H"
-#include "addToRunTimeSelectionTable.H"
+#include "lagrangian/intermediate/submodels/MPPIC/CorrectionLimitingMethods/relative/relative.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 namespace Foam
 {

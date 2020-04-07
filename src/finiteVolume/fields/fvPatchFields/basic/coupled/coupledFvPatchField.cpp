@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coupledFvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/basic/coupled/coupledFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

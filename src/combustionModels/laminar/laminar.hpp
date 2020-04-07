@@ -35,7 +35,7 @@ SourceFiles
 #ifndef laminar_H
 #define laminar_H
 
-#include "ChemistryCombustion.H"
+#include "combustionModels/CombustionModelN/ChemistryCombustion/ChemistryCombustion.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

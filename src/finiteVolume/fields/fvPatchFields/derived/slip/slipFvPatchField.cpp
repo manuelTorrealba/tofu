@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "slipFvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/derived/slip/slipFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

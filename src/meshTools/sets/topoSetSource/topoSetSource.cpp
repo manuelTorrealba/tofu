@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "topoSetSource.H"
-#include "polyMesh.H"
-#include "topoSet.H"
+#include "meshTools/sets/topoSetSource/topoSetSource.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "meshTools/sets/topoSets/topoSet.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

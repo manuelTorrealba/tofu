@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "points0MotionSolver.H"
-#include "mapPolyMesh.H"
+#include "dynamicMesh/motionSolvers/displacement/points0/points0MotionSolver.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

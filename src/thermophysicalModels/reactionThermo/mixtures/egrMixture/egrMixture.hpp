@@ -35,7 +35,7 @@ SourceFiles
 #ifndef egrMixture_H
 #define egrMixture_H
 
-#include "basicCombustionMixture.H"
+#include "thermophysicalModels/reactionThermo/mixtures/basicCombustionMixture/basicCombustionMixture.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

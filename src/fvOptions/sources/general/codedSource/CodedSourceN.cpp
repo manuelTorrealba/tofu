@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CodedSource.H"
-#include "fvMesh.H"
-#include "fvMatrices.H"
-#include "dynamicCode.H"
-#include "dynamicCodeContext.H"
+#include "fvOptions/sources/general/codedSource/CodedSource.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/fvMatrices/fvMatrices.hpp"
+#include "OpenFOAM/db/dynamicLibrary/dynamicCode/dynamicCode.hpp"
+#include "OpenFOAM/db/dynamicLibrary/dynamicCode/dynamicCodeContext.hpp"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

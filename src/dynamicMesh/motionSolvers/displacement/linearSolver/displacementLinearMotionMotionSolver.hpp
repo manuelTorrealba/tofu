@@ -57,8 +57,8 @@ SourceFiles
 #ifndef displacementLinearMotionMotionSolver_H
 #define displacementLinearMotionMotionSolver_H
 
-#include "points0MotionSolver.H"
-#include "Function1.H"
+#include "dynamicMesh/motionSolvers/displacement/points0/points0MotionSolver.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

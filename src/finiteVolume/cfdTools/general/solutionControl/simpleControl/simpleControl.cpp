@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "simpleControl.H"
+#include "finiteVolume/cfdTools/general/solutionControl/simpleControl/simpleControl.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

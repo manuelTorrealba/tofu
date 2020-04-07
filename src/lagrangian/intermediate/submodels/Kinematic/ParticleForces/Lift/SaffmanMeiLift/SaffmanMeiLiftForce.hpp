@@ -35,7 +35,7 @@ SourceFiles
 #ifndef SaffmanMeiLiftForce_H
 #define SaffmanMeiLiftForce_H
 
-#include "LiftForce.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/Lift/LiftForce/LiftForce.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

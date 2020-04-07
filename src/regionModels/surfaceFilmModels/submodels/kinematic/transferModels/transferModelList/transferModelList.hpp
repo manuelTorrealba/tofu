@@ -35,9 +35,9 @@ SourceFiles
 #ifndef transferModelList_H
 #define transferModelList_H
 
-#include "PtrList.H"
-#include "transferModel.H"
-#include "filmSubModelBase.H"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/transferModels/transferModel/transferModel.hpp"
+#include "regionModels/surfaceFilmModels/submodels/filmSubModelBase.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

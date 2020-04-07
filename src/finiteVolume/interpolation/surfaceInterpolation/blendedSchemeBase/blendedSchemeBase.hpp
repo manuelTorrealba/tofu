@@ -33,10 +33,10 @@ Description
 #ifndef blendedSchemeBase_H
 #define blendedSchemeBase_H
 
-#include "className.H"
-#include "tmp.H"
-#include "surfaceFieldsFwd.H"
-#include "volFieldsFwd.H"
+#include "OpenFOAM/db/typeInfo/className.hpp"
+#include "OpenFOAM/memory/tmp/tmp.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFieldsFwd.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

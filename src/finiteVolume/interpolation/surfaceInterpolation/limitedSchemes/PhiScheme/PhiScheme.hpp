@@ -45,7 +45,7 @@ SourceFiles
 #ifndef PhiScheme_H
 #define PhiScheme_H
 
-#include "limitedSurfaceInterpolationScheme.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/limitedSurfaceInterpolationScheme/limitedSurfaceInterpolationScheme.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

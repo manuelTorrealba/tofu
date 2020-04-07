@@ -36,12 +36,12 @@ SourceFiles
 #ifndef boundaryMesh_H
 #define boundaryMesh_H
 
-#include "bMesh.H"
-#include "boundaryPatch.H"
-#include "PrimitivePatch.H"
-#include "PtrList.H"
-#include "polyPatchList.H"
-#include "className.H"
+#include "dynamicMesh/boundaryMesh/bMesh.hpp"
+#include "dynamicMesh/boundaryPatch/boundaryPatch.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/PrimitivePatchN/PrimitivePatch.hpp"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatchList.hpp"
+#include "OpenFOAM/db/typeInfo/className.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

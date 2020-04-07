@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "RASModel.H"
+#include "TurbulenceModels/turbulenceModels/RAS/RASModel/RASModel.hpp"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

@@ -82,11 +82,11 @@ SourceFiles
 #ifndef mappedPatchBase_H
 #define mappedPatchBase_H
 
-#include "pointField.H"
-#include "Tuple2.H"
-#include "pointIndexHit.H"
-#include "AMIPatchToPatchInterpolation.H"
-#include "coupleGroupIdentifier.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/pointIndexHit.hpp"
+#include "meshTools/AMIInterpolation/AMIInterpolation/AMIPatchToPatchInterpolation.hpp"
+#include "OpenFOAM/meshes/Identifiers/patch/coupleGroupIdentifier.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -451,7 +451,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "mappedPatchBaseI.H"
+#include "meshTools/mappedPatches/mappedPolyPatch/mappedPatchBaseI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -34,8 +34,8 @@ Description
 #ifndef triSurfaceGeoMesh_H
 #define triSurfaceGeoMesh_H
 
-#include "GeoMesh.H"
-#include "triSurface.H"
+#include "OpenFOAM/meshes/GeoMesh/GeoMesh.hpp"
+#include "triSurface/triSurface/triSurface.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

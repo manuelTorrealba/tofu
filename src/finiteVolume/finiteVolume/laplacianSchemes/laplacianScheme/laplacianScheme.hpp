@@ -35,13 +35,13 @@ SourceFiles
 #ifndef laplacianScheme_H
 #define laplacianScheme_H
 
-#include "tmp.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "linear.H"
-#include "correctedSnGrad.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM/memory/tmp/tmp.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFieldsFwd.hpp"
+#include "thermophysicalModels/specie/equationOfState/linear/linear.hpp"
+#include "finiteVolume/finiteVolume/snGradSchemes/correctedSnGrad/correctedSnGrad.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

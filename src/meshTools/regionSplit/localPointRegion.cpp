@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "localPointRegion.H"
-#include "syncTools.H"
-#include "polyMesh.H"
-#include "mapPolyMesh.H"
-#include "globalIndex.H"
-#include "indirectPrimitivePatch.H"
-#include "dummyTransform.H"
+#include "meshTools/regionSplit/localPointRegion.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/dummyTransform.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

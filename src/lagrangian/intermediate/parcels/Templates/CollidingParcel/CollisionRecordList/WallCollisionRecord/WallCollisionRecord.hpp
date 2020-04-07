@@ -38,7 +38,7 @@ SourceFiles
 #ifndef WallCollisionRecord_H
 #define WallCollisionRecord_H
 
-#include "vector.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -196,7 +196,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "WallCollisionRecordI.H"
+#include "lagrangian/intermediate/parcels/Templates/CollidingParcel/CollisionRecordList/WallCollisionRecord/WallCollisionRecordI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

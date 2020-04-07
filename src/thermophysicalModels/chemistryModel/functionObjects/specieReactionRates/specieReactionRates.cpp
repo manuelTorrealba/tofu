@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "specieReactionRates.H"
-#include "volFields.H"
-#include "fvcVolumeIntegrate.H"
+#include "thermophysicalModels/chemistryModel/functionObjects/specieReactionRates/specieReactionRates.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcVolumeIntegrate.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 
@@ -174,10 +174,10 @@ bool Foam::functionObjects::specieReactionRates<ChemistryModelType>::write()
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
-#include "addToRunTimeSelectionTable.H"
-#include "BasicChemistryModel.H"
-#include "psiReactionThermo.H"
-#include "rhoReactionThermo.H"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "thermophysicalModels/chemistryModel/chemistryModel/BasicChemistryModelN/BasicChemistryModel.hpp"
+#include "thermophysicalModels/reactionThermo/psiReactionThermo/psiReactionThermo.hpp"
+#include "thermophysicalModels/reactionThermo/rhoReactionThermo/rhoReactionThermo.hpp"
 
 namespace Foam
 {

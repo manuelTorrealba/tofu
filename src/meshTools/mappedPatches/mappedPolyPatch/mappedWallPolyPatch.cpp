@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedWallPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "mappedPolyPatch.H"
+#include "meshTools/mappedPatches/mappedPolyPatch/mappedWallPolyPatch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "meshTools/mappedPatches/mappedPolyPatch/mappedPolyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

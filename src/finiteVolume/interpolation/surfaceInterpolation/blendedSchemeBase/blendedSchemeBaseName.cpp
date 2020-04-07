@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "blendedSchemeBase.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/blendedSchemeBase/blendedSchemeBase.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

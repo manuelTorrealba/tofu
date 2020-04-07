@@ -225,7 +225,7 @@ inline bool contiguous<sweepData>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "sweepDataI.H"
+#include "finiteVolume/finiteVolume/fvc/fvcSmooth/sweepDataI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

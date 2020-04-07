@@ -35,8 +35,8 @@ SourceFiles
 #ifndef treeDataPrimitivePatch_H
 #define treeDataPrimitivePatch_H
 
-#include "treeBoundBoxList.H"
-#include "volumeType.H"
+#include "OpenFOAM/meshes/treeBoundBox/treeBoundBoxList.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/volumeType.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

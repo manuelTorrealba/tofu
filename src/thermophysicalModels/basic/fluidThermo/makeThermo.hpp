@@ -32,8 +32,8 @@ Description
 #ifndef makeThermo_H
 #define makeThermo_H
 
-#include "fluidThermo.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalModels/basic/fluidThermo/fluidThermo.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

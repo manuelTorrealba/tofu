@@ -36,8 +36,8 @@ SourceFiles
 #ifndef movingConeTopoFvMesh_H
 #define movingConeTopoFvMesh_H
 
-#include "topoChangerFvMesh.H"
-#include "motionSolver.H"
+#include "topoChangerFvMesh/topoChangerFvMesh/topoChangerFvMesh.hpp"
+#include "dynamicMesh/motionSolvers/motionSolver/motionSolver.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

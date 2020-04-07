@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "distributionContactAngleForce.H"
-#include "addToRunTimeSelectionTable.H"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/force/contactAngleForces/distribution/distributionContactAngleForce.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

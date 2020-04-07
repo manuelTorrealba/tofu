@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "buoyancyEnergy.H"
+#include "fvOptions/sources/derived/buoyancyEnergy/buoyancyEnergy.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

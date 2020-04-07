@@ -105,7 +105,7 @@ SourceFiles
 #ifndef verticalDamping_H
 #define verticalDamping_H
 
-#include "cellSetOption.H"
+#include "fvOptions/cellSetOption/cellSetOption.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

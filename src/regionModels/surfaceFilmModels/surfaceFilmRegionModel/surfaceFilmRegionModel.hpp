@@ -35,8 +35,8 @@ SourceFiles
 #ifndef surfaceFilmRegionModel_H
 #define surfaceFilmRegionModel_H
 
-#include "surfaceFilmModel.H"
-#include "singleLayerRegion.H"
+#include "regionModels/surfaceFilmModels/surfaceFilmModel/surfaceFilmModel.hpp"
+#include "regionModels/regionModel/singleLayerRegion/singleLayerRegion.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -189,7 +189,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "surfaceFilmRegionModelI.H"
+#include "regionModels/surfaceFilmModels/surfaceFilmRegionModel/surfaceFilmRegionModelI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

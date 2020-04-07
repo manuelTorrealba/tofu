@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LESdelta.H"
-#include "calculatedFvPatchFields.H"
+#include "TurbulenceModels/turbulenceModels/LES/LESdeltas/LESdelta/LESdelta.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/calculated/calculatedFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

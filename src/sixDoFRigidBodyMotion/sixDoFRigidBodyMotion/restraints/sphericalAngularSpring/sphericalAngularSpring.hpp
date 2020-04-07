@@ -35,9 +35,9 @@ SourceFiles
 #ifndef sphericalAngularSpring_H
 #define sphericalAngularSpring_H
 
-#include "sixDoFRigidBodyMotionRestraint.H"
-#include "point.H"
-#include "tensor.H"
+#include "sixDoFRigidBodyMotion/sixDoFRigidBodyMotion/restraints/sixDoFRigidBodyMotionRestraint/sixDoFRigidBodyMotionRestraint.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "OpenFOAM/primitives/Tensor/tensor/tensor.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

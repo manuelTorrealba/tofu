@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fieldToCell.H"
-#include "polyMesh.H"
-#include "cellSet.H"
-#include "Time.H"
-#include "IFstream.H"
-#include "fieldDictionary.H"
+#include "meshTools/sets/cellSources/fieldToCell/fieldToCell.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "meshTools/sets/topoSets/cellSet.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "meshTools/sets/cellSources/fieldToCell/fieldDictionary.hpp"
 
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

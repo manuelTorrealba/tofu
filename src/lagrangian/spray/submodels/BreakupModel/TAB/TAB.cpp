@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TAB.H"
+#include "lagrangian/spray/submodels/BreakupModel/TAB/TAB.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -194,12 +194,12 @@ bool Foam::TAB<CloudType>::update
                 {
                     case method1:
                     {
-                        #include "TABSMDCalcMethod1.H"
+#include "lagrangian/spray/submodels/BreakupModel/TAB/TABSMDCalcMethod1.hpp"
                         break;
                     }
                     case method2:
                     {
-                        #include "TABSMDCalcMethod2.H"
+#include "lagrangian/spray/submodels/BreakupModel/TAB/TABSMDCalcMethod2.hpp"
                         break;
                     }
                 }

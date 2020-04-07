@@ -26,7 +26,7 @@ License
 #ifndef fixedJumpAMIFvPatchFieldsFwd_H
 #define fixedJumpAMIFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

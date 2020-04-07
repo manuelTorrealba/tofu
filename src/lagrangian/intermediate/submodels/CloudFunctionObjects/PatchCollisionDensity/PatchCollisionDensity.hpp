@@ -46,7 +46,7 @@ SourceFiles
 #ifndef PatchCollisionDensity_H
 #define PatchCollisionDensity_H
 
-#include "CloudFunctionObject.H"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "skewCorrectionVectors.H"
-#include "volFields.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/skewCorrected/skewCorrectionVectors.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

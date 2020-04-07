@@ -56,7 +56,7 @@ Description
 #ifndef SingleKineticRateDevolatilisation_H
 #define SingleKineticRateDevolatilisation_H
 
-#include "DevolatilisationModel.H"
+#include "lagrangian/intermediate/submodels/ReactingMultiphase/DevolatilisationModel/DevolatilisationModel/DevolatilisationModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

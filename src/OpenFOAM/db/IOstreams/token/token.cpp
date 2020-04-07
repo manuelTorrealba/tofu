@@ -24,6 +24,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "OpenFOAM/db/IOstreams/token/token.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -63,8 +63,8 @@ SourceFiles
 #ifndef outletPhaseMeanVelocityFvPatchVectorField_H
 #define outletPhaseMeanVelocityFvPatchVectorField_H
 
-#include "mixedFvPatchFields.H"
-#include "Function1.H"
+#include "finiteVolume/fields/fvPatchFields/basic/mixed/mixedFvPatchFields.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

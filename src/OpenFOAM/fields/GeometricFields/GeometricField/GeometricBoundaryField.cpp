@@ -27,6 +27,7 @@ License
 #include "OpenFOAM/meshes/ProcessorTopology/commSchedule.hpp"
 #include "OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.hpp"
 #include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.hpp"
+#include "OpenFOAM/fields/GeometricFields/GeometricField/GeometricField.hpp"
 
 template<class Type, template<class> class PatchField, class GeoMesh>
 void Foam::GeometricField<Type, PatchField, GeoMesh>::Boundary::

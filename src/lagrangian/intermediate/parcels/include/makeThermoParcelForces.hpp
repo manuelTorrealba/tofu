@@ -28,18 +28,18 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SphereDragForce.H"
-#include "NonSphereDragForce.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/Drag/SphereDrag/SphereDragForce.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/Drag/NonSphereDrag/NonSphereDragForce.hpp"
 
-#include "SaffmanMeiLiftForce.H"
-#include "TomiyamaLiftForce.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/Lift/SaffmanMeiLift/SaffmanMeiLiftForce.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/Lift/TomiyamaLift/TomiyamaLiftForce.hpp"
 
-#include "GravityForce.H"
-#include "NonInertialFrameForce.H"
-#include "ParamagneticForce.H"
-#include "PressureGradientForce.H"
-#include "SRFForce.H"
-#include "VirtualMassForce.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/Gravity/GravityForce.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/NonInertialFrame/NonInertialFrameForce.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/Paramagnetic/ParamagneticForce.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/PressureGradient/PressureGradientForce.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/SRF/SRFForce.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/VirtualMass/VirtualMassForce.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

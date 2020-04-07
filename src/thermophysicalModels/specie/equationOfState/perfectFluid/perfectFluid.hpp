@@ -36,7 +36,7 @@ SourceFiles
 #ifndef perfectFluid_H
 #define perfectFluid_H
 
-#include "autoPtr.H"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -210,7 +210,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "perfectFluidI.H"
+#include "thermophysicalModels/specie/equationOfState/perfectFluid/perfectFluidI.hpp"
 
 #ifdef NoRepository
     #include "perfectFluid.C"

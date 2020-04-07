@@ -36,7 +36,7 @@ SourceFiles
 #ifndef PstreamGlobals_H
 #define PstreamGlobals_H
 
-#include "DynamicList.H"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
 
 #include <mpi.h>
 

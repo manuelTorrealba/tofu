@@ -62,8 +62,8 @@ SourceFiles
 #ifndef DeardorffDiffStress_H
 #define DeardorffDiffStress_H
 
-#include "LESModel.H"
-#include "ReynoldsStress.H"
+#include "TurbulenceModels/turbulenceModels/LES/LESModel/LESModel.hpp"
+#include "TurbulenceModels/turbulenceModels/ReynoldsStress/ReynoldsStress.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

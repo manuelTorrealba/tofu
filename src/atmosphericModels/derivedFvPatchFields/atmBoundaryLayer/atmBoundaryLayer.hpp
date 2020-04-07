@@ -112,7 +112,7 @@ SourceFiles
 #ifndef atmBoundaryLayer_H
 #define atmBoundaryLayer_H
 
-#include "fvPatchFields.H"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

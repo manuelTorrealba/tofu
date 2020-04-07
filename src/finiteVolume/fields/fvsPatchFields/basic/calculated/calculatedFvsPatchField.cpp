@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "calculatedFvsPatchField.H"
-#include "fvPatchFieldMapper.H"
+#include "finiteVolume/fields/fvsPatchFields/basic/calculated/calculatedFvsPatchField.hpp"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

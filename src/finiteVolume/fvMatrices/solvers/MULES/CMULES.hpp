@@ -46,10 +46,10 @@ SourceFiles
 #ifndef CMULES_H
 #define CMULES_H
 
-#include "MULES.H"
-#include "EulerDdtScheme.H"
-#include "localEulerDdtScheme.H"
-#include "gaussConvectionScheme.H"
+#include "finiteVolume/fvMatrices/solvers/MULES/MULES.hpp"
+#include "finiteVolume/finiteVolume/ddtSchemes/EulerDdtScheme/EulerDdtScheme.hpp"
+#include "finiteVolume/finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.hpp"
+#include "finiteVolume/finiteVolume/convectionSchemes/gaussConvectionScheme/gaussConvectionScheme.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

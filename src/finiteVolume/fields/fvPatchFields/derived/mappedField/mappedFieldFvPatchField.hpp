@@ -70,10 +70,10 @@ SourceFiles
 #ifndef mappedFieldFvPatchField_H
 #define mappedFieldFvPatchField_H
 
-#include "mappedPatchBase.H"
-#include "mappedPatchFieldBase.H"
-#include "fixedValueFvPatchFields.H"
-#include "interpolation.H"
+#include "meshTools/mappedPatches/mappedPolyPatch/mappedPatchBase.hpp"
+#include "finiteVolume/fields/fvPatchFields/derived/mappedField/mappedPatchFieldBase.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.hpp"
+#include "finiteVolume/interpolation/interpolation/interpolation/interpolation.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

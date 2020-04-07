@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phasePropertiesList.H"
+#include "lagrangian/intermediate/phaseProperties/phasePropertiesList/phasePropertiesList.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

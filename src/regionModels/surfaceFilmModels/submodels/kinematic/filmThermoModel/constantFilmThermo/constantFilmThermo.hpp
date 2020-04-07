@@ -35,8 +35,8 @@ SourceFiles
 #ifndef constantFilmThermo_H
 #define constantFilmThermo_H
 
-#include "filmThermoModel.H"
-#include "dimensionSet.H"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/filmThermoModel/filmThermoModel/filmThermoModel.hpp"
+#include "OpenFOAM/dimensionSet/dimensionSet.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

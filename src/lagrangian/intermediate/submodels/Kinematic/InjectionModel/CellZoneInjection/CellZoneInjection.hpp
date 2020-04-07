@@ -45,8 +45,8 @@ SourceFiles
 #ifndef CellZoneInjection_H
 #define CellZoneInjection_H
 
-#include "InjectionModel.H"
-#include "distributionModel.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/InjectionModel/InjectionModel.hpp"
+#include "lagrangian/distributionModels/distributionModel/distributionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

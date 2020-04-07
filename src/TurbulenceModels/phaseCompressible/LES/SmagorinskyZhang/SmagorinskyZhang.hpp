@@ -53,8 +53,8 @@ SourceFiles
 #ifndef SmagorinskyZhang_H
 #define SmagorinskyZhang_H
 
-#include "LESModel.H"
-#include "eddyViscosity.H"
+#include "TurbulenceModels/turbulenceModels/LES/LESModel/LESModel.hpp"
+#include "TurbulenceModels/turbulenceModels/eddyViscosity/eddyViscosity.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

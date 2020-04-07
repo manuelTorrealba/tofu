@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FSD.H"
-#include "addToRunTimeSelectionTable.H"
-#include "LESModel.H"
-#include "fvcGrad.H"
-#include "fvcDiv.H"
+#include "combustionModels/FSD/FSD.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "TurbulenceModels/turbulenceModels/LES/LESModel/LESModel.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcGrad.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcDiv.hpp"
 
 namespace Foam
 {

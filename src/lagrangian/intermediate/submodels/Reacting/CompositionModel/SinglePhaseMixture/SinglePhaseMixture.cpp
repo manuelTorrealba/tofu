@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SinglePhaseMixture.H"
+#include "lagrangian/intermediate/submodels/Reacting/CompositionModel/SinglePhaseMixture/SinglePhaseMixture.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

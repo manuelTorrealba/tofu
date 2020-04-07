@@ -36,8 +36,8 @@ SourceFiles
 #ifndef ParticleForceList_H
 #define ParticleForceList_H
 
-#include "ParticleForce.H"
-#include "forceSuSp.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/forceSuSp/forceSuSp.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -161,7 +161,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ParticleForceListI.H"
+#include "lagrangian/intermediate/submodels/ForceTypes/ParticleForceList/ParticleForceListI.hpp"
 
 #ifdef NoRepository
     #include "ParticleForceList.C"

@@ -26,12 +26,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "layerAdditionRemoval.H"
-#include "polyMesh.H"
-#include "primitiveMesh.H"
-#include "polyTopoChange.H"
-#include "oppositeFace.H"
-#include "polyTopoChanger.H"
+#include "dynamicMesh/layerAdditionRemoval/layerAdditionRemoval.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChange.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/oppositeFace.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChanger/polyTopoChanger.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

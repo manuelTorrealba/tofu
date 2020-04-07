@@ -32,13 +32,13 @@ Description
 #ifndef interpolation_H
 #define interpolation_H
 
-#include "faceList.H"
-#include "volFieldsFwd.H"
-#include "pointFields.H"
-#include "typeInfo.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
-#include "tetIndices.H"
+#include "OpenFOAM/meshes/meshShapes/face/faceList.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFields.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMeshTetDecomposition/tetIndices.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

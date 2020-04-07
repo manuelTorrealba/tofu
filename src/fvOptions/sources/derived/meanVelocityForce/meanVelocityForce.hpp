@@ -47,12 +47,12 @@ SourceFiles
 #ifndef meanVelocityForce_H
 #define meanVelocityForce_H
 
-#include "autoPtr.H"
-#include "topoSetSource.H"
-#include "cellSet.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "cellSetOption.H"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "meshTools/sets/topoSetSource/topoSetSource.hpp"
+#include "meshTools/sets/topoSets/cellSet.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "fvOptions/cellSetOption/cellSetOption.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

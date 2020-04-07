@@ -64,7 +64,7 @@ SourceFiles
 #ifndef fixedJumpAMIFvPatchField_H
 #define fixedJumpAMIFvPatchField_H
 
-#include "jumpCyclicAMIFvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/constraint/jumpCyclicAMI/jumpCyclicAMIFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -44,8 +44,8 @@ SourceFiles
 #ifndef fvsPatchField_H
 #define fvsPatchField_H
 
-#include "fvPatch.H"
-#include "DimensionedField.H"
+#include "finiteVolume/fvMesh/fvPatches/fvPatch/fvPatch.hpp"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -386,7 +386,7 @@ public:
 
 #ifdef NoRepository
     #include "fvsPatchField.C"
-    #include "calculatedFvsPatchField.H"
+#include "finiteVolume/fields/fvsPatchFields/basic/calculated/calculatedFvsPatchField.hpp"
 #endif
 
 

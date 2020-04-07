@@ -23,16 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "hexCellLooper.H"
-#include "cellFeatures.H"
-#include "polyMesh.H"
-#include "cellModeller.H"
-#include "plane.H"
-#include "ListOps.H"
-#include "meshTools.H"
-#include "OFstream.H"
+#include "dynamicMesh/meshCut/cellLooper/hexCellLooper.hpp"
+#include "meshTools/cellFeatures/cellFeatures.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellModeller/cellModeller.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/plane/plane.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
 
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellLimitedGrad.H"
-#include "gaussGrad.H"
+#include "finiteVolume/finiteVolume/gradSchemes/limitedGradSchemes/cellLimitedGrad/cellLimitedGrad.hpp"
+#include "finiteVolume/finiteVolume/gradSchemes/gaussGrad/gaussGrad.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

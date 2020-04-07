@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thresholdCellFaces.H"
+#include "sampling/sampledSurface/thresholdCellFaces/thresholdCellFaces.hpp"
 
-#include "polyMesh.H"
-#include "DynamicList.H"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
 
-#include "emptyPolyPatch.H"
-#include "processorPolyPatch.H"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.hpp"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

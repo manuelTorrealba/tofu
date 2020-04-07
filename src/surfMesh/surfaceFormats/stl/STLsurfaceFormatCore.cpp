@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "STLsurfaceFormatCore.H"
+#include "surfMesh/surfaceFormats/stl/STLsurfaceFormatCore.hpp"
 #include "gzstream.h"
-#include "OSspecific.H"
-#include "Map.H"
-#include "IFstream.H"
-#include "Ostream.H"
+#include "OpenFOAM/include/OSspecific.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Ostream.hpp"
 
 #undef DEBUG_STLBINARY
 

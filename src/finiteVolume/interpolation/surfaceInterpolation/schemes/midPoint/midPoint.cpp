@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMesh.H"
-#include "midPoint.H"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/midPoint/midPoint.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -39,11 +39,11 @@ SourceFiles
 #ifndef sixDoFRigidBodyMotionState_H
 #define sixDoFRigidBodyMotionState_H
 
-#include "vector.H"
-#include "point.H"
-#include "diagTensor.H"
-#include "tensor.H"
-#include "dictionary.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "OpenFOAM/primitives/DiagTensor/diagTensor/diagTensor.hpp"
+#include "OpenFOAM/primitives/Tensor/tensor/tensor.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -172,7 +172,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "sixDoFRigidBodyMotionStateI.H"
+#include "sixDoFRigidBodyMotion/sixDoFRigidBodyMotion/sixDoFRigidBodyMotionStateI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

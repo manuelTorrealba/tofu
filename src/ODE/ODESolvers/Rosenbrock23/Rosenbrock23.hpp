@@ -44,8 +44,8 @@ SourceFiles
 #ifndef Rosenbrock23_H
 #define Rosenbrock23_H
 
-#include "ODESolver.H"
-#include "adaptiveSolver.H"
+#include "ODE/ODESolvers/ODESolver/ODESolver.hpp"
+#include "ODE/ODESolvers/adaptiveSolver/adaptiveSolver.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

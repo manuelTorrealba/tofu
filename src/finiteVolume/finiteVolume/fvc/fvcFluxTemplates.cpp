@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvcFlux.H"
-#include "fvMesh.H"
-#include "convectionScheme.H"
+#include "finiteVolume/finiteVolume/fvc/fvcFlux.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/finiteVolume/convectionSchemes/convectionScheme/convectionScheme.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

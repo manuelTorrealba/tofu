@@ -81,7 +81,7 @@ See also
 #ifndef logPolynomialTransport_H
 #define logPolynomialTransport_H
 
-#include "Polynomial.H"
+#include "OpenFOAM/primitives/functions/Polynomial/Polynomial.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -233,7 +233,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "logPolynomialTransportI.H"
+#include "thermophysicalModels/specie/transport/logPolynomial/logPolynomialTransportI.hpp"
 
 #ifdef NoRepository
     #include "logPolynomialTransport.C"

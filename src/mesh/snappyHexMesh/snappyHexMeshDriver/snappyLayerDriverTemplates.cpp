@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "snappyLayerDriver.H"
-#include "syncTools.H"
+#include "mesh/snappyHexMesh/snappyHexMeshDriver/snappyLayerDriver.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

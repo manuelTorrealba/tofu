@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ThermoLookupTableInjection.H"
-#include "scalarIOList.H"
+#include "lagrangian/intermediate/submodels/Thermodynamic/InjectionModel/ThermoLookupTableInjection/ThermoLookupTableInjection.hpp"
+#include "OpenFOAM/primitives/Scalar/lists/scalarIOList.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

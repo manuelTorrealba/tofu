@@ -51,10 +51,10 @@ SourceFiles
 #ifndef cellSetOption_H
 #define cellSetOption_H
 
-#include "fvOption.H"
-#include "cellSet.H"
-#include "fvMesh.H"
-#include "Time.H"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOption.hpp"
+#include "meshTools/sets/topoSets/cellSet.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -202,7 +202,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cellSetOptionI.H"
+#include "fvOptions/cellSetOption/cellSetOptionI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

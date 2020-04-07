@@ -34,7 +34,7 @@ SourceFiles
 #ifndef specieElement_H
 #define specieElement_H
 
-#include "word.H"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -112,7 +112,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "specieElementI.H"
+#include "thermophysicalModels/specie/specieElement/specieElementI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

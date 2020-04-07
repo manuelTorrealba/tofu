@@ -44,7 +44,7 @@ SourceFiles
 #ifndef isotropic_H
 #define isotropic_H
 
-#include "TimeScaleModel.H"
+#include "lagrangian/intermediate/submodels/MPPIC/TimeScaleModels/TimeScaleModel/TimeScaleModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -7,6 +7,12 @@ Pstream - check
 fileFormats - x
 surfMesh - x
 
+Fix bugs:
+fields/GeometricFields/GeometricField/GeometricFieldReuseFunctions.hpp:
+                    //!polyPatch::constraintType(gbf[patchi].patch().type()) &&
+                    
+curveTools.cpp
+    while (++ip1n < Curve.size()); // && distance(o, Curve[ip1n]) < l);
 
 
 forAll not found:
@@ -33,8 +39,8 @@ PtrList:
 
 PStream:
 #include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.cpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.cpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.hpp"
 #include "OpenFOAM/db/IOstreams/StringStreams/IStringStream.hpp"
 #include "OpenFOAM/db/IOstreams/Pstreams/UPstream.hpp"
 #include "OpenFOAM/db/IOstreams/Pstreams/UIPstream.hpp"
@@ -52,6 +58,9 @@ findIndex not found:
 
 POut not found, SOut not found:
 #include "OpenFOAM/global/argList/argList.hpp"
+
+Snull not found:
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
 
 mapDistribute:
 #include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.hpp"

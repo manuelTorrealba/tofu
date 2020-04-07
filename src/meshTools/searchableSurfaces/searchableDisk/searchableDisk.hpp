@@ -36,8 +36,8 @@ SourceFiles
 #ifndef searchableDisk_H
 #define searchableDisk_H
 
-#include "treeBoundBox.H"
-#include "searchableSurface.H"
+#include "OpenFOAM/meshes/treeBoundBox/treeBoundBox.hpp"
+#include "meshTools/searchableSurfaces/searchableSurface/searchableSurface.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

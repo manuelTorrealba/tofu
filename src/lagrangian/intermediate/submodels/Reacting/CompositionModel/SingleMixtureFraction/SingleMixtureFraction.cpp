@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SingleMixtureFraction.H"
+#include "lagrangian/intermediate/submodels/Reacting/CompositionModel/SingleMixtureFraction/SingleMixtureFraction.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fixedProfileFvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/derived/fixedProfile/fixedProfileFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

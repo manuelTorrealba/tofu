@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "flowType.H"
-#include "fvcGrad.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/field/flowType/flowType.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcGrad.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -50,9 +50,9 @@ SourceFiles
 #ifndef crankConRod_H
 #define crankConRod_H
 
-#include "engineTime.H"
-#include "dictionary.H"
-#include "dimensionedScalar.H"
+#include "engine/engineTime/engineTime/engineTime.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

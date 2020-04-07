@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableBox.H"
-#include "addToRunTimeSelectionTable.H"
-#include "SortableList.H"
+#include "meshTools/searchableSurfaces/searchableBox/searchableBox.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/containers/Lists/SortableList/SortableList.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

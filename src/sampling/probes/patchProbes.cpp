@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchProbes.H"
-#include "volFields.H"
-#include "IOmanip.H"
-#include "mappedPatchBase.H"
-#include "treeBoundBox.H"
-#include "treeDataFace.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampling/probes/patchProbes.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOmanip.hpp"
+#include "meshTools/mappedPatches/mappedPolyPatch/mappedPatchBase.hpp"
+#include "OpenFOAM/meshes/treeBoundBox/treeBoundBox.hpp"
+#include "meshTools/indexedOctree/treeDataFace.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

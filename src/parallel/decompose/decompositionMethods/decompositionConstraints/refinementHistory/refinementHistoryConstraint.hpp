@@ -36,7 +36,7 @@ SourceFiles
 #ifndef refinementHistoryConstraint_H
 #define refinementHistoryConstraint_H
 
-#include "decompositionConstraint.H"
+#include "parallel/decompose/decompositionMethods/decompositionConstraints/decompositionConstraint/decompositionConstraint.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

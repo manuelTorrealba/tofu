@@ -35,8 +35,8 @@ SourceFiles
 #ifndef chemistrySolver_H
 #define chemistrySolver_H
 
-#include "IOdictionary.H"
-#include "scalarField.H"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

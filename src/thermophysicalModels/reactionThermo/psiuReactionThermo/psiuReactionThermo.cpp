@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "psiuReactionThermo.H"
-#include "fvMesh.H"
-#include "zeroGradientFvPatchFields.H"
-#include "fixedUnburntEnthalpyFvPatchScalarField.H"
-#include "gradientUnburntEnthalpyFvPatchScalarField.H"
-#include "mixedUnburntEnthalpyFvPatchScalarField.H"
+#include "thermophysicalModels/reactionThermo/psiuReactionThermo/psiuReactionThermo.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.hpp"
+#include "thermophysicalModels/reactionThermo/derivedFvPatchFields/fixedUnburntEnthalpy/fixedUnburntEnthalpyFvPatchScalarField.hpp"
+#include "thermophysicalModels/reactionThermo/derivedFvPatchFields/gradientUnburntEnthalpy/gradientUnburntEnthalpyFvPatchScalarField.hpp"
+#include "thermophysicalModels/reactionThermo/derivedFvPatchFields/mixedUnburntEnthalpy/mixedUnburntEnthalpyFvPatchScalarField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

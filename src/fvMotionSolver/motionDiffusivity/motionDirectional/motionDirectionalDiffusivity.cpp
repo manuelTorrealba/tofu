@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "motionDirectionalDiffusivity.H"
-#include "surfaceInterpolate.H"
-#include "zeroGradientFvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
-#include "velocityMotionSolver.H"
+#include "fvMotionSolver/motionDiffusivity/motionDirectional/motionDirectionalDiffusivity.hpp"
+#include "functionObjects/field/surfaceInterpolate/surfaceInterpolate.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "dynamicMesh/motionSolvers/velocity/velocityMotionSolver.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

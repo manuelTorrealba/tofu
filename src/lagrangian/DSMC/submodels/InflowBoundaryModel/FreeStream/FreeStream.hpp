@@ -35,8 +35,8 @@ Description
 #ifndef FreeStream_H
 #define FreeStream_H
 
-#include "InflowBoundaryModel.H"
-#include "polyMesh.H"
+#include "lagrangian/DSMC/submodels/InflowBoundaryModel/InflowBoundaryModel/InflowBoundaryModel.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

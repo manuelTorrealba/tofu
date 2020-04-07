@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "multiSolidBodyMotionSolver.H"
-#include "addToRunTimeSelectionTable.H"
-#include "transformField.H"
-#include "cellZoneMesh.H"
-#include "boolList.H"
-#include "syncTools.H"
+#include "dynamicMesh/motionSolvers/displacement/solidBody/multiSolidBodyMotionSolver.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/fields/Fields/transformField/transformField.hpp"
+#include "OpenFOAM/meshes/polyMesh/zones/ZoneMesh/cellZoneMesh.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -51,7 +51,7 @@ SourceFiles
 #ifndef fixedValueFvPatchField_H
 #define fixedValueFvPatchField_H
 
-#include "fvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

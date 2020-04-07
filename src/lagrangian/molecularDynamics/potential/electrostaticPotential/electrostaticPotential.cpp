@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "electrostaticPotential.H"
-#include "mathematicalConstants.H"
+#include "lagrangian/molecularDynamics/potential/electrostaticPotential/electrostaticPotential.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -41,11 +41,11 @@ SourceFiles
 #ifndef meshToMesh0_H
 #define meshToMesh0_H
 
-#include "fvMesh.H"
-#include "HashTable.H"
-#include "fvPatchMapper.H"
-#include "scalarList.H"
-#include "className.H"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
+#include "finiteVolume/fvMesh/fvMeshMapper/fvPatchMapper.hpp"
+#include "OpenFOAM/primitives/Scalar/lists/scalarList.hpp"
+#include "OpenFOAM/db/typeInfo/className.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

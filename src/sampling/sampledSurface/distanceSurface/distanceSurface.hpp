@@ -37,10 +37,10 @@ SourceFiles
 #ifndef distanceSurface_H
 #define distanceSurface_H
 
-#include "sampledSurface.H"
-#include "searchableSurface.H"
-#include "isoSurfaceCell.H"
-#include "isoSurface.H"
+#include "sampling/sampledSurface/sampledSurface/sampledSurface.hpp"
+#include "meshTools/searchableSurfaces/searchableSurface/searchableSurface.hpp"
+#include "sampling/sampledSurface/isoSurface/isoSurfaceCell.hpp"
+#include "sampling/sampledSurface/isoSurface/isoSurface.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

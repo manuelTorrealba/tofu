@@ -36,7 +36,7 @@ Description
 #ifndef MixedDiffuseSpecular_H
 #define MixedDiffuseSpecular_H
 
-#include "WallInteractionModel.H"
+#include "lagrangian/DSMC/submodels/WallInteractionModel/WallInteractionModel/WallInteractionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

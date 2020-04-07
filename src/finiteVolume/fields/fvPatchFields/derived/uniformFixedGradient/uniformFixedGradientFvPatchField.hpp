@@ -59,8 +59,8 @@ SourceFiles
 #ifndef uniformFixedGradientFvPatchField_H
 #define uniformFixedGradientFvPatchField_H
 
-#include "fixedGradientFvPatchFields.H"
-#include "Function1.H"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedGradient/fixedGradientFvPatchFields.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

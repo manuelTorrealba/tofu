@@ -35,8 +35,8 @@ SourceFiles
 #ifndef fieldToCell_H
 #define fieldToCell_H
 
-#include "topoSetSource.H"
-#include "scalarField.H"
+#include "meshTools/sets/topoSetSource/topoSetSource.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

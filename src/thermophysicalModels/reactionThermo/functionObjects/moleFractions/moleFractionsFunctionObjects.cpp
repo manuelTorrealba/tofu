@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "moleFractionsFunctionObjects.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalModels/reactionThermo/functionObjects/moleFractions/moleFractionsFunctionObjects.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

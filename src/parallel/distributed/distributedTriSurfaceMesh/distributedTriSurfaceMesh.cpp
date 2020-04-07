@@ -23,21 +23,21 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "distributedTriSurfaceMesh.H"
-#include "mapDistribute.H"
-#include "Random.H"
-#include "addToRunTimeSelectionTable.H"
-#include "triangleFuncs.H"
-#include "matchPoints.H"
-#include "globalIndex.H"
-#include "Time.H"
+#include "parallel/distributed/distributedTriSurfaceMesh/distributedTriSurfaceMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.hpp"
+#include "OpenFOAM/primitives/Random/Random.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "meshTools/triSurface/triangleFuncs/triangleFuncs.hpp"
+#include "OpenFOAM/meshes/meshTools/matchPoints.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
 
-#include "IFstream.H"
-#include "decompositionMethod.H"
-#include "geomDecomp.H"
-#include "vectorList.H"
-#include "PackedBoolList.H"
-#include "PatchTools.H"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "parallel/decompose/decompositionMethods/decompositionMethod/decompositionMethod.hpp"
+#include "parallel/decompose/decompositionMethods/geomDecomp/geomDecomp.hpp"
+#include "OpenFOAM/primitives/Vector/lists/vectorList.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/PatchTools/PatchTools.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

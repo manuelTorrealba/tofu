@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoBreakup.H"
+#include "lagrangian/spray/submodels/BreakupModel/NoBreakup/NoBreakup.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

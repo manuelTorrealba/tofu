@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ParticleErosion.H"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/ParticleErosion/ParticleErosion.hpp"
 
 // * * * * * * * * * * * * * Protectd Member Functions * * * * * * * * * * * //
 

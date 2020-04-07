@@ -36,8 +36,8 @@ SourceFiles
 #ifndef genericPointPatchField_H
 #define genericPointPatchField_H
 
-#include "calculatedPointPatchField.H"
-#include "HashPtrTable.H"
+#include "OpenFOAM/fields/pointPatchFields/basic/calculated/calculatedPointPatchField.hpp"
+#include "OpenFOAM/containers/HashTables/HashPtrTable/HashPtrTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

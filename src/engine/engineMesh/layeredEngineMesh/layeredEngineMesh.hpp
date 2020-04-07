@@ -35,8 +35,8 @@ SourceFiles
 #ifndef layeredEngineMesh_H
 #define layeredEngineMesh_H
 
-#include "engineMesh.H"
-#include "dimensionedScalar.H"
+#include "engine/engineMesh/engineMesh/engineMesh.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

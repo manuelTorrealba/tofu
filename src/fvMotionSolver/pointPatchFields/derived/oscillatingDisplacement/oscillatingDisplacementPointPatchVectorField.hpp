@@ -35,7 +35,7 @@ SourceFiles
 #ifndef oscillatingDisplacementPointPatchVectorField_H
 #define oscillatingDisplacementPointPatchVectorField_H
 
-#include "fixedValuePointPatchField.H"
+#include "OpenFOAM/fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CECCellToFaceStencil.H"
-#include "CECCellToCellStencil.H"
+#include "finiteVolume/fvMesh/extendedStencil/cellToFace/globalIndexStencils/CECCellToFaceStencil.hpp"
+#include "finiteVolume/fvMesh/extendedStencil/cellToCell/globalIndexStencils/CECCellToCellStencil.hpp"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

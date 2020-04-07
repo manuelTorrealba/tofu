@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorCyclicFvsPatchField.H"
+#include "finiteVolume/fields/fvsPatchFields/constraint/processorCyclic/processorCyclicFvsPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * //
 

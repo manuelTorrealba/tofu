@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshReader.H"
-#include "Time.H"
-#include "polyMesh.H"
-#include "faceSet.H"
-#include "emptyPolyPatch.H"
-#include "cellModeller.H"
-#include "demandDrivenData.H"
+#include "conversion/meshReader/meshReader.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "meshTools/sets/topoSets/faceSet.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellModeller/cellModeller.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

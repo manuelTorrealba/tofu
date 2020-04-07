@@ -26,7 +26,7 @@ License
 #ifndef nonuniformTransformCyclicFvPatchFieldsFwd_H
 #define nonuniformTransformCyclicFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

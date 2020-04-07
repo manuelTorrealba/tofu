@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointPatchDist.H"
-#include "externalPointEdgePoint.H"
-#include "pointMesh.H"
-#include "PointEdgeWave.H"
+#include "dynamicMesh/pointPatchDist/pointPatchDist.hpp"
+#include "dynamicMesh/pointPatchDist/externalPointEdgePoint.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointMesh.hpp"
+#include "meshTools/algorithms/PointEdgeWave/PointEdgeWave.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

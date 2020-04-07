@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MPPICCloud.H"
-#include "PackingModel.H"
-#include "ParticleStressModel.H"
-#include "DampingModel.H"
-#include "IsotropyModel.H"
-#include "TimeScaleModel.H"
+#include "lagrangian/intermediate/clouds/Templates/MPPICCloud/MPPICCloud.hpp"
+#include "lagrangian/intermediate/submodels/MPPIC/PackingModels/PackingModel/PackingModel.hpp"
+#include "lagrangian/intermediate/submodels/MPPIC/ParticleStressModels/ParticleStressModel/ParticleStressModel.hpp"
+#include "lagrangian/intermediate/submodels/MPPIC/DampingModels/DampingModel/DampingModel.hpp"
+#include "lagrangian/intermediate/submodels/MPPIC/IsotropyModels/IsotropyModel/IsotropyModel.hpp"
+#include "lagrangian/intermediate/submodels/MPPIC/TimeScaleModels/TimeScaleModel/TimeScaleModel.hpp"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

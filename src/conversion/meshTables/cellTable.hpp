@@ -60,11 +60,11 @@ SourceFiles
 #ifndef cellTable_H
 #define cellTable_H
 
-#include "polyMesh.H"
-#include "Map.H"
-#include "dictionary.H"
-#include "labelList.H"
-#include "wordReList.H"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/primitives/strings/lists/wordReList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

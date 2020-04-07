@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "logPolynomialTransport.H"
-#include "IOstreams.H"
+#include "thermophysicalModels/specie/transport/logPolynomial/logPolynomialTransport.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

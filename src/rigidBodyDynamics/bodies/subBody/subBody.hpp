@@ -37,7 +37,7 @@ SourceFiles
 #ifndef RBD_subBody_H
 #define RBD_subBody_H
 
-#include "rigidBody.H"
+#include "rigidBodyDynamics/bodies/rigidBody/rigidBody.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -115,7 +115,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "subBodyI.H"
+#include "rigidBodyDynamics/bodies/subBody/subBodyI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

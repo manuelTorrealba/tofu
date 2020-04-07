@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "InflationInjection.H"
-#include "mathematicalConstants.H"
-#include "PackedBoolList.H"
-#include "cellSet.H"
-#include "ListListOps.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/InflationInjection/InflationInjection.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
+#include "meshTools/sets/topoSets/cellSet.hpp"
+#include "OpenFOAM/containers/Lists/ListListOps/ListListOps.hpp"
 
 using namespace Foam::constant::mathematical;
 

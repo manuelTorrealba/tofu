@@ -53,7 +53,7 @@ SourceFiles
 #ifndef filmPyrolysisTemperatureCoupledFvPatchScalarField_H
 #define filmPyrolysisTemperatureCoupledFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

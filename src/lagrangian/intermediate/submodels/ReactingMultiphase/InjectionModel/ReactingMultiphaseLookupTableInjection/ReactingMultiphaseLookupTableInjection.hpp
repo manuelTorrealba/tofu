@@ -56,8 +56,8 @@ SourceFiles
 #ifndef ReactingMultiphaseLookupTableInjection_H
 #define ReactingMultiphaseLookupTableInjection_H
 
-#include "InjectionModel.H"
-#include "reactingMultiphaseParcelInjectionDataIOList.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/InjectionModel/InjectionModel.hpp"
+#include "lagrangian/intermediate/submodels/ReactingMultiphase/InjectionModel/ReactingMultiphaseLookupTableInjection/reactingMultiphaseParcelInjectionDataIOList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

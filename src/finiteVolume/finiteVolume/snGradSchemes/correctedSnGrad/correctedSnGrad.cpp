@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "correctedSnGrad.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "linear.H"
-#include "fvcGrad.H"
-#include "gaussGrad.H"
+#include "finiteVolume/finiteVolume/snGradSchemes/correctedSnGrad/correctedSnGrad.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
+#include "thermophysicalModels/specie/equationOfState/linear/linear.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcGrad.hpp"
+#include "finiteVolume/finiteVolume/gradSchemes/gaussGrad/gaussGrad.hpp"
 
 // * * * * * * * * * * * * * * * * Destructor  * * * * * * * * * * * * * * * //
 

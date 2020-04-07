@@ -38,8 +38,8 @@ SourceFiles
 #ifndef polyLine_H
 #define polyLine_H
 
-#include "pointField.H"
-#include "scalarList.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/primitives/Scalar/lists/scalarList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

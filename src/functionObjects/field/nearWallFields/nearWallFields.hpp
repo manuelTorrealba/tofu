@@ -76,10 +76,10 @@ SourceFiles
 #ifndef functionObjects_nearWallFields_H
 #define functionObjects_nearWallFields_H
 
-#include "fvMeshFunctionObject.H"
-#include "volFields.H"
-#include "Tuple2.H"
-#include "interpolationCellPoint.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
+#include "finiteVolume/interpolation/interpolation/interpolationCellPoint/interpolationCellPoint.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

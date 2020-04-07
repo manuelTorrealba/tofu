@@ -35,8 +35,8 @@ SourceFiles
 #ifndef wedgeFvsPatchField_H
 #define wedgeFvsPatchField_H
 
-#include "fvsPatchField.H"
-#include "wedgeFvPatch.H"
+#include "finiteVolume/fields/fvsPatchFields/fvsPatchField/fvsPatchField.hpp"
+#include "finiteVolume/fvMesh/fvPatches/constraint/wedge/wedgeFvPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

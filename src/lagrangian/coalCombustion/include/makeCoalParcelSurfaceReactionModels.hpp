@@ -28,12 +28,12 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoSurfaceReaction.H"
-#include "COxidationDiffusionLimitedRate.H"
-#include "COxidationIntrinsicRate.H"
-#include "COxidationKineticDiffusionLimitedRate.H"
-#include "COxidationHurtMitchell.H"
-#include "COxidationMurphyShaddix.H"
+#include "lagrangian/intermediate/submodels/ReactingMultiphase/SurfaceReactionModel/NoSurfaceReaction/NoSurfaceReaction.hpp"
+#include "lagrangian/coalCombustion/submodels/surfaceReactionModel/COxidationDiffusionLimitedRate/COxidationDiffusionLimitedRate.hpp"
+#include "lagrangian/coalCombustion/submodels/surfaceReactionModel/COxidationIntrinsicRate/COxidationIntrinsicRate.hpp"
+#include "lagrangian/coalCombustion/submodels/surfaceReactionModel/COxidationKineticDiffusionLimitedRate/COxidationKineticDiffusionLimitedRate.hpp"
+#include "lagrangian/coalCombustion/submodels/surfaceReactionModel/COxidationHurtMitchell/COxidationHurtMitchell.hpp"
+#include "lagrangian/coalCombustion/submodels/surfaceReactionModel/COxidationMurphyShaddix/COxidationMurphyShaddix.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

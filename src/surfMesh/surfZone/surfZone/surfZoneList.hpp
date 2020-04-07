@@ -31,9 +31,9 @@ Description
 #ifndef surfZoneList_H
 #define surfZoneList_H
 
-#include "surfZone.H"
-#include "List.H"
-#include "surfZoneIdentifierList.H"
+#include "surfMesh/surfZone/surfZone/surfZone.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
+#include "surfMesh/surfZone/surfZoneIdentifier/surfZoneIdentifierList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

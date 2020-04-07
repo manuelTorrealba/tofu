@@ -32,8 +32,8 @@ Description
 #ifndef hashSignedLabel_H
 #define hashSignedLabel_H
 
-#include "List.H"
-#include "word.H"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
 
 namespace Foam
 {

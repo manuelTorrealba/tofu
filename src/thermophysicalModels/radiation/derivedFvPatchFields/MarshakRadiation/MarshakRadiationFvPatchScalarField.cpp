@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MarshakRadiationFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvPatchFieldMapper.H"
-#include "volFields.H"
-#include "radiationModel.H"
-#include "physicoChemicalConstants.H"
+#include "thermophysicalModels/radiation/derivedFvPatchFields/MarshakRadiation/MarshakRadiationFvPatchScalarField.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "thermophysicalModels/radiation/radiationModels/radiationModel/radiationModel.hpp"
+#include "OpenFOAM/global/constants/physicoChemical/physicoChemicalConstants.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

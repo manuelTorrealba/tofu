@@ -36,10 +36,10 @@ SourceFiles
 #ifndef VTKsurfaceFormat_H
 #define VTKsurfaceFormat_H
 
-#include "MeshedSurface.H"
-#include "MeshedSurfaceProxy.H"
-#include "UnsortedMeshedSurface.H"
-#include "VTKsurfaceFormatCore.H"
+#include "surfMesh/MeshedSurface/MeshedSurface.hpp"
+#include "surfMesh/MeshedSurfaceProxy/MeshedSurfaceProxy.hpp"
+#include "surfMesh/UnsortedMeshedSurface/UnsortedMeshedSurface.hpp"
+#include "surfMesh/surfaceFormats/vtk/VTKsurfaceFormatCore.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

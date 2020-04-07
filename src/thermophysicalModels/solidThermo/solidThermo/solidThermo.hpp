@@ -35,7 +35,7 @@ SourceFiles
 #ifndef solidThermo_H
 #define solidThermo_H
 
-#include "basicThermo.H"
+#include "thermophysicalModels/basic/basicThermo/basicThermo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

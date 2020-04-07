@@ -37,9 +37,9 @@ SourceFiles
 #ifndef CombustionModel_H
 #define CombustionModel_H
 
-#include "combustionModel.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
+#include "combustionModels/combustionModel/combustionModel.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "multiMotion.H"
-#include "addToRunTimeSelectionTable.H"
+#include "dynamicMesh/motionSolvers/displacement/solidBody/solidBodyMotionFunctions/multiMotion/multiMotion.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

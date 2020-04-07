@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interfaceProperties.H"
-#include "alphaContactAngleFvPatchScalarField.H"
-#include "mathematicalConstants.H"
-#include "surfaceInterpolate.H"
-#include "fvcDiv.H"
-#include "fvcGrad.H"
-#include "fvcSnGrad.H"
+#include "transportModels/interfaceProperties/interfaceProperties.hpp"
+#include "transportModels/twoPhaseProperties/alphaContactAngle/alphaContactAngle/alphaContactAngleFvPatchScalarField.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
+#include "functionObjects/field/surfaceInterpolate/surfaceInterpolate.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcDiv.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcGrad.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcSnGrad.hpp"
 
 // * * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * //
 

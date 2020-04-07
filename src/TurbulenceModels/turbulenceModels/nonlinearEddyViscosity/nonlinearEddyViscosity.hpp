@@ -35,7 +35,7 @@ SourceFiles
 #ifndef nonlinearEddyViscosity_H
 #define nonlinearEddyViscosity_H
 
-#include "eddyViscosity.H"
+#include "TurbulenceModels/turbulenceModels/eddyViscosity/eddyViscosity.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

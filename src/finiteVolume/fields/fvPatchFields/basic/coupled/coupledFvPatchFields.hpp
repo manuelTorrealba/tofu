@@ -26,8 +26,8 @@ License
 #ifndef coupledFvPatchFields_H
 #define coupledFvPatchFields_H
 
-#include "coupledFvPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvPatchFields/basic/coupled/coupledFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

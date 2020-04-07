@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volRegion.H"
-#include "volMesh.H"
-#include "globalMeshData.H"
+#include "finiteVolume/functionObjects/volRegion/volRegion.hpp"
+#include "finiteVolume/volMesh/volMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

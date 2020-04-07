@@ -70,7 +70,7 @@ SourceFiles
 #ifndef waveAlphaFvPatchScalarField_H
 #define waveAlphaFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
+#include "finiteVolume/fields/fvPatchFields/basic/mixed/mixedFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

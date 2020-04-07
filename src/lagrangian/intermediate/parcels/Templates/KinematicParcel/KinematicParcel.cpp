@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "KinematicParcel.H"
-#include "forceSuSp.H"
-#include "integrationScheme.H"
-#include "meshTools.H"
+#include "lagrangian/intermediate/parcels/Templates/KinematicParcel/KinematicParcel.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/forceSuSp/forceSuSp.hpp"
+#include "lagrangian/intermediate/integrationScheme/integrationScheme/integrationScheme.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

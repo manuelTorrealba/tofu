@@ -36,7 +36,7 @@ SourceFiles
 #ifndef interfaceCompression_H
 #define interfaceCompression_H
 
-#include "vector.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "effectivenessHeatExchangerSource.H"
-#include "fvMesh.H"
-#include "fvMatrix.H"
-#include "addToRunTimeSelectionTable.H"
-#include "basicThermo.H"
-#include "coupledPolyPatch.H"
-#include "surfaceInterpolate.H"
+#include "fvOptions/sources/derived/effectivenessHeatExchangerSource/effectivenessHeatExchangerSource.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/fvMatrices/fvMatrix/fvMatrix.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "thermophysicalModels/basic/basicThermo/basicThermo.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.hpp"
+#include "functionObjects/field/surfaceInterpolate/surfaceInterpolate.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

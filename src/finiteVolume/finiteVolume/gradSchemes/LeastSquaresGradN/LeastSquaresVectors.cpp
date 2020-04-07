@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LeastSquaresVectors.H"
+#include "finiteVolume/finiteVolume/gradSchemes/LeastSquaresGradN/LeastSquaresVectors.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * //
 

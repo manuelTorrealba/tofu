@@ -32,7 +32,7 @@ Description
 #ifndef NoDispersion_H
 #define NoDispersion_H
 
-#include "DispersionModel.H"
+#include "lagrangian/intermediate/submodels/Kinematic/DispersionModel/DispersionModel/DispersionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

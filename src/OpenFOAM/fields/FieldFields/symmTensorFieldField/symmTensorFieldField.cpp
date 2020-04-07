@@ -29,7 +29,7 @@ Description
 #include "OpenFOAM/fields/FieldFields/symmTensorFieldField/symmTensorFieldField.hpp"
 
 #define TEMPLATE template<template<class> class Field>
-#include "FieldFieldFunctionsM.C"
+#include "OpenFOAM/fields/FieldFields/FieldField/FieldFieldFunctionsM.cpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

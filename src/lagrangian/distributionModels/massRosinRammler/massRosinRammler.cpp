@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "massRosinRammler.H"
-#include "addToRunTimeSelectionTable.H"
+#include "lagrangian/distributionModels/massRosinRammler/massRosinRammler.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

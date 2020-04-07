@@ -45,9 +45,9 @@ SourceFiles
 #ifndef OFFsurfaceFormat_H
 #define OFFsurfaceFormat_H
 
-#include "MeshedSurface.H"
-#include "MeshedSurfaceProxy.H"
-#include "UnsortedMeshedSurface.H"
+#include "surfMesh/MeshedSurface/MeshedSurface.hpp"
+#include "surfMesh/MeshedSurfaceProxy/MeshedSurfaceProxy.hpp"
+#include "surfMesh/UnsortedMeshedSurface/UnsortedMeshedSurface.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

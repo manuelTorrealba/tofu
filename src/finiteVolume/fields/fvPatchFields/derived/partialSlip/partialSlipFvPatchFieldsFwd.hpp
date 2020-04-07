@@ -26,7 +26,7 @@ License
 #ifndef partialSlipFvPatchFieldsFwd_H
 #define partialSlipFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Wallis.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalModels/barotropicCompressibilityModel/Wallis/Wallis.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

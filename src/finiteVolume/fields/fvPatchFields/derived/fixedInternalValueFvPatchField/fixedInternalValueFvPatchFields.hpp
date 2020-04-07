@@ -26,8 +26,8 @@ License
 #ifndef fixedInternalValueFvPatchFields_H
 #define fixedInternalValueFvPatchFields_H
 
-#include "fixedInternalValueFvPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvPatchFields/derived/fixedInternalValueFvPatchField/fixedInternalValueFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicSolidChemistryModel.H"
+#include "thermophysicalModels/solidChemistryModel/basicSolidChemistryModel/basicSolidChemistryModel.hpp"
 
 // * * * * * * * * * * * * * * * * Selectors * * * * * * * * * * * * * * * * //
 

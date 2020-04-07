@@ -45,7 +45,7 @@ SourceFiles
 #ifndef zeroGradientFvPatchField_H
 #define zeroGradientFvPatchField_H
 
-#include "fvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

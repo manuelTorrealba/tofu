@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "snapParameters.H"
+#include "mesh/snappyHexMesh/snappyHexMeshDriver/snapParameters/snapParameters.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

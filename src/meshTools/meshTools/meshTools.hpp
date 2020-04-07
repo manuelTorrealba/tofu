@@ -35,14 +35,14 @@ SourceFiles
 #ifndef meshTools_H
 #define meshTools_H
 
-#include "label.H"
-#include "vector.H"
-#include "triad.H"
-#include "labelList.H"
-#include "pointField.H"
-#include "faceList.H"
-#include "cellList.H"
-#include "primitivePatch.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/primitives/triad/triad.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/faceList.hpp"
+#include "OpenFOAM/meshes/meshShapes/cell/cellList.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/primitivePatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,7 +36,7 @@ Description
 #ifndef SprayCloud_H
 #define SprayCloud_H
 
-#include "sprayCloud.H"
+#include "lagrangian/spray/clouds/baseClasses/sprayCloud/sprayCloud.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -246,7 +246,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SprayCloudI.H"
+#include "lagrangian/spray/clouds/Templates/SprayCloud/SprayCloudI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

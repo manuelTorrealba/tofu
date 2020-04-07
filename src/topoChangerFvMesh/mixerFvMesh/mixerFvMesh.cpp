@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mixerFvMesh.H"
-#include "Time.H"
-#include "regionSplit.H"
-#include "slidingInterface.H"
-#include "addToRunTimeSelectionTable.H"
-#include "mapPolyMesh.H"
+#include "topoChangerFvMesh/mixerFvMesh/mixerFvMesh.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "meshTools/regionSplit/regionSplit.hpp"
+#include "dynamicMesh/slidingInterface/slidingInterface.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

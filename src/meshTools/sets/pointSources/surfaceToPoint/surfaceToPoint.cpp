@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceToPoint.H"
-#include "polyMesh.H"
-#include "triSurfaceSearch.H"
-#include "triSurface.H"
-#include "cpuTime.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshTools/sets/pointSources/surfaceToPoint/surfaceToPoint.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "meshTools/triSurface/triSurfaceSearch/triSurfaceSearch.hpp"
+#include "triSurface/triSurface/triSurface.hpp"
+#include "OSspecific/POSIX/cpuTime/cpuTime.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

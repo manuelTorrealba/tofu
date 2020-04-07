@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fv.H"
-#include "HashTable.H"
-#include "surfaceInterpolate.H"
-#include "fvMatrix.H"
-#include "cyclicAMIFvPatch.H"
+#include "finiteVolume/finiteVolume/fv/fv.hpp"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
+#include "functionObjects/field/surfaceInterpolate/surfaceInterpolate.hpp"
+#include "finiteVolume/fvMatrices/fvMatrix/fvMatrix.hpp"
+#include "finiteVolume/fvMesh/fvPatches/constraint/cyclicAMI/cyclicAMIFvPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -43,8 +43,8 @@ SourceFiles
 #ifndef RBD_joints_functionDot_H
 #define RBD_joints_functionDot_H
 
-#include "joint.H"
-#include "Function1.H"
+#include "rigidBodyDynamics/joints/joint/joint.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

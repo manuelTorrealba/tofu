@@ -80,8 +80,8 @@ SourceFiles
 #ifndef LRR_H
 #define LRR_H
 
-#include "RASModel.H"
-#include "ReynoldsStress.H"
+#include "TurbulenceModels/turbulenceModels/RAS/RASModel/RASModel.hpp"
+#include "TurbulenceModels/turbulenceModels/ReynoldsStress/ReynoldsStress.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -20,6 +20,7 @@ set(SOURCE_FILES
 ./POSIX/cpuTime/cpuTime.cpp
 ./POSIX/clockTime/clockTime.cpp
 ./POSIX/memInfo/memInfo.cpp
+./POSIX/printStack.cpp
 )
 
 add_library(OSSpecific STATIC ${SOURCE_FILES} ${HEADER_FILES})

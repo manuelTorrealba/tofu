@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvcMeshPhi.H"
-#include "fvMesh.H"
-#include "ddtScheme.H"
-#include "surfaceInterpolate.H"
+#include "finiteVolume/finiteVolume/fvc/fvcMeshPhi.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/finiteVolume/ddtSchemes/ddtScheme/ddtScheme.hpp"
+#include "functionObjects/field/surfaceInterpolate/surfaceInterpolate.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -40,7 +40,7 @@ SourceFiles
 #ifndef multiNormal_H
 #define multiNormal_H
 
-#include "distributionModel.H"
+#include "lagrangian/distributionModels/distributionModel/distributionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

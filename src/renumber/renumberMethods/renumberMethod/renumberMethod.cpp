@@ -26,8 +26,8 @@ InClass
 
 \*---------------------------------------------------------------------------*/
 
-#include "renumberMethod.H"
-#include "decompositionMethod.H"
+#include "renumber/renumberMethods/renumberMethod/renumberMethod.hpp"
+#include "parallel/decompose/decompositionMethods/decompositionMethod/decompositionMethod.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

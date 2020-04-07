@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noPhaseChange.H"
-#include "addToRunTimeSelectionTable.H"
+#include "regionModels/surfaceFilmModels/submodels/thermo/phaseChangeModel/noPhaseChange/noPhaseChange.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

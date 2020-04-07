@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "alphaContactAngleFvPatchScalarField.H"
-#include "fvPatchFieldMapper.H"
-#include "volMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "transportModels/twoPhaseProperties/alphaContactAngle/alphaContactAngle/alphaContactAngleFvPatchScalarField.hpp"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.hpp"
+#include "finiteVolume/volMesh/volMesh.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

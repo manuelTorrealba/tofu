@@ -60,8 +60,8 @@ SourceFiles
 #ifndef nutUTabulatedWallFunctionFvPatchScalarField_H
 #define nutUTabulatedWallFunctionFvPatchScalarField_H
 
-#include "nutWallFunctionFvPatchScalarField.H"
-#include "uniformInterpolationTable.H"
+#include "TurbulenceModels/turbulenceModels/derivedFvPatchFields/wallFunctions/nutWallFunctions/nutWallFunction/nutWallFunctionFvPatchScalarField.hpp"
+#include "OpenFOAM/interpolations/uniformInterpolationTable/uniformInterpolationTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

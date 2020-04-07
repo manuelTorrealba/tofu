@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "externalDisplacementMeshMover.H"
-#include "mapPolyMesh.H"
+#include "mesh/snappyHexMesh/externalDisplacementMeshMover/externalDisplacementMeshMover.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

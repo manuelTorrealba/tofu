@@ -35,7 +35,7 @@ SourceFiles
 #ifndef uniform_H
 #define uniform_H
 
-#include "distributionModel.H"
+#include "lagrangian/distributionModels/distributionModel/distributionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

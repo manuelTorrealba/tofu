@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "treeDataFace.H"
-#include "polyMesh.H"
-#include "triangleFuncs.H"
+#include "meshTools/indexedOctree/treeDataFace.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "meshTools/triSurface/triangleFuncs/triangleFuncs.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

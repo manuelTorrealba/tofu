@@ -39,8 +39,8 @@ SourceFiles
 #ifndef sixDoFRigidBodyMotionPointConstraint_H
 #define sixDoFRigidBodyMotionPointConstraint_H
 
-#include "sixDoFRigidBodyMotionConstraint.H"
-#include "point.H"
+#include "sixDoFRigidBodyMotion/sixDoFRigidBodyMotion/constraints/sixDoFRigidBodyMotionConstraint/sixDoFRigidBodyMotionConstraint.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

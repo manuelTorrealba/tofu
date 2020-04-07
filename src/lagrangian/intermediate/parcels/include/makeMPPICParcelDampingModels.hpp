@@ -28,9 +28,9 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DampingModel.H"
-#include "NoDamping.H"
-#include "Relaxation.H"
+#include "lagrangian/intermediate/submodels/MPPIC/DampingModels/DampingModel/DampingModel.hpp"
+#include "lagrangian/intermediate/submodels/MPPIC/DampingModels/NoDamping/NoDamping.hpp"
+#include "lagrangian/intermediate/submodels/MPPIC/DampingModels/Relaxation/Relaxation.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

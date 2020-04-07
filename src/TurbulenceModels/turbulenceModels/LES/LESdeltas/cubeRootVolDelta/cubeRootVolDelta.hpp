@@ -35,7 +35,7 @@ SourceFiles
 #ifndef cubeRootVolDelta_H
 #define cubeRootVolDelta_H
 
-#include "LESdelta.H"
+#include "TurbulenceModels/turbulenceModels/LES/LESdeltas/LESdelta/LESdelta.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

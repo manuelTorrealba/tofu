@@ -42,8 +42,8 @@ SourceFiles
 #ifndef buoyancyForce_H
 #define buoyancyForce_H
 
-#include "fvOption.H"
-#include "uniformDimensionedFields.H"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOption.hpp"
+#include "OpenFOAM/fields/UniformDimensionedFields/uniformDimensionedFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

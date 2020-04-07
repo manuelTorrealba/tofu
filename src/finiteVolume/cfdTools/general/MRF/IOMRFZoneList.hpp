@@ -52,8 +52,8 @@ SourceFiles
 #ifndef IOMRFZoneList_H
 #define IOMRFZoneList_H
 
-#include "IOdictionary.H"
-#include "MRFZoneList.H"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "finiteVolume/cfdTools/general/MRF/MRFZoneList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

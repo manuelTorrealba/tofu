@@ -23,18 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellCuts.H"
-#include "polyMesh.H"
-#include "Time.H"
-#include "ListOps.H"
-#include "cellLooper.H"
-#include "refineCell.H"
-#include "meshTools.H"
-#include "geomCellLooper.H"
-#include "OFstream.H"
-#include "plane.H"
-#include "syncTools.H"
-#include "dummyTransform.H"
+#include "dynamicMesh/meshCut/cellCuts/cellCuts.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "dynamicMesh/meshCut/cellLooper/cellLooper.hpp"
+#include "dynamicMesh/meshCut/refineCell/refineCell.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
+#include "dynamicMesh/meshCut/cellLooper/geomCellLooper.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/plane/plane.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/dummyTransform.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

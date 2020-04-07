@@ -36,7 +36,7 @@ SourceFiles
 #ifndef ReversibleReaction_H
 #define ReversibleReaction_H
 
-#include "Reaction.H"
+#include "thermophysicalModels/specie/reaction/ReactionsN/Reaction/Reaction.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

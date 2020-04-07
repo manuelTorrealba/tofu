@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "upwindCPCCellToFaceStencilObject.H"
+#include "finiteVolume/fvMesh/extendedStencil/cellToFace/MeshObjects/upwindCPCCellToFaceStencilObject.hpp"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

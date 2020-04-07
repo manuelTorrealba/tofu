@@ -37,9 +37,9 @@ SourceFiles
 #ifndef ParticleForce_H
 #define ParticleForce_H
 
-#include "dictionary.H"
-#include "forceSuSp.H"
-#include "fvMesh.H"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/forceSuSp/forceSuSp.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -188,7 +188,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ParticleForceI.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/ParticleForce/ParticleForceI.hpp"
 
 #ifdef NoRepository
     #include "ParticleForce.C"

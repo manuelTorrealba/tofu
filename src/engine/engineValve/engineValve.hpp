@@ -35,10 +35,10 @@ SourceFiles
 #ifndef engineValve_H
 #define engineValve_H
 
-#include "word.H"
-#include "coordinateSystem.H"
-#include "polyPatchID.H"
-#include "graph.H"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "meshTools/coordinateSystems/coordinateSystem.hpp"
+#include "OpenFOAM/meshes/Identifiers/patch/polyPatchID.hpp"
+#include "OpenFOAM/graph/graph.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

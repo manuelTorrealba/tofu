@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "subBody.H"
+#include "rigidBodyDynamics/bodies/subBody/subBody.hpp"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

@@ -72,7 +72,7 @@ SourceFiles
 #ifndef fixedPressureCompressibleDensityFvPatchScalarField_H
 #define fixedPressureCompressibleDensityFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

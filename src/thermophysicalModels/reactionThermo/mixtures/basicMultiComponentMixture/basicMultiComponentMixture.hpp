@@ -38,11 +38,11 @@ SourceFiles
 #ifndef basicMultiComponentMixture_H
 #define basicMultiComponentMixture_H
 
-#include "volFields.H"
-#include "PtrList.H"
-#include "basicMixture.H"
-#include "speciesTable.H"
-#include "typeInfo.H"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "thermophysicalModels/basic/mixtures/basicMixture/basicMixture.hpp"
+#include "thermophysicalModels/specie/speciesTable/speciesTable.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -145,7 +145,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "basicMultiComponentMixtureI.H"
+#include "thermophysicalModels/reactionThermo/mixtures/basicMultiComponentMixture/basicMultiComponentMixtureI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

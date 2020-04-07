@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "structuredRenumber.H"
-#include "addToRunTimeSelectionTable.H"
-#include "topoDistanceData.H"
-#include "fvMeshSubset.H"
-#include "OppositeFaceCellWave.H"
+#include "renumber/renumberMethods/structuredRenumber/structuredRenumber.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "meshTools/meshStructure/topoDistanceData.hpp"
+#include "dynamicMesh/fvMeshSubset/fvMeshSubset.hpp"
+#include "renumber/renumberMethods/structuredRenumber/OppositeFaceCellWave.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

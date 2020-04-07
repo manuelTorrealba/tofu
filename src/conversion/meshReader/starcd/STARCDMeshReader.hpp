@@ -42,10 +42,10 @@ SourceFiles
 #ifndef STARCDMeshReader_H
 #define STARCDMeshReader_H
 
-#include "meshReader.H"
-#include "boundaryRegion.H"
-#include "cellShape.H"
-#include "IFstream.H"
+#include "conversion/meshReader/meshReader.hpp"
+#include "conversion/meshTables/boundaryRegion.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellShape/cellShape.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

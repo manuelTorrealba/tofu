@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshStructure.H"
-#include "FaceCellWave.H"
-#include "topoDistanceData.H"
-#include "pointTopoDistanceData.H"
-#include "PointEdgeWave.H"
+#include "meshTools/meshStructure/meshStructure.hpp"
+#include "meshTools/algorithms/MeshWave/FaceCellWave.hpp"
+#include "meshTools/meshStructure/topoDistanceData.hpp"
+#include "meshTools/meshStructure/pointTopoDistanceData.hpp"
+#include "meshTools/algorithms/PointEdgeWave/PointEdgeWave.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

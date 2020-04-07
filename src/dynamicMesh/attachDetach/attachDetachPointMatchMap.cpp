@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "attachDetach.H"
-#include "polyMesh.H"
-#include "primitiveMesh.H"
-#include "primitiveFacePatch.H"
-#include "polyTopoChanger.H"
+#include "dynamicMesh/attachDetach/attachDetach.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/primitiveFacePatch.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChanger/polyTopoChanger.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

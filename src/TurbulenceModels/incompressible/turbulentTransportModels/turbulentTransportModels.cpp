@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "turbulentTransportModels.H"
+#include "TurbulenceModels/incompressible/turbulentTransportModels/turbulentTransportModels.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -41,10 +41,10 @@ makeBaseTurbulenceModel
 // Laminar models
 // -------------------------------------------------------------------------- //
 
-#include "Stokes.H"
+#include "TurbulenceModels/turbulenceModels/laminar/Stokes/Stokes.hpp"
 makeLaminarModel(Stokes);
 
-#include "Maxwell.H"
+#include "TurbulenceModels/turbulenceModels/laminar/Maxwell/Maxwell.hpp"
 makeLaminarModel(Maxwell);
 
 
@@ -52,40 +52,40 @@ makeLaminarModel(Maxwell);
 // RAS models
 // -------------------------------------------------------------------------- //
 
-#include "SpalartAllmaras.H"
+#include "TurbulenceModels/turbulenceModels/RAS/SpalartAllmaras/SpalartAllmaras.hpp"
 makeRASModel(SpalartAllmaras);
 
-#include "kEpsilon.H"
+#include "TurbulenceModels/turbulenceModels/RAS/kEpsilon/kEpsilon.hpp"
 makeRASModel(kEpsilon);
 
-#include "RNGkEpsilon.H"
+#include "TurbulenceModels/turbulenceModels/RAS/RNGkEpsilon/RNGkEpsilon.hpp"
 makeRASModel(RNGkEpsilon);
 
-#include "realizableKE.H"
+#include "TurbulenceModels/turbulenceModels/RAS/realizableKE/realizableKE.hpp"
 makeRASModel(realizableKE);
 
-#include "LaunderSharmaKE.H"
+#include "TurbulenceModels/turbulenceModels/RAS/LaunderSharmaKE/LaunderSharmaKE.hpp"
 makeRASModel(LaunderSharmaKE);
 
-#include "kOmega.H"
+#include "TurbulenceModels/turbulenceModels/RAS/kOmega/kOmega.hpp"
 makeRASModel(kOmega);
 
-#include "kOmegaSST.H"
+#include "TurbulenceModels/turbulenceModels/RAS/kOmegaSST/kOmegaSST.hpp"
 makeRASModel(kOmegaSST);
 
-#include "kOmegaSSTSAS.H"
+#include "TurbulenceModels/turbulenceModels/RAS/kOmegaSSTSAS/kOmegaSSTSAS.hpp"
 makeRASModel(kOmegaSSTSAS);
 
-#include "kOmegaSSTLM.H"
+#include "TurbulenceModels/turbulenceModels/RAS/kOmegaSSTLM/kOmegaSSTLM.hpp"
 makeRASModel(kOmegaSSTLM);
 
-#include "v2f.H"
+#include "TurbulenceModels/turbulenceModels/RAS/v2f/v2f.hpp"
 makeRASModel(v2f);
 
-#include "LRR.H"
+#include "TurbulenceModels/turbulenceModels/RAS/LRR/LRR.hpp"
 makeRASModel(LRR);
 
-#include "SSG.H"
+#include "TurbulenceModels/turbulenceModels/RAS/SSG/SSG.hpp"
 makeRASModel(SSG);
 
 
@@ -93,34 +93,34 @@ makeRASModel(SSG);
 // LES models
 // -------------------------------------------------------------------------- //
 
-#include "Smagorinsky.H"
+#include "TurbulenceModels/turbulenceModels/LES/Smagorinsky/Smagorinsky.hpp"
 makeLESModel(Smagorinsky);
 
-#include "WALE.H"
+#include "TurbulenceModels/turbulenceModels/LES/WALE/WALE.hpp"
 makeLESModel(WALE);
 
-#include "kEqn.H"
+#include "TurbulenceModels/turbulenceModels/LES/kEqn/kEqn.hpp"
 makeLESModel(kEqn);
 
-#include "dynamicKEqn.H"
+#include "TurbulenceModels/turbulenceModels/LES/dynamicKEqn/dynamicKEqn.hpp"
 makeLESModel(dynamicKEqn);
 
-#include "dynamicLagrangian.H"
+#include "TurbulenceModels/turbulenceModels/LES/dynamicLagrangian/dynamicLagrangian.hpp"
 makeLESModel(dynamicLagrangian);
 
-#include "kOmegaSSTDES.H"
+#include "TurbulenceModels/turbulenceModels/LES/kOmegaSSTDES/kOmegaSSTDES.hpp"
 makeLESModel(kOmegaSSTDES);
 
-#include "SpalartAllmarasDES.H"
+#include "TurbulenceModels/turbulenceModels/LES/SpalartAllmarasDES/SpalartAllmarasDES.hpp"
 makeLESModel(SpalartAllmarasDES);
 
-#include "SpalartAllmarasDDES.H"
+#include "TurbulenceModels/turbulenceModels/LES/SpalartAllmarasDDES/SpalartAllmarasDDES.hpp"
 makeLESModel(SpalartAllmarasDDES);
 
-#include "SpalartAllmarasIDDES.H"
+#include "TurbulenceModels/turbulenceModels/LES/SpalartAllmarasIDDES/SpalartAllmarasIDDES.hpp"
 makeLESModel(SpalartAllmarasIDDES);
 
-#include "DeardorffDiffStress.H"
+#include "TurbulenceModels/turbulenceModels/LES/DeardorffDiffStress/DeardorffDiffStress.hpp"
 makeLESModel(DeardorffDiffStress);
 
 

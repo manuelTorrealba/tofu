@@ -32,23 +32,23 @@ Description
 #ifndef makeReaction_H
 #define makeReaction_H
 
-#include "Reaction.H"
+#include "thermophysicalModels/specie/reaction/ReactionsN/Reaction/Reaction.hpp"
 
-#include "IrreversibleReaction.H"
-#include "ReversibleReaction.H"
-#include "NonEquilibriumReversibleReaction.H"
+#include "thermophysicalModels/specie/reaction/ReactionsN/IrreversibleReaction/IrreversibleReaction.hpp"
+#include "thermophysicalModels/specie/reaction/ReactionsN/ReversibleReaction/ReversibleReaction.hpp"
+#include "thermophysicalModels/specie/reaction/ReactionsN/NonEquilibriumReversibleReaction/NonEquilibriumReversibleReaction.hpp"
 
-#include "thermo.H"
+#include "thermophysicalModels/specie/thermo/thermo/thermo.hpp"
 
-#include "sutherlandTransport.H"
-#include "janafThermo.H"
-#include "perfectGas.H"
+#include "thermophysicalModels/specie/transport/sutherland/sutherlandTransport.hpp"
+#include "thermophysicalModels/specie/thermo/janaf/janafThermo.hpp"
+#include "thermophysicalModels/specie/equationOfState/perfectGas/perfectGas.hpp"
 
-#include "polynomialTransport.H"
-#include "hPolynomialThermo.H"
-#include "icoPolynomial.H"
+#include "thermophysicalModels/specie/transport/polynomial/polynomialTransport.hpp"
+#include "thermophysicalModels/specie/thermo/hPolynomial/hPolynomialThermo.hpp"
+#include "thermophysicalModels/specie/equationOfState/icoPolynomial/icoPolynomial.hpp"
 
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

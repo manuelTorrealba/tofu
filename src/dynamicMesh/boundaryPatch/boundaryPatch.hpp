@@ -36,8 +36,8 @@ SourceFiles
 #ifndef boundaryPatch_H
 #define boundaryPatch_H
 
-#include "patchIdentifier.H"
-#include "autoPtr.H"
+#include "OpenFOAM/meshes/Identifiers/patch/patchIdentifier.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

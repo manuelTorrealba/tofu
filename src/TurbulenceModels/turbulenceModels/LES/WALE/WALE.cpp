@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "WALE.H"
-#include "fvOptions.H"
+#include "TurbulenceModels/turbulenceModels/LES/WALE/WALE.hpp"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOptions.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,9 +36,9 @@ SourceFiles
 #ifndef filmViscosityModel_H
 #define filmViscosityModel_H
 
-#include "filmSubModelBase.H"
-#include "runTimeSelectionTables.H"
-#include "scalarField.H"
+#include "regionModels/surfaceFilmModels/submodels/filmSubModelBase.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

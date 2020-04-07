@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "zeroFixedValuePointPatchField.H"
+#include "mesh/snappyHexMesh/externalDisplacementMeshMover/zeroFixedValue/zeroFixedValuePointPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * * //
 

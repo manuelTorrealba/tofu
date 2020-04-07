@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceToCell.H"
-#include "polyMesh.H"
-#include "meshSearch.H"
-#include "triSurface.H"
-#include "triSurfaceSearch.H"
-#include "cellClassification.H"
-#include "cpuTime.H"
-#include "demandDrivenData.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshTools/sets/cellSources/surfaceToCell/surfaceToCell.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "meshTools/meshSearch/meshSearch.hpp"
+#include "triSurface/triSurface/triSurface.hpp"
+#include "meshTools/triSurface/triSurfaceSearch/triSurfaceSearch.hpp"
+#include "meshTools/cellClassification/cellClassification.hpp"
+#include "OSspecific/POSIX/cpuTime/cpuTime.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

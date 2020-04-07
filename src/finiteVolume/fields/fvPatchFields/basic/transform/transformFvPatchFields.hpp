@@ -26,8 +26,8 @@ License
 #ifndef transformFvPatchFields_H
 #define transformFvPatchFields_H
 
-#include "transformFvPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvPatchFields/basic/transform/transformFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

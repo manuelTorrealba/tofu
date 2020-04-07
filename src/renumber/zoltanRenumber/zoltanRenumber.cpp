@@ -48,15 +48,15 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#include "zoltanRenumber.H"
-#include "addToRunTimeSelectionTable.H"
-#include "IFstream.H"
-#include "labelIOList.H"
-#include "polyMesh.H"
-#include "globalMeshData.H"
-#include "globalIndex.H"
-#include "uint.H"
-#include "PstreamGlobals.H"
+#include "renumber/zoltanRenumber/zoltanRenumber.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelIOList.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
+#include "OpenFOAM/primitives/ints/uint/uint.hpp"
+#include "Pstream/mpi/PstreamGlobals.hpp"
 
 #include "zoltan.h"
 #include <mpi.h>

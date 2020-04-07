@@ -30,7 +30,7 @@ Description
 #ifndef makeChemistryModel_H
 #define makeChemistryModel_H
 
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -56,8 +56,8 @@ SourceFiles
 #ifndef sixDoFRigidBodyState_H
 #define sixDoFRigidBodyState_H
 
-#include "fvMeshFunctionObject.H"
-#include "logFiles.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
+#include "OpenFOAM/db/functionObjects/logFiles/logFiles.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

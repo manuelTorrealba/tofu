@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FreeStream.H"
-#include "constants.H"
-#include "triPointRef.H"
-#include "tetIndices.H"
+#include "lagrangian/DSMC/submodels/InflowBoundaryModel/FreeStream/FreeStream.hpp"
+#include "OpenFOAM/global/constants/constants.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/triangle/triPointRef.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMeshTetDecomposition/tetIndices.hpp"
 
 using namespace Foam::constant::mathematical;
 

@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "isoSurfaceCell.H"
-#include "dictionary.H"
-#include "polyMesh.H"
-#include "mergePoints.H"
-#include "tetMatcher.H"
-#include "syncTools.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampling/sampledSurface/isoSurface/isoSurfaceCell.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/meshTools/mergePoints.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellMatcher/tetMatcher.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

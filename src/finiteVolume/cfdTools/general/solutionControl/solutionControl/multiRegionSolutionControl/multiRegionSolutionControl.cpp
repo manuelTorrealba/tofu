@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "multiRegionSolutionControl.H"
-#include "volFields.H"
+#include "finiteVolume/cfdTools/general/solutionControl/solutionControl/multiRegionSolutionControl/multiRegionSolutionControl.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

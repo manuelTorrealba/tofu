@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "extendedEdgeMesh.H"
-#include "surfaceFeatures.H"
-#include "triSurface.H"
-#include "Random.H"
-#include "Time.H"
-#include "OBJstream.H"
-#include "DynamicField.H"
-#include "edgeMeshFormatsCore.H"
-#include "IOmanip.H"
+#include "meshTools/edgeMesh/extendedEdgeMesh/extendedEdgeMesh.hpp"
+#include "meshTools/triSurface/surfaceFeatures/surfaceFeatures.hpp"
+#include "triSurface/triSurface/triSurface.hpp"
+#include "OpenFOAM/primitives/Random/Random.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "surfMesh/surfaceFormats/obj/OBJstream.hpp"
+#include "OpenFOAM/fields/Fields/DynamicField/DynamicField.hpp"
+#include "meshTools/edgeMesh/edgeMeshFormats/edgeMeshFormatsCore.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOmanip.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

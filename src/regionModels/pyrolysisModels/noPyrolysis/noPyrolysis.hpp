@@ -35,10 +35,10 @@ SourceFiles
 #ifndef noPyrolysis_H
 #define noPyrolysis_H
 
-#include "pyrolysisModel.H"
-#include "volFieldsFwd.H"
-#include "basicSolidChemistryModel.H"
-#include "radiationModel.H"
+#include "regionModels/pyrolysisModels/pyrolysisModel/pyrolysisModel.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "thermophysicalModels/solidChemistryModel/basicSolidChemistryModel/basicSolidChemistryModel.hpp"
+#include "thermophysicalModels/radiation/radiationModels/radiationModel/radiationModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

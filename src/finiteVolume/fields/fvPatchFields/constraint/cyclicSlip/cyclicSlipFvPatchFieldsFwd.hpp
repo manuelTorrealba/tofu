@@ -26,7 +26,7 @@ License
 #ifndef cyclicSlipFvPatchFieldsFwd_H
 #define cyclicSlipFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

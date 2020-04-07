@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PilchErdman.H"
+#include "lagrangian/spray/submodels/BreakupModel/PilchErdman/PilchErdman.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

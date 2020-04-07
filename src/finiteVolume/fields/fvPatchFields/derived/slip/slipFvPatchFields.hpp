@@ -26,8 +26,8 @@ License
 #ifndef slipFvPatchFields_H
 #define slipFvPatchFields_H
 
-#include "slipFvPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvPatchFields/derived/slip/slipFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

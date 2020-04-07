@@ -59,9 +59,9 @@ SourceFiles
 #ifndef fixedTemperatureConstraint_H
 #define fixedTemperatureConstraint_H
 
-#include "cellSetOption.H"
-#include "NamedEnum.H"
-#include "Function1.H"
+#include "fvOptions/cellSetOption/cellSetOption.hpp"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

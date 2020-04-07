@@ -35,7 +35,7 @@ SourceFiles
 #ifndef cloudScatter_H
 #define cloudScatter_H
 
-#include "scatterModel.H"
+#include "thermophysicalModels/radiation/submodels/scatterModel/scatterModel/scatterModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

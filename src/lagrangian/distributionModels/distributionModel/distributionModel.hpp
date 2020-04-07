@@ -53,9 +53,9 @@ SourceFiles
 #ifndef distributionModel_H
 #define distributionModel_H
 
-#include "IOdictionary.H"
-#include "autoPtr.H"
-#include "Random.H"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/primitives/Random/Random.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

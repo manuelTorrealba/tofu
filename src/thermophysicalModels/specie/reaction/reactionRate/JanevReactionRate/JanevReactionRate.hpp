@@ -35,9 +35,9 @@ SourceFiles
 #ifndef JanevReactionRate_H
 #define JanevReactionRate_H
 
-#include "scalarField.H"
-#include "typeInfo.H"
-#include "FixedList.H"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -152,7 +152,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "JanevReactionRateI.H"
+#include "thermophysicalModels/specie/reaction/reactionRate/JanevReactionRate/JanevReactionRateI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

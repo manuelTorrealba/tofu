@@ -35,10 +35,10 @@ SourceFiles
 #ifndef ParticleStressModel_H
 #define ParticleStressModel_H
 
-#include "Field.H"
-#include "FieldField.H"
-#include "dictionary.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
+#include "OpenFOAM/fields/FieldFields/FieldField/FieldField.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "displacementInterpolationMotionSolver.H"
-#include "addToRunTimeSelectionTable.H"
-#include "SortableList.H"
-#include "IOList.H"
-#include "Tuple2.H"
-#include "mapPolyMesh.H"
-#include "interpolateXY.H"
+#include "dynamicMesh/motionSolvers/displacement/interpolation/displacementInterpolationMotionSolver.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/containers/Lists/SortableList/SortableList.hpp"
+#include "OpenFOAM/db/IOobjects/IOList/IOList.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "OpenFOAM/interpolations/interpolateXY/interpolateXY.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

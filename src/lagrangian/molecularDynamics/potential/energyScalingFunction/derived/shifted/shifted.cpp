@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "shifted.H"
-#include "addToRunTimeSelectionTable.H"
+#include "lagrangian/molecularDynamics/potential/energyScalingFunction/derived/shifted/shifted.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

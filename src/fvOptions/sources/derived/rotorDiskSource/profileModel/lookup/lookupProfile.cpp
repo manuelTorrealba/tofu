@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lookupProfile.H"
-#include "addToRunTimeSelectionTable.H"
-#include "vector.H"
-#include "unitConversion.H"
-#include "IFstream.H"
+#include "fvOptions/sources/derived/rotorDiskSource/profileModel/lookup/lookupProfile.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

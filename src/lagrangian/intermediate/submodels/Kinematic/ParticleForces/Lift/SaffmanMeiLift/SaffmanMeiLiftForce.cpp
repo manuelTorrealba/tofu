@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SaffmanMeiLiftForce.H"
-#include "mathematicalConstants.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/Lift/SaffmanMeiLift/SaffmanMeiLiftForce.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
 
 using namespace Foam::constant;
 

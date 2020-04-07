@@ -36,8 +36,8 @@ Description
 #ifndef fvMatrices_H
 #define fvMatrices_H
 
-#include "fvMatricesFwd.H"
-#include "fvScalarMatrix.H"
+#include "finiteVolume/fvMatrices/fvMatricesFwd.hpp"
+#include "finiteVolume/fvMatrices/fvScalarMatrix/fvScalarMatrix.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -57,7 +57,7 @@ SourceFiles
 #ifndef FixedValueConstraint_H
 #define FixedValueConstraint_H
 
-#include "cellSetOption.H"
+#include "fvOptions/cellSetOption/cellSetOption.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

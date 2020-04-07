@@ -26,8 +26,8 @@ License
 #ifndef advectiveFvPatchFields_H
 #define advectiveFvPatchFields_H
 
-#include "advectiveFvPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvPatchFields/derived/advective/advectiveFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

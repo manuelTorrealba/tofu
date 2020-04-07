@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallPointYPlus.H"
+#include "finiteVolume/fvMesh/wallDist/wallPointYPlus/wallPointYPlus.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

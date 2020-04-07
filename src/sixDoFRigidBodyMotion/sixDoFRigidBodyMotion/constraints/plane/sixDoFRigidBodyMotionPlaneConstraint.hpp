@@ -39,7 +39,7 @@ SourceFiles
 #ifndef sixDoFRigidBodyMotionPlaneConstraint_H
 #define sixDoFRigidBodyMotionPlaneConstraint_H
 
-#include "sixDoFRigidBodyMotionConstraint.H"
+#include "sixDoFRigidBodyMotion/sixDoFRigidBodyMotion/constraints/sixDoFRigidBodyMotionConstraint/sixDoFRigidBodyMotionConstraint.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

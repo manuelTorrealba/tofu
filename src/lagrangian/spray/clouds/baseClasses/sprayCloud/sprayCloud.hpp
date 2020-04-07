@@ -35,7 +35,7 @@ SourceFiles
 #ifndef sprayCloud_H
 #define sprayCloud_H
 
-#include "typeInfo.H"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

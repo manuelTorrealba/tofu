@@ -80,9 +80,9 @@ SourceFiles
 #ifndef functionObjects_writeObjects_H
 #define functionObjects_writeObjects_H
 
-#include "functionObject.H"
-#include "writeObjectsBase.H"
-#include "NamedEnum.H"
+#include "OpenFOAM/db/functionObjects/functionObject/functionObject.hpp"
+#include "OpenFOAM/db/functionObjects/writeObjectsBase/writeObjectsBase.hpp"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

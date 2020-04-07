@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ThermalDiffusivity.H"
+#include "TurbulenceModels/compressible/ThermalDiffusivity/ThermalDiffusivity.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

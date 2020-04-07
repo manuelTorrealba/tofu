@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedPatchFieldBase.H"
-#include "mappedPatchBase.H"
-#include "interpolationCell.H"
+#include "finiteVolume/fields/fvPatchFields/derived/mappedField/mappedPatchFieldBase.hpp"
+#include "meshTools/mappedPatches/mappedPolyPatch/mappedPatchBase.hpp"
+#include "finiteVolume/interpolation/interpolation/interpolationCell/interpolationCell.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

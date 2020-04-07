@@ -34,8 +34,8 @@ SourceFiles
 #ifndef STLpoint_H
 #define STLpoint_H
 
-#include "point.H"
-#include "Istream.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Istream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "timeVaryingMappedFixedValuePointPatchField.H"
-#include "Time.H"
-#include "AverageField.H"
-#include "IFstream.H"
+#include "fvMotionSolver/pointPatchFields/derived/timeVaryingMappedFixedValue/timeVaryingMappedFixedValuePointPatchField.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "finiteVolume/fields/fvPatchFields/derived/timeVaryingMappedFixedValue/AverageField.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

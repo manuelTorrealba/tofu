@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "moleFractions.H"
-#include "basicThermo.H"
+#include "thermophysicalModels/reactionThermo/functionObjects/moleFractions/moleFractions.hpp"
+#include "thermophysicalModels/basic/basicThermo/basicThermo.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -55,7 +55,7 @@ SourceFiles
 #ifndef functionObjects_subtract_H
 #define functionObjects_subtract_H
 
-#include "fieldsExpression.H"
+#include "functionObjects/field/fieldsExpression/fieldsExpression.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -51,7 +51,7 @@ SourceFiles
 #ifndef kqRWallFunctionFvPatchField_H
 #define kqRWallFunctionFvPatchField_H
 
-#include "zeroGradientFvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

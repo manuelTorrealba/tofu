@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "setUpdater.H"
-#include "polyTopoChanger.H"
-#include "polyTopoChange.H"
-#include "addToRunTimeSelectionTable.H"
-#include "mapPolyMesh.H"
-#include "cellSet.H"
-#include "faceSet.H"
-#include "pointSet.H"
+#include "dynamicMesh/setUpdater/setUpdater.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChanger/polyTopoChanger.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChange.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "meshTools/sets/topoSets/cellSet.hpp"
+#include "meshTools/sets/topoSets/faceSet.hpp"
+#include "meshTools/sets/topoSets/pointSet.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

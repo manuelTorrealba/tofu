@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dsmcParcel.H"
-#include "DSMCParcel.H"
-#include "DSMCCloud.H"
+#include "lagrangian/DSMC/parcels/derived/dsmcParcel/dsmcParcel.hpp"
+#include "lagrangian/DSMC/parcels/Templates/DSMCParcel/DSMCParcel.hpp"
+#include "lagrangian/DSMC/clouds/Templates/DSMCCloud/DSMCCloud.hpp"
 
 namespace Foam
 {

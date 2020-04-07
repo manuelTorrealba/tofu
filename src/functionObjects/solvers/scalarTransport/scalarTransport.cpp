@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "scalarTransport.H"
-#include "surfaceFields.H"
-#include "fvmDdt.H"
-#include "fvmDiv.H"
-#include "fvmLaplacian.H"
-#include "fvmSup.H"
-#include "turbulentTransportModel.H"
-#include "turbulentFluidThermoModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/solvers/scalarTransport/scalarTransport.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvmDdt.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvmDiv.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvmLaplacian.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvmSup.hpp"
+#include "TurbulenceModels/incompressible/turbulentTransportModels/turbulentTransportModel.hpp"
+#include "TurbulenceModels/compressible/turbulentFluidThermoModels/turbulentFluidThermoModel.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

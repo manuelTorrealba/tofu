@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sixDoFRigidBodyMotionState.H"
-#include "IOstreams.H"
+#include "sixDoFRigidBodyMotion/sixDoFRigidBodyMotion/sixDoFRigidBodyMotionState.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

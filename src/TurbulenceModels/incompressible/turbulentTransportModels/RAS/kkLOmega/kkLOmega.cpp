@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kkLOmega.H"
-#include "bound.H"
-#include "wallDist.H"
-#include "addToRunTimeSelectionTable.H"
+#include "TurbulenceModels/incompressible/turbulentTransportModels/RAS/kkLOmega/kkLOmega.hpp"
+#include "finiteVolume/cfdTools/general/bound/bound.hpp"
+#include "finiteVolume/fvMesh/wallDist/wallDist/wallDist.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

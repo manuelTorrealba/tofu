@@ -40,10 +40,10 @@ SourceFiles
 #ifndef functionObjects_fieldValue_H
 #define functionObjects_fieldValue_H
 
-#include "fvMeshFunctionObject.H"
-#include "logFiles.H"
-#include "Switch.H"
-#include "Field.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
+#include "OpenFOAM/db/functionObjects/logFiles/logFiles.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -187,7 +187,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "fieldValueI.H"
+#include "functionObjects/field/fieldValues/fieldValue/fieldValueI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

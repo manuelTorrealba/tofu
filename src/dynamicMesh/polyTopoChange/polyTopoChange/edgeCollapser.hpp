@@ -37,15 +37,15 @@ SourceFiles
 #ifndef edgeCollapser_H
 #define edgeCollapser_H
 
-#include "pointEdgeCollapse.H"
-#include "DynamicList.H"
-#include "Field.H"
-#include "pointFieldFwd.H"
-#include "Map.H"
-#include "labelPair.H"
-#include "HashSet.H"
-#include "typeInfo.H"
-#include "Switch.H"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/pointEdgeCollapse/pointEdgeCollapse.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointFieldFwd.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
+#include "OpenFOAM/primitives/Pair/labelPair.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,8 +36,8 @@ SourceFiles
 #ifndef sampledThresholdCellFaces_H
 #define sampledThresholdCellFaces_H
 
-#include "sampledSurface.H"
-#include "MeshedSurface.H"
+#include "sampling/sampledSurface/sampledSurface/sampledSurface.hpp"
+#include "surfMesh/MeshedSurface/MeshedSurface.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

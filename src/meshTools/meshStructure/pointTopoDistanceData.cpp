@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointTopoDistanceData.H"
+#include "meshTools/meshStructure/pointTopoDistanceData.hpp"
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PhiScheme.H"
-#include "Phi.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/PhiScheme/PhiScheme.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/Phi/Phi.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

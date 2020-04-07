@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "integrationScheme.H"
+#include "lagrangian/intermediate/integrationScheme/integrationScheme/integrationScheme.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

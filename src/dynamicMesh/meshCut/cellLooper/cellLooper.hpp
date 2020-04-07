@@ -48,11 +48,11 @@ SourceFiles
 #ifndef cellLooper_H
 #define cellLooper_H
 
-#include "edgeVertex.H"
-#include "vector.H"
-#include "boolList.H"
-#include "scalarField.H"
-#include "DynamicList.H"
+#include "dynamicMesh/meshCut/edgeVertex/edgeVertex.hpp"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef compressibleTurbulenceModel_H
 #define compressibleTurbulenceModel_H
 
-#include "turbulenceModel.H"
+#include "TurbulenceModels/turbulenceModels/turbulenceModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

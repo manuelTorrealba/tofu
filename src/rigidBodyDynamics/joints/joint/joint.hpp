@@ -50,14 +50,14 @@ SourceFiles
 #ifndef RBD_joint_H
 #define RBD_joint_H
 
-#include "List.H"
-#include "spatialVector.H"
-#include "compactSpatialTensor.H"
-#include "CompactSpatialTensorT.H"
-#include "spatialTransform.H"
-#include "quaternion.H"
-#include "scalarField.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
+#include "OpenFOAM/primitives/spatialVectorAlgebra/SpatialVector/spatialVector/spatialVector.hpp"
+#include "OpenFOAM/primitives/spatialVectorAlgebra/CompactSpatialTensor/compactSpatialTensor/compactSpatialTensor.hpp"
+#include "OpenFOAM/primitives/spatialVectorAlgebra/CompactSpatialTensorT/CompactSpatialTensorT.hpp"
+#include "OpenFOAM/primitives/spatialVectorAlgebra/spatialTransform/spatialTransform.hpp"
+#include "OpenFOAM/primitives/quaternion/quaternion.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 namespace Foam
 {
@@ -275,7 +275,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "jointI.H"
+#include "rigidBodyDynamics/joints/joint/jointI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

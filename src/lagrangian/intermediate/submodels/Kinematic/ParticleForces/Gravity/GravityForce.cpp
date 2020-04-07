@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GravityForce.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/Gravity/GravityForce.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

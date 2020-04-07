@@ -35,7 +35,7 @@ SourceFiles
 #ifndef steadyStateD2dt2Scheme_H
 #define steadyStateD2dt2Scheme_H
 
-#include "d2dt2Scheme.H"
+#include "finiteVolume/finiteVolume/d2dt2Schemes/d2dt2Scheme/d2dt2Scheme.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

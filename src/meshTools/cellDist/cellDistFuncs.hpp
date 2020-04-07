@@ -36,14 +36,14 @@ SourceFiles
 #ifndef cellDistFuncs_H
 #define cellDistFuncs_H
 
-#include "scalarField.H"
-#include "HashSet.H"
-#include "Map.H"
-#include "wordReList.H"
-#include "scalarField.H"
-#include "point.H"
-#include "primitivePatch.H"
-#include "className.H"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
+#include "OpenFOAM/primitives/strings/lists/wordReList.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/primitivePatch.hpp"
+#include "OpenFOAM/db/typeInfo/className.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

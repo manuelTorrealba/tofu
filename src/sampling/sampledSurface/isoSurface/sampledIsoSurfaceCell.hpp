@@ -37,8 +37,8 @@ SourceFiles
 #ifndef sampledIsoSurfaceCell_H
 #define sampledIsoSurfaceCell_H
 
-#include "sampledSurface.H"
-#include "triSurface.H"
+#include "sampling/sampledSurface/sampledSurface/sampledSurface.hpp"
+#include "triSurface/triSurface/triSurface.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

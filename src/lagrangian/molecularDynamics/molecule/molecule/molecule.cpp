@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "moleculeCloud.H"
-#include "molecule.H"
-#include "Random.H"
-#include "Time.H"
+#include "lagrangian/molecularDynamics/molecule/moleculeCloud/moleculeCloud.hpp"
+#include "lagrangian/molecularDynamics/molecule/molecule/molecule.hpp"
+#include "OpenFOAM/primitives/Random/Random.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

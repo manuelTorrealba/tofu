@@ -38,9 +38,9 @@ SourceFiles
 #ifndef ReactingParcel_H
 #define ReactingParcel_H
 
-#include "particle.H"
-#include "SLGThermo.H"
-#include "demandDrivenEntry.H"
+#include "lagrangian/basic/particle/particle.hpp"
+#include "thermophysicalModels/SLGThermo/SLGThermo/SLGThermo.hpp"
+#include "OpenFOAM/primitives/demandDrivenEntry/demandDrivenEntry.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -426,8 +426,8 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ReactingParcelI.H"
-#include "ReactingParcelTrackingDataI.H"
+#include "lagrangian/intermediate/parcels/Templates/ReactingParcel/ReactingParcelI.hpp"
+#include "lagrangian/intermediate/parcels/Templates/ReactingParcel/ReactingParcelTrackingDataI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

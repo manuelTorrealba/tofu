@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicACMIFvsPatchFields.H"
-#include "fvsPatchFields.H"
-#include "surfaceMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "finiteVolume/fields/fvsPatchFields/constraint/cyclicACMI/cyclicACMIFvsPatchFields.hpp"
+#include "finiteVolume/fields/fvsPatchFields/fvsPatchField/fvsPatchFields.hpp"
+#include "finiteVolume/surfaceMesh/surfaceMesh.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

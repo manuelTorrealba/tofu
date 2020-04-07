@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "trimModel.H"
+#include "fvOptions/sources/derived/rotorDiskSource/trimModel/trimModel/trimModel.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

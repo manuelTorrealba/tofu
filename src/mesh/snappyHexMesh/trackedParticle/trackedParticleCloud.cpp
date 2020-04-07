@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "trackedParticle.H"
-#include "Cloud.H"
+#include "mesh/snappyHexMesh/trackedParticle/trackedParticle.hpp"
+#include "lagrangian/basic/Cloud/Cloud.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

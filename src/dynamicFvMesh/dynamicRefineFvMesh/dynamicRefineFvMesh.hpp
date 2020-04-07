@@ -68,10 +68,10 @@ SourceFiles
 #ifndef dynamicRefineFvMesh_H
 #define dynamicRefineFvMesh_H
 
-#include "dynamicFvMesh.H"
-#include "hexRef8.H"
-#include "PackedBoolList.H"
-#include "Switch.H"
+#include "dynamicFvMesh/dynamicFvMesh/dynamicFvMesh.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/hexRef8/hexRef8.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

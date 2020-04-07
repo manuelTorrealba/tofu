@@ -55,7 +55,7 @@ SourceFiles
 #ifndef fixedInternalValueFvPatchField_H
 #define fixedInternalValueFvPatchField_H
 
-#include "zeroGradientFvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

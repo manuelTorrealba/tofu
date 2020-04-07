@@ -47,9 +47,9 @@ SourceFiles
 #ifndef PatchFlowRateInjection_H
 #define PatchFlowRateInjection_H
 
-#include "InjectionModel.H"
-#include "patchInjectionBase.H"
-#include "TimeFunction1.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/InjectionModel/InjectionModel.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/PatchInjection/patchInjectionBase.hpp"
+#include "OpenFOAM/primitives/functions/TimeFunction1/TimeFunction1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "displacementLinearMotionMotionSolver.H"
-#include "addToRunTimeSelectionTable.H"
+#include "dynamicMesh/motionSolvers/displacement/linearSolver/displacementLinearMotionMotionSolver.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

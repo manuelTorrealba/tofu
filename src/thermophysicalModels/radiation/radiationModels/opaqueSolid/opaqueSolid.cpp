@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "opaqueSolid.H"
-#include "physicoChemicalConstants.H"
-#include "fvMesh.H"
-#include "Time.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalModels/radiation/radiationModels/opaqueSolid/opaqueSolid.hpp"
+#include "OpenFOAM/global/constants/physicoChemical/physicoChemicalConstants.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

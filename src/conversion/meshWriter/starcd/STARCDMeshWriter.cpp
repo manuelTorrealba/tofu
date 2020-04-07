@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "STARCDMeshWriter.H"
+#include "conversion/meshWriter/starcd/STARCDMeshWriter.hpp"
 
-#include "Time.H"
-#include "SortableList.H"
-#include "OFstream.H"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/containers/Lists/SortableList/SortableList.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

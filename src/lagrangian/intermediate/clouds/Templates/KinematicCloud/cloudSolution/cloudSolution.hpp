@@ -36,9 +36,9 @@ SourceFiles
 #ifndef cloudSolution_H
 #define cloudSolution_H
 
-#include "fvMesh.H"
-#include "Switch.H"
-#include "Tuple2.H"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -216,7 +216,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cloudSolutionI.H"
+#include "lagrangian/intermediate/clouds/Templates/KinematicCloud/cloudSolution/cloudSolutionI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

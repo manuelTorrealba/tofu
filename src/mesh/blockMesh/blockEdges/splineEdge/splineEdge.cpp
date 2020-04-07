@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "splineEdge.H"
-#include "addToRunTimeSelectionTable.H"
+#include "mesh/blockMesh/blockEdges/splineEdge/splineEdge.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

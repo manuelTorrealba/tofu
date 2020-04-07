@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kOmegaSSTSAS.H"
+#include "TurbulenceModels/turbulenceModels/RAS/kOmegaSSTSAS/kOmegaSSTSAS.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

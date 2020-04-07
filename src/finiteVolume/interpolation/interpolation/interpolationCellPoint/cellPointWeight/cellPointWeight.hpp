@@ -35,9 +35,9 @@ SourceFiles
 #ifndef cellPointWeight_H
 #define cellPointWeight_H
 
-#include "vector.H"
-#include "barycentric.H"
-#include "triFace.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/primitives/Barycentric/barycentric/barycentric.hpp"
+#include "OpenFOAM/meshes/meshShapes/triFace/triFace.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

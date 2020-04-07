@@ -36,8 +36,8 @@ SourceFiles
 #ifndef trackedParticle_H
 #define trackedParticle_H
 
-#include "particle.H"
-#include "autoPtr.H"
+#include "lagrangian/basic/particle/particle.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

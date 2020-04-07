@@ -34,7 +34,7 @@ SourceFiles
 #ifndef NoIsotropy_H
 #define NoIsotropy_H
 
-#include "IsotropyModel.H"
+#include "lagrangian/intermediate/submodels/MPPIC/IsotropyModels/IsotropyModel/IsotropyModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

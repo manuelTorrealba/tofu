@@ -26,9 +26,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "MGridGenGAMGAgglomeration.H"
-#include "fvMesh.H"
-#include "syncTools.H"
+#include "fvAgglomerationMethods/MGridGenGamgAgglomeration/MGridGenGAMGAgglomeration.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "incompressibleTwoPhaseMixture.H"
-#include "addToRunTimeSelectionTable.H"
-#include "surfaceFields.H"
-#include "fvc.H"
+#include "transportModels/incompressible/incompressibleTwoPhaseMixture/incompressibleTwoPhaseMixture.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvc.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

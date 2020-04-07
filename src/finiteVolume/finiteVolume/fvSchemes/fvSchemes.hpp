@@ -37,7 +37,7 @@ SourceFiles
 #ifndef fvSchemes_H
 #define fvSchemes_H
 
-#include "IOdictionary.H"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

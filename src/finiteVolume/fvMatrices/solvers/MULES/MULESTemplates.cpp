@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MULES.H"
-#include "upwind.H"
-#include "fvcSurfaceIntegrate.H"
-#include "localEulerDdtScheme.H"
-#include "slicedSurfaceFields.H"
-#include "wedgeFvPatch.H"
-#include "syncTools.H"
+#include "finiteVolume/fvMatrices/solvers/MULES/MULES.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/upwind/upwind.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcSurfaceIntegrate.hpp"
+#include "finiteVolume/finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.hpp"
+#include "finiteVolume/fields/surfaceFields/slicedSurfaceFields.hpp"
+#include "finiteVolume/fvMesh/fvPatches/constraint/wedge/wedgeFvPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

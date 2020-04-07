@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "filmThermoModel.H"
-#include "surfaceInterpolate.H"
-#include "fvcSurfaceIntegrate.H"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/filmThermoModel/filmThermoModel/filmThermoModel.hpp"
+#include "functionObjects/field/surfaceInterpolate/surfaceInterpolate.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcSurfaceIntegrate.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

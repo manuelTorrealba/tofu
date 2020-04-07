@@ -41,8 +41,8 @@ SourceFiles
 #ifndef fft_H
 #define fft_H
 
-#include "complexFields.H"
-#include "labelList.H"
+#include "OpenFOAM/fields/Fields/complexFields/complexFields.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

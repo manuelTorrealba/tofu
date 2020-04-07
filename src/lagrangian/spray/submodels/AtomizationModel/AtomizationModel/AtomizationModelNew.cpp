@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "AtomizationModel.H"
+#include "lagrangian/spray/submodels/AtomizationModel/AtomizationModel/AtomizationModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

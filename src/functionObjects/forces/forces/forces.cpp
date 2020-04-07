@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "forces.H"
-#include "fvcGrad.H"
-#include "porosityModel.H"
-#include "turbulentTransportModel.H"
-#include "turbulentFluidThermoModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/forces/forces/forces.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcGrad.hpp"
+#include "finiteVolume/cfdTools/general/porosityModel/porosityModel/porosityModel.hpp"
+#include "TurbulenceModels/incompressible/turbulentTransportModels/turbulentTransportModel.hpp"
+#include "TurbulenceModels/compressible/turbulentFluidThermoModels/turbulentFluidThermoModel.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

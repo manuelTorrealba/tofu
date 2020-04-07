@@ -34,8 +34,8 @@ SourceFiles
 #ifndef timeVaryingMappedFixedValuePointPatchFields_H
 #define timeVaryingMappedFixedValuePointPatchFields_H
 
-#include "timeVaryingMappedFixedValuePointPatchField.H"
-#include "fieldTypes.H"
+#include "fvMotionSolver/pointPatchFields/derived/timeVaryingMappedFixedValue/timeVaryingMappedFixedValuePointPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

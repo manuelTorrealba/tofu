@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LESModel.H"
+#include "TurbulenceModels/turbulenceModels/LES/LESModel/LESModel.hpp"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

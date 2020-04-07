@@ -99,9 +99,9 @@ SourceFiles
 #ifndef v2f_H
 #define v2f_H
 
-#include "v2fBase.H"
-#include "RASModel.H"
-#include "eddyViscosity.H"
+#include "TurbulenceModels/turbulenceModels/RAS/v2f/v2fBase.hpp"
+#include "TurbulenceModels/turbulenceModels/RAS/RASModel/RASModel.hpp"
+#include "TurbulenceModels/turbulenceModels/eddyViscosity/eddyViscosity.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

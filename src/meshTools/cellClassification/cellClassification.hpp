@@ -92,11 +92,11 @@ SourceFiles
 #ifndef cellClassification_H
 #define cellClassification_H
 
-#include "pointField.H"
-#include "Map.H"
-#include "boolList.H"
-#include "labelList.H"
-#include "faceList.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/faceList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

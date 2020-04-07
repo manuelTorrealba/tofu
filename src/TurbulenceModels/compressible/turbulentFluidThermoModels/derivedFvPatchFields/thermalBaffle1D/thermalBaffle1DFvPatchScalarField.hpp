@@ -88,9 +88,9 @@ SourceFiles
 #ifndef thermalBaffle1DFvPatchScalarField_H
 #define thermalBaffle1DFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
-#include "autoPtr.H"
-#include "mappedPatchBase.H"
+#include "finiteVolume/fields/fvPatchFields/basic/mixed/mixedFvPatchFields.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "meshTools/mappedPatches/mappedPolyPatch/mappedPatchBase.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

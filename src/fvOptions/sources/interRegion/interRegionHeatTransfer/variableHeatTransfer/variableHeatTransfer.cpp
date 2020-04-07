@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "variableHeatTransfer.H"
-#include "turbulentFluidThermoModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvOptions/sources/interRegion/interRegionHeatTransfer/variableHeatTransfer/variableHeatTransfer.hpp"
+#include "TurbulenceModels/compressible/turbulentFluidThermoModels/turbulentFluidThermoModel.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

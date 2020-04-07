@@ -38,12 +38,12 @@ SourceFiles
 #ifndef OFSsurfaceFormat_H
 #define OFSsurfaceFormat_H
 
-#include "Ostream.H"
-#include "OFstream.H"
-#include "MeshedSurface.H"
-#include "MeshedSurfaceProxy.H"
-#include "UnsortedMeshedSurface.H"
-#include "OFSsurfaceFormatCore.H"
+#include "OpenFOAM/db/IOstreams/IOstreams/Ostream.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "surfMesh/MeshedSurface/MeshedSurface.hpp"
+#include "surfMesh/MeshedSurfaceProxy/MeshedSurfaceProxy.hpp"
+#include "surfMesh/UnsortedMeshedSurface/UnsortedMeshedSurface.hpp"
+#include "surfMesh/surfaceFormats/ofs/OFSsurfaceFormatCore.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

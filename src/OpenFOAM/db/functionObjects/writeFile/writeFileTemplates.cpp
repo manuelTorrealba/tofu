@@ -23,6 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
+#include "OpenFOAM/db/functionObjects/writeFile/writeFile.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 template<class Type>

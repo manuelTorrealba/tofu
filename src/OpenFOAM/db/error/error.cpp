@@ -30,6 +30,7 @@ License
 #include "OpenFOAM/global/jobInfo/jobInfo.hpp"
 #include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
 #include "OpenFOAM/include/OSspecific.hpp"
+#include "OpenFOAM/global/argList/argList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

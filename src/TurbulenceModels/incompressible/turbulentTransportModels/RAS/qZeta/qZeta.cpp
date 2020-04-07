@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "qZeta.H"
-#include "bound.H"
-#include "addToRunTimeSelectionTable.H"
+#include "TurbulenceModels/incompressible/turbulentTransportModels/RAS/qZeta/qZeta.hpp"
+#include "finiteVolume/cfdTools/general/bound/bound.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

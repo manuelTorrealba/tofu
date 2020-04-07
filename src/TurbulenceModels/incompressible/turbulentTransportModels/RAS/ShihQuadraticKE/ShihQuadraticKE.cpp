@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ShihQuadraticKE.H"
-#include "bound.H"
-#include "wallFvPatch.H"
-#include "nutkWallFunctionFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "TurbulenceModels/incompressible/turbulentTransportModels/RAS/ShihQuadraticKE/ShihQuadraticKE.hpp"
+#include "finiteVolume/cfdTools/general/bound/bound.hpp"
+#include "finiteVolume/fvMesh/fvPatches/derived/wall/wallFvPatch.hpp"
+#include "TurbulenceModels/turbulenceModels/derivedFvPatchFields/wallFunctions/nutWallFunctions/nutkWallFunction/nutkWallFunctionFvPatchScalarField.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

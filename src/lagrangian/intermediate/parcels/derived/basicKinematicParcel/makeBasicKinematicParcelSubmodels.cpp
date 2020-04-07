@@ -23,17 +23,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicKinematicCloud.H"
+#include "lagrangian/intermediate/clouds/derived/basicKinematicCloud/basicKinematicCloud.hpp"
 
-#include "makeParcelCloudFunctionObjects.H"
+#include "lagrangian/intermediate/parcels/include/makeParcelCloudFunctionObjects.hpp"
 
 // Kinematic
-#include "makeParcelForces.H"
-#include "makeParcelDispersionModels.H"
-#include "makeParcelInjectionModels.H"
-#include "makeParcelPatchInteractionModels.H"
-#include "makeParcelStochasticCollisionModels.H"
-#include "makeParcelSurfaceFilmModels.H"
+#include "lagrangian/intermediate/parcels/include/makeParcelForces.hpp"
+#include "lagrangian/intermediate/parcels/include/makeParcelDispersionModels.hpp"
+#include "lagrangian/intermediate/parcels/include/makeParcelInjectionModels.hpp"
+#include "lagrangian/intermediate/parcels/include/makeParcelPatchInteractionModels.hpp"
+#include "lagrangian/intermediate/parcels/include/makeParcelStochasticCollisionModels.hpp"
+#include "lagrangian/intermediate/parcels/include/makeParcelSurfaceFilmModels.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pisoControl.H"
+#include "finiteVolume/cfdTools/general/solutionControl/pisoControl/pisoControl.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

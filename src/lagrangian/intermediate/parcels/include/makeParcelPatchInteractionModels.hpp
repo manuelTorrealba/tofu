@@ -28,10 +28,10 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "LocalInteraction.H"
-#include "NoInteraction.H"
-#include "Rebound.H"
-#include "StandardWallInteraction.H"
+#include "lagrangian/intermediate/submodels/Kinematic/PatchInteractionModel/LocalInteraction/LocalInteraction.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/PatchInteractionModel/NoInteraction/NoInteraction.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/PatchInteractionModel/Rebound/Rebound.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/PatchInteractionModel/StandardWallInteraction/StandardWallInteraction.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

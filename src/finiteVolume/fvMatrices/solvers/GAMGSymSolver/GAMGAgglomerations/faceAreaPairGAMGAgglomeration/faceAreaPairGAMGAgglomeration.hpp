@@ -35,7 +35,7 @@ SourceFiles
 #ifndef faceAreaPairGAMGAgglomeration_H
 #define faceAreaPairGAMGAgglomeration_H
 
-#include "pairGAMGAgglomeration.H"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/pairGAMGAgglomeration/pairGAMGAgglomeration.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

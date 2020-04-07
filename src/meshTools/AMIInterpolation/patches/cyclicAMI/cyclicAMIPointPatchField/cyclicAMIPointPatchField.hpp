@@ -35,8 +35,8 @@ SourceFiles
 #ifndef cyclicAMIPointPatchField_H
 #define cyclicAMIPointPatchField_H
 
-#include "coupledPointPatchField.H"
-#include "cyclicAMIPointPatch.H"
+#include "OpenFOAM/fields/pointPatchFields/basic/coupled/coupledPointPatchField.hpp"
+#include "meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPointPatch/cyclicAMIPointPatch.hpp"
 #include "PrimitivePatchInterpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -37,10 +37,10 @@ SourceFiles
 #ifndef sampledIsoSurface_H
 #define sampledIsoSurface_H
 
-#include "isoSurface.H"
-#include "sampledSurface.H"
-#include "ZoneIDs.H"
-#include "fvMeshSubset.H"
+#include "sampling/sampledSurface/isoSurface/isoSurface.hpp"
+#include "sampling/sampledSurface/sampledSurface/sampledSurface.hpp"
+#include "OpenFOAM/meshes/Identifiers/zones/ZoneIDs.hpp"
+#include "dynamicMesh/fvMeshSubset/fvMeshSubset.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

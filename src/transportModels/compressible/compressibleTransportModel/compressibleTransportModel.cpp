@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "compressibleTransportModel.H"
+#include "transportModels/compressible/compressibleTransportModel/compressibleTransportModel.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

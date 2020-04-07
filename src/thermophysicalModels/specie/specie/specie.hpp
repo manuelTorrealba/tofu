@@ -36,11 +36,11 @@ SourceFiles
 #ifndef specie_H
 #define specie_H
 
-#include "word.H"
-#include "scalar.H"
-#include "dictionary.H"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
-#include "thermodynamicConstants.H"
+#include "OpenFOAM/global/constants/thermodynamic/thermodynamicConstants.hpp"
 using namespace Foam::constant::thermodynamic;
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -152,7 +152,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "specieI.H"
+#include "thermophysicalModels/specie/specie/specieI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

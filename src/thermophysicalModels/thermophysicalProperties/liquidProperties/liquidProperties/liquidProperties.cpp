@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "liquidProperties.H"
-#include "HashTable.H"
-#include "Switch.H"
+#include "thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.hpp"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

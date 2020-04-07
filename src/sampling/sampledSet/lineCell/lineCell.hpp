@@ -53,7 +53,7 @@ SourceFiles
 #ifndef lineCell_H
 #define lineCell_H
 
-#include "lineFace.H"
+#include "sampling/sampledSet/lineFace/lineFace.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

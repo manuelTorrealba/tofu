@@ -36,8 +36,8 @@ SourceFiles
 #ifndef patchPatchDist_H
 #define patchPatchDist_H
 
-#include "scalarField.H"
-#include "HashSet.H"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

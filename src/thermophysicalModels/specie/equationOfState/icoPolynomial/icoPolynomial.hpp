@@ -63,8 +63,8 @@ See also
 #ifndef icoPolynomial_H
 #define icoPolynomial_H
 
-#include "autoPtr.H"
-#include "Polynomial.H"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/primitives/functions/Polynomial/Polynomial.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -244,7 +244,7 @@ defineTemplateTypeNameAndDebugWithName                                         \
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "icoPolynomialI.H"
+#include "thermophysicalModels/specie/equationOfState/icoPolynomial/icoPolynomialI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

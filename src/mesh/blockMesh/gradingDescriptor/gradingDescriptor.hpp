@@ -44,7 +44,7 @@ SourceFiles
 #ifndef gradingDescriptor_H
 #define gradingDescriptor_H
 
-#include "scalar.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

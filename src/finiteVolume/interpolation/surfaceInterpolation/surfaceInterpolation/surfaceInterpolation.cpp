@@ -26,11 +26,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMesh.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "demandDrivenData.H"
-#include "coupledFvPatch.H"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
+#include "finiteVolume/fvMesh/fvPatches/basic/coupled/coupledFvPatch.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

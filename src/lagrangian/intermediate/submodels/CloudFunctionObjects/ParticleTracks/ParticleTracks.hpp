@@ -35,7 +35,7 @@ SourceFiles
 #ifndef ParticleTracks_H
 #define ParticleTracks_H
 
-#include "CloudFunctionObject.H"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -155,7 +155,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ParticleTracksI.H"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/ParticleTracks/ParticleTracksI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -47,7 +47,7 @@ SourceFiles
 #ifndef Relaxation_H
 #define Relaxation_H
 
-#include "DampingModel.H"
+#include "lagrangian/intermediate/submodels/MPPIC/DampingModels/DampingModel/DampingModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

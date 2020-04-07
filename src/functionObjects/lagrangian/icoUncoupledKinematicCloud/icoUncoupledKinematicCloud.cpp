@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "icoUncoupledKinematicCloud.H"
-#include "singlePhaseTransportModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/lagrangian/icoUncoupledKinematicCloud/icoUncoupledKinematicCloud.hpp"
+#include "transportModels/incompressible/singlePhaseTransportModel/singlePhaseTransportModel.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

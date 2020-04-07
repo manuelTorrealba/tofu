@@ -29,8 +29,8 @@ License
 #include "OpenFOAM/primitives/Pair/labelPair.hpp"
 #include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaces/processorGAMGInterface/processorGAMGInterface.hpp"
 #include "OpenFOAM/containers/Lists/UIndirectList/UIndirectList.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.cpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.cpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

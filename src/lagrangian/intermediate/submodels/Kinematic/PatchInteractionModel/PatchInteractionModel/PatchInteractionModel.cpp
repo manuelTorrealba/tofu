@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchInteractionModel.H"
-#include "fvMesh.H"
-#include "Time.H"
-#include "volFields.H"
+#include "lagrangian/intermediate/submodels/Kinematic/PatchInteractionModel/PatchInteractionModel/PatchInteractionModel.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

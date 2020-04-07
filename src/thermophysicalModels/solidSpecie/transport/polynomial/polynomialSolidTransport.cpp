@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polynomialSolidTransport.H"
-#include "IOstreams.H"
+#include "thermophysicalModels/solidSpecie/transport/polynomial/polynomialSolidTransport.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

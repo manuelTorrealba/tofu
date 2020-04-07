@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Q.H"
-#include "fvcGrad.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/field/Q/Q.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcGrad.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

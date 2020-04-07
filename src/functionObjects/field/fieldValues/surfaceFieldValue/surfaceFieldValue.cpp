@@ -23,16 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceFieldValue.H"
-#include "fvMesh.H"
-#include "cyclicPolyPatch.H"
-#include "emptyPolyPatch.H"
-#include "coupledPolyPatch.H"
-#include "sampledSurface.H"
-#include "mergePoints.H"
-#include "indirectPrimitivePatch.H"
-#include "PatchTools.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/field/fieldValues/surfaceFieldValue/surfaceFieldValue.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.hpp"
+#include "sampling/sampledSurface/sampledSurface/sampledSurface.hpp"
+#include "OpenFOAM/meshes/meshTools/mergePoints.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/PatchTools/PatchTools.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

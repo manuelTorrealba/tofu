@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "passiveParticleCloud.H"
+#include "lagrangian/basic/passiveParticle/passiveParticleCloud.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

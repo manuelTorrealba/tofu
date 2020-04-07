@@ -56,13 +56,13 @@ SourceFiles
 #ifndef surfaceIntersection_H
 #define surfaceIntersection_H
 
-#include "DynamicList.H"
-#include "point.H"
-#include "edge.H"
-#include "labelPairLookup.H"
-#include "typeInfo.H"
-#include "edgeList.H"
-#include "pointIndexHit.H"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "OpenFOAM/meshes/meshShapes/edge/edge.hpp"
+#include "triSurface/tools/labelPair/labelPairLookup.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/meshes/meshShapes/edge/edgeList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/pointIndexHit.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

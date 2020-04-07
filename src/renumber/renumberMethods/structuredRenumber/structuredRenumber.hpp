@@ -40,9 +40,9 @@ SourceFiles
 #ifndef structuredRenumber_H
 #define structuredRenumber_H
 
-#include "renumberMethod.H"
-#include "topoDistanceData.H"
-#include "Switch.H"
+#include "renumber/renumberMethods/renumberMethod/renumberMethod.hpp"
+#include "meshTools/meshStructure/topoDistanceData.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
 
 namespace Foam
 {

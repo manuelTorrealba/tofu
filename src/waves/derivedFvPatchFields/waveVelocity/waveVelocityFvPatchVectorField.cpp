@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "waveVelocityFvPatchVectorField.H"
-#include "wavePressureFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "levelSet.H"
-#include "volFields.H"
-#include "fvMeshSubset.H"
+#include "waves/derivedFvPatchFields/waveVelocity/waveVelocityFvPatchVectorField.hpp"
+#include "waves/derivedFvPatchFields/wavePressure/wavePressureFvPatchScalarField.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "finiteVolume/cfdTools/general/levelSet/levelSet.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "dynamicMesh/fvMeshSubset/fvMeshSubset.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

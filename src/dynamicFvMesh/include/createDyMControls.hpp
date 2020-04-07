@@ -1,5 +1,5 @@
-#include "createControl.H"
-#include "createTimeControls.H"
+#include "finiteVolume/cfdTools/general/solutionControl/createControl.hpp"
+#include "finiteVolume/cfdTools/general/include/createTimeControls.hpp"
 
 bool correctPhi
 (

@@ -23,25 +23,25 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeSolidThermo.H"
-#include "solidThermo.H"
-#include "heSolidThermo.H"
+#include "thermophysicalModels/solidThermo/solidThermo/makeSolidThermo.hpp"
+#include "thermophysicalModels/solidThermo/solidThermo/solidThermo.hpp"
+#include "thermophysicalModels/solidThermo/solidThermo/heSolidThermo.hpp"
 
-#include "specie.H"
-#include "rhoConst.H"
-#include "hConstThermo.H"
-#include "hPowerThermo.H"
-#include "hPolynomialThermo.H"
-#include "constIsoSolidTransport.H"
-#include "constAnIsoSolidTransport.H"
-#include "exponentialSolidTransport.H"
-#include "polynomialSolidTransport.H"
-#include "pureMixture.H"
-#include "sensibleEnthalpy.H"
-#include "sensibleInternalEnergy.H"
-#include "thermo.H"
+#include "thermophysicalModels/specie/specie/specie.hpp"
+#include "thermophysicalModels/specie/equationOfState/rhoConst/rhoConst.hpp"
+#include "thermophysicalModels/specie/thermo/hConst/hConstThermo.hpp"
+#include "thermophysicalModels/specie/thermo/hPower/hPowerThermo.hpp"
+#include "thermophysicalModels/specie/thermo/hPolynomial/hPolynomialThermo.hpp"
+#include "thermophysicalModels/solidSpecie/transport/const/constIsoSolidTransport.hpp"
+#include "thermophysicalModels/solidSpecie/transport/const/constAnIsoSolidTransport.hpp"
+#include "thermophysicalModels/solidSpecie/transport/exponential/exponentialSolidTransport.hpp"
+#include "thermophysicalModels/solidSpecie/transport/polynomial/polynomialSolidTransport.hpp"
+#include "thermophysicalModels/basic/mixtures/pureMixture/pureMixture.hpp"
+#include "thermophysicalModels/specie/thermo/sensibleEnthalpy/sensibleEnthalpy.hpp"
+#include "thermophysicalModels/specie/thermo/sensibleInternalEnergy/sensibleInternalEnergy.hpp"
+#include "thermophysicalModels/specie/thermo/thermo/thermo.hpp"
 
-#include "solidThermoPhysicsTypes.H"
+#include "thermophysicalModels/solidSpecie/include/solidThermoPhysicsTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

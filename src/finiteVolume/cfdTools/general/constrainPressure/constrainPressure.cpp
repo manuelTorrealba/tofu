@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constrainPressure.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "geometricOneField.H"
-#include "fixedFluxPressureFvPatchScalarField.H"
+#include "finiteVolume/cfdTools/general/constrainPressure/constrainPressure.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
+#include "OpenFOAM/fields/GeometricFields/geometricOneField/geometricOneField.hpp"
+#include "finiteVolume/fields/fvPatchFields/derived/fixedFluxPressure/fixedFluxPressureFvPatchScalarField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -50,9 +50,9 @@ SourceFiles
 #ifndef cyclicFvPatchField_H
 #define cyclicFvPatchField_H
 
-#include "coupledFvPatchField.H"
-#include "cyclicLduInterfaceField.H"
-#include "cyclicFvPatch.H"
+#include "finiteVolume/fields/fvPatchFields/basic/coupled/coupledFvPatchField.hpp"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterfaceFields/cyclicLduInterfaceField/cyclicLduInterfaceField.hpp"
+#include "finiteVolume/fvMesh/fvPatches/constraint/cyclic/cyclicFvPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

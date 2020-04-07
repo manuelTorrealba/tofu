@@ -54,7 +54,7 @@ SourceFiles
 #ifndef continuousGasKEqn_H
 #define continuousGasKEqn_H
 
-#include "kEqn.H"
+#include "TurbulenceModels/turbulenceModels/LES/kEqn/kEqn.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

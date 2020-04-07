@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableSurfaceWithGaps.H"
-#include "addToRunTimeSelectionTable.H"
-#include "Time.H"
-#include "ListOps.H"
+#include "meshTools/searchableSurfaces/searchableSurfaceWithGaps/searchableSurfaceWithGaps.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

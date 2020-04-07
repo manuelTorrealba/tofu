@@ -32,8 +32,8 @@ Description
 #ifndef valveBank_H
 #define valveBank_H
 
-#include "PtrList.H"
-#include "engineValve.H"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "engine/engineValve/engineValve.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

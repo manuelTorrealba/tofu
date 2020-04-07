@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "absorptionCoeffs.H"
-#include "IOstreams.H"
+#include "thermophysicalModels/radiation/radiationModels/fvDOM/absorptionCoeffs/absorptionCoeffs.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * * * Destructor  * * * * * * * * * * * * * * //
 

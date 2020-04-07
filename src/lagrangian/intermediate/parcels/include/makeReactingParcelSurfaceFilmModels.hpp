@@ -28,8 +28,8 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoSurfaceFilm.H"
-#include "ThermoSurfaceFilm.H"
+#include "lagrangian/intermediate/submodels/Kinematic/SurfaceFilmModel/NoSurfaceFilm/NoSurfaceFilm.hpp"
+#include "lagrangian/intermediate/submodels/Thermodynamic/SurfaceFilmModel/ThermoSurfaceFilm/ThermoSurfaceFilm.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -115,8 +115,8 @@ SourceFiles
 #ifndef externalCoupledMixedFvPatchField_H
 #define externalCoupledMixedFvPatchField_H
 
-#include "mixedFvPatchFields.H"
-#include "OFstream.H"
+#include "finiteVolume/fields/fvPatchFields/basic/mixed/mixedFvPatchFields.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

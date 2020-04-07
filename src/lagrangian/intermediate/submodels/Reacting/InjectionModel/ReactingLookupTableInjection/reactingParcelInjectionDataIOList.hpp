@@ -34,8 +34,8 @@ SourceFiles
 #ifndef reactingParcelInjectionDataIOList_H
 #define reactingParcelInjectionDataIOList_H
 
-#include "IOList.H"
-#include "reactingParcelInjectionData.H"
+#include "OpenFOAM/db/IOobjects/IOList/IOList.hpp"
+#include "lagrangian/intermediate/submodels/Reacting/InjectionModel/ReactingLookupTableInjection/reactingParcelInjectionData.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoPacking.H"
+#include "lagrangian/intermediate/submodels/MPPIC/PackingModels/NoPacking/NoPacking.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "compositeBody.H"
+#include "rigidBodyDynamics/bodies/compositeBody/compositeBody.hpp"
 
 // * * * * * * * * * * * * * * * * Destructor  * * * * * * * * * * * * * * * //
 

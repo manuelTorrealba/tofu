@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceTriangulation.H"
-#include "plane.H"
+#include "triSurface/faceTriangulation/faceTriangulation.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/plane/plane.hpp"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

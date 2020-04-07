@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "refinementParameters.H"
-#include "unitConversion.H"
-#include "polyMesh.H"
-#include "globalIndex.H"
+#include "mesh/snappyHexMesh/snappyHexMeshDriver/refinementParameters/refinementParameters.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

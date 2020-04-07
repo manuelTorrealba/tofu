@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CloudFunctionObject.H"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.hpp"
 
 // * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * * //
 

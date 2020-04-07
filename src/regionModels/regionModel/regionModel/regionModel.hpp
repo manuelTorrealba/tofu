@@ -36,12 +36,12 @@ SourceFiles
 #ifndef regionModel_H
 #define regionModel_H
 
-#include "IOdictionary.H"
-#include "Switch.H"
-#include "labelList.H"
-#include "volFields.H"
-#include "mappedPatchBase.H"
-#include "regionModelFunctionObjectList.H"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "meshTools/mappedPatches/mappedPolyPatch/mappedPatchBase.hpp"
+#include "regionModels/regionModel/regionModelFunctionObject/regionModelFunctionObject/regionModelFunctionObjectList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -351,7 +351,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "regionModelI.H"
+#include "regionModels/regionModel/regionModel/regionModelI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

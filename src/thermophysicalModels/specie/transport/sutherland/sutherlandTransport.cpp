@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sutherlandTransport.H"
-#include "IOstreams.H"
+#include "thermophysicalModels/specie/transport/sutherland/sutherlandTransport.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "d2dt2Scheme.H"
+#include "finiteVolume/finiteVolume/d2dt2Schemes/d2dt2Scheme/d2dt2Scheme.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

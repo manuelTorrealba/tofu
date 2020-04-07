@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "maxDeltaxyz.H"
-#include "addToRunTimeSelectionTable.H"
+#include "TurbulenceModels/turbulenceModels/LES/LESdeltas/maxDeltaxyz/maxDeltaxyz.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

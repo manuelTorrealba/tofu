@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableSurfaceToFaceZone.H"
-#include "polyMesh.H"
-#include "faceZoneSet.H"
-#include "searchableSurface.H"
-#include "syncTools.H"
-#include "Time.H"
+#include "meshTools/sets/faceZoneSources/searchableSurfaceToFaceZone/searchableSurfaceToFaceZone.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "meshTools/sets/topoSets/faceZoneSet.hpp"
+#include "meshTools/searchableSurfaces/searchableSurface/searchableSurface.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
 
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

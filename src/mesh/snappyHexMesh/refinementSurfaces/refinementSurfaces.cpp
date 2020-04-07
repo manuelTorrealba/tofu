@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "refinementSurfaces.H"
-#include "Time.H"
-#include "searchableSurfaces.H"
-#include "shellSurfaces.H"
-#include "triSurfaceMesh.H"
-#include "labelPair.H"
-#include "searchableSurfacesQueries.H"
-#include "UPtrList.H"
-#include "volumeType.H"
+#include "mesh/snappyHexMesh/refinementSurfaces/refinementSurfaces.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "meshTools/searchableSurfaces/searchableSurfaces/searchableSurfaces.hpp"
+#include "mesh/snappyHexMesh/shellSurfaces/shellSurfaces.hpp"
+#include "meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.hpp"
+#include "OpenFOAM/primitives/Pair/labelPair.hpp"
+#include "meshTools/searchableSurfaces/searchableSurfacesQueries/searchableSurfacesQueries.hpp"
+#include "OpenFOAM/containers/Lists/UPtrList/UPtrList.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/volumeType.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -37,8 +37,8 @@ SourceFiles
 #ifndef refinementData_H
 #define refinementData_H
 
-#include "point.H"
-#include "tensor.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "OpenFOAM/primitives/Tensor/tensor/tensor.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -231,7 +231,7 @@ inline bool contiguous<refinementData>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "refinementDataI.H"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/refinementDataI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

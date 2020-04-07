@@ -37,15 +37,15 @@ SourceFiles
 #ifndef MeshedSurfaceProxy_H
 #define MeshedSurfaceProxy_H
 
-#include "pointField.H"
-#include "face.H"
-#include "triFace.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/face.hpp"
+#include "OpenFOAM/meshes/meshShapes/triFace/triFace.hpp"
 
-#include "surfZoneList.H"
-#include "surfaceFormatsCore.H"
-#include "runTimeSelectionTables.H"
-#include "memberFunctionSelectionTables.H"
-#include "HashSet.H"
+#include "surfMesh/surfZone/surfZone/surfZoneList.hpp"
+#include "surfMesh/surfaceFormats/surfaceFormatsCore.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
+#include "OpenFOAM/db/runTimeSelection/memberFunctions/memberFunctionSelectionTables.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

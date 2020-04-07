@@ -53,9 +53,9 @@ SourceFiles
 #ifndef boundaryRandom_H
 #define boundaryRandom_H
 
-#include "sampledSet.H"
-#include "DynamicList.H"
-#include "HashSet.H"
+#include "sampling/sampledSet/sampledSet/sampledSet.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

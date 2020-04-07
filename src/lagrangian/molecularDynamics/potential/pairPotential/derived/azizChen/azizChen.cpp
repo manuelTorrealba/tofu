@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "azizChen.H"
-#include "addToRunTimeSelectionTable.H"
+#include "lagrangian/molecularDynamics/potential/pairPotential/derived/azizChen/azizChen.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

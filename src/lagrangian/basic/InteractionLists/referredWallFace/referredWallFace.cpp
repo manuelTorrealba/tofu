@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "referredWallFace.H"
+#include "lagrangian/basic/InteractionLists/referredWallFace/referredWallFace.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

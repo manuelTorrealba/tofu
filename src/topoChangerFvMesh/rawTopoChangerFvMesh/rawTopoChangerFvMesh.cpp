@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rawTopoChangerFvMesh.H"
-#include "mapPolyMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "volFields.H"
-#include "linear.H"
+#include "topoChangerFvMesh/rawTopoChangerFvMesh/rawTopoChangerFvMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "thermophysicalModels/specie/equationOfState/linear/linear.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

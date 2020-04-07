@@ -35,8 +35,8 @@ SourceFiles
 #ifndef duplicatePoints_H
 #define duplicatePoints_H
 
-#include "labelList.H"
-#include "typeInfo.H"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

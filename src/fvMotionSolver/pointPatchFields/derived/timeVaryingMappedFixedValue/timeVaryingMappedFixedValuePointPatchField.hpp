@@ -38,10 +38,10 @@ SourceFiles
 #ifndef timeVaryingMappedFixedValuePointPatchField_H
 #define timeVaryingMappedFixedValuePointPatchField_H
 
-#include "fixedValuePointPatchField.H"
-#include "instantList.H"
-#include "pointToPointPlanarInterpolation.H"
-#include "Function1.H"
+#include "OpenFOAM/fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.hpp"
+#include "OpenFOAM/db/Time/instant/instantList.hpp"
+#include "meshTools/triSurface/triSurfaceTools/pointToPointPlanarInterpolation.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

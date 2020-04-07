@@ -55,7 +55,7 @@ SourceFiles
 #ifndef functionObjects_add_H
 #define functionObjects_add_H
 
-#include "fieldsExpression.H"
+#include "functionObjects/field/fieldsExpression/fieldsExpression.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

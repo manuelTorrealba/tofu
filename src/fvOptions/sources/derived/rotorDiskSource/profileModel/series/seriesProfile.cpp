@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "seriesProfile.H"
-#include "addToRunTimeSelectionTable.H"
-#include "IFstream.H"
+#include "fvOptions/sources/derived/rotorDiskSource/profileModel/series/seriesProfile.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

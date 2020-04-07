@@ -44,7 +44,7 @@ SourceFiles
 #ifndef wallPointYPlus_H
 #define wallPointYPlus_H
 
-#include "wallPointData.H"
+#include "meshTools/cellDist/wallPoint/wallPointData.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -156,7 +156,7 @@ inline bool contiguous<wallPointYPlus>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "wallPointYPlusI.H"
+#include "finiteVolume/fvMesh/wallDist/wallPointYPlus/wallPointYPlusI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

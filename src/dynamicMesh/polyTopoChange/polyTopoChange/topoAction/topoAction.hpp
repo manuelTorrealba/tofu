@@ -34,8 +34,8 @@ SourceFiles
 #ifndef topoAction_H
 #define topoAction_H
 
-#include "typeInfo.H"
-#include "autoPtr.H"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

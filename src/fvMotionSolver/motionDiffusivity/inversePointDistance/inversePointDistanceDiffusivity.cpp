@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "inversePointDistanceDiffusivity.H"
-#include "addToRunTimeSelectionTable.H"
-#include "HashSet.H"
-#include "pointEdgePoint.H"
-#include "PointEdgeWave.H"
+#include "fvMotionSolver/motionDiffusivity/inversePointDistance/inversePointDistanceDiffusivity.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "meshTools/algorithms/PointEdgeWave/pointEdgePoint.hpp"
+#include "meshTools/algorithms/PointEdgeWave/PointEdgeWave.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

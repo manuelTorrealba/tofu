@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SprayCloud.H"
-#include "AtomizationModel.H"
-#include "BreakupModel.H"
+#include "lagrangian/spray/clouds/Templates/SprayCloud/SprayCloud.hpp"
+#include "lagrangian/spray/submodels/AtomizationModel/AtomizationModel/AtomizationModel.hpp"
+#include "lagrangian/spray/submodels/BreakupModel/BreakupModel/BreakupModel.hpp"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

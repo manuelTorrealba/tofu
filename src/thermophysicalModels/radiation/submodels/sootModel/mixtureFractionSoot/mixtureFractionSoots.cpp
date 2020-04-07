@@ -24,9 +24,9 @@ License
 \*---------------------------------------------------------------------------*/
 
 
-#include "mixtureFractionSoot.H"
-#include "makeSootTypes.H"
-#include "thermoPhysicsTypes.H"
+#include "thermophysicalModels/radiation/submodels/sootModel/mixtureFractionSoot/mixtureFractionSoot.hpp"
+#include "thermophysicalModels/radiation/submodels/sootModel/sootModel/makeSootTypes.hpp"
+#include "thermophysicalModels/specie/include/thermoPhysicsTypes.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

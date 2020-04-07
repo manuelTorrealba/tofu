@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshTriangulation.H"
-#include "polyMesh.H"
-#include "faceTriangulation.H"
+#include "triSurface/meshTriangulation/meshTriangulation.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "triSurface/faceTriangulation/faceTriangulation.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

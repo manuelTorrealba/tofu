@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchPatchDist.H"
-#include "PatchEdgeFaceWave.H"
-#include "syncTools.H"
-#include "polyMesh.H"
-#include "patchEdgeFaceInfo.H"
+#include "meshTools/algorithms/PatchEdgeFaceWave/patchPatchDist.hpp"
+#include "meshTools/algorithms/PatchEdgeFaceWave/PatchEdgeFaceWave.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "meshTools/algorithms/PatchEdgeFaceWave/patchEdgeFaceInfo.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

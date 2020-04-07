@@ -35,9 +35,9 @@ SourceFiles
 #ifndef functionObjects_writeDictionary_H
 #define functionObjects_writeDictionary_H
 
-#include "functionObject.H"
-#include "wordList.H"
-#include "SHA1Digest.H"
+#include "OpenFOAM/db/functionObjects/functionObject/functionObject.hpp"
+#include "OpenFOAM/primitives/strings/lists/wordList.hpp"
+#include "OpenFOAM/primitives/hashes/SHA1/SHA1Digest.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

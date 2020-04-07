@@ -35,7 +35,7 @@ SourceFiles
 #ifndef partialFaceAreaWeightAMI_H
 #define partialFaceAreaWeightAMI_H
 
-#include "faceAreaWeightAMI.H"
+#include "meshTools/AMIInterpolation/AMIInterpolation/AMIMethod/faceAreaWeightAMI/faceAreaWeightAMI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

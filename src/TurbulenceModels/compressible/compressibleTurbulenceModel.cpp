@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "compressibleTurbulenceModel.H"
-#include "surfaceInterpolate.H"
-#include "surfaceFields.H"
+#include "TurbulenceModels/compressible/compressibleTurbulenceModel.hpp"
+#include "functionObjects/field/surfaceInterpolate/surfaceInterpolate.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

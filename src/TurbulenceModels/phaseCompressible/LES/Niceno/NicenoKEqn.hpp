@@ -56,7 +56,7 @@ SourceFiles
 #ifndef NicenoKEqn_H
 #define NicenoKEqn_H
 
-#include "kEqn.H"
+#include "TurbulenceModels/turbulenceModels/LES/kEqn/kEqn.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

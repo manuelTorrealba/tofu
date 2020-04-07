@@ -35,9 +35,9 @@ SourceFiles
 #ifndef refinementParameters_H
 #define refinementParameters_H
 
-#include "dictionary.H"
-#include "pointField.H"
-#include "Switch.H"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

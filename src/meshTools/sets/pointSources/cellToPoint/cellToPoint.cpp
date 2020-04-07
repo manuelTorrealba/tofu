@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellToPoint.H"
-#include "polyMesh.H"
-#include "cellSet.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshTools/sets/pointSources/cellToPoint/cellToPoint.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "meshTools/sets/topoSets/cellSet.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

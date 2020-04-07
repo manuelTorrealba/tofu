@@ -35,9 +35,9 @@ SourceFiles
 #ifndef UOprocess_H
 #define UOprocess_H
 
-#include "complexFields.H"
-#include "scalar.H"
-#include "Random.H"
+#include "OpenFOAM/fields/Fields/complexFields/complexFields.hpp"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/primitives/Random/Random.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

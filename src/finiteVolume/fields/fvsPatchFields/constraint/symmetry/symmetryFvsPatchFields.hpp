@@ -26,8 +26,8 @@ License
 #ifndef symmetryFvsPatchFields_H
 #define symmetryFvsPatchFields_H
 
-#include "symmetryFvsPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvsPatchFields/constraint/symmetry/symmetryFvsPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

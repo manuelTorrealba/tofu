@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solidNoLoopControl.H"
+#include "finiteVolume/cfdTools/general/solutionControl/solidControl/solidNoLoopControl/solidNoLoopControl.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

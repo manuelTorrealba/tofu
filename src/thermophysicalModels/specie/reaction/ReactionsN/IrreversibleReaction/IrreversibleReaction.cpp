@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IrreversibleReaction.H"
+#include "thermophysicalModels/specie/reaction/ReactionsN/IrreversibleReaction/IrreversibleReaction.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

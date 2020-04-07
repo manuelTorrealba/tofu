@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledIsoSurfaceCell.H"
-#include "isoSurface.H"
-#include "volFieldsFwd.H"
-#include "pointFields.H"
-#include "volPointInterpolation.H"
+#include "sampling/sampledSurface/isoSurface/sampledIsoSurfaceCell.hpp"
+#include "sampling/sampledSurface/isoSurface/isoSurface.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFields.hpp"
+#include "finiteVolume/interpolation/volPointInterpolation/volPointInterpolation.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -39,10 +39,10 @@ SourceFiles
 #ifndef interfaceProperties_H
 #define interfaceProperties_H
 
-#include "IOdictionary.H"
-#include "surfaceTensionModel.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "transportModels/interfaceProperties/surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

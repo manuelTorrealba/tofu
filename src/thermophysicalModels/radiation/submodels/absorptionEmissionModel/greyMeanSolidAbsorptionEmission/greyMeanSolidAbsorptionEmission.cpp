@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "greyMeanSolidAbsorptionEmission.H"
-#include "addToRunTimeSelectionTable.H"
-#include "unitConversion.H"
-#include "extrapolatedCalculatedFvPatchFields.H"
+#include "thermophysicalModels/radiation/submodels/absorptionEmissionModel/greyMeanSolidAbsorptionEmission/greyMeanSolidAbsorptionEmission.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchFields.hpp"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

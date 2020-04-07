@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "slidingInterface.H"
-#include "polyMesh.H"
-#include "primitiveMesh.H"
-#include "polyTopoChange.H"
-#include "polyTopoChanger.H"
-#include "polyModifyFace.H"
-#include "polyModifyPoint.H"
+#include "dynamicMesh/slidingInterface/slidingInterface.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChange.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChanger/polyTopoChanger.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/modifyObject/polyModifyFace.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/modifyObject/polyModifyPoint.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

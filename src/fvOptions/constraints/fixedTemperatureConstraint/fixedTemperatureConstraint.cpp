@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fixedTemperatureConstraint.H"
-#include "fvMesh.H"
-#include "fvMatrices.H"
-#include "basicThermo.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvOptions/constraints/fixedTemperatureConstraint/fixedTemperatureConstraint.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/fvMatrices/fvMatrices.hpp"
+#include "thermophysicalModels/basic/basicThermo/basicThermo.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

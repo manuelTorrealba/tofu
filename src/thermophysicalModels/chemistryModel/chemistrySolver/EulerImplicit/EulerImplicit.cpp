@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "EulerImplicit.H"
-#include "addToRunTimeSelectionTable.H"
-#include "simpleMatrix.H"
-#include "Reaction.H"
+#include "thermophysicalModels/chemistryModel/chemistrySolver/EulerImplicit/EulerImplicit.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/matrices/simpleMatrix/simpleMatrix.hpp"
+#include "thermophysicalModels/specie/reaction/ReactionsN/Reaction/Reaction.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

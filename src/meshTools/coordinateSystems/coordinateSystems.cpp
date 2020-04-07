@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coordinateSystems.H"
-#include "IOPtrList.H"
-#include "Time.H"
-#include "stringListOps.H"
+#include "meshTools/coordinateSystems/coordinateSystems.hpp"
+#include "OpenFOAM/db/IOobjects/IOPtrList/IOPtrList.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/primitives/strings/lists/stringListOps.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

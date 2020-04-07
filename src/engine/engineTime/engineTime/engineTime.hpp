@@ -35,10 +35,10 @@ SourceFiles
 #ifndef engineTime_H
 #define engineTime_H
 
-#include "Time.H"
-#include "IOdictionary.H"
-#include "dimensionedScalar.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

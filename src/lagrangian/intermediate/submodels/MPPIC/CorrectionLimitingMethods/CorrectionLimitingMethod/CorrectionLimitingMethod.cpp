@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CorrectionLimitingMethod.H"
+#include "lagrangian/intermediate/submodels/MPPIC/CorrectionLimitingMethods/CorrectionLimitingMethod/CorrectionLimitingMethod.hpp"
 
 namespace Foam
 {

@@ -41,8 +41,8 @@ SourceFiles
 #ifndef functionObjects_abort_H
 #define functionObjects_abort_H
 
-#include "functionObject.H"
-#include "NamedEnum.H"
+#include "OpenFOAM/db/functionObjects/functionObject/functionObject.hpp"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

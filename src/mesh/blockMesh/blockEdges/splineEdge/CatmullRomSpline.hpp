@@ -62,7 +62,7 @@ SourceFiles
 #ifndef CatmullRomSpline_H
 #define CatmullRomSpline_H
 
-#include "polyLine.H"
+#include "mesh/blockMesh/blockEdges/polyLineEdge/polyLine.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

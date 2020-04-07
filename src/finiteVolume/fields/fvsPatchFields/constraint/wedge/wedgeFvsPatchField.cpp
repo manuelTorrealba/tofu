@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wedgeFvsPatchField.H"
+#include "finiteVolume/fields/fvsPatchFields/constraint/wedge/wedgeFvsPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

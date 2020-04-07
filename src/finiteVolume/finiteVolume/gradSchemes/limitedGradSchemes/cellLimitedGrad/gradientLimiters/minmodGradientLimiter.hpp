@@ -49,7 +49,7 @@ See also
 #ifndef minmodGradientLimiter_H
 #define minmodGradientLimiter_H
 
-#include "Istream.H"
+#include "OpenFOAM/db/IOstreams/IOstreams/Istream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

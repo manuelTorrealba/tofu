@@ -36,14 +36,14 @@ SourceFiles
 #ifndef sampledSets_H
 #define sampledSets_H
 
-#include "functionObject.H"
-#include "sampledSet.H"
-#include "volFieldsFwd.H"
-#include "meshSearch.H"
-#include "interpolation.H"
-#include "coordSet.H"
-#include "writer.H"
-#include "wordReList.H"
+#include "OpenFOAM/db/functionObjects/functionObject/functionObject.hpp"
+#include "sampling/sampledSet/sampledSet/sampledSet.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "meshTools/meshSearch/meshSearch.hpp"
+#include "finiteVolume/interpolation/interpolation/interpolation/interpolation.hpp"
+#include "fileFormats/coordSet/coordSet.hpp"
+#include "fileFormats/sampledSetWriters/writer.hpp"
+#include "OpenFOAM/primitives/strings/lists/wordReList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

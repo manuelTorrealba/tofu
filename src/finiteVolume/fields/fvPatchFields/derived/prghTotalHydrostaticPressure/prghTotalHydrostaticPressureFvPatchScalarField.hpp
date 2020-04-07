@@ -73,7 +73,7 @@ SourceFiles
 #ifndef prghTotalHydrostaticPressureFvPatchScalarField_H
 #define prghTotalHydrostaticPressureFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

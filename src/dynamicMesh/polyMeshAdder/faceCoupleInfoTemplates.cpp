@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceCoupleInfo.H"
+#include "dynamicMesh/polyMeshAdder/faceCoupleInfo.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

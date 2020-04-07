@@ -25,6 +25,8 @@ License
 
 #include "OpenFOAM/fields/GeometricFields/GeometricField/GeometricField.hpp"
 #include "OpenFOAM/containers/HashTables/HashPtrTable/HashPtrTable.hpp"
+#include "OpenFOAM/primitives/hashes/Hash/Hash.hpp"
+#include "OpenFOAM/db/objectRegistry/objectRegistry.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

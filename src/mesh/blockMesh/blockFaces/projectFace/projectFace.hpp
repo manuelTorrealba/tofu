@@ -36,7 +36,7 @@ SourceFiles
 #ifndef blockFaces_projectFace_H
 #define blockFaces_projectFace_H
 
-#include "blockFace.H"
+#include "mesh/blockMesh/blockFaces/blockFace/blockFace.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

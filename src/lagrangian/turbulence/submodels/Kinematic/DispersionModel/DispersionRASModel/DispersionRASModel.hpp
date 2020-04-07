@@ -32,7 +32,7 @@ Description
 #ifndef DispersionRASModel_H
 #define DispersionRASModel_H
 
-#include "DispersionModel.H"
+#include "lagrangian/intermediate/submodels/Kinematic/DispersionModel/DispersionModel/DispersionModel.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -31,7 +31,7 @@ Description
 #ifndef calculatedFvsPatchFieldsFwd_H
 #define calculatedFvsPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

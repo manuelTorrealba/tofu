@@ -35,10 +35,10 @@ SourceFiles
 #ifndef basicKinematicMPPICParcel_H
 #define basicKinematicMPPICParcel_H
 
-#include "contiguous.H"
-#include "particle.H"
-#include "KinematicParcel.H"
-#include "MPPICParcel.H"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
+#include "lagrangian/basic/particle/particle.hpp"
+#include "lagrangian/intermediate/parcels/Templates/KinematicParcel/KinematicParcel.hpp"
+#include "lagrangian/intermediate/parcels/Templates/MPPICParcel/MPPICParcel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

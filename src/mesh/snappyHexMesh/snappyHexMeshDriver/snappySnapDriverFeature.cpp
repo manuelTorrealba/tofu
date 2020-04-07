@@ -23,21 +23,21 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "snappySnapDriver.H"
-#include "polyTopoChange.H"
-#include "syncTools.H"
-#include "fvMesh.H"
-#include "OBJstream.H"
-#include "motionSmoother.H"
-#include "refinementSurfaces.H"
-#include "refinementFeatures.H"
-#include "unitConversion.H"
-#include "plane.H"
-#include "featureEdgeMesh.H"
-#include "treeDataPoint.H"
-#include "indexedOctree.H"
-#include "snapParameters.H"
-#include "PatchTools.H"
+#include "mesh/snappyHexMesh/snappyHexMeshDriver/snappySnapDriver.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChange.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "surfMesh/surfaceFormats/obj/OBJstream.hpp"
+#include "dynamicMesh/motionSmoother/motionSmoother.hpp"
+#include "mesh/snappyHexMesh/refinementSurfaces/refinementSurfaces.hpp"
+#include "mesh/snappyHexMesh/refinementFeatures/refinementFeatures.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/plane/plane.hpp"
+#include "meshTools/edgeMesh/featureEdgeMesh/featureEdgeMesh.hpp"
+#include "meshTools/indexedOctree/treeDataPoint.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/indexedOctree.hpp"
+#include "mesh/snappyHexMesh/snappyHexMeshDriver/snapParameters/snapParameters.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/PatchTools/PatchTools.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

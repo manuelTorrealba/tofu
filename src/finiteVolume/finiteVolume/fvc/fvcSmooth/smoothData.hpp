@@ -234,7 +234,7 @@ inline bool contiguous<smoothData>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "smoothDataI.H"
+#include "finiteVolume/finiteVolume/fvc/fvcSmooth/smoothDataI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

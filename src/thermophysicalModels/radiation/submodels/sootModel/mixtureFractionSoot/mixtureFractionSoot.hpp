@@ -58,12 +58,12 @@ SourceFiles
 #ifndef mixtureFractionSoot_H
 #define mixtureFractionSoot_H
 
-#include "interpolationLookUpTable.H"
-#include "sootModel.H"
-#include "HashTable.H"
+#include "OpenFOAM/interpolations/interpolationLookUpTable/interpolationLookUpTable.hpp"
+#include "thermophysicalModels/radiation/submodels/sootModel/sootModel/sootModel.hpp"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
 
-#include "fluidThermo.H"
-#include "singleStepReactingMixture.H"
+#include "thermophysicalModels/basic/fluidThermo/fluidThermo.hpp"
+#include "thermophysicalModels/reactionThermo/mixtures/singleStepReactingMixture/singleStepReactingMixture.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

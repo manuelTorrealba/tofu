@@ -56,8 +56,8 @@ SourceFiles
 #ifndef functionObjects_timeActivatedFileUpdate_H
 #define functionObjects_timeActivatedFileUpdate_H
 
-#include "functionObject.H"
-#include "Tuple2.H"
+#include "OpenFOAM/db/functionObjects/functionObject/functionObject.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

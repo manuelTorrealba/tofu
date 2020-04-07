@@ -44,10 +44,10 @@ SourceFiles
 #ifndef isoSurfaceCell_H
 #define isoSurfaceCell_H
 
-#include "triSurface.H"
-#include "labelPair.H"
-#include "pointIndexHit.H"
-#include "PackedBoolList.H"
+#include "triSurface/triSurface/triSurface.hpp"
+#include "OpenFOAM/primitives/Pair/labelPair.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/pointIndexHit.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

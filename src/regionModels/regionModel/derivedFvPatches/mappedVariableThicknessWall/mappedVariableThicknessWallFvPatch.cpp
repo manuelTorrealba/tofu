@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedVariableThicknessWallFvPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "regionModel1D.H"
+#include "regionModels/regionModel/derivedFvPatches/mappedVariableThicknessWall/mappedVariableThicknessWallFvPatch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "regionModels/regionModel/regionModel1D/regionModel1D.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

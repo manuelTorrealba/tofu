@@ -53,9 +53,9 @@ SourceFiles
 #ifndef wallDist_H
 #define wallDist_H
 
-#include "MeshObject.H"
-#include "patchDistMethod.H"
-#include "volFields.H"
+#include "OpenFOAM/meshes/MeshObject/MeshObject.hpp"
+#include "finiteVolume/fvMesh/wallDist/patchDistMethods/patchDistMethod/patchDistMethod.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

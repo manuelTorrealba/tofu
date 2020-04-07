@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniformDiffusivity.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvMotionSolver/motionDiffusivity/uniform/uniformDiffusivity.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef SinglePhaseMixture_H
 #define SinglePhaseMixture_H
 
-#include "CompositionModel.H"
+#include "lagrangian/intermediate/submodels/Reacting/CompositionModel/CompositionModel/CompositionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

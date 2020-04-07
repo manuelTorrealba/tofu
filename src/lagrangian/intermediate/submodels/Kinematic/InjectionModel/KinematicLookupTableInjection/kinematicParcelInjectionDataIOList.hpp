@@ -34,8 +34,8 @@ SourceFiles
 #ifndef kinematicParcelInjectionDataIOList_H
 #define kinematicParcelInjectionDataIOList_H
 
-#include "IOList.H"
-#include "kinematicParcelInjectionData.H"
+#include "OpenFOAM/db/IOobjects/IOList/IOList.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/KinematicLookupTableInjection/kinematicParcelInjectionData.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

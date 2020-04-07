@@ -29,14 +29,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeChemistryModel.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/makeChemistryModel.hpp"
 
-#include "psiReactionThermo.H"
-#include "rhoReactionThermo.H"
+#include "thermophysicalModels/reactionThermo/psiReactionThermo/psiReactionThermo.hpp"
+#include "thermophysicalModels/reactionThermo/rhoReactionThermo/rhoReactionThermo.hpp"
 
-#include "StandardChemistryModel.H"
-#include "TDACChemistryModel.H"
-#include "thermoPhysicsTypes.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/StandardChemistryModel/StandardChemistryModel.hpp"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/TDACChemistryModel.hpp"
+#include "thermophysicalModels/specie/include/thermoPhysicsTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

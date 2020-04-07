@@ -35,8 +35,8 @@ SourceFiles
 #ifndef SpecieMixture_H
 #define SpecieMixture_H
 
-#include "scalar.H"
-#include "volFields.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

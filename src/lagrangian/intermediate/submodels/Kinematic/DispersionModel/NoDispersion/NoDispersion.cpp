@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoDispersion.H"
+#include "lagrangian/intermediate/submodels/Kinematic/DispersionModel/NoDispersion/NoDispersion.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

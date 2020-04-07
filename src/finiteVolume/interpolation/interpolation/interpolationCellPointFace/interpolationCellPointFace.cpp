@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolationCellPointFace.H"
-#include "volFields.H"
-#include "polyMesh.H"
-#include "volPointInterpolation.H"
-#include "linear.H"
-#include "findCellPointFaceTet.H"
-#include "findCellPointFaceTriangle.H"
+#include "finiteVolume/interpolation/interpolation/interpolationCellPointFace/interpolationCellPointFace.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "finiteVolume/interpolation/volPointInterpolation/volPointInterpolation.hpp"
+#include "thermophysicalModels/specie/equationOfState/linear/linear.hpp"
+#include "finiteVolume/interpolation/interpolation/interpolationCellPointFace/findCellPointFaceTet.hpp"
+#include "finiteVolume/interpolation/interpolation/interpolationCellPointFace/findCellPointFaceTriangle.hpp"
 
 // * * * * * * * * * * * * * * * * Constructor * * * * * * * * * * * * * * * //
 

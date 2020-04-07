@@ -90,8 +90,8 @@ SourceFiles
 #ifndef CrankNicolsonDdtScheme_H
 #define CrankNicolsonDdtScheme_H
 
-#include "ddtScheme.H"
-#include "Function1.H"
+#include "finiteVolume/finiteVolume/ddtSchemes/ddtScheme/ddtScheme.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

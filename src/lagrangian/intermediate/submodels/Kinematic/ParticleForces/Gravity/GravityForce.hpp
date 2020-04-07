@@ -36,7 +36,7 @@ SourceFiles
 #ifndef GravityForce_H
 #define GravityForce_H
 
-#include "ParticleForce.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -122,7 +122,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "GravityForceI.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/Gravity/GravityForceI.hpp"
 
 #ifdef NoRepository
     #include "GravityForce.C"

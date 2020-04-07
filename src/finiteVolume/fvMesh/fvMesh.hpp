@@ -47,21 +47,21 @@ SourceFiles
 #ifndef fvMesh_H
 #define fvMesh_H
 
-#include "polyMesh.H"
-#include "lduMesh.H"
-#include "primitiveMesh.H"
-#include "fvBoundaryMesh.H"
-#include "surfaceInterpolation.H"
-#include "fvSchemes.H"
-#include "fvSolution.H"
-#include "data.H"
-#include "DimensionedField.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "pointFieldsFwd.H"
-#include "slicedVolFieldsFwd.H"
-#include "slicedSurfaceFieldsFwd.H"
-#include "className.H"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/lduMesh/lduMesh.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
+#include "finiteVolume/fvMesh/fvBoundaryMesh/fvBoundaryMesh.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolation.hpp"
+#include "finiteVolume/finiteVolume/fvSchemes/fvSchemes.hpp"
+#include "finiteVolume/finiteVolume/fvSolution/fvSolution.hpp"
+#include "OpenFOAM/meshes/data/data.hpp"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFieldsFwd.hpp"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFieldsFwd.hpp"
+#include "finiteVolume/fields/volFields/slicedVolFieldsFwd.hpp"
+#include "finiteVolume/fields/surfaceFields/slicedSurfaceFieldsFwd.hpp"
+#include "OpenFOAM/db/typeInfo/className.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

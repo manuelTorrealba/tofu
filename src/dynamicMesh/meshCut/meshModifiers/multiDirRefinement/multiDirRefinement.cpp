@@ -23,20 +23,20 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "multiDirRefinement.H"
-#include "polyMesh.H"
-#include "polyTopoChanger.H"
-#include "Time.H"
-#include "undoableMeshCutter.H"
-#include "hexCellLooper.H"
-#include "geomCellLooper.H"
-#include "topoSet.H"
-#include "directions.H"
-#include "hexRef8.H"
-#include "mapPolyMesh.H"
-#include "polyTopoChange.H"
-#include "ListOps.H"
-#include "cellModeller.H"
+#include "dynamicMesh/meshCut/meshModifiers/multiDirRefinement/multiDirRefinement.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChanger/polyTopoChanger.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "dynamicMesh/meshCut/meshModifiers/undoableMeshCutter/undoableMeshCutter.hpp"
+#include "dynamicMesh/meshCut/cellLooper/hexCellLooper.hpp"
+#include "dynamicMesh/meshCut/cellLooper/geomCellLooper.hpp"
+#include "meshTools/sets/topoSets/topoSet.hpp"
+#include "dynamicMesh/meshCut/directions/directions.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/hexRef8/hexRef8.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChange.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellModeller/cellModeller.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

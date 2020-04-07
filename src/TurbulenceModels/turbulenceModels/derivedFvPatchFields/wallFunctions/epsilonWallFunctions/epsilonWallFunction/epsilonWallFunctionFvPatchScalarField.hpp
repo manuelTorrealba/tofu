@@ -70,7 +70,7 @@ SourceFiles
 #ifndef epsilonWallFunctionFvPatchScalarField_H
 #define epsilonWallFunctionFvPatchScalarField_H
 
-#include "fixedValueFvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

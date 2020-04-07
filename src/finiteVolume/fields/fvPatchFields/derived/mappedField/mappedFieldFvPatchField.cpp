@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedFieldFvPatchField.H"
-#include "volFields.H"
-#include "interpolationCell.H"
+#include "finiteVolume/fields/fvPatchFields/derived/mappedField/mappedFieldFvPatchField.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/interpolation/interpolation/interpolationCell/interpolationCell.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

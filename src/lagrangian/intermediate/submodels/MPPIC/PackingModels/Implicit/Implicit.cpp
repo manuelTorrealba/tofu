@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Implicit.H"
-#include "fixedValueFvsPatchField.H"
-#include "fvmDdt.H"
-#include "fvmDiv.H"
-#include "fvmLaplacian.H"
-#include "fvcReconstruct.H"
-#include "volPointInterpolation.H"
-#include "zeroGradientFvPatchFields.H"
+#include "lagrangian/intermediate/submodels/MPPIC/PackingModels/Implicit/Implicit.hpp"
+#include "finiteVolume/fields/fvsPatchFields/basic/fixedValue/fixedValueFvsPatchField.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvmDdt.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvmDiv.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvmLaplacian.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcReconstruct.hpp"
+#include "finiteVolume/interpolation/volPointInterpolation/volPointInterpolation.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

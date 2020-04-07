@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CellZoneInjection.H"
-#include "mathematicalConstants.H"
-#include "polyMeshTetDecomposition.H"
-#include "globalIndex.H"
-#include "Pstream.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/CellZoneInjection/CellZoneInjection.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -33,7 +33,7 @@ Description
 #ifndef NoInteraction_H
 #define NoInteraction_H
 
-#include "PatchInteractionModel.H"
+#include "lagrangian/intermediate/submodels/Kinematic/PatchInteractionModel/PatchInteractionModel/PatchInteractionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

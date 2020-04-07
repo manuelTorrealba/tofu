@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMesh.H"
-#include "volFields.H"
-#include "directFvPatchFieldMapper.H"
-#include "calculatedFvPatchField.H"
-#include "distributedWeightedFvPatchFieldMapper.H"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/directFvPatchFieldMapper.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/calculated/calculatedFvPatchField.hpp"
+#include "sampling/meshToMesh/distributedWeightedFvPatchFieldMapper.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

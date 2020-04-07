@@ -113,9 +113,9 @@ SourceFiles
 #ifndef functionObjects_pressure_H
 #define functionObjects_pressure_H
 
-#include "fieldExpression.H"
-#include "volFieldsFwd.H"
-#include "dimensionedScalar.H"
+#include "functionObjects/field/fieldExpression/fieldExpression.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "OBJstream.H"
-//#include "token.H"
-#include "primitivePatch.H"
+#include "surfMesh/surfaceFormats/obj/OBJstream.hpp"
+#include "OpenFOAM/db/IOstreams/token/token.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/primitivePatch.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

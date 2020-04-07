@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "gnuplotSetWriter.H"
-#include "coordSet.H"
-#include "fileName.H"
-#include "OFstream.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fileFormats/sampledSetWriters/gnuplot/gnuplotSetWriter.hpp"
+#include "fileFormats/coordSet/coordSet.hpp"
+#include "OpenFOAM/primitives/strings/fileName/fileName.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

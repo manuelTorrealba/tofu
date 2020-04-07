@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "isoSurfaceCell.H"
-#include "polyMesh.H"
-#include "tetMatcher.H"
-#include "isoSurface.H"
+#include "sampling/sampledSurface/isoSurface/isoSurfaceCell.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellMatcher/tetMatcher.hpp"
+#include "sampling/sampledSurface/isoSurface/isoSurface.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

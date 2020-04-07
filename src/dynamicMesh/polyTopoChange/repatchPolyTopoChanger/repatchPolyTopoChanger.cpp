@@ -30,10 +30,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "repatchPolyTopoChanger.H"
-#include "polyTopoChanger.H"
-#include "mapPolyMesh.H"
-#include "polyModifyFace.H"
+#include "dynamicMesh/polyTopoChange/repatchPolyTopoChanger/repatchPolyTopoChanger.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChanger/polyTopoChanger.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/modifyObject/polyModifyFace.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

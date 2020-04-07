@@ -35,8 +35,8 @@ SourceFiles
 #ifndef multiRegionSolutionControl_H
 #define multiRegionSolutionControl_H
 
-#include "solutionControl.H"
-#include "fvSolution.H"
+#include "finiteVolume/cfdTools/general/solutionControl/solutionControl/solutionControl/solutionControl.hpp"
+#include "finiteVolume/finiteVolume/fvSolution/fvSolution.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

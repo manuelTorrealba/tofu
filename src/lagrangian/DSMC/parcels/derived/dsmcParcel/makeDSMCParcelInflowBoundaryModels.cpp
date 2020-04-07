@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dsmcParcel.H"
-#include "DSMCCloud.H"
-#include "FreeStream.H"
-#include "NoInflow.H"
+#include "lagrangian/DSMC/parcels/derived/dsmcParcel/dsmcParcel.hpp"
+#include "lagrangian/DSMC/clouds/Templates/DSMCCloud/DSMCCloud.hpp"
+#include "lagrangian/DSMC/submodels/InflowBoundaryModel/FreeStream/FreeStream.hpp"
+#include "lagrangian/DSMC/submodels/InflowBoundaryModel/NoInflow/NoInflow.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BrunDrippingInjection.H"
-#include "addToRunTimeSelectionTable.H"
-#include "kinematicSingleLayer.H"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/injectionModel/BrunDrippingInjection/BrunDrippingInjection.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "regionModels/surfaceFilmModels/kinematicSingleLayer/kinematicSingleLayer.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

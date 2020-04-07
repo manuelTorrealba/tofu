@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "enrichedPatch.H"
+#include "dynamicMesh/slidingInterface/enrichedPatch/enrichedPatch.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

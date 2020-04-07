@@ -101,10 +101,10 @@ SourceFiles
 #ifndef regionSplit_H
 #define regionSplit_H
 
-#include "globalIndex.H"
-#include "labelPair.H"
-#include "boolList.H"
-#include "MeshObject.H"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
+#include "OpenFOAM/primitives/Pair/labelPair.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/meshes/MeshObject/MeshObject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

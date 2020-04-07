@@ -117,7 +117,7 @@ SourceFiles
 #ifndef functionObjects_fieldAverage_H
 #define functionObjects_fieldAverage_H
 
-#include "fvMeshFunctionObject.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

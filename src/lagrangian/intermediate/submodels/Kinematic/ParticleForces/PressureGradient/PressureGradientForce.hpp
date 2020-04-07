@@ -36,9 +36,9 @@ SourceFiles
 #ifndef PressureGradientForce_H
 #define PressureGradientForce_H
 
-#include "ParticleForce.H"
-#include "volFields.H"
-#include "interpolation.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/interpolation/interpolation/interpolation/interpolation.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -139,7 +139,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PressureGradientForceI.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/PressureGradient/PressureGradientForceI.hpp"
 
 #ifdef NoRepository
     #include "PressureGradientForce.C"

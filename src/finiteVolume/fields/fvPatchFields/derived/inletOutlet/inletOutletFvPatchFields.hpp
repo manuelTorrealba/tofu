@@ -26,8 +26,8 @@ License
 #ifndef inletOutletFvPatchFields_H
 #define inletOutletFvPatchFields_H
 
-#include "inletOutletFvPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvPatchFields/derived/inletOutlet/inletOutletFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

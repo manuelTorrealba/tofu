@@ -35,7 +35,7 @@ SourceFiles
 #ifndef extendedFeatureEdgeMeshFormat_H
 #define extendedFeatureEdgeMeshFormat_H
 
-#include "edgeMesh.H"
+#include "meshTools/edgeMesh/edgeMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SolidReaction.H"
+#include "thermophysicalModels/solidSpecie/reaction/SolidReaction/SolidReaction.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

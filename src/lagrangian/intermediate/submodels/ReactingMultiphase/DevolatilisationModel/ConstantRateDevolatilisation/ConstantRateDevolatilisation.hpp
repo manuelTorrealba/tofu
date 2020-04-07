@@ -33,7 +33,7 @@ Description
 #ifndef ConstantRateDevolatilisation_H
 #define ConstantRateDevolatilisation_H
 
-#include "DevolatilisationModel.H"
+#include "lagrangian/intermediate/submodels/ReactingMultiphase/DevolatilisationModel/DevolatilisationModel/DevolatilisationModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

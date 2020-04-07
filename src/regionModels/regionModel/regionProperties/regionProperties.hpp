@@ -39,8 +39,8 @@ SourceFiles
 #ifndef regionProperties_H
 #define regionProperties_H
 
-#include "Time.H"
-#include "HashTable.H"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

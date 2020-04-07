@@ -35,8 +35,8 @@ SourceFiles
 #ifndef inverseDistanceDiffusivity_H
 #define inverseDistanceDiffusivity_H
 
-#include "uniformDiffusivity.H"
-#include "wordReList.H"
+#include "fvMotionSolver/motionDiffusivity/uniform/uniformDiffusivity.hpp"
+#include "OpenFOAM/primitives/strings/lists/wordReList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

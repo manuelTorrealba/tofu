@@ -40,10 +40,10 @@ SourceFiles
 #ifndef STLsurfaceFormat_H
 #define STLsurfaceFormat_H
 
-#include "STLsurfaceFormatCore.H"
-#include "MeshedSurface.H"
-#include "MeshedSurfaceProxy.H"
-#include "UnsortedMeshedSurface.H"
+#include "surfMesh/surfaceFormats/stl/STLsurfaceFormatCore.hpp"
+#include "surfMesh/MeshedSurface/MeshedSurface.hpp"
+#include "surfMesh/MeshedSurfaceProxy/MeshedSurfaceProxy.hpp"
+#include "surfMesh/UnsortedMeshedSurface/UnsortedMeshedSurface.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

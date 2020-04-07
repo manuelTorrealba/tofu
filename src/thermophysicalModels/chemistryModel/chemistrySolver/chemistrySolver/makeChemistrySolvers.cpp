@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeChemistrySolverTypes.H"
+#include "thermophysicalModels/chemistryModel/chemistrySolver/chemistrySolver/makeChemistrySolverTypes.hpp"
 
-#include "thermoPhysicsTypes.H"
-#include "psiReactionThermo.H"
-#include "rhoReactionThermo.H"
+#include "thermophysicalModels/specie/include/thermoPhysicsTypes.hpp"
+#include "thermophysicalModels/reactionThermo/psiReactionThermo/psiReactionThermo.hpp"
+#include "thermophysicalModels/reactionThermo/rhoReactionThermo/rhoReactionThermo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reactingMultiphaseCloud.H"
+#include "lagrangian/intermediate/clouds/baseClasses/reactingMultiphaseCloud/reactingMultiphaseCloud.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

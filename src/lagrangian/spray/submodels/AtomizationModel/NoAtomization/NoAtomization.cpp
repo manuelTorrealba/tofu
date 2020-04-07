@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoAtomization.H"
+#include "lagrangian/spray/submodels/AtomizationModel/NoAtomization/NoAtomization.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -36,7 +36,7 @@ SourceFiles
 #ifndef dynamicFvMesh_H
 #define dynamicFvMesh_H
 
-#include "fvMesh.H"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

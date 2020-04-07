@@ -35,9 +35,9 @@ SourceFiles
 #ifndef LESdelta_H
 #define LESdelta_H
 
-#include "turbulenceModel.H"
-#include "volFields.H"
-#include "runTimeSelectionTables.H"
+#include "TurbulenceModels/turbulenceModels/turbulenceModel.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

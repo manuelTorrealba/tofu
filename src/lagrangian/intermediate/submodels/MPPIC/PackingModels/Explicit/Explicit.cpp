@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Explicit.H"
+#include "lagrangian/intermediate/submodels/MPPIC/PackingModels/Explicit/Explicit.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

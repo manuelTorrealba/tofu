@@ -35,8 +35,8 @@ SourceFiles
 #ifndef profileModelList_H
 #define profileModelList_H
 
-#include "PtrList.H"
-#include "profileModel.H"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "fvOptions/sources/derived/rotorDiskSource/profileModel/profileModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

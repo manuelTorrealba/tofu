@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "chemPointISAT.H"
-#include "SVD.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/tabulation/ISAT/chemPointISAT/chemPointISAT.hpp"
+#include "OpenFOAM/matrices/scalarMatrices/SVD/SVD.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

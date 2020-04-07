@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvScalarMatrix.H"
-#include "extrapolatedCalculatedFvPatchFields.H"
+#include "finiteVolume/fvMatrices/fvScalarMatrix/fvScalarMatrix.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

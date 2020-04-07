@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "egrMixture.H"
-#include "fvMesh.H"
+#include "thermophysicalModels/reactionThermo/mixtures/egrMixture/egrMixture.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

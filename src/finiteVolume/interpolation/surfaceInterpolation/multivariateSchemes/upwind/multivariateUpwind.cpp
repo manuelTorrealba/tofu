@@ -26,8 +26,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "multivariateUpwind.H"
-#include "fvMesh.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/multivariateSchemes/upwind/multivariateUpwind.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

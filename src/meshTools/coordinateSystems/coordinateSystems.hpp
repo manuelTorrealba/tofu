@@ -57,8 +57,8 @@ SourceFiles
 #ifndef coordinateSystems_H
 #define coordinateSystems_H
 
-#include "coordinateSystem.H"
-#include "IOPtrList.H"
+#include "meshTools/coordinateSystems/coordinateSystem.hpp"
+#include "OpenFOAM/db/IOobjects/IOPtrList/IOPtrList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

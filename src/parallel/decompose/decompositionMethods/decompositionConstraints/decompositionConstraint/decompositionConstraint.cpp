@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "decompositionConstraint.H"
+#include "parallel/decompose/decompositionMethods/decompositionConstraints/decompositionConstraint/decompositionConstraint.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

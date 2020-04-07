@@ -36,7 +36,7 @@ SourceFiles
 #ifndef setToFaceZone_H
 #define setToFaceZone_H
 
-#include "topoSetSource.H"
+#include "meshTools/sets/topoSetSource/topoSetSource.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

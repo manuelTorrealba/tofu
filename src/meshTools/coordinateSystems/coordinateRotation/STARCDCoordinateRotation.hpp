@@ -50,7 +50,7 @@ SourceFiles
 #ifndef STARCDCoordinateRotation_H
 #define STARCDCoordinateRotation_H
 
-#include "coordinateRotation.H"
+#include "meshTools/coordinateSystems/coordinateRotation/coordinateRotation.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

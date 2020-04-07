@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DRGEP.H"
-#include "SortableListDRGEP.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/reduction/DRGEP/DRGEP.hpp"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/reduction/DRGEP/SortableListDRGEP.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

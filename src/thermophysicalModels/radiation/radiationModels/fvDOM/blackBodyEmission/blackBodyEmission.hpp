@@ -38,10 +38,10 @@ SourceFiles
 #ifndef blackBodyEmission_H
 #define blackBodyEmission_H
 
-#include "volFields.H"
-#include "dimensionedScalar.H"
-#include "interpolationTable.H"
-#include "Vector2D.H"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.hpp"
+#include "OpenFOAM/interpolations/interpolationTable/interpolationTable.hpp"
+#include "OpenFOAM/primitives/Vector2D/Vector2D.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

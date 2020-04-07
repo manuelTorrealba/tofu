@@ -26,7 +26,7 @@ License
 #ifndef jumpCyclicFvPatchFieldsFwd_H
 #define jumpCyclicFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

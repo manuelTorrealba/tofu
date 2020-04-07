@@ -26,8 +26,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "snGradScheme.H"
-#include "HashTable.H"
+#include "finiteVolume/finiteVolume/snGradSchemes/snGradScheme/snGradScheme.hpp"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

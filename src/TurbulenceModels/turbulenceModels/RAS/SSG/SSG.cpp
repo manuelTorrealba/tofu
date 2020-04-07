@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SSG.H"
-#include "fvOptions.H"
-#include "wallFvPatch.H"
+#include "TurbulenceModels/turbulenceModels/RAS/SSG/SSG.hpp"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOptions.hpp"
+#include "finiteVolume/fvMesh/fvPatches/derived/wall/wallFvPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

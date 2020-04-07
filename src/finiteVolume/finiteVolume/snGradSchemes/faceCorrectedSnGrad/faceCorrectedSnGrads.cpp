@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceCorrectedSnGrad.H"
-#include "fvMesh.H"
+#include "finiteVolume/finiteVolume/snGradSchemes/faceCorrectedSnGrad/faceCorrectedSnGrad.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

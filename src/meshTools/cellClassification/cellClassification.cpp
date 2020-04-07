@@ -23,19 +23,19 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellClassification.H"
-#include "triSurfaceSearch.H"
-#include "indexedOctree.H"
-#include "treeDataFace.H"
-#include "meshSearch.H"
-#include "cellInfo.H"
-#include "polyMesh.H"
-#include "MeshWave.H"
-#include "ListOps.H"
-#include "meshTools.H"
-#include "cpuTime.H"
-#include "triSurface.H"
-#include "globalMeshData.H"
+#include "meshTools/cellClassification/cellClassification.hpp"
+#include "meshTools/triSurface/triSurfaceSearch/triSurfaceSearch.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/indexedOctree.hpp"
+#include "meshTools/indexedOctree/treeDataFace.hpp"
+#include "meshTools/meshSearch/meshSearch.hpp"
+#include "meshTools/cellClassification/cellInfo.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "meshTools/algorithms/MeshWave/MeshWave.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
+#include "OSspecific/POSIX/cpuTime/cpuTime.hpp"
+#include "triSurface/triSurface/triSurface.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

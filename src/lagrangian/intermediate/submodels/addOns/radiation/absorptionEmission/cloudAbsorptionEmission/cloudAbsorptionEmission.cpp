@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cloudAbsorptionEmission.H"
-#include "thermoCloud.H"
-#include "addToRunTimeSelectionTable.H"
+#include "lagrangian/intermediate/submodels/addOns/radiation/absorptionEmission/cloudAbsorptionEmission/cloudAbsorptionEmission.hpp"
+#include "lagrangian/intermediate/clouds/baseClasses/thermoCloud/thermoCloud.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

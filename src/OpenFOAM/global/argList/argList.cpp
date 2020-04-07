@@ -36,8 +36,8 @@ License
 #include "OpenFOAM/global/fileOperations/fileOperation/fileOperation.hpp"
 #include "OpenFOAM/global/fileOperations/fileOperationInitialise/fileOperationInitialise.hpp"
 #include "OpenFOAM/primitives/strings/lists/stringListOps.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.cpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.cpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.hpp"
 
 
 #include <cctype>

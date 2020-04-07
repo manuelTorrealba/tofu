@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sortLabelledTri.H"
-#include "labelledTri.H"
-#include "triSurface.H"
+#include "triSurface/tools/labelledTri/sortLabelledTri.hpp"
+#include "triSurface/tools/labelledTri/labelledTri.hpp"
+#include "triSurface/triSurface/triSurface.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

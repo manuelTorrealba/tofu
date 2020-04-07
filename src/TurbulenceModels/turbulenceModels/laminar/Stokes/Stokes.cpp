@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Stokes.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "fvcGrad.H"
-#include "fvcDiv.H"
-#include "fvmLaplacian.H"
+#include "TurbulenceModels/turbulenceModels/laminar/Stokes/Stokes.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcGrad.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcDiv.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvmLaplacian.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

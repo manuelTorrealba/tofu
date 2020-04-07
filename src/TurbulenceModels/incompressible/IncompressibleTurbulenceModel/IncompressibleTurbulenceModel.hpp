@@ -36,9 +36,9 @@ SourceFiles
 #ifndef IncompressibleTurbulenceModel_H
 #define IncompressibleTurbulenceModel_H
 
-#include "TurbulenceModel.H"
-#include "incompressibleTurbulenceModel.H"
-#include "fvMatrix.H"
+#include "TurbulenceModels/turbulenceModels/TurbulenceModel/TurbulenceModel.hpp"
+#include "TurbulenceModels/incompressible/incompressibleTurbulenceModel.hpp"
+#include "finiteVolume/fvMatrices/fvMatrix/fvMatrix.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

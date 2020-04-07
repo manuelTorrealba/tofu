@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DampingModel.H"
-#include "TimeScaleModel.H"
+#include "lagrangian/intermediate/submodels/MPPIC/DampingModels/DampingModel/DampingModel.hpp"
+#include "lagrangian/intermediate/submodels/MPPIC/TimeScaleModels/TimeScaleModel/TimeScaleModel.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

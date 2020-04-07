@@ -38,8 +38,8 @@ SourceFiles
 #ifndef pyrolysisModelCollection_H
 #define pyrolysisModelCollection_H
 
-#include "PtrList.H"
-#include "pyrolysisModel.H"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "regionModels/pyrolysisModels/pyrolysisModel/pyrolysisModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

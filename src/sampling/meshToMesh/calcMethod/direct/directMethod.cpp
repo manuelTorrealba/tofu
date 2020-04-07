@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "directMethod.H"
-#include "indexedOctree.H"
-#include "treeDataCell.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampling/meshToMesh/calcMethod/direct/directMethod.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/indexedOctree.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/treeDataCell.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

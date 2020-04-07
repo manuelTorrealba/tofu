@@ -36,8 +36,8 @@ SourceFiles
 #ifndef cubic_H
 #define cubic_H
 
-#include "linear.H"
-#include "gaussGrad.H"
+#include "thermophysicalModels/specie/equationOfState/linear/linear.hpp"
+#include "finiteVolume/finiteVolume/gradSchemes/gaussGrad/gaussGrad.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

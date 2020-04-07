@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "HeatTransferModel.H"
+#include "lagrangian/intermediate/submodels/Thermodynamic/HeatTransferModel/HeatTransferModel/HeatTransferModel.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

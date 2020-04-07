@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kinematicCloud.H"
+#include "lagrangian/intermediate/clouds/baseClasses/kinematicCloud/kinematicCloud.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

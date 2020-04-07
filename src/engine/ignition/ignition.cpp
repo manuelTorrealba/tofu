@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ignition.H"
-#include "fvMesh.H"
+#include "engine/ignition/ignition.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
 
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //

@@ -39,7 +39,7 @@ SourceFiles
 #ifndef wallPointData_H
 #define wallPointData_H
 
-#include "wallPoint.H"
+#include "meshTools/cellDist/wallPoint/wallPoint.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -213,7 +213,7 @@ inline bool contiguous<wallPointData<tensor>>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "wallPointDataI.H"
+#include "meshTools/cellDist/wallPoint/wallPointDataI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

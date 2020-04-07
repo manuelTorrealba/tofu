@@ -35,8 +35,8 @@ SourceFiles
 #ifndef linear_H
 #define linear_H
 
-#include "surfaceInterpolationScheme.H"
-#include "volFields.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

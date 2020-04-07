@@ -39,9 +39,9 @@ SourceFiles
 #ifndef fvcVolumeIntegrate_H
 #define fvcVolumeIntegrate_H
 
-#include "volFieldsFwd.H"
-#include "primitiveFieldsFwd.H"
-#include "dimensionedTypes.H"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "OpenFOAM/fields/Fields/primitiveFieldsFwd.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

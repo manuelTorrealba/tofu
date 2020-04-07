@@ -35,7 +35,7 @@ SourceFiles
 #ifndef CloudSubModelBase_H
 #define CloudSubModelBase_H
 
-#include "subModelBase.H"
+#include "OpenFOAM/primitives/subModelBase/subModelBase.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,9 +35,9 @@ SourceFiles
 #ifndef regionCoupledPointPatch_H
 #define regionCoupledPointPatch_H
 
-#include "facePointPatch.H"
-#include "regionCoupledPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.hpp"
+#include "meshTools/regionCoupled/patches/regionCoupledPolyPatch/regionCoupledPolyPatch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

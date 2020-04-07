@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "OppositeFaceCellWave.H"
-#include "polyMesh.H"
+#include "renumber/renumberMethods/structuredRenumber/OppositeFaceCellWave.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

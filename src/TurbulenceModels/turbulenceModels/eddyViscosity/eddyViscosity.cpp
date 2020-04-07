@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "eddyViscosity.H"
-#include "fvc.H"
-#include "fvm.H"
+#include "TurbulenceModels/turbulenceModels/eddyViscosity/eddyViscosity.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvc.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvm.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

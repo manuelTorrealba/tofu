@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "COxidationHurtMitchell.H"
-#include "mathematicalConstants.H"
+#include "lagrangian/coalCombustion/submodels/surfaceReactionModel/COxidationHurtMitchell/COxidationHurtMitchell.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

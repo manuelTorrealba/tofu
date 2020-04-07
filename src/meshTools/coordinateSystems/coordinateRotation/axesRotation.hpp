@@ -48,10 +48,10 @@ SourceFiles
 #ifndef axesRotation_H
 #define axesRotation_H
 
-#include "vector.H"
-#include "coordinateRotation.H"
-#include "dictionary.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "meshTools/coordinateSystems/coordinateRotation/coordinateRotation.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

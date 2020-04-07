@@ -35,8 +35,8 @@ SourceFiles
 #ifndef zoneToCell_H
 #define zoneToCell_H
 
-#include "topoSetSource.H"
-#include "wordRe.H"
+#include "meshTools/sets/topoSetSource/topoSetSource.hpp"
+#include "OpenFOAM/primitives/strings/wordRe/wordRe.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

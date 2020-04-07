@@ -63,13 +63,13 @@ SourceFiles
 #ifndef polyTopoChange_H
 #define polyTopoChange_H
 
-#include "DynamicList.H"
-#include "labelList.H"
-#include "pointField.H"
-#include "Map.H"
-#include "HashSet.H"
-#include "mapPolyMesh.H"
-#include "PackedBoolList.H"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -607,7 +607,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "polyTopoChangeI.H"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChangeI.hpp"
 
 #ifdef NoRepository
     #include "polyTopoChangeTemplates.C"

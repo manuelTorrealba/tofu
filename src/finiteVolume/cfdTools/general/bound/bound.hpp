@@ -38,8 +38,8 @@ SourceFiles
 #ifndef bound_H
 #define bound_H
 
-#include "dimensionedScalar.H"
-#include "volFieldsFwd.H"
+#include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

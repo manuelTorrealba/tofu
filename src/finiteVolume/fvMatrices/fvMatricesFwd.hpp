@@ -29,7 +29,7 @@ Description
 #ifndef fvMatricesFwd_H
 #define fvMatricesFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

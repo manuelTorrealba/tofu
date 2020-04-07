@@ -35,7 +35,7 @@ SourceFiles
 #ifndef rawSurfaceWriter_H
 #define rawSurfaceWriter_H
 
-#include "surfaceWriter.H"
+#include "sampling/sampledSurface/writers/surfaceWriter.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

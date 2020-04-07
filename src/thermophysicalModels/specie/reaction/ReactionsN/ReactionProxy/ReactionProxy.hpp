@@ -38,7 +38,7 @@ SourceFiles
 #ifndef ReactionProxy_H
 #define ReactionProxy_H
 
-#include "Reaction.H"
+#include "thermophysicalModels/specie/reaction/ReactionsN/Reaction/Reaction.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

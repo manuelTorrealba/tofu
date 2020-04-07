@@ -36,9 +36,9 @@ SourceFiles
 #ifndef LiftForce_H
 #define LiftForce_H
 
-#include "ParticleForce.H"
-#include "volFields.H"
-#include "interpolation.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/interpolation/interpolation/interpolation/interpolation.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -140,7 +140,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "LiftForceI.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/Lift/LiftForce/LiftForceI.hpp"
 
 #ifdef NoRepository
     #include "LiftForce.C"

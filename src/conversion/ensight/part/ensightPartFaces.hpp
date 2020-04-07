@@ -35,7 +35,7 @@ SourceFiles
 #ifndef ensightPartFaces_H
 #define ensightPartFaces_H
 
-#include "ensightPart.H"
+#include "conversion/ensight/part/ensightPart.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

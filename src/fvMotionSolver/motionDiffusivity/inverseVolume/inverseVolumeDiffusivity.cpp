@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "inverseVolumeDiffusivity.H"
-#include "addToRunTimeSelectionTable.H"
-#include "patchWave.H"
-#include "HashSet.H"
-#include "surfaceInterpolate.H"
-#include "zeroGradientFvPatchFields.H"
+#include "fvMotionSolver/motionDiffusivity/inverseVolume/inverseVolumeDiffusivity.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "meshTools/cellDist/patchWave/patchWave.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "functionObjects/field/surfaceInterpolate/surfaceInterpolate.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

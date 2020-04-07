@@ -44,7 +44,7 @@ SourceFiles
 #ifndef OppositeFaceCellWave_H
 #define OppositeFaceCellWave_H
 
-#include "FaceCellWave.H"
+#include "meshTools/algorithms/MeshWave/FaceCellWave.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,8 +36,8 @@ SourceFiles
 #ifndef extendedCellToCellStencil_H
 #define extendedCellToCellStencil_H
 
-#include "mapDistribute.H"
-#include "volFields.H"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,7 +36,7 @@ SourceFiles
 #ifndef solutionControl_H
 #define solutionControl_H
 
-#include "Time.H"
+#include "OpenFOAM/db/Time/Time.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -124,7 +124,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "solutionControlI.H"
+#include "finiteVolume/cfdTools/general/solutionControl/solutionControl/solutionControl/solutionControlI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

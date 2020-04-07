@@ -26,8 +26,8 @@ License
 #ifndef UnsortedMeshedSurfaces_H
 #define UnsortedMeshedSurfaces_H
 
-#include "UnsortedMeshedSurface.H"
-#include "UnsortedMeshedSurfacesFwd.H"
+#include "surfMesh/UnsortedMeshedSurface/UnsortedMeshedSurface.hpp"
+#include "surfMesh/UnsortedMeshedSurface/UnsortedMeshedSurfacesFwd.hpp"
 
 #endif
 

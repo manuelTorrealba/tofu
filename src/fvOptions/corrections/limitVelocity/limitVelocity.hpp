@@ -48,7 +48,7 @@ SourceFiles
 #ifndef limitVelocity_H
 #define limitVelocity_H
 
-#include "cellSetOption.H"
+#include "fvOptions/cellSetOption/cellSetOption.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

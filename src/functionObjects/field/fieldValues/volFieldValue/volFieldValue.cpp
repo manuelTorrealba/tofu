@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volFieldValue.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/field/fieldValues/volFieldValue/volFieldValue.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

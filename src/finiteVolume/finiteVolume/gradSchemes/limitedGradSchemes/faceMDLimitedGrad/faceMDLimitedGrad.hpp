@@ -40,7 +40,7 @@ SourceFiles
 #ifndef faceMDLimitedGrad_H
 #define faceMDLimitedGrad_H
 
-#include "gradScheme.H"
+#include "finiteVolume/finiteVolume/gradSchemes/gradScheme/gradScheme.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

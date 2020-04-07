@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledSets.H"
-#include "volFields.H"
-#include "IOobjectList.H"
-#include "stringListOps.H"
+#include "sampling/sampledSet/sampledSets/sampledSets.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/db/IOobjectList/IOobjectList.hpp"
+#include "OpenFOAM/primitives/strings/lists/stringListOps.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

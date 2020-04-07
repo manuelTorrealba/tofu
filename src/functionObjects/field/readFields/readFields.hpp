@@ -61,9 +61,9 @@ SourceFiles
 #ifndef functionObjects_readFields_H
 #define functionObjects_readFields_H
 
-#include "fvMeshFunctionObject.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

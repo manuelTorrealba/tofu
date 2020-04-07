@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Maxwell.H"
-#include "fvOptions.H"
-#include "uniformDimensionedFields.H"
+#include "TurbulenceModels/turbulenceModels/laminar/Maxwell/Maxwell.hpp"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOptions.hpp"
+#include "OpenFOAM/fields/UniformDimensionedFields/uniformDimensionedFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

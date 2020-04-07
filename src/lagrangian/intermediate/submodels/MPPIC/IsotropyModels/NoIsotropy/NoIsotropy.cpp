@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoIsotropy.H"
+#include "lagrangian/intermediate/submodels/MPPIC/IsotropyModels/NoIsotropy/NoIsotropy.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

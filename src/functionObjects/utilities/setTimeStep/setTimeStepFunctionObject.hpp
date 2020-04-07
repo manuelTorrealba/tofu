@@ -39,8 +39,8 @@ SourceFiles
 #ifndef functionObjects_setTimeStepFunctionObject_H
 #define functionObjects_setTimeStepFunctionObject_H
 
-#include "functionObject.H"
-#include "Function1.H"
+#include "OpenFOAM/db/functionObjects/functionObject/functionObject.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

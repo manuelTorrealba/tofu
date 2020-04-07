@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dynamicMotionSolverListFvMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "motionSolver.H"
-#include "pointMesh.H"
-#include "volFields.H"
+#include "dynamicFvMesh/dynamicMotionSolverListFvMesh/dynamicMotionSolverListFvMesh.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "dynamicMesh/motionSolvers/motionSolver/motionSolver.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointMesh.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

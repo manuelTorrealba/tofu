@@ -32,8 +32,8 @@ Description
 #ifndef PlessisMasliyahDragForce_H
 #define PlessisMasliyahDragForce_H
 
-#include "ParticleForce.H"
-#include "volFieldsFwd.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

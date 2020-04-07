@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableCylinder.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshTools/searchableSurfaces/searchableCylinder/searchableCylinder.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

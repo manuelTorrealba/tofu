@@ -44,8 +44,8 @@ SourceFiles
 #ifndef PairCollisionRecord_H
 #define PairCollisionRecord_H
 
-#include "label.H"
-#include "vector.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -206,7 +206,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PairCollisionRecordI.H"
+#include "lagrangian/intermediate/parcels/Templates/CollidingParcel/CollisionRecordList/PairCollisionRecord/PairCollisionRecordI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

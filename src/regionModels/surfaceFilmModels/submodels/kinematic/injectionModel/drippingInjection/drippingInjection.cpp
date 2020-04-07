@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "drippingInjection.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvMesh.H"
-#include "Time.H"
-#include "mathematicalConstants.H"
-#include "Random.H"
-#include "volFields.H"
-#include "kinematicSingleLayer.H"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/injectionModel/drippingInjection/drippingInjection.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
+#include "OpenFOAM/primitives/Random/Random.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "regionModels/surfaceFilmModels/kinematicSingleLayer/kinematicSingleLayer.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

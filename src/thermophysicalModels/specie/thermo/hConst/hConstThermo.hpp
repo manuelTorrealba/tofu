@@ -205,7 +205,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "hConstThermoI.H"
+#include "thermophysicalModels/specie/thermo/hConst/hConstThermoI.hpp"
 
 #ifdef NoRepository
     #include "hConstThermo.C"

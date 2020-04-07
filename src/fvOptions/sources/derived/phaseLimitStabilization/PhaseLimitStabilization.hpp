@@ -57,7 +57,7 @@ SourceFiles
 #ifndef PhaseLimitStabilization_H
 #define PhaseLimitStabilization_H
 
-#include "fvOption.H"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOption.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

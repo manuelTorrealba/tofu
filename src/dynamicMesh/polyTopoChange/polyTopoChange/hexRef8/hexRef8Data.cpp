@@ -23,16 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOobject.H"
-#include "UList.H"
+#include "OpenFOAM/db/IOobject/IOobject.hpp"
+#include "OpenFOAM/containers/Lists/UList/UList.hpp"
 
-#include "hexRef8Data.H"
-#include "mapPolyMesh.H"
-#include "mapDistributePolyMesh.H"
-#include "polyMesh.H"
-#include "syncTools.H"
-#include "refinementHistory.H"
-#include "fvMesh.H"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/hexRef8/hexRef8Data.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributePolyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/hexRef8/refinementHistory.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

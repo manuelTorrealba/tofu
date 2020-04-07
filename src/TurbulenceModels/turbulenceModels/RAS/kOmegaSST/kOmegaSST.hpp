@@ -39,9 +39,9 @@ SourceFiles
 #ifndef kOmegaSST_H
 #define kOmegaSST_H
 
-#include "kOmegaSSTBase.H"
-#include "RASModel.H"
-#include "eddyViscosity.H"
+#include "TurbulenceModels/turbulenceModels/Base/kOmegaSST/kOmegaSSTBase.hpp"
+#include "TurbulenceModels/turbulenceModels/RAS/RASModel/RASModel.hpp"
+#include "TurbulenceModels/turbulenceModels/eddyViscosity/eddyViscosity.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

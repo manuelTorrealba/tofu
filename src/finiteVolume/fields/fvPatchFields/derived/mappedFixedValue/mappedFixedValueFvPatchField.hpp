@@ -78,9 +78,9 @@ SourceFiles
 #ifndef mappedFixedValueFvPatchField_H
 #define mappedFixedValueFvPatchField_H
 
-#include "fixedValueFvPatchFields.H"
-//#include "interpolation.H"
-#include "mappedPatchFieldBase.H"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.hpp"
+#include "finiteVolume/interpolation/interpolation/interpolation/interpolation.hpp"
+#include "finiteVolume/fields/fvPatchFields/derived/mappedField/mappedPatchFieldBase.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

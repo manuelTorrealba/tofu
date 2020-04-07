@@ -72,8 +72,8 @@ SourceFiles
 #ifndef radialActuationDiskSource_H
 #define radialActuationDiskSource_H
 
-#include "actuationDiskSource.H"
-#include "FixedList.H"
+#include "fvOptions/sources/derived/actuationDiskSource/actuationDiskSource.hpp"
+#include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

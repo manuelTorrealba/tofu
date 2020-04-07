@@ -57,8 +57,8 @@ SourceFiles
 #ifndef circleRandom_H
 #define circleRandom_H
 
-#include "sampledSet.H"
-#include "DynamicList.H"
+#include "sampling/sampledSet/sampledSet/sampledSet.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

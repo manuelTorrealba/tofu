@@ -62,9 +62,9 @@ SourceFiles
 #ifndef CoBlended_H
 #define CoBlended_H
 
-#include "surfaceInterpolationScheme.H"
-#include "blendedSchemeBase.H"
-#include "surfaceInterpolate.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/blendedSchemeBase/blendedSchemeBase.hpp"
+#include "functionObjects/field/surfaceInterpolate/surfaceInterpolate.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

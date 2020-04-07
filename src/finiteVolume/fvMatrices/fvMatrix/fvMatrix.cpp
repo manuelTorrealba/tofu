@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "calculatedFvPatchFields.H"
-#include "extrapolatedCalculatedFvPatchFields.H"
-#include "coupledFvPatchFields.H"
-#include "UIndirectList.H"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/calculated/calculatedFvPatchFields.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchFields.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/coupled/coupledFvPatchFields.hpp"
+#include "OpenFOAM/containers/Lists/UIndirectList/UIndirectList.hpp"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

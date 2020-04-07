@@ -23,22 +23,22 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "slidingInterface.H"
-#include "polyTopoChange.H"
-#include "polyMesh.H"
-#include "primitiveMesh.H"
-#include "enrichedPatch.H"
-#include "DynamicList.H"
-#include "pointHit.H"
-#include "triPointRef.H"
-#include "plane.H"
-#include "polyTopoChanger.H"
-#include "polyAddPoint.H"
-#include "polyRemovePoint.H"
-#include "polyAddFace.H"
-#include "polyModifyPoint.H"
-#include "polyModifyFace.H"
-#include "polyRemoveFace.H"
+#include "dynamicMesh/slidingInterface/slidingInterface.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChange.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
+#include "dynamicMesh/slidingInterface/enrichedPatch/enrichedPatch.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/pointHit.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/triangle/triPointRef.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/plane/plane.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChanger/polyTopoChanger.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/addObject/polyAddPoint.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/removeObject/polyRemovePoint.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/addObject/polyAddFace.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/modifyObject/polyModifyPoint.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/modifyObject/polyModifyFace.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/removeObject/polyRemoveFace.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

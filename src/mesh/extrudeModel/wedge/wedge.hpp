@@ -35,7 +35,7 @@ See also
 #ifndef wedge_H
 #define wedge_H
 
-#include "sector.H"
+#include "mesh/extrudeModel/sector/sector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

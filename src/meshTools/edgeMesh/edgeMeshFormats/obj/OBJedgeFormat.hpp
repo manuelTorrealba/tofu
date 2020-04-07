@@ -37,10 +37,10 @@ SourceFiles
 #ifndef OBJedgeFormat_H
 #define OBJedgeFormat_H
 
-#include "edgeMesh.H"
-#include "IFstream.H"
-#include "Ostream.H"
-#include "OFstream.H"
+#include "meshTools/edgeMesh/edgeMesh.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Ostream.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

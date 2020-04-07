@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicCombustionMixture.H"
+#include "thermophysicalModels/reactionThermo/mixtures/basicCombustionMixture/basicCombustionMixture.hpp"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

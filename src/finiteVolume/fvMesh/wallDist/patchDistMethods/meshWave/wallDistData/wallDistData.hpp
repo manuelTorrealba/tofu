@@ -42,8 +42,8 @@ SourceFiles
 #ifndef wallDistData_H
 #define wallDistData_H
 
-#include "cellDistFuncs.H"
-#include "volFields.H"
+#include "meshTools/cellDist/cellDistFuncs.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

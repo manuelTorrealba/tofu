@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noAbsorptionEmission.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalModels/radiation/submodels/absorptionEmissionModel/noAbsorptionEmission/noAbsorptionEmission.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

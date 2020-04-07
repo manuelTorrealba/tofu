@@ -54,7 +54,7 @@ SourceFiles
 #ifndef Lun_H
 #define Lun_H
 
-#include "ParticleStressModel.H"
+#include "lagrangian/intermediate/submodels/MPPIC/ParticleStressModels/ParticleStressModel/ParticleStressModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

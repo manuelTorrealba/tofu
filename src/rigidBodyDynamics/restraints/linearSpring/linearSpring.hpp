@@ -35,7 +35,7 @@ SourceFiles
 #ifndef RBD_restraints_linearSpring_H
 #define RBD_restraints_linearSpring_H
 
-#include "rigidBodyRestraint.H"
+#include "rigidBodyDynamics/restraints/restraint/rigidBodyRestraint.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

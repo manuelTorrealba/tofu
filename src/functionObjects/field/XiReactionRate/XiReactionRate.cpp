@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "XiReactionRate.H"
-#include "volFields.H"
-#include "fvcGrad.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/field/XiReactionRate/XiReactionRate.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcGrad.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

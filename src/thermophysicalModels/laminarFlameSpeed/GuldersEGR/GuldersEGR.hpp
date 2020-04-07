@@ -35,7 +35,7 @@ SourceFiles
 #ifndef GuldersEGR_H
 #define GuldersEGR_H
 
-#include "laminarFlameSpeed.H"
+#include "thermophysicalModels/laminarFlameSpeed/laminarFlameSpeed/laminarFlameSpeed.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

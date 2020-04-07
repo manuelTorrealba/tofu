@@ -25,6 +25,7 @@ License
 
 #include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
 #include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/global/argList/argList.hpp"
 
 // * * * * * * * * * * * * * * * Members Functions * * * * * * * * * * * * * //
 

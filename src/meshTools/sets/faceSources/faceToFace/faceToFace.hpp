@@ -35,7 +35,7 @@ SourceFiles
 #ifndef faceToFace_H
 #define faceToFace_H
 
-#include "topoSetSource.H"
+#include "meshTools/sets/topoSetSource/topoSetSource.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

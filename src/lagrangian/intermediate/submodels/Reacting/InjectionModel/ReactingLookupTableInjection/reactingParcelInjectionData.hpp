@@ -35,8 +35,8 @@ SourceFiles
 #ifndef reactingParcelInjectionData_H
 #define reactingParcelInjectionData_H
 
-#include "thermoParcelInjectionData.H"
-#include "scalarList.H"
+#include "lagrangian/intermediate/submodels/Thermodynamic/InjectionModel/ThermoLookupTableInjection/thermoParcelInjectionData.hpp"
+#include "OpenFOAM/primitives/Scalar/lists/scalarList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -133,7 +133,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "reactingParcelInjectionDataI.H"
+#include "lagrangian/intermediate/submodels/Reacting/InjectionModel/ReactingLookupTableInjection/reactingParcelInjectionDataI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

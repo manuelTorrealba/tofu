@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "sootModel.H"
+#include "OpenFOAM/db/error/error.hpp"
+#include "thermophysicalModels/radiation/submodels/sootModel/sootModel/sootModel.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchInjectionBase.H"
-#include "polyMesh.H"
-#include "SubField.H"
-#include "Random.H"
-#include "triPointRef.H"
-#include "volFields.H"
-#include "polyMeshTetDecomposition.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/PatchInjection/patchInjectionBase.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/fields/Fields/Field/SubField.hpp"
+#include "OpenFOAM/primitives/Random/Random.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/triangle/triPointRef.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

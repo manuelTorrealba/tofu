@@ -61,15 +61,15 @@ SourceFiles
 #ifndef coordinateSystem_H
 #define coordinateSystem_H
 
-#include "vector.H"
-#include "point.H"
-#include "tensor.H"
-#include "vectorField.H"
-#include "pointField.H"
-#include "tmp.H"
-#include "coordinateRotation.H"
-#include "objectRegistry.H"
-#include "autoPtr.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "OpenFOAM/primitives/Tensor/tensor/tensor.hpp"
+#include "OpenFOAM/fields/Fields/vectorField/vectorField.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/memory/tmp/tmp.hpp"
+#include "meshTools/coordinateSystems/coordinateRotation/coordinateRotation.hpp"
+#include "OpenFOAM/db/objectRegistry/objectRegistry.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

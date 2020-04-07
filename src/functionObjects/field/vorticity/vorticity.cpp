@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "vorticity.H"
-#include "fvcCurl.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/field/vorticity/vorticity.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcCurl.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -35,11 +35,11 @@ SourceFiles
 #ifndef basicThermo_H
 #define basicThermo_H
 
-#include "volFields.H"
-#include "typeInfo.H"
-#include "IOdictionary.H"
-#include "autoPtr.H"
-#include "wordIOList.H"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/primitives/strings/word/wordIOList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

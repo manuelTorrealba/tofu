@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionCoupledWallPointPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshTools/regionCoupled/patches/regionCoupledPointPatch/regionCoupledWallPointPatch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 
 namespace Foam

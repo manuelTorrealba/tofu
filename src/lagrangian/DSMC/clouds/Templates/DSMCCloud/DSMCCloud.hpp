@@ -36,15 +36,15 @@ SourceFiles
 #ifndef DSMCCloud_H
 #define DSMCCloud_H
 
-#include "Cloud.H"
-#include "DSMCBaseCloud.H"
-#include "IOdictionary.H"
-#include "autoPtr.H"
-#include "Random.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "scalarIOField.H"
-#include "barycentric.H"
+#include "lagrangian/basic/Cloud/Cloud.hpp"
+#include "lagrangian/DSMC/clouds/baseClasses/DSMCBaseCloud/DSMCBaseCloud.hpp"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/primitives/Random/Random.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarIOField.hpp"
+#include "OpenFOAM/primitives/Barycentric/barycentric/barycentric.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -478,7 +478,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DSMCCloudI.H"
+#include "lagrangian/DSMC/clouds/Templates/DSMCCloud/DSMCCloudI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

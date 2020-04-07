@@ -23,16 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "combineFaces.H"
-#include "polyMesh.H"
-#include "polyTopoChange.H"
-#include "polyRemoveFace.H"
-#include "polyAddFace.H"
-#include "polyModifyFace.H"
-#include "polyRemovePoint.H"
-#include "polyAddPoint.H"
-#include "syncTools.H"
-#include "meshTools.H"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/combineFaces.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChange.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/removeObject/polyRemoveFace.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/addObject/polyAddFace.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/modifyObject/polyModifyFace.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/removeObject/polyRemovePoint.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/addObject/polyAddPoint.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

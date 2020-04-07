@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "distanceSurface.H"
-#include "dictionary.H"
-#include "volFields.H"
-#include "volPointInterpolation.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvMesh.H"
-#include "volumeType.H"
+#include "sampling/sampledSurface/distanceSurface/distanceSurface.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/interpolation/volPointInterpolation/volPointInterpolation.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/volumeType.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,7 +26,7 @@ License
 #ifndef directionMixedFvPatchFieldsFwd_H
 #define directionMixedFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

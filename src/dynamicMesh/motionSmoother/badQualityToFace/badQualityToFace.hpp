@@ -35,8 +35,8 @@ SourceFiles
 #ifndef badQualityToFace_H
 #define badQualityToFace_H
 
-#include "topoSetSource.H"
-#include "PackedBoolList.H"
+#include "meshTools/sets/topoSetSource/topoSetSource.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

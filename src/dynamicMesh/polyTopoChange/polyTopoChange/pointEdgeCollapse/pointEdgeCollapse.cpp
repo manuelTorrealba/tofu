@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointEdgeCollapse.H"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/pointEdgeCollapse/pointEdgeCollapse.hpp"
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 

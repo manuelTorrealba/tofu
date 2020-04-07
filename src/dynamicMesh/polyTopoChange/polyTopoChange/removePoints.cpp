@@ -23,17 +23,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BiIndirectList.H"
-#include "removePoints.H"
-#include "PstreamReduceOps.H"
-#include "polyMesh.H"
-#include "polyTopoChange.H"
-#include "polyRemovePoint.H"
-#include "polyAddPoint.H"
-#include "polyModifyFace.H"
-#include "syncTools.H"
-#include "faceSet.H"
-#include "dummyTransform.H"
+#include "OpenFOAM/containers/Lists/BiIndirectList/BiIndirectList.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/removePoints.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChange.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/removeObject/polyRemovePoint.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/addObject/polyAddPoint.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/modifyObject/polyModifyFace.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
+#include "meshTools/sets/topoSets/faceSet.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/dummyTransform.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

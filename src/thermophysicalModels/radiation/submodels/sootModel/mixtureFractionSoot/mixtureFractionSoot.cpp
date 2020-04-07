@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mixtureFractionSoot.H"
-#include "singleStepReactingMixture.H"
+#include "thermophysicalModels/radiation/submodels/sootModel/mixtureFractionSoot/mixtureFractionSoot.hpp"
+#include "thermophysicalModels/reactionThermo/mixtures/singleStepReactingMixture/singleStepReactingMixture.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

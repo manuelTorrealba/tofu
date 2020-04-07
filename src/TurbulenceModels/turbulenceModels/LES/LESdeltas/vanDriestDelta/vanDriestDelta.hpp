@@ -36,7 +36,7 @@ SourceFiles
 #ifndef vanDriestDelta_H
 #define vanDriestDelta_H
 
-#include "LESdelta.H"
+#include "TurbulenceModels/turbulenceModels/LES/LESdeltas/LESdelta/LESdelta.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

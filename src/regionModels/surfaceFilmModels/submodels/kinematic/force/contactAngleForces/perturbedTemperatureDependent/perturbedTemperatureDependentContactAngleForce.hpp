@@ -48,10 +48,10 @@ SourceFiles
 #ifndef perturbedTemperatureDependentContactAngleForce_H
 #define perturbedTemperatureDependentContactAngleForce_H
 
-#include "contactAngleForce.H"
-#include "Function1.H"
-#include "distributionModel.H"
-#include "Random.H"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/force/contactAngleForces/contactAngleForce/contactAngleForce.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
+#include "lagrangian/distributionModels/distributionModel/distributionModel.hpp"
+#include "OpenFOAM/primitives/Random/Random.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

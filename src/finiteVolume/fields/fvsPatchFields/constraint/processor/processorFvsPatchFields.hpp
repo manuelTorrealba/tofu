@@ -26,8 +26,8 @@ License
 #ifndef processorFvsPatchFields_H
 #define processorFvsPatchFields_H
 
-#include "processorFvsPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvsPatchFields/constraint/processor/processorFvsPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

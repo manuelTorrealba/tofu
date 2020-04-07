@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SLGThermo.H"
+#include "thermophysicalModels/SLGThermo/SLGThermo/SLGThermo.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

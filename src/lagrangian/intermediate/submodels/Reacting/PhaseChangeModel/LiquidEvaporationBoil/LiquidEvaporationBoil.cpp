@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LiquidEvaporationBoil.H"
-#include "specie.H"
-#include "mathematicalConstants.H"
+#include "lagrangian/intermediate/submodels/Reacting/PhaseChangeModel/LiquidEvaporationBoil/LiquidEvaporationBoil.hpp"
+#include "thermophysicalModels/specie/specie/specie.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
 
 using namespace Foam::constant::mathematical;
 

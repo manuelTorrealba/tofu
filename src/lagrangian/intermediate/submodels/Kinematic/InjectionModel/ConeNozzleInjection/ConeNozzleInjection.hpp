@@ -61,7 +61,7 @@ SourceFiles
 #ifndef ConeNozzleInjection_H
 #define ConeNozzleInjection_H
 
-#include "InjectionModel.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/InjectionModel/InjectionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

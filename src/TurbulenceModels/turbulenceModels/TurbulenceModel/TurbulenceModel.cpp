@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TurbulenceModel.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "TurbulenceModels/turbulenceModels/TurbulenceModel/TurbulenceModel.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

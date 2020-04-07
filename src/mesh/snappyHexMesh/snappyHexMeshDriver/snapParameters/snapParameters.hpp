@@ -35,9 +35,9 @@ SourceFiles
 #ifndef snapParameters_H
 #define snapParameters_H
 
-#include "dictionary.H"
-#include "scalar.H"
-#include "Switch.H"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

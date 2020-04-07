@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "temperatureCoupledBase.H"
-#include "volFields.H"
-#include "fluidThermo.H"
-#include "solidThermo.H"
-#include "turbulentFluidThermoModel.H"
+#include "TurbulenceModels/compressible/turbulentFluidThermoModels/derivedFvPatchFields/temperatureCoupledBase/temperatureCoupledBase.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "thermophysicalModels/basic/fluidThermo/fluidThermo.hpp"
+#include "thermophysicalModels/solidThermo/solidThermo/solidThermo.hpp"
+#include "TurbulenceModels/compressible/turbulentFluidThermoModels/turbulentFluidThermoModel.hpp"
 
 // * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * * //
 

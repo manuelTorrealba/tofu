@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fileDiffusivity.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvMotionSolver/motionDiffusivity/file/fileDiffusivity.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

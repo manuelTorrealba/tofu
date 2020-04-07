@@ -37,7 +37,7 @@ SourceFiles
 #ifndef eConstThermo_H
 #define eConstThermo_H
 
-#include "thermo.H"
+#include "thermophysicalModels/specie/thermo/thermo/thermo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -213,7 +213,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "eConstThermoI.H"
+#include "thermophysicalModels/specie/thermo/eConst/eConstThermoI.hpp"
 
 #ifdef NoRepository
     #include "eConstThermo.C"

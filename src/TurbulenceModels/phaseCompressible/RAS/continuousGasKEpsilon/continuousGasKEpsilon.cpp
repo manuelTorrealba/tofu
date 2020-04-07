@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "continuousGasKEpsilon.H"
-#include "fvOptions.H"
+#include "TurbulenceModels/phaseCompressible/RAS/continuousGasKEpsilon/continuousGasKEpsilon.hpp"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOptions.hpp"
 #include "twoPhaseSystem.H"
 #include "dragModel.H"
 #include "virtualMassModel.H"

@@ -51,19 +51,19 @@ SourceFiles
 #ifndef KinematicCloud_H
 #define KinematicCloud_H
 
-#include "particle.H"
-#include "Cloud.H"
-#include "kinematicCloud.H"
-#include "IOdictionary.H"
-#include "autoPtr.H"
-#include "Random.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "fvMatrices.H"
-#include "cloudSolution.H"
+#include "lagrangian/basic/particle/particle.hpp"
+#include "lagrangian/basic/Cloud/Cloud.hpp"
+#include "lagrangian/intermediate/clouds/baseClasses/kinematicCloud/kinematicCloud.hpp"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/primitives/Random/Random.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fvMatrices/fvMatrices.hpp"
+#include "lagrangian/intermediate/clouds/Templates/KinematicCloud/cloudSolution/cloudSolution.hpp"
 
-#include "ParticleForceList.H"
-#include "CloudFunctionObjectList.H"
+#include "lagrangian/intermediate/submodels/ForceTypes/ParticleForceList/ParticleForceList.hpp"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/CloudFunctionObjectList/CloudFunctionObjectList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -625,7 +625,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "KinematicCloudI.H"
+#include "lagrangian/intermediate/clouds/Templates/KinematicCloud/KinematicCloudI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

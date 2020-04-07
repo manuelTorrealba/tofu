@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "bufferedAccumulator.H"
-#include "IOstreams.H"
+#include "lagrangian/molecularDynamics/molecularMeasurements/bufferedAccumulator/bufferedAccumulator.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * * IOstream Operators  * * * * * * * * * * * * //
 

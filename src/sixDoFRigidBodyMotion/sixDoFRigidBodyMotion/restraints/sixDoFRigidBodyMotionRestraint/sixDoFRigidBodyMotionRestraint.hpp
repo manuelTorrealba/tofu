@@ -43,11 +43,11 @@ SourceFiles
 #ifndef sixDoFRigidBodyMotionRestraint_H
 #define sixDoFRigidBodyMotionRestraint_H
 
-#include "Time.H"
-#include "dictionary.H"
-#include "autoPtr.H"
-#include "vector.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

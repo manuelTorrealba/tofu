@@ -56,10 +56,10 @@ SourceFiles
 #ifndef freePiston_H
 #define freePiston_H
 
-#include "engineTime.H"
-#include "dictionary.H"
-#include "dimensionedScalar.H"
-#include "Function1.H"
+#include "engine/engineTime/engineTime/engineTime.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

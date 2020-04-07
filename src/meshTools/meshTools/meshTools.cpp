@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshTools.H"
-#include "polyMesh.H"
-#include "hexMatcher.H"
+#include "meshTools/meshTools/meshTools.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellMatcher/hexMatcher.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

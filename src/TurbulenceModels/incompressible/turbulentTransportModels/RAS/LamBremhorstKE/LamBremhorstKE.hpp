@@ -43,8 +43,8 @@ SourceFiles
 #ifndef LamBremhorstKE_H
 #define LamBremhorstKE_H
 
-#include "turbulentTransportModel.H"
-#include "eddyViscosity.H"
+#include "TurbulenceModels/incompressible/turbulentTransportModels/turbulentTransportModel.hpp"
+#include "TurbulenceModels/turbulenceModels/eddyViscosity/eddyViscosity.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

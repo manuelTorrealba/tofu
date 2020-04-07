@@ -38,7 +38,7 @@ SourceFiles
 #ifndef UpwindFitData_H
 #define UpwindFitData_H
 
-#include "FitData.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/FitData/FitData.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

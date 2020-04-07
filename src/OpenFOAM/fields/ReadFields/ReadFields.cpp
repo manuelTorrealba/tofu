@@ -26,6 +26,8 @@ License
 #include "OpenFOAM/fields/ReadFields/ReadFields.hpp"
 #include "OpenFOAM/db/IOobjectList/IOobjectList.hpp"
 #include "OpenFOAM/db/objectRegistry/objectRegistry.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

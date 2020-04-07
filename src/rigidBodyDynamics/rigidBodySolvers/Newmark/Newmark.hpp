@@ -52,7 +52,7 @@ SourceFiles
 #ifndef Newmark_H
 #define Newmark_H
 
-#include "rigidBodySolver.H"
+#include "rigidBodyDynamics/rigidBodySolvers/rigidBodySolver/rigidBodySolver.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

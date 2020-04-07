@@ -28,8 +28,8 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoIsotropy.H"
-#include "Stochastic.H"
+#include "lagrangian/intermediate/submodels/MPPIC/IsotropyModels/NoIsotropy/NoIsotropy.hpp"
+#include "lagrangian/intermediate/submodels/MPPIC/IsotropyModels/Stochastic/Stochastic.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

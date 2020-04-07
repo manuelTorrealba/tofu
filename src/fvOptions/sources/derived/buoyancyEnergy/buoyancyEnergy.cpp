@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "buoyancyEnergy.H"
-#include "fvMatrices.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvOptions/sources/derived/buoyancyEnergy/buoyancyEnergy.hpp"
+#include "finiteVolume/fvMatrices/fvMatrices.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

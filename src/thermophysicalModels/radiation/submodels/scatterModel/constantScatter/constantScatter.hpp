@@ -35,7 +35,7 @@ SourceFiles
 #ifndef constantScatter_H
 #define constantScatter_H
 
-#include "scatterModel.H"
+#include "thermophysicalModels/radiation/submodels/scatterModel/scatterModel/scatterModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

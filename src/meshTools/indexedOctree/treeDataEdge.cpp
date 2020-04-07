@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "treeDataEdge.H"
-#include "indexedOctree.H"
+#include "meshTools/indexedOctree/treeDataEdge.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/indexedOctree.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

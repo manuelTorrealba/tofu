@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicKinematicCloud.H"
-#include "makeParcelTurbulenceDispersionModels.H"
+#include "lagrangian/intermediate/clouds/derived/basicKinematicCloud/basicKinematicCloud.hpp"
+#include "lagrangian/turbulence/parcels/include/makeParcelTurbulenceDispersionModels.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

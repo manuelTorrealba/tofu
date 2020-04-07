@@ -35,7 +35,7 @@ SourceFiles
 #ifndef leastSquaresGrad_H
 #define leastSquaresGrad_H
 
-#include "gradScheme.H"
+#include "finiteVolume/finiteVolume/gradSchemes/gradScheme/gradScheme.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

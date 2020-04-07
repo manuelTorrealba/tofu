@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "gradingDescriptors.H"
+#include "mesh/blockMesh/gradingDescriptor/gradingDescriptors.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -35,9 +35,9 @@ SourceFiles
 #ifndef reactingMixture_H
 #define reactingMixture_H
 
-#include "speciesTable.H"
-#include "chemistryReader.H"
-#include "multiComponentMixture.H"
+#include "thermophysicalModels/specie/speciesTable/speciesTable.hpp"
+#include "thermophysicalModels/reactionThermo/chemistryReaders/chemistryReader/chemistryReader.hpp"
+#include "thermophysicalModels/reactionThermo/mixtures/multiComponentMixture/multiComponentMixture.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

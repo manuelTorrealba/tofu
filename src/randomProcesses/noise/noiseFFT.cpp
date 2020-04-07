@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noiseFFT.H"
-#include "IFstream.H"
-#include "DynamicList.H"
-#include "fft.H"
-#include "SubField.H"
-#include "mathematicalConstants.H"
+#include "randomProcesses/noise/noiseFFT.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "randomProcesses/fft/fft.hpp"
+#include "OpenFOAM/fields/Fields/Field/SubField.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
 
 // * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef singleLayerRegion_H
 #define singleLayerRegion_H
 
-#include "regionModel.H"
+#include "regionModels/regionModel/regionModel/regionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

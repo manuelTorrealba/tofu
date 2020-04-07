@@ -34,8 +34,8 @@ SourceFiles
 #ifndef zeroFixedValuePointPatchFields_H
 #define zeroFixedValuePointPatchFields_H
 
-#include "zeroFixedValuePointPatchField.H"
-#include "fieldTypes.H"
+#include "mesh/snappyHexMesh/externalDisplacementMeshMover/zeroFixedValue/zeroFixedValuePointPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

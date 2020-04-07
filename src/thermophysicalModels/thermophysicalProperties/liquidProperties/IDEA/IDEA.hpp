@@ -58,16 +58,16 @@ SourceFiles
 #ifndef IDEA_H
 #define IDEA_H
 
-#include "liquidProperties.H"
-#include "NSRDSfunc0.H"
-#include "NSRDSfunc1.H"
-#include "NSRDSfunc2.H"
-#include "NSRDSfunc3.H"
-#include "NSRDSfunc4.H"
-#include "NSRDSfunc5.H"
-#include "NSRDSfunc6.H"
-#include "NSRDSfunc7.H"
-#include "APIdiffCoefFunc.H"
+#include "thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.hpp"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc0/NSRDSfunc0.hpp"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc1/NSRDSfunc1.hpp"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc2/NSRDSfunc2.hpp"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc3/NSRDSfunc3.hpp"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc4/NSRDSfunc4.hpp"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc5/NSRDSfunc5.hpp"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc6/NSRDSfunc6.hpp"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc7/NSRDSfunc7.hpp"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/APIfunctions/APIdiffCoefFunc/APIdiffCoefFunc.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -205,7 +205,7 @@ Ostream& operator<<(Ostream& os, const IDEA& l);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "IDEAI.H"
+#include "thermophysicalModels/thermophysicalProperties/liquidProperties/IDEA/IDEAI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

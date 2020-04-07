@@ -72,9 +72,9 @@ SourceFiles
 #ifndef targetCoeffTrim_H
 #define targetCoeffTrim_H
 
-#include "trimModel.H"
-#include "tensor.H"
-#include "vector.H"
+#include "fvOptions/sources/derived/rotorDiskSource/trimModel/trimModel/trimModel.hpp"
+#include "OpenFOAM/primitives/Tensor/tensor/tensor.hpp"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

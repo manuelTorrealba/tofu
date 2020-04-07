@@ -35,7 +35,7 @@ SourceFiles
 #ifndef labelToFace_H
 #define labelToFace_H
 
-#include "topoSetSource.H"
+#include "meshTools/sets/topoSetSource/topoSetSource.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

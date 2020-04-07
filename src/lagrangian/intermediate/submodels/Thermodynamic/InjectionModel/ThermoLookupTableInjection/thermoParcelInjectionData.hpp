@@ -35,7 +35,7 @@ SourceFiles
 #ifndef thermoParcelInjectionData_H
 #define thermoParcelInjectionData_H
 
-#include "kinematicParcelInjectionData.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/KinematicLookupTableInjection/kinematicParcelInjectionData.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -141,7 +141,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "thermoParcelInjectionDataI.H"
+#include "lagrangian/intermediate/submodels/Thermodynamic/InjectionModel/ThermoLookupTableInjection/thermoParcelInjectionDataI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

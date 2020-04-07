@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
+#include "OpenFOAM/db/error/error.hpp"
 
-#include "SpecularReflection.H"
+#include "lagrangian/DSMC/submodels/WallInteractionModel/SpecularReflection/SpecularReflection.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

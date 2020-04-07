@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoSurfaceFilm.H"
-#include "addToRunTimeSelectionTable.H"
+#include "lagrangian/intermediate/submodels/Kinematic/SurfaceFilmModel/NoSurfaceFilm/NoSurfaceFilm.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

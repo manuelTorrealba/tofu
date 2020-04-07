@@ -23,18 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMeshAdder.H"
-#include "mapAddedPolyMesh.H"
-#include "IOobject.H"
-#include "faceCoupleInfo.H"
-#include "processorPolyPatch.H"
-#include "SortableList.H"
-#include "Time.H"
-#include "globalMeshData.H"
-#include "mergePoints.H"
-#include "polyModifyFace.H"
-#include "polyRemovePoint.H"
-#include "polyTopoChange.H"
+#include "dynamicMesh/polyMeshAdder/polyMeshAdder.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapAddedPolyMesh.hpp"
+#include "OpenFOAM/db/IOobject/IOobject.hpp"
+#include "dynamicMesh/polyMeshAdder/faceCoupleInfo.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.hpp"
+#include "OpenFOAM/containers/Lists/SortableList/SortableList.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.hpp"
+#include "OpenFOAM/meshes/meshTools/mergePoints.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/modifyObject/polyModifyFace.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/removeObject/polyRemovePoint.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChange.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

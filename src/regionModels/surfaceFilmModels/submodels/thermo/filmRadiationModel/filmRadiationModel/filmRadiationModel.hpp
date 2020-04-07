@@ -36,8 +36,8 @@ SourceFiles
 #ifndef filmRadiationModel_H
 #define filmRadiationModel_H
 
-#include "filmSubModelBase.H"
-#include "runTimeSelectionTables.H"
+#include "regionModels/surfaceFilmModels/submodels/filmSubModelBase.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

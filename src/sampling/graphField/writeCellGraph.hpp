@@ -34,7 +34,7 @@ SourceFiles
 #ifndef writeCellGraph_H
 #define writeCellGraph_H
 
-#include "volFieldsFwd.H"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

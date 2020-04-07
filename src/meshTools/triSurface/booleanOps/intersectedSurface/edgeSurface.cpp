@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "edgeSurface.H"
-#include "triSurface.H"
-#include "surfaceIntersection.H"
-#include "meshTools.H"
-#include "OFstream.H"
+#include "meshTools/triSurface/booleanOps/intersectedSurface/edgeSurface.hpp"
+#include "triSurface/triSurface/triSurface.hpp"
+#include "meshTools/triSurface/booleanOps/surfaceIntersection/surfaceIntersection.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -35,8 +35,8 @@ SourceFiles
 #ifndef ThermoCombustion_H
 #define ThermoCombustion_H
 
-#include "autoPtr.H"
-#include "CombustionModel.H"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "combustionModels/CombustionModelN/CombustionModel/CombustionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

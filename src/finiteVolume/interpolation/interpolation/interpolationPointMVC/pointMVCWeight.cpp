@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointMVCWeight.H"
-#include "polyMesh.H"
+#include "finiteVolume/interpolation/interpolation/interpolationPointMVC/pointMVCWeight.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -36,7 +36,7 @@ SourceFiles
 #ifndef dynamicAlphaContactAngleFvPatchScalarField_H
 #define dynamicAlphaContactAngleFvPatchScalarField_H
 
-#include "alphaContactAngleFvPatchScalarField.H"
+#include "transportModels/twoPhaseProperties/alphaContactAngle/alphaContactAngle/alphaContactAngleFvPatchScalarField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CorrectPhi.H"
+#include "finiteVolume/cfdTools/general/CorrectPhi/CorrectPhi.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

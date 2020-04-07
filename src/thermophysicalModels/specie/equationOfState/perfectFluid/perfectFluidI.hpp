@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "perfectFluid.H"
-#include "specie.H"
+#include "thermophysicalModels/specie/equationOfState/perfectFluid/perfectFluid.hpp"
+#include "thermophysicalModels/specie/specie/specie.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

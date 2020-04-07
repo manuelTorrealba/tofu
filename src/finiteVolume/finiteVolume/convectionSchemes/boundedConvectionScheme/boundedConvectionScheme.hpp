@@ -42,7 +42,7 @@ SourceFiles
 #ifndef boundedConvectionScheme_H
 #define boundedConvectionScheme_H
 
-#include "convectionScheme.H"
+#include "finiteVolume/finiteVolume/convectionSchemes/convectionScheme/convectionScheme.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

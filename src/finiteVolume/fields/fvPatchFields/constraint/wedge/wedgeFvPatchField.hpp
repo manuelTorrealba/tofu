@@ -48,8 +48,8 @@ SourceFiles
 #ifndef wedgeFvPatchField_H
 #define wedgeFvPatchField_H
 
-#include "transformFvPatchField.H"
-#include "wedgeFvPatch.H"
+#include "finiteVolume/fields/fvPatchFields/basic/transform/transformFvPatchField.hpp"
+#include "finiteVolume/fvMesh/fvPatches/constraint/wedge/wedgeFvPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

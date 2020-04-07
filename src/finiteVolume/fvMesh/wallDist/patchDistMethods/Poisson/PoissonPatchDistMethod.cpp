@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PoissonPatchDistMethod.H"
-#include "fvcGrad.H"
-#include "fvmLaplacian.H"
-#include "addToRunTimeSelectionTable.H"
+#include "finiteVolume/fvMesh/wallDist/patchDistMethods/Poisson/PoissonPatchDistMethod.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcGrad.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvmLaplacian.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

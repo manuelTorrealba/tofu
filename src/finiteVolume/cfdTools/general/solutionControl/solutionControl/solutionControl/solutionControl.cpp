@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solutionControl.H"
+#include "finiteVolume/cfdTools/general/solutionControl/solutionControl/solutionControl/solutionControl.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

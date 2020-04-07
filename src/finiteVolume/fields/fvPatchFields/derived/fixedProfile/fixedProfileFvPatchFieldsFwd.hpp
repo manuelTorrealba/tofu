@@ -26,7 +26,7 @@ License
 #ifndef fixedProfileFvPatchFieldsFwd_H
 #define fixedProfileFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

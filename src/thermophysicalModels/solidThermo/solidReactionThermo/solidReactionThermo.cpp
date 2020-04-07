@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solidReactionThermo.H"
-#include "fvMesh.H"
+#include "thermophysicalModels/solidThermo/solidReactionThermo/solidReactionThermo.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

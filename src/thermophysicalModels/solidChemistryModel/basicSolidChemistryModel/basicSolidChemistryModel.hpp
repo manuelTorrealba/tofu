@@ -37,10 +37,10 @@ SourceFiles
 #ifndef basicSolidChemistryModel_H
 #define basicSolidChemistryModel_H
 
-#include "basicChemistryModel.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
-#include "solidReactionThermo.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/basicChemistryModel/basicChemistryModel.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
+#include "thermophysicalModels/solidThermo/solidReactionThermo/solidReactionThermo.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -178,7 +178,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "basicSolidChemistryModelI.H"
+#include "thermophysicalModels/solidChemistryModel/basicSolidChemistryModel/basicSolidChemistryModelI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

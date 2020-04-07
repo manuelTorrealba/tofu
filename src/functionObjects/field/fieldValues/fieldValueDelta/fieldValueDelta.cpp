@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fieldValueDelta.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/field/fieldValues/fieldValueDelta/fieldValueDelta.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

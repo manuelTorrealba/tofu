@@ -36,7 +36,7 @@ SourceFiles
 #ifndef NonInertialFrameForce_H
 #define NonInertialFrameForce_H
 
-#include "ParticleForce.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -155,7 +155,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NonInertialFrameForceI.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/NonInertialFrame/NonInertialFrameForceI.hpp"
 
 #ifdef NoRepository
     #include "NonInertialFrameForce.C"

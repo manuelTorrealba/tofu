@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "AveragingMethod.H"
+#include "lagrangian/intermediate/submodels/MPPIC/AveragingMethods/AveragingMethod/AveragingMethod.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

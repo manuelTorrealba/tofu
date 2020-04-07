@@ -43,8 +43,8 @@ Description
 #ifndef variableHeatTransfer_H
 #define variableHeatTransfer_H
 
-#include "interRegionHeatTransferModel.H"
-#include "autoPtr.H"
+#include "fvOptions/sources/interRegion/interRegionHeatTransfer/interRegionHeatTransferModel/interRegionHeatTransferModel.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

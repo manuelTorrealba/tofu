@@ -35,9 +35,9 @@ SourceFiles
 #ifndef ChemistryCombustion_H
 #define ChemistryCombustion_H
 
-#include "autoPtr.H"
-#include "CombustionModel.H"
-#include "BasicChemistryModel.H"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "combustionModels/CombustionModelN/CombustionModel/CombustionModel.hpp"
+#include "thermophysicalModels/chemistryModel/chemistryModel/BasicChemistryModelN/BasicChemistryModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

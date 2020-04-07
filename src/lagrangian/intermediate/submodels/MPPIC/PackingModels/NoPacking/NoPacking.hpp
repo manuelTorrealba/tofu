@@ -34,7 +34,7 @@ SourceFiles
 #ifndef NoPacking_H
 #define NoPacking_H
 
-#include "PackingModel.H"
+#include "lagrangian/intermediate/submodels/MPPIC/PackingModels/PackingModel/PackingModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

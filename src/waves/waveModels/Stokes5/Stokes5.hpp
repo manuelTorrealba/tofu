@@ -43,7 +43,7 @@ SourceFiles
 #ifndef Stokes5_H
 #define Stokes5_H
 
-#include "Stokes2.H"
+#include "waves/waveModels/Stokes2/Stokes2.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

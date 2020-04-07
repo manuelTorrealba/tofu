@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "emptyFvPatch.H"
-#include "fvBoundaryMesh.H"
-#include "fvMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "finiteVolume/fvMesh/fvPatches/constraint/empty/emptyFvPatch.hpp"
+#include "finiteVolume/fvMesh/fvBoundaryMesh/fvBoundaryMesh.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

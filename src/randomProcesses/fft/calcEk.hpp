@@ -1,7 +1,7 @@
 #ifndef calcEk_H
 #define calcEk_H
 
-#include "volFieldsFwd.H"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

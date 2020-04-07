@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvcVolumeIntegrate.H"
-#include "fvMesh.H"
-#include "Field.H"
+#include "finiteVolume/finiteVolume/fvc/fvcVolumeIntegrate.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

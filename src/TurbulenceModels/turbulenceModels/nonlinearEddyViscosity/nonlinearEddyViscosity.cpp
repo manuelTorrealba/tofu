@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nonlinearEddyViscosity.H"
-#include "fvc.H"
-#include "fvm.H"
+#include "TurbulenceModels/turbulenceModels/nonlinearEddyViscosity/nonlinearEddyViscosity.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvc.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvm.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

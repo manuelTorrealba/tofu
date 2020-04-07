@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "twoPhaseMixture.H"
+#include "transportModels/twoPhaseMixture/twoPhaseMixture/twoPhaseMixture.hpp"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

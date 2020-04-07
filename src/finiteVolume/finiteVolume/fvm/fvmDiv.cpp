@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvmDiv.H"
-#include "fvMesh.H"
-#include "fvMatrix.H"
-#include "convectionScheme.H"
+#include "finiteVolume/finiteVolume/fvm/fvmDiv.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/fvMatrices/fvMatrix/fvMatrix.hpp"
+#include "finiteVolume/finiteVolume/convectionSchemes/convectionScheme/convectionScheme.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

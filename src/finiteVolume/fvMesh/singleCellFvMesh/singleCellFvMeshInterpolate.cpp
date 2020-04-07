@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "singleCellFvMesh.H"
-#include "calculatedFvPatchFields.H"
-#include "directFvPatchFieldMapper.H"
-#include "Time.H"
+#include "finiteVolume/fvMesh/singleCellFvMesh/singleCellFvMesh.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/calculated/calculatedFvPatchFields.hpp"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/directFvPatchFieldMapper.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

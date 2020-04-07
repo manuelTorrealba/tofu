@@ -42,13 +42,13 @@ SourceFiles
 #ifndef localPointRegion_H
 #define localPointRegion_H
 
-#include "typeInfo.H"
-#include "Map.H"
-#include "labelList.H"
-#include "HashSet.H"
-#include "faceList.H"
-#include "boolList.H"
-#include "labelPair.H"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/faceList.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/primitives/Pair/labelPair.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

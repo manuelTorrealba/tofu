@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoBinaryCollision.H"
-#include "constants.H"
+#include "lagrangian/DSMC/submodels/BinaryCollisionModel/NoBinaryCollision/NoBinaryCollision.hpp"
+#include "OpenFOAM/global/constants/constants.hpp"
 
 using namespace Foam::constant::mathematical;
 

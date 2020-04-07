@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noPyrolysis.H"
-#include "addToRunTimeSelectionTable.H"
-#include "volFields.H"
-#include "absorptionEmissionModel.H"
+#include "regionModels/pyrolysisModels/noPyrolysis/noPyrolysis.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "thermophysicalModels/radiation/submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,8 +26,8 @@ License
 #ifndef uniformJumpFvPatchFields_H
 #define uniformJumpFvPatchFields_H
 
-#include "uniformJumpFvPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvPatchFields/derived/uniformJump/uniformJumpFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,9 +35,9 @@ SourceFiles
 #ifndef leastSquaresVectors_H
 #define leastSquaresVectors_H
 
-#include "MeshObject.H"
-#include "fvMesh.H"
-#include "surfaceFields.H"
+#include "OpenFOAM/meshes/MeshObject/MeshObject.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

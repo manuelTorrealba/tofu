@@ -35,9 +35,9 @@ SourceFiles
 #ifndef general_H
 #define general_H
 
-#include "distributionModel.H"
-#include "Vector.H"
-#include "VectorSpace.H"
+#include "lagrangian/distributionModels/distributionModel/distributionModel.hpp"
+#include "OpenFOAM/primitives/Vector/Vector.hpp"
+#include "OpenFOAM/primitives/VectorSpace/VectorSpace.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

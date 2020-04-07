@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dynamicLagrangian.H"
-#include "fvOptions.H"
+#include "TurbulenceModels/turbulenceModels/LES/dynamicLagrangian/dynamicLagrangian.hpp"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOptions.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

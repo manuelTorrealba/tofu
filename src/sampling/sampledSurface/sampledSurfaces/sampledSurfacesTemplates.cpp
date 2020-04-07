@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledSurfaces.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "ListListOps.H"
-#include "stringListOps.H"
+#include "sampling/sampledSurface/sampledSurfaces/sampledSurfaces.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
+#include "OpenFOAM/containers/Lists/ListListOps/ListListOps.hpp"
+#include "OpenFOAM/primitives/strings/lists/stringListOps.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

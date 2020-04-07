@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ParticleTracks.H"
-#include "Pstream.H"
-#include "ListListOps.H"
-#include "IOPtrList.H"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/ParticleTracks/ParticleTracks.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/containers/Lists/ListListOps/ListListOps.hpp"
+#include "OpenFOAM/db/IOobjects/IOPtrList/IOPtrList.hpp"
 
 // * * * * * * * * * * * * * protected Member Functions  * * * * * * * * * * //
 

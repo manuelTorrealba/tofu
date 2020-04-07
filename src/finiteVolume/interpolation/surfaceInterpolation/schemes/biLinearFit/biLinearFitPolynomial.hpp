@@ -35,7 +35,7 @@ Description
 #ifndef biLinearFitPolynomial_H
 #define biLinearFitPolynomial_H
 
-#include "vector.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

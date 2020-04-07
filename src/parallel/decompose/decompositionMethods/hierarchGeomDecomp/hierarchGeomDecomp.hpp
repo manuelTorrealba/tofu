@@ -53,9 +53,9 @@ SourceFiles
 #ifndef hierarchGeomDecomp_H
 #define hierarchGeomDecomp_H
 
-#include "geomDecomp.H"
-#include "FixedList.H"
-#include "direction.H"
+#include "parallel/decompose/decompositionMethods/geomDecomp/geomDecomp.hpp"
+#include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
+#include "OpenFOAM/primitives/direction/direction.hpp"
 
 namespace Foam
 {

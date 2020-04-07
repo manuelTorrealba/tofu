@@ -36,8 +36,8 @@ SourceFiles
 #ifndef thermalBaffle_H
 #define thermalBaffle_H
 
-#include "thermalBaffleModel.H"
-#include "volFieldsFwd.H"
+#include "regionModels/thermalBaffleModels/thermalBaffleModel/thermalBaffleModel.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -211,7 +211,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "thermalBaffleI.H"
+#include "regionModels/thermalBaffleModels/thermalBaffle/thermalBaffleI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

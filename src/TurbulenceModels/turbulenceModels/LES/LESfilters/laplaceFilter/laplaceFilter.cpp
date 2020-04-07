@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "laplaceFilter.H"
-#include "addToRunTimeSelectionTable.H"
-#include "calculatedFvPatchFields.H"
-#include "fvm.H"
-#include "fvc.H"
+#include "TurbulenceModels/turbulenceModels/LES/LESfilters/laplaceFilter/laplaceFilter.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/calculated/calculatedFvPatchFields.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvm.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvc.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

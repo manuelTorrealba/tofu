@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ParticleTracks.H"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/ParticleTracks/ParticleTracks.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

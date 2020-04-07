@@ -26,12 +26,12 @@ InClass
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyDualMesh.H"
-#include "meshTools.H"
-#include "OFstream.H"
-#include "Time.H"
-#include "SortableList.H"
-#include "pointSet.H"
+#include "conversion/polyDualMesh/polyDualMesh.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/containers/Lists/SortableList/SortableList.hpp"
+#include "meshTools/sets/topoSets/pointSet.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef VirtualMassForce_H
 #define VirtualMassForce_H
 
-#include "PressureGradientForce.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/PressureGradient/PressureGradientForce.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

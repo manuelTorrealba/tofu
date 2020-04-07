@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "metisDecomp.H"
-#include "addToRunTimeSelectionTable.H"
-#include "Time.H"
+#include "parallel/decompose/metisDecomp/metisDecomp.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
 
 extern "C"
 {

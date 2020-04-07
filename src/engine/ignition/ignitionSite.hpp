@@ -37,11 +37,11 @@ SourceFiles
 #ifndef ignitionSite_H
 #define ignitionSite_H
 
-#include "vector.H"
-#include "labelList.H"
-#include "scalarList.H"
-#include "autoPtr.H"
-#include "dictionary.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/primitives/Scalar/lists/scalarList.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -39,7 +39,7 @@ SourceFiles
 #ifndef SuperBee_H
 #define SuperBee_H
 
-#include "vector.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -28,10 +28,10 @@ Description
 #ifndef MapFvFields_H
 #define MapFvFields_H
 
-#include "MapGeometricFields.H"
-#include "MapFvSurfaceField.H"
-#include "MapFvVolField.H"
-#include "MapDimensionedFields.H"
+#include "OpenFOAM/fields/GeometricFields/GeometricField/MapGeometricFields.hpp"
+#include "finiteVolume/interpolation/mapping/fvFieldMappers/MapFvSurfaceField.hpp"
+#include "finiteVolume/interpolation/mapping/fvFieldMappers/MapFvVolField.hpp"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/MapDimensionedFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

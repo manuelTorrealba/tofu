@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rigidBodySolver.H"
+#include "rigidBodyDynamics/rigidBodySolvers/rigidBodySolver/rigidBodySolver.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

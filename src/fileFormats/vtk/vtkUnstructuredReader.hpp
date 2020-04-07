@@ -47,10 +47,10 @@ SourceFiles
 #ifndef vtkUnstructuredReader_H
 #define vtkUnstructuredReader_H
 
-#include "objectRegistry.H"
-#include "cellShapeList.H"
-#include "HashSet.H"
-#include "NamedEnum.H"
+#include "OpenFOAM/db/objectRegistry/objectRegistry.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellShape/cellShapeList.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

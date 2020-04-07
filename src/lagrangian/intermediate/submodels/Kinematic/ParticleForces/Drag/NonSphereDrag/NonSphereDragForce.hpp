@@ -60,7 +60,7 @@ Description
 #ifndef NonSphereDragForce_H
 #define NonSphereDragForce_H
 
-#include "ParticleForce.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "barotropicCompressibilityModel.H"
+#include "thermophysicalModels/barotropicCompressibilityModel/barotropicCompressibilityModel/barotropicCompressibilityModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

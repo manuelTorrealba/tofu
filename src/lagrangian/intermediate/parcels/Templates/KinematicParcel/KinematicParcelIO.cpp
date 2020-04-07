@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "KinematicParcel.H"
-#include "IOstreams.H"
-#include "IOField.H"
-#include "Cloud.H"
+#include "lagrangian/intermediate/parcels/Templates/KinematicParcel/KinematicParcel.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
+#include "OpenFOAM/db/IOobjects/IOField/IOField.hpp"
+#include "lagrangian/basic/Cloud/Cloud.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

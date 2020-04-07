@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "RaviPetersen.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalModels/laminarFlameSpeed/RaviPetersen/RaviPetersen.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

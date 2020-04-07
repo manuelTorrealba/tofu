@@ -42,10 +42,10 @@ SourceFiles
 #ifndef patchDataWave_H
 #define patchDataWave_H
 
-#include "cellDistFuncs.H"
-#include "FieldField.H"
-#include "UPtrList.H"
-#include "MeshWave.H"
+#include "meshTools/cellDist/cellDistFuncs.hpp"
+#include "OpenFOAM/fields/FieldFields/FieldField/FieldField.hpp"
+#include "OpenFOAM/containers/Lists/UPtrList/UPtrList.hpp"
+#include "meshTools/algorithms/MeshWave/MeshWave.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

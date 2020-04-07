@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvcLaplacian.H"
-#include "fvMesh.H"
-#include "laplacianScheme.H"
+#include "finiteVolume/finiteVolume/fvc/fvcLaplacian.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/finiteVolume/laplacianSchemes/laplacianScheme/laplacianScheme.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

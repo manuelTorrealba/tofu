@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "motionSolver.H"
-#include "Time.H"
-#include "polyMesh.H"
-#include "dlLibraryTable.H"
-#include "twoDPointCorrector.H"
+#include "dynamicMesh/motionSolvers/motionSolver/motionSolver.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/db/dynamicLibrary/dlLibraryTable/dlLibraryTable.hpp"
+#include "meshTools/twoDPointCorrector/twoDPointCorrector.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

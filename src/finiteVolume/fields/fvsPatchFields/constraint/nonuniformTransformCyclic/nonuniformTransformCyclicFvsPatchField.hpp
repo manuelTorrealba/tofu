@@ -35,8 +35,8 @@ SourceFiles
 #ifndef nonuniformTransformCyclicFvsPatchField_H
 #define nonuniformTransformCyclicFvsPatchField_H
 
-#include "cyclicFvsPatchField.H"
-#include "nonuniformTransformCyclicFvPatch.H"
+#include "finiteVolume/fields/fvsPatchFields/constraint/cyclic/cyclicFvsPatchField.hpp"
+#include "finiteVolume/fvMesh/fvPatches/constraint/nonuniformTransformCyclic/nonuniformTransformCyclicFvPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

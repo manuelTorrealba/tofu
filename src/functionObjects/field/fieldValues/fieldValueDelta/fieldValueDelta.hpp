@@ -76,9 +76,9 @@ SourceFiles
 #ifndef functionObjects_fieldValueDelta_H
 #define functionObjects_fieldValueDelta_H
 
-#include "regionFunctionObject.H"
-#include "logFiles.H"
-#include "fieldValue.H"
+#include "OpenFOAM/db/functionObjects/regionFunctionObject/regionFunctionObject.hpp"
+#include "OpenFOAM/db/functionObjects/logFiles/logFiles.hpp"
+#include "functionObjects/field/fieldValues/fieldValue/fieldValue.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

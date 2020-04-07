@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CollisionRecordList.H"
-#include "IOstreams.H"
+#include "lagrangian/intermediate/parcels/Templates/CollidingParcel/CollisionRecordList/CollisionRecordList.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

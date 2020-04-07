@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableSurfaceCollection.H"
-#include "addToRunTimeSelectionTable.H"
-#include "SortableList.H"
-#include "Time.H"
-#include "ListOps.H"
+#include "meshTools/searchableSurfaces/searchableSurfaceCollection/searchableSurfaceCollection.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/containers/Lists/SortableList/SortableList.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

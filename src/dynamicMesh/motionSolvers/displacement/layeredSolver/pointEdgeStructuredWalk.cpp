@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointEdgeStructuredWalk.H"
+#include "dynamicMesh/motionSolvers/displacement/layeredSolver/pointEdgeStructuredWalk.hpp"
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 

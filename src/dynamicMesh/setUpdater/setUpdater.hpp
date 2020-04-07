@@ -37,7 +37,7 @@ SourceFiles
 #ifndef setUpdater_H
 #define setUpdater_H
 
-#include "polyMeshModifier.H"
+#include "dynamicMesh/polyTopoChange/polyMeshModifier/polyMeshModifier.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

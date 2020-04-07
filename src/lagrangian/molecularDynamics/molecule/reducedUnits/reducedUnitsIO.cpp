@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reducedUnits.H"
-#include "IOstreams.H"
+#include "lagrangian/molecularDynamics/molecule/reducedUnits/reducedUnits.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * * IOstream Operators  * * * * * * * * * * * * //
 

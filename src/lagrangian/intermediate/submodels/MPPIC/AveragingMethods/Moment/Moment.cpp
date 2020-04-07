@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Moment.H"
+#include "lagrangian/intermediate/submodels/MPPIC/AveragingMethods/Moment/Moment.hpp"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

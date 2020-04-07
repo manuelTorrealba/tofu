@@ -63,8 +63,8 @@ SourceFiles
 #ifndef mixtureKEpsilon_H
 #define mixtureKEpsilon_H
 
-#include "RASModel.H"
-#include "eddyViscosity.H"
+#include "TurbulenceModels/turbulenceModels/RAS/RASModel/RASModel.hpp"
+#include "TurbulenceModels/turbulenceModels/eddyViscosity/eddyViscosity.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

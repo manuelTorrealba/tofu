@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointToFace.H"
-#include "polyMesh.H"
-#include "pointSet.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshTools/sets/faceSources/pointToFace/pointToFace.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "meshTools/sets/topoSets/pointSet.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

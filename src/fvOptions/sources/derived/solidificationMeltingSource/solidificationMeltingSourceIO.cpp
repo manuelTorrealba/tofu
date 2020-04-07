@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solidificationMeltingSource.H"
+#include "fvOptions/sources/derived/solidificationMeltingSource/solidificationMeltingSource.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

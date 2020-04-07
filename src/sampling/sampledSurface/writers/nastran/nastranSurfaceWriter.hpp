@@ -49,9 +49,9 @@ SourceFiles
 #ifndef nastranSurfaceWriter_H
 #define nastranSurfaceWriter_H
 
-#include "surfaceWriter.H"
-#include "NamedEnum.H"
-#include "OFstream.H"
+#include "sampling/sampledSurface/writers/surfaceWriter.hpp"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

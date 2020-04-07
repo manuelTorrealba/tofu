@@ -35,9 +35,9 @@ SourceFiles
 #ifndef treeDataEdge_H
 #define treeDataEdge_H
 
-#include "treeBoundBoxList.H"
-#include "linePointRef.H"
-#include "volumeType.H"
+#include "OpenFOAM/meshes/treeBoundBox/treeBoundBoxList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/line/linePointRef.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/volumeType.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

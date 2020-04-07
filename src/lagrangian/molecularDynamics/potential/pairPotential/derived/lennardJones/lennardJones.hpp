@@ -35,7 +35,7 @@ SourceFiles
 #ifndef lennardJones_H
 #define lennardJones_H
 
-#include "pairPotential.H"
+#include "lagrangian/molecularDynamics/potential/pairPotential/basic/pairPotential.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

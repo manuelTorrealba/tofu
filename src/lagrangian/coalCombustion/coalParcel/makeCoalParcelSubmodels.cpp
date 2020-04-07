@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coalCloud.H"
-#include "makeCoalParcelSurfaceReactionModels.H"
+#include "lagrangian/coalCombustion/coalCloud/coalCloud.hpp"
+#include "lagrangian/coalCombustion/include/makeCoalParcelSurfaceReactionModels.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

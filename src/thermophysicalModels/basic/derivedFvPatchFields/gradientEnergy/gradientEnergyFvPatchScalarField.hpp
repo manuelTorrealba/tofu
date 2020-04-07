@@ -63,7 +63,7 @@ SourceFiles
 #ifndef gradientEnergyFvPatchScalarField_H
 #define gradientEnergyFvPatchScalarField_H
 
-#include "fixedGradientFvPatchFields.H"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedGradient/fixedGradientFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

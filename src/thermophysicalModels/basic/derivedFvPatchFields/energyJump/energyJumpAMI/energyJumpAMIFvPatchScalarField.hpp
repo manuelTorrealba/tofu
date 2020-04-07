@@ -41,7 +41,7 @@ SourceFiles
 #ifndef energyJumpAMIFvPatchScalarField_H
 #define energyJumpAMIFvPatchScalarField_H
 
-#include "fixedJumpAMIFvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/derived/fixedJumpAMI/fixedJumpAMIFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

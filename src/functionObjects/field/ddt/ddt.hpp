@@ -41,7 +41,7 @@ SourceFiles
 #ifndef functionObjects_ddt_H
 #define functionObjects_ddt_H
 
-#include "fieldExpression.H"
+#include "functionObjects/field/fieldExpression/fieldExpression.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

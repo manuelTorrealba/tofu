@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicAMIFvsPatchField.H"
+#include "finiteVolume/fields/fvsPatchFields/constraint/cyclicAMI/cyclicAMIFvsPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

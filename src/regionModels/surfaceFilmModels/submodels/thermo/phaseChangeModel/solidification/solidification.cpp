@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solidification.H"
-#include "addToRunTimeSelectionTable.H"
-#include "thermoSingleLayer.H"
+#include "regionModels/surfaceFilmModels/submodels/thermo/phaseChangeModel/solidification/solidification.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "regionModels/surfaceFilmModels/thermoSingleLayer/thermoSingleLayer.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

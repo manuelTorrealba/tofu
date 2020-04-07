@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tetherPotentialList.H"
+#include "lagrangian/molecularDynamics/potential/tetherPotential/tetherPotentialList/tetherPotentialList.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

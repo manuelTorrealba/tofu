@@ -52,8 +52,8 @@ SourceFiles
 #ifndef semiPermeableBaffleVelocityFvPatchVectorField_H
 #define semiPermeableBaffleVelocityFvPatchVectorField_H
 
-#include "mappedPatchBase.H"
-#include "fixedValueFvPatchFields.H"
+#include "meshTools/mappedPatches/mappedPolyPatch/mappedPatchBase.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

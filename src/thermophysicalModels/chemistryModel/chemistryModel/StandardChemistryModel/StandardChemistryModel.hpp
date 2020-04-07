@@ -38,11 +38,11 @@ SourceFiles
 #ifndef StandardChemistryModel_H
 #define StandardChemistryModel_H
 
-#include "BasicChemistryModel.H"
-#include "Reaction.H"
-#include "ODESystem.H"
-#include "volFields.H"
-#include "simpleMatrix.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/BasicChemistryModelN/BasicChemistryModel.hpp"
+#include "thermophysicalModels/specie/reaction/ReactionsN/Reaction/Reaction.hpp"
+#include "ODE/ODESystem/ODESystem.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/matrices/simpleMatrix/simpleMatrix.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -258,7 +258,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "StandardChemistryModelI.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/StandardChemistryModel/StandardChemistryModelI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

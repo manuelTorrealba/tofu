@@ -23,31 +23,31 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicSprayCloud.H"
+#include "lagrangian/spray/clouds/derived/basicSprayCloud/basicSprayCloud.hpp"
 
-#include "makeParcelCloudFunctionObjects.H"
+#include "lagrangian/intermediate/parcels/include/makeParcelCloudFunctionObjects.hpp"
 
 // Kinematic
-#include "makeThermoParcelForces.H" // thermo variant
-#include "makeThermoParcelTurbulenceForces.H" // add turbulence variant
-#include "makeParcelDispersionModels.H"
-#include "makeParcelTurbulenceDispersionModels.H" // add turbulence variant
-#include "makeSprayParcelInjectionModels.H" // Spray variant
-#include "makeParcelPatchInteractionModels.H"
-#include "makeSprayParcelStochasticCollisionModels.H" // Spray variant
+#include "lagrangian/intermediate/parcels/include/makeThermoParcelForces.hpp"
+#include "lagrangian/turbulence/parcels/include/makeThermoParcelTurbulenceForces.hpp"
+#include "lagrangian/intermediate/parcels/include/makeParcelDispersionModels.hpp"
+#include "lagrangian/turbulence/parcels/include/makeParcelTurbulenceDispersionModels.hpp"
+#include "lagrangian/spray/parcels/include/makeSprayParcelInjectionModels.hpp"
+#include "lagrangian/intermediate/parcels/include/makeParcelPatchInteractionModels.hpp"
+#include "lagrangian/spray/parcels/include/makeSprayParcelStochasticCollisionModels.hpp"
 
 // Thermodynamic
-#include "makeParcelHeatTransferModels.H"
+#include "lagrangian/intermediate/parcels/include/makeParcelHeatTransferModels.hpp"
 
 // Reacting
-#include "makeReactingParcelCompositionModels.H"
-#include "makeReactingParcelPhaseChangeModels.H"
-#include "makeReactingParcelSurfaceFilmModels.H"
+#include "lagrangian/intermediate/parcels/include/makeReactingParcelCompositionModels.hpp"
+#include "lagrangian/intermediate/parcels/include/makeReactingParcelPhaseChangeModels.hpp"
+#include "lagrangian/intermediate/parcels/include/makeReactingParcelSurfaceFilmModels.hpp"
 
 // Spray
-#include "DistortedSphereDragForce.H"
-#include "makeSprayParcelAtomizationModels.H"
-#include "makeSprayParcelBreakupModels.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/Drag/DistortedSphereDrag/DistortedSphereDragForce.hpp"
+#include "lagrangian/spray/parcels/include/makeSprayParcelAtomizationModels.hpp"
+#include "lagrangian/spray/parcels/include/makeSprayParcelBreakupModels.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

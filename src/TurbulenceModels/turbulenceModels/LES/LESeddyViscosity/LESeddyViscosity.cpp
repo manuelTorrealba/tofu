@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LESeddyViscosity.H"
+#include "TurbulenceModels/turbulenceModels/LES/LESeddyViscosity/LESeddyViscosity.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

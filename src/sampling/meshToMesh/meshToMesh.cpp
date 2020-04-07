@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshToMesh.H"
-#include "Time.H"
-#include "globalIndex.H"
-#include "meshToMeshMethod.H"
+#include "sampling/meshToMesh/meshToMesh.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
+#include "sampling/meshToMesh/calcMethod/meshToMeshMethod/meshToMeshMethod.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

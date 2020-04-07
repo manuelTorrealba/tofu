@@ -38,7 +38,7 @@ Description
 #ifndef APIdiffCoefFunc_H
 #define APIdiffCoefFunc_H
 
-#include "thermophysicalFunction.H"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/thermophysicalFunction/thermophysicalFunction.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

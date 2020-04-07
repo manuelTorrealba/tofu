@@ -35,9 +35,9 @@ SourceFiles
 #ifndef renumberMethod_H
 #define renumberMethod_H
 
-#include "polyMesh.H"
-#include "pointField.H"
-#include "CompactListList.H"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/containers/Lists/CompactListList/CompactListList.hpp"
 
 namespace Foam
 {

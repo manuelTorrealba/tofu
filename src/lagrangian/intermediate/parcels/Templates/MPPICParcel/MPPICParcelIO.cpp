@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MPPICParcel.H"
-#include "IOstreams.H"
-#include "IOField.H"
+#include "lagrangian/intermediate/parcels/Templates/MPPICParcel/MPPICParcel.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
+#include "OpenFOAM/db/IOobjects/IOField/IOField.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

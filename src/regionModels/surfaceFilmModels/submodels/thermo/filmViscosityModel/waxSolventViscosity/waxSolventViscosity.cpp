@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "waxSolventViscosity.H"
-#include "kinematicSingleLayer.H"
-#include "waxSolventEvaporation.H"
-#include "addToRunTimeSelectionTable.H"
+#include "regionModels/surfaceFilmModels/submodels/thermo/filmViscosityModel/waxSolventViscosity/waxSolventViscosity.hpp"
+#include "regionModels/surfaceFilmModels/kinematicSingleLayer/kinematicSingleLayer.hpp"
+#include "regionModels/surfaceFilmModels/submodels/thermo/phaseChangeModel/waxSolventEvaporation/waxSolventEvaporation.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

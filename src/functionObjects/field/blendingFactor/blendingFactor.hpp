@@ -41,7 +41,7 @@ SourceFiles
 #ifndef functionObjects_blendingFactor_H
 #define functionObjects_blendingFactor_H
 
-#include "fieldExpression.H"
+#include "functionObjects/field/fieldExpression/fieldExpression.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

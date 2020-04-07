@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VoidFraction.H"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/VoidFraction/VoidFraction.hpp"
 
 // * * * * * * * * * * * * * Protectd Member Functions * * * * * * * * * * * //
 

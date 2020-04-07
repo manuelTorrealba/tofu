@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "velocityMotionSolver.H"
-#include "mapPolyMesh.H"
+#include "dynamicMesh/motionSolvers/velocity/velocityMotionSolver.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

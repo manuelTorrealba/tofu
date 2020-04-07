@@ -26,8 +26,8 @@ License
 #ifndef fvPatchFields_H
 #define fvPatchFields_H
 
-#include "fvPatchField.H"
-#include "fvPatchFieldsFwd.H"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchField.hpp"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

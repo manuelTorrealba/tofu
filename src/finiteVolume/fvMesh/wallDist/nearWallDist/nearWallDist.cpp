@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nearWallDist.H"
-#include "fvMesh.H"
-#include "cellDistFuncs.H"
-#include "wallFvPatch.H"
-#include "surfaceFields.H"
+#include "finiteVolume/fvMesh/wallDist/nearWallDist/nearWallDist.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "meshTools/cellDist/cellDistFuncs.hpp"
+#include "finiteVolume/fvMesh/fvPatches/derived/wall/wallFvPatch.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "arcEdge.H"
-#include "unitConversion.H"
-#include "addToRunTimeSelectionTable.H"
+#include "mesh/blockMesh/blockEdges/arcEdge/arcEdge.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

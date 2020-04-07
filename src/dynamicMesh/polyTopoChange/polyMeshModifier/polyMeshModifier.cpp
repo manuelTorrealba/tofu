@@ -26,10 +26,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMeshModifier.H"
-#include "dictionary.H"
-#include "polyTopoChanger.H"
-#include "polyMesh.H"
+#include "dynamicMesh/polyTopoChange/polyMeshModifier/polyMeshModifier.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChanger/polyTopoChanger.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

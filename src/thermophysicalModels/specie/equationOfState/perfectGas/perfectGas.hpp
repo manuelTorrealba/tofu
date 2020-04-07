@@ -36,7 +36,7 @@ SourceFiles
 #ifndef perfectGas_H
 #define perfectGas_H
 
-#include "autoPtr.H"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -194,7 +194,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "perfectGasI.H"
+#include "thermophysicalModels/specie/equationOfState/perfectGas/perfectGasI.hpp"
 
 #ifdef NoRepository
     #include "perfectGas.C"

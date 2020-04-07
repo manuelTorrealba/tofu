@@ -49,7 +49,7 @@ SourceFiles
 #ifndef Explicit_H
 #define Explicit_H
 
-#include "PackingModel.H"
+#include "lagrangian/intermediate/submodels/MPPIC/PackingModels/PackingModel/PackingModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

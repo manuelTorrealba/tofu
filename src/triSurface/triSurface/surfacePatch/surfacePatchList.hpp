@@ -31,8 +31,8 @@ Description
 #ifndef surfacePatchList_H
 #define surfacePatchList_H
 
-#include "surfacePatch.H"
-#include "List.H"
+#include "triSurface/triSurface/surfacePatch/surfacePatch.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

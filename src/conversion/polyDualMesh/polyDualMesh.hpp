@@ -40,9 +40,9 @@ SourceFiles
 #ifndef polyDualMesh_H
 #define polyDualMesh_H
 
-#include "polyMesh.H"
-#include "labelIOList.H"
-#include "typeInfo.H"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelIOList.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

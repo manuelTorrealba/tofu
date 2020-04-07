@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nastranSurfaceWriter.H"
-#include "IOmanip.H"
-#include "Tuple2.H"
-#include "makeSurfaceWriterMethods.H"
+#include "sampling/sampledSurface/writers/nastran/nastranSurfaceWriter.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOmanip.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
+#include "sampling/sampledSurface/writers/makeSurfaceWriterMethods.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

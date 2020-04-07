@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "smoothDelta.H"
-#include "addToRunTimeSelectionTable.H"
-#include "FaceCellWave.H"
+#include "TurbulenceModels/turbulenceModels/LES/LESdeltas/smoothDelta/smoothDelta.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "meshTools/algorithms/MeshWave/FaceCellWave.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

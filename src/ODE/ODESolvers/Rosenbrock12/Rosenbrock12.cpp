@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Rosenbrock12.H"
-#include "addToRunTimeSelectionTable.H"
+#include "ODE/ODESolvers/Rosenbrock12/Rosenbrock12.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

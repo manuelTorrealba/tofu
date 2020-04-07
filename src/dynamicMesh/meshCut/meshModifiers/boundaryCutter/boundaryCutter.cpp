@@ -23,16 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundaryCutter.H"
-#include "polyMesh.H"
-#include "polyTopoChange.H"
-#include "polyAddCell.H"
-#include "polyAddFace.H"
-#include "polyAddPoint.H"
-#include "polyModifyFace.H"
-#include "polyModifyPoint.H"
-#include "mapPolyMesh.H"
-#include "meshTools.H"
+#include "dynamicMesh/meshCut/meshModifiers/boundaryCutter/boundaryCutter.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChange.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/addObject/polyAddCell.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/addObject/polyAddFace.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/addObject/polyAddPoint.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/modifyObject/polyModifyFace.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/modifyObject/polyModifyPoint.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

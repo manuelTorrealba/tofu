@@ -35,8 +35,8 @@ SourceFiles
 #ifndef findCellParticle_H
 #define findCellParticle_H
 
-#include "particle.H"
-#include "autoPtr.H"
+#include "lagrangian/basic/particle/particle.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

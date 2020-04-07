@@ -35,8 +35,8 @@ SourceFiles
 #ifndef Chung_H
 #define Chung_H
 
-#include "barotropicCompressibilityModel.H"
-#include "dimensionedScalar.H"
+#include "thermophysicalModels/barotropicCompressibilityModel/barotropicCompressibilityModel/barotropicCompressibilityModel.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

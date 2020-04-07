@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TomiyamaLiftForce.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/Lift/TomiyamaLift/TomiyamaLiftForce.hpp"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

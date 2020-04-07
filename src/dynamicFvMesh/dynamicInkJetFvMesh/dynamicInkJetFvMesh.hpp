@@ -40,9 +40,9 @@ SourceFiles
 #ifndef dynamicInkJetFvMesh_H
 #define dynamicInkJetFvMesh_H
 
-#include "dynamicFvMesh.H"
-#include "dictionary.H"
-#include "pointIOField.H"
+#include "dynamicFvMesh/dynamicFvMesh/dynamicFvMesh.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointIOField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

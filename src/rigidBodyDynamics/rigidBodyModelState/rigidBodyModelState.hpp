@@ -37,9 +37,9 @@ SourceFiles
 #ifndef rigidBodyModelState_H
 #define rigidBodyModelState_H
 
-#include "rigidBodyModel.H"
-#include "scalarField.H"
-#include "dictionary.H"
+#include "rigidBodyDynamics/rigidBodyModel/rigidBodyModel.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -157,7 +157,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "rigidBodyModelStateI.H"
+#include "rigidBodyDynamics/rigidBodyModelState/rigidBodyModelStateI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

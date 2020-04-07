@@ -35,10 +35,10 @@ SourceFiles
 #ifndef layerParameters_H
 #define layerParameters_H
 
-#include "dictionary.H"
-#include "scalarField.H"
-#include "labelList.H"
-#include "Switch.H"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

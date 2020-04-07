@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "equilibrium.H"
-#include "addToRunTimeSelectionTable.H"
+#include "lagrangian/intermediate/submodels/MPPIC/TimeScaleModels/equilibrium/equilibrium.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

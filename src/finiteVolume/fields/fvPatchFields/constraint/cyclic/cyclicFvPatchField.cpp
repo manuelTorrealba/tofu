@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicFvPatchField.H"
-#include "transformField.H"
+#include "finiteVolume/fields/fvPatchFields/constraint/cyclic/cyclicFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/transformField/transformField.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

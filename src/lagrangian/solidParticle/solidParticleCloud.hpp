@@ -37,9 +37,9 @@ SourceFiles
 #ifndef solidParticleCloud_H
 #define solidParticleCloud_H
 
-#include "Cloud.H"
-#include "solidParticle.H"
-#include "IOdictionary.H"
+#include "lagrangian/basic/Cloud/Cloud.hpp"
+#include "lagrangian/solidParticle/solidParticle.hpp"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -115,7 +115,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "solidParticleCloudI.H"
+#include "lagrangian/solidParticle/solidParticleCloudI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

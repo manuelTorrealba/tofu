@@ -37,8 +37,8 @@ SourceFiles
 #ifndef referredWallFace_H
 #define referredWallFace_H
 
-#include "face.H"
-#include "pointField.H"
+#include "OpenFOAM/meshes/meshShapes/face/face.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -130,7 +130,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "referredWallFaceI.H"
+#include "lagrangian/basic/InteractionLists/referredWallFace/referredWallFaceI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

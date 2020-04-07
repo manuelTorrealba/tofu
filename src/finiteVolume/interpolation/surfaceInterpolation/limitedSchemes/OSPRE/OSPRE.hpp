@@ -39,7 +39,7 @@ SourceFiles
 #ifndef OSPRE_H
 #define OSPRE_H
 
-#include "vector.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

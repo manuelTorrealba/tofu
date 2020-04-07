@@ -46,9 +46,9 @@ SourceFiles
 #ifndef Dual_H
 #define Dual_H
 
-#include "AveragingMethod.H"
-#include "pointMesh.H"
-#include "tetIndices.H"
+#include "lagrangian/intermediate/submodels/MPPIC/AveragingMethods/AveragingMethod/AveragingMethod.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMeshTetDecomposition/tetIndices.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

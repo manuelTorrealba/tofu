@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "laminar.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvMesh.H"
-#include "fvMatrices.H"
-#include "Time.H"
-#include "volFields.H"
-#include "fvmSup.H"
-#include "kinematicSingleLayer.H"
-#include "extrapolatedCalculatedFvPatchFields.H"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/filmTurbulenceModel/laminar/laminar.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/fvMatrices/fvMatrices.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvmSup.hpp"
+#include "regionModels/surfaceFilmModels/kinematicSingleLayer/kinematicSingleLayer.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

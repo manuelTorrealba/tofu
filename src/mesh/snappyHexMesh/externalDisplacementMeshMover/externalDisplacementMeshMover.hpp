@@ -41,7 +41,7 @@ SourceFiles
 #ifndef externalDisplacementMeshMover_H
 #define externalDisplacementMeshMover_H
 
-#include "pointFields.H"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

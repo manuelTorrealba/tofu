@@ -35,11 +35,11 @@ SourceFiles
 #ifndef surfaceInterpolation_H
 #define surfaceInterpolation_H
 
-#include "tmp.H"
-#include "scalar.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "className.H"
+#include "OpenFOAM/memory/tmp/tmp.hpp"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFieldsFwd.hpp"
+#include "OpenFOAM/db/typeInfo/className.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

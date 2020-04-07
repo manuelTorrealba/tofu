@@ -38,15 +38,15 @@ SourceFiles
 #ifndef CompositionModel_H
 #define CompositionModel_H
 
-#include "CloudSubModelBase.H"
-#include "IOdictionary.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
+#include "lagrangian/intermediate/submodels/CloudSubModelBase.hpp"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
-#include "PtrList.H"
-#include "SLGThermo.H"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "thermophysicalModels/SLGThermo/SLGThermo/SLGThermo.hpp"
 
-#include "phasePropertiesList.H"
+#include "lagrangian/intermediate/phaseProperties/phasePropertiesList/phasePropertiesList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

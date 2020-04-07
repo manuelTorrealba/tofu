@@ -36,9 +36,9 @@ SourceFiles
 #ifndef pyrolysisModel_H
 #define pyrolysisModel_H
 
-#include "runTimeSelectionTables.H"
-#include "volFieldsFwd.H"
-#include "regionModel1D.H"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "regionModels/regionModel/regionModel1D/regionModel1D.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

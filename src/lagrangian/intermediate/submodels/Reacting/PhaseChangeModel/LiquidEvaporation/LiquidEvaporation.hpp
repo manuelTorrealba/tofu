@@ -33,8 +33,8 @@ Description
 #ifndef LiquidEvaporation_H
 #define LiquidEvaporation_H
 
-#include "PhaseChangeModel.H"
-#include "liquidMixtureProperties.H"
+#include "lagrangian/intermediate/submodels/Reacting/PhaseChangeModel/PhaseChangeModel/PhaseChangeModel.hpp"
+#include "thermophysicalModels/thermophysicalProperties/liquidProperties/liquidMixtureProperties/liquidMixtureProperties.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

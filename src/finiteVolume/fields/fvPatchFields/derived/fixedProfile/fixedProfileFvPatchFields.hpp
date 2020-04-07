@@ -26,8 +26,8 @@ License
 #ifndef fixedProfileFvPatchFields_H
 #define fixedProfileFvPatchFields_H
 
-#include "fixedProfileFvPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvPatchFields/derived/fixedProfile/fixedProfileFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

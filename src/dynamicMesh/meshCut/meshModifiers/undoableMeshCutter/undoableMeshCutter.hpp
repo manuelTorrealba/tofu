@@ -67,14 +67,14 @@ SourceFiles
 #ifndef undoableMeshCutter_H
 #define undoableMeshCutter_H
 
-#include "edgeVertex.H"
-#include "refineCell.H"
-#include "boolList.H"
-#include "cellLooper.H"
-#include "meshCutter.H"
-#include "Map.H"
-#include "typeInfo.H"
-#include "removeFaces.H"
+#include "dynamicMesh/meshCut/edgeVertex/edgeVertex.hpp"
+#include "dynamicMesh/meshCut/refineCell/refineCell.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "dynamicMesh/meshCut/cellLooper/cellLooper.hpp"
+#include "dynamicMesh/meshCut/meshModifiers/meshCutter/meshCutter.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/removeFaces.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

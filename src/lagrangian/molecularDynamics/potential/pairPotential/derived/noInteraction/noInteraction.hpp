@@ -35,7 +35,7 @@ SourceFiles
 #ifndef noInteraction_H
 #define noInteraction_H
 
-#include "pairPotential.H"
+#include "lagrangian/molecularDynamics/potential/pairPotential/basic/pairPotential.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

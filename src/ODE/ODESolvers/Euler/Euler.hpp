@@ -45,8 +45,8 @@ SourceFiles
 #ifndef Euler_H
 #define Euler_H
 
-#include "ODESolver.H"
-#include "adaptiveSolver.H"
+#include "ODE/ODESolvers/ODESolver/ODESolver.hpp"
+#include "ODE/ODESolvers/adaptiveSolver/adaptiveSolver.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

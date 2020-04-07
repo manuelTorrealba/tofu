@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMesh.H"
-#include "Time.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "slicedVolFields.H"
-#include "slicedSurfaceFields.H"
-#include "SubField.H"
-#include "cyclicFvPatchFields.H"
-#include "cyclicAMIFvPatchFields.H"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
+#include "finiteVolume/fields/volFields/slicedVolFields.hpp"
+#include "finiteVolume/fields/surfaceFields/slicedSurfaceFields.hpp"
+#include "OpenFOAM/fields/Fields/Field/SubField.hpp"
+#include "finiteVolume/fields/fvPatchFields/constraint/cyclic/cyclicFvPatchFields.hpp"
+#include "finiteVolume/fields/fvPatchFields/constraint/cyclicAMI/cyclicAMIFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

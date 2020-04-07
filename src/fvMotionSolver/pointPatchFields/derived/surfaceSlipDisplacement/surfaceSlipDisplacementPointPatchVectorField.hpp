@@ -53,8 +53,8 @@ SourceFiles
 #ifndef surfaceSlipDisplacementPointPatchVectorField_H
 #define surfaceSlipDisplacementPointPatchVectorField_H
 
-#include "pointPatchFields.H"
-#include "searchableSurfaces.H"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFields.hpp"
+#include "meshTools/searchableSurfaces/searchableSurfaces/searchableSurfaces.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

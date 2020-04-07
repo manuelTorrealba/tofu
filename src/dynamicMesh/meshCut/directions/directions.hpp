@@ -41,10 +41,10 @@ SourceFiles
 #ifndef directions_H
 #define directions_H
 
-#include "List.H"
-#include "vectorField.H"
-#include "NamedEnum.H"
-#include "point.H"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
+#include "OpenFOAM/fields/Fields/vectorField/vectorField.hpp"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

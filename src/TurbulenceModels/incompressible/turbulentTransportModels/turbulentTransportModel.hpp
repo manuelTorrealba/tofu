@@ -43,10 +43,10 @@ SourceFiles
 #ifndef turbulentTransportModel_H
 #define turbulentTransportModel_H
 
-#include "IncompressibleTurbulenceModel.H"
-#include "laminarModel.H"
-#include "RASModel.H"
-#include "LESModel.H"
+#include "TurbulenceModels/incompressible/IncompressibleTurbulenceModel/IncompressibleTurbulenceModel.hpp"
+#include "TurbulenceModels/turbulenceModels/laminar/laminarModel/laminarModel.hpp"
+#include "TurbulenceModels/turbulenceModels/RAS/RASModel/RASModel.hpp"
+#include "TurbulenceModels/turbulenceModels/LES/LESModel/LESModel.hpp"
 #include "incompressible/transportModel/transportModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

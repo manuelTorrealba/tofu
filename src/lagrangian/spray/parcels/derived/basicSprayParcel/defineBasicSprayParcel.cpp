@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicSprayParcel.H"
-#include "Cloud.H"
+#include "lagrangian/spray/parcels/derived/basicSprayParcel/basicSprayParcel.hpp"
+#include "lagrangian/basic/Cloud/Cloud.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

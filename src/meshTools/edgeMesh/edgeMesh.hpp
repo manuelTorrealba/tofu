@@ -41,12 +41,12 @@ SourceFiles
 #ifndef edgeMesh_H
 #define edgeMesh_H
 
-#include "pointField.H"
-#include "edgeList.H"
-#include "edgeMeshFormatsCore.H"
-#include "runTimeSelectionTables.H"
-#include "memberFunctionSelectionTables.H"
-#include "HashSet.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/meshes/meshShapes/edge/edgeList.hpp"
+#include "meshTools/edgeMesh/edgeMeshFormats/edgeMeshFormatsCore.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
+#include "OpenFOAM/db/runTimeSelection/memberFunctions/memberFunctionSelectionTables.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -285,7 +285,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "edgeMeshI.H"
+#include "meshTools/edgeMesh/edgeMeshI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

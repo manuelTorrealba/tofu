@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionModelFunctionObjectList.H"
+#include "regionModels/regionModel/regionModelFunctionObject/regionModelFunctionObject/regionModelFunctionObjectList.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

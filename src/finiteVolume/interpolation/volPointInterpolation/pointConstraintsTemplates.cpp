@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointConstraints.H"
-#include "pointFields.H"
-#include "valuePointPatchFields.H"
+#include "finiteVolume/interpolation/volPointInterpolation/pointConstraints.hpp"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFields.hpp"
+#include "OpenFOAM/fields/pointPatchFields/basic/value/valuePointPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

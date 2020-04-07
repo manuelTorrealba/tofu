@@ -35,12 +35,12 @@ SourceFiles
 #ifndef motionSolver_H
 #define motionSolver_H
 
-#include "IOdictionary.H"
-#include "pointField.H"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
 
-#include "Time.H"
-#include "polyMesh.H"
-#include "dictionaryEntry.H"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/db/dictionary/dictionaryEntry/dictionaryEntry.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMeshFilter.H"
-#include "polyMesh.H"
-#include "mapPolyMesh.H"
-#include "IOobjectList.H"
+#include "dynamicMesh/polyMeshFilter/polyMeshFilter.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "OpenFOAM/db/IOobjectList/IOobjectList.hpp"
 
 // * * * * * * * * * * * * * Public Member Functions * * * * * * * * * * * * //
 

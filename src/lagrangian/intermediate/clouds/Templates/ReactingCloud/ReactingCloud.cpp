@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReactingCloud.H"
+#include "lagrangian/intermediate/clouds/Templates/ReactingCloud/ReactingCloud.hpp"
 
-#include "CompositionModel.H"
-#include "PhaseChangeModel.H"
+#include "lagrangian/intermediate/submodels/Reacting/CompositionModel/CompositionModel/CompositionModel.hpp"
+#include "lagrangian/intermediate/submodels/Reacting/PhaseChangeModel/PhaseChangeModel/PhaseChangeModel.hpp"
 
 // * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "outletInletFvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/derived/outletInlet/outletInletFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

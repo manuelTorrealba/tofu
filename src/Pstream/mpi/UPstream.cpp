@@ -27,12 +27,12 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "UPstream.H"
-#include "PstreamReduceOps.H"
-#include "OSspecific.H"
-#include "PstreamGlobals.H"
-#include "SubList.H"
-#include "allReduce.H"
+#include "OpenFOAM/db/IOstreams/Pstreams/UPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
+#include "OpenFOAM/include/OSspecific.hpp"
+#include "Pstream/mpi/PstreamGlobals.hpp"
+#include "OpenFOAM/containers/Lists/SubList/SubList.hpp"
+#include "Pstream/mpi/allReduce.hpp"
 
 #include <mpi.h>
 

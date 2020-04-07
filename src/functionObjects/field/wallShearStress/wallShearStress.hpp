@@ -79,11 +79,11 @@ SourceFiles
 #ifndef functionObjects_wallShearStress_H
 #define functionObjects_wallShearStress_H
 
-#include "fvMeshFunctionObject.H"
-#include "logFiles.H"
-#include "writeLocalObjects.H"
-#include "volFieldsFwd.H"
-#include "HashSet.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
+#include "OpenFOAM/db/functionObjects/logFiles/logFiles.hpp"
+#include "OpenFOAM/db/functionObjects/writeLocalObjects/writeLocalObjects.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

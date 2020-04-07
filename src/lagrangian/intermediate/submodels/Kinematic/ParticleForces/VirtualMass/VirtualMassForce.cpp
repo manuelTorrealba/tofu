@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VirtualMassForce.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/VirtualMass/VirtualMassForce.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

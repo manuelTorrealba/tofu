@@ -40,11 +40,11 @@ SourceFiles
 #ifndef patchInjectionBase_H
 #define patchInjectionBase_H
 
-#include "word.H"
-#include "labelList.H"
-#include "scalarList.H"
-#include "vectorList.H"
-#include "faceList.H"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/primitives/Scalar/lists/scalarList.hpp"
+#include "OpenFOAM/primitives/Vector/lists/vectorList.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/faceList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

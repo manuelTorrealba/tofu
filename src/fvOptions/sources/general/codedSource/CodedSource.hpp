@@ -116,8 +116,8 @@ SourceFiles
 #ifndef CodedSource_H
 #define CodedSource_H
 
-#include "cellSetOption.H"
-#include "codedBase.H"
+#include "fvOptions/cellSetOption/cellSetOption.hpp"
+#include "OpenFOAM/db/dynamicLibrary/codedBase/codedBase.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

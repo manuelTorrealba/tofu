@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "setTimeStepFunctionObject.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/utilities/setTimeStep/setTimeStepFunctionObject.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

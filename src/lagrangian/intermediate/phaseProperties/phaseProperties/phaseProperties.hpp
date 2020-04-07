@@ -36,10 +36,10 @@ SourceFiles
 #ifndef phaseProperties_H
 #define phaseProperties_H
 
-#include "NamedEnum.H"
-#include "Tuple2.H"
-#include "PtrList.H"
-#include "volFields.H"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

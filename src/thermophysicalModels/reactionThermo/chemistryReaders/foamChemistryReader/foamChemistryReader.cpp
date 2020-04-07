@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamChemistryReader.H"
-#include "IFstream.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalModels/reactionThermo/chemistryReaders/foamChemistryReader/foamChemistryReader.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

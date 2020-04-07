@@ -89,11 +89,11 @@ SourceFiles
 #ifndef ParticleCollector_H
 #define ParticleCollector_H
 
-#include "CloudFunctionObject.H"
-#include "cylindricalCS.H"
-#include "face.H"
-#include "Switch.H"
-#include "OFstream.H"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.hpp"
+#include "meshTools/coordinateSystems/cylindricalCS.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/face.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -300,7 +300,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ParticleCollectorI.H"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/ParticleCollector/ParticleCollectorI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

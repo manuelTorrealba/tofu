@@ -103,7 +103,7 @@ SourceFiles
 #ifndef DRGEP_H
 #define DRGEP_H
 
-#include "chemistryReductionMethod.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/reduction/chemistryReductionMethod/chemistryReductionMethod.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

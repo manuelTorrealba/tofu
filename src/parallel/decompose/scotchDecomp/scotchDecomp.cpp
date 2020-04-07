@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "scotchDecomp.H"
-#include "addToRunTimeSelectionTable.H"
-#include "floatScalar.H"
-#include "Time.H"
-#include "OFstream.H"
-#include "globalIndex.H"
-#include "SubField.H"
+#include "parallel/decompose/scotchDecomp/scotchDecomp.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/primitives/Scalar/floatScalar/floatScalar.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
+#include "OpenFOAM/fields/Fields/Field/SubField.hpp"
 
 extern "C"
 {

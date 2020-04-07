@@ -37,9 +37,9 @@ SourceFiles
 #ifndef fvcSurfaceIntegrate_H
 #define fvcSurfaceIntegrate_H
 
-#include "primitiveFieldsFwd.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
+#include "OpenFOAM/fields/Fields/primitiveFieldsFwd.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

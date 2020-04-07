@@ -73,8 +73,8 @@ See also
 #ifndef hPolynomialThermo_H
 #define hPolynomialThermo_H
 
-#include "scalar.H"
-#include "Polynomial.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/primitives/functions/Polynomial/Polynomial.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -257,7 +257,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "hPolynomialThermoI.H"
+#include "thermophysicalModels/specie/thermo/hPolynomial/hPolynomialThermoI.hpp"
 
 #ifdef NoRepository
     #include "hPolynomialThermo.C"

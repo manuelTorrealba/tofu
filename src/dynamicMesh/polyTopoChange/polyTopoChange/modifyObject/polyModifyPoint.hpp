@@ -32,9 +32,9 @@ Description
 #ifndef polyModifyPoint_H
 #define polyModifyPoint_H
 
-#include "label.H"
-#include "point.H"
-#include "topoAction.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/topoAction/topoAction.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

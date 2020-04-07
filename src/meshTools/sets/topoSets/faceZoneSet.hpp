@@ -35,8 +35,8 @@ SourceFiles
 #ifndef faceZoneSet_H
 #define faceZoneSet_H
 
-#include "faceSet.H"
-#include "boolList.H"
+#include "meshTools/sets/topoSets/faceSet.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

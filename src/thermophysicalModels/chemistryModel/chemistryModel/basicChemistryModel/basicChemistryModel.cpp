@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicChemistryModel.H"
-#include "fvMesh.H"
-#include "Time.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/basicChemistryModel/basicChemistryModel.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
 
 /* * * * * * * * * * * * * * * private static data * * * * * * * * * * * * * */
 

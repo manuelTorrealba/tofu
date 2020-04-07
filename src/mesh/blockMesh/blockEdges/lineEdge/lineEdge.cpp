@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lineEdge.H"
-#include "addToRunTimeSelectionTable.H"
+#include "mesh/blockMesh/blockEdges/lineEdge/lineEdge.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

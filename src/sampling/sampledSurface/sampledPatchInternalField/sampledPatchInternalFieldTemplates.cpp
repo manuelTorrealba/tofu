@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledPatchInternalField.H"
-#include "interpolationCellPoint.H"
+#include "sampling/sampledSurface/sampledPatchInternalField/sampledPatchInternalField.hpp"
+#include "finiteVolume/interpolation/interpolation/interpolationCellPoint/interpolationCellPoint.hpp"
 #include "PrimitivePatchInterpolation.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef NoInjection_H
 #define NoInjection_H
 
-#include "InjectionModel.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/InjectionModel/InjectionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

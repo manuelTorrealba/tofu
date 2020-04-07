@@ -42,8 +42,8 @@ SourceFiles
 #ifndef temperatureDependentContactAngleForce_H
 #define temperatureDependentContactAngleForce_H
 
-#include "contactAngleForce.H"
-#include "Function1.H"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/force/contactAngleForces/contactAngleForce/contactAngleForce.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

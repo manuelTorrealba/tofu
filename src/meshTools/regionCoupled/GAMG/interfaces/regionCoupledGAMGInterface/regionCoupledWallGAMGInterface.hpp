@@ -35,7 +35,7 @@ SourceFiles
 #ifndef regionCoupledWallGAMGInterface_H
 #define regionCoupledWallGAMGInterface_H
 
-#include "regionCoupledBaseGAMGInterface.H"
+#include "meshTools/regionCoupled/GAMG/interfaces/regionCoupledGAMGInterface/regionCoupledBaseGAMGInterface.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

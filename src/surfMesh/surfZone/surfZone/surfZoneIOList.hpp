@@ -35,10 +35,10 @@ SourceFiles
 #ifndef surfZoneIOList_H
 #define surfZoneIOList_H
 
-#include "surfZoneList.H"
-#include "regIOobject.H"
-#include "faceList.H"
-#include "className.H"
+#include "surfMesh/surfZone/surfZone/surfZoneList.hpp"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/faceList.hpp"
+#include "OpenFOAM/db/typeInfo/className.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

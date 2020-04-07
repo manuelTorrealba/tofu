@@ -38,11 +38,11 @@ SourceFiles
 #ifndef solidParticle_H
 #define solidParticle_H
 
-#include "particle.H"
-#include "IOstream.H"
-#include "autoPtr.H"
-#include "interpolationCellPoint.H"
-#include "contiguous.H"
+#include "lagrangian/basic/particle/particle.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOstream.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "finiteVolume/interpolation/interpolation/interpolationCellPoint/interpolationCellPoint.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -240,7 +240,7 @@ inline bool contiguous<solidParticle>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "solidParticleI.H"
+#include "lagrangian/solidParticle/solidParticleI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

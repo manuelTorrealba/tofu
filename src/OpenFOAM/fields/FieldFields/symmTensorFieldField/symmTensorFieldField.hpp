@@ -37,6 +37,9 @@ SourceFiles
 
 #include "OpenFOAM/fields/FieldFields/FieldField/FieldField.hpp"
 #include "OpenFOAM/primitives/SymmTensor/symmTensor/symmTensor.hpp"
+#include "OpenFOAM/primitives/SphericalTensor/sphericalTensor/sphericalTensor.hpp"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/primitives/Tensor/tensor/tensor.hpp"
 
 #define TEMPLATE template<template<class> class Field>
 #include "OpenFOAM/fields/FieldFields/FieldField/FieldFieldFunctionsM.hpp"

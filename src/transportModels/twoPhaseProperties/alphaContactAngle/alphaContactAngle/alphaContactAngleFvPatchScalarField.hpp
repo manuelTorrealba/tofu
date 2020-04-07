@@ -58,8 +58,8 @@ SourceFiles
 #ifndef alphaContactAngleFvPatchScalarField_H
 #define alphaContactAngleFvPatchScalarField_H
 
-#include "fixedGradientFvPatchFields.H"
-#include "fvsPatchFields.H"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedGradient/fixedGradientFvPatchFields.hpp"
+#include "finiteVolume/fields/fvsPatchFields/fvsPatchField/fvsPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

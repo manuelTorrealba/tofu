@@ -36,8 +36,8 @@ SourceFiles
 #ifndef filmSubModelBase_H
 #define filmSubModelBase_H
 
-#include "surfaceFilmRegionModel.H"
-#include "subModelBase.H"
+#include "regionModels/surfaceFilmModels/surfaceFilmRegionModel/surfaceFilmRegionModel.hpp"
+#include "OpenFOAM/primitives/subModelBase/subModelBase.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -122,7 +122,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "filmSubModelBaseI.H"
+#include "regionModels/surfaceFilmModels/submodels/filmSubModelBaseI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

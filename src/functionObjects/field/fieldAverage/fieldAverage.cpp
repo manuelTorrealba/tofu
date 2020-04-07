@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fieldAverage.H"
-#include "volFields.H"
-#include "fieldAverageItem.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/field/fieldAverage/fieldAverage.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "functionObjects/field/fieldAverage/fieldAverageItem/fieldAverageItem.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionToCell.H"
-#include "regionSplit.H"
-#include "emptyPolyPatch.H"
-#include "cellSet.H"
-#include "syncTools.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshTools/sets/cellSources/regionToCell/regionToCell.hpp"
+#include "meshTools/regionSplit/regionSplit.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.hpp"
+#include "meshTools/sets/topoSets/cellSet.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

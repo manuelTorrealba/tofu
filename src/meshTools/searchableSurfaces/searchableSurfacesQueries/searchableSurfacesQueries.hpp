@@ -35,7 +35,7 @@ SourceFiles
 #ifndef searchableSurfacesQueries_H
 #define searchableSurfacesQueries_H
 
-#include "searchableSurface.H"
+#include "meshTools/searchableSurfaces/searchableSurface/searchableSurface.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

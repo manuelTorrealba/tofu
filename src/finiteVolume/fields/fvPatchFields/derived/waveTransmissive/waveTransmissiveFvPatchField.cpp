@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "waveTransmissiveFvPatchField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvPatchFieldMapper.H"
-#include "volFields.H"
-#include "EulerDdtScheme.H"
-#include "CrankNicolsonDdtScheme.H"
-#include "backwardDdtScheme.H"
+#include "finiteVolume/fields/fvPatchFields/derived/waveTransmissive/waveTransmissiveFvPatchField.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/finiteVolume/ddtSchemes/EulerDdtScheme/EulerDdtScheme.hpp"
+#include "finiteVolume/finiteVolume/ddtSchemes/CrankNicolsonDdtScheme/CrankNicolsonDdtScheme.hpp"
+#include "finiteVolume/finiteVolume/ddtSchemes/backwardDdtScheme/backwardDdtScheme.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "radialActuationDiskSource.H"
-#include "volFields.H"
-#include "fvMatrix.H"
-#include "fvm.H"
-#include "mathematicalConstants.H"
+#include "fvOptions/sources/derived/radialActuationDiskSource/radialActuationDiskSource.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fvMatrices/fvMatrix/fvMatrix.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvm.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
 
 // * * * * * * * * * * * * * * *  Member Functions * * * * * * * * * * * * * //
 

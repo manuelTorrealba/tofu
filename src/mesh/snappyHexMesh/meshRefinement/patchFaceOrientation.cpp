@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchFaceOrientation.H"
+#include "mesh/snappyHexMesh/meshRefinement/patchFaceOrientation.hpp"
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 

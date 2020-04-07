@@ -32,8 +32,8 @@ SourceFiles
 #ifndef jplotSetWriter_H
 #define jplotSetWriter_H
 
-#include "writer.H"
-#include "vector.H"
+#include "fileFormats/sampledSetWriters/writer.hpp"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

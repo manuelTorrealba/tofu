@@ -36,7 +36,7 @@ SourceFiles
 #ifndef fvcSup_H
 #define fvcSup_H
 
-#include "volFieldsFwd.H"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

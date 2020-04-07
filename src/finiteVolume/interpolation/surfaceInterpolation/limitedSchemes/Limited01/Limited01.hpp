@@ -32,7 +32,7 @@ Description
 #ifndef Limited01_H
 #define Limited01_H
 
-#include "Limited.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/Limited/Limited.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

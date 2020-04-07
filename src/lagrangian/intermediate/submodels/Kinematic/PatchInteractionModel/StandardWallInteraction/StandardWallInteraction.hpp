@@ -47,7 +47,7 @@ Description
 #ifndef StandardWallInteraction_H
 #define StandardWallInteraction_H
 
-#include "PatchInteractionModel.H"
+#include "lagrangian/intermediate/submodels/Kinematic/PatchInteractionModel/PatchInteractionModel/PatchInteractionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

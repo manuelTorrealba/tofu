@@ -32,8 +32,8 @@ Description
 #ifndef fvPatchList_H
 #define fvPatchList_H
 
-#include "fvPatch.H"
-#include "PtrList.H"
+#include "finiteVolume/fvMesh/fvPatches/fvPatch/fvPatch.hpp"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -52,12 +52,12 @@ SourceFiles
 #ifndef faceCollapser_H
 #define faceCollapser_H
 
-#include "labelList.H"
-#include "point.H"
-#include "Map.H"
-#include "HashSet.H"
-#include "typeInfo.H"
-#include "edgeList.H"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/meshes/meshShapes/edge/edgeList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

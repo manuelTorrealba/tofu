@@ -35,8 +35,8 @@ SourceFiles
 #ifndef cyclicFvsPatchField_H
 #define cyclicFvsPatchField_H
 
-#include "coupledFvsPatchField.H"
-#include "cyclicFvPatch.H"
+#include "finiteVolume/fields/fvsPatchFields/basic/coupled/coupledFvsPatchField.hpp"
+#include "finiteVolume/fvMesh/fvPatches/constraint/cyclic/cyclicFvPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

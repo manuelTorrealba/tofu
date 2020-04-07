@@ -35,12 +35,12 @@ SourceFiles
 #ifndef ReactionList_H
 #define ReactionList_H
 
-#include "PtrList.H"
-#include "SLPtrList.H"
-#include "speciesTable.H"
-#include "HashPtrTable.H"
-#include "Reaction.H"
-#include "fileName.H"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "OpenFOAM/containers/LinkedLists/user/SLPtrList.hpp"
+#include "thermophysicalModels/specie/speciesTable/speciesTable.hpp"
+#include "OpenFOAM/containers/HashTables/HashPtrTable/HashPtrTable.hpp"
+#include "thermophysicalModels/specie/reaction/ReactionsN/Reaction/Reaction.hpp"
+#include "OpenFOAM/primitives/strings/fileName/fileName.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

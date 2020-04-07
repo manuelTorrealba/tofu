@@ -1,4 +1,4 @@
-#include "readTimeControls.H"
+#include "finiteVolume/cfdTools/general/include/readTimeControls.hpp"
 
 correctPhi = pimple.dict().lookupOrDefault
 (

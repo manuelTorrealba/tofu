@@ -39,7 +39,7 @@ SourceFiles
 #ifndef pointData_H
 #define pointData_H
 
-#include "pointEdgePoint.H"
+#include "meshTools/algorithms/PointEdgeWave/pointEdgePoint.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -184,7 +184,7 @@ inline bool contiguous<pointData>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pointDataI.H"
+#include "mesh/snappyHexMesh/snappyHexMeshDriver/pointData/pointDataI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

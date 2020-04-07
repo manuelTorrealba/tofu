@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvcFlux.H"
-#include "surfaceInterpolate.H"
+#include "finiteVolume/finiteVolume/fvc/fvcFlux.hpp"
+#include "functionObjects/field/surfaceInterpolate/surfaceInterpolate.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

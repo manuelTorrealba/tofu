@@ -34,7 +34,7 @@ Description
 #ifndef StochasticDispersionRAS_H
 #define StochasticDispersionRAS_H
 
-#include "DispersionRASModel.H"
+#include "lagrangian/turbulence/submodels/Kinematic/DispersionModel/DispersionRASModel/DispersionRASModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

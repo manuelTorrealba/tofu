@@ -111,11 +111,11 @@ SourceFiles
 #ifndef functionObjects_forces_H
 #define functionObjects_forces_H
 
-#include "fvMeshFunctionObject.H"
-#include "logFiles.H"
-#include "coordinateSystem.H"
-#include "volFieldsFwd.H"
-#include "HashSet.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
+#include "OpenFOAM/db/functionObjects/logFiles/logFiles.hpp"
+#include "meshTools/coordinateSystems/coordinateSystem.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

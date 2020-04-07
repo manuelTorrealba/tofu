@@ -133,9 +133,9 @@ SourceFiles
 #ifndef faceCoupleInfo_H
 #define faceCoupleInfo_H
 
-#include "pointField.H"
-#include "indirectPrimitivePatch.H"
-#include "primitiveFacePatch.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/primitiveFacePatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

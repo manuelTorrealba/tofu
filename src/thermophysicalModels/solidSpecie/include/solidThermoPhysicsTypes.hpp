@@ -32,18 +32,18 @@ Description
 #ifndef solidThermoPhysicsTypes_H
 #define solidThermoPhysicsTypes_H
 
-#include "specie.H"
-#include "rhoConst.H"
-#include "hConstThermo.H"
-#include "hPolynomialThermo.H"
-#include "hPowerThermo.H"
-#include "constIsoSolidTransport.H"
-#include "constAnIsoSolidTransport.H"
-#include "exponentialSolidTransport.H"
-#include "polynomialSolidTransport.H"
+#include "thermophysicalModels/specie/specie/specie.hpp"
+#include "thermophysicalModels/specie/equationOfState/rhoConst/rhoConst.hpp"
+#include "thermophysicalModels/specie/thermo/hConst/hConstThermo.hpp"
+#include "thermophysicalModels/specie/thermo/hPolynomial/hPolynomialThermo.hpp"
+#include "thermophysicalModels/specie/thermo/hPower/hPowerThermo.hpp"
+#include "thermophysicalModels/solidSpecie/transport/const/constIsoSolidTransport.hpp"
+#include "thermophysicalModels/solidSpecie/transport/const/constAnIsoSolidTransport.hpp"
+#include "thermophysicalModels/solidSpecie/transport/exponential/exponentialSolidTransport.hpp"
+#include "thermophysicalModels/solidSpecie/transport/polynomial/polynomialSolidTransport.hpp"
 
-#include "sensibleEnthalpy.H"
-#include "thermo.H"
+#include "thermophysicalModels/specie/thermo/sensibleEnthalpy/sensibleEnthalpy.hpp"
+#include "thermophysicalModels/specie/thermo/thermo/thermo.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

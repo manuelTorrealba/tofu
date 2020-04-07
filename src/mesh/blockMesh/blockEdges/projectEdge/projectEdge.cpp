@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableSurfacesQueries.H"
-#include "projectEdge.H"
-#include "unitConversion.H"
-#include "addToRunTimeSelectionTable.H"
-#include "pointConstraint.H"
-#include "OBJstream.H"
-#include "linearInterpolationWeights.H"
+#include "meshTools/searchableSurfaces/searchableSurfacesQueries/searchableSurfacesQueries.hpp"
+#include "mesh/blockMesh/blockEdges/projectEdge/projectEdge.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointConstraint/pointConstraint.hpp"
+#include "surfMesh/surfaceFormats/obj/OBJstream.hpp"
+#include "OpenFOAM/interpolations/interpolationWeights/linearInterpolationWeights/linearInterpolationWeights.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

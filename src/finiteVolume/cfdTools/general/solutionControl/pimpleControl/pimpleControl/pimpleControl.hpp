@@ -58,10 +58,10 @@ SourceFiles
 #ifndef pimpleControl_H
 #define pimpleControl_H
 
-#include "pimpleNoLoopControl.H"
-#include "pimpleLoop.H"
-#include "singleRegionConvergenceControl.H"
-#include "singleRegionCorrectorConvergenceControl.H"
+#include "finiteVolume/cfdTools/general/solutionControl/pimpleControl/pimpleNoLoopControl/pimpleNoLoopControl.hpp"
+#include "finiteVolume/cfdTools/general/solutionControl/pimpleControl/pimpleLoop/pimpleLoop.hpp"
+#include "finiteVolume/cfdTools/general/solutionControl/convergenceControl/singleRegionConvergenceControl/singleRegionConvergenceControl.hpp"
+#include "finiteVolume/cfdTools/general/solutionControl/convergenceControl/singleRegionCorrectorConvergenceControl/singleRegionCorrectorConvergenceControl.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -126,7 +126,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pimpleControlI.H"
+#include "finiteVolume/cfdTools/general/solutionControl/pimpleControl/pimpleControl/pimpleControlI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

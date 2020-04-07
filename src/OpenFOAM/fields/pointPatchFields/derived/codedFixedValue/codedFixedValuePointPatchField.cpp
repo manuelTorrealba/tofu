@@ -30,6 +30,9 @@ License
 #include "OpenFOAM/db/dynamicLibrary/dynamicCode/dynamicCode.hpp"
 #include "OpenFOAM/db/dynamicLibrary/dynamicCode/dynamicCodeContext.hpp"
 #include "OpenFOAM/primitives/strings/stringOps/stringOps.hpp"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "OpenFOAM/db/IOstreams/StringStreams/IStringStream.hpp"
+#include "OpenFOAM/db/IOstreams/StringStreams/OStringStream.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

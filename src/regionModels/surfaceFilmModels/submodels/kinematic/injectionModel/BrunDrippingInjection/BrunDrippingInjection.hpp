@@ -57,7 +57,7 @@ SourceFiles
 #ifndef BrunDrippingInjection_H
 #define BrunDrippingInjection_H
 
-#include "injectionModel.H"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/injectionModel/injectionModel/injectionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

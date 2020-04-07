@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyTopoChange.H"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChange.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

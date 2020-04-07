@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReynoldsStress.H"
-#include "fvc.H"
-#include "fvm.H"
-#include "wallFvPatch.H"
+#include "TurbulenceModels/turbulenceModels/ReynoldsStress/ReynoldsStress.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvc.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvm.hpp"
+#include "finiteVolume/fvMesh/fvPatches/derived/wall/wallFvPatch.hpp"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

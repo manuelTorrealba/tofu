@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BrownianMotionForce.H"
-#include "mathematicalConstants.H"
-#include "fundamentalConstants.H"
-#include "demandDrivenData.H"
-#include "turbulenceModel.H"
+#include "lagrangian/turbulence/submodels/Thermodynamic/ParticleForces/BrownianMotion/BrownianMotionForce.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
+#include "OpenFOAM/global/constants/fundamental/fundamentalConstants.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
+#include "TurbulenceModels/turbulenceModels/turbulenceModel.hpp"
 
 using namespace Foam::constant;
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef snappyLayerDriver_H
 #define snappyLayerDriver_H
 
-#include "meshRefinement.H"
+#include "mesh/snappyHexMesh/meshRefinement/meshRefinement.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

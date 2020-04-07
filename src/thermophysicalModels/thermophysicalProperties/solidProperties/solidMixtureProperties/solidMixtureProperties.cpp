@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solidMixtureProperties.H"
+#include "thermophysicalModels/thermophysicalProperties/solidProperties/solidMixtureProperties/solidMixtureProperties.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

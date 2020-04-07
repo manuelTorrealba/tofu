@@ -43,7 +43,7 @@ SourceFiles
 #ifndef QUICKV_H
 #define QUICKV_H
 
-#include "vector.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

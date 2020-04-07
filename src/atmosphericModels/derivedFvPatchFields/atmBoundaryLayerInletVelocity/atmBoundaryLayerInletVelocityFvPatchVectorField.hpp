@@ -57,9 +57,9 @@ SourceFiles
 #ifndef atmBoundaryLayerInletVelocityFvPatchVectorField_H
 #define atmBoundaryLayerInletVelocityFvPatchVectorField_H
 
-#include "fvPatchFields.H"
-#include "inletOutletFvPatchFields.H"
-#include "atmBoundaryLayer.H"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFields.hpp"
+#include "finiteVolume/fields/fvPatchFields/derived/inletOutlet/inletOutletFvPatchFields.hpp"
+#include "atmosphericModels/derivedFvPatchFields/atmBoundaryLayer/atmBoundaryLayer.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,8 +36,8 @@ SourceFiles
 #ifndef ignition_H
 #define ignition_H
 
-#include "ignitionSite.H"
-#include "Switch.H"
+#include "engine/ignition/ignitionSite.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

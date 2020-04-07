@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvSchemes.H"
-#include "Time.H"
-#include "steadyStateDdtScheme.H"
+#include "finiteVolume/finiteVolume/fvSchemes/fvSchemes.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "finiteVolume/finiteVolume/ddtSchemes/steadyStateDdtScheme/steadyStateDdtScheme.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -32,7 +32,7 @@ Description
 #ifndef NoInflow_H
 #define NoInflow_H
 
-#include "InflowBoundaryModel.H"
+#include "lagrangian/DSMC/submodels/InflowBoundaryModel/InflowBoundaryModel/InflowBoundaryModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

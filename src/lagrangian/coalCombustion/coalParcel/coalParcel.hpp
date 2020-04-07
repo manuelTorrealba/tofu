@@ -35,12 +35,12 @@ SourceFiles
 #ifndef coalParcel_H
 #define coalParcel_H
 
-#include "contiguous.H"
-#include "particle.H"
-#include "KinematicParcel.H"
-#include "ThermoParcel.H"
-#include "ReactingParcel.H"
-#include "ReactingMultiphaseParcel.H"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
+#include "lagrangian/basic/particle/particle.hpp"
+#include "lagrangian/intermediate/parcels/Templates/KinematicParcel/KinematicParcel.hpp"
+#include "lagrangian/intermediate/parcels/Templates/ThermoParcel/ThermoParcel.hpp"
+#include "lagrangian/intermediate/parcels/Templates/ReactingParcel/ReactingParcel.hpp"
+#include "lagrangian/intermediate/parcels/Templates/ReactingMultiphaseParcel/ReactingMultiphaseParcel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

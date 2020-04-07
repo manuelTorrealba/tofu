@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "heRhoThermo.H"
+#include "thermophysicalModels/basic/rhoThermo/heRhoThermo.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

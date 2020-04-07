@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "movingConeTopoFvMesh.H"
-#include "Time.H"
-#include "mapPolyMesh.H"
-#include "layerAdditionRemoval.H"
-#include "addToRunTimeSelectionTable.H"
-#include "meshTools.H"
-#include "OFstream.H"
-#include "mathematicalConstants.H"
+#include "topoChangerFvMesh/movingConeTopoFvMesh/movingConeTopoFvMesh.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "dynamicMesh/layerAdditionRemoval/layerAdditionRemoval.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
 
 using namespace Foam::constant::mathematical;
 

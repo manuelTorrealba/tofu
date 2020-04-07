@@ -55,7 +55,7 @@ SourceFiles
 #ifndef functionObjects_XiReactionRate_H
 #define functionObjects_XiReactionRate_H
 
-#include "fvMeshFunctionObject.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

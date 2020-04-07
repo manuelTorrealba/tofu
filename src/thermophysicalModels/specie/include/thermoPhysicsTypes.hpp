@@ -32,24 +32,24 @@ Description
 #ifndef thermoPhysicsTypes_H
 #define thermoPhysicsTypes_H
 
-#include "specie.H"
-#include "perfectGas.H"
-#include "incompressiblePerfectGas.H"
-#include "perfectFluid.H"
-#include "adiabaticPerfectFluid.H"
-#include "rhoConst.H"
-#include "hConstThermo.H"
-#include "janafThermo.H"
+#include "thermophysicalModels/specie/specie/specie.hpp"
+#include "thermophysicalModels/specie/equationOfState/perfectGas/perfectGas.hpp"
+#include "thermophysicalModels/specie/equationOfState/incompressiblePerfectGas/incompressiblePerfectGas.hpp"
+#include "thermophysicalModels/specie/equationOfState/perfectFluid/perfectFluid.hpp"
+#include "thermophysicalModels/specie/equationOfState/adiabaticPerfectFluid/adiabaticPerfectFluid.hpp"
+#include "thermophysicalModels/specie/equationOfState/rhoConst/rhoConst.hpp"
+#include "thermophysicalModels/specie/thermo/hConst/hConstThermo.hpp"
+#include "thermophysicalModels/specie/thermo/janaf/janafThermo.hpp"
 
-#include "sensibleEnthalpy.H"
-#include "sensibleInternalEnergy.H"
-#include "thermo.H"
-#include "sutherlandTransport.H"
-#include "constTransport.H"
+#include "thermophysicalModels/specie/thermo/sensibleEnthalpy/sensibleEnthalpy.hpp"
+#include "thermophysicalModels/specie/thermo/sensibleInternalEnergy/sensibleInternalEnergy.hpp"
+#include "thermophysicalModels/specie/thermo/thermo/thermo.hpp"
+#include "thermophysicalModels/specie/transport/sutherland/sutherlandTransport.hpp"
+#include "thermophysicalModels/specie/transport/const/constTransport.hpp"
 
-#include "icoPolynomial.H"
-#include "hPolynomialThermo.H"
-#include "polynomialTransport.H"
+#include "thermophysicalModels/specie/equationOfState/icoPolynomial/icoPolynomial.hpp"
+#include "thermophysicalModels/specie/thermo/hPolynomial/hPolynomialThermo.hpp"
+#include "thermophysicalModels/specie/transport/polynomial/polynomialTransport.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

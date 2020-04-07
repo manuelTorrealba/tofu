@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "simpleGeomDecomp.H"
-#include "addToRunTimeSelectionTable.H"
-#include "SortableList.H"
-#include "globalIndex.H"
-#include "SubField.H"
+#include "parallel/decompose/decompositionMethods/simpleGeomDecomp/simpleGeomDecomp.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/containers/Lists/SortableList/SortableList.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
+#include "OpenFOAM/fields/Fields/Field/SubField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

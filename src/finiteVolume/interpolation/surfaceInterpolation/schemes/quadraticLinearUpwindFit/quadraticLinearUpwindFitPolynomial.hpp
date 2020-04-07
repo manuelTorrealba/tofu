@@ -35,7 +35,7 @@ Description
 #ifndef quadraticLinearUpwindFitPolynomial_H
 #define quadraticLinearUpwindFitPolynomial_H
 
-#include "vector.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

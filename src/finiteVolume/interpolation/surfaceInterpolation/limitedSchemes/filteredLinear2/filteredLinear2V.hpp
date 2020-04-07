@@ -43,7 +43,7 @@ SourceFiles
 #ifndef filteredLinear2V_H
 #define filteredLinear2V_H
 
-#include "vector.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

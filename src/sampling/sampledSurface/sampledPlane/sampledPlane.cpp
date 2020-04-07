@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledPlane.H"
-#include "dictionary.H"
-#include "polyMesh.H"
-#include "volFields.H"
+#include "sampling/sampledSurface/sampledPlane/sampledPlane.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

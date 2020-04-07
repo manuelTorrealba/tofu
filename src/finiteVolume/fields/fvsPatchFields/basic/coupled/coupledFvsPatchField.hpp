@@ -35,8 +35,8 @@ SourceFiles
 #ifndef coupledFvsPatchField_H
 #define coupledFvsPatchField_H
 
-#include "fvsPatchField.H"
-#include "coupledFvPatch.H"
+#include "finiteVolume/fields/fvsPatchFields/fvsPatchField/fvsPatchField.hpp"
+#include "finiteVolume/fvMesh/fvPatches/basic/coupled/coupledFvPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

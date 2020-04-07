@@ -37,12 +37,12 @@ SourceFiles
 #ifndef surfZone_H
 #define surfZone_H
 
-#include "word.H"
-#include "label.H"
-#include "className.H"
-#include "surfZoneIdentifier.H"
-#include "autoPtr.H"
-#include "dictionary.H"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/db/typeInfo/className.hpp"
+#include "surfMesh/surfZone/surfZoneIdentifier/surfZoneIdentifier.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

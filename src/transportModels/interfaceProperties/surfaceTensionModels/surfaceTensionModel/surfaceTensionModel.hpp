@@ -55,10 +55,10 @@ SourceFiles
 #ifndef surfaceTensionModel_H
 #define surfaceTensionModel_H
 
-#include "regIOobject.H"
-#include "dimensionedTypes.H"
-#include "volFieldsFwd.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedTypes.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

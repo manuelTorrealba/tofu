@@ -35,8 +35,8 @@ SourceFiles
 #ifndef labelledTri_H
 #define labelledTri_H
 
-#include "triFace.H"
-#include "ListListOps.H"
+#include "OpenFOAM/meshes/meshShapes/triFace/triFace.hpp"
+#include "OpenFOAM/containers/Lists/ListListOps/ListListOps.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -154,7 +154,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "labelledTriI.H"
+#include "triSurface/tools/labelledTri/labelledTriI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

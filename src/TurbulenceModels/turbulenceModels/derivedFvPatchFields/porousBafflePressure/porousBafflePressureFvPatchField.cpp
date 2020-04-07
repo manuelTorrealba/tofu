@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "porousBafflePressureFvPatchField.H"
-#include "surfaceFields.H"
-#include "turbulenceModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "TurbulenceModels/turbulenceModels/derivedFvPatchFields/porousBafflePressure/porousBafflePressureFvPatchField.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
+#include "TurbulenceModels/turbulenceModels/turbulenceModel.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

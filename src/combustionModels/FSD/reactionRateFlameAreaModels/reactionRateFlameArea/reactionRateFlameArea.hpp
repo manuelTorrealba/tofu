@@ -36,11 +36,11 @@ SourceFiles
 #ifndef reactionRateFlameArea_H
 #define reactionRateFlameArea_H
 
-#include "runTimeSelectionTables.H"
-#include "dictionary.H"
-#include "autoPtr.H"
-#include "volFields.H"
-#include "combustionModel.H"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "combustionModels/combustionModel/combustionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

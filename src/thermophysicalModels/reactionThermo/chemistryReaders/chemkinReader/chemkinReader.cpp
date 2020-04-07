@@ -23,24 +23,24 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "chemkinReader.H"
+#include "thermophysicalModels/reactionThermo/chemistryReaders/chemkinReader/chemkinReader.hpp"
 #include <fstream>
-#include "atomicWeights.H"
-#include "ReactionProxy.H"
-#include "IrreversibleReaction.H"
-#include "ReversibleReaction.H"
-#include "NonEquilibriumReversibleReaction.H"
-#include "ArrheniusReactionRate.H"
-#include "thirdBodyArrheniusReactionRate.H"
-#include "FallOffReactionRate.H"
-#include "ChemicallyActivatedReactionRate.H"
-#include "LindemannFallOffFunction.H"
-#include "TroeFallOffFunction.H"
-#include "SRIFallOffFunction.H"
-#include "LandauTellerReactionRate.H"
-#include "JanevReactionRate.H"
-#include "powerSeriesReactionRate.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalModels/specie/atomicWeights/atomicWeights.hpp"
+#include "thermophysicalModels/specie/reaction/ReactionsN/ReactionProxy/ReactionProxy.hpp"
+#include "thermophysicalModels/specie/reaction/ReactionsN/IrreversibleReaction/IrreversibleReaction.hpp"
+#include "thermophysicalModels/specie/reaction/ReactionsN/ReversibleReaction/ReversibleReaction.hpp"
+#include "thermophysicalModels/specie/reaction/ReactionsN/NonEquilibriumReversibleReaction/NonEquilibriumReversibleReaction.hpp"
+#include "thermophysicalModels/specie/reaction/reactionRate/ArrheniusReactionRate/ArrheniusReactionRate.hpp"
+#include "thermophysicalModels/specie/reaction/reactionRate/thirdBodyArrheniusReactionRate/thirdBodyArrheniusReactionRate.hpp"
+#include "thermophysicalModels/specie/reaction/reactionRate/FallOffReactionRate/FallOffReactionRate.hpp"
+#include "thermophysicalModels/specie/reaction/reactionRate/ChemicallyActivatedReactionRate/ChemicallyActivatedReactionRate.hpp"
+#include "thermophysicalModels/specie/reaction/reactionRate/fallOffFunctions/LindemannFallOffFunction/LindemannFallOffFunction.hpp"
+#include "thermophysicalModels/specie/reaction/reactionRate/fallOffFunctions/TroeFallOffFunction/TroeFallOffFunction.hpp"
+#include "thermophysicalModels/specie/reaction/reactionRate/fallOffFunctions/SRIFallOffFunction/SRIFallOffFunction.hpp"
+#include "thermophysicalModels/specie/reaction/reactionRate/LandauTellerReactionRate/LandauTellerReactionRate.hpp"
+#include "thermophysicalModels/specie/reaction/reactionRate/JanevReactionRate/JanevReactionRate.hpp"
+#include "thermophysicalModels/specie/reaction/reactionRate/powerSeries/powerSeriesReactionRate.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 
 /* * * * * * * * * * * * * * * * * Static data * * * * * * * * * * * * * * * */

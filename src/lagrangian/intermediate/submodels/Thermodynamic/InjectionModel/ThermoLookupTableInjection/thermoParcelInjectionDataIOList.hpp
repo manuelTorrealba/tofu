@@ -34,8 +34,8 @@ SourceFiles
 #ifndef thermoParcelInjectionDataIOList_H
 #define thermoParcelInjectionDataIOList_H
 
-#include "IOList.H"
-#include "thermoParcelInjectionData.H"
+#include "OpenFOAM/db/IOobjects/IOList/IOList.hpp"
+#include "lagrangian/intermediate/submodels/Thermodynamic/InjectionModel/ThermoLookupTableInjection/thermoParcelInjectionData.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

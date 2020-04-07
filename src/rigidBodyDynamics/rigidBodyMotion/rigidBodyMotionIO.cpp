@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rigidBodyMotion.H"
-#include "IOstreams.H"
+#include "rigidBodyDynamics/rigidBodyMotion/rigidBodyMotion.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

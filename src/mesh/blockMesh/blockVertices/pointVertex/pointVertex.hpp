@@ -34,7 +34,7 @@ SourceFiles
 #ifndef blockVertices_pointVertex_H
 #define blockVertices_pointVertex_H
 
-#include "blockVertex.H"
+#include "mesh/blockMesh/blockVertices/blockVertex/blockVertex.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "binaryNode.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/tabulation/ISAT/binaryNode/binaryNode.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

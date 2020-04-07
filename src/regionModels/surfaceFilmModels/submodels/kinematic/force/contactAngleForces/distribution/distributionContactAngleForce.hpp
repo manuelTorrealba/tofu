@@ -39,9 +39,9 @@ SourceFiles
 #ifndef distributionContactAngleForce_H
 #define distributionContactAngleForce_H
 
-#include "contactAngleForce.H"
-#include "distributionModel.H"
-#include "Random.H"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/force/contactAngleForces/contactAngleForce/contactAngleForce.hpp"
+#include "lagrangian/distributionModels/distributionModel/distributionModel.hpp"
+#include "OpenFOAM/primitives/Random/Random.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,13 +35,13 @@ SourceFiles
 #ifndef AMIMethod_H
 #define AMIMethod_H
 
-#include "className.H"
-#include "DynamicList.H"
-#include "faceAreaIntersect.H"
-#include "indexedOctree.H"
-#include "treeDataPrimitivePatch.H"
-#include "treeBoundBoxList.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM/db/typeInfo/className.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "meshTools/AMIInterpolation/faceAreaIntersect/faceAreaIntersect.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/indexedOctree.hpp"
+#include "meshTools/indexedOctree/treeDataPrimitivePatch.hpp"
+#include "OpenFOAM/meshes/treeBoundBox/treeBoundBoxList.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -273,7 +273,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "AMIMethodI.H"
+#include "meshTools/AMIInterpolation/AMIInterpolation/AMIMethod/AMIMethod/AMIMethodI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

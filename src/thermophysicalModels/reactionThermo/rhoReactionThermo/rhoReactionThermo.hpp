@@ -35,10 +35,10 @@ SourceFiles
 #ifndef rhoReactionThermo_H
 #define rhoReactionThermo_H
 
-#include "rhoThermo.H"
-#include "basicSpecieMixture.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
+#include "thermophysicalModels/basic/rhoThermo/rhoThermo.hpp"
+#include "thermophysicalModels/reactionThermo/mixtures/basicSpecieMixture/basicSpecieMixture.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

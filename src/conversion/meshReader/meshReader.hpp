@@ -56,11 +56,11 @@ SourceFiles
 #ifndef meshReader_H
 #define meshReader_H
 
-#include "polyMesh.H"
-#include "HashTable.H"
-#include "IOstream.H"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOstream.hpp"
 
-#include "cellTable.H"
+#include "conversion/meshTables/cellTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

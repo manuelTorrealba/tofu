@@ -35,7 +35,7 @@ SourceFiles
 #ifndef AverageField_H
 #define AverageField_H
 
-#include "Field.H"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

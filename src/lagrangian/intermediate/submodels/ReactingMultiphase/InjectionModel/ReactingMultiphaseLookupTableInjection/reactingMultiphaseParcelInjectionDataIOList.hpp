@@ -34,8 +34,8 @@ SourceFiles
 #ifndef reactingMultiphaseParcelInjectionDataIOList_H
 #define reactingMultiphaseParcelInjectionDataIOList_H
 
-#include "IOList.H"
-#include "reactingMultiphaseParcelInjectionData.H"
+#include "OpenFOAM/db/IOobjects/IOList/IOList.hpp"
+#include "lagrangian/intermediate/submodels/ReactingMultiphase/InjectionModel/ReactingMultiphaseLookupTableInjection/reactingMultiphaseParcelInjectionData.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

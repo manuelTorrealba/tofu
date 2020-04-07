@@ -35,8 +35,8 @@ SourceFiles
 #ifndef multivariateSurfaceInterpolationScheme_H
 #define multivariateSurfaceInterpolationScheme_H
 
-#include "surfaceInterpolationScheme.H"
-#include "HashTable.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.hpp"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

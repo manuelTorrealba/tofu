@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "splitCell.H"
-#include "error.H"
+#include "dynamicMesh/meshCut/splitCell/splitCell.hpp"
+#include "OpenFOAM/db/error/error.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

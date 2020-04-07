@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMatrices.H"
-#include "volFields.H"
-#include "DimensionedField.H"
+#include "finiteVolume/fvMatrices/fvMatrices.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.hpp"
 
 Foam::tmp<Foam::DimensionedField<Foam::vector, Foam::volMesh>>
 Foam::coalCloudList::UTrans() const

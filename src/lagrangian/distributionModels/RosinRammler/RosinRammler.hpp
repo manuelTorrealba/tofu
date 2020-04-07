@@ -42,7 +42,7 @@ SourceFiles
 #ifndef RosinRammler_H
 #define RosinRammler_H
 
-#include "distributionModel.H"
+#include "lagrangian/distributionModels/distributionModel/distributionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

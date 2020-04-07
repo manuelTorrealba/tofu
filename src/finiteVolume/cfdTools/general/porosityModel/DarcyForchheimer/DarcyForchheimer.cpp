@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "addToRunTimeSelectionTable.H"
-#include "DarcyForchheimer.H"
-#include "geometricOneField.H"
-#include "fvMatrices.H"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "finiteVolume/cfdTools/general/porosityModel/DarcyForchheimer/DarcyForchheimer.hpp"
+#include "OpenFOAM/fields/GeometricFields/geometricOneField/geometricOneField.hpp"
+#include "finiteVolume/fvMatrices/fvMatrices.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

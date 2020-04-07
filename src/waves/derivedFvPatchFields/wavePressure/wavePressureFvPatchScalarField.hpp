@@ -64,7 +64,7 @@ SourceFiles
 #ifndef wavePressureFvPatchScalarField_H
 #define wavePressureFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
+#include "finiteVolume/fields/fvPatchFields/basic/mixed/mixedFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

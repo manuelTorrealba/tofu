@@ -26,8 +26,8 @@ License
 #ifndef externalCoupledMixedFvPatchFields_H
 #define externalCoupledMixedFvPatchFields_H
 
-#include "externalCoupledMixedFvPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvPatchFields/derived/externalCoupledMixed/externalCoupledMixedFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

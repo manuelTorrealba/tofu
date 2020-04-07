@@ -35,9 +35,9 @@ SourceFiles
 #ifndef waxSolventEvaporation_H
 #define waxSolventEvaporation_H
 
-#include "phaseChangeModel.H"
-#include "uniformDimensionedFields.H"
-#include "Function1.H"
+#include "regionModels/surfaceFilmModels/submodels/thermo/phaseChangeModel/phaseChangeModel/phaseChangeModel.hpp"
+#include "OpenFOAM/fields/UniformDimensionedFields/uniformDimensionedFields.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

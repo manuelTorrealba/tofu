@@ -36,10 +36,10 @@ SourceFiles
 #ifndef filmTurbulenceModel_H
 #define filmTurbulenceModel_H
 
-#include "filmSubModelBase.H"
-#include "runTimeSelectionTables.H"
-#include "fvMatricesFwd.H"
-#include "volFieldsFwd.H"
+#include "regionModels/surfaceFilmModels/submodels/filmSubModelBase.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
+#include "finiteVolume/fvMatrices/fvMatricesFwd.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

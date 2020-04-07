@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicKinematicCollidingParcel.H"
-#include "Cloud.H"
+#include "lagrangian/intermediate/parcels/derived/basicKinematicCollidingParcel/basicKinematicCollidingParcel.hpp"
+#include "lagrangian/basic/Cloud/Cloud.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

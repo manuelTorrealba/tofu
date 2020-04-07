@@ -35,7 +35,7 @@ Description
 #ifndef quadraticFitPolynomial_H
 #define quadraticFitPolynomial_H
 
-#include "vector.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

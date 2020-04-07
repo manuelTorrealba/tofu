@@ -80,11 +80,11 @@ SourceFiles
 #ifndef functionObjects_wallHeatTransferCoeff_H
 #define functionObjects_wallHeatTransferCoeff_H
 
-#include "fvMeshFunctionObject.H"
-#include "logFiles.H"
-#include "writeLocalObjects.H"
-#include "HashSet.H"
-#include "volFieldsFwd.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
+#include "OpenFOAM/db/functionObjects/logFiles/logFiles.hpp"
+#include "OpenFOAM/db/functionObjects/writeLocalObjects/writeLocalObjects.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

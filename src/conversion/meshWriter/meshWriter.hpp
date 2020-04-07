@@ -74,9 +74,9 @@ SourceFiles
 #ifndef meshWriter_H
 #define meshWriter_H
 
-#include "polyMesh.H"
-#include "boundaryRegion.H"
-#include "cellTable.H"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "conversion/meshTables/boundaryRegion.hpp"
+#include "conversion/meshTables/cellTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

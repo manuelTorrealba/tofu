@@ -52,8 +52,8 @@ SourceFiles
 #ifndef DarcyForchheimer_H
 #define DarcyForchheimer_H
 
-#include "porosityModel.H"
-#include "dimensionedTensor.H"
+#include "finiteVolume/cfdTools/general/porosityModel/porosityModel/porosityModel.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedTensor/dimensionedTensor.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

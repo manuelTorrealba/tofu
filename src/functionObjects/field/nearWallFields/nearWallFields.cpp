@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nearWallFields.H"
-#include "wordReList.H"
-#include "findCellParticle.H"
-#include "mappedPatchBase.H"
-#include "OBJstream.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/field/nearWallFields/nearWallFields.hpp"
+#include "OpenFOAM/primitives/strings/lists/wordReList.hpp"
+#include "functionObjects/field/nearWallFields/findCellParticle.hpp"
+#include "meshTools/mappedPatches/mappedPolyPatch/mappedPatchBase.hpp"
+#include "surfMesh/surfaceFormats/obj/OBJstream.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

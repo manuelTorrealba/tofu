@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "blockMesh.H"
+#include "mesh/blockMesh/blockMesh/blockMesh.hpp"
 
 // * * * * * * * * * * * * * * * Private Functions * * * * * * * * * * * * * //
 

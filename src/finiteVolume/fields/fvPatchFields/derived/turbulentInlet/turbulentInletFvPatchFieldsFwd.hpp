@@ -26,7 +26,7 @@ License
 #ifndef turbulentInletFvPatchFieldsFwd_H
 #define turbulentInletFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

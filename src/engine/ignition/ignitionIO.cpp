@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "engineTime.H"
-#include "ignition.H"
+#include "engine/engineTime/engineTime/engineTime.hpp"
+#include "engine/ignition/ignition.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

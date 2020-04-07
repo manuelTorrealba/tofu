@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceFilmModel.H"
-#include "noFilm.H"
+#include "regionModels/surfaceFilmModels/surfaceFilmModel/surfaceFilmModel.hpp"
+#include "regionModels/surfaceFilmModels/noFilm/noFilm.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

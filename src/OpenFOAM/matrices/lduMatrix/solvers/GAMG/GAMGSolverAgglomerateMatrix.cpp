@@ -27,8 +27,8 @@ License
 #include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaceFields/GAMGInterfaceField/GAMGInterfaceField.hpp"
 #include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterfaceFields/processorLduInterfaceField/processorLduInterfaceField.hpp"
 #include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaceFields/processorGAMGInterfaceField/processorGAMGInterfaceField.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.cpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.cpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.hpp"
 #include "OpenFOAM/global/argList/argList.hpp"
 #include "OpenFOAM//containers/Lists/UIndirectList/UIndirectList.hpp"
 

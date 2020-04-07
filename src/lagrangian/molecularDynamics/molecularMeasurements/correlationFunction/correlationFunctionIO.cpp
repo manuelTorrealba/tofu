@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "correlationFunction.H"
-#include "IOstreams.H"
+#include "lagrangian/molecularDynamics/molecularMeasurements/correlationFunction/correlationFunction.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 template<class Type>
 bool Foam::correlationFunction<Type>::writeAveraged(Ostream& os) const

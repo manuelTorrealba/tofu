@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SurfaceFilmModel.H"
-#include "surfaceFilmRegionModel.H"
-#include "mathematicalConstants.H"
+#include "lagrangian/intermediate/submodels/Kinematic/SurfaceFilmModel/SurfaceFilmModel/SurfaceFilmModel.hpp"
+#include "regionModels/surfaceFilmModels/surfaceFilmRegionModel/surfaceFilmRegionModel.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
 
 using namespace Foam::constant;
 

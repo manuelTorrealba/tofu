@@ -23,18 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "geomCellLooper.H"
-#include "polyMesh.H"
-#include "DynamicList.H"
-#include "plane.H"
-#include "meshTools.H"
-#include "SortableList.H"
-#include "triSurfaceTools.H"
-#include "HashSet.H"
-#include "ListOps.H"
-#include "transform.H"
+#include "dynamicMesh/meshCut/cellLooper/geomCellLooper.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/plane/plane.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
+#include "OpenFOAM/containers/Lists/SortableList/SortableList.hpp"
+#include "meshTools/triSurface/triSurfaceTools/triSurfaceTools.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "OpenFOAM/primitives/transform/transform.hpp"
 
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 
 // Extension factor of edges to make sure we catch intersections through

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchProbes.H"
-#include "volFields.H"
-#include "IOmanip.H"
+#include "sampling/probes/patchProbes.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOmanip.hpp"
 
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

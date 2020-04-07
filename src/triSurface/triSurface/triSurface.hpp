@@ -35,14 +35,14 @@ SourceFiles
 #ifndef triSurface_H
 #define triSurface_H
 
-#include "PrimitivePatch.H"
-#include "pointField.H"
-#include "labelledTri.H"
-#include "boolList.H"
-#include "geometricSurfacePatchList.H"
-#include "surfacePatchList.H"
-#include "triFaceList.H"
-#include "triadField.H"
+#include "OpenFOAM/meshes/primitiveMesh/PrimitivePatchN/PrimitivePatch.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "triSurface/tools/labelledTri/labelledTri.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "triSurface/triSurface/geometricSurfacePatch/geometricSurfacePatchList.hpp"
+#include "triSurface/triSurface/surfacePatch/surfacePatchList.hpp"
+#include "OpenFOAM/meshes/meshShapes/triFace/triFaceList.hpp"
+#include "OpenFOAM/fields/Fields/triadField/triadField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

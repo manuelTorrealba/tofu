@@ -35,7 +35,7 @@ SourceFiles
 #ifndef pointSet_H
 #define pointSet_H
 
-#include "topoSet.H"
+#include "meshTools/sets/topoSets/topoSet.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

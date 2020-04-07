@@ -36,7 +36,7 @@ SourceFiles
 #ifndef patchInjection_H
 #define patchInjection_H
 
-#include "injectionModel.H"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/injectionModel/injectionModel/injectionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

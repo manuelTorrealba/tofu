@@ -23,18 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurface.H"
-#include "demandDrivenData.H"
-#include "IFstream.H"
-#include "OFstream.H"
-#include "Time.H"
-#include "boundBox.H"
-#include "SortableList.H"
-#include "PackedBoolList.H"
-#include "plane.H"
-#include "tensor2D.H"
-#include "symmTensor2D.H"
-#include "transform.H"
+#include "triSurface/triSurface/triSurface.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/meshes/boundBox/boundBox.hpp"
+#include "OpenFOAM/containers/Lists/SortableList/SortableList.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/plane/plane.hpp"
+#include "OpenFOAM/primitives/Tensor2D/tensor2D/tensor2D.hpp"
+#include "OpenFOAM/primitives/SymmTensor2D/symmTensor2D/symmTensor2D.hpp"
+#include "OpenFOAM/primitives/transform/transform.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solidChemistryModel.H"
-#include "reactingMixture.H"
+#include "thermophysicalModels/solidChemistryModel/solidChemistryModel/solidChemistryModel.hpp"
+#include "thermophysicalModels/reactionThermo/mixtures/reactingMixture/reactingMixture.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

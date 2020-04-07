@@ -38,11 +38,11 @@ SourceFiles
 #ifndef polyMeshAdder_H
 #define polyMeshAdder_H
 
-#include "autoPtr.H"
-#include "polyMesh.H"
-#include "mapAddedPolyMesh.H"
-#include "faceCoupleInfo.H"
-#include "SortableList.H"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapAddedPolyMesh.hpp"
+#include "dynamicMesh/polyMeshAdder/faceCoupleInfo.hpp"
+#include "OpenFOAM/containers/Lists/SortableList/SortableList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

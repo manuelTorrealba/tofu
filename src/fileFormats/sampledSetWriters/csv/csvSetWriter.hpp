@@ -35,7 +35,7 @@ SourceFiles
 #ifndef csvSetWriter_H
 #define csvSetWriter_H
 
-#include "writer.H"
+#include "fileFormats/sampledSetWriters/writer.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

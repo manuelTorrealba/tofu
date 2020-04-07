@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pairPotential.H"
-#include "energyScalingFunction.H"
+#include "lagrangian/molecularDynamics/potential/pairPotential/basic/pairPotential.hpp"
+#include "lagrangian/molecularDynamics/potential/energyScalingFunction/basic/energyScalingFunction.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

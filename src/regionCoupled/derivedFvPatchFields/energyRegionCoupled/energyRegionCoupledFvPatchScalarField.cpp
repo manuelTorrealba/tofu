@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "addToRunTimeSelectionTable.H"
-#include "energyRegionCoupledFvPatchScalarField.H"
-#include "Time.H"
-#include "turbulentFluidThermoModel.H"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "regionCoupled/derivedFvPatchFields/energyRegionCoupled/energyRegionCoupledFvPatchScalarField.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "TurbulenceModels/compressible/turbulentFluidThermoModels/turbulentFluidThermoModel.hpp"
 
 // * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "porosityModel.H"
-#include "volFields.H"
+#include "finiteVolume/cfdTools/general/porosityModel/porosityModel/porosityModel.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

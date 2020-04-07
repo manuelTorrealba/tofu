@@ -32,9 +32,9 @@ Description
 #ifndef linearNormal_H
 #define linearNormal_H
 
-#include "point.H"
-#include "extrudeModel.H"
-#include "scalarList.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "mesh/extrudeModel/extrudeModel/extrudeModel.hpp"
+#include "OpenFOAM/primitives/Scalar/lists/scalarList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

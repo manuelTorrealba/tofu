@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "motionSmootherAlgo.H"
-#include "meshTools.H"
-#include "processorPointPatchFields.H"
-#include "pointConstraint.H"
-#include "pointConstraints.H"
-#include "syncTools.H"
+#include "dynamicMesh/motionSmoother/motionSmootherAlgo.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
+#include "OpenFOAM/fields/pointPatchFields/constraint/processor/processorPointPatchFields.hpp"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointConstraint/pointConstraint.hpp"
+#include "finiteVolume/interpolation/volPointInterpolation/pointConstraints.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

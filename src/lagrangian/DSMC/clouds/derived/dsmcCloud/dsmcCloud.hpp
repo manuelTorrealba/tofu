@@ -35,8 +35,8 @@ SourceFiles
 #ifndef dsmcCloud_H
 #define dsmcCloud_H
 
-#include "DSMCCloud.H"
-#include "dsmcParcel.H"
+#include "lagrangian/DSMC/clouds/Templates/DSMCCloud/DSMCCloud.hpp"
+#include "lagrangian/DSMC/parcels/derived/dsmcParcel/dsmcParcel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

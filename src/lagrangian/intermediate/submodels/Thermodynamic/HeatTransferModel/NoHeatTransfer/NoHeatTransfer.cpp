@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoHeatTransfer.H"
+#include "lagrangian/intermediate/submodels/Thermodynamic/HeatTransferModel/NoHeatTransfer/NoHeatTransfer.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

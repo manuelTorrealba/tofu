@@ -35,11 +35,11 @@ SourceFiles
 #ifndef TimeScaleModel_H
 #define TimeScaleModel_H
 
-#include "constants.H"
-#include "Field.H"
-#include "FieldField.H"
-#include "dictionary.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM/global/constants/constants.hpp"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
+#include "OpenFOAM/fields/FieldFields/FieldField/FieldField.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

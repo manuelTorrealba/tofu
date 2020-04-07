@@ -35,9 +35,9 @@ SourceFiles
 #ifndef kinematicParcelInjectionData_H
 #define kinematicParcelInjectionData_H
 
-#include "dictionary.H"
-#include "vector.H"
-#include "point.H"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -193,7 +193,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "kinematicParcelInjectionDataI.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/KinematicLookupTableInjection/kinematicParcelInjectionDataI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

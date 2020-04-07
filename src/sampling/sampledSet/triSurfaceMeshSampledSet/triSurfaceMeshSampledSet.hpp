@@ -52,7 +52,7 @@ SourceFiles
 #ifndef triSurfaceMeshSampledSet_H
 #define triSurfaceMeshSampledSet_H
 
-#include "sampledSet.H"
+#include "sampling/sampledSet/sampledSet/sampledSet.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

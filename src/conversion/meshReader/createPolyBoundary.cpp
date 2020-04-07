@@ -33,11 +33,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshReader.H"
-#include "Time.H"
-#include "polyPatch.H"
-#include "emptyPolyPatch.H"
-#include "preservePatchTypes.H"
+#include "conversion/meshReader/meshReader.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.hpp"
+#include "OpenFOAM/meshes/preservePatchTypes/preservePatchTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,11 +35,11 @@ SourceFiles
 #ifndef chemistryReader_H
 #define chemistryReader_H
 
-#include "typeInfo.H"
-#include "specieElement.H"
-#include "Reaction.H"
-#include "ReactionList.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "thermophysicalModels/specie/specieElement/specieElement.hpp"
+#include "thermophysicalModels/specie/reaction/ReactionsN/Reaction/Reaction.hpp"
+#include "thermophysicalModels/specie/reaction/ReactionsN/ReactionList/ReactionList.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

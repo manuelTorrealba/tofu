@@ -35,10 +35,10 @@ SourceFiles
 #ifndef engineMesh_H
 #define engineMesh_H
 
-#include "engineTime.H"
-#include "fvMesh.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
+#include "engine/engineTime/engineTime/engineTime.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

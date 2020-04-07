@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "namedBlock.H"
-#include "addToRunTimeSelectionTable.H"
+#include "mesh/blockMesh/blocks/namedBlock/namedBlock.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

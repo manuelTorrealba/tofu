@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "janafThermo.H"
-#include "specie.H"
+#include "thermophysicalModels/specie/thermo/janaf/janafThermo.hpp"
+#include "thermophysicalModels/specie/specie/specie.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

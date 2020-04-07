@@ -45,8 +45,8 @@ Description
 #ifndef binaryTree_H
 #define binaryTree_H
 
-#include "binaryNode.H"
-#include "chemPointISAT.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/tabulation/ISAT/binaryNode/binaryNode.hpp"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/tabulation/ISAT/chemPointISAT/chemPointISAT.hpp"
 
 namespace Foam
 {

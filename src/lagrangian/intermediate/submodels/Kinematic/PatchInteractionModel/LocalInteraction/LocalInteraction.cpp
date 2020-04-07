@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LocalInteraction.H"
+#include "lagrangian/intermediate/submodels/Kinematic/PatchInteractionModel/LocalInteraction/LocalInteraction.hpp"
 
 // * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * * //
 

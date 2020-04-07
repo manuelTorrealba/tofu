@@ -23,16 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "KinematicCloud.H"
-#include "integrationScheme.H"
-#include "interpolation.H"
-#include "subCycleTime.H"
+#include "lagrangian/intermediate/clouds/Templates/KinematicCloud/KinematicCloud.hpp"
+#include "lagrangian/intermediate/integrationScheme/integrationScheme/integrationScheme.hpp"
+#include "finiteVolume/interpolation/interpolation/interpolation/interpolation.hpp"
+#include "OpenFOAM/db/Time/subCycleTime.hpp"
 
-#include "InjectionModelList.H"
-#include "DispersionModel.H"
-#include "PatchInteractionModel.H"
-#include "StochasticCollisionModel.H"
-#include "SurfaceFilmModel.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/InjectionModel/InjectionModelList.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/DispersionModel/DispersionModel/DispersionModel.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/PatchInteractionModel/PatchInteractionModel/PatchInteractionModel.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/StochasticCollision/StochasticCollisionModel/StochasticCollisionModel.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/SurfaceFilmModel/SurfaceFilmModel/SurfaceFilmModel.hpp"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

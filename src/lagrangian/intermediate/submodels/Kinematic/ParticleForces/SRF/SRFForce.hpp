@@ -35,8 +35,8 @@ SourceFiles
 #ifndef SRFForce_H
 #define SRFForce_H
 
-#include "ParticleForce.H"
-#include "SRFModel.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.hpp"
+#include "finiteVolume/cfdTools/general/SRF/SRFModel/SRFModel/SRFModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

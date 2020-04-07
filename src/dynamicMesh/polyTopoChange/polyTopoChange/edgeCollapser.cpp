@@ -23,16 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "edgeCollapser.H"
-#include "polyMesh.H"
-#include "polyTopoChange.H"
-#include "globalMeshData.H"
-#include "syncTools.H"
-#include "PointEdgeWave.H"
-#include "globalIndex.H"
-#include "removePoints.H"
-#include "motionSmoother.H"
-#include "OFstream.H"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/edgeCollapser.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChange.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
+#include "meshTools/algorithms/PointEdgeWave/PointEdgeWave.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/removePoints.hpp"
+#include "dynamicMesh/motionSmoother/motionSmoother.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

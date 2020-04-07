@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMatrices.H"
-#include "fvcDdt.H"
+#include "finiteVolume/fvMatrices/fvMatrices.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcDdt.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

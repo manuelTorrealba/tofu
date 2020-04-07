@@ -36,7 +36,7 @@ SourceFiles
 #ifndef NonEquilibriumReversibleReaction_H
 #define NonEquilibriumReversibleReaction_H
 
-#include "Reaction.H"
+#include "thermophysicalModels/specie/reaction/ReactionsN/Reaction/Reaction.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

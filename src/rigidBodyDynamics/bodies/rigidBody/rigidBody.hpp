@@ -34,9 +34,9 @@ SourceFiles
 #ifndef RBD_rigidBody_H
 #define RBD_rigidBody_H
 
-#include "rigidBodyInertia.H"
-#include "dictionary.H"
-#include "runTimeSelectionTables.H"
+#include "rigidBodyDynamics/rigidBodyInertia/rigidBodyInertia.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -167,7 +167,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "rigidBodyI.H"
+#include "rigidBodyDynamics/bodies/rigidBody/rigidBodyI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

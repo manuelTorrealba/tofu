@@ -28,12 +28,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshToMesh0.H"
-#include "SubField.H"
+#include "sampling/meshToMesh0/meshToMesh0.hpp"
+#include "OpenFOAM/fields/Fields/Field/SubField.hpp"
 
-#include "indexedOctree.H"
-#include "treeDataCell.H"
-#include "treeDataFace.H"
+#include "OpenFOAM/algorithms/indexedOctree/indexedOctree.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/treeDataCell.hpp"
+#include "meshTools/indexedOctree/treeDataFace.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

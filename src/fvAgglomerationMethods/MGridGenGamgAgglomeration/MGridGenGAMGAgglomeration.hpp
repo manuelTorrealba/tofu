@@ -36,8 +36,8 @@ SourceFiles
 #ifndef MGridGenGAMGAgglomeration_H
 #define MGridGenGAMGAgglomeration_H
 
-#include "fvMesh.H"
-#include "GAMGAgglomeration.H"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/GAMGAgglomeration/GAMGAgglomeration.hpp"
 
 extern "C"
 {

@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableExtrudedCircle.H"
-#include "addToRunTimeSelectionTable.H"
-#include "Time.H"
-#include "edgeMesh.H"
-#include "indexedOctree.H"
-#include "treeDataEdge.H"
-#include "linearInterpolationWeights.H"
-#include "quaternion.H"
+#include "meshTools/searchableSurfaces/searchableExtrudedCircle/searchableExtrudedCircle.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "meshTools/edgeMesh/edgeMesh.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/indexedOctree.hpp"
+#include "meshTools/indexedOctree/treeDataEdge.hpp"
+#include "OpenFOAM/interpolations/interpolationWeights/linearInterpolationWeights/linearInterpolationWeights.hpp"
+#include "OpenFOAM/primitives/quaternion/quaternion.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

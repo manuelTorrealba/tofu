@@ -53,9 +53,9 @@ SourceFiles
 #ifndef lineFace_H
 #define lineFace_H
 
-#include "sampledSet.H"
-#include "DynamicList.H"
-#include "passiveParticleCloud.H"
+#include "sampling/sampledSet/sampledSet/sampledSet.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "lagrangian/basic/passiveParticle/passiveParticleCloud.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

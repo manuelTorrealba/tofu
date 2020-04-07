@@ -27,7 +27,7 @@ Description
     - remove unused points, adjust pointCells and cellFaces accordingly
 \*---------------------------------------------------------------------------*/
 
-#include "meshReader.H"
+#include "conversion/meshReader/meshReader.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

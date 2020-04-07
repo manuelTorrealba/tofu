@@ -68,9 +68,9 @@ SourceFiles
 #ifndef sampledTriSurfaceMesh_H
 #define sampledTriSurfaceMesh_H
 
-#include "sampledSurface.H"
-#include "triSurfaceMesh.H"
-#include "MeshedSurface.H"
+#include "sampling/sampledSurface/sampledSurface/sampledSurface.hpp"
+#include "meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.hpp"
+#include "surfMesh/MeshedSurface/MeshedSurface.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

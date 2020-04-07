@@ -45,7 +45,7 @@ SourceFiles
 #ifndef SIBS_H
 #define SIBS_H
 
-#include "ODESolver.H"
+#include "ODE/ODESolvers/ODESolver/ODESolver.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

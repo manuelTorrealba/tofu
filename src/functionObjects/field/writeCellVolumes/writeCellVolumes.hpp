@@ -54,7 +54,7 @@ SourceFiles
 #ifndef functionObjects_writeCellVolumes_H
 #define functionObjects_writeCellVolumes_H
 
-#include "fvMeshFunctionObject.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,11 +35,11 @@ SourceFiles
 #ifndef fvmLaplacian_H
 #define fvmLaplacian_H
 
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "fvMatrix.H"
-#include "zero.H"
-#include "one.H"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFieldsFwd.hpp"
+#include "finiteVolume/fvMatrices/fvMatrix/fvMatrix.hpp"
+#include "OpenFOAM/primitives/zero/zero.hpp"
+#include "OpenFOAM/primitives/one/one.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

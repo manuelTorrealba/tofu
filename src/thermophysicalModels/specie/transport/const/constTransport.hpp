@@ -179,7 +179,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "constTransportI.H"
+#include "thermophysicalModels/specie/transport/const/constTransportI.hpp"
 
 #ifdef NoRepository
     #include "constTransport.C"

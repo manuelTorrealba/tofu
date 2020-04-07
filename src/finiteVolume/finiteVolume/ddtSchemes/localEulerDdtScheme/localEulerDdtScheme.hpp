@@ -46,7 +46,7 @@ SourceFiles
 #ifndef localEulerDdtScheme_H
 #define localEulerDdtScheme_H
 
-#include "ddtScheme.H"
+#include "finiteVolume/finiteVolume/ddtSchemes/ddtScheme/ddtScheme.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

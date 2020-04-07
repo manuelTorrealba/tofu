@@ -26,7 +26,7 @@ License
 #ifndef patchToPatchInterpolation_H
 #define patchToPatchInterpolation_H
 
-#include "PatchToPatchInterpolation.H"
+#include "OpenFOAM/interpolations/patchToPatchInterpolation/PatchToPatchInterpolationN.hpp"
 #include "OpenFOAM/meshes/primitiveMesh/PrimitivePatchN/PrimitivePatch.hpp"
 #include "OpenFOAM/meshes/meshShapes/face/face.hpp"
 #include "OpenFOAM/containers/Lists/SubList/SubList.hpp"

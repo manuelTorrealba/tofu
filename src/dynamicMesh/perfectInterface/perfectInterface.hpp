@@ -36,10 +36,10 @@ SourceFiles
 #ifndef perfectInterface_H
 #define perfectInterface_H
 
-#include "polyMeshModifier.H"
-#include "polyPatchID.H"
-#include "ZoneIDs.H"
-#include "indirectPrimitivePatch.H"
+#include "dynamicMesh/polyTopoChange/polyMeshModifier/polyMeshModifier.hpp"
+#include "OpenFOAM/meshes/Identifiers/patch/polyPatchID.hpp"
+#include "OpenFOAM/meshes/Identifiers/zones/ZoneIDs.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

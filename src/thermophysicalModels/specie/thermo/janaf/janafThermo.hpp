@@ -37,8 +37,8 @@ SourceFiles
 #ifndef janafThermo_H
 #define janafThermo_H
 
-#include "scalar.H"
-#include "FixedList.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -244,7 +244,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "janafThermoI.H"
+#include "thermophysicalModels/specie/thermo/janaf/janafThermoI.hpp"
 
 #ifdef NoRepository
     #include "janafThermo.C"

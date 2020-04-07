@@ -35,8 +35,8 @@ SourceFiles
 #ifndef LangmuirHinshelwoodReactionRate_H
 #define LangmuirHinshelwoodReactionRate_H
 
-#include "scalarField.H"
-#include "typeInfo.H"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -153,7 +153,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "LangmuirHinshelwoodReactionRateI.H"
+#include "thermophysicalModels/specie/reaction/reactionRate/LangmuirHinshelwood/LangmuirHinshelwoodReactionRateI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

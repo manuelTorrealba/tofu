@@ -44,9 +44,9 @@ SourceFiles
 #ifndef seulex_H
 #define seulex_H
 
-#include "ODESolver.H"
-#include "scalarMatrices.H"
-#include "labelField.H"
+#include "ODE/ODESolvers/ODESolver/ODESolver.hpp"
+#include "OpenFOAM/matrices/scalarMatrices/scalarMatrices.hpp"
+#include "OpenFOAM/fields/Fields/labelField/labelField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

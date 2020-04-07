@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeChemistryTabulationMethods.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/tabulation/makeChemistryTabulationMethods.hpp"
 
-#include "thermoPhysicsTypes.H"
+#include "thermophysicalModels/specie/include/thermoPhysicsTypes.hpp"
 
-#include "psiReactionThermo.H"
-#include "rhoReactionThermo.H"
+#include "thermophysicalModels/reactionThermo/psiReactionThermo/psiReactionThermo.hpp"
+#include "thermophysicalModels/reactionThermo/rhoReactionThermo/rhoReactionThermo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

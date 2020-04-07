@@ -36,9 +36,9 @@ SourceFiles
 #ifndef coupledFvPatch_H
 #define coupledFvPatch_H
 
-#include "fvPatch.H"
-#include "lduInterface.H"
-#include "coupledPolyPatch.H"
+#include "finiteVolume/fvMesh/fvPatches/fvPatch/fvPatch.hpp"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/lduInterface.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

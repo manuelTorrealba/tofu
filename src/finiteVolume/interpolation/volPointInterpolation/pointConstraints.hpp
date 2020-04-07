@@ -43,10 +43,10 @@ SourceFiles
 #ifndef pointConstraints_H
 #define pointConstraints_H
 
-#include "MeshObject.H"
-#include "tensorField.H"
-#include "pointFieldsFwd.H"
-#include "pointConstraint.H"
+#include "OpenFOAM/meshes/MeshObject/MeshObject.hpp"
+#include "OpenFOAM/fields/Fields/tensorField/tensorField.hpp"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFieldsFwd.hpp"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointConstraint/pointConstraint.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noRadiation.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalModels/radiation/radiationModels/noRadiation/noRadiation.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

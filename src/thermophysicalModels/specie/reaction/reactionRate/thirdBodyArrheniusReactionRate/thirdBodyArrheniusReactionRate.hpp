@@ -35,8 +35,8 @@ SourceFiles
 #ifndef thirdBodyArrheniusReactionRate_H
 #define thirdBodyArrheniusReactionRate_H
 
-#include "ArrheniusReactionRate.H"
-#include "thirdBodyEfficiencies.H"
+#include "thermophysicalModels/specie/reaction/reactionRate/ArrheniusReactionRate/ArrheniusReactionRate.hpp"
+#include "thermophysicalModels/specie/reaction/reactionRate/thirdBodyEfficiencies/thirdBodyEfficiencies.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -152,7 +152,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "thirdBodyArrheniusReactionRateI.H"
+#include "thermophysicalModels/specie/reaction/reactionRate/thirdBodyArrheniusReactionRate/thirdBodyArrheniusReactionRateI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

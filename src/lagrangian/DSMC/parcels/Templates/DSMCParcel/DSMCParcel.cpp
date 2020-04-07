@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DSMCParcel.H"
-#include "meshTools.H"
+#include "lagrangian/DSMC/parcels/Templates/DSMCParcel/DSMCParcel.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

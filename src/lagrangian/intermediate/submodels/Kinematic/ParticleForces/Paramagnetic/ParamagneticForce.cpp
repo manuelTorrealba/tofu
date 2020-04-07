@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ParamagneticForce.H"
-#include "demandDrivenData.H"
-#include "electromagneticConstants.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/Paramagnetic/ParamagneticForce.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
+#include "OpenFOAM/global/constants/electromagnetic/electromagneticConstants.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

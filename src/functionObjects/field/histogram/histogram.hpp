@@ -67,9 +67,9 @@ SourceFiles
 #ifndef functionObjects_histogram_H
 #define functionObjects_histogram_H
 
-#include "fvMeshFunctionObject.H"
-#include "writeFile.H"
-#include "writer.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
+#include "OpenFOAM/db/functionObjects/writeFile/writeFile.hpp"
+#include "fileFormats/sampledSetWriters/writer.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

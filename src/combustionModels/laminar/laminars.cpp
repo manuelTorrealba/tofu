@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeCombustionTypes.H"
+#include "combustionModels/combustionModel/makeCombustionTypes.hpp"
 
-#include "psiReactionThermo.H"
-#include "rhoReactionThermo.H"
-#include "laminar.H"
+#include "thermophysicalModels/reactionThermo/psiReactionThermo/psiReactionThermo.hpp"
+#include "thermophysicalModels/reactionThermo/rhoReactionThermo/rhoReactionThermo.hpp"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/filmTurbulenceModel/laminar/laminar.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CentredFitSnGradData.H"
-#include "surfaceFields.H"
-#include "SVD.H"
-#include "extendedCentredCellToFaceStencil.H"
+#include "finiteVolume/finiteVolume/snGradSchemes/CentredFitSnGrad/CentredFitSnGradData.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
+#include "OpenFOAM/matrices/scalarMatrices/SVD/SVD.hpp"
+#include "finiteVolume/fvMesh/extendedStencil/cellToFace/extendedCentredCellToFaceStencil.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * //
 

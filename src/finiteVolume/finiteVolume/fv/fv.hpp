@@ -32,7 +32,7 @@ Description
 #ifndef fv_H
 #define fv_H
 
-#include "className.H"
+#include "OpenFOAM/db/typeInfo/className.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

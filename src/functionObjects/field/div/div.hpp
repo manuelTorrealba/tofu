@@ -40,7 +40,7 @@ SourceFiles
 #ifndef functionObjects_div_H
 #define functionObjects_div_H
 
-#include "fieldExpression.H"
+#include "functionObjects/field/fieldExpression/fieldExpression.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

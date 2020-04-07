@@ -34,9 +34,9 @@ SourceFiles
 #ifndef decompositionModel_H
 #define decompositionModel_H
 
-#include "IOdictionary.H"
-#include "MeshObject.H"
-#include "decompositionMethod.H"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "OpenFOAM/meshes/MeshObject/MeshObject.hpp"
+#include "parallel/decompose/decompositionMethods/decompositionMethod/decompositionMethod.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

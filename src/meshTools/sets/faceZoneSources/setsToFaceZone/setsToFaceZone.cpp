@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "setsToFaceZone.H"
-#include "polyMesh.H"
-#include "faceZoneSet.H"
-#include "cellSet.H"
+#include "meshTools/sets/faceZoneSources/setsToFaceZone/setsToFaceZone.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "meshTools/sets/topoSets/faceZoneSet.hpp"
+#include "meshTools/sets/topoSets/cellSet.hpp"
 
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

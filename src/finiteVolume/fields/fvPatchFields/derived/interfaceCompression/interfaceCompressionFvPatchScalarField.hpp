@@ -44,7 +44,7 @@ SourceFiles
 #ifndef interfaceCompressionFvPatchScalarField_H
 #define interfaceCompressionFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

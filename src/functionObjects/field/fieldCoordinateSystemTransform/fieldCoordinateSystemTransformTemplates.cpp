@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fieldCoordinateSystemTransform.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "transformGeometricField.H"
+#include "functionObjects/field/fieldCoordinateSystemTransform/fieldCoordinateSystemTransform.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
+#include "OpenFOAM/fields/GeometricFields/transformGeometricField/transformGeometricField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

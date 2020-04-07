@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "closedTriSurfaceMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshTools/searchableSurfaces/closedTriSurfaceMesh/closedTriSurfaceMesh.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

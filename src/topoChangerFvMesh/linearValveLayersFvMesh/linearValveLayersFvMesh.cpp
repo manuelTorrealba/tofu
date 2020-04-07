@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearValveLayersFvMesh.H"
-#include "Time.H"
-#include "slidingInterface.H"
-#include "layerAdditionRemoval.H"
-#include "pointField.H"
-#include "mapPolyMesh.H"
-#include "polyTopoChange.H"
-#include "addToRunTimeSelectionTable.H"
+#include "topoChangerFvMesh/linearValveLayersFvMesh/linearValveLayersFvMesh.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "dynamicMesh/slidingInterface/slidingInterface.hpp"
+#include "dynamicMesh/layerAdditionRemoval/layerAdditionRemoval.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChange.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

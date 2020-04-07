@@ -32,8 +32,8 @@ SourceFiles
 #ifndef writers_H
 #define writers_H
 
-#include "writer.H"
-#include "fieldTypes.H"
+#include "fileFormats/sampledSetWriters/writer.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

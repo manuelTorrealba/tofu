@@ -36,8 +36,8 @@ SourceFiles
 #ifndef correlationFunction_H
 #define correlationFunction_H
 
-#include "bufferedAccumulator.H"
-#include "dictionary.H"
+#include "lagrangian/molecularDynamics/molecularMeasurements/bufferedAccumulator/bufferedAccumulator.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -166,7 +166,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "correlationFunctionI.H"
+#include "lagrangian/molecularDynamics/molecularMeasurements/correlationFunction/correlationFunctionI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

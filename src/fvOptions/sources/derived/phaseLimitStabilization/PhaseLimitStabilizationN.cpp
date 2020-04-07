@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PhaseLimitStabilization.H"
-#include "fvMatrices.H"
-#include "fvmSup.H"
-#include "uniformDimensionedFields.H"
+#include "fvOptions/sources/derived/phaseLimitStabilization/PhaseLimitStabilization.hpp"
+#include "finiteVolume/fvMatrices/fvMatrices.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvmSup.hpp"
+#include "OpenFOAM/fields/UniformDimensionedFields/uniformDimensionedFields.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

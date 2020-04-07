@@ -37,7 +37,7 @@ SourceFiles
 #ifndef RBD_cuboid_H
 #define RBD_cuboid_H
 
-#include "rigidBody.H"
+#include "rigidBodyDynamics/bodies/rigidBody/rigidBody.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -115,7 +115,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cuboidI.H"
+#include "rigidBodyDynamics/bodies/cuboid/cuboidI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

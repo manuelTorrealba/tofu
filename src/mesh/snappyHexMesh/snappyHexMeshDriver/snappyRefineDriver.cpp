@@ -23,20 +23,20 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "snappyRefineDriver.H"
-#include "meshRefinement.H"
-#include "fvMesh.H"
-#include "Time.H"
-#include "cellSet.H"
-#include "syncTools.H"
-#include "refinementParameters.H"
-#include "refinementSurfaces.H"
-#include "refinementFeatures.H"
-#include "shellSurfaces.H"
-#include "mapDistributePolyMesh.H"
-#include "unitConversion.H"
-#include "snapParameters.H"
-#include "localPointRegion.H"
+#include "mesh/snappyHexMesh/snappyHexMeshDriver/snappyRefineDriver.hpp"
+#include "mesh/snappyHexMesh/meshRefinement/meshRefinement.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "meshTools/sets/topoSets/cellSet.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
+#include "mesh/snappyHexMesh/snappyHexMeshDriver/refinementParameters/refinementParameters.hpp"
+#include "mesh/snappyHexMesh/refinementSurfaces/refinementSurfaces.hpp"
+#include "mesh/snappyHexMesh/refinementFeatures/refinementFeatures.hpp"
+#include "mesh/snappyHexMesh/shellSurfaces/shellSurfaces.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributePolyMesh.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
+#include "mesh/snappyHexMesh/snappyHexMeshDriver/snapParameters/snapParameters.hpp"
+#include "meshTools/regionSplit/localPointRegion.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

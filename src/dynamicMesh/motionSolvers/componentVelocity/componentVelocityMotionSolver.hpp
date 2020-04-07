@@ -38,8 +38,8 @@ SourceFiles
 #ifndef componentVelocityMotionSolver_H
 #define componentVelocityMotionSolver_H
 
-#include "motionSolver.H"
-#include "pointFields.H"
+#include "dynamicMesh/motionSolvers/motionSolver/motionSolver.hpp"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

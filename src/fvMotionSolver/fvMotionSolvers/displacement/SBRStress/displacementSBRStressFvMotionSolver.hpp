@@ -36,8 +36,8 @@ SourceFiles
 #ifndef displacementSBRStressFvMotionSolver_H
 #define displacementSBRStressFvMotionSolver_H
 
-#include "displacementMotionSolver.H"
-#include "fvMotionSolver.H"
+#include "dynamicMesh/motionSolvers/displacement/displacement/displacementMotionSolver.hpp"
+#include "fvMotionSolver/fvMotionSolvers/fvMotionSolver/fvMotionSolver.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

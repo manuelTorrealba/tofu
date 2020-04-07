@@ -65,8 +65,8 @@ SourceFiles
 #ifndef SemiImplicitSource_H
 #define SemiImplicitSource_H
 
-#include "Tuple2.H"
-#include "cellSetOption.H"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
+#include "fvOptions/cellSetOption/cellSetOption.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -218,7 +218,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SemiImplicitSourceI.H"
+#include "fvOptions/sources/general/semiImplicitSource/SemiImplicitSourceI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

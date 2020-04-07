@@ -40,8 +40,8 @@ SourceFiles
 #ifndef cellLimitedGrad_H
 #define cellLimitedGrad_H
 
-#include "gradScheme.H"
-#include "Field.H"
+#include "finiteVolume/finiteVolume/gradSchemes/gradScheme/gradScheme.hpp"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -65,8 +65,8 @@ SourceFiles
 #ifndef RNGkEpsilon_H
 #define RNGkEpsilon_H
 
-#include "RASModel.H"
-#include "eddyViscosity.H"
+#include "TurbulenceModels/turbulenceModels/RAS/RASModel/RASModel.hpp"
+#include "TurbulenceModels/turbulenceModels/eddyViscosity/eddyViscosity.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

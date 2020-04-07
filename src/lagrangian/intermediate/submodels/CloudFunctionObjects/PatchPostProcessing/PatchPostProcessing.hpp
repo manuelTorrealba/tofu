@@ -35,7 +35,7 @@ SourceFiles
 #ifndef PatchPostProcessing_H
 #define PatchPostProcessing_H
 
-#include "CloudFunctionObject.H"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -144,7 +144,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PatchPostProcessingI.H"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/PatchPostProcessing/PatchPostProcessingI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

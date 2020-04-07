@@ -39,8 +39,8 @@ SourceFiles
 #ifndef sampledPlane_H
 #define sampledPlane_H
 
-#include "sampledSurface.H"
-#include "cuttingPlane.H"
+#include "sampling/sampledSurface/sampledSurface/sampledSurface.hpp"
+#include "sampling/cuttingPlane/cuttingPlane.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

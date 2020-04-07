@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearRadial.H"
-#include "addToRunTimeSelectionTable.H"
+#include "mesh/extrudeModel/linearRadial/linearRadial.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 namespace Foam
 {

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IDDESDelta.H"
-#include "addToRunTimeSelectionTable.H"
-#include "wallDist.H"
+#include "TurbulenceModels/turbulenceModels/LES/LESdeltas/IDDESDelta/IDDESDelta.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "finiteVolume/fvMesh/wallDist/wallDist/wallDist.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

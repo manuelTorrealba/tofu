@@ -35,8 +35,8 @@ SourceFiles
 #ifndef mixerFvMesh_H
 #define mixerFvMesh_H
 
-#include "topoChangerFvMesh.H"
-#include "cylindricalCS.H"
+#include "topoChangerFvMesh/topoChangerFvMesh/topoChangerFvMesh.hpp"
+#include "meshTools/coordinateSystems/cylindricalCS.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

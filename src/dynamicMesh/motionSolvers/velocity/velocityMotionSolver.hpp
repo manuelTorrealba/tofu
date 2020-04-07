@@ -38,8 +38,8 @@ SourceFiles
 #ifndef velocityMotionSolver_H
 #define velocityMotionSolver_H
 
-#include "motionSolver.H"
-#include "pointFields.H"
+#include "dynamicMesh/motionSolvers/motionSolver/motionSolver.hpp"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

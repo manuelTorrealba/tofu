@@ -33,9 +33,9 @@ Description
 #ifndef polyModifyFace_H
 #define polyModifyFace_H
 
-#include "label.H"
-#include "face.H"
-#include "topoAction.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/face.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/topoAction/topoAction.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

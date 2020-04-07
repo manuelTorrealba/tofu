@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volFields.H"
-#include "geometricOneField.H"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/fields/GeometricFields/geometricOneField/geometricOneField.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

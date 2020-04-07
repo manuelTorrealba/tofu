@@ -56,8 +56,8 @@ SourceFiles
 #ifndef dynamicKEqn_H
 #define dynamicKEqn_H
 
-#include "LESeddyViscosity.H"
-#include "simpleFilter.H"
+#include "TurbulenceModels/turbulenceModels/LES/LESeddyViscosity/LESeddyViscosity.hpp"
+#include "TurbulenceModels/turbulenceModels/LES/LESfilters/simpleFilter/simpleFilter.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

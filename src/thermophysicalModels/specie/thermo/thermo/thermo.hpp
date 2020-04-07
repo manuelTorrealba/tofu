@@ -38,7 +38,7 @@ SourceFiles
 #ifndef thermo_H
 #define thermo_H
 
-#include "thermodynamicConstants.H"
+#include "OpenFOAM/global/constants/thermodynamic/thermodynamicConstants.hpp"
 using namespace Foam::constant::thermodynamic;
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -377,7 +377,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "thermoI.H"
+#include "thermophysicalModels/specie/thermo/thermo/thermoI.hpp"
 
 #ifdef NoRepository
     #include "thermo.C"

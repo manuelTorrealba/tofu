@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointToPointPlanarInterpolation.H"
-#include "boundBox.H"
-#include "Random.H"
-#include "vector2D.H"
-#include "triSurface.H"
-#include "triSurfaceTools.H"
-#include "OBJstream.H"
-#include "Time.H"
-#include "matchPoints.H"
+#include "meshTools/triSurface/triSurfaceTools/pointToPointPlanarInterpolation.hpp"
+#include "OpenFOAM/meshes/boundBox/boundBox.hpp"
+#include "OpenFOAM/primitives/Random/Random.hpp"
+#include "OpenFOAM/primitives/Vector2D/vector2D/vector2D.hpp"
+#include "triSurface/triSurface/triSurface.hpp"
+#include "meshTools/triSurface/triSurfaceTools/triSurfaceTools.hpp"
+#include "surfMesh/surfaceFormats/obj/OBJstream.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/meshes/meshTools/matchPoints.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

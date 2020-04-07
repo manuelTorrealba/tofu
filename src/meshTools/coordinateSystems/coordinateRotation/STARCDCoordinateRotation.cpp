@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "STARCDCoordinateRotation.H"
+#include "meshTools/coordinateSystems/coordinateRotation/STARCDCoordinateRotation.hpp"
 
-#include "mathematicalConstants.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

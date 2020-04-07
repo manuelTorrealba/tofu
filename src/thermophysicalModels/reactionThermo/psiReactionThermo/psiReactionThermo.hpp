@@ -35,10 +35,10 @@ SourceFiles
 #ifndef psiReactionThermo_H
 #define psiReactionThermo_H
 
-#include "psiThermo.H"
-#include "basicSpecieMixture.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
+#include "thermophysicalModels/basic/psiThermo/psiThermo.hpp"
+#include "thermophysicalModels/reactionThermo/mixtures/basicSpecieMixture/basicSpecieMixture.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

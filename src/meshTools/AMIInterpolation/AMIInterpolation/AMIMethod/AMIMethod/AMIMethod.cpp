@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "AMIMethod.H"
-#include "meshTools.H"
-#include "mapDistribute.H"
-#include "unitConversion.H"
+#include "meshTools/AMIInterpolation/AMIInterpolation/AMIMethod/AMIMethod/AMIMethod.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

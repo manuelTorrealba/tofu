@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ThermoParcel.H"
-#include "physicoChemicalConstants.H"
+#include "lagrangian/intermediate/parcels/Templates/ThermoParcel/ThermoParcel.hpp"
+#include "OpenFOAM/global/constants/physicoChemical/physicoChemicalConstants.hpp"
 
 using namespace Foam::constant;
 

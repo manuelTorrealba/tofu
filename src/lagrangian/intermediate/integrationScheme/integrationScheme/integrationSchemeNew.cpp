@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "integrationScheme.H"
+#include "OpenFOAM/db/error/error.hpp"
+#include "lagrangian/intermediate/integrationScheme/integrationScheme/integrationScheme.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pairPatchAgglomeration.H"
-#include "meshTools.H"
-#include "unitConversion.H"
+#include "fvAgglomerationMethods/pairPatchAgglomeration/pairPatchAgglomeration.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

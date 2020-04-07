@@ -26,7 +26,7 @@ License
 #include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedFieldReuseFunctions.hpp"
 
 #define TEMPLATE template<class Type, class GeoMesh>
-#include "DimensionedFieldFunctionsM.C"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedFieldFunctionsM.cpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

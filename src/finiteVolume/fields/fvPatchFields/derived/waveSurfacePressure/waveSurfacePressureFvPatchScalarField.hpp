@@ -75,8 +75,8 @@ SourceFiles
 #ifndef waveSurfacePressureFvPatchScalarField_H
 #define waveSurfacePressureFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "NamedEnum.H"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.hpp"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,8 +26,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMesh.H"
-#include "linear.H"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "thermophysicalModels/specie/equationOfState/linear/linear.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

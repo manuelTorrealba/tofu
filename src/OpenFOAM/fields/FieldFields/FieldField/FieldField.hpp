@@ -40,6 +40,7 @@ SourceFiles
 #include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
 #include "OpenFOAM/primitives/direction/direction.hpp"
 #include "OpenFOAM/primitives/VectorSpace/VectorSpace.hpp"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

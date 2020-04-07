@@ -35,8 +35,8 @@ SourceFiles
 #ifndef regionCoupledWallGAMGInterfaceField_H
 #define regionCoupledWallGAMGInterfaceField_H
 
-#include "GAMGInterfaceField.H"
-#include "regionCoupledWallGAMGInterface.H"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaceFields/GAMGInterfaceField/GAMGInterfaceField.hpp"
+#include "meshTools/regionCoupled/GAMG/interfaces/regionCoupledGAMGInterface/regionCoupledWallGAMGInterface.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

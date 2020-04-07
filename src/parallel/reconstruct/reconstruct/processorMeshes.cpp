@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorMeshes.H"
-#include "Time.H"
-#include "primitiveMesh.H"
+#include "parallel/reconstruct/reconstruct/processorMeshes.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

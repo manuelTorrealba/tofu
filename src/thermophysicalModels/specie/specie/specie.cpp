@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "specie.H"
-#include "constants.H"
+#include "thermophysicalModels/specie/specie/specie.hpp"
+#include "OpenFOAM/global/constants/constants.hpp"
 
 /* * * * * * * * * * * * * * * public constants  * * * * * * * * * * * * * * */
 

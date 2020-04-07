@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "extendedCentredFaceToCellStencil.H"
-#include "mapDistribute.H"
-#include "faceToCellStencil.H"
+#include "finiteVolume/fvMesh/extendedStencil/faceToCell/extendedCentredFaceToCellStencil.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.hpp"
+#include "finiteVolume/fvMesh/extendedStencil/faceToCell/globalIndexStencils/faceToCellStencil.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

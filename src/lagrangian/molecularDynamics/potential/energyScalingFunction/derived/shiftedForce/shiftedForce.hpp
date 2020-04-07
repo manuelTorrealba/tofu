@@ -35,7 +35,7 @@ SourceFiles
 #ifndef shiftedForce_H
 #define shiftedForce_H
 
-#include "energyScalingFunction.H"
+#include "lagrangian/molecularDynamics/potential/energyScalingFunction/basic/energyScalingFunction.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

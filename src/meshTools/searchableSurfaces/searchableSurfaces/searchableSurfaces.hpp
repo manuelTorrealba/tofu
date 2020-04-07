@@ -35,9 +35,9 @@ SourceFiles
 #ifndef searchableSurfaces_H
 #define searchableSurfaces_H
 
-#include "searchableSurface.H"
-#include "labelPair.H"
-#include "writer.H"
+#include "meshTools/searchableSurfaces/searchableSurface/searchableSurface.hpp"
+#include "OpenFOAM/primitives/Pair/labelPair.hpp"
+#include "fileFormats/sampledSetWriters/writer.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

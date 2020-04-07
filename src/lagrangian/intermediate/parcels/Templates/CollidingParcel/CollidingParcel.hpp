@@ -37,10 +37,10 @@ SourceFiles
 #ifndef CollidingParcel_H
 #define CollidingParcel_H
 
-#include "particle.H"
-#include "CollisionRecordList.H"
-#include "labelFieldIOField.H"
-#include "vectorFieldIOField.H"
+#include "lagrangian/basic/particle/particle.hpp"
+#include "lagrangian/intermediate/parcels/Templates/CollidingParcel/CollisionRecordList/CollisionRecordList.hpp"
+#include "OpenFOAM/fields/Fields/labelField/labelFieldIOField.hpp"
+#include "OpenFOAM/fields/Fields/vectorField/vectorFieldIOField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -334,7 +334,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "CollidingParcelI.H"
+#include "lagrangian/intermediate/parcels/Templates/CollidingParcel/CollidingParcelI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

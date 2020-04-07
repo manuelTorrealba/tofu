@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeFvOption.H"
-#include "PhaseLimitStabilization.H"
+#include "finiteVolume/cfdTools/general/fvOptions/makeFvOption.hpp"
+#include "fvOptions/sources/derived/phaseLimitStabilization/PhaseLimitStabilization.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

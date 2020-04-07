@@ -35,8 +35,8 @@ SourceFiles
 #ifndef fvmD2dt2_H
 #define fvmD2dt2_H
 
-#include "volFieldsFwd.H"
-#include "fvMatrix.H"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "finiteVolume/fvMatrices/fvMatrix/fvMatrix.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

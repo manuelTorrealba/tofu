@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fv.H"
-#include "objectRegistry.H"
-#include "solution.H"
+#include "finiteVolume/finiteVolume/fv/fv.hpp"
+#include "OpenFOAM/db/objectRegistry/objectRegistry.hpp"
+#include "OpenFOAM/matrices/solution/solution.hpp"
 
 // * * * * * * * * * * * * * * * * * Selectors * * * * * * * * * * * * * * * //
 

@@ -40,8 +40,8 @@ SourceFiles
 #ifndef sampledPatchInternalField_H
 #define sampledPatchInternalField_H
 
-#include "sampledPatch.H"
-#include "mappedPatchBase.H"
+#include "sampling/sampledSurface/sampledPatch/sampledPatch.hpp"
+#include "meshTools/mappedPatches/mappedPolyPatch/mappedPatchBase.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

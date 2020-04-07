@@ -35,7 +35,7 @@ SourceFiles
 #ifndef twoPhaseMixture_H
 #define twoPhaseMixture_H
 
-#include "volFields.H"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

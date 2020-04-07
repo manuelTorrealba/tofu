@@ -33,7 +33,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshReader.H"
+#include "conversion/meshReader/meshReader.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

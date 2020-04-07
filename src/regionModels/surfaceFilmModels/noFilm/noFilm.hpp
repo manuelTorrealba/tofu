@@ -36,7 +36,7 @@ SourceFiles
 #ifndef noFilm_H
 #define noFilm_H
 
-#include "surfaceFilmModel.H"
+#include "regionModels/surfaceFilmModels/surfaceFilmModel/surfaceFilmModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

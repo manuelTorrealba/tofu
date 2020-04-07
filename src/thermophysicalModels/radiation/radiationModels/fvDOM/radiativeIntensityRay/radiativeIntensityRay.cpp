@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "radiativeIntensityRay.H"
-#include "fvm.H"
-#include "fvDOM.H"
-#include "constants.H"
+#include "thermophysicalModels/radiation/radiationModels/fvDOM/radiativeIntensityRay/radiativeIntensityRay.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvm.hpp"
+#include "thermophysicalModels/radiation/radiationModels/fvDOM/fvDOM/fvDOM.hpp"
+#include "OpenFOAM/global/constants/constants.hpp"
 
 using namespace Foam::constant;
 

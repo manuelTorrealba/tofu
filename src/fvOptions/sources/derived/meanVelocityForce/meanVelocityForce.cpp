@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meanVelocityForce.H"
-#include "fvMatrices.H"
-#include "DimensionedField.H"
-#include "IFstream.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvOptions/sources/derived/meanVelocityForce/meanVelocityForce.hpp"
+#include "finiteVolume/fvMatrices/fvMatrices.hpp"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

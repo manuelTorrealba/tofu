@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rigidBody.H"
-#include "subBody.H"
-#include "addToRunTimeSelectionTable.H"
+#include "rigidBodyDynamics/bodies/rigidBody/rigidBody.hpp"
+#include "rigidBodyDynamics/bodies/subBody/subBody.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

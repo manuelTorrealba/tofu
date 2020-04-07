@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallHeatTransferCoeff.H"
-#include "turbulentTransportModel.H"
-#include "wallPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/field/wallHeatTransferCoeff/wallHeatTransferCoeff.hpp"
+#include "TurbulenceModels/incompressible/turbulentTransportModels/turbulentTransportModel.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReitzKHRT.H"
+#include "lagrangian/spray/submodels/BreakupModel/ReitzKHRT/ReitzKHRT.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

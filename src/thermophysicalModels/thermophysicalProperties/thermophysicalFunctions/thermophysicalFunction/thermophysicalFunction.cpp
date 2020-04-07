@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermophysicalFunction.H"
-#include "HashTable.H"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/thermophysicalFunction/thermophysicalFunction.hpp"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

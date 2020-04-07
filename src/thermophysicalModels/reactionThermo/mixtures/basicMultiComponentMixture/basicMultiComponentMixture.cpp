@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicMultiComponentMixture.H"
+#include "thermophysicalModels/reactionThermo/mixtures/basicMultiComponentMixture/basicMultiComponentMixture.hpp"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

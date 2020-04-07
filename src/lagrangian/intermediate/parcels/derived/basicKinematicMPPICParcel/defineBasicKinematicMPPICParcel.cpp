@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicKinematicMPPICParcel.H"
-#include "Cloud.H"
+#include "lagrangian/intermediate/parcels/derived/basicKinematicMPPICParcel/basicKinematicMPPICParcel.hpp"
+#include "lagrangian/basic/Cloud/Cloud.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

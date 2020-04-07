@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IsotropyModel.H"
+#include "lagrangian/intermediate/submodels/MPPIC/IsotropyModels/IsotropyModel/IsotropyModel.hpp"
 
-#include "TimeScaleModel.H"
+#include "lagrangian/intermediate/submodels/MPPIC/TimeScaleModels/TimeScaleModel/TimeScaleModel.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

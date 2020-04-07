@@ -41,7 +41,7 @@ SourceFiles
 #ifndef functionObjects_scale_H
 #define functionObjects_scale_H
 
-#include "fieldExpression.H"
+#include "functionObjects/field/fieldExpression/fieldExpression.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

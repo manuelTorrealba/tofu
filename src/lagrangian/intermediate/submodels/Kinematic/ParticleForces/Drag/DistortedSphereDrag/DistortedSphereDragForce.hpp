@@ -40,7 +40,7 @@ Description
 #ifndef DistortedSphereDragForce_H
 #define DistortedSphereDragForce_H
 
-#include "ParticleForce.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

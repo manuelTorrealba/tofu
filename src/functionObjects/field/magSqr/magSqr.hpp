@@ -41,7 +41,7 @@ SourceFiles
 #ifndef functionObjects_magSqr_H
 #define functionObjects_magSqr_H
 
-#include "fieldExpression.H"
+#include "functionObjects/field/fieldExpression/fieldExpression.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

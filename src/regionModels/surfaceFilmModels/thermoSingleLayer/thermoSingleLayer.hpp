@@ -41,8 +41,8 @@ SourceFiles
 #ifndef thermoSingleLayer_H
 #define thermoSingleLayer_H
 
-#include "kinematicSingleLayer.H"
-#include "SLGThermo.H"
+#include "regionModels/surfaceFilmModels/kinematicSingleLayer/kinematicSingleLayer.hpp"
+#include "thermophysicalModels/SLGThermo/SLGThermo/SLGThermo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -406,7 +406,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "thermoSingleLayerI.H"
+#include "regionModels/surfaceFilmModels/thermoSingleLayer/thermoSingleLayerI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

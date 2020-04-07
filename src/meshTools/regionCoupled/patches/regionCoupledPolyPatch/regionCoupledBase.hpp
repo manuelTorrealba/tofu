@@ -37,8 +37,8 @@ SourceFiles
 #ifndef regionCoupledBase_H
 #define regionCoupledBase_H
 
-#include "AMIPatchToPatchInterpolation.H"
-#include "polyBoundaryMesh.H"
+#include "meshTools/AMIInterpolation/AMIInterpolation/AMIPatchToPatchInterpolation.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

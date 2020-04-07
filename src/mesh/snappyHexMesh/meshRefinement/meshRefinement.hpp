@@ -43,14 +43,14 @@ SourceFiles
 #ifndef meshRefinement_H
 #define meshRefinement_H
 
-#include "hexRef8.H"
-#include "mapPolyMesh.H"
-#include "autoPtr.H"
-#include "labelPair.H"
-#include "indirectPrimitivePatch.H"
-#include "pointFieldsFwd.H"
-#include "Tuple2.H"
-#include "pointIndexHit.H"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/hexRef8/hexRef8.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/primitives/Pair/labelPair.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.hpp"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFieldsFwd.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/pointIndexHit.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

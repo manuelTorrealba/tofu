@@ -45,10 +45,10 @@ SourceFiles
 #ifndef ConeInjection_H
 #define ConeInjection_H
 
-#include "InjectionModel.H"
-#include "distributionModel.H"
-#include "vectorList.H"
-#include "TimeFunction1.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/InjectionModel/InjectionModel.hpp"
+#include "lagrangian/distributionModels/distributionModel/distributionModel.hpp"
+#include "OpenFOAM/primitives/Vector/lists/vectorList.hpp"
+#include "OpenFOAM/primitives/functions/TimeFunction1/TimeFunction1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

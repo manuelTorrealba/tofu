@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kOmegaSSTDES.H"
+#include "TurbulenceModels/turbulenceModels/LES/kOmegaSSTDES/kOmegaSSTDES.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

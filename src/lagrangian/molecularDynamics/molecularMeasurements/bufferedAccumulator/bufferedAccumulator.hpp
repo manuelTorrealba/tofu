@@ -36,7 +36,7 @@ SourceFiles
 #ifndef bufferedAccumulator_H
 #define bufferedAccumulator_H
 
-#include "Field.H"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -161,7 +161,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "bufferedAccumulatorI.H"
+#include "lagrangian/molecularDynamics/molecularMeasurements/bufferedAccumulator/bufferedAccumulatorI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,7 +36,7 @@ SourceFiles
 #ifndef constantAbsorptionEmission_H
 #define constantAbsorptionEmission_H
 
-#include "absorptionEmissionModel.H"
+#include "thermophysicalModels/radiation/submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

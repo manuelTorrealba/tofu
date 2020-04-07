@@ -35,9 +35,9 @@ SourceFiles
 #ifndef TurbulenceModel_H
 #define TurbulenceModel_H
 
-#include "turbulenceModel.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
+#include "TurbulenceModels/turbulenceModels/turbulenceModel.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,8 +35,8 @@ SourceFiles
 #ifndef constantHeatTransfer_H
 #define constantHeatTransfer_H
 
-#include "heatTransferModel.H"
-#include "volFieldsFwd.H"
+#include "regionModels/surfaceFilmModels/submodels/thermo/heatTransferModel/heatTransferModel/heatTransferModel.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

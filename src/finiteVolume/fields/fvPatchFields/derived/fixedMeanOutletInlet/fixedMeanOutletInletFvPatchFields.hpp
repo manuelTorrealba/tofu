@@ -26,8 +26,8 @@ License
 #ifndef fixedMeanOutletInletFvPatchFields_H
 #define fixedMeanOutletInletFvPatchFields_H
 
-#include "fixedMeanOutletInletFvPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvPatchFields/derived/fixedMeanOutletInlet/fixedMeanOutletInletFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

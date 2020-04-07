@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceCoupleInfo.H"
-#include "polyMesh.H"
-#include "matchPoints.H"
-#include "indirectPrimitivePatch.H"
-#include "meshTools.H"
-#include "treeDataFace.H"
-#include "indexedOctree.H"
-#include "OFstream.H"
+#include "dynamicMesh/polyMeshAdder/faceCoupleInfo.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/meshTools/matchPoints.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
+#include "meshTools/indexedOctree/treeDataFace.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/indexedOctree.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

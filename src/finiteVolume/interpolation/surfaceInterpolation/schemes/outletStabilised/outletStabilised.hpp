@@ -40,13 +40,13 @@ SourceFiles
 #ifndef outletStabilised_H
 #define outletStabilised_H
 
-#include "surfaceInterpolationScheme.H"
-#include "skewCorrectionVectors.H"
-#include "linear.H"
-#include "gaussGrad.H"
-#include "zeroGradientFvPatchField.H"
-#include "mixedFvPatchField.H"
-#include "directionMixedFvPatchField.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/skewCorrected/skewCorrectionVectors.hpp"
+#include "thermophysicalModels/specie/equationOfState/linear/linear.hpp"
+#include "finiteVolume/finiteVolume/gradSchemes/gaussGrad/gaussGrad.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/mixed/mixedFvPatchField.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/directionMixed/directionMixedFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

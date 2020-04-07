@@ -35,8 +35,8 @@ SourceFiles
 #ifndef nonuniformTransformCyclicFvPatch_H
 #define nonuniformTransformCyclicFvPatch_H
 
-#include "cyclicFvPatch.H"
-#include "nonuniformTransformCyclicPolyPatch.H"
+#include "finiteVolume/fvMesh/fvPatches/constraint/cyclic/cyclicFvPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/nonuniformTransformCyclic/nonuniformTransformCyclicPolyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

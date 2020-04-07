@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "jplotSetWriter.H"
-#include "clock.H"
-#include "coordSet.H"
-#include "fileName.H"
-#include "OFstream.H"
+#include "fileFormats/sampledSetWriters/jplot/jplotSetWriter.hpp"
+#include "OpenFOAM/global/clock/clock.hpp"
+#include "fileFormats/coordSet/coordSet.hpp"
+#include "OpenFOAM/primitives/strings/fileName/fileName.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
 
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

@@ -54,9 +54,9 @@ SourceFiles
 #ifndef directionInfo_H
 #define directionInfo_H
 
-#include "point.H"
-#include "labelList.H"
-#include "tensor.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/primitives/Tensor/tensor/tensor.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -274,7 +274,7 @@ inline bool contiguous<directionInfo>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "directionInfoI.H"
+#include "dynamicMesh/meshCut/directions/directionInfo/directionInfoI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

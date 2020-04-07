@@ -36,8 +36,8 @@ SourceFiles
 #ifndef CloudFunctionObjectList_H
 #define CloudFunctionObjectList_H
 
-#include "PtrList.H"
-#include "CloudFunctionObject.H"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -141,7 +141,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "CloudFunctionObjectListI.H"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/CloudFunctionObjectList/CloudFunctionObjectListI.hpp"
 
 #ifdef NoRepository
     #include "CloudFunctionObjectList.C"

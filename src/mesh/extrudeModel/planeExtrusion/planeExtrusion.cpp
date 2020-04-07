@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "planeExtrusion.H"
-#include "addToRunTimeSelectionTable.H"
+#include "mesh/extrudeModel/planeExtrusion/planeExtrusion.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

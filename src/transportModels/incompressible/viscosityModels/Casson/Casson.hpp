@@ -61,9 +61,9 @@ SourceFiles
 #ifndef Casson_H
 #define Casson_H
 
-#include "viscosityModel.H"
-#include "dimensionedScalar.H"
-#include "volFields.H"
+#include "transportModels/incompressible/viscosityModels/viscosityModel/viscosityModel.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

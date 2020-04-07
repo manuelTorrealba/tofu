@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volPointInterpolation.H"
-#include "volFields.H"
-#include "pointFields.H"
-#include "emptyFvPatch.H"
-#include "coupledPointPatchField.H"
-#include "pointConstraints.H"
+#include "finiteVolume/interpolation/volPointInterpolation/volPointInterpolation.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFields.hpp"
+#include "finiteVolume/fvMesh/fvPatches/constraint/empty/emptyFvPatch.hpp"
+#include "OpenFOAM/fields/pointPatchFields/basic/coupled/coupledPointPatchField.hpp"
+#include "finiteVolume/interpolation/volPointInterpolation/pointConstraints.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

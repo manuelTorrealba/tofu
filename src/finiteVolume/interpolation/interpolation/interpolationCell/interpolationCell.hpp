@@ -32,7 +32,7 @@ Description
 #ifndef interpolationCell_H
 #define interpolationCell_H
 
-#include "interpolation.H"
+#include "finiteVolume/interpolation/interpolation/interpolation/interpolation.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

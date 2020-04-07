@@ -36,7 +36,7 @@ Description
 #ifndef Euler_H
 #define Euler_H
 
-#include "integrationScheme.H"
+#include "lagrangian/intermediate/integrationScheme/integrationScheme/integrationScheme.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

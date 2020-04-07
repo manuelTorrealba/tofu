@@ -36,7 +36,7 @@ SourceFiles
 #ifndef combineFaces_H
 #define combineFaces_H
 
-#include "indirectPrimitivePatch.H"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

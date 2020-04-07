@@ -37,8 +37,8 @@ SourceFiles
 #ifndef surfaceFilmModel_H
 #define surfaceFilmModel_H
 
-#include "runTimeSelectionTables.H"
-#include "volFields.H"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

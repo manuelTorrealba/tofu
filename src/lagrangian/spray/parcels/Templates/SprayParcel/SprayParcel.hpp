@@ -32,8 +32,8 @@ Description
 #ifndef SprayParcel_H
 #define SprayParcel_H
 
-#include "particle.H"
-#include "demandDrivenEntry.H"
+#include "lagrangian/basic/particle/particle.hpp"
+#include "OpenFOAM/primitives/demandDrivenEntry/demandDrivenEntry.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -498,7 +498,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SprayParcelI.H"
+#include "lagrangian/spray/parcels/Templates/SprayParcel/SprayParcelI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

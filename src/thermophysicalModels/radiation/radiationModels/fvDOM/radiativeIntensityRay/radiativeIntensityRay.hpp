@@ -35,8 +35,8 @@ SourceFiles
 #ifndef radiativeIntensityRay_H
 #define radiativeIntensityRay_H
 
-#include "absorptionEmissionModel.H"
-#include "blackBodyEmission.H"
+#include "thermophysicalModels/radiation/submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModel.hpp"
+#include "thermophysicalModels/radiation/radiationModels/fvDOM/blackBodyEmission/blackBodyEmission.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -224,7 +224,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "radiativeIntensityRayI.H"
+#include "thermophysicalModels/radiation/radiationModels/fvDOM/radiativeIntensityRay/radiativeIntensityRayI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

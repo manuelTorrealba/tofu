@@ -37,11 +37,11 @@ SourceFiles
 #ifndef DSMCParcel_H
 #define DSMCParcel_H
 
-#include "particle.H"
-#include "IOstream.H"
-#include "autoPtr.H"
-#include "contiguous.H"
-#include "DSMCCloud.H"
+#include "lagrangian/basic/particle/particle.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOstream.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
+#include "lagrangian/DSMC/clouds/Templates/DSMCCloud/DSMCCloud.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -305,7 +305,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DSMCParcelI.H"
+#include "lagrangian/DSMC/parcels/Templates/DSMCParcel/DSMCParcelI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

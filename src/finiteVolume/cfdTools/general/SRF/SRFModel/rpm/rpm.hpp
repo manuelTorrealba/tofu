@@ -36,7 +36,7 @@ SourceFiles
 #ifndef rpm_H
 #define rpm_H
 
-#include "SRFModel.H"
+#include "finiteVolume/cfdTools/general/SRF/SRFModel/SRFModel/SRFModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

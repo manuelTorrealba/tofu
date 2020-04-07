@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "turbulentTransportModels.H"
+#include "TurbulenceModels/incompressible/turbulentTransportModels/turbulentTransportModels.hpp"
 
 // -------------------------------------------------------------------------- //
 // RAS models
 // -------------------------------------------------------------------------- //
 
-#include "kEpsilonLopesdaCosta.H"
+#include "atmosphericModels/kEpsilonLopesdaCosta/kEpsilonLopesdaCosta.hpp"
 makeRASModel(kEpsilonLopesdaCosta);
 
 // ************************************************************************* //

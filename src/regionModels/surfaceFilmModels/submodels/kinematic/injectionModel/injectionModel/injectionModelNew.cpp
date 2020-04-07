@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "injectionModel.H"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/injectionModel/injectionModel/injectionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

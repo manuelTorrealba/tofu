@@ -36,7 +36,7 @@ SourceFiles
 #ifndef basicSpecieMixture_H
 #define basicSpecieMixture_H
 
-#include "basicMultiComponentMixture.H"
+#include "thermophysicalModels/reactionThermo/mixtures/basicMultiComponentMixture/basicMultiComponentMixture.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

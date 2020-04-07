@@ -26,8 +26,8 @@ License
 #ifndef wedgeFvPatchFields_H
 #define wedgeFvPatchFields_H
 
-#include "wedgeFvPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvPatchFields/constraint/wedge/wedgeFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

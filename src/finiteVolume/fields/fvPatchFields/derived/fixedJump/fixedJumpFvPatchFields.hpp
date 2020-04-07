@@ -26,8 +26,8 @@ License
 #ifndef fixedJumpFvPatchFields_H
 #define fixedJumpFvPatchFields_H
 
-#include "fixedJumpFvPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvPatchFields/derived/fixedJump/fixedJumpFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

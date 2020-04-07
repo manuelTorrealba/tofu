@@ -23,6 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
+#include "OpenFOAM/matrices/LduMatrixN/LduMatrix/LduMatrix.hpp"
 #include "OpenFOAM/matrices/lduMatrix/lduMatrix/lduMatrix.hpp"
 #include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
@@ -371,11 +372,11 @@ Foam::Ostream& Foam::operator<<
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "LduMatrixOperations.C"
-#include "LduMatrixATmul.C"
-#include "LduMatrixUpdateMatrixInterfaces.C"
-#include "LduMatrixPreconditioner.C"
-#include "LduMatrixSmoother.C"
-#include "LduMatrixSolver.C"
+// #include "LduMatrixOperations.C"
+// #include "LduMatrixATmul.C"
+// #include "LduMatrixUpdateMatrixInterfaces.C"
+// #include "LduMatrixPreconditioner.C"
+// #include "LduMatrixSmoother.C"
+// #include "LduMatrixSolver.C"
 
 // ************************************************************************* //

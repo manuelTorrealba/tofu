@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellFeatures.H"
-#include "primitiveMesh.H"
-#include "HashSet.H"
-#include "Map.H"
-#include "demandDrivenData.H"
-#include "ListOps.H"
-#include "meshTools.H"
+#include "meshTools/cellFeatures/cellFeatures.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

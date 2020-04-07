@@ -35,8 +35,8 @@ SourceFiles
 #ifndef cyclicACMIPointPatch_H
 #define cyclicACMIPointPatch_H
 
-#include "cyclicAMIPointPatch.H"
-#include "cyclicACMIPolyPatch.H"
+#include "meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPointPatch/cyclicAMIPointPatch.hpp"
+#include "meshTools/AMIInterpolation/patches/cyclicACMI/cyclicACMIPolyPatch/cyclicACMIPolyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

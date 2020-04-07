@@ -26,14 +26,14 @@ License
 #ifndef makeChemistrySolverTypes_H
 #define makeChemistrySolverTypes_H
 
-#include "chemistrySolver.H"
+#include "thermophysicalModels/chemistryModel/chemistrySolver/chemistrySolver/chemistrySolver.hpp"
 
-#include "StandardChemistryModel.H"
-#include "TDACChemistryModel.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/StandardChemistryModel/StandardChemistryModel.hpp"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/TDACChemistryModel.hpp"
 
-#include "noChemistrySolver.H"
-#include "EulerImplicit.H"
-#include "ode.H"
+#include "thermophysicalModels/chemistryModel/chemistrySolver/noChemistrySolver/noChemistrySolver.hpp"
+#include "thermophysicalModels/chemistryModel/chemistrySolver/EulerImplicit/EulerImplicit.hpp"
+#include "thermophysicalModels/chemistryModel/chemistrySolver/ode/ode.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

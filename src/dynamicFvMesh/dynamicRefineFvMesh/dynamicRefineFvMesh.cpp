@@ -23,16 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dynamicRefineFvMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "surfaceInterpolate.H"
-#include "volFields.H"
-#include "polyTopoChange.H"
-#include "surfaceFields.H"
-#include "syncTools.H"
-#include "pointFields.H"
-#include "sigFpe.H"
-#include "cellSet.H"
+#include "dynamicFvMesh/dynamicRefineFvMesh/dynamicRefineFvMesh.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "functionObjects/field/surfaceInterpolate/surfaceInterpolate.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChange.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFields.hpp"
+#include "OSspecific/POSIX/signals/sigFpe.hpp"
+#include "meshTools/sets/topoSets/cellSet.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

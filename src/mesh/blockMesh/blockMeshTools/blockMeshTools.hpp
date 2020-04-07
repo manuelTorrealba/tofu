@@ -36,7 +36,7 @@ SourceFiles
 #ifndef blockMeshTools_H
 #define blockMeshTools_H
 
-#include "dictionary.H"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

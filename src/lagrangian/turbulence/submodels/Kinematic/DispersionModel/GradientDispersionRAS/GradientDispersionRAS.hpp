@@ -34,7 +34,7 @@ Description
 #ifndef GradientDispersionRAS_H
 #define GradientDispersionRAS_H
 
-#include "DispersionRASModel.H"
+#include "lagrangian/turbulence/submodels/Kinematic/DispersionModel/DispersionRASModel/DispersionRASModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef heSolidThermo_H
 #define heSolidThermo_H
 
-#include "heThermo.H"
+#include "thermophysicalModels/basic/heThermo/heThermo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

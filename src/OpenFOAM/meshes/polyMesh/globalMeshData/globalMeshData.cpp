@@ -35,8 +35,8 @@ License
 #include "OpenFOAM/primitives/globalIndexAndTransform/globalIndexAndTransform.hpp"
 #include "OpenFOAM/db/IOstreams/Pstreams/UIPstream.hpp"
 #include "OpenFOAM/db/IOstreams/Pstreams/UOPstream.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.cpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.cpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.hpp"
 #include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

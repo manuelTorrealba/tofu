@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReactingParcel.H"
-#include "specie.H"
-#include "CompositionModel.H"
-#include "PhaseChangeModel.H"
-#include "mathematicalConstants.H"
+#include "lagrangian/intermediate/parcels/Templates/ReactingParcel/ReactingParcel.hpp"
+#include "thermophysicalModels/specie/specie/specie.hpp"
+#include "lagrangian/intermediate/submodels/Reacting/CompositionModel/CompositionModel/CompositionModel.hpp"
+#include "lagrangian/intermediate/submodels/Reacting/PhaseChangeModel/PhaseChangeModel/PhaseChangeModel.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
 
 using namespace Foam::constant::mathematical;
 

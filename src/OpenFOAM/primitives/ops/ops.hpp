@@ -36,6 +36,9 @@ Description
 #ifndef ops_H
 #define ops_H
 
+#include "OpenFOAM/containers/Lists/UList/UList.hpp"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "spatialTransform.H"
-#include "transform.H"
-#include "dictionary.H"
+#include "OpenFOAM/primitives/spatialVectorAlgebra/spatialTransform/spatialTransform.hpp"
+#include "OpenFOAM/primitives/transform/transform.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

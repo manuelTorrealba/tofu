@@ -9,12 +9,12 @@
 
 /*======================================================================*/
 
-#include "calcEk.H"
-#include "fft.H"
-#include "Kmesh.H"
-#include "kShellIntegration.H"
-#include "volFields.H"
-#include "graph.H"
+#include "randomProcesses/fft/calcEk.hpp"
+#include "randomProcesses/fft/fft.hpp"
+#include "randomProcesses/Kmesh/Kmesh.hpp"
+#include "randomProcesses/fft/kShellIntegration.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/graph/graph.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

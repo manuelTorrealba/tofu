@@ -102,10 +102,10 @@ SourceFiles
 #ifndef addPatchCellLayer_H
 #define addPatchCellLayer_H
 
-#include "labelList.H"
-#include "typeInfo.H"
-#include "labelPair.H"
-#include "indirectPrimitivePatch.H"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/primitives/Pair/labelPair.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

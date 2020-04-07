@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "floatingJoint.H"
-#include "rigidBodyModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "rigidBodyDynamics/joints/floating/floatingJoint.hpp"
+#include "rigidBodyDynamics/rigidBodyModel/rigidBodyModel.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
-#include "Rs.H"
-#include "Rzyx.H"
-#include "Pxyz.H"
+#include "rigidBodyDynamics/joints/Rs/Rs.hpp"
+#include "rigidBodyDynamics/joints/Rzyx/Rzyx.hpp"
+#include "rigidBodyDynamics/joints/Pxyz/Pxyz.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

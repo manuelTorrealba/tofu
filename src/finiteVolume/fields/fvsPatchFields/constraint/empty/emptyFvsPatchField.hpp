@@ -35,8 +35,8 @@ SourceFiles
 #ifndef emptyFvsPatchField_H
 #define emptyFvsPatchField_H
 
-#include "fvsPatchField.H"
-#include "emptyFvPatch.H"
+#include "finiteVolume/fields/fvsPatchFields/fvsPatchField/fvsPatchField.hpp"
+#include "finiteVolume/fvMesh/fvPatches/constraint/empty/emptyFvPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

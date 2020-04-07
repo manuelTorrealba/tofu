@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "treeDataTriSurface.H"
-#include "triSurfaceTools.H"
+#include "meshTools/indexedOctree/treeDataTriSurface.hpp"
+#include "meshTools/triSurface/triSurfaceTools/triSurfaceTools.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

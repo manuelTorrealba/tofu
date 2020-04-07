@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ConeInjection.H"
-#include "TimeFunction1.H"
-#include "mathematicalConstants.H"
-#include "unitConversion.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/ConeInjection/ConeInjection.hpp"
+#include "OpenFOAM/primitives/functions/TimeFunction1/TimeFunction1.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
 
 using namespace Foam::constant::mathematical;
 

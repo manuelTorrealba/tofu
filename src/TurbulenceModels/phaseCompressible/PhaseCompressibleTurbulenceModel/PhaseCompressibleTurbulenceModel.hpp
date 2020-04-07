@@ -36,8 +36,8 @@ SourceFiles
 #ifndef PhaseCompressibleTurbulenceModel_H
 #define PhaseCompressibleTurbulenceModel_H
 
-#include "TurbulenceModel.H"
-#include "compressibleTurbulenceModel.H"
+#include "TurbulenceModels/turbulenceModels/TurbulenceModel/TurbulenceModel.hpp"
+#include "TurbulenceModels/compressible/compressibleTurbulenceModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

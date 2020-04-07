@@ -33,7 +33,7 @@ Description
 #ifndef WallSpringSliderDashpot_H
 #define WallSpringSliderDashpot_H
 
-#include "WallModel.H"
+#include "lagrangian/intermediate/submodels/Kinematic/CollisionModel/PairCollision/WallModel/WallModel/WallModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DeardorffDiffStress.H"
-#include "fvOptions.H"
+#include "TurbulenceModels/turbulenceModels/LES/DeardorffDiffStress/DeardorffDiffStress.hpp"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOptions.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

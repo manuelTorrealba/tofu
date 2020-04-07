@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "contactAngleForce.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvcGrad.H"
-#include "unitConversion.H"
-#include "meshWavePatchDistMethod.H"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/force/contactAngleForces/contactAngleForce/contactAngleForce.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcGrad.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
+#include "finiteVolume/fvMesh/wallDist/patchDistMethods/meshWave/meshWavePatchDistMethod.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

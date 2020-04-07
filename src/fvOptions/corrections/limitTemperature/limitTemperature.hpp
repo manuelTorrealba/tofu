@@ -51,7 +51,7 @@ SourceFiles
 #ifndef limitTemperature_H
 #define limitTemperature_H
 
-#include "cellSetOption.H"
+#include "fvOptions/cellSetOption/cellSetOption.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

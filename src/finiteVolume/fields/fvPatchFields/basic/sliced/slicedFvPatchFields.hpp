@@ -26,8 +26,8 @@ License
 #ifndef slicedFvPatchFields_H
 #define slicedFvPatchFields_H
 
-#include "slicedFvPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvPatchFields/basic/sliced/slicedFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

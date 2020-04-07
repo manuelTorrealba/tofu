@@ -23,16 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "refinementIterator.H"
-#include "polyMesh.H"
-#include "Time.H"
-#include "refineCell.H"
-#include "undoableMeshCutter.H"
-#include "polyTopoChange.H"
-#include "mapPolyMesh.H"
-#include "cellCuts.H"
-#include "OFstream.H"
-#include "meshTools.H"
+#include "dynamicMesh/meshCut/meshModifiers/refinementIterator/refinementIterator.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "dynamicMesh/meshCut/refineCell/refineCell.hpp"
+#include "dynamicMesh/meshCut/meshModifiers/undoableMeshCutter/undoableMeshCutter.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChange.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "dynamicMesh/meshCut/cellCuts/cellCuts.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

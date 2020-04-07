@@ -44,9 +44,9 @@ SourceFiles
 #ifndef radiation_H
 #define radiation_H
 
-#include "fvOption.H"
-#include "uniformDimensionedFields.H"
-#include "radiationModel.H"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOption.hpp"
+#include "OpenFOAM/fields/UniformDimensionedFields/uniformDimensionedFields.hpp"
+#include "thermophysicalModels/radiation/radiationModels/radiationModel/radiationModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

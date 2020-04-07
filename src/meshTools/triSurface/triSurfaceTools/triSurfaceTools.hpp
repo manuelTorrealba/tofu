@@ -35,14 +35,14 @@ SourceFiles
 #ifndef triSurfaceTools_H
 #define triSurfaceTools_H
 
-#include "boolList.H"
-#include "pointField.H"
-#include "DynamicList.H"
-#include "HashSet.H"
-#include "FixedList.H"
-#include "vector2D.H"
-#include "triPointRef.H"
-#include "surfaceLocation.H"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
+#include "OpenFOAM/primitives/Vector2D/vector2D/vector2D.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/triangle/triPointRef.hpp"
+#include "meshTools/triSurface/surfaceLocation/surfaceLocation.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

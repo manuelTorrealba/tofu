@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SpalartAllmarasDDES.H"
+#include "TurbulenceModels/turbulenceModels/LES/SpalartAllmarasDDES/SpalartAllmarasDDES.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

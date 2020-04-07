@@ -337,6 +337,6 @@ Foam::Ostream& Foam::operator<<
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pointPatchFieldNew.C"
+//#include "pointPatchFieldNew.C"
 
 // ************************************************************************* //

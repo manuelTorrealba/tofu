@@ -41,12 +41,12 @@ SourceFiles
 #ifndef STARCDedgeFormat_H
 #define STARCDedgeFormat_H
 
-#include "edgeMesh.H"
-#include "STARCDCore.H"
+#include "meshTools/edgeMesh/edgeMesh.hpp"
+#include "fileFormats/starcd/STARCDCore.hpp"
 
-#include "IFstream.H"
-#include "Ostream.H"
-#include "OFstream.H"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/Ostream.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

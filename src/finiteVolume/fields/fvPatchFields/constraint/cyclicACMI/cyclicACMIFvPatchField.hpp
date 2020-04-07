@@ -49,8 +49,8 @@ SourceFiles
 #ifndef cyclicACMIFvPatchField_H
 #define cyclicACMIFvPatchField_H
 
-#include "cyclicAMIFvPatchField.H"
-#include "cyclicACMIFvPatch.H"
+#include "finiteVolume/fields/fvPatchFields/constraint/cyclicAMI/cyclicAMIFvPatchField.hpp"
+#include "finiteVolume/fvMesh/fvPatches/constraint/cyclicACMI/cyclicACMIFvPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

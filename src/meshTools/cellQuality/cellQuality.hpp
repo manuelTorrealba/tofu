@@ -35,7 +35,7 @@ SourceFiles
 #ifndef cellQuality_H
 #define cellQuality_H
 
-#include "polyMesh.H"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

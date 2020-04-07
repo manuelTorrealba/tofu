@@ -60,9 +60,9 @@ SourceFiles
 #ifndef InteractionLists_H
 #define InteractionLists_H
 
-#include "polyMesh.H"
-#include "referredWallFace.H"
-//#include "mapDistribute.H"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "lagrangian/basic/InteractionLists/referredWallFace/referredWallFace.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -307,7 +307,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "InteractionListsI.H"
+#include "lagrangian/basic/InteractionLists/InteractionListsI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

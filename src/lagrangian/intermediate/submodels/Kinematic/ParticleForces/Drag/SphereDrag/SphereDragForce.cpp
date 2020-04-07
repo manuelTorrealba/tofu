@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SphereDragForce.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/Drag/SphereDrag/SphereDragForce.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

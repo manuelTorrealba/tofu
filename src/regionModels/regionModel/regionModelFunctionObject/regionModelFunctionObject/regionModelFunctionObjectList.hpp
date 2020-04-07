@@ -36,8 +36,8 @@ SourceFiles
 #ifndef regionModelFunctionObjectList_H
 #define regionModelFunctionObjectList_H
 
-#include "PtrList.H"
-#include "regionModelFunctionObject.H"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "regionModels/regionModel/regionModelFunctionObject/regionModelFunctionObject/regionModelFunctionObject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -124,7 +124,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "regionModelFunctionObjectListI.H"
+#include "regionModels/regionModel/regionModelFunctionObject/regionModelFunctionObject/regionModelFunctionObjectListI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

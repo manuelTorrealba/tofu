@@ -26,7 +26,7 @@ License
 #ifndef emptyFvPatchFieldsFwd_H
 #define emptyFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

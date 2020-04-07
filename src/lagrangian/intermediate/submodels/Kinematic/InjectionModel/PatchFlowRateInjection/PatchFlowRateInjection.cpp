@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchFlowRateInjection.H"
-#include "TimeFunction1.H"
-#include "distributionModel.H"
-#include "mathematicalConstants.H"
-#include "surfaceFields.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/PatchFlowRateInjection/PatchFlowRateInjection.hpp"
+#include "OpenFOAM/primitives/functions/TimeFunction1/TimeFunction1.hpp"
+#include "lagrangian/distributionModels/distributionModel/distributionModel.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

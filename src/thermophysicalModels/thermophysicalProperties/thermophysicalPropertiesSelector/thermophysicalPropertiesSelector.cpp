@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermophysicalPropertiesSelector.H"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalPropertiesSelector/thermophysicalPropertiesSelector.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

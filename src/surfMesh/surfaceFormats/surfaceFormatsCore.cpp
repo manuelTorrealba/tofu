@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceFormatsCore.H"
+#include "surfMesh/surfaceFormats/surfaceFormatsCore.hpp"
 
-#include "Time.H"
-#include "IFstream.H"
-#include "OFstream.H"
-#include "SortableList.H"
-#include "surfMesh.H"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/containers/Lists/SortableList/SortableList.hpp"
+#include "surfMesh/surfMesh/surfMesh.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

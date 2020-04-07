@@ -44,7 +44,7 @@ SourceFiles
 #ifndef filteredLinear_H
 #define filteredLinear_H
 
-#include "vector.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

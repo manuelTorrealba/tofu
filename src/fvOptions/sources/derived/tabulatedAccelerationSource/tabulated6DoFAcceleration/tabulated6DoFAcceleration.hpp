@@ -38,9 +38,9 @@ SourceFiles
 #ifndef tabulated6DoFAcceleration_H
 #define tabulated6DoFAcceleration_H
 
-#include "primitiveFields.H"
-#include "Vector2D.H"
-#include "Time.H"
+#include "OpenFOAM/fields/Fields/primitiveFields.hpp"
+#include "OpenFOAM/primitives/Vector2D/Vector2D.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

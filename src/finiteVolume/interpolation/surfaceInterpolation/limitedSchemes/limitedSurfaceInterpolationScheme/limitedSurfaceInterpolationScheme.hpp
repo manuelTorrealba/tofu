@@ -35,7 +35,7 @@ SourceFiles
 #ifndef limitedSurfaceInterpolationScheme_H
 #define limitedSurfaceInterpolationScheme_H
 
-#include "surfaceInterpolationScheme.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

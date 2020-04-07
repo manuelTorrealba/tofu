@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "singleLayerRegion.H"
-#include "zeroGradientFvPatchFields.H"
-#include "mappedFixedInternalValueFvPatchFields.H"
-#include "mappedFixedPushedInternalValueFvPatchFields.H"
+#include "regionModels/regionModel/singleLayerRegion/singleLayerRegion.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.hpp"
+#include "finiteVolume/fields/fvPatchFields/derived/mappedFixedInternalValue/mappedFixedInternalValueFvPatchFields.hpp"
+#include "finiteVolume/fields/fvPatchFields/derived/mappedFixedPushedInternalValue/mappedFixedPushedInternalValueFvPatchFields.hpp"
 
 // * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * * //
 

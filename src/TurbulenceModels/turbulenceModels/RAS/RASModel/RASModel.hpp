@@ -35,7 +35,7 @@ SourceFiles
 #ifndef RASModel_H
 #define RASModel_H
 
-#include "TurbulenceModel.H"
+#include "TurbulenceModels/turbulenceModels/TurbulenceModel/TurbulenceModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

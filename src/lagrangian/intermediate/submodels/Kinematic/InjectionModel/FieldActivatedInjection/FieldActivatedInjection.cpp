@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FieldActivatedInjection.H"
-#include "volFields.H"
-#include "mathematicalConstants.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/FieldActivatedInjection/FieldActivatedInjection.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
 
 using namespace Foam::constant::mathematical;
 

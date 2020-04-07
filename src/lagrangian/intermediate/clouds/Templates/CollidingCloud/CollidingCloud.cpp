@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CollidingCloud.H"
-#include "CollisionModel.H"
-#include "NoCollision.H"
+#include "lagrangian/intermediate/clouds/Templates/CollidingCloud/CollidingCloud.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/CollisionModel/CollisionModel/CollisionModel.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/CollisionModel/NoCollision/NoCollision.hpp"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

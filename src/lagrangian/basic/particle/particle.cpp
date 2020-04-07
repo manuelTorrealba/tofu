@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "particle.H"
-#include "transform.H"
-#include "treeDataCell.H"
-#include "cubicEqn.H"
+#include "lagrangian/basic/particle/particle.hpp"
+#include "OpenFOAM/primitives/transform/transform.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/treeDataCell.hpp"
+#include "OpenFOAM/primitives/polynomialEqns/cubicEqn/cubicEqn.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

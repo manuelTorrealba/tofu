@@ -37,10 +37,10 @@ SourceFiles
 #ifndef volPointInterpolation_H
 #define volPointInterpolation_H
 
-#include "MeshObject.H"
-#include "scalarList.H"
-#include "volFields.H"
-#include "pointFields.H"
+#include "OpenFOAM/meshes/MeshObject/MeshObject.hpp"
+#include "OpenFOAM/primitives/Scalar/lists/scalarList.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

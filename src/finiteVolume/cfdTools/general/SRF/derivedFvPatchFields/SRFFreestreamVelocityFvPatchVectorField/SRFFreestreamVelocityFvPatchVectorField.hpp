@@ -76,8 +76,8 @@ SourceFiles
 #ifndef SRFFreestreamVelocityFvPatchVectorField_H
 #define SRFFreestreamVelocityFvPatchVectorField_H
 
-#include "inletOutletFvPatchFields.H"
-#include "Switch.H"
+#include "finiteVolume/fields/fvPatchFields/derived/inletOutlet/inletOutletFvPatchFields.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -51,9 +51,9 @@ See also
 #ifndef liquidMixtureProperties_H
 #define liquidMixtureProperties_H
 
-#include "liquidProperties.H"
-#include "PtrList.H"
-#include "scalarField.H"
+#include "thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.hpp"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

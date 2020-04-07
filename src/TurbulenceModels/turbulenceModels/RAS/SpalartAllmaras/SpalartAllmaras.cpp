@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SpalartAllmaras.H"
-#include "fvOptions.H"
-#include "bound.H"
-#include "wallDist.H"
+#include "TurbulenceModels/turbulenceModels/RAS/SpalartAllmaras/SpalartAllmaras.hpp"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOptions.hpp"
+#include "finiteVolume/cfdTools/general/bound/bound.hpp"
+#include "finiteVolume/fvMesh/wallDist/wallDist/wallDist.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

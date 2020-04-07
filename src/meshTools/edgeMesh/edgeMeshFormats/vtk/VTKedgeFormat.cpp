@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VTKedgeFormat.H"
-#include "OFstream.H"
-#include "clock.H"
-#include "IFstream.H"
-#include "vtkUnstructuredReader.H"
-#include "Time.H"
+#include "meshTools/edgeMesh/edgeMeshFormats/vtk/VTKedgeFormat.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/global/clock/clock.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "fileFormats/vtk/vtkUnstructuredReader.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

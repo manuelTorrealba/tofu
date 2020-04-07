@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceCollapser.H"
-#include "polyMesh.H"
-#include "polyTopoChange.H"
-#include "polyModifyPoint.H"
-#include "polyModifyFace.H"
-#include "polyRemoveFace.H"
-#include "SortableList.H"
-#include "meshTools.H"
-#include "OFstream.H"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/faceCollapser.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChange.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/modifyObject/polyModifyPoint.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/modifyObject/polyModifyFace.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/removeObject/polyRemoveFace.hpp"
+#include "OpenFOAM/containers/Lists/SortableList/SortableList.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

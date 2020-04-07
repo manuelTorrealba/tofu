@@ -32,11 +32,11 @@ Description
 #ifndef basicReactingCloud_H
 #define basicReactingCloud_H
 
-#include "Cloud.H"
-#include "KinematicCloud.H"
-#include "ThermoCloud.H"
-#include "ReactingCloud.H"
-#include "basicReactingParcel.H"
+#include "lagrangian/basic/Cloud/Cloud.hpp"
+#include "lagrangian/intermediate/clouds/Templates/KinematicCloud/KinematicCloud.hpp"
+#include "lagrangian/intermediate/clouds/Templates/ThermoCloud/ThermoCloud.hpp"
+#include "lagrangian/intermediate/clouds/Templates/ReactingCloud/ReactingCloud.hpp"
+#include "lagrangian/intermediate/parcels/derived/basicReactingParcel/basicReactingParcel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

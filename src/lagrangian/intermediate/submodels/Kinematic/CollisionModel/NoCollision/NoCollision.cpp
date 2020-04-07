@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoCollision.H"
+#include "lagrangian/intermediate/submodels/Kinematic/CollisionModel/NoCollision/NoCollision.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -41,7 +41,7 @@ SourceFiles
 #ifndef limiterBlended_H
 #define limiterBlended_H
 
-#include "limitedSurfaceInterpolationScheme.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/limitedSurfaceInterpolationScheme/limitedSurfaceInterpolationScheme.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

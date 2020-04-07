@@ -36,7 +36,7 @@ Description
 #ifndef COxidationIntrinsicRate_H
 #define COxidationIntrinsicRate_H
 
-#include "SurfaceReactionModel.H"
+#include "lagrangian/intermediate/submodels/ReactingMultiphase/SurfaceReactionModel/SurfaceReactionModel/SurfaceReactionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

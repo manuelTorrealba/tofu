@@ -36,7 +36,7 @@ Description
 #ifndef analytical_H
 #define analytical_H
 
-#include "integrationScheme.H"
+#include "lagrangian/intermediate/integrationScheme/integrationScheme/integrationScheme.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -68,10 +68,10 @@ SourceFiles
 #ifndef functionObjects_icoUncoupledKinematicCloud_H
 #define functionObjects_icoUncoupledKinematicCloud_H
 
-#include "fvMeshFunctionObject.H"
-#include "basicKinematicCollidingCloud.H"
-#include "volFields.H"
-#include "uniformDimensionedFields.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
+#include "lagrangian/intermediate/clouds/derived/basicKinematicCollidingCloud/basicKinematicCollidingCloud.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/fields/UniformDimensionedFields/uniformDimensionedFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

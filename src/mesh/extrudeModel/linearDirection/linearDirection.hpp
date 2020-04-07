@@ -32,8 +32,8 @@ Description
 #ifndef linearDirection_H
 #define linearDirection_H
 
-#include "point.H"
-#include "extrudeModel.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "mesh/extrudeModel/extrudeModel/extrudeModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

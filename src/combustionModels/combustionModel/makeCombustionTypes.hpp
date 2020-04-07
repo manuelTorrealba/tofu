@@ -26,7 +26,7 @@ License
 #ifndef makeCombustionTypes_H
 #define makeCombustionTypes_H
 
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

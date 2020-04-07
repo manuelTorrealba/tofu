@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "blockMesh.H"
-#include "blockMeshTools.H"
-#include "Time.H"
-#include "preservePatchTypes.H"
-#include "emptyPolyPatch.H"
-#include "cyclicPolyPatch.H"
+#include "mesh/blockMesh/blockMesh/blockMesh.hpp"
+#include "mesh/blockMesh/blockMeshTools/blockMeshTools.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/meshes/preservePatchTypes/preservePatchTypes.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

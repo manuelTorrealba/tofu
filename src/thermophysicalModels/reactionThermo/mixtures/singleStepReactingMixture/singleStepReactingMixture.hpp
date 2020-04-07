@@ -35,8 +35,8 @@ SourceFiles
 #ifndef singleStepReactingMixture_H
 #define singleStepReactingMixture_H
 
-#include "chemistryReader.H"
-#include "reactingMixture.H"
+#include "thermophysicalModels/reactionThermo/chemistryReaders/chemistryReader/chemistryReader.hpp"
+#include "thermophysicalModels/reactionThermo/mixtures/reactingMixture/reactingMixture.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -185,7 +185,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "singleStepReactingMixtureI.H"
+#include "thermophysicalModels/reactionThermo/mixtures/singleStepReactingMixture/singleStepReactingMixtureI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

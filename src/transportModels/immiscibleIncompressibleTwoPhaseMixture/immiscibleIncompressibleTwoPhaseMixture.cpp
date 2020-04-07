@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "immiscibleIncompressibleTwoPhaseMixture.H"
+#include "transportModels/immiscibleIncompressibleTwoPhaseMixture/immiscibleIncompressibleTwoPhaseMixture.hpp"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "relaxation.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvm.H"
-#include "LESModel.H"
+#include "combustionModels/FSD/reactionRateFlameAreaModels/relaxation/relaxation.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvm.hpp"
+#include "TurbulenceModels/turbulenceModels/LES/LESModel/LESModel.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef liquidProperties_H
 #define liquidProperties_H
 
-#include "thermophysicalProperties.H"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalProperties/thermophysicalProperties.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -314,7 +314,7 @@ Ostream& operator<<(Ostream& os, const liquidProperties& l);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "liquidPropertiesI.H"
+#include "thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidPropertiesI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

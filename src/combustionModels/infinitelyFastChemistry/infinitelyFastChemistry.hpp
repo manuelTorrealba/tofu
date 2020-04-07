@@ -37,7 +37,7 @@ SourceFiles
 #ifndef infinitelyFastChemistry_H
 #define infinitelyFastChemistry_H
 
-#include "singleStepCombustion.H"
+#include "combustionModels/singleStepCombustion/singleStepCombustion.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef exponential_H
 #define exponential_H
 
-#include "distributionModel.H"
+#include "lagrangian/distributionModels/distributionModel/distributionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

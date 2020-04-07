@@ -36,7 +36,7 @@ SourceFiles
 #ifndef NoComposition_H
 #define NoComposition_H
 
-#include "CompositionModel.H"
+#include "lagrangian/intermediate/submodels/Reacting/CompositionModel/CompositionModel/CompositionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

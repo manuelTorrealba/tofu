@@ -35,9 +35,9 @@ SourceFiles
 #ifndef regionCoupledPolyPatch_H
 #define regionCoupledPolyPatch_H
 
-#include "regionCoupledBase.H"
-#include "polyBoundaryMesh.H"
-#include "polyPatch.H"
+#include "meshTools/regionCoupled/patches/regionCoupledPolyPatch/regionCoupledBase.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

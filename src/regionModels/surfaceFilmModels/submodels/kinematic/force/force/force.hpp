@@ -36,9 +36,9 @@ SourceFiles
 #ifndef force_H
 #define force_H
 
-#include "filmSubModelBase.H"
-#include "runTimeSelectionTables.H"
-#include "fvMatrices.H"
+#include "regionModels/surfaceFilmModels/submodels/filmSubModelBase.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
+#include "finiteVolume/fvMatrices/fvMatrices.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

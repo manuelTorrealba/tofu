@@ -36,7 +36,7 @@ SourceFiles
 #ifndef adiabaticPerfectFluid_H
 #define adiabaticPerfectFluid_H
 
-#include "autoPtr.H"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -222,7 +222,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "adiabaticPerfectFluidI.H"
+#include "thermophysicalModels/specie/equationOfState/adiabaticPerfectFluid/adiabaticPerfectFluidI.hpp"
 
 #ifdef NoRepository
     #include "adiabaticPerfectFluid.C"

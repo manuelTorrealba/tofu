@@ -49,9 +49,9 @@ SourceFiles
 #ifndef greyMeanSolidAbsorptionEmission_H
 #define greyMeanSolidAbsorptionEmission_H
 
-#include "absorptionEmissionModel.H"
-#include "solidThermo.H"
-#include "basicSpecieMixture.H"
+#include "thermophysicalModels/radiation/submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModel.hpp"
+#include "thermophysicalModels/solidThermo/solidThermo/solidThermo.hpp"
+#include "thermophysicalModels/reactionThermo/mixtures/basicSpecieMixture/basicSpecieMixture.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,8 +38,8 @@ SourceFiles
 #ifndef rawTopoChangerFvMesh_H
 #define rawTopoChangerFvMesh_H
 
-#include "topoChangerFvMesh.H"
-#include "PackedBoolList.H"
+#include "topoChangerFvMesh/topoChangerFvMesh/topoChangerFvMesh.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

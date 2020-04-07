@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PengRobinsonGas.H"
-#include "mathematicalConstants.H"
+#include "thermophysicalModels/specie/equationOfState/PengRobinsonGas/PengRobinsonGas.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

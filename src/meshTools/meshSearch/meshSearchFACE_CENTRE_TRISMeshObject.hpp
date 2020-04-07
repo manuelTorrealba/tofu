@@ -34,8 +34,8 @@ SourceFiles
 #ifndef meshSearchFACE_CENTRE_TRISMeshObject_H
 #define meshSearchFACE_CENTRE_TRISMeshObject_H
 
-#include "MeshObject.H"
-#include "meshSearch.H"
+#include "OpenFOAM/meshes/MeshObject/MeshObject.hpp"
+#include "meshTools/meshSearch/meshSearch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

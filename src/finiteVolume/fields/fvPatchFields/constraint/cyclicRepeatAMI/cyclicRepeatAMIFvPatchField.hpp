@@ -54,8 +54,8 @@ SourceFiles
 #ifndef cyclicRepeatAMIFvPatchField_H
 #define cyclicRepeatAMIFvPatchField_H
 
-#include "cyclicAMIFvPatchField.H"
-#include "cyclicRepeatAMIFvPatch.H"
+#include "finiteVolume/fields/fvPatchFields/constraint/cyclicAMI/cyclicAMIFvPatchField.hpp"
+#include "finiteVolume/fvMesh/fvPatches/constraint/cyclicRepeatAMI/cyclicRepeatAMIFvPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

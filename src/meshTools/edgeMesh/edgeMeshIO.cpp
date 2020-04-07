@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "edgeMesh.H"
-#include "boundBox.H"
-#include "edgeMeshFormat.H"
+#include "meshTools/edgeMesh/edgeMesh.hpp"
+#include "OpenFOAM/meshes/boundBox/boundBox.hpp"
+#include "meshTools/edgeMesh/edgeMeshFormats/edgeMesh/edgeMeshFormat.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

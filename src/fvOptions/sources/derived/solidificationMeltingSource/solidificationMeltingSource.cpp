@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solidificationMeltingSource.H"
-#include "fvMatrices.H"
-#include "basicThermo.H"
-#include "uniformDimensionedFields.H"
-#include "zeroGradientFvPatchFields.H"
-#include "extrapolatedCalculatedFvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
-#include "geometricOneField.H"
+#include "fvOptions/sources/derived/solidificationMeltingSource/solidificationMeltingSource.hpp"
+#include "finiteVolume/fvMatrices/fvMatrices.hpp"
+#include "thermophysicalModels/basic/basicThermo/basicThermo.hpp"
+#include "OpenFOAM/fields/UniformDimensionedFields/uniformDimensionedFields.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchFields.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/fields/GeometricFields/geometricOneField/geometricOneField.hpp"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

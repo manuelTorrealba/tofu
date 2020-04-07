@@ -36,8 +36,8 @@ SourceFiles
 #ifndef ParamagneticForce_H
 #define ParamagneticForce_H
 
-#include "ParticleForce.H"
-#include "interpolation.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.hpp"
+#include "finiteVolume/interpolation/interpolation/interpolation/interpolation.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -135,7 +135,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ParamagneticForceI.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/Paramagnetic/ParamagneticForceI.hpp"
 
 #ifdef NoRepository
     #include "ParamagneticForce.C"

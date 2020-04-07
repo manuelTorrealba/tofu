@@ -38,12 +38,12 @@ SourceFiles
 #ifndef topoSet_H
 #define topoSet_H
 
-#include "HashSet.H"
-#include "regIOobject.H"
-#include "labelList.H"
-#include "typeInfo.H"
-#include "autoPtr.H"
-#include "pointField.H"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

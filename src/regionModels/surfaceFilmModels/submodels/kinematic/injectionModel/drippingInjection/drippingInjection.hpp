@@ -40,9 +40,9 @@ SourceFiles
 #ifndef drippingInjection_H
 #define drippingInjection_H
 
-#include "injectionModel.H"
-#include "distributionModel.H"
-#include "Random.H"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/injectionModel/injectionModel/injectionModel.hpp"
+#include "lagrangian/distributionModels/distributionModel/distributionModel.hpp"
+#include "OpenFOAM/primitives/Random/Random.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

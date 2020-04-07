@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "axesRotation.H"
-#include "dictionary.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshTools/coordinateSystems/coordinateRotation/axesRotation.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

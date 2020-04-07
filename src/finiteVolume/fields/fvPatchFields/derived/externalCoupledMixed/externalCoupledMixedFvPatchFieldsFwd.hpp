@@ -26,7 +26,7 @@ License
 #ifndef externalCoupledMixedFvPatchFieldsFwd_H
 #define externalCoupledMixedFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

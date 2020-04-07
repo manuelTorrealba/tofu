@@ -36,14 +36,14 @@ SourceFiles
 #ifndef moleculeCloud_H
 #define moleculeCloud_H
 
-#include "Cloud.H"
-#include "molecule.H"
-#include "IOdictionary.H"
-#include "potential.H"
-#include "InteractionLists.H"
-#include "labelVector.H"
-#include "Random.H"
-#include "fileName.H"
+#include "lagrangian/basic/Cloud/Cloud.hpp"
+#include "lagrangian/molecularDynamics/molecule/molecule/molecule.hpp"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "lagrangian/molecularDynamics/potential/potential/potential.hpp"
+#include "lagrangian/basic/InteractionLists/InteractionLists.hpp"
+#include "OpenFOAM/primitives/Vector/labelVector/labelVector.hpp"
+#include "OpenFOAM/primitives/Random/Random.hpp"
+#include "OpenFOAM/primitives/strings/fileName/fileName.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -208,7 +208,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "moleculeCloudI.H"
+#include "lagrangian/molecularDynamics/molecule/moleculeCloud/moleculeCloudI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -209,7 +209,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "hRefConstThermoI.H"
+#include "thermophysicalModels/specie/thermo/hRefConst/hRefConstThermoI.hpp"
 
 #ifdef NoRepository
     #include "hRefConstThermo.C"

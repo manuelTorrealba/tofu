@@ -32,8 +32,8 @@ Description
 #ifndef polyRemovePoint_H
 #define polyRemovePoint_H
 
-#include "label.H"
-#include "topoAction.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/topoAction/topoAction.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

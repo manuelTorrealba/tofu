@@ -35,7 +35,7 @@ SourceFiles
 #ifndef noDecomp_H
 #define noDecomp_H
 
-#include "decompositionMethod.H"
+#include "parallel/decompose/decompositionMethods/decompositionMethod/decompositionMethod.hpp"
 
 namespace Foam
 {

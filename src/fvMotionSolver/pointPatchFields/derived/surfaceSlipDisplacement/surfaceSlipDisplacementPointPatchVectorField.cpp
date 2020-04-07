@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceSlipDisplacementPointPatchVectorField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "Time.H"
-#include "transformField.H"
-#include "fvMesh.H"
-#include "displacementMotionSolver.H"
+#include "fvMotionSolver/pointPatchFields/derived/surfaceSlipDisplacement/surfaceSlipDisplacementPointPatchVectorField.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/fields/Fields/transformField/transformField.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "dynamicMesh/motionSolvers/displacement/displacement/displacementMotionSolver.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

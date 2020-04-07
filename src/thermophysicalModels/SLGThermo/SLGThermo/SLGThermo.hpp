@@ -45,11 +45,11 @@ SourceFiles
 #ifndef SLGThermo_H
 #define SLGThermo_H
 
-#include "regIOobject.H"
-#include "fluidThermo.H"
-#include "basicSpecieMixture.H"
-#include "liquidMixtureProperties.H"
-#include "solidMixtureProperties.H"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
+#include "thermophysicalModels/basic/fluidThermo/fluidThermo.hpp"
+#include "thermophysicalModels/reactionThermo/mixtures/basicSpecieMixture/basicSpecieMixture.hpp"
+#include "thermophysicalModels/thermophysicalProperties/liquidProperties/liquidMixtureProperties/liquidMixtureProperties.hpp"
+#include "thermophysicalModels/thermophysicalProperties/solidProperties/solidMixtureProperties/solidMixtureProperties.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

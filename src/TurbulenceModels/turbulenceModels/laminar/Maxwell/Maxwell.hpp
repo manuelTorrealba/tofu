@@ -51,7 +51,7 @@ SourceFiles
 #ifndef Maxwell_H
 #define Maxwell_H
 
-#include "laminarModel.H"
+#include "TurbulenceModels/turbulenceModels/laminar/laminarModel/laminarModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -1,7 +1,7 @@
-#include "writePatchGraph.H"
-#include "volFields.H"
-#include "fvMesh.H"
-#include "graph.H"
+#include "sampling/graphField/writePatchGraph.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/graph/graph.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

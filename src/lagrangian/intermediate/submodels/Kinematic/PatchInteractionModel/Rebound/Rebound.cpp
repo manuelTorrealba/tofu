@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Rebound.H"
+#include "lagrangian/intermediate/submodels/Kinematic/PatchInteractionModel/Rebound/Rebound.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

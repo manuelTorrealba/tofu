@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchWave.H"
-#include "polyMesh.H"
-#include "wallPoint.H"
-#include "globalMeshData.H"
+#include "meshTools/cellDist/patchWave/patchWave.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "meshTools/cellDist/wallPoint/wallPoint.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

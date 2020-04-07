@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "v2fBase.H"
-#include "addToRunTimeSelectionTable.H"
+#include "TurbulenceModels/turbulenceModels/RAS/v2f/v2fBase.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

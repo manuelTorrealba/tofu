@@ -34,13 +34,13 @@ SourceFiles
 #ifndef thermalBaffleModel_H
 #define thermalBaffleModel_H
 
-#include "runTimeSelectionTables.H"
-#include "scalarIOField.H"
-#include "autoPtr.H"
-#include "volFieldsFwd.H"
-#include "solidThermo.H"
-#include "regionModel1D.H"
-#include "radiationModel.H"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarIOField.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "thermophysicalModels/solidThermo/solidThermo/solidThermo.hpp"
+#include "regionModels/regionModel/regionModel1D/regionModel1D.hpp"
+#include "thermophysicalModels/radiation/radiationModels/radiationModel/radiationModel.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

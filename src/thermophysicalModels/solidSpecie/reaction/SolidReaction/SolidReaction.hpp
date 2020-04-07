@@ -37,8 +37,8 @@ SourceFiles
 #ifndef SolidReaction_H
 #define SolidReaction_H
 
-#include "speciesTable.H"
-#include "Reaction.H"
+#include "thermophysicalModels/specie/speciesTable/speciesTable.hpp"
+#include "thermophysicalModels/specie/reaction/ReactionsN/Reaction/Reaction.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -168,7 +168,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SolidReactionI.H"
+#include "thermophysicalModels/solidSpecie/reaction/SolidReaction/SolidReactionI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

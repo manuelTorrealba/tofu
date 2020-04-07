@@ -67,8 +67,8 @@ SourceFiles
 #ifndef uniformJumpAMIFvPatchField_H
 #define uniformJumpAMIFvPatchField_H
 
-#include "fixedJumpAMIFvPatchField.H"
-#include "Function1.H"
+#include "finiteVolume/fields/fvPatchFields/derived/fixedJumpAMI/fixedJumpAMIFvPatchField.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

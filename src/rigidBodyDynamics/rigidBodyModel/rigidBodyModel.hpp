@@ -49,12 +49,12 @@ SourceFiles
 #ifndef RBD_rigidBodyModel_H
 #define RBD_rigidBodyModel_H
 
-#include "rigidBody.H"
-#include "subBody.H"
-#include "joint.H"
-#include "compositeJoint.H"
-#include "PtrList.H"
-#include "HashTable.H"
+#include "rigidBodyDynamics/bodies/rigidBody/rigidBody.hpp"
+#include "rigidBodyDynamics/bodies/subBody/subBody.hpp"
+#include "rigidBodyDynamics/joints/joint/joint.hpp"
+#include "rigidBodyDynamics/joints/composite/compositeJoint.hpp"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
 
 namespace Foam
 {
@@ -363,7 +363,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "rigidBodyModelI.H"
+#include "rigidBodyDynamics/rigidBodyModel/rigidBodyModelI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

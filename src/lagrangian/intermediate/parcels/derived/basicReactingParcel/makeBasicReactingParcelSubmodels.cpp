@@ -23,24 +23,24 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicReactingCloud.H"
+#include "lagrangian/intermediate/clouds/derived/basicReactingCloud/basicReactingCloud.hpp"
 
-#include "makeParcelCloudFunctionObjects.H"
+#include "lagrangian/intermediate/parcels/include/makeParcelCloudFunctionObjects.hpp"
 
 // Kinematic
-#include "makeThermoParcelForces.H" // thermo variant
-#include "makeParcelDispersionModels.H"
-#include "makeReactingParcelInjectionModels.H" // Reacting variant
-#include "makeParcelPatchInteractionModels.H"
-#include "makeParcelStochasticCollisionModels.H"
-#include "makeReactingParcelSurfaceFilmModels.H" // Reacting variant
+#include "lagrangian/intermediate/parcels/include/makeThermoParcelForces.hpp"
+#include "lagrangian/intermediate/parcels/include/makeParcelDispersionModels.hpp"
+#include "lagrangian/intermediate/parcels/include/makeReactingParcelInjectionModels.hpp"
+#include "lagrangian/intermediate/parcels/include/makeParcelPatchInteractionModels.hpp"
+#include "lagrangian/intermediate/parcels/include/makeParcelStochasticCollisionModels.hpp"
+#include "lagrangian/intermediate/parcels/include/makeReactingParcelSurfaceFilmModels.hpp"
 
 // Thermodynamic
-#include "makeParcelHeatTransferModels.H"
+#include "lagrangian/intermediate/parcels/include/makeParcelHeatTransferModels.hpp"
 
 // Reacting
-#include "makeReactingParcelCompositionModels.H"
-#include "makeReactingParcelPhaseChangeModels.H"
+#include "lagrangian/intermediate/parcels/include/makeReactingParcelCompositionModels.hpp"
+#include "lagrangian/intermediate/parcels/include/makeReactingParcelPhaseChangeModels.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

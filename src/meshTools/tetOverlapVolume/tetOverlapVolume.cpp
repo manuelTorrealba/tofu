@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tetOverlapVolume.H"
-#include "polyMesh.H"
-#include "OFstream.H"
-#include "treeBoundBox.H"
-#include "indexedOctree.H"
-#include "treeDataCell.H"
-#include "cut.H"
+#include "meshTools/tetOverlapVolume/tetOverlapVolume.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/meshes/treeBoundBox/treeBoundBox.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/indexedOctree.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/treeDataCell.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/cut/cut.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

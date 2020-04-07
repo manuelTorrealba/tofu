@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "geomDecomp.H"
+#include "parallel/decompose/decompositionMethods/geomDecomp/geomDecomp.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

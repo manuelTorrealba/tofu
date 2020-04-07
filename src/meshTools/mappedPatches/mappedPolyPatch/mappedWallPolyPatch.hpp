@@ -40,8 +40,8 @@ SourceFiles
 #ifndef mappedWallPolyPatch_H
 #define mappedWallPolyPatch_H
 
-#include "wallPolyPatch.H"
-#include "mappedPatchBase.H"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.hpp"
+#include "meshTools/mappedPatches/mappedPolyPatch/mappedPatchBase.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

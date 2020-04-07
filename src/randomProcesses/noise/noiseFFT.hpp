@@ -35,8 +35,8 @@ SourceFiles
 #ifndef noiseFFT_H
 #define noiseFFT_H
 
-#include "scalarField.H"
-#include "graph.H"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/graph/graph.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

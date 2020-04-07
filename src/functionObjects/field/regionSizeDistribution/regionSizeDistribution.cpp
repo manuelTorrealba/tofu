@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionSizeDistribution.H"
-#include "fvcVolumeIntegrate.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/field/regionSizeDistribution/regionSizeDistribution.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcVolumeIntegrate.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

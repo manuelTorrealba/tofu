@@ -35,7 +35,7 @@ SourceFiles
 #ifndef directionMixedFvPatchField_H
 #define directionMixedFvPatchField_H
 
-#include "transformFvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/basic/transform/transformFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

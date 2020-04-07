@@ -39,12 +39,12 @@ SourceFiles
 #ifndef polyMeshFilter_H
 #define polyMeshFilter_H
 
-#include "IOdictionary.H"
-#include "Time.H"
-#include "List.H"
-#include "autoPtr.H"
-#include "scalarField.H"
-#include "polyMeshFilterSettings.H"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "dynamicMesh/polyMeshFilter/polyMeshFilterSettings.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

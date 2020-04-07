@@ -37,8 +37,8 @@ SourceFiles
 
 #include "incompressible/transportModel/transportModel.H"
 #include "incompressible/viscosityModels/viscosityModel/viscosityModel.H"
-#include "twoPhaseMixture.H"
-#include "IOdictionary.H"
+#include "transportModels/twoPhaseMixture/twoPhaseMixture/twoPhaseMixture.hpp"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "infinitelyFastChemistry.H"
+#include "combustionModels/infinitelyFastChemistry/infinitelyFastChemistry.hpp"
 
 namespace Foam
 {

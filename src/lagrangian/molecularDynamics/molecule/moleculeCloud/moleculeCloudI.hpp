@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constants.H"
+#include "OpenFOAM/global/constants/constants.hpp"
 
 using namespace Foam::constant;
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SpecieMixture.H"
-#include "fvMesh.H"
+#include "thermophysicalModels/reactionThermo/mixtures/SpecieMixture/SpecieMixture.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

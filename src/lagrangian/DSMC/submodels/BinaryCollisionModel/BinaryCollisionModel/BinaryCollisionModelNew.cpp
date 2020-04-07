@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BinaryCollisionModel.H"
+#include "lagrangian/DSMC/submodels/BinaryCollisionModel/BinaryCollisionModel/BinaryCollisionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

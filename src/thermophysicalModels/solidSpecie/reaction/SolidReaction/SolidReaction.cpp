@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SolidReaction.H"
-#include "DynamicList.H"
+#include "thermophysicalModels/solidSpecie/reaction/SolidReaction/SolidReaction.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

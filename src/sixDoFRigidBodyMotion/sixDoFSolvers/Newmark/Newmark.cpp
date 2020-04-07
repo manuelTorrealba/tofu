@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Newmark.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sixDoFRigidBodyMotion/sixDoFSolvers/Newmark/Newmark.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

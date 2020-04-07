@@ -37,7 +37,7 @@ SourceFiles
 #ifndef simpleFilter_H
 #define simpleFilter_H
 
-#include "LESfilter.H"
+#include "TurbulenceModels/turbulenceModels/LES/LESfilters/LESfilter/LESfilter.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

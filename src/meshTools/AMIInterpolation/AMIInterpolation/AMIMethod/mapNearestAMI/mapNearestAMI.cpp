@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mapNearestAMI.H"
+#include "meshTools/AMIInterpolation/AMIInterpolation/AMIMethod/mapNearestAMI/mapNearestAMI.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

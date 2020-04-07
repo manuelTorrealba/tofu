@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "continuousGasKEqn.H"
+#include "TurbulenceModels/phaseCompressible/LES/continuousGasKEqn/continuousGasKEqn.hpp"
 #include "twoPhaseSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

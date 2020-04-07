@@ -34,8 +34,8 @@ SourceFiles
 #ifndef slicedFvsPatchFields_H
 #define slicedFvsPatchFields_H
 
-#include "slicedFvsPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvsPatchFields/basic/sliced/slicedFvsPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "scatterModel.H"
+#include "OpenFOAM/db/error/error.hpp"
+#include "thermophysicalModels/radiation/submodels/scatterModel/scatterModel/scatterModel.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -35,8 +35,8 @@ SourceFiles
 #ifndef heRhoThermo_H
 #define heRhoThermo_H
 
-#include "rhoThermo.H"
-#include "heThermo.H"
+#include "thermophysicalModels/basic/rhoThermo/rhoThermo.hpp"
+#include "thermophysicalModels/basic/heThermo/heThermo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

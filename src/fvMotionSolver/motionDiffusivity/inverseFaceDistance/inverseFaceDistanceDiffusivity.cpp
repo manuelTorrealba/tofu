@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "inverseFaceDistanceDiffusivity.H"
-#include "addToRunTimeSelectionTable.H"
-#include "HashSet.H"
-#include "wallPoint.H"
-#include "MeshWave.H"
+#include "fvMotionSolver/motionDiffusivity/inverseFaceDistance/inverseFaceDistanceDiffusivity.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "meshTools/cellDist/wallPoint/wallPoint.hpp"
+#include "meshTools/algorithms/MeshWave/MeshWave.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

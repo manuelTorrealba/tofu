@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pimpleMultiRegionControl.H"
-#include "pimpleControl.H"
+#include "finiteVolume/cfdTools/general/solutionControl/pimpleControl/pimpleMultiRegionControl/pimpleMultiRegionControl.hpp"
+#include "finiteVolume/cfdTools/general/solutionControl/pimpleControl/pimpleControl/pimpleControl.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "motionSmootherAlgo.H"
-#include "polyMeshGeometry.H"
-#include "IOmanip.H"
+#include "dynamicMesh/motionSmoother/motionSmootherAlgo.hpp"
+#include "dynamicMesh/motionSmoother/polyMeshGeometry/polyMeshGeometry.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOmanip.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

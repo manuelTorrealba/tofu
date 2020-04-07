@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoComposition.H"
+#include "lagrangian/intermediate/submodels/Reacting/CompositionModel/NoComposition/NoComposition.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -32,12 +32,12 @@ Description
 #ifndef basicSprayCloud_H
 #define basicSprayCloud_H
 
-#include "Cloud.H"
-#include "KinematicCloud.H"
-#include "ThermoCloud.H"
-#include "ReactingCloud.H"
-#include "SprayCloud.H"
-#include "basicSprayParcel.H"
+#include "lagrangian/basic/Cloud/Cloud.hpp"
+#include "lagrangian/intermediate/clouds/Templates/KinematicCloud/KinematicCloud.hpp"
+#include "lagrangian/intermediate/clouds/Templates/ThermoCloud/ThermoCloud.hpp"
+#include "lagrangian/intermediate/clouds/Templates/ReactingCloud/ReactingCloud.hpp"
+#include "lagrangian/spray/clouds/Templates/SprayCloud/SprayCloud.hpp"
+#include "lagrangian/spray/parcels/derived/basicSprayParcel/basicSprayParcel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

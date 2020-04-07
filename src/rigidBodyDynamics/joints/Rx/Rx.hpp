@@ -43,7 +43,7 @@ SourceFiles
 #ifndef RBD_joints_Rx_H
 #define RBD_joints_Rx_H
 
-#include "joint.H"
+#include "rigidBodyDynamics/joints/joint/joint.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

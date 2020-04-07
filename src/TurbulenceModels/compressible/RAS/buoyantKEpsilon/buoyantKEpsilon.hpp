@@ -61,7 +61,7 @@ SourceFiles
 #ifndef buoyantKEpsilon_H
 #define buoyantKEpsilon_H
 
-#include "kEpsilon.H"
+#include "TurbulenceModels/turbulenceModels/RAS/kEpsilon/kEpsilon.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

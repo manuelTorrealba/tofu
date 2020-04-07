@@ -35,16 +35,16 @@ SourceFiles
 #ifndef hexRef8_H
 #define hexRef8_H
 
-#include "labelIOList.H"
-#include "face.H"
-#include "HashSet.H"
-#include "DynamicList.H"
-#include "primitivePatch.H"
-#include "removeFaces.H"
-#include "refinementHistory.H"
-#include "PackedBoolList.H"
-#include "uniformDimensionedFields.H"
-#include "cellShapeList.H"
+#include "OpenFOAM/primitives/ints/lists/labelIOList.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/face.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/primitivePatch.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/removeFaces.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/hexRef8/refinementHistory.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
+#include "OpenFOAM/fields/UniformDimensionedFields/uniformDimensionedFields.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellShape/cellShapeList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

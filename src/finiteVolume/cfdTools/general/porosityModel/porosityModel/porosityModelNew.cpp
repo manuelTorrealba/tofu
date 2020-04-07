@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "porosityModel.H"
+#include "finiteVolume/cfdTools/general/porosityModel/porosityModel/porosityModel.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

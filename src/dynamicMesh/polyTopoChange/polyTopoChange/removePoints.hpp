@@ -36,10 +36,10 @@ SourceFiles
 #ifndef removePoints_H
 #define removePoints_H
 
-#include "typeInfo.H"
-#include "boolList.H"
-#include "pointField.H"
-#include "faceList.H"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/faceList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

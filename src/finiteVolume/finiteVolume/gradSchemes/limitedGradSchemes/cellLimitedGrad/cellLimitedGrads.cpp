@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellLimitedGrad.H"
-#include "minmodGradientLimiter.H"
-#include "VenkatakrishnanGradientLimiter.H"
-#include "cubicGradientLimiter.H"
+#include "finiteVolume/finiteVolume/gradSchemes/limitedGradSchemes/cellLimitedGrad/cellLimitedGrad.hpp"
+#include "finiteVolume/finiteVolume/gradSchemes/limitedGradSchemes/cellLimitedGrad/gradientLimiters/minmodGradientLimiter.hpp"
+#include "finiteVolume/finiteVolume/gradSchemes/limitedGradSchemes/cellLimitedGrad/gradientLimiters/VenkatakrishnanGradientLimiter.hpp"
+#include "finiteVolume/finiteVolume/gradSchemes/limitedGradSchemes/cellLimitedGrad/gradientLimiters/cubicGradientLimiter.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

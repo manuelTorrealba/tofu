@@ -39,7 +39,7 @@ SourceFiles
 #ifndef constantAlphaContactAngleFvPatchScalarField_H
 #define constantAlphaContactAngleFvPatchScalarField_H
 
-#include "alphaContactAngleFvPatchScalarField.H"
+#include "transportModels/twoPhaseProperties/alphaContactAngle/alphaContactAngle/alphaContactAngleFvPatchScalarField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

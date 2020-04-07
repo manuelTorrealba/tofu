@@ -35,8 +35,8 @@ SourceFiles
 #ifndef EulerImplicit_H
 #define EulerImplicit_H
 
-#include "chemistrySolver.H"
-#include "Switch.H"
+#include "thermophysicalModels/chemistryModel/chemistrySolver/chemistrySolver/chemistrySolver.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

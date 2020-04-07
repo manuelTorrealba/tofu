@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "projectFace.H"
-#include "unitConversion.H"
-#include "addToRunTimeSelectionTable.H"
-#include "blockDescriptor.H"
-#include "OBJstream.H"
-#include "linearInterpolationWeights.H"
+#include "mesh/blockMesh/blockFaces/projectFace/projectFace.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "mesh/blockMesh/blockDescriptor/blockDescriptor.hpp"
+#include "surfMesh/surfaceFormats/obj/OBJstream.hpp"
+#include "OpenFOAM/interpolations/interpolationWeights/linearInterpolationWeights/linearInterpolationWeights.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

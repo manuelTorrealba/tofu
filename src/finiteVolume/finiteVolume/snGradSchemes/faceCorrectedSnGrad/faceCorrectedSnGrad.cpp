@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceCorrectedSnGrad.H"
-#include "volPointInterpolation.H"
-#include "triangle.H"
+#include "finiteVolume/finiteVolume/snGradSchemes/faceCorrectedSnGrad/faceCorrectedSnGrad.hpp"
+#include "finiteVolume/interpolation/volPointInterpolation/volPointInterpolation.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/triangle/triangle.hpp"
 
 // * * * * * * * * * * * * * * * * Destructor  * * * * * * * * * * * * * * * //
 

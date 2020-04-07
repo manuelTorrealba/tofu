@@ -23,25 +23,25 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshRefinement.H"
-#include "fvMesh.H"
-#include "syncTools.H"
-#include "Time.H"
-#include "refinementSurfaces.H"
-#include "pointSet.H"
-#include "faceSet.H"
-#include "indirectPrimitivePatch.H"
-#include "cellSet.H"
-#include "searchableSurfaces.H"
-#include "polyMeshGeometry.H"
-#include "IOmanip.H"
-#include "unitConversion.H"
-#include "snappySnapDriver.H"
+#include "mesh/snappyHexMesh/meshRefinement/meshRefinement.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "mesh/snappyHexMesh/refinementSurfaces/refinementSurfaces.hpp"
+#include "meshTools/sets/topoSets/pointSet.hpp"
+#include "meshTools/sets/topoSets/faceSet.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.hpp"
+#include "meshTools/sets/topoSets/cellSet.hpp"
+#include "meshTools/searchableSurfaces/searchableSurfaces/searchableSurfaces.hpp"
+#include "dynamicMesh/motionSmoother/polyMeshGeometry/polyMeshGeometry.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOmanip.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
+#include "mesh/snappyHexMesh/snappyHexMeshDriver/snappySnapDriver.hpp"
 
-#include "snapParameters.H"
-#include "motionSmoother.H"
-#include "topoDistanceData.H"
-#include "FaceCellWave.H"
+#include "mesh/snappyHexMesh/snappyHexMeshDriver/snapParameters/snapParameters.hpp"
+#include "dynamicMesh/motionSmoother/motionSmoother.hpp"
+#include "meshTools/meshStructure/topoDistanceData.hpp"
+#include "meshTools/algorithms/MeshWave/FaceCellWave.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "simpleFilter.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvc.H"
+#include "TurbulenceModels/turbulenceModels/LES/LESfilters/simpleFilter/simpleFilter.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvc.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

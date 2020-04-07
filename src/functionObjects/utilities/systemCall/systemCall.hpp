@@ -83,8 +83,8 @@ SourceFiles
 #ifndef functionObjects_systemCall_H
 #define functionObjects_systemCall_H
 
-#include "functionObject.H"
-#include "stringList.H"
+#include "OpenFOAM/db/functionObjects/functionObject/functionObject.hpp"
+#include "OpenFOAM/primitives/strings/lists/stringList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

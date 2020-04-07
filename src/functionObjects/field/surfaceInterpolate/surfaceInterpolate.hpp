@@ -66,9 +66,9 @@ SourceFiles
 #ifndef functionObjects_surfaceInterpolate_H
 #define functionObjects_surfaceInterpolate_H
 
-#include "fvMeshFunctionObject.H"
-#include "surfaceFieldsFwd.H"
-#include "Tuple2.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFieldsFwd.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

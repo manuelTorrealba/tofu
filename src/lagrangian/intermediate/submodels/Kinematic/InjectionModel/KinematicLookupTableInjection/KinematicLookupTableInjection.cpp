@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "KinematicLookupTableInjection.H"
-#include "scalarIOList.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/KinematicLookupTableInjection/KinematicLookupTableInjection.hpp"
+#include "OpenFOAM/primitives/Scalar/lists/scalarIOList.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

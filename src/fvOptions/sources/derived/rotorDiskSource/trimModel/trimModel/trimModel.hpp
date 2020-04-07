@@ -35,9 +35,9 @@ SourceFiles
 #ifndef trimModel_H
 #define trimModel_H
 
-#include "rotorDiskSource.H"
-#include "dictionary.H"
-#include "runTimeSelectionTables.H"
+#include "fvOptions/sources/derived/rotorDiskSource/rotorDiskSource.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

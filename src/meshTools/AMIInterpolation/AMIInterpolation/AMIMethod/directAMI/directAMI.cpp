@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "directAMI.H"
+#include "meshTools/AMIInterpolation/AMIInterpolation/AMIMethod/directAMI/directAMI.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

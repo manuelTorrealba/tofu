@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "radiation.H"
-#include "fluidThermo.H"
-#include "fvMatrices.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalModels/radiation/fvOptions/radiation/radiation.hpp"
+#include "thermophysicalModels/basic/fluidThermo/fluidThermo.hpp"
+#include "finiteVolume/fvMatrices/fvMatrices.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

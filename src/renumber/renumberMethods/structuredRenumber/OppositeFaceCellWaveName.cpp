@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "OppositeFaceCellWave.H"
+#include "renumber/renumberMethods/structuredRenumber/OppositeFaceCellWave.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

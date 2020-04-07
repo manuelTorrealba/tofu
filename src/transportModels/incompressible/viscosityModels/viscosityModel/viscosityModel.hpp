@@ -47,11 +47,11 @@ SourceFiles
 #ifndef viscosityModel_H
 #define viscosityModel_H
 
-#include "dictionary.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "dimensionedScalar.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFieldsFwd.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

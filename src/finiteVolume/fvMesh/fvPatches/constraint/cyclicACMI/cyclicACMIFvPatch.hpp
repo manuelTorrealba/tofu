@@ -35,8 +35,8 @@ SourceFiles
 #ifndef cyclicACMIFvPatch_H
 #define cyclicACMIFvPatch_H
 
-#include "cyclicAMIFvPatch.H"
-#include "cyclicACMIPolyPatch.H"
+#include "finiteVolume/fvMesh/fvPatches/constraint/cyclicAMI/cyclicAMIFvPatch.hpp"
+#include "meshTools/AMIInterpolation/patches/cyclicACMI/cyclicACMIPolyPatch/cyclicACMIPolyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pairPatchAgglomeration.H"
+#include "fvAgglomerationMethods/pairPatchAgglomeration/pairPatchAgglomeration.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

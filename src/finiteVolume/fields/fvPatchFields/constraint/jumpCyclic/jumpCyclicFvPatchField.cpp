@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "jumpCyclicFvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/constraint/jumpCyclic/jumpCyclicFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

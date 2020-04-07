@@ -104,8 +104,8 @@ SourceFiles
 #ifndef functionObjects_volFieldValue_H
 #define functionObjects_volFieldValue_H
 
-#include "fieldValue.H"
-#include "volRegion.H"
+#include "functionObjects/field/fieldValues/fieldValue/fieldValue.hpp"
+#include "finiteVolume/functionObjects/volRegion/volRegion.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

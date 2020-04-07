@@ -45,7 +45,7 @@ SourceFiles
 #ifndef SpalartAllmarasDDES_H
 #define SpalartAllmarasDDES_H
 
-#include "SpalartAllmarasDES.H"
+#include "TurbulenceModels/turbulenceModels/LES/SpalartAllmarasDES/SpalartAllmarasDES.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

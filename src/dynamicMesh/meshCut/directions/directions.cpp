@@ -23,16 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "directions.H"
-#include "polyMesh.H"
-#include "twoDPointCorrector.H"
-#include "directionInfo.H"
-#include "MeshWave.H"
-#include "OFstream.H"
-#include "meshTools.H"
-#include "hexMatcher.H"
-#include "Switch.H"
-#include "globalMeshData.H"
+#include "dynamicMesh/meshCut/directions/directions.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "meshTools/twoDPointCorrector/twoDPointCorrector.hpp"
+#include "dynamicMesh/meshCut/directions/directionInfo/directionInfo.hpp"
+#include "meshTools/algorithms/MeshWave/MeshWave.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellMatcher/hexMatcher.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

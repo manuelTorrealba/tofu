@@ -26,7 +26,7 @@ License
 #ifndef extrapolatedCalculatedFvPatchFieldsFwd_H
 #define extrapolatedCalculatedFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

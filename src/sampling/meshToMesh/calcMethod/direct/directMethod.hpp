@@ -37,7 +37,7 @@ SourceFiles
 #ifndef directMethod_H
 #define directMethod_H
 
-#include "meshToMeshMethod.H"
+#include "sampling/meshToMesh/calcMethod/meshToMeshMethod/meshToMeshMethod.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

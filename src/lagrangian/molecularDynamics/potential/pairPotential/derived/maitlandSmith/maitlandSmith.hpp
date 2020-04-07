@@ -48,7 +48,7 @@ SourceFiles
 #ifndef maitlandSmith_H
 #define maitlandSmith_H
 
-#include "pairPotential.H"
+#include "lagrangian/molecularDynamics/potential/pairPotential/basic/pairPotential.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

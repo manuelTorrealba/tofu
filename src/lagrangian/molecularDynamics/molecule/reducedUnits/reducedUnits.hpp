@@ -36,8 +36,8 @@ SourceFiles
 #ifndef reducedUnits_H
 #define reducedUnits_H
 
-#include "scalar.H"
-#include "IOdictionary.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -180,7 +180,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "reducedUnitsI.H"
+#include "lagrangian/molecularDynamics/molecule/reducedUnits/reducedUnitsI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

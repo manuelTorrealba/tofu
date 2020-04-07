@@ -35,12 +35,12 @@ SourceFiles
 #ifndef OBJstream_H
 #define OBJstream_H
 
-#include "OFstream.H"
-#include "point.H"
-#include "edge.H"
-#include "face.H"
-#include "triPointRef.H"
-#include "linePointRef.H"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "OpenFOAM/meshes/meshShapes/edge/edge.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/face.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/triangle/triPointRef.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/line/linePointRef.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,8 +35,8 @@ SourceFiles
 #ifndef symmetryFvsPatchField_H
 #define symmetryFvsPatchField_H
 
-#include "fvsPatchField.H"
-#include "symmetryFvPatch.H"
+#include "finiteVolume/fields/fvsPatchFields/fvsPatchField/fvsPatchField.hpp"
+#include "finiteVolume/fvMesh/fvPatches/constraint/symmetry/symmetryFvPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

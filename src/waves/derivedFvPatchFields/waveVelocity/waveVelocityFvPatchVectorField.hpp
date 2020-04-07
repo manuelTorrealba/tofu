@@ -111,8 +111,8 @@ SourceFiles
 #ifndef waveVelocityFvPatchVectorField_H
 #define waveVelocityFvPatchVectorField_H
 
-#include "directionMixedFvPatchFields.H"
-#include "waveSuperposition.H"
+#include "finiteVolume/fields/fvPatchFields/basic/directionMixed/directionMixedFvPatchFields.hpp"
+#include "waves/waveSuperposition/waveSuperposition.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

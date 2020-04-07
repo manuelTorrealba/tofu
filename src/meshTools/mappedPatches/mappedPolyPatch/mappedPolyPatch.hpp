@@ -40,8 +40,8 @@ SourceFiles
 #ifndef mappedPolyPatch_H
 #define mappedPolyPatch_H
 
-#include "polyPatch.H"
-#include "mappedPatchBase.H"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.hpp"
+#include "meshTools/mappedPatches/mappedPolyPatch/mappedPatchBase.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

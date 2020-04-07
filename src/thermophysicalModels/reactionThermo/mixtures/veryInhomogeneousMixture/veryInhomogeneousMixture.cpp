@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "veryInhomogeneousMixture.H"
-#include "fvMesh.H"
+#include "thermophysicalModels/reactionThermo/mixtures/veryInhomogeneousMixture/veryInhomogeneousMixture.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

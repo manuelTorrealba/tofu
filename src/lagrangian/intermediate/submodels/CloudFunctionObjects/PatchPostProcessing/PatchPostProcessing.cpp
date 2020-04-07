@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchPostProcessing.H"
-#include "Pstream.H"
-#include "stringListOps.H"
-#include "ListOps.H"
-#include "ListListOps.H"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/PatchPostProcessing/PatchPostProcessing.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/primitives/strings/lists/stringListOps.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "OpenFOAM/containers/Lists/ListListOps/ListListOps.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

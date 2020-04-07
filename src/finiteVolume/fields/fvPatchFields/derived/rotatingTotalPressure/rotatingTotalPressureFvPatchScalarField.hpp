@@ -70,8 +70,8 @@ SourceFiles
 #ifndef rotatingTotalPressureFvPatchScalarField_H
 #define rotatingTotalPressureFvPatchScalarField_H
 
-#include "totalPressureFvPatchScalarField.H"
-#include "Function1.H"
+#include "finiteVolume/fields/fvPatchFields/derived/totalPressure/totalPressureFvPatchScalarField.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

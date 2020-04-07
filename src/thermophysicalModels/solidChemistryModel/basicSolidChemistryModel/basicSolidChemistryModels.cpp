@@ -30,13 +30,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeSolidChemistryModel.H"
+#include "thermophysicalModels/solidChemistryModel/makeSolidChemistryModel.hpp"
 
-#include "pyrolysisChemistryModel.H"
-#include "basicSolidChemistryModel.H"
-#include "solidChemistryModel.H"
-#include "solidThermoPhysicsTypes.H"
-#include "thermoPhysicsTypes.H"
+#include "thermophysicalModels/solidChemistryModel/pyrolysisChemistryModel/pyrolysisChemistryModel.hpp"
+#include "thermophysicalModels/solidChemistryModel/basicSolidChemistryModel/basicSolidChemistryModel.hpp"
+#include "thermophysicalModels/solidChemistryModel/solidChemistryModel/solidChemistryModel.hpp"
+#include "thermophysicalModels/solidSpecie/include/solidThermoPhysicsTypes.hpp"
+#include "thermophysicalModels/specie/include/thermoPhysicsTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // hConstSolidThermoPhysics

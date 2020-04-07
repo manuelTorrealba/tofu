@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "preservePatchesConstraint.H"
-#include "addToRunTimeSelectionTable.H"
-#include "syncTools.H"
+#include "parallel/decompose/decompositionMethods/decompositionConstraints/preservePatches/preservePatchesConstraint.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

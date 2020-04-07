@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMotionSolverEngineMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvcMeshPhi.H"
-#include "surfaceInterpolate.H"
+#include "engine/engineMesh/fvMotionSolverEngineMesh/fvMotionSolverEngineMesh.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcMeshPhi.hpp"
+#include "functionObjects/field/surfaceInterpolate/surfaceInterpolate.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

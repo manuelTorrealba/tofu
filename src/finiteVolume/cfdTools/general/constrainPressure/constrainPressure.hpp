@@ -34,9 +34,9 @@ SourceFiles
 #ifndef constrainPressure_H
 #define constrainPressure_H
 
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "IOMRFZoneList.H"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFieldsFwd.hpp"
+#include "finiteVolume/cfdTools/general/MRF/IOMRFZoneList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

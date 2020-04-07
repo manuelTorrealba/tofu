@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "standardPhaseChange.H"
-#include "addToRunTimeSelectionTable.H"
-#include "thermoSingleLayer.H"
-#include "zeroField.H"
+#include "regionModels/surfaceFilmModels/submodels/thermo/phaseChangeModel/standardPhaseChange/standardPhaseChange.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "regionModels/surfaceFilmModels/thermoSingleLayer/thermoSingleLayer.hpp"
+#include "OpenFOAM/fields/Fields/zeroField/zeroField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -32,9 +32,9 @@ Description
 #ifndef surfaceMesh_H
 #define surfaceMesh_H
 
-#include "GeoMesh.H"
-#include "fvMesh.H"
-#include "primitiveMesh.H"
+#include "OpenFOAM/meshes/GeoMesh/GeoMesh.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

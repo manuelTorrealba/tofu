@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VTKsurfaceFormat.H"
-#include "vtkUnstructuredReader.H"
-#include "scalarIOField.H"
+#include "surfMesh/surfaceFormats/vtk/VTKsurfaceFormat.hpp"
+#include "fileFormats/vtk/vtkUnstructuredReader.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarIOField.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

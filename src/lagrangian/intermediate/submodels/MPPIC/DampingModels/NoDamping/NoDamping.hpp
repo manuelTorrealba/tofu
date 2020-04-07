@@ -34,7 +34,7 @@ SourceFiles
 #ifndef NoDamping_H
 #define NoDamping_H
 
-#include "DampingModel.H"
+#include "lagrangian/intermediate/submodels/MPPIC/DampingModels/DampingModel/DampingModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef eddyViscosity_H
 #define eddyViscosity_H
 
-#include "linearViscousStress.H"
+#include "TurbulenceModels/turbulenceModels/linearViscousStress/linearViscousStress.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

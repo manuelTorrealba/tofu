@@ -59,8 +59,8 @@ SourceFiles
 #ifndef MarshakRadiationFvPatchScalarField_H
 #define MarshakRadiationFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
-#include "radiationCoupledBase.H"
+#include "finiteVolume/fields/fvPatchFields/basic/mixed/mixedFvPatchFields.hpp"
+#include "thermophysicalModels/radiation/derivedFvPatchFields/radiationCoupledBase/radiationCoupledBase.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

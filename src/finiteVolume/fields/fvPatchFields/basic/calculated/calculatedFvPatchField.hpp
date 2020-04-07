@@ -47,7 +47,7 @@ SourceFiles
 #ifndef calculatedFvPatchField_H
 #define calculatedFvPatchField_H
 
-#include "fvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

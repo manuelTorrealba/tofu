@@ -35,11 +35,11 @@ SourceFile
 #ifndef fvOptionList_H
 #define fvOptionList_H
 
-#include "fvOption.H"
-#include "PtrList.H"
-#include "GeometricField.H"
-#include "geometricOneField.H"
-#include "fvPatchField.H"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOption.hpp"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "OpenFOAM/fields/GeometricFields/GeometricField/GeometricField.hpp"
+#include "OpenFOAM/fields/GeometricFields/geometricOneField/geometricOneField.hpp"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -40,11 +40,11 @@ Description
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "fvmDdt.H"
-#include "fvmD2dt2.H"
-#include "fvmDiv.H"
-#include "fvmLaplacian.H"
-#include "fvmSup.H"
+#include "finiteVolume/finiteVolume/fvm/fvmDdt.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvmD2dt2.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvmDiv.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvmLaplacian.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvmSup.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

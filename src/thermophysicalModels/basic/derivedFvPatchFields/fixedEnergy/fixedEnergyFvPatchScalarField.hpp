@@ -48,7 +48,7 @@ SourceFiles
 #ifndef fixedEnergyFvPatchScalarField_H
 #define fixedEnergyFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

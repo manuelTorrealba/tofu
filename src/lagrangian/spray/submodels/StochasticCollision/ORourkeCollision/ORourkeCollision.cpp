@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ORourkeCollision.H"
-#include "SLGThermo.H"
-#include "CompactListList.H"
-#include "mathematicalConstants.H"
+#include "lagrangian/spray/submodels/StochasticCollision/ORourkeCollision/ORourkeCollision.hpp"
+#include "thermophysicalModels/SLGThermo/SLGThermo/SLGThermo.hpp"
+#include "OpenFOAM/containers/Lists/CompactListList/CompactListList.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
 
 using namespace Foam::constant::mathematical;
 

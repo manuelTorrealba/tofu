@@ -34,9 +34,9 @@ Description
 #ifndef tabulatedHeatTransfer_H
 #define tabulatedHeatTransfer_H
 
-#include "interRegionHeatTransferModel.H"
-#include "autoPtr.H"
-#include "interpolation2DTable.H"
+#include "fvOptions/sources/interRegion/interRegionHeatTransfer/interRegionHeatTransferModel/interRegionHeatTransferModel.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/interpolations/interpolation2DTable/interpolation2DTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

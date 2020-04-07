@@ -52,7 +52,7 @@ SourceFiles
 #ifndef Newmark_H
 #define Newmark_H
 
-#include "sixDoFSolver.H"
+#include "sixDoFRigidBodyMotion/sixDoFSolvers/sixDoFSolver/sixDoFSolver.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

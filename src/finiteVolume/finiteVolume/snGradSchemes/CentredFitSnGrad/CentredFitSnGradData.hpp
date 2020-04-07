@@ -35,7 +35,7 @@ SourceFiles
 #ifndef CentredFitSnGradData_H
 #define CentredFitSnGradData_H
 
-#include "FitData.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/FitData/FitData.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

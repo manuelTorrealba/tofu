@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tabulatedAccelerationSource.H"
-#include "fvMesh.H"
-#include "fvMatrices.H"
-#include "geometricOneField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvOptions/sources/derived/tabulatedAccelerationSource/tabulatedAccelerationSource.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/fvMatrices/fvMatrices.hpp"
+#include "OpenFOAM/fields/GeometricFields/geometricOneField/geometricOneField.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

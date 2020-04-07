@@ -41,8 +41,8 @@ SourceFiles
 #ifndef functionObjects_CourantNo_H
 #define functionObjects_CourantNo_H
 
-#include "fieldExpression.H"
-#include "volFields.H"
+#include "functionObjects/field/fieldExpression/fieldExpression.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

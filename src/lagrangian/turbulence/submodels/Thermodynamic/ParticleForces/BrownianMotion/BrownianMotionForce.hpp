@@ -45,8 +45,8 @@ SourceFiles
 #ifndef BrownianMotionForce_H
 #define BrownianMotionForce_H
 
-#include "ParticleForce.H"
-#include "Random.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.hpp"
+#include "OpenFOAM/primitives/Random/Random.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -157,7 +157,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "BrownianMotionForceI.H"
+#include "lagrangian/turbulence/submodels/Thermodynamic/ParticleForces/BrownianMotion/BrownianMotionForceI.hpp"
 
 #ifdef NoRepository
     #include "BrownianMotionForce.C"

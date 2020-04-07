@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "addToRunTimeSelectionTable.H"
-#include "powerLawLopesdaCosta.H"
-#include "geometricOneField.H"
-#include "fvMatrices.H"
-#include "triSurfaceMesh.H"
-#include "triSurfaceTools.H"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "atmosphericModels/porosityModels/powerLawLopesdaCosta/powerLawLopesdaCosta.hpp"
+#include "OpenFOAM/fields/GeometricFields/geometricOneField/geometricOneField.hpp"
+#include "finiteVolume/fvMatrices/fvMatrices.hpp"
+#include "meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.hpp"
+#include "meshTools/triSurface/triSurfaceTools/triSurfaceTools.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

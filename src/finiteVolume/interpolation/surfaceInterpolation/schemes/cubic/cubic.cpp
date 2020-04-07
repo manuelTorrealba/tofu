@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cubic.H"
-#include "fvMesh.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/cubic/cubic.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

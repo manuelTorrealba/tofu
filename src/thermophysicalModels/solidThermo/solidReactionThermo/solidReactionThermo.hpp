@@ -35,10 +35,10 @@ SourceFiles
 #ifndef solidReactionThermo_H
 #define solidReactionThermo_H
 
-#include "basicSpecieMixture.H"
-#include "solidThermo.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
+#include "thermophysicalModels/reactionThermo/mixtures/basicSpecieMixture/basicSpecieMixture.hpp"
+#include "thermophysicalModels/solidThermo/solidThermo/solidThermo.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

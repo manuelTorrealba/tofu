@@ -29,6 +29,7 @@ License
 #include "OpenFOAM/db/dictionary/dictionary.hpp"
 #include "OpenFOAM/db/IOobjects/IOdictionary/localIOdictionary.hpp"
 #include "OpenFOAM/meshes/data/data.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -1349,7 +1350,7 @@ Foam::Ostream& Foam::operator<<
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "GeometricBoundaryField.C"
-#include "GeometricFieldFunctions.C"
+//#include "GeometricBoundaryField.C"
+//#include "GeometricFieldFunctions.C"
 
 // ************************************************************************* //

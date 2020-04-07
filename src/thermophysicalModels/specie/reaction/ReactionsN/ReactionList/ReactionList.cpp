@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReactionList.H"
-#include "IFstream.H"
-#include "SLPtrList.H"
+#include "thermophysicalModels/specie/reaction/ReactionsN/ReactionList/ReactionList.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/containers/LinkedLists/user/SLPtrList.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

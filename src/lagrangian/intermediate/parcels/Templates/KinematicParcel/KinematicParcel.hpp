@@ -44,13 +44,13 @@ SourceFiles
 #ifndef KinematicParcel_H
 #define KinematicParcel_H
 
-#include "particle.H"
-#include "IOstream.H"
-#include "autoPtr.H"
-#include "interpolation.H"
-#include "demandDrivenEntry.H"
+#include "lagrangian/basic/particle/particle.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOstream.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "finiteVolume/interpolation/interpolation/interpolation/interpolation.hpp"
+#include "OpenFOAM/primitives/demandDrivenEntry/demandDrivenEntry.hpp"
 
-// #include "ParticleForceList.H" // TODO
+#include "lagrangian/intermediate/submodels/ForceTypes/ParticleForceList/ParticleForceList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -668,8 +668,8 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "KinematicParcelI.H"
-#include "KinematicParcelTrackingDataI.H"
+#include "lagrangian/intermediate/parcels/Templates/KinematicParcel/KinematicParcelI.hpp"
+#include "lagrangian/intermediate/parcels/Templates/KinematicParcel/KinematicParcelTrackingDataI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

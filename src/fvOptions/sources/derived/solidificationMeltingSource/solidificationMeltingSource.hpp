@@ -122,10 +122,10 @@ SourceFiles
 #ifndef solidificationMeltingSource_H
 #define solidificationMeltingSource_H
 
-#include "fvMesh.H"
-#include "volFields.H"
-#include "cellSetOption.H"
-#include "NamedEnum.H"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "fvOptions/cellSetOption/cellSetOption.hpp"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

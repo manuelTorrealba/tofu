@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReactionProxy.H"
+#include "thermophysicalModels/specie/reaction/ReactionsN/ReactionProxy/ReactionProxy.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

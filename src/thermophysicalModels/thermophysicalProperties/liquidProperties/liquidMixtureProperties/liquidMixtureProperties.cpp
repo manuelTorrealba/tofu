@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "liquidMixtureProperties.H"
-#include "dictionary.H"
-#include "specie.H"
+#include "thermophysicalModels/thermophysicalProperties/liquidProperties/liquidMixtureProperties/liquidMixtureProperties.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "thermophysicalModels/specie/specie/specie.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

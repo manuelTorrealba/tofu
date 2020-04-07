@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundaryRegion.H"
-#include "IOMap.H"
-#include "OFstream.H"
-#include "stringListOps.H"
+#include "conversion/meshTables/boundaryRegion.hpp"
+#include "OpenFOAM/db/IOobjects/IOMap/IOMap.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/primitives/strings/lists/stringListOps.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

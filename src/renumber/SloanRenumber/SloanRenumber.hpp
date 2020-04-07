@@ -37,8 +37,8 @@ SourceFiles
 #ifndef SloanRenumber_H
 #define SloanRenumber_H
 
-#include "renumberMethod.H"
-#include "Switch.H"
+#include "renumber/renumberMethods/renumberMethod/renumberMethod.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
 
 namespace Foam
 {

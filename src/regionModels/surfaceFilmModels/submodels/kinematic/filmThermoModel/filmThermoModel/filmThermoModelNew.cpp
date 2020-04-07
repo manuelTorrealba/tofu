@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "filmThermoModel.H"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/filmThermoModel/filmThermoModel/filmThermoModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "StochasticDispersionRAS.H"
-#include "constants.H"
+#include "lagrangian/turbulence/submodels/Kinematic/DispersionModel/StochasticDispersionRAS/StochasticDispersionRAS.hpp"
+#include "OpenFOAM/global/constants/constants.hpp"
 
 using namespace Foam::constant::mathematical;
 

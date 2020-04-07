@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fieldMinMax.H"
-#include "fieldTypes.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/field/fieldMinMax/fieldMinMax.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

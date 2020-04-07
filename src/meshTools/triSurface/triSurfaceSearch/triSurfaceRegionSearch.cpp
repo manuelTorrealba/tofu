@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurfaceRegionSearch.H"
-#include "indexedOctree.H"
-#include "triSurface.H"
-#include "PatchTools.H"
+#include "meshTools/triSurface/triSurfaceSearch/triSurfaceRegionSearch.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/indexedOctree.hpp"
+#include "triSurface/triSurface/triSurface.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/PatchTools/PatchTools.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

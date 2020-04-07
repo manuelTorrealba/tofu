@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "refinementFeatures.H"
-#include "Time.H"
-#include "Tuple2.H"
-#include "DynamicField.H"
-#include "featureEdgeMesh.H"
+#include "mesh/snappyHexMesh/refinementFeatures/refinementFeatures.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
+#include "OpenFOAM/fields/Fields/DynamicField/DynamicField.hpp"
+#include "meshTools/edgeMesh/featureEdgeMesh/featureEdgeMesh.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reactionRateFlameArea.H"
+#include "combustionModels/FSD/reactionRateFlameAreaModels/reactionRateFlameArea/reactionRateFlameArea.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

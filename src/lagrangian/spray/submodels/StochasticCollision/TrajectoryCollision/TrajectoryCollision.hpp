@@ -33,7 +33,7 @@ Description
 #ifndef TrajectoryCollision_H
 #define TrajectoryCollision_H
 
-#include "ORourkeCollision.H"
+#include "lagrangian/spray/submodels/StochasticCollision/ORourkeCollision/ORourkeCollision.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

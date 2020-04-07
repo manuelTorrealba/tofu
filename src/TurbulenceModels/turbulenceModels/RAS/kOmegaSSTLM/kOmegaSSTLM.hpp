@@ -85,7 +85,7 @@ SourceFiles
 #ifndef kOmegaSSTLM_H
 #define kOmegaSSTLM_H
 
-#include "kOmegaSST.H"
+#include "TurbulenceModels/turbulenceModels/RAS/kOmegaSST/kOmegaSST.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constrainHbyA.H"
-#include "volFields.H"
-#include "fixedFluxExtrapolatedPressureFvPatchScalarField.H"
+#include "finiteVolume/cfdTools/general/constrainHbyA/constrainHbyA.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fields/fvPatchFields/derived/fixedFluxExtrapolatedPressure/fixedFluxExtrapolatedPressureFvPatchScalarField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

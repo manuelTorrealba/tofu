@@ -51,6 +51,7 @@ namespace Foam
 
 // Forward declaration of classes
 class mapPolyMesh;
+class polyMesh;
 
 /*---------------------------------------------------------------------------*\
                        Class IOOutputFilter Declaration

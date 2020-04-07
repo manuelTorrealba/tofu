@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MaxwellianThermal.H"
-#include "constants.H"
+#include "lagrangian/DSMC/submodels/WallInteractionModel/MaxwellianThermal/MaxwellianThermal.hpp"
+#include "OpenFOAM/global/constants/constants.hpp"
 
 using namespace Foam::constant;
 

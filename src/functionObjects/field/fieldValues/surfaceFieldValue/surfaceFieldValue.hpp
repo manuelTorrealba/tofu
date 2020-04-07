@@ -162,8 +162,8 @@ SourceFiles
 #ifndef functionObjects_surfaceFieldValue_H
 #define functionObjects_surfaceFieldValue_H
 
-#include "fieldValue.H"
-#include "NamedEnum.H"
+#include "functionObjects/field/fieldValues/fieldValue/fieldValue.hpp"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -463,7 +463,7 @@ vector surfaceFieldValue::processValues
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "surfaceFieldValueI.H"
+#include "functionObjects/field/fieldValues/surfaceFieldValue/surfaceFieldValueI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

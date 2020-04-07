@@ -35,8 +35,8 @@ SourceFiles
 #ifndef ParticleErosion_H
 #define ParticleErosion_H
 
-#include "CloudFunctionObject.H"
-#include "volFields.H"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

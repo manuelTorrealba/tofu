@@ -53,9 +53,9 @@ SourceFiles
 #ifndef kOmegaSSTDES_H
 #define kOmegaSSTDES_H
 
-#include "kOmegaSSTBase.H"
-#include "LESModel.H"
-#include "LESeddyViscosity.H"
+#include "TurbulenceModels/turbulenceModels/Base/kOmegaSST/kOmegaSSTBase.hpp"
+#include "TurbulenceModels/turbulenceModels/LES/LESModel/LESModel.hpp"
+#include "TurbulenceModels/turbulenceModels/LES/LESeddyViscosity/LESeddyViscosity.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

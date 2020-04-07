@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "buoyantKEpsilon.H"
-#include "uniformDimensionedFields.H"
-#include "fvcGrad.H"
-#include "addToRunTimeSelectionTable.H"
+#include "TurbulenceModels/compressible/RAS/buoyantKEpsilon/buoyantKEpsilon.hpp"
+#include "OpenFOAM/fields/UniformDimensionedFields/uniformDimensionedFields.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcGrad.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

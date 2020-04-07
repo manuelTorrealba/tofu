@@ -36,9 +36,9 @@ SourceFiles
 #ifndef wallLayerCells_H
 #define wallLayerCells_H
 
-#include "edgeVertex.H"
-#include "refineCell.H"
-#include "typeInfo.H"
+#include "dynamicMesh/meshCut/edgeVertex/edgeVertex.hpp"
+#include "dynamicMesh/meshCut/refineCell/refineCell.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

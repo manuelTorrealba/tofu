@@ -54,7 +54,7 @@ SourceFiles
 #ifndef CrankNicolson_H
 #define CrankNicolson_H
 
-#include "sixDoFSolver.H"
+#include "sixDoFRigidBodyMotion/sixDoFSolvers/sixDoFSolver/sixDoFSolver.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

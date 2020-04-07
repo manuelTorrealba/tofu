@@ -44,7 +44,7 @@ SourceFiles
 #ifndef SLTSDdtScheme_H
 #define SLTSDdtScheme_H
 
-#include "ddtScheme.H"
+#include "finiteVolume/finiteVolume/ddtSchemes/ddtScheme/ddtScheme.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

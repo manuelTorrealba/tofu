@@ -36,8 +36,8 @@ SourceFiles
 #ifndef singleProcessorFaceSetsConstraint_H
 #define singleProcessorFaceSetsConstraint_H
 
-#include "decompositionConstraint.H"
-#include "Tuple2.H"
+#include "parallel/decompose/decompositionMethods/decompositionConstraints/decompositionConstraint/decompositionConstraint.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

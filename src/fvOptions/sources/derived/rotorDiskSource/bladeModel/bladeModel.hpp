@@ -50,8 +50,8 @@ SourceFiles
 #ifndef bladeModel_H
 #define bladeModel_H
 
-#include "List.H"
-#include "dictionary.H"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

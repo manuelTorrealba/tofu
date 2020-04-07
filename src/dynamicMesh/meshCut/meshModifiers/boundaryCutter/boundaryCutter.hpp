@@ -42,11 +42,11 @@ SourceFiles
 #ifndef boundaryCutter_H
 #define boundaryCutter_H
 
-#include "Map.H"
-#include "labelList.H"
-#include "edge.H"
-#include "typeInfo.H"
-#include "labelPair.H"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/meshes/meshShapes/edge/edge.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/primitives/Pair/labelPair.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

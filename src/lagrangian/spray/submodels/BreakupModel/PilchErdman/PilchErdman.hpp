@@ -58,7 +58,7 @@ Description
 #ifndef PilchErdman_H
 #define PilchErdman_H
 
-#include "BreakupModel.H"
+#include "lagrangian/spray/submodels/BreakupModel/BreakupModel/BreakupModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,8 +35,8 @@ SourceFiles
 #ifndef forceList_H
 #define forceList_H
 
-#include "PtrList.H"
-#include "force.H"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/force/force/force.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

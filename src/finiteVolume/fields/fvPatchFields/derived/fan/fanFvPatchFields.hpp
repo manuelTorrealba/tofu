@@ -26,8 +26,8 @@ License
 #ifndef fanFvPatchFields_H
 #define fanFvPatchFields_H
 
-#include "fanFvPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvPatchFields/derived/fan/fanFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

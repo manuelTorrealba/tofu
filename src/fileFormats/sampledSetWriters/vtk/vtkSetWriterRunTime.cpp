@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "vtkSetWriter.H"
-#include "writers.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fileFormats/sampledSetWriters/vtk/vtkSetWriter.hpp"
+#include "fileFormats/sampledSetWriters/writers.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

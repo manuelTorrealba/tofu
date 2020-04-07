@@ -35,7 +35,7 @@ SourceFiles
 #ifndef CPCCellToFaceStencil_H
 #define CPCCellToFaceStencil_H
 
-#include "cellToFaceStencil.H"
+#include "finiteVolume/fvMesh/extendedStencil/cellToFace/globalIndexStencils/cellToFaceStencil.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

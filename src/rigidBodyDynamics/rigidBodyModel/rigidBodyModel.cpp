@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rigidBodyModel.H"
-#include "masslessBody.H"
-#include "compositeBody.H"
-#include "jointBody.H"
-#include "nullJoint.H"
-#include "rigidBodyRestraint.H"
+#include "rigidBodyDynamics/rigidBodyModel/rigidBodyModel.hpp"
+#include "rigidBodyDynamics/bodies/masslessBody/masslessBody.hpp"
+#include "rigidBodyDynamics/bodies/compositeBody/compositeBody.hpp"
+#include "rigidBodyDynamics/bodies/jointBody/jointBody.hpp"
+#include "rigidBodyDynamics/joints/null/nullJoint.hpp"
+#include "rigidBodyDynamics/restraints/restraint/rigidBodyRestraint.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

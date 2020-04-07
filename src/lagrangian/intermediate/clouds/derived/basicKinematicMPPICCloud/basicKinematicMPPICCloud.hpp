@@ -32,10 +32,10 @@ Description
 #ifndef basicKinematicMPPICCloud_H
 #define basicKinematicMPPICCloud_H
 
-#include "Cloud.H"
-#include "KinematicCloud.H"
-#include "MPPICCloud.H"
-#include "basicKinematicMPPICParcel.H"
+#include "lagrangian/basic/Cloud/Cloud.hpp"
+#include "lagrangian/intermediate/clouds/Templates/KinematicCloud/KinematicCloud.hpp"
+#include "lagrangian/intermediate/clouds/Templates/MPPICCloud/MPPICCloud.hpp"
+#include "lagrangian/intermediate/parcels/derived/basicKinematicMPPICParcel/basicKinematicMPPICParcel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

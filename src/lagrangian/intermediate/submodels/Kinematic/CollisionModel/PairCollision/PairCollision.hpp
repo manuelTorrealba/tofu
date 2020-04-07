@@ -34,9 +34,9 @@ SourceFiles
 #ifndef PairCollision_H
 #define PairCollision_H
 
-#include "CollisionModel.H"
-#include "InteractionLists.H"
-#include "WallSiteData.H"
+#include "lagrangian/intermediate/submodels/Kinematic/CollisionModel/CollisionModel/CollisionModel.hpp"
+#include "lagrangian/basic/InteractionLists/InteractionLists.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/CollisionModel/PairCollision/WallSiteData/WallSiteData.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

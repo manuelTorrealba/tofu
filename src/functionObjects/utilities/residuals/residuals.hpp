@@ -60,8 +60,8 @@ SourceFiles
 #ifndef functionObjects_residuals_H
 #define functionObjects_residuals_H
 
-#include "fvMeshFunctionObject.H"
-#include "logFiles.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
+#include "OpenFOAM/db/functionObjects/logFiles/logFiles.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

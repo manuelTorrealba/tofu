@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "forceCoeffs.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/forces/forceCoeffs/forceCoeffs.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

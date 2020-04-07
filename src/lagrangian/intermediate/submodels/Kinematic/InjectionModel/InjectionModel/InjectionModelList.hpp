@@ -35,8 +35,8 @@ SourceFiles
 #ifndef InjectionModelList_H
 #define InjectionModelList_H
 
-#include "PtrList.H"
-#include "InjectionModel.H"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/InjectionModel/InjectionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

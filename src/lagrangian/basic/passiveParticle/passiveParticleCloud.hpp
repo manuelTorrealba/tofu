@@ -35,8 +35,8 @@ SourceFiles
 #ifndef passiveParticleCloud_H
 #define passiveParticleCloud_H
 
-#include "Cloud.H"
-#include "passiveParticle.H"
+#include "lagrangian/basic/Cloud/Cloud.hpp"
+#include "lagrangian/basic/passiveParticle/passiveParticle.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

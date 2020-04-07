@@ -35,7 +35,7 @@ SourceFiles
 #ifndef heThermo_H
 #define heThermo_H
 
-#include "basicMixture.H"
+#include "thermophysicalModels/basic/mixtures/basicMixture/basicMixture.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

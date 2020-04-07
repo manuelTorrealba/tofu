@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchInteractionDataList.H"
-#include "stringListOps.H"
-#include "emptyPolyPatch.H"
-#include "cyclicAMIPolyPatch.H"
+#include "lagrangian/intermediate/submodels/Kinematic/PatchInteractionModel/LocalInteraction/patchInteractionDataList.hpp"
+#include "OpenFOAM/primitives/strings/lists/stringListOps.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.hpp"
+#include "meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.hpp"
 
 // * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * * //
 

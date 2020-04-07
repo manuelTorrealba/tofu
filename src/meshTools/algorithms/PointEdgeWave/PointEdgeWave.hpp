@@ -58,9 +58,9 @@ SourceFiles
 #ifndef PointEdgeWave_H
 #define PointEdgeWave_H
 
-#include "boolList.H"
-#include "scalarField.H"
-#include "tensorField.H"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/fields/Fields/tensorField/tensorField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

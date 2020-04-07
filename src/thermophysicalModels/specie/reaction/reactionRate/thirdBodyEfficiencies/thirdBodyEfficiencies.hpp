@@ -35,8 +35,8 @@ SourceFiles
 #ifndef thirdBodyEfficiencies_H
 #define thirdBodyEfficiencies_H
 
-#include "scalarList.H"
-#include "speciesTable.H"
+#include "OpenFOAM/primitives/Scalar/lists/scalarList.hpp"
+#include "thermophysicalModels/specie/speciesTable/speciesTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -103,7 +103,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "thirdBodyEfficienciesI.H"
+#include "thermophysicalModels/specie/reaction/reactionRate/thirdBodyEfficiencies/thirdBodyEfficienciesI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

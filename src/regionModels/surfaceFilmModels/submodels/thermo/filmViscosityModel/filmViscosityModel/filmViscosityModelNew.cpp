@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "filmViscosityModel.H"
+#include "regionModels/surfaceFilmModels/submodels/thermo/filmViscosityModel/filmViscosityModel/filmViscosityModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

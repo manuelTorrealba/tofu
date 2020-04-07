@@ -46,7 +46,7 @@ SourceFiles
 #ifndef powerLaw_H
 #define powerLaw_H
 
-#include "porosityModel.H"
+#include "finiteVolume/cfdTools/general/porosityModel/porosityModel/porosityModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

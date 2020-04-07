@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "extrudePatchMesh.H"
+#include "dynamicMesh/extrudePatchMesh/extrudePatchMesh.hpp"
 
-#include "createShellMesh.H"
-#include "polyTopoChange.H"
-#include "wallPolyPatch.H"
-#include "emptyPolyPatch.H"
-#include "wedgePolyPatch.H"
+#include "dynamicMesh/createShellMesh/createShellMesh.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChange.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

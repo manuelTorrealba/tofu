@@ -23,16 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "topoCellLooper.H"
-#include "cellFeatures.H"
-#include "polyMesh.H"
-#include "unitConversion.H"
-#include "DynamicList.H"
-#include "ListOps.H"
-#include "meshTools.H"
-#include "hexMatcher.H"
+#include "dynamicMesh/meshCut/cellLooper/topoCellLooper.hpp"
+#include "meshTools/cellFeatures/cellFeatures.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellMatcher/hexMatcher.hpp"
 
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

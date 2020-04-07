@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ThermoCloud.H"
-#include "ThermoParcel.H"
+#include "lagrangian/intermediate/clouds/Templates/ThermoCloud/ThermoCloud.hpp"
+#include "lagrangian/intermediate/parcels/Templates/ThermoParcel/ThermoParcel.hpp"
 
-#include "HeatTransferModel.H"
+#include "lagrangian/intermediate/submodels/Thermodynamic/HeatTransferModel/HeatTransferModel/HeatTransferModel.hpp"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

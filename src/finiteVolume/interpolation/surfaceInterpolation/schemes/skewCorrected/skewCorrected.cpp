@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "skewCorrected.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/skewCorrected/skewCorrected.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -39,8 +39,8 @@ SourceFiles
 #ifndef FacePostProcessing_H
 #define FacePostProcessing_H
 
-#include "CloudFunctionObject.H"
-#include "faceZone.H"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.hpp"
+#include "OpenFOAM/meshes/polyMesh/zones/faceZone/faceZone.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -169,7 +169,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "FacePostProcessingI.H"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/FacePostProcessing/FacePostProcessingI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

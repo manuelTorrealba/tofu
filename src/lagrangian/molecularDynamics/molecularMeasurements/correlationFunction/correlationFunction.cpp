@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "correlationFunction.H"
+#include "lagrangian/molecularDynamics/molecularMeasurements/correlationFunction/correlationFunction.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

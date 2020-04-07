@@ -35,7 +35,7 @@ SourceFiles
 #ifndef blockVertices_namedVertex_H
 #define blockVertices_namedVertex_H
 
-#include "blockVertex.H"
+#include "mesh/blockMesh/blockVertices/blockVertex/blockVertex.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

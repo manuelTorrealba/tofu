@@ -82,9 +82,9 @@ SourceFiles
 #ifndef functionObjects_turbulenceIntensity_H
 #define functionObjects_turbulenceIntensity_H
 
-#include "fvMeshFunctionObject.H"
-#include "logFiles.H"
-#include "writeLocalObjects.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
+#include "OpenFOAM/db/functionObjects/logFiles/logFiles.hpp"
+#include "OpenFOAM/db/functionObjects/writeLocalObjects/writeLocalObjects.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

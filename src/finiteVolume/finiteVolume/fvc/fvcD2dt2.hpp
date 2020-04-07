@@ -36,7 +36,7 @@ SourceFiles
 #ifndef fvcD2dt2_H
 #define fvcD2dt2_H
 
-#include "volFieldsFwd.H"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

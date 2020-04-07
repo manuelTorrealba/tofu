@@ -44,7 +44,7 @@ SourceFiles
 #ifndef RBD_joints_Rzyx_H
 #define RBD_joints_Rzyx_H
 
-#include "joint.H"
+#include "rigidBodyDynamics/joints/joint/joint.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

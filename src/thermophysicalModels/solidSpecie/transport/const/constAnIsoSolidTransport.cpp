@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constAnIsoSolidTransport.H"
-#include "IOstreams.H"
+#include "thermophysicalModels/solidSpecie/transport/const/constAnIsoSolidTransport.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

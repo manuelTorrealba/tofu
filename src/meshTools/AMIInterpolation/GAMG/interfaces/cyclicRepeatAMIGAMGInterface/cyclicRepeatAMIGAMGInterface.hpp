@@ -35,7 +35,7 @@ SourceFiles
 #ifndef cyclicRepeatAMIGAMGInterface_H
 #define cyclicRepeatAMIGAMGInterface_H
 
-#include "cyclicAMIGAMGInterface.H"
+#include "meshTools/AMIInterpolation/GAMG/interfaces/cyclicAMIGAMGInterface/cyclicAMIGAMGInterface.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "molecule.H"
-#include "IOstreams.H"
-#include "moleculeCloud.H"
+#include "lagrangian/molecularDynamics/molecule/molecule/molecule.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
+#include "lagrangian/molecularDynamics/molecule/moleculeCloud/moleculeCloud.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

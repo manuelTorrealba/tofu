@@ -121,6 +121,6 @@ bool Foam::FixedList<T, Size>::operator>=(const FixedList<T, Size>& a) const
 
 // * * * * * * * * * * * * * * * *  IOStream operators * * * * * * * * * * * //
 
-#include "FixedListIO.C"
+//#include "FixedListIO.C"
 
 // ************************************************************************* //

@@ -43,15 +43,15 @@ SourceFiles
 #ifndef MULES_H
 #define MULES_H
 
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "primitiveFieldsFwd.H"
-#include "geometricOneField.H"
-#include "zero.H"
-#include "zeroField.H"
-#include "UPtrList.H"
-#include "HashSet.H"
-#include "UniformField.H"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFieldsFwd.hpp"
+#include "OpenFOAM/fields/Fields/primitiveFieldsFwd.hpp"
+#include "OpenFOAM/fields/GeometricFields/geometricOneField/geometricOneField.hpp"
+#include "OpenFOAM/primitives/zero/zero.hpp"
+#include "OpenFOAM/fields/Fields/zeroField/zeroField.hpp"
+#include "OpenFOAM/containers/Lists/UPtrList/UPtrList.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/fields/Fields/uniformField/UniformField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

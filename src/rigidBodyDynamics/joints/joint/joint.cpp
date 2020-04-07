@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "joint.H"
-#include "rigidBodyModel.H"
+#include "rigidBodyDynamics/joints/joint/joint.hpp"
+#include "rigidBodyDynamics/rigidBodyModel/rigidBodyModel.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

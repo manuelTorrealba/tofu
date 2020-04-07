@@ -44,7 +44,7 @@ SourceFiles
 #ifndef SpalartAllmarasDES_H
 #define SpalartAllmarasDES_H
 
-#include "LESeddyViscosity.H"
+#include "TurbulenceModels/turbulenceModels/LES/LESeddyViscosity/LESeddyViscosity.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

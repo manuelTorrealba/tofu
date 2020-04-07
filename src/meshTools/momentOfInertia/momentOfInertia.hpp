@@ -37,9 +37,9 @@ SourceFiles
 #ifndef momentOfInertia_H
 #define momentOfInertia_H
 
-#include "triFaceList.H"
-#include "triSurface.H"
-#include "polyMesh.H"
+#include "OpenFOAM/meshes/meshShapes/triFace/triFaceList.hpp"
+#include "triSurface/triSurface/triSurface.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

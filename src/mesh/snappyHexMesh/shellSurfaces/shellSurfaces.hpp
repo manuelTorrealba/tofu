@@ -36,8 +36,8 @@ SourceFiles
 #ifndef shellSurfaces_H
 #define shellSurfaces_H
 
-#include "searchableSurface.H"
-#include "Tuple2.H"
+#include "meshTools/searchableSurfaces/searchableSurface/searchableSurface.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

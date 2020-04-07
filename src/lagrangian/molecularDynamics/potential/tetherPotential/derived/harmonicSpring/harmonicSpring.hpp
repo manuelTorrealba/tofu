@@ -35,7 +35,7 @@ SourceFiles
 #ifndef harmonicSpring_H
 #define harmonicSpring_H
 
-#include "tetherPotential.H"
+#include "lagrangian/molecularDynamics/potential/tetherPotential/basic/tetherPotential.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

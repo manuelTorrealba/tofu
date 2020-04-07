@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CentredFitScheme.H"
-#include "linearFitPolynomial.H"
-#include "centredCFCCellToFaceStencilObject.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/CentredFitScheme/CentredFitScheme.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/linearFit/linearFitPolynomial.hpp"
+#include "finiteVolume/fvMesh/extendedStencil/cellToFace/MeshObjects/centredCFCCellToFaceStencilObject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

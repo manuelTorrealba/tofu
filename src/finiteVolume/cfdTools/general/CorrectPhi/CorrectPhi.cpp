@@ -23,18 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CorrectPhi.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "fvScalarMatrix.H"
-#include "fvmDdt.H"
-#include "fvmLaplacian.H"
-#include "fvcDiv.H"
-#include "fixedValueFvPatchFields.H"
-#include "zeroGradientFvPatchFields.H"
-#include "adjustPhi.H"
-#include "fvcMeshPhi.H"
-#include "pimpleControl.H"
+#include "finiteVolume/cfdTools/general/CorrectPhi/CorrectPhi.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
+#include "finiteVolume/fvMatrices/fvScalarMatrix/fvScalarMatrix.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvmDdt.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvmLaplacian.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcDiv.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.hpp"
+#include "finiteVolume/cfdTools/general/adjustPhi/adjustPhi.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcMeshPhi.hpp"
+#include "finiteVolume/cfdTools/general/solutionControl/pimpleControl/pimpleControl/pimpleControl.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef NoCollision_H
 #define NoCollision_H
 
-#include "CollisionModel.H"
+#include "lagrangian/intermediate/submodels/Kinematic/CollisionModel/CollisionModel/CollisionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

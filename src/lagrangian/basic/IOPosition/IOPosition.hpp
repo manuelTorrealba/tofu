@@ -35,7 +35,7 @@ SourceFiles
 #ifndef IOPosition_H
 #define IOPosition_H
 
-#include "regIOobject.H"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

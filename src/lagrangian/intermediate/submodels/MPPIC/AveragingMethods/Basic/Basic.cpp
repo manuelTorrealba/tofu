@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Basic.H"
-#include "zeroGradientFvPatchField.H"
+#include "lagrangian/intermediate/submodels/MPPIC/AveragingMethods/Basic/Basic.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

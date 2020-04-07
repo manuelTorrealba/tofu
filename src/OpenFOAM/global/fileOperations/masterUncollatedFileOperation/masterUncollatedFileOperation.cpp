@@ -39,8 +39,8 @@ License
 #include "OpenFOAM/global/argList/argList.hpp"
 #include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
 #include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.cpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.cpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.hpp"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

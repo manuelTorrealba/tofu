@@ -32,8 +32,8 @@ Description
 #ifndef blockFaceList_H
 #define blockFaceList_H
 
-#include "blockFace.H"
-#include "PtrList.H"
+#include "mesh/blockMesh/blockFaces/blockFace/blockFace.hpp"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

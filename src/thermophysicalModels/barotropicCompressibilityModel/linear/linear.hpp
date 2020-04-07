@@ -35,8 +35,8 @@ SourceFiles
 #ifndef linear_H
 #define linear_H
 
-#include "barotropicCompressibilityModel.H"
-#include "dimensionedScalar.H"
+#include "thermophysicalModels/barotropicCompressibilityModel/barotropicCompressibilityModel/barotropicCompressibilityModel.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

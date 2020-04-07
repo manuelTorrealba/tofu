@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ManualInjection.H"
-#include "mathematicalConstants.H"
-#include "PackedBoolList.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/ManualInjection/ManualInjection.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
 
 using namespace Foam::constant::mathematical;
 

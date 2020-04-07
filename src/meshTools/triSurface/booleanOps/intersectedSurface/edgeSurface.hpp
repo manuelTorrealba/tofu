@@ -53,10 +53,10 @@ SourceFiles
 #ifndef edgeSurface_H
 #define edgeSurface_H
 
-#include "edgeList.H"
-#include "labelList.H"
-#include "pointField.H"
-#include "typeInfo.H"
+#include "OpenFOAM/meshes/meshShapes/edge/edgeList.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

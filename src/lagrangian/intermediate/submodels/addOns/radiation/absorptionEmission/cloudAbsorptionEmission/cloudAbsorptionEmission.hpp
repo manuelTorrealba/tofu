@@ -35,7 +35,7 @@ SourceFiles
 #ifndef cloudAbsorptionEmission_H
 #define cloudAbsorptionEmission_H
 
-#include "absorptionEmissionModel.H"
+#include "thermophysicalModels/radiation/submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

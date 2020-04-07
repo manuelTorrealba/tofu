@@ -34,11 +34,11 @@ SourceFiles
 #ifndef CECCellToCellStencil_H
 #define CECCellToCellStencil_H
 
-#include "cellToCellStencil.H"
-#include "boolList.H"
-#include "HashSet.H"
-#include "Map.H"
-#include "EdgeMap.H"
+#include "finiteVolume/fvMesh/extendedStencil/cellToCell/globalIndexStencils/cellToCellStencil.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
+#include "OpenFOAM/meshes/meshShapes/edge/EdgeMap.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

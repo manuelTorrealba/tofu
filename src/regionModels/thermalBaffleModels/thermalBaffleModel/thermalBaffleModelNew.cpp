@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermalBaffleModel.H"
+#include "regionModels/thermalBaffleModels/thermalBaffleModel/thermalBaffleModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

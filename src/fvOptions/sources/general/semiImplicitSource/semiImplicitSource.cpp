@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeFvOption.H"
-#include "SemiImplicitSource.H"
+#include "finiteVolume/cfdTools/general/fvOptions/makeFvOption.hpp"
+#include "fvOptions/sources/general/semiImplicitSource/SemiImplicitSource.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

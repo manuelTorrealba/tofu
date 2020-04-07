@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LeastSquaresGrad.H"
-//#include "centredCFCCellToCellStencilObject.H"
-#include "centredCPCCellToCellStencilObject.H"
-#include "centredCECCellToCellStencilObject.H"
+#include "finiteVolume/finiteVolume/gradSchemes/LeastSquaresGradN/LeastSquaresGrad.hpp"
+#include "finiteVolume/fvMesh/extendedStencil/cellToCell/MeshObjects/centredCFCCellToCellStencilObject.hpp"
+#include "finiteVolume/fvMesh/extendedStencil/cellToCell/MeshObjects/centredCPCCellToCellStencilObject.hpp"
+#include "finiteVolume/fvMesh/extendedStencil/cellToCell/MeshObjects/centredCECCellToCellStencilObject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

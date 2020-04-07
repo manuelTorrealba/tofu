@@ -47,7 +47,7 @@ SourceFiles
 #ifndef extrapolatedCalculatedFvPatchField_H
 #define extrapolatedCalculatedFvPatchField_H
 
-#include "calculatedFvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/basic/calculated/calculatedFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

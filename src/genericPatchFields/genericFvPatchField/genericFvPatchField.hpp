@@ -40,8 +40,8 @@ SourceFiles
 #ifndef genericFvPatchField_H
 #define genericFvPatchField_H
 
-#include "calculatedFvPatchField.H"
-#include "HashPtrTable.H"
+#include "finiteVolume/fields/fvPatchFields/basic/calculated/calculatedFvPatchField.hpp"
+#include "OpenFOAM/containers/HashTables/HashPtrTable/HashPtrTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

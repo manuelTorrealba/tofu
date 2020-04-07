@@ -26,8 +26,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "UOPstream.H"
-#include "PstreamGlobals.H"
+#include "OpenFOAM/db/IOstreams/Pstreams/UOPstream.hpp"
+#include "Pstream/mpi/PstreamGlobals.hpp"
 
 #include <mpi.h>
 

@@ -41,7 +41,7 @@ SourceFiles
 #ifndef functionObjects_components_H
 #define functionObjects_components_H
 
-#include "fieldExpression.H"
+#include "functionObjects/field/fieldExpression/fieldExpression.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

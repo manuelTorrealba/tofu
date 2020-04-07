@@ -59,8 +59,8 @@ SourceFiles
 #ifndef moleFractions_H
 #define moleFractions_H
 
-#include "fvMeshFunctionObject.H"
-#include "volFieldsFwd.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

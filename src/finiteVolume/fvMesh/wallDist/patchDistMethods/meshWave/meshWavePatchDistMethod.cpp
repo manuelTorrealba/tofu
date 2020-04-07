@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshWavePatchDistMethod.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "patchWave.H"
-#include "patchDataWave.H"
-#include "wallPointData.H"
-#include "emptyFvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "finiteVolume/fvMesh/wallDist/patchDistMethods/meshWave/meshWavePatchDistMethod.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "meshTools/cellDist/patchWave/patchWave.hpp"
+#include "meshTools/cellDist/patchWave/patchDataWave.hpp"
+#include "meshTools/cellDist/wallPoint/wallPointData.hpp"
+#include "finiteVolume/fields/fvPatchFields/constraint/empty/emptyFvPatchFields.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

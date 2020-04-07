@@ -32,7 +32,7 @@ Description
 #ifndef NoPhaseChange_H
 #define NoPhaseChange_H
 
-#include "PhaseChangeModel.H"
+#include "lagrangian/intermediate/submodels/Reacting/PhaseChangeModel/PhaseChangeModel/PhaseChangeModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

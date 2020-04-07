@@ -36,7 +36,7 @@ SourceFiles
 #ifndef waveSuperposition_H
 #define waveSuperposition_H
 
-#include "waveModel.H"
+#include "waves/waveModels/waveModel/waveModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Chung.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalModels/barotropicCompressibilityModel/Chung/Chung.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

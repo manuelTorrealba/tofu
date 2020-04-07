@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "duplicatePoints.H"
-#include "localPointRegion.H"
-#include "polyTopoChange.H"
-#include "polyAddPoint.H"
-#include "polyModifyFace.H"
-#include "polyMesh.H"
-#include "OFstream.H"
-#include "meshTools.H"
-#include "Time.H"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/duplicatePoints.hpp"
+#include "meshTools/regionSplit/localPointRegion.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChange.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/addObject/polyAddPoint.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/modifyObject/polyModifyFace.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

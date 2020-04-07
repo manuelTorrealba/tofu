@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sprayCloud.H"
+#include "lagrangian/spray/clouds/baseClasses/sprayCloud/sprayCloud.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

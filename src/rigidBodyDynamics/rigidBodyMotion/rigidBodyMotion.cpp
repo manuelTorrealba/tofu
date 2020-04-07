@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rigidBodyMotion.H"
-#include "rigidBodySolver.H"
-#include "septernion.H"
+#include "rigidBodyDynamics/rigidBodyMotion/rigidBodyMotion.hpp"
+#include "rigidBodyDynamics/rigidBodySolvers/rigidBodySolver/rigidBodySolver.hpp"
+#include "OpenFOAM/primitives/septernion/septernion.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

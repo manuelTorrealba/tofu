@@ -44,11 +44,11 @@ SourceFiles
 #ifndef fvOption_H
 #define fvOption_H
 
-#include "fvMatricesFwd.H"
-#include "volFieldsFwd.H"
-#include "dictionary.H"
-#include "Switch.H"
-#include "runTimeSelectionTables.H"
+#include "finiteVolume/fvMatrices/fvMatricesFwd.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -404,7 +404,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "fvOptionI.H"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOptionI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

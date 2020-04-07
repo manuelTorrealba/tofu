@@ -34,7 +34,7 @@ Description
 #ifndef MaxwellianThermal_H
 #define MaxwellianThermal_H
 
-#include "WallInteractionModel.H"
+#include "lagrangian/DSMC/submodels/WallInteractionModel/WallInteractionModel/WallInteractionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

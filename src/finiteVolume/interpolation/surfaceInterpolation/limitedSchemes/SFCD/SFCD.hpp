@@ -39,7 +39,7 @@ SourceFiles
 #ifndef SFCD_H
 #define SFCD_H
 
-#include "vector.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

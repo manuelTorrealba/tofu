@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BreakupModel.H"
+#include "lagrangian/spray/submodels/BreakupModel/BreakupModel/BreakupModel.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

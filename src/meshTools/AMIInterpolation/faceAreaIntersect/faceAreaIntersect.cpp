@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceAreaIntersect.H"
+#include "meshTools/AMIInterpolation/faceAreaIntersect/faceAreaIntersect.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

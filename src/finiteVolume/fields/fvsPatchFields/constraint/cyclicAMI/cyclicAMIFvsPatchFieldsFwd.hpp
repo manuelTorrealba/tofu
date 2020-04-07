@@ -26,7 +26,7 @@ License
 #ifndef cyclicAMIFvsPatchFieldsFwd_H
 #define cyclicAMIFvsPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

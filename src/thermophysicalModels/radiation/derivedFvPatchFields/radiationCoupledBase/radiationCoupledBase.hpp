@@ -39,10 +39,10 @@ SourceFiles
 #ifndef radiationCoupledBase_H
 #define radiationCoupledBase_H
 
-#include "scalarField.H"
-#include "NamedEnum.H"
-#include "fvPatch.H"
-#include "fvPatchFieldMapper.H"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
+#include "finiteVolume/fvMesh/fvPatches/fvPatch/fvPatch.hpp"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

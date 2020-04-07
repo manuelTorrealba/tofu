@@ -36,8 +36,8 @@ SourceFiles
 #ifndef gradingDescriptors_H
 #define gradingDescriptors_H
 
-#include "gradingDescriptor.H"
-#include "List.H"
+#include "mesh/blockMesh/gradingDescriptor/gradingDescriptor.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

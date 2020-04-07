@@ -35,9 +35,9 @@ SourceFiles
 #ifndef fvmSup_H
 #define fvmSup_H
 
-#include "volFieldsFwd.H"
-#include "fvMatrix.H"
-#include "zeroField.H"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "finiteVolume/fvMatrices/fvMatrix/fvMatrix.hpp"
+#include "OpenFOAM/fields/Fields/zeroField/zeroField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

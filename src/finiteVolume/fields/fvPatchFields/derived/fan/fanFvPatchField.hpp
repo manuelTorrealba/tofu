@@ -79,8 +79,8 @@ SourceFiles
 #ifndef fanFvPatchField_H
 #define fanFvPatchField_H
 
-#include "uniformJumpFvPatchField.H"
-#include "Function1.H"
+#include "finiteVolume/fields/fvPatchFields/derived/uniformJump/uniformJumpFvPatchField.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

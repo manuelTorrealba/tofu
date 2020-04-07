@@ -30,8 +30,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "limitedSnGrad.H"
-#include "fvMesh.H"
+#include "finiteVolume/finiteVolume/snGradSchemes/limitedSnGrad/limitedSnGrad.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

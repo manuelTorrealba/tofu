@@ -35,8 +35,8 @@ SourceFiles
 #ifndef enginePiston_H
 #define enginePiston_H
 
-#include "polyPatchID.H"
-#include "coordinateSystem.H"
+#include "OpenFOAM/meshes/Identifiers/patch/polyPatchID.hpp"
+#include "meshTools/coordinateSystems/coordinateSystem.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

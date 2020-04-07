@@ -37,9 +37,9 @@ SourceFiles
 #ifndef layerAdditionRemoval_H
 #define layerAdditionRemoval_H
 
-#include "polyMeshModifier.H"
-#include "primitiveFacePatch.H"
-#include "ZoneIDs.H"
+#include "dynamicMesh/polyTopoChange/polyMeshModifier/polyMeshModifier.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/primitiveFacePatch.hpp"
+#include "OpenFOAM/meshes/Identifiers/zones/ZoneIDs.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

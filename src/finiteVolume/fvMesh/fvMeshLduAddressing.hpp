@@ -35,8 +35,8 @@ SourceFiles
 #ifndef fvMeshLduAddressing_H
 #define fvMeshLduAddressing_H
 
-#include "lduAddressing.H"
-#include "fvMesh.H"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduAddressing.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -67,7 +67,7 @@ SourceFiles
 #ifndef outletInletFvPatchField_H
 #define outletInletFvPatchField_H
 
-#include "mixedFvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/basic/mixed/mixedFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

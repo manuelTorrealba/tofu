@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionCoupledLduInterface.H"
+#include "meshTools/regionCoupled/patches/regionCoupledLduInterface/regionCoupledLduInterface.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 namespace Foam

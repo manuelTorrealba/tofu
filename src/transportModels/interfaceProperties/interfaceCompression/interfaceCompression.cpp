@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PhiScheme.H"
-#include "interfaceCompression.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/PhiScheme/PhiScheme.hpp"
+#include "transportModels/interfaceProperties/interfaceCompression/interfaceCompression.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

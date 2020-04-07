@@ -35,17 +35,17 @@ SourceFiles
 #ifndef bC10H7CH3_H
 #define bC10H7CH3_H
 
-#include "liquidProperties.H"
-#include "NSRDSfunc0.H"
-#include "NSRDSfunc1.H"
-#include "NSRDSfunc2.H"
-#include "NSRDSfunc3.H"
-#include "NSRDSfunc4.H"
-#include "NSRDSfunc5.H"
-#include "NSRDSfunc6.H"
-#include "NSRDSfunc7.H"
-#include "NSRDSfunc14.H"
-#include "APIdiffCoefFunc.H"
+#include "thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.hpp"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc0/NSRDSfunc0.hpp"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc1/NSRDSfunc1.hpp"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc2/NSRDSfunc2.hpp"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc3/NSRDSfunc3.hpp"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc4/NSRDSfunc4.hpp"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc5/NSRDSfunc5.hpp"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc6/NSRDSfunc6.hpp"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc7/NSRDSfunc7.hpp"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc14/NSRDSfunc14.hpp"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/APIfunctions/APIdiffCoefFunc/APIdiffCoefFunc.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -183,7 +183,7 @@ Ostream& operator<<(Ostream& os, const bC10H7CH3& l);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "bC10H7CH3I.H"
+#include "thermophysicalModels/thermophysicalProperties/liquidProperties/bC10H7CH3/bC10H7CH3I.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

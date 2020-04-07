@@ -89,7 +89,7 @@ SourceFiles
 #ifndef functionObjects_forceCoeffs_H
 #define functionObjects_forceCoeffs_H
 
-#include "forces.H"
+#include "functionObjects/forces/forces/forces.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MeshWave.H"
-#include "polyMesh.H"
+#include "meshTools/algorithms/MeshWave/MeshWave.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

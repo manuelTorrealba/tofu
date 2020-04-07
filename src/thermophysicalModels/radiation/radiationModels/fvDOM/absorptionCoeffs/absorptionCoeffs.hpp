@@ -36,9 +36,9 @@ SourceFiles
 #ifndef absorptionCoeffs_H
 #define absorptionCoeffs_H
 
-#include "List.H"
-#include "IOstreams.H"
-#include "IOdictionary.H"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 namespace Foam
@@ -130,7 +130,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "absorptionCoeffsI.H"
+#include "thermophysicalModels/radiation/radiationModels/fvDOM/absorptionCoeffs/absorptionCoeffsI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -71,8 +71,8 @@ SourceFiles
 #ifndef functionObjects_codedFunctionObject_H
 #define functionObjects_codedFunctionObject_H
 
-#include "functionObject.H"
-#include "codedBase.H"
+#include "OpenFOAM/db/functionObjects/functionObject/functionObject.hpp"
+#include "OpenFOAM/db/dynamicLibrary/codedBase/codedBase.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

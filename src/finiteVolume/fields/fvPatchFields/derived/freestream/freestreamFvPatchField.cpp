@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "freestreamFvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/derived/freestream/freestreamFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

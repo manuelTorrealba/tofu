@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rotatedBoxToCell.H"
-#include "polyMesh.H"
-#include "cellModeller.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshTools/sets/cellSources/rotatedBoxToCell/rotatedBoxToCell.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellModeller/cellModeller.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

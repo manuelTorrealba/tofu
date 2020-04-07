@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "slicedFvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/basic/sliced/slicedFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

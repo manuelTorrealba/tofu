@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledTriSurfaceMesh.H"
-#include "meshSearch.H"
-#include "Tuple2.H"
-#include "globalIndex.H"
-#include "treeDataCell.H"
-#include "treeDataFace.H"
-#include "meshTools.H"
+#include "sampling/sampledSurface/sampledTriSurfaceMesh/sampledTriSurfaceMesh.hpp"
+#include "meshTools/meshSearch/meshSearch.hpp"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/treeDataCell.hpp"
+#include "meshTools/indexedOctree/treeDataFace.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
 
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

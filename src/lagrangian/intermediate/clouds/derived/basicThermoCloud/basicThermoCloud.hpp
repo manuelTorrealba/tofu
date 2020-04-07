@@ -32,8 +32,8 @@ Description
 #ifndef basicThermoCloud_H
 #define basicThermoCloud_H
 
-#include "ThermoCloud.H"
-#include "basicThermoParcel.H"
+#include "lagrangian/intermediate/clouds/Templates/ThermoCloud/ThermoCloud.hpp"
+#include "lagrangian/intermediate/parcels/derived/basicThermoParcel/basicThermoParcel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

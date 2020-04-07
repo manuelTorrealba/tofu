@@ -35,7 +35,7 @@ SourceFiles
 #ifndef TomiyamaLiftForce_H
 #define TomiyamaLiftForce_H
 
-#include "LiftForce.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/Lift/LiftForce/LiftForce.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

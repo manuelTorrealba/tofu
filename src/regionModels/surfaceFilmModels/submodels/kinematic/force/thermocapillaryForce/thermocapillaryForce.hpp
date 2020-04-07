@@ -35,7 +35,7 @@ SourceFiles
 #ifndef thermocapillaryForce_H
 #define thermocapillaryForce_H
 
-#include "force.H"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/force/force/force.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

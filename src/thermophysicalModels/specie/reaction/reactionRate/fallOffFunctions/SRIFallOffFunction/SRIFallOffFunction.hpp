@@ -35,7 +35,7 @@ SourceFiles
 #ifndef SRIFallOffFunction_H
 #define SRIFallOffFunction_H
 
-#include "scalar.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -123,7 +123,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SRIFallOffFunctionI.H"
+#include "thermophysicalModels/specie/reaction/reactionRate/fallOffFunctions/SRIFallOffFunction/SRIFallOffFunctionI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

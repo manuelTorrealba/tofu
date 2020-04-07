@@ -35,7 +35,7 @@ SourceFiles
 #ifndef sigmoid_H
 #define sigmoid_H
 
-#include "energyScalingFunction.H"
+#include "lagrangian/molecularDynamics/potential/energyScalingFunction/basic/energyScalingFunction.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

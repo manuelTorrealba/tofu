@@ -35,8 +35,8 @@ SourceFiles
 #ifndef wallFvPatch_H
 #define wallFvPatch_H
 
-#include "fvPatch.H"
-#include "wallPolyPatch.H"
+#include "finiteVolume/fvMesh/fvPatches/fvPatch/fvPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

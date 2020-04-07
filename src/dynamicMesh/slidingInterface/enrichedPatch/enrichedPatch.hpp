@@ -52,9 +52,9 @@ SourceFiles
 #ifndef enrichedPatch_H
 #define enrichedPatch_H
 
-#include "primitiveFacePatch.H"
-#include "Map.H"
-#include "point.H"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/primitiveFacePatch.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

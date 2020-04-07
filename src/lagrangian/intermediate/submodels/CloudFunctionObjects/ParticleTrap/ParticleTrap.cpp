@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ParticleTrap.H"
-#include "fvcGrad.H"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/ParticleTrap/ParticleTrap.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcGrad.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

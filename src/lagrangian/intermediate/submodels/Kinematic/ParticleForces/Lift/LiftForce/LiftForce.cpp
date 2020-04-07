@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LiftForce.H"
-#include "fvcCurl.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/Lift/LiftForce/LiftForce.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcCurl.hpp"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

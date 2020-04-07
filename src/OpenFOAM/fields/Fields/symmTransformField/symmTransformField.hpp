@@ -38,6 +38,7 @@ SourceFiles
 #include "OpenFOAM/primitives/transform/symmTransform.hpp"
 #include "OpenFOAM/fields/Fields/symmTensorField/symmTensorField.hpp"
 #include "OpenFOAM/primitives/SphericalTensor/sphericalTensor/sphericalTensor.hpp"
+#include "OpenFOAM/fields/Fields/transformField/transformField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

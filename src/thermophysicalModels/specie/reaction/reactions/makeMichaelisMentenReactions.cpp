@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeReaction.H"
-#include "reactionTypes.H"
-#include "MichaelisMentenReactionRate.H"
+#include "thermophysicalModels/specie/reaction/reactions/makeReaction.hpp"
+#include "thermophysicalModels/specie/include/reactionTypes.hpp"
+#include "thermophysicalModels/specie/reaction/reactionRate/MichaelisMenten/MichaelisMentenReactionRate.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

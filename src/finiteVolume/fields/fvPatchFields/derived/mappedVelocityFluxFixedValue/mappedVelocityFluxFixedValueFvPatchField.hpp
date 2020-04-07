@@ -65,8 +65,8 @@ SourceFiles
 #ifndef mappedVelocityFluxFixedValueFvPatchField_H
 #define mappedVelocityFluxFixedValueFvPatchField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "mappedFvPatch.H"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.hpp"
+#include "finiteVolume/fvMesh/fvPatches/derived/mapped/mappedFvPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

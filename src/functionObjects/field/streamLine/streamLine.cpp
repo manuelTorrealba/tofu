@@ -23,19 +23,19 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Pstream.H"
-#include "functionObjectList.H"
-#include "streamLine.H"
-#include "streamLineParticleCloud.H"
-#include "ReadFields.H"
-#include "meshSearch.H"
-#include "sampledSet.H"
-#include "globalIndex.H"
-#include "mapDistribute.H"
-#include "interpolationCellPoint.H"
-#include "PatchTools.H"
-#include "mapPolyMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/db/functionObjects/functionObjectList/functionObjectList.hpp"
+#include "functionObjects/field/streamLine/streamLine.hpp"
+#include "functionObjects/field/streamLine/streamLineParticleCloud.hpp"
+#include "OpenFOAM/fields/ReadFields/ReadFields.hpp"
+#include "meshTools/meshSearch/meshSearch.hpp"
+#include "sampling/sampledSet/sampledSet/sampledSet.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.hpp"
+#include "finiteVolume/interpolation/interpolation/interpolationCellPoint/interpolationCellPoint.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/PatchTools/PatchTools.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

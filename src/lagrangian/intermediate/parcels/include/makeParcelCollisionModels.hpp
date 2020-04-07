@@ -28,13 +28,13 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoCollision.H"
-#include "PairCollision.H"
+#include "lagrangian/intermediate/submodels/Kinematic/CollisionModel/NoCollision/NoCollision.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/CollisionModel/PairCollision/PairCollision.hpp"
 
-#include "PairSpringSliderDashpot.H"
+#include "lagrangian/intermediate/submodels/Kinematic/CollisionModel/PairCollision/PairModel/PairSpringSliderDashpot/PairSpringSliderDashpot.hpp"
 
-#include "WallSpringSliderDashpot.H"
-#include "WallLocalSpringSliderDashpot.H"
+#include "lagrangian/intermediate/submodels/Kinematic/CollisionModel/PairCollision/WallModel/WallSpringSliderDashpot/WallSpringSliderDashpot.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/CollisionModel/PairCollision/WallModel/WallLocalSpringSliderDashpot/WallLocalSpringSliderDashpot.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

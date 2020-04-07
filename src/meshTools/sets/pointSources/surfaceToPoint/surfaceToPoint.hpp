@@ -41,8 +41,8 @@ SourceFiles
 #ifndef surfaceToPoint_H
 #define surfaceToPoint_H
 
-#include "topoSetSource.H"
-#include "Map.H"
+#include "meshTools/sets/topoSetSource/topoSetSource.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

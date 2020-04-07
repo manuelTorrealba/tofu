@@ -35,10 +35,10 @@ SourceFiles
 #ifndef basicThermoParcel_H
 #define basicThermoParcel_H
 
-#include "contiguous.H"
-#include "particle.H"
-#include "KinematicParcel.H"
-#include "ThermoParcel.H"
+#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
+#include "lagrangian/basic/particle/particle.hpp"
+#include "lagrangian/intermediate/parcels/Templates/KinematicParcel/KinematicParcel.hpp"
+#include "lagrangian/intermediate/parcels/Templates/ThermoParcel/ThermoParcel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

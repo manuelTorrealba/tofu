@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CodedSource.H"
-#include "stringOps.H"
+#include "fvOptions/sources/general/codedSource/CodedSource.hpp"
+#include "OpenFOAM/primitives/strings/stringOps/stringOps.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

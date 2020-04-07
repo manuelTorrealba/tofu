@@ -35,12 +35,12 @@ SourceFiles
 #ifndef ddtScheme_H
 #define ddtScheme_H
 
-#include "tmp.H"
-#include "dimensionedType.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM/memory/tmp/tmp.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedType/dimensionedType.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFieldsFwd.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

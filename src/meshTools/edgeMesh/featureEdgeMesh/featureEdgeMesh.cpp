@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "featureEdgeMesh.H"
+#include "meshTools/edgeMesh/featureEdgeMesh/featureEdgeMesh.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

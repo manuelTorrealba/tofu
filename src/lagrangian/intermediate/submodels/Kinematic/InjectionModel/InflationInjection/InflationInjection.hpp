@@ -38,9 +38,9 @@ SourceFiles
 #ifndef InflationInjection_H
 #define InflationInjection_H
 
-#include "InjectionModel.H"
-#include "distributionModel.H"
-#include "Switch.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/InjectionModel/InjectionModel.hpp"
+#include "lagrangian/distributionModels/distributionModel/distributionModel.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

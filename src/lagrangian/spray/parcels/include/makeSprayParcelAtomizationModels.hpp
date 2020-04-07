@@ -28,9 +28,9 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoAtomization.H"
-#include "BlobsSheetAtomization.H"
-#include "LISAAtomization.H"
+#include "lagrangian/spray/submodels/AtomizationModel/NoAtomization/NoAtomization.hpp"
+#include "lagrangian/spray/submodels/AtomizationModel/BlobsSheetAtomization/BlobsSheetAtomization.hpp"
+#include "lagrangian/spray/submodels/AtomizationModel/LISAAtomization/LISAAtomization.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

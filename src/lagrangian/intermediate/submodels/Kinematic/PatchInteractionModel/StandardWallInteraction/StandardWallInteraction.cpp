@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "StandardWallInteraction.H"
+#include "lagrangian/intermediate/submodels/Kinematic/PatchInteractionModel/StandardWallInteraction/StandardWallInteraction.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

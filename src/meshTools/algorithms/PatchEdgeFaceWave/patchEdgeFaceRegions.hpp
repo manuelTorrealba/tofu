@@ -38,10 +38,10 @@ SourceFiles
 #ifndef patchEdgeFaceRegions_H
 #define patchEdgeFaceRegions_H
 
-#include "labelList.H"
-#include "scalar.H"
-#include "tensor.H"
-#include "labelPair.H"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/primitives/Tensor/tensor/tensor.hpp"
+#include "OpenFOAM/primitives/Pair/labelPair.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -173,7 +173,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "patchEdgeFaceRegionsI.H"
+#include "meshTools/algorithms/PatchEdgeFaceWave/patchEdgeFaceRegionsI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

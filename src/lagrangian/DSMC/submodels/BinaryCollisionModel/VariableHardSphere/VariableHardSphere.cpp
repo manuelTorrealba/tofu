@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VariableHardSphere.H"
-#include "constants.H"
+#include "lagrangian/DSMC/submodels/BinaryCollisionModel/VariableHardSphere/VariableHardSphere.hpp"
+#include "OpenFOAM/global/constants/constants.hpp"
 
 using namespace Foam::constant::mathematical;
 

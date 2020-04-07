@@ -44,10 +44,10 @@ SourceFiles
 #ifndef ManualInjection_H
 #define ManualInjection_H
 
-#include "InjectionModel.H"
-#include "distributionModel.H"
-#include "Switch.H"
-#include "GlobalIOField.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/InjectionModel/InjectionModel.hpp"
+#include "lagrangian/distributionModels/distributionModel/distributionModel.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
+#include "OpenFOAM/db/IOobjects/GlobalIOField/GlobalIOField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

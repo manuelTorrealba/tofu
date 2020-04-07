@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LUST.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/LUST/LUST.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

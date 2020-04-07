@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellLooper.H"
-#include "polyMesh.H"
-#include "ListOps.H"
-#include "meshTools.H"
+#include "dynamicMesh/meshCut/cellLooper/cellLooper.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef MeshWave_H
 #define MeshWave_H
 
-#include "FaceCellWave.H"
+#include "meshTools/algorithms/MeshWave/FaceCellWave.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

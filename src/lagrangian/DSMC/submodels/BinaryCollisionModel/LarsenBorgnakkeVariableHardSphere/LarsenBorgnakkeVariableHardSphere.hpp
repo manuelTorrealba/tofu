@@ -33,7 +33,7 @@ Description
 #ifndef LarsenBorgnakkeVariableHardSphere_H
 #define LarsenBorgnakkeVariableHardSphere_H
 
-#include "BinaryCollisionModel.H"
+#include "lagrangian/DSMC/submodels/BinaryCollisionModel/BinaryCollisionModel/BinaryCollisionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

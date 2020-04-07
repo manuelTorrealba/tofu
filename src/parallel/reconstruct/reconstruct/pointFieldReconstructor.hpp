@@ -35,10 +35,10 @@ SourceFiles
 #ifndef pointFieldReconstructor_H
 #define pointFieldReconstructor_H
 
-#include "pointMesh.H"
-#include "pointFields.H"
-#include "pointPatchFieldMapperPatchRef.H"
-#include "IOobjectList.H"
+#include "OpenFOAM/meshes/pointMesh/pointMesh.hpp"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFields.hpp"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFieldMapperPatchRef.hpp"
+#include "OpenFOAM/db/IOobjectList/IOobjectList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

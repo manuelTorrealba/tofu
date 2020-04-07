@@ -48,7 +48,7 @@ SourceFiles
 #ifndef fixedFluxExtrapolatedPressureFvPatchScalarField_H
 #define fixedFluxExtrapolatedPressureFvPatchScalarField_H
 
-#include "fixedFluxPressureFvPatchScalarField.H"
+#include "finiteVolume/fields/fvPatchFields/derived/fixedFluxPressure/fixedFluxPressureFvPatchScalarField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

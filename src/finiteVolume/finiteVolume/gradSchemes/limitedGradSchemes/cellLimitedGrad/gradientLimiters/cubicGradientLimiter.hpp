@@ -63,7 +63,7 @@ See also
 #ifndef cubicGradientLimiter_H
 #define cubicGradientLimiter_H
 
-#include "Istream.H"
+#include "OpenFOAM/db/IOstreams/IOstreams/Istream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

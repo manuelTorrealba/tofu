@@ -26,7 +26,7 @@ License
 #ifndef symmetryFvsPatchFieldsFwd_H
 #define symmetryFvsPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

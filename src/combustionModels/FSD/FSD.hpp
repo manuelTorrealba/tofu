@@ -63,8 +63,8 @@ SourceFiles
 #ifndef FSD_H
 #define FSD_H
 
-#include "singleStepCombustion.H"
-#include "reactionRateFlameArea.H"
+#include "combustionModels/singleStepCombustion/singleStepCombustion.hpp"
+#include "combustionModels/FSD/reactionRateFlameAreaModels/reactionRateFlameArea/reactionRateFlameArea.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

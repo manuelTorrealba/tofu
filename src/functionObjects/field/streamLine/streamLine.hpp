@@ -102,14 +102,14 @@ SourceFiles
 #ifndef functionObjects_streamLine_H
 #define functionObjects_streamLine_H
 
-#include "fvMeshFunctionObject.H"
-#include "volFieldsFwd.H"
-#include "DynamicList.H"
-#include "scalarList.H"
-#include "vectorList.H"
-#include "writer.H"
-#include "indirectPrimitivePatch.H"
-#include "NamedEnum.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/primitives/Scalar/lists/scalarList.hpp"
+#include "OpenFOAM/primitives/Vector/lists/vectorList.hpp"
+#include "fileFormats/sampledSetWriters/writer.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.hpp"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

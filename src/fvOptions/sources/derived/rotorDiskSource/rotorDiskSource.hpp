@@ -97,13 +97,13 @@ SourceFiles
 #ifndef rotorDiskSource_H
 #define rotorDiskSource_H
 
-#include "cellSetOption.H"
-#include "cylindricalCS.H"
-#include "cylindrical.H"
-#include "NamedEnum.H"
-#include "bladeModel.H"
-#include "profileModelList.H"
-#include "volFieldsFwd.H"
+#include "fvOptions/cellSetOption/cellSetOption.hpp"
+#include "meshTools/coordinateSystems/cylindricalCS.hpp"
+#include "meshTools/coordinateSystems/coordinateRotation/cylindrical.hpp"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
+#include "fvOptions/sources/derived/rotorDiskSource/bladeModel/bladeModel.hpp"
+#include "fvOptions/sources/derived/rotorDiskSource/profileModel/profileModelList.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -328,7 +328,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "rotorDiskSourceI.H"
+#include "fvOptions/sources/derived/rotorDiskSource/rotorDiskSourceI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

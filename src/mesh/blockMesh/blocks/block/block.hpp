@@ -40,10 +40,10 @@ SourceFiles
 #ifndef block_H
 #define block_H
 
-#include "pointField.H"
-#include "labelList.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
 
-#include "blockDescriptor.H"
+#include "mesh/blockMesh/blockDescriptor/blockDescriptor.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -213,7 +213,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "blockI.H"
+#include "mesh/blockMesh/blocks/block/blockI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

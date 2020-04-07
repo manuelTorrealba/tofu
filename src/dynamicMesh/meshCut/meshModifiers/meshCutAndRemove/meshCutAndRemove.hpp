@@ -35,11 +35,11 @@ SourceFiles
 #ifndef meshCutAndRemove_H
 #define meshCutAndRemove_H
 
-#include "edgeVertex.H"
-#include "boolList.H"
-#include "labelList.H"
-#include "typeInfo.H"
-#include "Map.H"
+#include "dynamicMesh/meshCut/edgeVertex/edgeVertex.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

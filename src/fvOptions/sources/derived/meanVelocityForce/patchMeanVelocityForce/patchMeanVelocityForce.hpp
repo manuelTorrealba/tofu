@@ -48,7 +48,7 @@ SourceFiles
 #ifndef patchMeanVelocityForce_H
 #define patchMeanVelocityForce_H
 
-#include "meanVelocityForce.H"
+#include "fvOptions/sources/derived/meanVelocityForce/meanVelocityForce.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

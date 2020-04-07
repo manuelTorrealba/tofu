@@ -32,9 +32,9 @@ Description
 #ifndef IOprobes_H
 #define IOprobes_H
 
-#include "probes.H"
-#include "patchProbes.H"
-#include "IOOutputFilter.H"
+#include "sampling/probes/probes.hpp"
+#include "sampling/probes/patchProbes.hpp"
+#include "OpenFOAM/db/functionObjects/IOOutputFilter/IOOutputFilter.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -65,7 +65,7 @@ SourceFiles
 #ifndef mappedFixedInternalValueFvPatchField_H
 #define mappedFixedInternalValueFvPatchField_H
 
-#include "mappedFixedValueFvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/derived/mappedFixedValue/mappedFixedValueFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

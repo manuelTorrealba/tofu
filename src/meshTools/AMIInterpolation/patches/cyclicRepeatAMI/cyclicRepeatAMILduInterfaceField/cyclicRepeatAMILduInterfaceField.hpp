@@ -35,7 +35,7 @@ SourceFiles
 #ifndef cyclicRepeatAMILduInterfaceField_H
 #define cyclicRepeatAMILduInterfaceField_H
 
-#include "cyclicAMILduInterfaceField.H"
+#include "meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMILduInterfaceField/cyclicAMILduInterfaceField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

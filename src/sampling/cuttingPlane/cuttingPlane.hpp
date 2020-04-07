@@ -42,10 +42,10 @@ SourceFiles
 #ifndef cuttingPlane_H
 #define cuttingPlane_H
 
-#include "plane.H"
-#include "pointField.H"
-#include "faceList.H"
-#include "MeshedSurface.H"
+#include "OpenFOAM/meshes/primitiveShapes/plane/plane.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/faceList.hpp"
+#include "surfMesh/MeshedSurface/MeshedSurface.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

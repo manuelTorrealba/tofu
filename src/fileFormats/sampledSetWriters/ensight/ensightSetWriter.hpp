@@ -34,7 +34,7 @@ SourceFiles
 #ifndef ensightSetWriter_H
 #define ensightSetWriter_H
 
-#include "writer.H"
+#include "fileFormats/sampledSetWriters/writer.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

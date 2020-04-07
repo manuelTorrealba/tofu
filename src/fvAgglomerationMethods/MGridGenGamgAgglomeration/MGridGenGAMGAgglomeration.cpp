@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MGridGenGAMGAgglomeration.H"
-#include "fvMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "processorLduInterface.H"
+#include "fvAgglomerationMethods/MGridGenGamgAgglomeration/MGridGenGAMGAgglomeration.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/processorLduInterface.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

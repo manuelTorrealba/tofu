@@ -49,7 +49,7 @@ SourceFiles
 #ifndef ThermoSurfaceFilm_H
 #define ThermoSurfaceFilm_H
 
-#include "SurfaceFilmModel.H"
+#include "lagrangian/intermediate/submodels/Kinematic/SurfaceFilmModel/SurfaceFilmModel/SurfaceFilmModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

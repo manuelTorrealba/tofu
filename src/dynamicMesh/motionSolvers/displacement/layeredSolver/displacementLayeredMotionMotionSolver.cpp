@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "displacementLayeredMotionMotionSolver.H"
-#include "addToRunTimeSelectionTable.H"
-#include "pointEdgeStructuredWalk.H"
-#include "pointFields.H"
-#include "PointEdgeWave.H"
-#include "syncTools.H"
-#include "interpolationTable.H"
-#include "pointConstraints.H"
-#include "mapPolyMesh.H"
+#include "dynamicMesh/motionSolvers/displacement/layeredSolver/displacementLayeredMotionMotionSolver.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "dynamicMesh/motionSolvers/displacement/layeredSolver/pointEdgeStructuredWalk.hpp"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFields.hpp"
+#include "meshTools/algorithms/PointEdgeWave/PointEdgeWave.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
+#include "OpenFOAM/interpolations/interpolationTable/interpolationTable.hpp"
+#include "finiteVolume/interpolation/volPointInterpolation/pointConstraints.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

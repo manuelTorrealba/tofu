@@ -35,7 +35,7 @@ SourceFiles
 #ifndef steadyStateDdtScheme_H
 #define steadyStateDdtScheme_H
 
-#include "ddtScheme.H"
+#include "finiteVolume/finiteVolume/ddtSchemes/ddtScheme/ddtScheme.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

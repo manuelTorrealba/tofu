@@ -48,7 +48,7 @@ if (mesh.moving())
 }
 else
 {
-    #include "continuityErrs.H"
+#include "finiteVolume/cfdTools/incompressible/continuityErrs.hpp"
 }
 
 // ************************************************************************* //

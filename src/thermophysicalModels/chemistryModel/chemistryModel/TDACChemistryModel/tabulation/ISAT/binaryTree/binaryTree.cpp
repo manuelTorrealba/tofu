@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "binaryTree.H"
-#include "SortableList.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/tabulation/ISAT/binaryTree/binaryTree.hpp"
+#include "OpenFOAM/containers/Lists/SortableList/SortableList.hpp"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

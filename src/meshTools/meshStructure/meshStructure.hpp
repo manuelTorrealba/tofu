@@ -35,9 +35,9 @@ SourceFiles
 #ifndef meshStructure_H
 #define meshStructure_H
 
-#include "labelList.H"
-#include "uindirectPrimitivePatch.H"
-#include "className.H"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/uindirectPrimitivePatch.hpp"
+#include "OpenFOAM/db/typeInfo/className.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -166,7 +166,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "meshStructureI.H"
+#include "meshTools/meshStructure/meshStructureI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

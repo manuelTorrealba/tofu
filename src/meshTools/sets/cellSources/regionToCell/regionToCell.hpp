@@ -49,8 +49,8 @@ SourceFiles
 #ifndef regionToCell_H
 #define regionToCell_H
 
-#include "topoSetSource.H"
-#include "boolList.H"
+#include "meshTools/sets/topoSetSource/topoSetSource.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

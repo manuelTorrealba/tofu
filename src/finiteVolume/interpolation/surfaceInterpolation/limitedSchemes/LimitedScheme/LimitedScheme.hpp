@@ -46,10 +46,10 @@ SourceFiles
 #ifndef LimitedScheme_H
 #define LimitedScheme_H
 
-#include "limitedSurfaceInterpolationScheme.H"
-#include "LimitFuncs.H"
-#include "NVDTVD.H"
-#include "NVDVTVDV.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/limitedSurfaceInterpolationScheme/limitedSurfaceInterpolationScheme.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/LimitedScheme/LimitFuncs.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/LimitedScheme/NVDTVD.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/LimitedScheme/NVDVTVDV.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

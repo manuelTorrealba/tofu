@@ -26,7 +26,7 @@ License
 #ifndef processorCyclicFvPatchFieldsFwd_H
 #define processorCyclicFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef basicCombustionMixture_H
 #define basicCombustionMixture_H
 
-#include "basicSpecieMixture.H"
+#include "thermophysicalModels/reactionThermo/mixtures/basicSpecieMixture/basicSpecieMixture.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -96,7 +96,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "basicCombustionMixtureI.H"
+#include "thermophysicalModels/reactionThermo/mixtures/basicCombustionMixture/basicCombustionMixtureI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

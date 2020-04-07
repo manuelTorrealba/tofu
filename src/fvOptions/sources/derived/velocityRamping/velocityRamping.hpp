@@ -55,8 +55,8 @@ SourceFiles
 #ifndef velocityRamping_H
 #define velocityRamping_H
 
-#include "cellSetOption.H"
-#include "Function1.H"
+#include "fvOptions/cellSetOption/cellSetOption.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

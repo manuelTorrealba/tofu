@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "profileModelList.H"
+#include "fvOptions/sources/derived/rotorDiskSource/profileModel/profileModelList.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

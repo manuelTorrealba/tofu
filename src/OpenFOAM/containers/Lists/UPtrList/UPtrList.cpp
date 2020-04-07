@@ -147,6 +147,6 @@ void Foam::UPtrList<T>::reorder(const labelUList& oldToNew)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "UPtrListIO.C"
+//#include "UPtrListIO.C"
 
 // ************************************************************************* //

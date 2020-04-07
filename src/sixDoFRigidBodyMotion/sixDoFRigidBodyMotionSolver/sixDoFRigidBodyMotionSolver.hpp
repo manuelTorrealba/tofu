@@ -38,8 +38,8 @@ SourceFiles
 #ifndef sixDoFRigidBodyMotionSolver_H
 #define sixDoFRigidBodyMotionSolver_H
 
-#include "displacementMotionSolver.H"
-#include "sixDoFRigidBodyMotion.H"
+#include "dynamicMesh/motionSolvers/displacement/displacement/displacementMotionSolver.hpp"
+#include "sixDoFRigidBodyMotion/sixDoFRigidBodyMotion/sixDoFRigidBodyMotion.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

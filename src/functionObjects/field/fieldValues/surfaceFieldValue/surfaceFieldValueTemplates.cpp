@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceFieldValue.H"
-#include "surfaceFields.H"
-#include "volFields.H"
-#include "sampledSurface.H"
-#include "surfaceWriter.H"
-#include "interpolationCellPoint.H"
+#include "functionObjects/field/fieldValues/surfaceFieldValue/surfaceFieldValue.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "sampling/sampledSurface/sampledSurface/sampledSurface.hpp"
+#include "sampling/sampledSurface/writers/surfaceWriter.hpp"
+#include "finiteVolume/interpolation/interpolation/interpolationCellPoint/interpolationCellPoint.hpp"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

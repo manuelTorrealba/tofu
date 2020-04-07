@@ -36,10 +36,10 @@ SourceFiles
 #ifndef ensightParts_H
 #define ensightParts_H
 
-#include "ensightPart.H"
-#include "ensightPartFaces.H"
-#include "ensightPartCells.H"
-#include "volFields.H"
+#include "conversion/ensight/part/ensightPart.hpp"
+#include "conversion/ensight/part/ensightPartFaces.hpp"
+#include "conversion/ensight/part/ensightPartCells.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

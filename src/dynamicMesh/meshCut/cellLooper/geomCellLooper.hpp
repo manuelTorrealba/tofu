@@ -46,8 +46,8 @@ SourceFiles
 #ifndef geomCellLooper_H
 #define geomCellLooper_H
 
-#include "cellLooper.H"
-#include "typeInfo.H"
+#include "dynamicMesh/meshCut/cellLooper/cellLooper.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

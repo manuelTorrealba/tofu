@@ -26,7 +26,7 @@ License
 #ifndef processorFvsPatchFieldsFwd_H
 #define processorFvsPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

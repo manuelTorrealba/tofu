@@ -38,9 +38,9 @@ SourceFiles
 #ifndef rigidBodyMeshMotion_H
 #define rigidBodyMeshMotion_H
 
-#include "displacementMotionSolver.H"
-#include "rigidBodyMotion.H"
-#include "ramp.H"
+#include "dynamicMesh/motionSolvers/displacement/displacement/displacementMotionSolver.hpp"
+#include "rigidBodyDynamics/rigidBodyMotion/rigidBodyMotion.hpp"
+#include "OpenFOAM/primitives/functions/Function1/ramp/ramp.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

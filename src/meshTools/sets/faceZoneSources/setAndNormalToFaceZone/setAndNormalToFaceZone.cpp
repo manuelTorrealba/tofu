@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "setAndNormalToFaceZone.H"
-#include "polyMesh.H"
-#include "faceZoneSet.H"
+#include "meshTools/sets/faceZoneSources/setAndNormalToFaceZone/setAndNormalToFaceZone.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "meshTools/sets/topoSets/faceZoneSet.hpp"
 
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

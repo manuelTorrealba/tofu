@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "EFA.H"
-#include "SortableListEFA.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/reduction/EFA/EFA.hpp"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/reduction/EFA/SortableListEFA.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -32,7 +32,7 @@ Description
 #ifndef NoStochasticCollision_H
 #define NoStochasticCollision_H
 
-#include "StochasticCollisionModel.H"
+#include "lagrangian/intermediate/submodels/Kinematic/StochasticCollision/StochasticCollisionModel/StochasticCollisionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

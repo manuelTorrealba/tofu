@@ -23,17 +23,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "medialAxisMeshMover.H"
-#include "addToRunTimeSelectionTable.H"
-#include "pointFields.H"
-#include "valuePointPatchFields.H"
-#include "PointEdgeWave.H"
-#include "meshRefinement.H"
-#include "unitConversion.H"
-#include "PatchTools.H"
-#include "OBJstream.H"
-#include "pointData.H"
-#include "zeroFixedValuePointPatchFields.H"
+#include "mesh/snappyHexMesh/externalDisplacementMeshMover/medialAxisMeshMover.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFields.hpp"
+#include "OpenFOAM/fields/pointPatchFields/basic/value/valuePointPatchFields.hpp"
+#include "meshTools/algorithms/PointEdgeWave/PointEdgeWave.hpp"
+#include "mesh/snappyHexMesh/meshRefinement/meshRefinement.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/PatchTools/PatchTools.hpp"
+#include "surfMesh/surfaceFormats/obj/OBJstream.hpp"
+#include "mesh/snappyHexMesh/snappyHexMeshDriver/pointData/pointData.hpp"
+#include "mesh/snappyHexMesh/externalDisplacementMeshMover/zeroFixedValue/zeroFixedValuePointPatchFields.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

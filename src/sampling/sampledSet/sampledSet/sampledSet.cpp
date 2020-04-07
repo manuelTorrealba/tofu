@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledSet.H"
-#include "polyMesh.H"
-#include "meshSearch.H"
-#include "writer.H"
-#include "lineCell.H"
-#include "lineCellFace.H"
-#include "lineFace.H"
-#include "lineUniform.H"
+#include "sampling/sampledSet/sampledSet/sampledSet.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "meshTools/meshSearch/meshSearch.hpp"
+#include "fileFormats/sampledSetWriters/writer.hpp"
+#include "sampling/sampledSet/lineCell/lineCell.hpp"
+#include "sampling/sampledSet/lineCellFace/lineCellFace.hpp"
+#include "sampling/sampledSet/lineFace/lineFace.hpp"
+#include "sampling/sampledSet/lineUniform/lineUniform.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

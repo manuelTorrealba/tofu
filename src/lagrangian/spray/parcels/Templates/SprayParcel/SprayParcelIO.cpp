@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SprayParcel.H"
-#include "IOstreams.H"
+#include "lagrangian/spray/parcels/Templates/SprayParcel/SprayParcel.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

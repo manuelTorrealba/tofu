@@ -36,12 +36,12 @@ SourceFiles
 #ifndef sampledCuttingPlane_H
 #define sampledCuttingPlane_H
 
-#include "sampledSurface.H"
-#include "isoSurface.H"
-//#include "isoSurfaceCell.H"
-#include "plane.H"
-#include "ZoneIDs.H"
-#include "fvMeshSubset.H"
+#include "sampling/sampledSurface/sampledSurface/sampledSurface.hpp"
+#include "sampling/sampledSurface/isoSurface/isoSurface.hpp"
+#include "sampling/sampledSurface/isoSurface/isoSurfaceCell.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/plane/plane.hpp"
+#include "OpenFOAM/meshes/Identifiers/zones/ZoneIDs.hpp"
+#include "dynamicMesh/fvMeshSubset/fvMeshSubset.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

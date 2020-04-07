@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "backwardDdtScheme.H"
-#include "fvMesh.H"
+#include "finiteVolume/finiteVolume/ddtSchemes/backwardDdtScheme/backwardDdtScheme.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

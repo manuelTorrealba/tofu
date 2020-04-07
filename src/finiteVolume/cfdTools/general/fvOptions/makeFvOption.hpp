@@ -26,8 +26,8 @@ License
 #ifndef makeFvOption_H
 #define makeFvOption_H
 
-#include "fvOption.H"
-#include "addToRunTimeSelectionTable.H"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOption.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

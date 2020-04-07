@@ -26,6 +26,8 @@ License
 #ifndef DimensionedFieldReuseFunctions_H
 #define DimensionedFieldReuseFunctions_H
 
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.hpp"
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

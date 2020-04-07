@@ -37,12 +37,12 @@ SourceFiles
 #ifndef fvMeshAdder_H
 #define fvMeshAdder_H
 
-#include "polyMeshAdder.H"
-#include "volFieldsFwd.H"
-#include "fvPatchFieldsFwd.H"
-#include "fvsPatchFieldsFwd.H"
-#include "fvPatchFieldMapper.H"
-#include "DimensionedField.H"
+#include "dynamicMesh/polyMeshAdder/polyMeshAdder.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldsFwd.hpp"
+#include "finiteVolume/fields/fvsPatchFields/fvsPatchField/fvsPatchFieldsFwd.hpp"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.hpp"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

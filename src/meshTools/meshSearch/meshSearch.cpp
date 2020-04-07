@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshSearch.H"
-#include "polyMesh.H"
-#include "indexedOctree.H"
-#include "DynamicList.H"
-#include "demandDrivenData.H"
-#include "treeDataCell.H"
-#include "treeDataFace.H"
+#include "meshTools/meshSearch/meshSearch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/indexedOctree.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/treeDataCell.hpp"
+#include "meshTools/indexedOctree/treeDataFace.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

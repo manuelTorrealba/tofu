@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MeshedSurfaceIOAllocator.H"
+#include "surfMesh/MeshedSurfaceAllocator/MeshedSurfaceIOAllocator.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

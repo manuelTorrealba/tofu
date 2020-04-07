@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "csvSetWriter.H"
-#include "coordSet.H"
-#include "fileName.H"
-#include "OFstream.H"
+#include "fileFormats/sampledSetWriters/csv/csvSetWriter.hpp"
+#include "fileFormats/coordSet/coordSet.hpp"
+#include "OpenFOAM/primitives/strings/fileName/fileName.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

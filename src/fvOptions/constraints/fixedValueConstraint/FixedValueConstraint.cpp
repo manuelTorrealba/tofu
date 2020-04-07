@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FixedValueConstraint.H"
-#include "fvMesh.H"
-#include "fvMatrices.H"
-#include "DimensionedField.H"
+#include "fvOptions/constraints/fixedValueConstraint/FixedValueConstraint.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/fvMatrices/fvMatrices.hpp"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

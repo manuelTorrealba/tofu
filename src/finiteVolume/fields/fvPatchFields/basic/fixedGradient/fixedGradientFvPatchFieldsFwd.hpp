@@ -26,7 +26,7 @@ License
 #ifndef fixedGradientFvPatchFieldsFwd_H
 #define fixedGradientFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

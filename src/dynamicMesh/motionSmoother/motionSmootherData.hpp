@@ -34,7 +34,7 @@ SourceFiles
 #ifndef motionSmootherData_H
 #define motionSmootherData_H
 
-#include "pointFields.H"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

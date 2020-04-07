@@ -34,10 +34,10 @@ SourceFiles
 #ifndef tetherPotentialList_H
 #define tetherPotentialList_H
 
-#include "ListOps.H"
-#include "PtrList.H"
-#include "word.H"
-#include "tetherPotential.H"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "lagrangian/molecularDynamics/potential/tetherPotential/basic/tetherPotential.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -124,7 +124,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "tetherPotentialListI.H"
+#include "lagrangian/molecularDynamics/potential/tetherPotential/tetherPotentialList/tetherPotentialListI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

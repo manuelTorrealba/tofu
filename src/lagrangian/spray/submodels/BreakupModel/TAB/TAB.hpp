@@ -46,8 +46,8 @@ See also
 #ifndef TAB_H
 #define TAB_H
 
-#include "BreakupModel.H"
-#include "FixedList.H"
+#include "lagrangian/spray/submodels/BreakupModel/BreakupModel/BreakupModel.hpp"
+#include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

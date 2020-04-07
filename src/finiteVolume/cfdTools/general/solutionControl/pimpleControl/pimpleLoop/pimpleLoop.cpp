@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pimpleLoop.H"
+#include "finiteVolume/cfdTools/general/solutionControl/pimpleControl/pimpleLoop/pimpleLoop.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

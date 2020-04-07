@@ -52,8 +52,8 @@ SourceFiles
 #ifndef qZeta_H
 #define qZeta_H
 
-#include "turbulentTransportModel.H"
-#include "eddyViscosity.H"
+#include "TurbulenceModels/incompressible/turbulentTransportModels/turbulentTransportModel.hpp"
+#include "TurbulenceModels/turbulenceModels/eddyViscosity/eddyViscosity.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

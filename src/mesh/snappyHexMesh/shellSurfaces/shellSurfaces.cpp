@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "shellSurfaces.H"
-#include "searchableSurface.H"
-#include "boundBox.H"
-#include "triSurfaceMesh.H"
-#include "refinementSurfaces.H"
-#include "searchableSurfaces.H"
-#include "orientedSurface.H"
-#include "pointIndexHit.H"
-#include "volumeType.H"
+#include "mesh/snappyHexMesh/shellSurfaces/shellSurfaces.hpp"
+#include "meshTools/searchableSurfaces/searchableSurface/searchableSurface.hpp"
+#include "OpenFOAM/meshes/boundBox/boundBox.hpp"
+#include "meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.hpp"
+#include "mesh/snappyHexMesh/refinementSurfaces/refinementSurfaces.hpp"
+#include "meshTools/searchableSurfaces/searchableSurfaces/searchableSurfaces.hpp"
+#include "meshTools/triSurface/orientedSurface/orientedSurface.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/pointIndexHit.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/volumeType.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

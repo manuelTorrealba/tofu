@@ -53,10 +53,10 @@ SourceFiles
 #ifndef boxUniform_H
 #define boxUniform_H
 
-#include "sampledSet.H"
-#include "DynamicList.H"
-#include "labelVector.H"
-#include "boundBox.H"
+#include "sampling/sampledSet/sampledSet/sampledSet.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/primitives/Vector/labelVector/labelVector.hpp"
+#include "OpenFOAM/meshes/boundBox/boundBox.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

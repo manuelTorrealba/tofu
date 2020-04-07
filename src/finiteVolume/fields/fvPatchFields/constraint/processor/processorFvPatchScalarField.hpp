@@ -26,7 +26,7 @@ License
 #ifndef processorFvPatchScalarField_H
 #define processorFvPatchScalarField_H
 
-#include "processorFvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/constraint/processor/processorFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

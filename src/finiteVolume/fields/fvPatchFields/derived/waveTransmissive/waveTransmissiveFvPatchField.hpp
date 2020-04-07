@@ -76,7 +76,7 @@ SourceFiles
 #ifndef waveTransmissiveFvPatchField_H
 #define waveTransmissiveFvPatchField_H
 
-#include "advectiveFvPatchFields.H"
+#include "finiteVolume/fields/fvPatchFields/derived/advective/advectiveFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "chemistryTabulationMethod.H"
-#include "TDACChemistryModel.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/tabulation/chemistryTabulationMethod/chemistryTabulationMethod.hpp"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/TDACChemistryModel.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

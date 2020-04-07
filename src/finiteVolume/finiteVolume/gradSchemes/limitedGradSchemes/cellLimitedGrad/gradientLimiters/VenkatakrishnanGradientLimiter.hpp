@@ -63,7 +63,7 @@ See also
 #ifndef VenkatakrishnanGradientLimiter_H
 #define VenkatakrishnanGradientLimiter_H
 
-#include "Istream.H"
+#include "OpenFOAM/db/IOstreams/IOstreams/Istream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

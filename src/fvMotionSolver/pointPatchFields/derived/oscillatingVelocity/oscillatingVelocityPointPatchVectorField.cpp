@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "oscillatingVelocityPointPatchVectorField.H"
-#include "pointPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
-#include "Time.H"
-#include "polyMesh.H"
+#include "fvMotionSolver/pointPatchFields/derived/oscillatingVelocity/oscillatingVelocityPointPatchVectorField.hpp"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFields.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

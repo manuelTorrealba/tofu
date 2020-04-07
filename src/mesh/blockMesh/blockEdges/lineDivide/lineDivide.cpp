@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lineDivide.H"
-#include "blockEdge.H"
+#include "mesh/blockMesh/blockEdges/lineDivide/lineDivide.hpp"
+#include "mesh/blockMesh/blockEdges/blockEdge/blockEdge.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

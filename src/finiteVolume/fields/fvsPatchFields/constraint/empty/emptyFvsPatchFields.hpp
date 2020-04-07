@@ -26,8 +26,8 @@ License
 #ifndef emptyFvsPatchFields_H
 #define emptyFvsPatchFields_H
 
-#include "emptyFvsPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvsPatchFields/constraint/empty/emptyFvsPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

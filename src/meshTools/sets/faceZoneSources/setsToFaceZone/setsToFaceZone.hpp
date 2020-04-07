@@ -35,8 +35,8 @@ SourceFiles
 #ifndef setsToFaceZone_H
 #define setsToFaceZone_H
 
-#include "topoSetSource.H"
-#include "Switch.H"
+#include "meshTools/sets/topoSetSource/topoSetSource.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "layerParameters.H"
-#include "polyBoundaryMesh.H"
-#include "unitConversion.H"
-#include "refinementSurfaces.H"
-#include "searchableSurfaces.H"
-#include "medialAxisMeshMover.H"
+#include "mesh/snappyHexMesh/snappyHexMeshDriver/layerParameters/layerParameters.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
+#include "mesh/snappyHexMesh/refinementSurfaces/refinementSurfaces.hpp"
+#include "meshTools/searchableSurfaces/searchableSurfaces/searchableSurfaces.hpp"
+#include "mesh/snappyHexMesh/externalDisplacementMeshMover/medialAxisMeshMover.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

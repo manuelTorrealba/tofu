@@ -35,9 +35,9 @@ SourceFiles
 #ifndef injectionModelList_H
 #define injectionModelList_H
 
-#include "PtrList.H"
-#include "injectionModel.H"
-#include "filmSubModelBase.H"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/injectionModel/injectionModel/injectionModel.hpp"
+#include "regionModels/surfaceFilmModels/submodels/filmSubModelBase.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

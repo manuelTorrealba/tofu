@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "vtkUnstructuredReader.H"
-#include "labelIOField.H"
-#include "scalarIOField.H"
-#include "stringIOList.H"
-#include "cellModeller.H"
-#include "vectorIOField.H"
-#include "stringOps.H"
+#include "fileFormats/vtk/vtkUnstructuredReader.hpp"
+#include "OpenFOAM/fields/Fields/labelField/labelIOField.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarIOField.hpp"
+#include "OpenFOAM/primitives/strings/string/stringIOList.hpp"
+#include "OpenFOAM/meshes/meshShapes/cellModeller/cellModeller.hpp"
+#include "OpenFOAM/fields/Fields/vectorField/vectorIOField.hpp"
+#include "OpenFOAM/primitives/strings/stringOps/stringOps.hpp"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

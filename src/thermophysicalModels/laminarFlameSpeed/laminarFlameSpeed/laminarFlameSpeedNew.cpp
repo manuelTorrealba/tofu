@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "laminarFlameSpeed.H"
+#include "thermophysicalModels/laminarFlameSpeed/laminarFlameSpeed/laminarFlameSpeed.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -28,9 +28,9 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoPacking.H"
-#include "Explicit.H"
-#include "Implicit.H"
+#include "lagrangian/intermediate/submodels/MPPIC/PackingModels/NoPacking/NoPacking.hpp"
+#include "lagrangian/intermediate/submodels/MPPIC/PackingModels/Explicit/Explicit.hpp"
+#include "lagrangian/intermediate/submodels/MPPIC/PackingModels/Implicit/Implicit.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -34,8 +34,8 @@ SourceFiles
 #ifndef meshSearchMeshObject_H
 #define meshSearchMeshObject_H
 
-#include "MeshObject.H"
-#include "meshSearch.H"
+#include "OpenFOAM/meshes/MeshObject/MeshObject.hpp"
+#include "meshTools/meshSearch/meshSearch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

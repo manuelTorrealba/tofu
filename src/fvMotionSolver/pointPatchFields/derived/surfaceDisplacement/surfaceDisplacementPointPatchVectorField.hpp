@@ -57,10 +57,10 @@ SourceFiles
 #ifndef surfaceDisplacementPointPatchVectorField_H
 #define surfaceDisplacementPointPatchVectorField_H
 
-#include "pointPatchFields.H"
-#include "fixedValuePointPatchFields.H"
-#include "searchableSurfaces.H"
-#include "Switch.H"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFields.hpp"
+#include "OpenFOAM/fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchFields.hpp"
+#include "meshTools/searchableSurfaces/searchableSurfaces/searchableSurfaces.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef blockEdges_lineEdge_H
 #define blockEdges_lineEdge_H
 
-#include "blockEdge.H"
+#include "mesh/blockMesh/blockEdges/blockEdge/blockEdge.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

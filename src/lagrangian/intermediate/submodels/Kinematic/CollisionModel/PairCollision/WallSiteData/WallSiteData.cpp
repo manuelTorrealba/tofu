@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "WallSiteData.H"
+#include "lagrangian/intermediate/submodels/Kinematic/CollisionModel/PairCollision/WallSiteData/WallSiteData.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

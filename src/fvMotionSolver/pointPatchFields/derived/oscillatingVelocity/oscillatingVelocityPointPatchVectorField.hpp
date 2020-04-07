@@ -35,7 +35,7 @@ SourceFiles
 #ifndef oscillatingVelocityPointPatchVectorField_H
 #define oscillatingVelocityPointPatchVectorField_H
 
-#include "fixedValuePointPatchField.H"
+#include "OpenFOAM/fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

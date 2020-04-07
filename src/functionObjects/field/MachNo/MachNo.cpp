@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MachNo.H"
-#include "fluidThermo.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/field/MachNo/MachNo.hpp"
+#include "thermophysicalModels/basic/fluidThermo/fluidThermo.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

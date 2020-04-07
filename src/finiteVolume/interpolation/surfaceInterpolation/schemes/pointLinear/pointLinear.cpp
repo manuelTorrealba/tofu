@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointLinear.H"
-#include "fvMesh.H"
-#include "volPointInterpolation.H"
-#include "triangle.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/pointLinear/pointLinear.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/interpolation/volPointInterpolation/volPointInterpolation.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/triangle/triangle.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

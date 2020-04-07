@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Minmod_H
 #define Minmod_H
 
-#include "vector.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

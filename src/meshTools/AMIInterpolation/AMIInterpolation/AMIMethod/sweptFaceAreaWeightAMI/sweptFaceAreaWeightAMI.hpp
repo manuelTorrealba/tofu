@@ -92,7 +92,7 @@ SourceFiles
 #ifndef sweptFaceAreaWeightAMI_H
 #define sweptFaceAreaWeightAMI_H
 
-#include "faceAreaWeightAMI.H"
+#include "meshTools/AMIInterpolation/AMIInterpolation/AMIMethod/faceAreaWeightAMI/faceAreaWeightAMI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

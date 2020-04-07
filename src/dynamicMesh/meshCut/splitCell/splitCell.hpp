@@ -36,7 +36,7 @@ SourceFiles
 #ifndef splitCell_H
 #define splitCell_H
 
-#include "label.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

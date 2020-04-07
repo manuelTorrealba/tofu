@@ -35,8 +35,8 @@ SourceFiles
 #ifndef fileDiffusivity_H
 #define fileDiffusivity_H
 
-#include "motionDiffusivity.H"
-#include "surfaceFields.H"
+#include "fvMotionSolver/motionDiffusivity/motionDiffusivity/motionDiffusivity.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "inclinedFilmNusseltInletVelocityFvPatchVectorField.H"
-#include "volFields.H"
-#include "kinematicSingleLayer.H"
-#include "addToRunTimeSelectionTable.H"
+#include "regionModels/surfaceFilmModels/derivedFvPatchFields/inclinedFilmNusseltInletVelocity/inclinedFilmNusseltInletVelocityFvPatchVectorField.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "regionModels/surfaceFilmModels/kinematicSingleLayer/kinematicSingleLayer.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

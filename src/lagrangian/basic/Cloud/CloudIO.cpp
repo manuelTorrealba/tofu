@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Cloud.H"
-#include "Time.H"
-#include "IOPosition.H"
-#include "IOdictionary.H"
+#include "lagrangian/basic/Cloud/Cloud.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "lagrangian/basic/IOPosition/IOPosition.hpp"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

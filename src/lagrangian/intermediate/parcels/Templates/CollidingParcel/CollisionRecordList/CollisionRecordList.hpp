@@ -36,9 +36,9 @@ SourceFiles
 #ifndef CollisionRecordList_H
 #define CollisionRecordList_H
 
-#include "DynamicList.H"
-#include "PairCollisionRecord.H"
-#include "WallCollisionRecord.H"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "lagrangian/intermediate/parcels/Templates/CollidingParcel/CollisionRecordList/PairCollisionRecord/PairCollisionRecord.hpp"
+#include "lagrangian/intermediate/parcels/Templates/CollidingParcel/CollisionRecordList/WallCollisionRecord/WallCollisionRecord.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -236,7 +236,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "CollisionRecordListI.H"
+#include "lagrangian/intermediate/parcels/Templates/CollidingParcel/CollisionRecordList/CollisionRecordListI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

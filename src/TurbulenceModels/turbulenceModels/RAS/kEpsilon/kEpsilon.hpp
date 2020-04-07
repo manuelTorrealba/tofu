@@ -66,8 +66,8 @@ SourceFiles
 #ifndef kEpsilon_H
 #define kEpsilon_H
 
-#include "RASModel.H"
-#include "eddyViscosity.H"
+#include "TurbulenceModels/turbulenceModels/RAS/RASModel/RASModel.hpp"
+#include "TurbulenceModels/turbulenceModels/eddyViscosity/eddyViscosity.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

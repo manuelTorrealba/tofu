@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PhaseIncompressibleTurbulenceModel.H"
+#include "TurbulenceModels/phaseIncompressible/PhaseIncompressibleTurbulenceModel/PhaseIncompressibleTurbulenceModel.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

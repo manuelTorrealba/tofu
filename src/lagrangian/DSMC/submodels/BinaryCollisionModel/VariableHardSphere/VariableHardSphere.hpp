@@ -32,7 +32,7 @@ Description
 #ifndef VariableHardSphere_H
 #define VariableHardSphere_H
 
-#include "BinaryCollisionModel.H"
+#include "lagrangian/DSMC/submodels/BinaryCollisionModel/BinaryCollisionModel/BinaryCollisionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

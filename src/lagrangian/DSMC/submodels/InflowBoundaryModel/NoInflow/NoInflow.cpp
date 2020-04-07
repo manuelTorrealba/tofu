@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoInflow.H"
+#include "lagrangian/DSMC/submodels/InflowBoundaryModel/NoInflow/NoInflow.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

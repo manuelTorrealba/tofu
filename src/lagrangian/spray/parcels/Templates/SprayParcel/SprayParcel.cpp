@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SprayParcel.H"
-#include "CompositionModel.H"
-#include "AtomizationModel.H"
+#include "lagrangian/spray/parcels/Templates/SprayParcel/SprayParcel.hpp"
+#include "lagrangian/intermediate/submodels/Reacting/CompositionModel/CompositionModel/CompositionModel.hpp"
+#include "lagrangian/spray/submodels/AtomizationModel/AtomizationModel/AtomizationModel.hpp"
 
 // * * * * * * * * * * *  Protected Member Functions * * * * * * * * * * * * //
 

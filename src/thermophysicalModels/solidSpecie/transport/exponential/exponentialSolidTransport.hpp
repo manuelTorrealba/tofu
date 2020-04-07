@@ -170,7 +170,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "exponentialSolidTransportI.H"
+#include "thermophysicalModels/solidSpecie/transport/exponential/exponentialSolidTransportI.hpp"
 
 #ifdef NoRepository
     #include "exponentialSolidTransport.C"

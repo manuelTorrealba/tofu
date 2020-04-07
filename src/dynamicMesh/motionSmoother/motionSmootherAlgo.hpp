@@ -76,11 +76,11 @@ SourceFiles
 #ifndef motionSmootherAlgo_H
 #define motionSmootherAlgo_H
 
-#include "pointFields.H"
-#include "HashSet.H"
-#include "PackedBoolList.H"
-#include "indirectPrimitivePatch.H"
-#include "className.H"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFields.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.hpp"
+#include "OpenFOAM/db/typeInfo/className.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

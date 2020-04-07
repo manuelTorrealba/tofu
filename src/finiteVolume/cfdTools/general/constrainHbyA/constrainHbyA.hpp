@@ -34,7 +34,7 @@ SourceFiles
 #ifndef constrainHbyA_H
 #define constrainHbyA_H
 
-#include "volFieldsFwd.H"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

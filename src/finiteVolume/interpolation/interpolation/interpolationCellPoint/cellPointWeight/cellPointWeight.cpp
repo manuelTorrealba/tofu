@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellPointWeight.H"
-#include "polyMesh.H"
-#include "polyMeshTetDecomposition.H"
+#include "finiteVolume/interpolation/interpolation/interpolationCellPoint/cellPointWeight/cellPointWeight.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

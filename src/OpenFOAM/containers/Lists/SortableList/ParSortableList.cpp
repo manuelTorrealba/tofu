@@ -28,6 +28,8 @@ License
 #include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
 #include "OpenFOAM/containers/Lists/ListListOps/ListListOps.hpp"
 #include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

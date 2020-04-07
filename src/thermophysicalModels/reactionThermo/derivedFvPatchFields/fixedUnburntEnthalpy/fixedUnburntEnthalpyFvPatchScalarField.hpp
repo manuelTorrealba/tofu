@@ -35,7 +35,7 @@ SourceFiles
 #ifndef fixedUnburntEnthalpyFvPatchScalarField_H
 #define fixedUnburntEnthalpyFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

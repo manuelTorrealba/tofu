@@ -55,12 +55,12 @@ SourceFiles
 #ifndef blockDescriptor_H
 #define blockDescriptor_H
 
-#include "cellShape.H"
-#include "pointField.H"
-#include "scalarList.H"
-#include "blockEdgeList.H"
-#include "blockFaceList.H"
-#include "gradingDescriptors.H"
+#include "OpenFOAM/meshes/meshShapes/cellShape/cellShape.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/primitives/Scalar/lists/scalarList.hpp"
+#include "mesh/blockMesh/blockEdges/blockEdge/blockEdgeList.hpp"
+#include "mesh/blockMesh/blockFaces/blockFace/blockFaceList.hpp"
+#include "mesh/blockMesh/gradingDescriptor/gradingDescriptors.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -257,7 +257,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "blockDescriptorI.H"
+#include "mesh/blockMesh/blockDescriptor/blockDescriptorI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

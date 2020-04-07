@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "writer.H"
-#include "coordSet.H"
-#include "OFstream.H"
-#include "OSspecific.H"
+#include "fileFormats/sampledSetWriters/writer.hpp"
+#include "fileFormats/coordSet/coordSet.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/include/OSspecific.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

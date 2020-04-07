@@ -77,8 +77,8 @@ SourceFiles
 #ifndef functionObjects_fieldCoordinateSystemTransform_H
 #define functionObjects_fieldCoordinateSystemTransform_H
 
-#include "fvMeshFunctionObject.H"
-#include "coordinateSystem.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
+#include "meshTools/coordinateSystems/coordinateSystem.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

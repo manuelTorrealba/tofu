@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PairCollision.H"
-#include "PairModel.H"
-#include "WallModel.H"
+#include "lagrangian/intermediate/submodels/Kinematic/CollisionModel/PairCollision/PairCollision.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/CollisionModel/PairCollision/PairModel/PairModel/PairModel.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/CollisionModel/PairCollision/WallModel/WallModel/WallModel.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

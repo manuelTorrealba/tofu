@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CatmullRomSpline.H"
+#include "mesh/blockMesh/blockEdges/splineEdge/CatmullRomSpline.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

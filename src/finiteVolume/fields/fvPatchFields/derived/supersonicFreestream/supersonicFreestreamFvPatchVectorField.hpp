@@ -69,8 +69,8 @@ SourceFiles
 #ifndef supersonicFreestreamFvPatchVectorField_H
 #define supersonicFreestreamFvPatchVectorField_H
 
-#include "fvPatchFields.H"
-#include "mixedFvPatchFields.H"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFields.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/mixed/mixedFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

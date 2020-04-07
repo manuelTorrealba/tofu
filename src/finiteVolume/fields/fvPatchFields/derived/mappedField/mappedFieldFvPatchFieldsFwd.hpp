@@ -26,7 +26,7 @@ License
 #ifndef mappedFieldFvPatchFieldsFwd_H
 #define mappedFieldFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

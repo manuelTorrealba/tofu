@@ -37,8 +37,8 @@ SourceFiles
 #ifndef mappedVariableThicknessWallFvPatch_H
 #define mappedVariableThicknessWallFvPatch_H
 
-#include "wallFvPatch.H"
-#include "mappedVariableThicknessWallPolyPatch.H"
+#include "finiteVolume/fvMesh/fvPatches/derived/wall/wallFvPatch.hpp"
+#include "meshTools/mappedPatches/mappedPolyPatch/mappedVariableThicknessWallPolyPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

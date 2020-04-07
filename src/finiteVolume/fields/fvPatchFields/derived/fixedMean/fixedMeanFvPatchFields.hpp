@@ -26,8 +26,8 @@ License
 #ifndef fixedMeanFvPatchFields_H
 #define fixedMeanFvPatchFields_H
 
-#include "fixedMeanFvPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvPatchFields/derived/fixedMean/fixedMeanFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

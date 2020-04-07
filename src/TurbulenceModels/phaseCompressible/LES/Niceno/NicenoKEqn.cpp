@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NicenoKEqn.H"
-#include "fvOptions.H"
+#include "TurbulenceModels/phaseCompressible/LES/Niceno/NicenoKEqn.hpp"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOptions.hpp"
 #include "twoPhaseSystem.H"
 #include "dragModel.H"
 

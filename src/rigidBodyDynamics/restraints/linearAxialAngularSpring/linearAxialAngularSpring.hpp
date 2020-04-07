@@ -35,7 +35,7 @@ SourceFiles
 #ifndef linearAxialAngularSpring_H
 #define linearAxialAngularSpring_H
 
-#include "rigidBodyRestraint.H"
+#include "rigidBodyDynamics/restraints/restraint/rigidBodyRestraint.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

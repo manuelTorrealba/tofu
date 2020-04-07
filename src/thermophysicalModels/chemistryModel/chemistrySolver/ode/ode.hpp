@@ -35,8 +35,8 @@ SourceFiles
 #ifndef ode_H
 #define ode_H
 
-#include "chemistrySolver.H"
-#include "ODESolver.H"
+#include "thermophysicalModels/chemistryModel/chemistrySolver/chemistrySolver/chemistrySolver.hpp"
+#include "ODE/ODESolvers/ODESolver/ODESolver.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rigidBodyMeshMotion.H"
-#include "addToRunTimeSelectionTable.H"
-#include "polyMesh.H"
-#include "pointPatchDist.H"
-#include "pointConstraints.H"
-#include "uniformDimensionedFields.H"
-#include "forces.H"
-#include "OneConstant.H"
-#include "mathematicalConstants.H"
+#include "rigidBodyMeshMotion/rigidBodyMeshMotion/rigidBodyMeshMotion.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "dynamicMesh/pointPatchDist/pointPatchDist.hpp"
+#include "finiteVolume/interpolation/volPointInterpolation/pointConstraints.hpp"
+#include "OpenFOAM/fields/UniformDimensionedFields/uniformDimensionedFields.hpp"
+#include "functionObjects/forces/forces/forces.hpp"
+#include "OpenFOAM/primitives/functions/Function1/One/OneConstant.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

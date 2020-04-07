@@ -34,7 +34,7 @@ Description
 #ifndef interpolationCellPatchConstrained_H
 #define interpolationCellPatchConstrained_H
 
-#include "interpolation.H"
+#include "finiteVolume/interpolation/interpolation/interpolation/interpolation.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

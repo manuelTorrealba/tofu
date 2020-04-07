@@ -32,10 +32,10 @@ Description
 #ifndef basicKinematicCollidingCloud_H
 #define basicKinematicCollidingCloud_H
 
-#include "Cloud.H"
-#include "KinematicCloud.H"
-#include "CollidingCloud.H"
-#include "basicKinematicCollidingParcel.H"
+#include "lagrangian/basic/Cloud/Cloud.hpp"
+#include "lagrangian/intermediate/clouds/Templates/KinematicCloud/KinematicCloud.hpp"
+#include "lagrangian/intermediate/clouds/Templates/CollidingCloud/CollidingCloud.hpp"
+#include "lagrangian/intermediate/parcels/derived/basicKinematicCollidingParcel/basicKinematicCollidingParcel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

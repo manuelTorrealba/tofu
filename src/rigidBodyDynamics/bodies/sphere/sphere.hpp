@@ -36,7 +36,7 @@ SourceFiles
 #ifndef RBD_sphere_H
 #define RBD_sphere_H
 
-#include "rigidBody.H"
+#include "rigidBodyDynamics/bodies/rigidBody/rigidBody.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -114,7 +114,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "sphereI.H"
+#include "rigidBodyDynamics/bodies/sphere/sphereI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

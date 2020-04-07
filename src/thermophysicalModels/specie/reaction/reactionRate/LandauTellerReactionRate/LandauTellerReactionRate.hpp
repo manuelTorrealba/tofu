@@ -35,8 +35,8 @@ SourceFiles
 #ifndef LandauTellerReactionRate_H
 #define LandauTellerReactionRate_H
 
-#include "scalarField.H"
-#include "typeInfo.H"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -151,7 +151,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "LandauTellerReactionRateI.H"
+#include "thermophysicalModels/specie/reaction/reactionRate/LandauTellerReactionRate/LandauTellerReactionRateI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

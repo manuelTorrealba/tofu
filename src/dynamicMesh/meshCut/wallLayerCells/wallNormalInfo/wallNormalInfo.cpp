@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallNormalInfo.H"
+#include "dynamicMesh/meshCut/wallLayerCells/wallNormalInfo/wallNormalInfo.hpp"
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 

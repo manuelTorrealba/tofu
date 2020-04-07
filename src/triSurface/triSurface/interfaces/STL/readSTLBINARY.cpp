@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurface.H"
-#include "STLtriangle.H"
-#include "IFstream.H"
-#include "OSspecific.H"
+#include "triSurface/triSurface/triSurface.hpp"
+#include "surfMesh/surfaceFormats/stl/STLtriangle.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/include/OSspecific.hpp"
 #include "gzstream.h"
-#include "floatVector.H"
-#include "mergePoints.H"
+#include "OpenFOAM/primitives/Vector/floatVector/floatVector.hpp"
+#include "OpenFOAM/meshes/meshTools/mergePoints.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

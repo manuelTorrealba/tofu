@@ -26,7 +26,7 @@ License
 #ifndef waveTransmissiveFvPatchFieldsFwd_H
 #define waveTransmissiveFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

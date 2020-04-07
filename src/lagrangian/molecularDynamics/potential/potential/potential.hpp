@@ -35,12 +35,12 @@ SourceFiles
 #ifndef potential_H
 #define potential_H
 
-#include "polyMesh.H"
-#include "IOdictionary.H"
-#include "Time.H"
-#include "pairPotentialList.H"
-#include "electrostaticPotential.H"
-#include "tetherPotentialList.H"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "lagrangian/molecularDynamics/potential/pairPotential/pairPotentialList/pairPotentialList.hpp"
+#include "lagrangian/molecularDynamics/potential/electrostaticPotential/electrostaticPotential.hpp"
+#include "lagrangian/molecularDynamics/potential/tetherPotential/tetherPotentialList/tetherPotentialList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -143,7 +143,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "potentialI.H"
+#include "lagrangian/molecularDynamics/potential/potential/potentialI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

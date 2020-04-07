@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TDACChemistryModel.H"
-#include "UniformField.H"
-#include "localEulerDdtScheme.H"
-#include "clockTime.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/TDACChemistryModel.hpp"
+#include "OpenFOAM/fields/Fields/uniformField/UniformField.hpp"
+#include "finiteVolume/finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.hpp"
+#include "OSspecific/POSIX/clockTime/clockTime.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

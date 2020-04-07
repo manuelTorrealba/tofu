@@ -78,7 +78,7 @@ SourceFiles
 #ifndef phaseHydrostaticPressureFvPatchScalarField_H
 #define phaseHydrostaticPressureFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
+#include "finiteVolume/fields/fvPatchFields/basic/mixed/mixedFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,11 +37,11 @@ SourceFiles
 #ifndef faceAreaIntersect_H
 #define faceAreaIntersect_H
 
-#include "pointField.H"
-#include "FixedList.H"
-#include "plane.H"
-#include "face.H"
-#include "NamedEnum.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/plane/plane.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/face.hpp"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -182,7 +182,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "faceAreaIntersectI.H"
+#include "meshTools/AMIInterpolation/faceAreaIntersect/faceAreaIntersectI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchInteractionData.H"
-#include "dictionaryEntry.H"
-#include "PatchInteractionModel.H"
+#include "lagrangian/intermediate/submodels/Kinematic/PatchInteractionModel/LocalInteraction/patchInteractionData.hpp"
+#include "OpenFOAM/db/dictionary/dictionaryEntry/dictionaryEntry.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/PatchInteractionModel/PatchInteractionModel/PatchInteractionModel.hpp"
 
 // * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * * //
 

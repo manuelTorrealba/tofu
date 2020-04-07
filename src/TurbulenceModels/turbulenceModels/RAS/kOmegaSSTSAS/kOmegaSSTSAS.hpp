@@ -78,8 +78,8 @@ SourceFiles
 #ifndef kOmegaSSTSAS_H
 #define kOmegaSSTSAS_H
 
-#include "kOmegaSST.H"
-#include "LESdelta.H"
+#include "TurbulenceModels/turbulenceModels/RAS/kOmegaSST/kOmegaSST.hpp"
+#include "TurbulenceModels/turbulenceModels/LES/LESdeltas/LESdelta/LESdelta.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

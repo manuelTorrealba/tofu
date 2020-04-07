@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sweptFaceAreaWeightAMI.H"
-#include "cut.H"
-#include "linearEqn.H"
-#include "quadraticEqn.H"
+#include "meshTools/AMIInterpolation/AMIInterpolation/AMIMethod/sweptFaceAreaWeightAMI/sweptFaceAreaWeightAMI.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/cut/cut.hpp"
+#include "OpenFOAM/primitives/polynomialEqns/linearEqn/linearEqn.hpp"
+#include "OpenFOAM/primitives/polynomialEqns/quadraticEqn/quadraticEqn.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

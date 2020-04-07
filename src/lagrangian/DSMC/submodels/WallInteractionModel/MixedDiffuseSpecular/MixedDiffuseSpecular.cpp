@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MixedDiffuseSpecular.H"
+#include "lagrangian/DSMC/submodels/WallInteractionModel/MixedDiffuseSpecular/MixedDiffuseSpecular.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SuppressionCollision.H"
-#include "kinematicCloud.H"
+#include "lagrangian/intermediate/submodels/ReactingMultiphase/StochasticCollision/SuppressionCollision/SuppressionCollision.hpp"
+#include "lagrangian/intermediate/clouds/baseClasses/kinematicCloud/kinematicCloud.hpp"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

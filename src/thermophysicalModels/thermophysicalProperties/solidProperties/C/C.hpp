@@ -35,7 +35,7 @@ SourceFiles
 #ifndef solid_C_H
 #define solid_C_H
 
-#include "solidProperties.H"
+#include "thermophysicalModels/thermophysicalProperties/solidProperties/solidProperties/solidProperties.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

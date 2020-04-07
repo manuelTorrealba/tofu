@@ -43,7 +43,7 @@ SourceFiles
 #ifndef zeroFixedValuePointPatchField_H
 #define zeroFixedValuePointPatchField_H
 
-#include "fixedValuePointPatchField.H"
+#include "OpenFOAM/fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

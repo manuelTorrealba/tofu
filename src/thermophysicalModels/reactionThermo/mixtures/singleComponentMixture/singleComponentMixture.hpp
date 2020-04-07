@@ -35,7 +35,7 @@ SourceFiles
 #ifndef singleComponentMixture_H
 #define singleComponentMixture_H
 
-#include "basicSpecieMixture.H"
+#include "thermophysicalModels/reactionThermo/mixtures/basicSpecieMixture/basicSpecieMixture.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

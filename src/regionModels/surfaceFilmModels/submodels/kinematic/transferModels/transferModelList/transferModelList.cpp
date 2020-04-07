@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "transferModelList.H"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/transferModels/transferModelList/transferModelList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

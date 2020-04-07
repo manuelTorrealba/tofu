@@ -38,7 +38,7 @@ SourceFiles
 #ifndef UMIST_H
 #define UMIST_H
 
-#include "vector.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

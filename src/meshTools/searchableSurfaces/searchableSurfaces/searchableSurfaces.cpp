@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableSurfaces.H"
-#include "searchableSurfacesQueries.H"
-#include "ListOps.H"
-#include "Time.H"
-#include "DynamicField.H"
-#include "PatchTools.H"
-#include "triSurfaceMesh.H"
+#include "meshTools/searchableSurfaces/searchableSurfaces/searchableSurfaces.hpp"
+#include "meshTools/searchableSurfaces/searchableSurfacesQueries/searchableSurfacesQueries.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/fields/Fields/DynamicField/DynamicField.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/PatchTools/PatchTools.hpp"
+#include "meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

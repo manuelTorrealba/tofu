@@ -42,7 +42,7 @@ SourceFiles
 #ifndef CoEulerDdtScheme_H
 #define CoEulerDdtScheme_H
 
-#include "ddtScheme.H"
+#include "finiteVolume/finiteVolume/ddtSchemes/ddtScheme/ddtScheme.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

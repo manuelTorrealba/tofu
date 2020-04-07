@@ -36,7 +36,7 @@ SourceFiles
 #ifndef SortableListDRGEP_H
 #define SortableListDRGEP_H
 
-#include "labelList.H"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

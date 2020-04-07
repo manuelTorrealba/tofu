@@ -39,9 +39,9 @@ SourceFiles
 #ifndef ThermoParcel_H
 #define ThermoParcel_H
 
-#include "particle.H"
-#include "SLGThermo.H"
-#include "demandDrivenEntry.H"
+#include "lagrangian/basic/particle/particle.hpp"
+#include "thermophysicalModels/SLGThermo/SLGThermo/SLGThermo.hpp"
+#include "OpenFOAM/primitives/demandDrivenEntry/demandDrivenEntry.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -467,8 +467,8 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ThermoParcelI.H"
-#include "ThermoParcelTrackingDataI.H"
+#include "lagrangian/intermediate/parcels/Templates/ThermoParcel/ThermoParcelI.hpp"
+#include "lagrangian/intermediate/parcels/Templates/ThermoParcel/ThermoParcelTrackingDataI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

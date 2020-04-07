@@ -26,8 +26,8 @@ License
 #ifndef extrapolatedCalculatedFvPatchFields_H
 #define extrapolatedCalculatedFvPatchFields_H
 
-#include "extrapolatedCalculatedFvPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

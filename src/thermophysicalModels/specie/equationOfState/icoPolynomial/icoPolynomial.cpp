@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "icoPolynomial.H"
-#include "IOstreams.H"
+#include "thermophysicalModels/specie/equationOfState/icoPolynomial/icoPolynomial.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -33,8 +33,8 @@ Description
 #ifndef ensightFile_H
 #define ensightFile_H
 
-#include "OFstream.H"
-#include "IOstream.H"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

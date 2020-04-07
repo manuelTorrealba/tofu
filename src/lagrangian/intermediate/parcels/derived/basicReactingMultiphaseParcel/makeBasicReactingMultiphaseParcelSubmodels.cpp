@@ -23,28 +23,28 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicReactingMultiphaseCloud.H"
+#include "lagrangian/intermediate/clouds/derived/basicReactingMultiphaseCloud/basicReactingMultiphaseCloud.hpp"
 
-#include "makeParcelCloudFunctionObjects.H"
+#include "lagrangian/intermediate/parcels/include/makeParcelCloudFunctionObjects.hpp"
 
 // Kinematic
-#include "makeThermoParcelForces.H" // thermo variant
-#include "makeParcelDispersionModels.H"
-#include "makeReactingMultiphaseParcelInjectionModels.H" // MP variant
-#include "makeParcelPatchInteractionModels.H"
-#include "makeReactingMultiphaseParcelStochasticCollisionModels.H" // MP variant
-#include "makeReactingParcelSurfaceFilmModels.H" // Reacting variant
+#include "lagrangian/intermediate/parcels/include/makeThermoParcelForces.hpp"
+#include "lagrangian/intermediate/parcels/include/makeParcelDispersionModels.hpp"
+#include "lagrangian/intermediate/parcels/include/makeReactingMultiphaseParcelInjectionModels.hpp"
+#include "lagrangian/intermediate/parcels/include/makeParcelPatchInteractionModels.hpp"
+#include "lagrangian/intermediate/parcels/include/makeReactingMultiphaseParcelStochasticCollisionModels.hpp"
+#include "lagrangian/intermediate/parcels/include/makeReactingParcelSurfaceFilmModels.hpp"
 
 // Thermodynamic
-#include "makeParcelHeatTransferModels.H"
+#include "lagrangian/intermediate/parcels/include/makeParcelHeatTransferModels.hpp"
 
 // Reacting
-#include "makeReactingMultiphaseParcelCompositionModels.H" // MP Variant
-#include "makeReactingParcelPhaseChangeModels.H"
+#include "lagrangian/intermediate/parcels/include/makeReactingMultiphaseParcelCompositionModels.hpp"
+#include "lagrangian/intermediate/parcels/include/makeReactingParcelPhaseChangeModels.hpp"
 
 // Reacting multiphase
-#include "makeReactingMultiphaseParcelDevolatilisationModels.H"
-#include "makeReactingMultiphaseParcelSurfaceReactionModels.H"
+#include "lagrangian/intermediate/parcels/include/makeReactingMultiphaseParcelDevolatilisationModels.hpp"
+#include "lagrangian/intermediate/parcels/include/makeReactingMultiphaseParcelSurfaceReactionModels.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

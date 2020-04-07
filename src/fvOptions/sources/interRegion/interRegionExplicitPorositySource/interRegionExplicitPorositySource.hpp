@@ -58,7 +58,7 @@ SourceFiles
 #ifndef interRegionExplicitPorositySource_H
 #define interRegionExplicitPorositySource_H
 
-#include "interRegionOption.H"
+#include "fvOptions/interRegionOption/interRegionOption.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -32,7 +32,7 @@ Description
 #ifndef NoBreakup_H
 #define NoBreakup_H
 
-#include "BreakupModel.H"
+#include "lagrangian/spray/submodels/BreakupModel/BreakupModel/BreakupModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

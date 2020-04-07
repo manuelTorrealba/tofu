@@ -26,8 +26,8 @@ License
 #ifndef jumpCyclicFvPatchFields_H
 #define jumpCyclicFvPatchFields_H
 
-#include "jumpCyclicFvPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvPatchFields/constraint/jumpCyclic/jumpCyclicFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

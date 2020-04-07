@@ -35,7 +35,7 @@ SourceFiles
 #ifndef cellSet_H
 #define cellSet_H
 
-#include "topoSet.H"
+#include "meshTools/sets/topoSets/topoSet.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

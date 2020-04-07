@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "WenYuDragForce.H"
-#include "volFields.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/Drag/WenYuDrag/WenYuDragForce.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

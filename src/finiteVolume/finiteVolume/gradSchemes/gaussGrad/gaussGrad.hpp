@@ -36,9 +36,9 @@ SourceFiles
 #ifndef gaussGrad_H
 #define gaussGrad_H
 
-#include "gradScheme.H"
-#include "surfaceInterpolationScheme.H"
-#include "linear.H"
+#include "finiteVolume/finiteVolume/gradSchemes/gradScheme/gradScheme.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.hpp"
+#include "thermophysicalModels/specie/equationOfState/linear/linear.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

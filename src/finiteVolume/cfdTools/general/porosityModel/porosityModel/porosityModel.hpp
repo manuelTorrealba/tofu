@@ -36,13 +36,13 @@ SourceFiles
 #ifndef porosityModel_H
 #define porosityModel_H
 
-#include "fvMesh.H"
-#include "dictionary.H"
-#include "fvMatricesFwd.H"
-#include "runTimeSelectionTables.H"
-#include "coordinateSystem.H"
-#include "dimensionedVector.H"
-#include "keyType.H"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "finiteVolume/fvMatrices/fvMatricesFwd.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
+#include "meshTools/coordinateSystems/coordinateSystem.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedVector/dimensionedVector.hpp"
+#include "OpenFOAM/primitives/strings/keyType/keyType.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -276,7 +276,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "porosityModelI.H"
+#include "finiteVolume/cfdTools/general/porosityModel/porosityModel/porosityModelI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "StandardChemistryModel.H"
-#include "reactingMixture.H"
-#include "UniformField.H"
-#include "extrapolatedCalculatedFvPatchFields.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/StandardChemistryModel/StandardChemistryModel.hpp"
+#include "thermophysicalModels/reactionThermo/mixtures/reactingMixture/reactingMixture.hpp"
+#include "OpenFOAM/fields/Fields/uniformField/UniformField.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

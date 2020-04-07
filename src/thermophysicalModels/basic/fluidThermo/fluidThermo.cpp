@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fluidThermo.H"
+#include "thermophysicalModels/basic/fluidThermo/fluidThermo.hpp"
 
 /* * * * * * * * * * * * * * * private static data * * * * * * * * * * * * * */
 

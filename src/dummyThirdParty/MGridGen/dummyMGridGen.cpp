@@ -28,7 +28,7 @@ License
 #include "mgridgen.h"
 //}
 
-#include "error.H"
+#include "OpenFOAM/db/error/error.hpp"
 
 using namespace Foam;
 

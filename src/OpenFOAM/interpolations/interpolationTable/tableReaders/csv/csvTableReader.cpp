@@ -26,6 +26,7 @@ License
 #include "OpenFOAM/interpolations/interpolationTable/tableReaders/csv/csvTableReader.hpp"
 #include "OpenFOAM/global/fileOperations/fileOperation/fileOperation.hpp"
 #include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/db/IOstreams/StringStreams/IStringStream.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermocapillaryForce.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvcGrad.H"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/force/thermocapillaryForce/thermocapillaryForce.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcGrad.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

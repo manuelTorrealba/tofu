@@ -35,9 +35,9 @@ SourceFiles
 #ifndef CorrectionLimitingMethod_H
 #define CorrectionLimitingMethod_H
 
-#include "volFieldsFwd.H"
-#include "dictionary.H"
-#include "runTimeSelectionTables.H"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

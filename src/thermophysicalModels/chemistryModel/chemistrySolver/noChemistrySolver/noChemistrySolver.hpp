@@ -36,7 +36,7 @@ SourceFiles
 #ifndef noChemistrySolver_H
 #define noChemistrySolver_H
 
-#include "chemistrySolver.H"
+#include "thermophysicalModels/chemistryModel/chemistrySolver/chemistrySolver/chemistrySolver.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

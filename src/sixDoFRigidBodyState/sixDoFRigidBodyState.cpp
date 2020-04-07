@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sixDoFRigidBodyState.H"
-#include "dynamicMotionSolverFvMesh.H"
-#include "sixDoFRigidBodyMotionSolver.H"
-#include "unitConversion.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sixDoFRigidBodyState/sixDoFRigidBodyState.hpp"
+#include "dynamicFvMesh/dynamicMotionSolverFvMesh/dynamicMotionSolverFvMesh.hpp"
+#include "sixDoFRigidBodyMotion/sixDoFRigidBodyMotionSolver/sixDoFRigidBodyMotionSolver.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

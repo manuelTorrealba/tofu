@@ -43,7 +43,7 @@ SourceFiles
 #ifndef floatingJoint_H
 #define floatingJoint_H
 
-#include "compositeJoint.H"
+#include "rigidBodyDynamics/joints/composite/compositeJoint.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

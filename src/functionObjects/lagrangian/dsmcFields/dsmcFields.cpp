@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dsmcFields.H"
-#include "volFields.H"
-#include "dictionary.H"
-#include "dsmcCloud.H"
-#include "constants.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/lagrangian/dsmcFields/dsmcFields.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "lagrangian/DSMC/clouds/derived/dsmcCloud/dsmcCloud.hpp"
+#include "OpenFOAM/global/constants/constants.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 using namespace Foam::constant;
 

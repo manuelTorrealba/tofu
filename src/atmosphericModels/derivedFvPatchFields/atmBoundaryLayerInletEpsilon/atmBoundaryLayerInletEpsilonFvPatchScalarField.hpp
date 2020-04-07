@@ -56,9 +56,9 @@ SourceFiles
 #ifndef atmBoundaryLayerInletEpsilonFvPatchScalarField_H
 #define atmBoundaryLayerInletEpsilonFvPatchScalarField_H
 
-#include "fvPatchFields.H"
-#include "inletOutletFvPatchFields.H"
-#include "atmBoundaryLayer.H"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFields.hpp"
+#include "finiteVolume/fields/fvPatchFields/derived/inletOutlet/inletOutletFvPatchFields.hpp"
+#include "atmosphericModels/derivedFvPatchFields/atmBoundaryLayer/atmBoundaryLayer.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

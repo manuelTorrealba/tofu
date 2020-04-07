@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionSizeDistribution.H"
-#include "regionSplit.H"
-#include "volFields.H"
+#include "functionObjects/field/regionSizeDistribution/regionSizeDistribution.hpp"
+#include "meshTools/regionSplit/regionSplit.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

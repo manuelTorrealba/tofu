@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReitzDiwakar.H"
+#include "lagrangian/spray/submodels/BreakupModel/ReitzDiwakar/ReitzDiwakar.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

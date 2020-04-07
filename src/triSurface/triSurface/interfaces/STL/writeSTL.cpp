@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurface.H"
-#include "STLtriangle.H"
-#include "primitivePatch.H"
-#include "HashTable.H"
-#include "hashSignedLabel.H"
+#include "triSurface/triSurface/triSurface.hpp"
+#include "surfMesh/surfaceFormats/stl/STLtriangle.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/primitivePatch.hpp"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
+#include "triSurface/tools/hashSignedLabel/hashSignedLabel.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

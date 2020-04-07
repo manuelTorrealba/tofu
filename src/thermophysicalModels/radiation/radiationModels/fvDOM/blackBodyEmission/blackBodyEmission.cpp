@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "blackBodyEmission.H"
-#include "physicoChemicalConstants.H"
+#include "thermophysicalModels/radiation/radiationModels/fvDOM/blackBodyEmission/blackBodyEmission.hpp"
+#include "OpenFOAM/global/constants/physicoChemical/physicoChemicalConstants.hpp"
 
 using namespace Foam::constant;
 

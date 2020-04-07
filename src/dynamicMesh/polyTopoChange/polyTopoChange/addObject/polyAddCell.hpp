@@ -32,8 +32,8 @@ Description
 #ifndef polyAddCell_H
 #define polyAddCell_H
 
-#include "label.H"
-#include "topoAction.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/topoAction/topoAction.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

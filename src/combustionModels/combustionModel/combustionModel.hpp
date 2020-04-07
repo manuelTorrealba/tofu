@@ -35,8 +35,8 @@ SourceFiles
 #ifndef combustionModel_H
 #define combustionModel_H
 
-#include "IOdictionary.H"
-#include "turbulentFluidThermoModel.H"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "TurbulenceModels/compressible/turbulentFluidThermoModels/turbulentFluidThermoModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -164,7 +164,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "combustionModelI.H"
+#include "combustionModels/combustionModel/combustionModelI.hpp"
 
 #ifdef NoRepository
     #include "combustionModelTemplates.C"

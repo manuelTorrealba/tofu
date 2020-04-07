@@ -36,11 +36,11 @@ SourceFiles
 #ifndef basicChemistryModel_H
 #define basicChemistryModel_H
 
-#include "IOdictionary.H"
-#include "Switch.H"
-#include "scalarField.H"
-#include "volFields.H"
-#include "basicThermo.H"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "thermophysicalModels/basic/basicThermo/basicThermo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -192,7 +192,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "basicChemistryModelI.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/basicChemistryModel/basicChemistryModelI.hpp"
 
 #ifdef NoRepository
     #include "basicChemistryModelTemplates.C"

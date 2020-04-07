@@ -37,7 +37,7 @@ SourceFiles
 #ifndef fvcCurl_H
 #define fvcCurl_H
 
-#include "volFieldsFwd.H"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

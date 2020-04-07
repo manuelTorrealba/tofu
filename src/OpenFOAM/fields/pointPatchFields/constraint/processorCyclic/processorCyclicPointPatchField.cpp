@@ -26,7 +26,8 @@ License
 #include "OpenFOAM/fields/pointPatchFields/constraint/processorCyclic/processorCyclicPointPatchField.hpp"
 #include "OpenFOAM/fields/Fields/transformField/transformField.hpp"
 #include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.hpp"
-
+#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * //
 

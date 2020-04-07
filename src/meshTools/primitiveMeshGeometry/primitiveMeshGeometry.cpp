@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveMeshGeometry.H"
-#include "pyramidPointFaceRef.H"
-#include "unitConversion.H"
-#include "triPointRef.H"
+#include "meshTools/primitiveMeshGeometry/primitiveMeshGeometry.hpp"
+#include "OpenFOAM/meshes/meshShapes/cell/pyramidPointFaceRef.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/triangle/triPointRef.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,7 +38,7 @@ SourceFiles
 #ifndef contactAngleForce_H
 #define contactAngleForce_H
 
-#include "force.H"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/force/force/force.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

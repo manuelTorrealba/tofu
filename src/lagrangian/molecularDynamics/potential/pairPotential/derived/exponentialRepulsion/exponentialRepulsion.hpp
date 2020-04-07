@@ -34,7 +34,7 @@ SourceFiles
 #ifndef exponentialRepulsion_H
 #define exponentialRepulsion_H
 
-#include "pairPotential.H"
+#include "lagrangian/molecularDynamics/potential/pairPotential/basic/pairPotential.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

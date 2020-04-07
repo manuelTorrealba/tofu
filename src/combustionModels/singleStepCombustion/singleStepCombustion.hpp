@@ -35,8 +35,8 @@ SourceFiles
 #ifndef singleStepCombustion_H
 #define singleStepCombustion_H
 
-#include "singleStepReactingMixture.H"
-#include "ThermoCombustion.H"
+#include "thermophysicalModels/reactionThermo/mixtures/singleStepReactingMixture/singleStepReactingMixture.hpp"
+#include "combustionModels/CombustionModelN/ThermoCombustion/ThermoCombustion.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermo.H"
+#include "thermophysicalModels/specie/thermo/thermo/thermo.hpp"
 
 /* * * * * * * * * * * * * * * private static data * * * * * * * * * * * * * */
 

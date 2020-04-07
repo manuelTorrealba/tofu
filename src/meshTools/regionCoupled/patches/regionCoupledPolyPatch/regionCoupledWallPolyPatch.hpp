@@ -35,8 +35,8 @@ SourceFiles
 #ifndef regionCoupledWallPolyPatch_H
 #define regionCoupledWallPolyPatch_H
 
-#include "wallPolyPatch.H"
-#include "regionCoupledBase.H"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.hpp"
+#include "meshTools/regionCoupled/patches/regionCoupledPolyPatch/regionCoupledBase.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

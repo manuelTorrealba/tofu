@@ -26,7 +26,7 @@ License
 #ifndef cellMotionFvPatchFieldsFwd_H
 #define cellMotionFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

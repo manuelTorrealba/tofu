@@ -41,7 +41,7 @@ Description
 #ifndef ISAT_H
 #define ISAT_H
 
-#include "binaryTree.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/tabulation/ISAT/binaryTree/binaryTree.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

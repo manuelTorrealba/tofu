@@ -35,8 +35,8 @@ SourceFiles
 #ifndef refineCell_H
 #define refineCell_H
 
-#include "label.H"
-#include "vector.H"
+#include "OpenFOAM/primitives/ints/label/label.hpp"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solidProperties.H"
+#include "thermophysicalModels/thermophysicalProperties/solidProperties/solidProperties/solidProperties.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

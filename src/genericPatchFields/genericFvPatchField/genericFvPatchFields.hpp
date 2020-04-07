@@ -26,8 +26,8 @@ License
 #ifndef genericFvPatchFields_H
 #define genericFvPatchFields_H
 
-#include "genericFvPatchField.H"
-#include "fieldTypes.H"
+#include "genericPatchFields/genericFvPatchField/genericFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

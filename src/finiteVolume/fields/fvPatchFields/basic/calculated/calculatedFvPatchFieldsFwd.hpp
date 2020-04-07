@@ -26,7 +26,7 @@ License
 #ifndef calculatedFvPatchFieldsFwd_H
 #define calculatedFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

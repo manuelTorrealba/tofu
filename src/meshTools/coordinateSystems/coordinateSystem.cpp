@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstream.H"
-#include "axesRotation.H"
-#include "coordinateSystem.H"
-#include "coordinateSystems.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOstream.hpp"
+#include "meshTools/coordinateSystems/coordinateRotation/axesRotation.hpp"
+#include "meshTools/coordinateSystems/coordinateSystem.hpp"
+#include "meshTools/coordinateSystems/coordinateSystems.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -32,7 +32,7 @@ Description
 #ifndef RanzMarshall_H
 #define RanzMarshall_H
 
-#include "HeatTransferModel.H"
+#include "lagrangian/intermediate/submodels/Thermodynamic/HeatTransferModel/HeatTransferModel/HeatTransferModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

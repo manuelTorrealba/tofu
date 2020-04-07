@@ -51,13 +51,13 @@ SourceFiles
 #ifndef coordinateRotation_H
 #define coordinateRotation_H
 
-#include "vector.H"
-#include "tensor.H"
-#include "tensorField.H"
-#include "dictionary.H"
-#include "runTimeSelectionTables.H"
-#include "objectRegistry.H"
-#include "polyMesh.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/primitives/Tensor/tensor/tensor.hpp"
+#include "OpenFOAM/fields/Fields/tensorField/tensorField.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
+#include "OpenFOAM/db/objectRegistry/objectRegistry.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

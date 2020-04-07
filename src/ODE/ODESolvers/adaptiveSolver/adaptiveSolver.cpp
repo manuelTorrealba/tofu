@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adaptiveSolver.H"
-#include "addToRunTimeSelectionTable.H"
+#include "ODE/ODESolvers/adaptiveSolver/adaptiveSolver.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

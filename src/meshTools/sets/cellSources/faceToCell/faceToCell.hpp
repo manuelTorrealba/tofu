@@ -35,8 +35,8 @@ SourceFiles
 #ifndef faceToCell_H
 #define faceToCell_H
 
-#include "topoSetSource.H"
-#include "NamedEnum.H"
+#include "meshTools/sets/topoSetSource/topoSetSource.hpp"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MRFZoneList.H"
-#include "volFields.H"
-#include "fixedValueFvsPatchFields.H"
+#include "finiteVolume/cfdTools/general/MRF/MRFZoneList.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fields/fvsPatchFields/basic/fixedValue/fixedValueFvsPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

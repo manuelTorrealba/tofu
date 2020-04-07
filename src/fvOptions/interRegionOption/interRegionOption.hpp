@@ -32,10 +32,10 @@ Description
 #ifndef interRegionOption_H
 #define interRegionOption_H
 
-#include "fvOption.H"
-#include "volFields.H"
-#include "autoPtr.H"
-#include "meshToMesh.H"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOption.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "sampling/meshToMesh/meshToMesh.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -120,7 +120,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "interRegionOptionI.H"
+#include "fvOptions/interRegionOption/interRegionOptionI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

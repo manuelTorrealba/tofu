@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoStochasticCollision.H"
+#include "lagrangian/intermediate/submodels/Kinematic/StochasticCollision/NoStochasticCollision/NoStochasticCollision.hpp"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

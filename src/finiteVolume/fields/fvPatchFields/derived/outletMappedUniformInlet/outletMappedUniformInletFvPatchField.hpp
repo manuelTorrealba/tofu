@@ -58,7 +58,7 @@ SourceFiles
 #ifndef outletMappedUniformInletFvPatchField_H
 #define outletMappedUniformInletFvPatchField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

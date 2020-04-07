@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoDamping.H"
+#include "lagrangian/intermediate/submodels/MPPIC/DampingModels/NoDamping/NoDamping.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

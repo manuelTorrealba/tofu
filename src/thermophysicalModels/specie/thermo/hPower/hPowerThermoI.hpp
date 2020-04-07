@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "hPowerThermo.H"
-#include "specie.H"
+#include "thermophysicalModels/specie/thermo/hPower/hPowerThermo.hpp"
+#include "thermophysicalModels/specie/specie/specie.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

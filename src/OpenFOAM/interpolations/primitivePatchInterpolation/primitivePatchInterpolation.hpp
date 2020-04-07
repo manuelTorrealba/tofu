@@ -32,7 +32,7 @@ Description
 #ifndef primitivePatchInterpolation_H
 #define primitivePatchInterpolation_H
 
-#include "PrimitivePatchInterpolation.H"
+#include "OpenFOAM/interpolations/primitivePatchInterpolation/PrimitivePatchInterpolationN.hpp"
 #include "OpenFOAM/meshes/primitiveMesh/PrimitivePatchN/PrimitivePatch.hpp"
 #include "OpenFOAM/meshes/meshShapes/face/face.hpp"
 #include "OpenFOAM/containers/Lists/SubList/SubList.hpp"

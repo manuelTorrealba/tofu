@@ -26,8 +26,8 @@ License
 #ifndef calculatedFvPatchFields_H
 #define calculatedFvPatchFields_H
 
-#include "calculatedFvPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvPatchFields/basic/calculated/calculatedFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

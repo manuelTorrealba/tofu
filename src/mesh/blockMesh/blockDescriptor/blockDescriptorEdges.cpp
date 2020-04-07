@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "blockDescriptor.H"
-#include "lineEdge.H"
-#include "lineDivide.H"
+#include "mesh/blockMesh/blockDescriptor/blockDescriptor.hpp"
+#include "mesh/blockMesh/blockEdges/lineEdge/lineEdge.hpp"
+#include "mesh/blockMesh/blockEdges/lineDivide/lineDivide.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

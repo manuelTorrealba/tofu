@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "vanDriestDelta.H"
-#include "wallFvPatch.H"
-#include "wallDistData.H"
-#include "wallPointYPlus.H"
-#include "addToRunTimeSelectionTable.H"
+#include "TurbulenceModels/turbulenceModels/LES/LESdeltas/vanDriestDelta/vanDriestDelta.hpp"
+#include "finiteVolume/fvMesh/fvPatches/derived/wall/wallFvPatch.hpp"
+#include "finiteVolume/fvMesh/wallDist/patchDistMethods/meshWave/wallDistData/wallDistData.hpp"
+#include "finiteVolume/fvMesh/wallDist/wallPointYPlus/wallPointYPlus.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

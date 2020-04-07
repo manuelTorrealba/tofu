@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniformJumpAMIFvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/derived/uniformJumpAMI/uniformJumpAMIFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

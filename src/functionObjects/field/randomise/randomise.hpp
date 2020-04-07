@@ -40,7 +40,7 @@ SourceFiles
 #ifndef functionObjects_randomise_H
 #define functionObjects_randomise_H
 
-#include "fieldExpression.H"
+#include "functionObjects/field/fieldExpression/fieldExpression.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

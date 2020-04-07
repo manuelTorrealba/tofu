@@ -35,7 +35,7 @@ SourceFiles
 #ifndef noCombustion_H
 #define noCombustion_H
 
-#include "ThermoCombustion.H"
+#include "combustionModels/CombustionModelN/ThermoCombustion/ThermoCombustion.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -27,7 +27,7 @@ License
 #include "OpenFOAM/fields/FieldFields/symmTensorFieldField/symmTensorFieldField.hpp"
 
 #define TEMPLATE template<template<class> class PatchField, class GeoMesh>
-#include "GeometricFieldFunctionsM.C"
+#include "OpenFOAM/fields/GeometricFields/GeometricField/GeometricFieldFunctionsM.cpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

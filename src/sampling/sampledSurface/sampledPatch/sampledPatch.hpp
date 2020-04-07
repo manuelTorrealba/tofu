@@ -35,8 +35,8 @@ SourceFiles
 #ifndef sampledPatch_H
 #define sampledPatch_H
 
-#include "sampledSurface.H"
-#include "MeshedSurface.H"
+#include "sampling/sampledSurface/sampledSurface/sampledSurface.hpp"
+#include "surfMesh/MeshedSurface/MeshedSurface.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

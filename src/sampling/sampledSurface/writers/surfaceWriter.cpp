@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceWriter.H"
+#include "sampling/sampledSurface/writers/surfaceWriter.hpp"
 
-#include "MeshedSurfaceProxy.H"
-#include "proxySurfaceWriter.H"
+#include "surfMesh/MeshedSurfaceProxy/MeshedSurfaceProxy.hpp"
+#include "sampling/sampledSurface/writers/proxy/proxySurfaceWriter.hpp"
 
-#include "HashTable.H"
-#include "word.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

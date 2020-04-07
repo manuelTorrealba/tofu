@@ -35,8 +35,8 @@ SourceFiles
 #ifndef solidArrheniusReactionRate_H
 #define solidArrheniusReactionRate_H
 
-#include "scalarField.H"
-#include "typeInfo.H"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -156,7 +156,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "solidArrheniusReactionRateI.H"
+#include "thermophysicalModels/solidSpecie/reaction/reactionRate/solidArrheniusReactionRate/solidArrheniusReactionRateI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

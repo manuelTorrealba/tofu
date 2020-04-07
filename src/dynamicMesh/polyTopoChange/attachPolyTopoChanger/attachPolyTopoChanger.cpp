@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "attachPolyTopoChanger.H"
-#include "polyMesh.H"
-#include "polyTopoChange.H"
+#include "dynamicMesh/polyTopoChange/attachPolyTopoChanger/attachPolyTopoChanger.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChange.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

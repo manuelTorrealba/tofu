@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DSMCBaseCloud.H"
+#include "lagrangian/DSMC/clouds/baseClasses/DSMCBaseCloud/DSMCBaseCloud.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

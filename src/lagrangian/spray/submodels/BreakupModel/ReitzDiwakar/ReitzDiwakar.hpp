@@ -50,7 +50,7 @@ Description
 #ifndef ReitzDiwakar_H
 #define ReitzDiwakar_H
 
-#include "BreakupModel.H"
+#include "lagrangian/spray/submodels/BreakupModel/BreakupModel/BreakupModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

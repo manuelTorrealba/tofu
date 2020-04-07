@@ -35,8 +35,8 @@ SourceFiles
 #ifndef NASCore_H
 #define NASCore_H
 
-#include "scalar.H"
-#include "string.H"
+#include "OpenFOAM/primitives/Scalar/scalar/scalar.hpp"
+#include "OpenFOAM/primitives/strings/string/string.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

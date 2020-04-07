@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightSurfaceWriter.H"
+#include "sampling/sampledSurface/writers/ensight/ensightSurfaceWriter.hpp"
 
-#include "OFstream.H"
-#include "OSspecific.H"
-#include "IOmanip.H"
-#include "ensightPartFaces.H"
-#include "ensightPTraits.H"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/include/OSspecific.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOmanip.hpp"
+#include "conversion/ensight/part/ensightPartFaces.hpp"
+#include "sampling/sampledSurface/writers/ensight/ensightPTraits.hpp"
 
-#include "makeSurfaceWriterMethods.H"
+#include "sampling/sampledSurface/writers/makeSurfaceWriterMethods.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

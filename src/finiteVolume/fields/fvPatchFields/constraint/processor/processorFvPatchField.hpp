@@ -44,9 +44,9 @@ SourceFiles
 #ifndef processorFvPatchField_H
 #define processorFvPatchField_H
 
-#include "coupledFvPatchField.H"
-#include "processorLduInterfaceField.H"
-#include "processorFvPatch.H"
+#include "finiteVolume/fields/fvPatchFields/basic/coupled/coupledFvPatchField.hpp"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterfaceFields/processorLduInterfaceField/processorLduInterfaceField.hpp"
+#include "finiteVolume/fvMesh/fvPatches/constraint/processor/processorFvPatch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BSplineEdge.H"
-#include "addToRunTimeSelectionTable.H"
+#include "mesh/blockMesh/blockEdges/BSplineEdge/BSplineEdge.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

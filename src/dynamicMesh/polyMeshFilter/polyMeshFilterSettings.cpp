@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMeshFilterSettings.H"
-#include "unitConversion.H"
+#include "dynamicMesh/polyMeshFilter/polyMeshFilterSettings.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -32,19 +32,19 @@ Description
 #ifndef particle_H
 #define particle_H
 
-#include "vector.H"
-#include "barycentric.H"
-#include "barycentricTensor.H"
-#include "Cloud.H"
-#include "IDLList.H"
-#include "pointField.H"
-#include "faceList.H"
-#include "OFstream.H"
-#include "tetPointRef.H"
-#include "FixedList.H"
-#include "polyMeshTetDecomposition.H"
-#include "particleMacros.H"
-#include "vectorTensorTransform.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "OpenFOAM/primitives/Barycentric/barycentric/barycentric.hpp"
+#include "OpenFOAM/primitives/Barycentric/barycentricTensor/barycentricTensor.hpp"
+#include "lagrangian/basic/Cloud/Cloud.hpp"
+#include "OpenFOAM/containers/LinkedLists/user/IDLList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/meshes/meshShapes/face/faceList.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/tetrahedron/tetPointRef.hpp"
+#include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.hpp"
+#include "lagrangian/basic/particle/particleMacros.hpp"
+#include "OpenFOAM/primitives/globalIndexAndTransform/vectorTensorTransform/vectorTensorTransform.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -679,7 +679,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "particleI.H"
+#include "lagrangian/basic/particle/particleI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

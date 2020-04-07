@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SemiImplicitSource.H"
-#include "fvMesh.H"
-#include "fvMatrices.H"
-#include "fvmSup.H"
+#include "fvOptions/sources/general/semiImplicitSource/SemiImplicitSource.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/fvMatrices/fvMatrices.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvmSup.hpp"
 
 // * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * * //
 

@@ -51,8 +51,8 @@ SourceFiles
 #ifndef lookupProfile_H
 #define lookupProfile_H
 
-#include "profileModel.H"
-#include "List.H"
+#include "fvOptions/sources/derived/rotorDiskSource/profileModel/profileModel.hpp"
+#include "OpenFOAM/containers/Lists/List/List.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

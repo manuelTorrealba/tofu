@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointConstraints.H"
-#include "emptyPointPatch.H"
-#include "polyMesh.H"
-#include "pointMesh.H"
-#include "globalMeshData.H"
-#include "twoDPointCorrector.H"
+#include "finiteVolume/interpolation/volPointInterpolation/pointConstraints.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointPatches/constraint/empty/emptyPointPatch.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/pointMesh/pointMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.hpp"
+#include "meshTools/twoDPointCorrector/twoDPointCorrector.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

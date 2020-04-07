@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "perfectGas.H"
+#include "thermophysicalModels/specie/equationOfState/perfectGas/perfectGas.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

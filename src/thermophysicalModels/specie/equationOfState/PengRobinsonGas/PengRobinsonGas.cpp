@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PengRobinsonGas.H"
-#include "IOstreams.H"
+#include "thermophysicalModels/specie/equationOfState/PengRobinsonGas/PengRobinsonGas.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

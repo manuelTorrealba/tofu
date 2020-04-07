@@ -35,8 +35,8 @@ SourceFiles
 #ifndef ensightPartCells_H
 #define ensightPartCells_H
 
-#include "ensightPart.H"
-#include "typeInfo.H"
+#include "conversion/ensight/part/ensightPart.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

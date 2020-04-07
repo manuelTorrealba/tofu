@@ -56,8 +56,8 @@ SourceFiles
 #ifndef functionObjects_removeRegisteredObject_H
 #define functionObjects_removeRegisteredObject_H
 
-#include "functionObject.H"
-#include "wordList.H"
+#include "OpenFOAM/db/functionObjects/functionObject/functionObject.hpp"
+#include "OpenFOAM/primitives/strings/lists/wordList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -58,7 +58,7 @@ SourceFiles
 #ifndef freestreamFvPatchField_H
 #define freestreamFvPatchField_H
 
-#include "inletOutletFvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/derived/inletOutlet/inletOutletFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

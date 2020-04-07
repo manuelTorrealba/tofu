@@ -54,7 +54,7 @@ SourceFiles
 #ifndef starcdSurfaceWriter_H
 #define starcdSurfaceWriter_H
 
-#include "surfaceWriter.H"
+#include "sampling/sampledSurface/writers/surfaceWriter.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,8 +37,8 @@ SourceFiles
 #ifndef distribution_H
 #define distribution_H
 
-#include "Map.H"
-#include "Pair.H"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
+#include "OpenFOAM/primitives/Pair/Pair.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -146,7 +146,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "distributionI.H"
+#include "lagrangian/molecularDynamics/molecularMeasurements/distribution/distributionI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,8 +36,8 @@ SourceFiles
 #ifndef preservePatchesConstraint_H
 #define preservePatchesConstraint_H
 
-#include "decompositionConstraint.H"
-#include "wordReList.H"
+#include "parallel/decompose/decompositionMethods/decompositionConstraints/decompositionConstraint/decompositionConstraint.hpp"
+#include "OpenFOAM/primitives/strings/lists/wordReList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

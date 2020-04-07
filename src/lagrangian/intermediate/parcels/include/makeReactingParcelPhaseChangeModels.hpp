@@ -28,9 +28,9 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoPhaseChange.H"
-#include "LiquidEvaporation.H"
-#include "LiquidEvaporationBoil.H"
+#include "lagrangian/intermediate/submodels/Reacting/PhaseChangeModel/NoPhaseChange/NoPhaseChange.hpp"
+#include "lagrangian/intermediate/submodels/Reacting/PhaseChangeModel/LiquidEvaporation/LiquidEvaporation.hpp"
+#include "lagrangian/intermediate/submodels/Reacting/PhaseChangeModel/LiquidEvaporationBoil/LiquidEvaporationBoil.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -29,6 +29,7 @@ License
 #include "OpenFOAM/db/dictionary/dictionary.hpp"
 #include "OpenFOAM/global/jobInfo/jobInfo.hpp"
 #include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/global/argList/argList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

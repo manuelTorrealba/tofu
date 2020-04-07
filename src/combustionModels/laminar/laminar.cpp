@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "laminar.H"
-#include "fvmSup.H"
-#include "localEulerDdtScheme.H"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/filmTurbulenceModel/laminar/laminar.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvmSup.hpp"
+#include "finiteVolume/finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -75,9 +75,9 @@ SourceFiles
 #ifndef functionObjects_fieldMinMax_H
 #define functionObjects_fieldMinMax_H
 
-#include "fvMeshFunctionObject.H"
-#include "logFiles.H"
-#include "vector.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
+#include "OpenFOAM/db/functionObjects/logFiles/logFiles.hpp"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

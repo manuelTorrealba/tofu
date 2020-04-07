@@ -34,7 +34,7 @@ SourceFiles
 #ifndef gnuplotSetWriter_H
 #define gnuplotSetWriter_H
 
-#include "writer.H"
+#include "fileFormats/sampledSetWriters/writer.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

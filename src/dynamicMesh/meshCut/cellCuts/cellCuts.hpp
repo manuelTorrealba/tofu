@@ -83,13 +83,13 @@ SourceFiles
 #ifndef cellCuts_H
 #define cellCuts_H
 
-#include "edgeVertex.H"
-#include "labelList.H"
-#include "boolList.H"
-#include "scalarField.H"
-#include "pointField.H"
-#include "DynamicList.H"
-#include "typeInfo.H"
+#include "dynamicMesh/meshCut/edgeVertex/edgeVertex.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

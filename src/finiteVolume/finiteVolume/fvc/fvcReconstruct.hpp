@@ -36,8 +36,8 @@ SourceFiles
 #ifndef fvcReconstruct_H
 #define fvcReconstruct_H
 
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

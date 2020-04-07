@@ -53,8 +53,8 @@ SourceFiles
 #ifndef ReactingLookupTableInjection_H
 #define ReactingLookupTableInjection_H
 
-#include "InjectionModel.H"
-#include "reactingParcelInjectionDataIOList.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/InjectionModel/InjectionModel.hpp"
+#include "lagrangian/intermediate/submodels/Reacting/InjectionModel/ReactingLookupTableInjection/reactingParcelInjectionDataIOList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

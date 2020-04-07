@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReactingLookupTableInjection.H"
+#include "lagrangian/intermediate/submodels/Reacting/InjectionModel/ReactingLookupTableInjection/ReactingLookupTableInjection.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

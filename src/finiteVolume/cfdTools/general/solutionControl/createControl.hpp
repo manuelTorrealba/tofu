@@ -1,8 +1,8 @@
 #if defined(NO_CONTROL)
 #elif defined(PISO_CONTROL)
-    #include "createPisoControl.H"
+#include "finiteVolume/cfdTools/general/include/createPisoControl.hpp"
 #elif defined(PIMPLE_CONTROL)
-    #include "createPimpleControl.H"
+#include "finiteVolume/cfdTools/general/include/createPimpleControl.hpp"
 #elif defined(SIMPLE_CONTROL)
-    #include "createSimpleControl.H"
+#include "finiteVolume/cfdTools/general/include/createSimpleControl.hpp"
 #endif

@@ -32,7 +32,7 @@ Description
 #ifndef NoHeatTransfer_H
 #define NoHeatTransfer_H
 
-#include "HeatTransferModel.H"
+#include "lagrangian/intermediate/submodels/Thermodynamic/HeatTransferModel/HeatTransferModel/HeatTransferModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

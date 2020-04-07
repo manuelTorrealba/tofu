@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pressureControl.H"
-#include "findRefCell.H"
+#include "finiteVolume/cfdTools/general/pressureControl/pressureControl.hpp"
+#include "finiteVolume/cfdTools/general/findRefCell/findRefCell.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

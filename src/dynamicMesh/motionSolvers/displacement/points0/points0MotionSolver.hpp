@@ -35,9 +35,9 @@ SourceFiles
 #ifndef points0MotionSolver_H
 #define points0MotionSolver_H
 
-#include "motionSolver.H"
-#include "pointFields.H"
-#include "pointIOField.H"
+#include "dynamicMesh/motionSolvers/motionSolver/motionSolver.hpp"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFields.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointIOField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

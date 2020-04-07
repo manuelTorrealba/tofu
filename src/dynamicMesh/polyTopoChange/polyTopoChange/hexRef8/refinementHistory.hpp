@@ -71,13 +71,13 @@ SourceFiles
 #ifndef refinementHistory_H
 #define refinementHistory_H
 
-#include "DynamicList.H"
-#include "labelList.H"
-#include "FixedList.H"
-#include "autoPtr.H"
-#include "regIOobject.H"
-#include "boolList.H"
-#include "labelPair.H"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/db/regIOobject/regIOobject.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/primitives/Pair/labelPair.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

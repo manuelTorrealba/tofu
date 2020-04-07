@@ -36,10 +36,10 @@ SourceFiles
 #ifndef AveragingMethod_H
 #define AveragingMethod_H
 
-#include "IOdictionary.H"
-#include "autoPtr.H"
-#include "barycentric.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/primitives/Barycentric/barycentric/barycentric.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -193,7 +193,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "AveragingMethodI.H"
+#include "lagrangian/intermediate/submodels/MPPIC/AveragingMethods/AveragingMethod/AveragingMethodI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

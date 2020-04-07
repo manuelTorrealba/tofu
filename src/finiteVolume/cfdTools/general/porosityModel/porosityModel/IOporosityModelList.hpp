@@ -35,8 +35,8 @@ SourceFiles
 #ifndef IOporosityModelList_H
 #define IOporosityModelList_H
 
-#include "IOdictionary.H"
-#include "porosityModelList.H"
+#include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "finiteVolume/cfdTools/general/porosityModel/porosityModel/porosityModelList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

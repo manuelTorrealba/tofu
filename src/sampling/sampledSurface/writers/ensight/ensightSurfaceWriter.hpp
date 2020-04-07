@@ -35,7 +35,7 @@ SourceFiles
 #ifndef ensightSurfaceWriter_H
 #define ensightSurfaceWriter_H
 
-#include "surfaceWriter.H"
+#include "sampling/sampledSurface/writers/surfaceWriter.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

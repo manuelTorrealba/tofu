@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeSolidChemistrySolverType.H"
-#include "solidThermoPhysicsTypes.H"
-#include "thermoPhysicsTypes.H"
+#include "thermophysicalModels/solidChemistryModel/solidChemistrySolver/makeSolidChemistrySolverType.hpp"
+#include "thermophysicalModels/solidSpecie/include/solidThermoPhysicsTypes.hpp"
+#include "thermophysicalModels/specie/include/thermoPhysicsTypes.hpp"
 
-#include "pyrolysisChemistryModel.H"
-#include "basicSolidChemistryModel.H"
+#include "thermophysicalModels/solidChemistryModel/pyrolysisChemistryModel/pyrolysisChemistryModel.hpp"
+#include "thermophysicalModels/solidChemistryModel/basicSolidChemistryModel/basicSolidChemistryModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchMeanVelocityForce.H"
-#include "processorCyclicPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvOptions/sources/derived/meanVelocityForce/patchMeanVelocityForce/patchMeanVelocityForce.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/processorCyclic/processorCyclicPolyPatch.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

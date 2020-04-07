@@ -35,10 +35,10 @@ SourceFiles
 #ifndef porosityModelList_H
 #define porosityModelList_H
 
-#include "fvMesh.H"
-#include "dictionary.H"
-#include "fvMatricesFwd.H"
-#include "porosityModel.H"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "finiteVolume/fvMatrices/fvMatricesFwd.hpp"
+#include "finiteVolume/cfdTools/general/porosityModel/porosityModel/porosityModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

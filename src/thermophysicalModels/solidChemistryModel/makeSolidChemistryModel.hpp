@@ -29,8 +29,8 @@ Description
 #ifndef makeSolidChemistryModel_H
 #define makeSolidChemistryModel_H
 
-#include "solidChemistryModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalModels/solidChemistryModel/solidChemistryModel/solidChemistryModel.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

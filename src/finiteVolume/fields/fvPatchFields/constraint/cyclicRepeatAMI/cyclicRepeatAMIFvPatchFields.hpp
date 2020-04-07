@@ -26,8 +26,8 @@ License
 #ifndef cyclicRepeatAMIFvPatchFields_H
 #define cyclicRepeatAMIFvPatchFields_H
 
-#include "cyclicRepeatAMIFvPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvPatchFields/constraint/cyclicRepeatAMI/cyclicRepeatAMIFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

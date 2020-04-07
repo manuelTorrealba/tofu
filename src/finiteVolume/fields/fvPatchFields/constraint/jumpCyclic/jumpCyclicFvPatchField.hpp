@@ -39,7 +39,7 @@ SourceFiles
 #ifndef jumpCyclicFvPatchField_H
 #define jumpCyclicFvPatchField_H
 
-#include "cyclicFvPatchField.H"
+#include "finiteVolume/fields/fvPatchFields/constraint/cyclic/cyclicFvPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

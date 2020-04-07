@@ -37,8 +37,8 @@ SourceFiles
 #ifndef convergenceControl_H
 #define convergenceControl_H
 
-#include "fvMesh.H"
-#include "solutionControl.H"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/cfdTools/general/solutionControl/solutionControl/solutionControl/solutionControl.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

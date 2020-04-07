@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dynamicKEqn.H"
-#include "fvOptions.H"
+#include "TurbulenceModels/turbulenceModels/LES/dynamicKEqn/dynamicKEqn.hpp"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOptions.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

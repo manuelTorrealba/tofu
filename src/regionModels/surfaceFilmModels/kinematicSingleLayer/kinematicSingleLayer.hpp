@@ -35,16 +35,16 @@ SourceFiles
 #ifndef kinematicSingleLayer_H
 #define kinematicSingleLayer_H
 
-#include "surfaceFilmRegionModel.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "fvMatrices.H"
+#include "regionModels/surfaceFilmModels/surfaceFilmRegionModel/surfaceFilmRegionModel.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
+#include "finiteVolume/fvMatrices/fvMatrices.hpp"
 
-#include "injectionModelList.H"
-#include "transferModelList.H"
-#include "forceList.H"
-#include "filmTurbulenceModel.H"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/injectionModel/injectionModelList/injectionModelList.hpp"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/transferModels/transferModelList/transferModelList.hpp"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/force/forceList/forceList.hpp"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/filmTurbulenceModel/filmTurbulenceModel/filmTurbulenceModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -550,7 +550,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "kinematicSingleLayerI.H"
+#include "regionModels/surfaceFilmModels/kinematicSingleLayer/kinematicSingleLayerI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

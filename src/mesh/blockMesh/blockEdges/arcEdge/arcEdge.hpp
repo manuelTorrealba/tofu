@@ -35,8 +35,8 @@ SourceFiles
 #ifndef blockEdges_arcEdge_H
 #define blockEdges_arcEdge_H
 
-#include "blockEdge.H"
-#include "cylindricalCS.H"
+#include "mesh/blockMesh/blockEdges/blockEdge/blockEdge.hpp"
+#include "meshTools/coordinateSystems/cylindricalCS.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

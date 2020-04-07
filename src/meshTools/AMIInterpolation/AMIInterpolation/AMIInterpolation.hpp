@@ -49,14 +49,14 @@ SourceFiles
 #ifndef AMIInterpolation_H
 #define AMIInterpolation_H
 
-#include "className.H"
-#include "searchableSurface.H"
-#include "treeBoundBoxList.H"
-#include "boolList.H"
-#include "primitivePatch.H"
-#include "faceAreaIntersect.H"
-#include "globalIndex.H"
-#include "ops.H"
+#include "OpenFOAM/db/typeInfo/className.hpp"
+#include "meshTools/searchableSurfaces/searchableSurface/searchableSurface.hpp"
+#include "OpenFOAM/meshes/treeBoundBox/treeBoundBoxList.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/primitivePatch.hpp"
+#include "meshTools/AMIInterpolation/faceAreaIntersect/faceAreaIntersect.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
+#include "OpenFOAM/primitives/ops/ops.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -646,7 +646,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "AMIInterpolationI.H"
+#include "meshTools/AMIInterpolation/AMIInterpolation/AMIInterpolationI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

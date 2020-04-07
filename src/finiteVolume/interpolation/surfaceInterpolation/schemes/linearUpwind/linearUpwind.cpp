@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearUpwind.H"
-#include "fvMesh.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/linearUpwind/linearUpwind.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

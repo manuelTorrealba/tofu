@@ -43,7 +43,7 @@ SourceFiles
 #ifndef nullJoint_H
 #define nullJoint_H
 
-#include "joint.H"
+#include "rigidBodyDynamics/joints/joint/joint.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meanVelocityForce.H"
+#include "fvOptions/sources/derived/meanVelocityForce/meanVelocityForce.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

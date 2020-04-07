@@ -463,6 +463,6 @@ void Foam::List<T>::operator=(std::initializer_list<T> lst)
 
 // * * * * * * * * * * * * * * * *  IOStream operators * * * * * * * * * * * //
 
-#include "ListIO.C"
+//#include "ListIO.C"
 
 // ************************************************************************* //

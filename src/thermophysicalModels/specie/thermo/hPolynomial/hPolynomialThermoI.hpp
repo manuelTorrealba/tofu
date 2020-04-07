@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "hPolynomialThermo.H"
+#include "thermophysicalModels/specie/thermo/hPolynomial/hPolynomialThermo.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

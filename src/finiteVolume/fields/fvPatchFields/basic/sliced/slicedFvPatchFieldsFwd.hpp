@@ -26,7 +26,7 @@ License
 #ifndef slicedFvPatchFieldsFwd_H
 #define slicedFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

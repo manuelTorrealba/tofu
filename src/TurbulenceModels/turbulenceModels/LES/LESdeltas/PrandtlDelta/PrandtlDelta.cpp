@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PrandtlDelta.H"
-#include "wallDist.H"
-#include "addToRunTimeSelectionTable.H"
+#include "TurbulenceModels/turbulenceModels/LES/LESdeltas/PrandtlDelta/PrandtlDelta.hpp"
+#include "finiteVolume/fvMesh/wallDist/wallDist/wallDist.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

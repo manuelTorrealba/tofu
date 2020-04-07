@@ -32,7 +32,7 @@ Description
 #ifndef weightedFvPatchFieldMapper_H
 #define weightedFvPatchFieldMapper_H
 
-#include "fvPatchFieldMapper.H"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

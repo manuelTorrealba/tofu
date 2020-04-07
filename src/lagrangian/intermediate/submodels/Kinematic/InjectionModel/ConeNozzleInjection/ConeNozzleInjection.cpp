@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ConeNozzleInjection.H"
-#include "TimeFunction1.H"
-#include "mathematicalConstants.H"
-#include "distributionModel.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/ConeNozzleInjection/ConeNozzleInjection.hpp"
+#include "OpenFOAM/primitives/functions/TimeFunction1/TimeFunction1.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
+#include "lagrangian/distributionModels/distributionModel/distributionModel.hpp"
 
 using namespace Foam::constant;
 

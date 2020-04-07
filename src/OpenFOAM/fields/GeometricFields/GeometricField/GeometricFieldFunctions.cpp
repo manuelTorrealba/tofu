@@ -27,7 +27,7 @@ License
 
 #define TEMPLATE \
     template<class Type, template<class> class PatchField, class GeoMesh>
-#include "GeometricFieldFunctionsM.C"
+#include "OpenFOAM/fields/GeometricFields/GeometricField/GeometricFieldFunctionsM.cpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

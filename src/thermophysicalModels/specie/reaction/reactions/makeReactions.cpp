@@ -23,22 +23,22 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reactionTypes.H"
-#include "makeReaction.H"
+#include "thermophysicalModels/specie/include/reactionTypes.hpp"
+#include "thermophysicalModels/specie/reaction/reactions/makeReaction.hpp"
 
-#include "ArrheniusReactionRate.H"
-#include "infiniteReactionRate.H"
-#include "LandauTellerReactionRate.H"
-#include "thirdBodyArrheniusReactionRate.H"
+#include "thermophysicalModels/specie/reaction/reactionRate/ArrheniusReactionRate/ArrheniusReactionRate.hpp"
+#include "thermophysicalModels/specie/reaction/reactionRate/infiniteReactionRate/infiniteReactionRate.hpp"
+#include "thermophysicalModels/specie/reaction/reactionRate/LandauTellerReactionRate/LandauTellerReactionRate.hpp"
+#include "thermophysicalModels/specie/reaction/reactionRate/thirdBodyArrheniusReactionRate/thirdBodyArrheniusReactionRate.hpp"
 
-#include "ChemicallyActivatedReactionRate.H"
-#include "JanevReactionRate.H"
-#include "powerSeriesReactionRate.H"
+#include "thermophysicalModels/specie/reaction/reactionRate/ChemicallyActivatedReactionRate/ChemicallyActivatedReactionRate.hpp"
+#include "thermophysicalModels/specie/reaction/reactionRate/JanevReactionRate/JanevReactionRate.hpp"
+#include "thermophysicalModels/specie/reaction/reactionRate/powerSeries/powerSeriesReactionRate.hpp"
 
-#include "FallOffReactionRate.H"
-#include "LindemannFallOffFunction.H"
-#include "SRIFallOffFunction.H"
-#include "TroeFallOffFunction.H"
+#include "thermophysicalModels/specie/reaction/reactionRate/FallOffReactionRate/FallOffReactionRate.hpp"
+#include "thermophysicalModels/specie/reaction/reactionRate/fallOffFunctions/LindemannFallOffFunction/LindemannFallOffFunction.hpp"
+#include "thermophysicalModels/specie/reaction/reactionRate/fallOffFunctions/SRIFallOffFunction/SRIFallOffFunction.hpp"
+#include "thermophysicalModels/specie/reaction/reactionRate/fallOffFunctions/TroeFallOffFunction/TroeFallOffFunction.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

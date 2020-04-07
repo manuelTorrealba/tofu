@@ -40,7 +40,7 @@ SourceFiles
 #ifndef absolute_H
 #define absolute_H
 
-#include "CorrectionLimitingMethod.H"
+#include "lagrangian/intermediate/submodels/MPPIC/CorrectionLimitingMethods/CorrectionLimitingMethod/CorrectionLimitingMethod.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

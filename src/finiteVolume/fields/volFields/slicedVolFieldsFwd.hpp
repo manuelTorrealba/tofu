@@ -29,7 +29,7 @@ InClass
 #ifndef slicedVolFieldsFwd_H
 #define slicedVolFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

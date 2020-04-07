@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ThermoCombustion.H"
+#include "combustionModels/CombustionModelN/ThermoCombustion/ThermoCombustion.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

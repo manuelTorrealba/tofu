@@ -32,8 +32,8 @@ Description
 #ifndef makeReactingSolidThermo_H
 #define makeReactingSolidThermo_H
 
-#include "addToRunTimeSelectionTable.H"
-#include "SpecieMixture.H"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "thermophysicalModels/reactionThermo/mixtures/SpecieMixture/SpecieMixture.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 #define makeSolidReactionMixtureThermo(BaseThermo,Cthermo,Mixture,ThermoPhys) \

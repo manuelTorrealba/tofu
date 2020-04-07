@@ -35,11 +35,11 @@ SourceFiles
 #ifndef triSurfaceSearch_H
 #define triSurfaceSearch_H
 
-#include "pointField.H"
-#include "boolList.H"
-#include "pointIndexHit.H"
-#include "indexedOctree.H"
-#include "treeDataTriSurface.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/pointIndexHit.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/indexedOctree.hpp"
+#include "meshTools/indexedOctree/treeDataTriSurface.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

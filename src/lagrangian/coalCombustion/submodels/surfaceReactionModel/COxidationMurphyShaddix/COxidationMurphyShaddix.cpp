@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "COxidationMurphyShaddix.H"
-#include "mathematicalConstants.H"
+#include "lagrangian/coalCombustion/submodels/surfaceReactionModel/COxidationMurphyShaddix/COxidationMurphyShaddix.hpp"
+#include "OpenFOAM/global/constants/mathematical/mathematicalConstants.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

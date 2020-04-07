@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "emptyFvPatchField.H"
-#include "directFvPatchFieldMapper.H"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
+#include "finiteVolume/fields/fvPatchFields/constraint/empty/emptyFvPatchField.hpp"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/directFvPatchFieldMapper.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

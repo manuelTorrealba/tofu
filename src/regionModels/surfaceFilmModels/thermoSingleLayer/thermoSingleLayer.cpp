@@ -23,24 +23,24 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermoSingleLayer.H"
-#include "fvcDiv.H"
-#include "fvcLaplacian.H"
-#include "fvcFlux.H"
-#include "fvm.H"
-#include "zeroGradientFvPatchFields.H"
-#include "mixedFvPatchFields.H"
-#include "mappedFieldFvPatchField.H"
-#include "mapDistribute.H"
-#include "constants.H"
-#include "addToRunTimeSelectionTable.H"
+#include "regionModels/surfaceFilmModels/thermoSingleLayer/thermoSingleLayer.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcDiv.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcLaplacian.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcFlux.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvm.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/mixed/mixedFvPatchFields.hpp"
+#include "finiteVolume/fields/fvPatchFields/derived/mappedField/mappedFieldFvPatchField.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.hpp"
+#include "OpenFOAM/global/constants/constants.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // Sub-models
-#include "filmThermoModel.H"
-#include "filmViscosityModel.H"
-#include "heatTransferModel.H"
-#include "phaseChangeModel.H"
-#include "filmRadiationModel.H"
+#include "regionModels/surfaceFilmModels/submodels/kinematic/filmThermoModel/filmThermoModel/filmThermoModel.hpp"
+#include "regionModels/surfaceFilmModels/submodels/thermo/filmViscosityModel/filmViscosityModel/filmViscosityModel.hpp"
+#include "regionModels/surfaceFilmModels/submodels/thermo/heatTransferModel/heatTransferModel/heatTransferModel.hpp"
+#include "regionModels/surfaceFilmModels/submodels/thermo/phaseChangeModel/phaseChangeModel/phaseChangeModel.hpp"
+#include "regionModels/surfaceFilmModels/submodels/thermo/filmRadiationModel/filmRadiationModel/filmRadiationModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

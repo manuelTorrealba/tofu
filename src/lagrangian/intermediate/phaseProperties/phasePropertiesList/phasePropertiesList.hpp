@@ -35,10 +35,10 @@ SourceFiles
 #ifndef phasePropertiesList_H
 #define phasePropertiesList_H
 
-#include "Istream.H"
-#include "volFields.H"
-#include "wordList.H"
-#include "phaseProperties.H"
+#include "OpenFOAM/db/IOstreams/IOstreams/Istream.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "OpenFOAM/primitives/strings/lists/wordList.hpp"
+#include "lagrangian/intermediate/phaseProperties/phaseProperties/phaseProperties.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -64,8 +64,8 @@ SourceFiles
 #ifndef fixedMeanOutletInletFvPatchField_H
 #define fixedMeanOutletInletFvPatchField_H
 
-#include "outletInletFvPatchFields.H"
-#include "Function1.H"
+#include "finiteVolume/fields/fvPatchFields/derived/outletInlet/outletInletFvPatchFields.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,8 +35,8 @@ SourceFiles
 #ifndef cellZoneSet_H
 #define cellZoneSet_H
 
-#include "cellSet.H"
-#include "boolList.H"
+#include "meshTools/sets/topoSets/cellSet.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

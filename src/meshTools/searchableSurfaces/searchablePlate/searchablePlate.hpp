@@ -43,8 +43,8 @@ SourceFiles
 #ifndef searchablePlate_H
 #define searchablePlate_H
 
-#include "searchableSurface.H"
-#include "treeBoundBox.H"
+#include "meshTools/searchableSurfaces/searchableSurface/searchableSurface.hpp"
+#include "OpenFOAM/meshes/treeBoundBox/treeBoundBox.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -28,8 +28,8 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoStochasticCollision.H"
-#include "SuppressionCollision.H"
+#include "lagrangian/intermediate/submodels/Kinematic/StochasticCollision/NoStochasticCollision/NoStochasticCollision.hpp"
+#include "lagrangian/intermediate/submodels/ReactingMultiphase/StochasticCollision/SuppressionCollision/SuppressionCollision.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

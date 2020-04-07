@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceZonesInfo.H"
-#include "searchableSurface.H"
-#include "searchableSurfaces.H"
-#include "polyMesh.H"
-#include "dictionary.H"
+#include "mesh/snappyHexMesh/refinementSurfaces/surfaceZonesInfo.hpp"
+#include "meshTools/searchableSurfaces/searchableSurface/searchableSurface.hpp"
+#include "meshTools/searchableSurfaces/searchableSurfaces/searchableSurfaces.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

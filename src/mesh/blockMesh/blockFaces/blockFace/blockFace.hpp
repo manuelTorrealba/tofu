@@ -35,7 +35,7 @@ SourceFiles
 #ifndef blockFace_H
 #define blockFace_H
 
-#include "searchableSurfaces.H"
+#include "meshTools/searchableSurfaces/searchableSurfaces/searchableSurfaces.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -174,7 +174,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "blockFaceI.H"
+#include "mesh/blockMesh/blockFaces/blockFace/blockFaceI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

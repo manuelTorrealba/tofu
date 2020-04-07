@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LienCubicKE.H"
-#include "wallDist.H"
-#include "bound.H"
-#include "addToRunTimeSelectionTable.H"
+#include "TurbulenceModels/incompressible/turbulentTransportModels/RAS/LienCubicKE/LienCubicKE.hpp"
+#include "finiteVolume/fvMesh/wallDist/wallDist/wallDist.hpp"
+#include "finiteVolume/cfdTools/general/bound/bound.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

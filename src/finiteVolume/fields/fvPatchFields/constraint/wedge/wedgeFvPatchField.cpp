@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wedgeFvPatch.H"
-#include "wedgeFvPatchField.H"
-#include "transformField.H"
-#include "symmTransform.H"
-#include "diagTensor.H"
+#include "finiteVolume/fvMesh/fvPatches/constraint/wedge/wedgeFvPatch.hpp"
+#include "finiteVolume/fields/fvPatchFields/constraint/wedge/wedgeFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/transformField/transformField.hpp"
+#include "OpenFOAM/primitives/transform/symmTransform.hpp"
+#include "OpenFOAM/primitives/DiagTensor/diagTensor/diagTensor.hpp"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

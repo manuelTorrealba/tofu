@@ -81,10 +81,10 @@ SourceFiles
 #ifndef filmPyrolysisRadiativeCoupledMixedFvPatchScalarField_H
 #define filmPyrolysisRadiativeCoupledMixedFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
-#include "temperatureCoupledBase.H"
-#include "thermoSingleLayer.H"
-#include "pyrolysisModel.H"
+#include "finiteVolume/fields/fvPatchFields/basic/mixed/mixedFvPatchFields.hpp"
+#include "TurbulenceModels/compressible/turbulentFluidThermoModels/derivedFvPatchFields/temperatureCoupledBase/temperatureCoupledBase.hpp"
+#include "regionModels/surfaceFilmModels/thermoSingleLayer/thermoSingleLayer.hpp"
+#include "regionModels/pyrolysisModels/pyrolysisModel/pyrolysisModel.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellInfo.H"
+#include "meshTools/cellClassification/cellInfo.hpp"
 
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //

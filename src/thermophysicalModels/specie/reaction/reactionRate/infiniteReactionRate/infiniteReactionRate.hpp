@@ -35,8 +35,8 @@ SourceFiles
 #ifndef infiniteReactionRate_H
 #define infiniteReactionRate_H
 
-#include "scalarField.H"
-#include "typeInfo.H"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -136,7 +136,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "infiniteReactionRateI.H"
+#include "thermophysicalModels/specie/reaction/reactionRate/infiniteReactionRate/infiniteReactionRateI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

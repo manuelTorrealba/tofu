@@ -35,11 +35,11 @@ SourceFiles
 #ifndef tetDecomposer_H
 #define tetDecomposer_H
 
-#include "DynamicList.H"
-#include "PackedBoolList.H"
-#include "boolList.H"
-#include "typeInfo.H"
-#include "NamedEnum.H"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,8 +35,8 @@ SourceFiles
 #ifndef psiThermo_H
 #define psiThermo_H
 
-#include "fluidThermo.H"
-#include "runTimeSelectionTables.H"
+#include "thermophysicalModels/basic/fluidThermo/fluidThermo.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

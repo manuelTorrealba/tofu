@@ -41,7 +41,7 @@ SourceFiles
 #ifndef LUST_H
 #define LUST_H
 
-#include "linearUpwind.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/linearUpwind/linearUpwind.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

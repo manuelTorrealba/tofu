@@ -26,8 +26,8 @@ License
 #ifndef cyclicACMIFvsPatchFields_H
 #define cyclicACMIFvsPatchFields_H
 
-#include "cyclicACMIFvsPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvsPatchFields/constraint/cyclicACMI/cyclicACMIFvsPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

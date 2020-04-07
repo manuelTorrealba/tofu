@@ -43,7 +43,7 @@ SourceFiles
 #ifndef functionObjects_fvMeshFunctionObject_H
 #define functionObjects_fvMeshFunctionObject_H
 
-#include "regionFunctionObject.H"
+#include "OpenFOAM/db/functionObjects/regionFunctionObject/regionFunctionObject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

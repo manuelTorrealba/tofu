@@ -37,7 +37,7 @@ SourceFiles
 #define noSoot_H
 
 
-#include "sootModel.H"
+#include "thermophysicalModels/radiation/submodels/sootModel/sootModel/sootModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

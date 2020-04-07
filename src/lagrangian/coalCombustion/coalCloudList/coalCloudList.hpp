@@ -26,9 +26,9 @@ License
 #ifndef coalCloudList_H
 #define coalCloudList_H
 
-#include "coalCloud.H"
-#include "volFieldsFwd.H"
-#include "fvMatricesFwd.H"
+#include "lagrangian/coalCombustion/coalCloud/coalCloud.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "finiteVolume/fvMatrices/fvMatricesFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -117,7 +117,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "coalCloudListI.H"
+#include "lagrangian/coalCombustion/coalCloudList/coalCloudListI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

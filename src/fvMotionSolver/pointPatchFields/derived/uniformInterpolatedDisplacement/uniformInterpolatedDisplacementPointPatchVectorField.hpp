@@ -55,7 +55,7 @@ SourceFiles
 #ifndef uniformInterpolatedDisplacementPointPatchVectorField_H
 #define uniformInterpolatedDisplacementPointPatchVectorField_H
 
-#include "fixedValuePointPatchField.H"
+#include "OpenFOAM/fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

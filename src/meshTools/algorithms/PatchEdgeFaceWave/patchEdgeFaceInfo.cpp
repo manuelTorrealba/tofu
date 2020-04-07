@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchEdgeFaceInfo.H"
+#include "meshTools/algorithms/PatchEdgeFaceWave/patchEdgeFaceInfo.hpp"
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 

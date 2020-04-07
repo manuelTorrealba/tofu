@@ -42,7 +42,7 @@ SourceFiles
 #ifndef MichaelisMentenReactionRate_H
 #define MichaelisMentenReactionRate_H
 
-#include "Reaction.H"
+#include "thermophysicalModels/specie/reaction/ReactionsN/Reaction/Reaction.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -156,7 +156,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "MichaelisMentenReactionRateI.H"
+#include "thermophysicalModels/specie/reaction/reactionRate/MichaelisMenten/MichaelisMentenReactionRateI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

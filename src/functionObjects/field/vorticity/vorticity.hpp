@@ -39,7 +39,7 @@ SourceFiles
 #ifndef functionObjects_vorticity_H
 #define functionObjects_vorticity_H
 
-#include "fieldExpression.H"
+#include "functionObjects/field/fieldExpression/fieldExpression.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

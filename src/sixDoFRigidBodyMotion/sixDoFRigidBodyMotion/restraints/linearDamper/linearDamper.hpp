@@ -35,8 +35,8 @@ SourceFiles
 #ifndef linearDamper_H
 #define linearDamper_H
 
-#include "sixDoFRigidBodyMotionRestraint.H"
-#include "point.H"
+#include "sixDoFRigidBodyMotion/sixDoFRigidBodyMotion/restraints/sixDoFRigidBodyMotionRestraint/sixDoFRigidBodyMotionRestraint.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

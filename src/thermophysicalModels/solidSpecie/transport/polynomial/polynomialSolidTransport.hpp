@@ -64,7 +64,7 @@ See also
 #ifndef polynomialSolidTransport_H
 #define polynomialSolidTransport_H
 
-#include "Polynomial.H"
+#include "OpenFOAM/primitives/functions/Polynomial/Polynomial.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -213,7 +213,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "polynomialSolidTransportI.H"
+#include "thermophysicalModels/solidSpecie/transport/polynomial/polynomialSolidTransportI.hpp"
 
 #ifdef NoRepository
     #include "polynomialSolidTransport.C"

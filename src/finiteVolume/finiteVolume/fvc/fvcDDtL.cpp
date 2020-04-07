@@ -24,8 +24,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "fvcDDt.H"
-#include "fvcDiv.H"
-#include "fvMesh.H"
+#include "finiteVolume/finiteVolume/fvc/fvcDiv.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "WRLsurfaceFormatCore.H"
-#include "clock.H"
+#include "surfMesh/surfaceFormats/wrl/WRLsurfaceFormatCore.hpp"
+#include "OpenFOAM/global/clock/clock.hpp"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef gaussConvectionScheme_H
 #define gaussConvectionScheme_H
 
-#include "convectionScheme.H"
+#include "finiteVolume/finiteVolume/convectionSchemes/convectionScheme/convectionScheme.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

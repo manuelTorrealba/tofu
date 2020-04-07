@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Gulders.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalModels/laminarFlameSpeed/Gulders/Gulders.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

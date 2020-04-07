@@ -37,7 +37,7 @@ SourceFiles
 
 #ifndef constAnIsoSolidTransport_H
 #define constAnIsoSolidTransport_H
-#include "vector.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -162,7 +162,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "constAnIsoSolidTransportI.H"
+#include "thermophysicalModels/solidSpecie/transport/const/constAnIsoSolidTransportI.hpp"
 
 #ifdef NoRepository
     #include "constAnIsoSolidTransport.C"

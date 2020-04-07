@@ -35,9 +35,9 @@ SourceFiles
 #ifndef edgeMeshFormatsCore_H
 #define edgeMeshFormatsCore_H
 
-#include "Map.H"
-#include "HashSet.H"
-#include "labelList.H"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

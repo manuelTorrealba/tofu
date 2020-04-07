@@ -35,7 +35,7 @@ SourceFiles
 #ifndef SingleMixtureFraction_H
 #define SingleMixtureFraction_H
 
-#include "CompositionModel.H"
+#include "lagrangian/intermediate/submodels/Reacting/CompositionModel/CompositionModel/CompositionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

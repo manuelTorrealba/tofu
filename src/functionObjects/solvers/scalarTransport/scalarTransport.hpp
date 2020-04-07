@@ -51,9 +51,9 @@ SourceFiles
 #ifndef functionObjects_scalarTransport_H
 #define functionObjects_scalarTransport_H
 
-#include "fvMeshFunctionObject.H"
-#include "volFields.H"
-#include "fvOptionList.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOptionList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

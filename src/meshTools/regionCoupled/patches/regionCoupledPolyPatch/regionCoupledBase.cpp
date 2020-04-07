@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionCoupledBase.H"
-#include "SubField.H"
-#include "polyMesh.H"
-#include "Time.H"
+#include "meshTools/regionCoupled/patches/regionCoupledPolyPatch/regionCoupledBase.hpp"
+#include "OpenFOAM/fields/Fields/Field/SubField.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

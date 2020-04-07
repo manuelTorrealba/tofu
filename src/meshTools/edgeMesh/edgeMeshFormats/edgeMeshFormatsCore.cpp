@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "edgeMeshFormatsCore.H"
+#include "meshTools/edgeMesh/edgeMeshFormats/edgeMeshFormatsCore.hpp"
 
-#include "Time.H"
-#include "IFstream.H"
-#include "OFstream.H"
-#include "edgeMesh.H"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "meshTools/edgeMesh/edgeMesh.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "filmPyrolysisTemperatureCoupledFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "surfaceFields.H"
-#include "pyrolysisModel.H"
-#include "surfaceFilmRegionModel.H"
+#include "regionModels/regionCoupling/derivedFvPatchFields/filmPyrolysisTemperatureCoupled/filmPyrolysisTemperatureCoupledFvPatchScalarField.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
+#include "regionModels/pyrolysisModels/pyrolysisModel/pyrolysisModel.hpp"
+#include "regionModels/surfaceFilmModels/surfaceFilmRegionModel/surfaceFilmRegionModel.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

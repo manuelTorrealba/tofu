@@ -32,9 +32,9 @@ Description
 #ifndef LocalInteraction_H
 #define LocalInteraction_H
 
-#include "PatchInteractionModel.H"
-#include "patchInteractionDataList.H"
-#include "Switch.H"
+#include "lagrangian/intermediate/submodels/Kinematic/PatchInteractionModel/PatchInteractionModel/PatchInteractionModel.hpp"
+#include "lagrangian/intermediate/submodels/Kinematic/PatchInteractionModel/LocalInteraction/patchInteractionDataList.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

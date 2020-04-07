@@ -35,8 +35,8 @@ SourceFiles
 #ifndef streamLineParticleCloud_H
 #define streamLineParticleCloud_H
 
-#include "Cloud.H"
-#include "streamLineParticle.H"
+#include "lagrangian/basic/Cloud/Cloud.hpp"
+#include "functionObjects/field/streamLine/streamLineParticle.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

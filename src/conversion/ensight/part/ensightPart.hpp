@@ -37,14 +37,14 @@ SourceFiles
 #ifndef ensightPart_H
 #define ensightPart_H
 
-#include "ensightFile.H"
-#include "ensightGeoFile.H"
-#include "typeInfo.H"
-#include "labelList.H"
-#include "polyMesh.H"
-#include "Field.H"
-#include "IOPtrList.H"
-#include "IOstream.H"
+#include "conversion/ensight/file/ensightFile.hpp"
+#include "conversion/ensight/file/ensightGeoFile.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/fields/Fields/Field/Field.hpp"
+#include "OpenFOAM/db/IOobjects/IOPtrList/IOPtrList.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

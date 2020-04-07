@@ -39,8 +39,8 @@ SourceFiles
 #ifndef FitData_H
 #define FitData_H
 
-#include "MeshObject.H"
-#include "fvMesh.H"
+#include "OpenFOAM/meshes/MeshObject/MeshObject.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

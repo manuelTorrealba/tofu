@@ -36,8 +36,8 @@ SourceFiles
 #ifndef displacementLaplacianFvMotionSolver_H
 #define displacementLaplacianFvMotionSolver_H
 
-#include "displacementMotionSolver.H"
-#include "fvMotionSolver.H"
+#include "dynamicMesh/motionSolvers/displacement/displacement/displacementMotionSolver.hpp"
+#include "fvMotionSolver/fvMotionSolvers/fvMotionSolver/fvMotionSolver.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

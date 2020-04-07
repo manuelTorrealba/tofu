@@ -73,8 +73,8 @@ SourceFiles
 #ifndef semiPermeableBaffleMassFractionFvPatchScalarField_H
 #define semiPermeableBaffleMassFractionFvPatchScalarField_H
 
-#include "mappedPatchBase.H"
-#include "mixedFvPatchFields.H"
+#include "meshTools/mappedPatches/mappedPolyPatch/mappedPatchBase.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/mixed/mixedFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

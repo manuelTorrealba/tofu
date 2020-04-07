@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "masslessBody.H"
-#include "addToRunTimeSelectionTable.H"
+#include "rigidBodyDynamics/bodies/masslessBody/masslessBody.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

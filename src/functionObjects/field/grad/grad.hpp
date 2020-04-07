@@ -41,7 +41,7 @@ SourceFiles
 #ifndef functionObjects_grad_H
 #define functionObjects_grad_H
 
-#include "fieldExpression.H"
+#include "functionObjects/field/fieldExpression/fieldExpression.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,8 +38,8 @@ Description
 #ifndef interRegionHeatTransferModel_H
 #define interRegionHeatTransferModel_H
 
-#include "interRegionOption.H"
-#include "volFields.H"
+#include "fvOptions/interRegionOption/interRegionOption.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -203,7 +203,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "interRegionHeatTransferModelI.H"
+#include "fvOptions/sources/interRegion/interRegionHeatTransfer/interRegionHeatTransferModel/interRegionHeatTransferModelI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

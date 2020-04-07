@@ -36,8 +36,8 @@ SourceFiles
 #ifndef pointEdgeCollapse_H
 #define pointEdgeCollapse_H
 
-#include "point.H"
-#include "tensor.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "OpenFOAM/primitives/Tensor/tensor/tensor.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -233,7 +233,7 @@ inline bool contiguous<pointEdgeCollapse>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pointEdgeCollapseI.H"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/pointEdgeCollapse/pointEdgeCollapseI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

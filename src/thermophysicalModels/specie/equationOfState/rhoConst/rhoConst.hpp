@@ -36,7 +36,7 @@ SourceFiles
 #ifndef rhoConst_H
 #define rhoConst_H
 
-#include "autoPtr.H"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -196,7 +196,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "rhoConstI.H"
+#include "thermophysicalModels/specie/equationOfState/rhoConst/rhoConstI.hpp"
 
 #ifdef NoRepository
     #include "rhoConst.C"

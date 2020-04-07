@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicThermo.H"
-#include "zeroGradientFvPatchFields.H"
-#include "fixedEnergyFvPatchScalarField.H"
-#include "gradientEnergyFvPatchScalarField.H"
-#include "mixedEnergyFvPatchScalarField.H"
-#include "fixedJumpFvPatchFields.H"
-#include "fixedJumpAMIFvPatchFields.H"
-#include "energyJumpFvPatchScalarField.H"
-#include "energyJumpAMIFvPatchScalarField.H"
+#include "thermophysicalModels/basic/basicThermo/basicThermo.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.hpp"
+#include "thermophysicalModels/basic/derivedFvPatchFields/fixedEnergy/fixedEnergyFvPatchScalarField.hpp"
+#include "thermophysicalModels/basic/derivedFvPatchFields/gradientEnergy/gradientEnergyFvPatchScalarField.hpp"
+#include "thermophysicalModels/basic/derivedFvPatchFields/mixedEnergy/mixedEnergyFvPatchScalarField.hpp"
+#include "finiteVolume/fields/fvPatchFields/derived/fixedJump/fixedJumpFvPatchFields.hpp"
+#include "finiteVolume/fields/fvPatchFields/derived/fixedJumpAMI/fixedJumpAMIFvPatchFields.hpp"
+#include "thermophysicalModels/basic/derivedFvPatchFields/energyJump/energyJump/energyJumpFvPatchScalarField.hpp"
+#include "thermophysicalModels/basic/derivedFvPatchFields/energyJump/energyJumpAMI/energyJumpAMIFvPatchScalarField.hpp"
 
 
 /* * * * * * * * * * * * * * * private static data * * * * * * * * * * * * * */

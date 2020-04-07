@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "radialActuationDiskSource.H"
-#include "geometricOneField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvOptions/sources/derived/radialActuationDiskSource/radialActuationDiskSource.hpp"
+#include "OpenFOAM/fields/GeometricFields/geometricOneField/geometricOneField.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

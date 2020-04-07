@@ -28,8 +28,8 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoHeatTransfer.H"
-#include "RanzMarshall.H"
+#include "lagrangian/intermediate/submodels/Thermodynamic/HeatTransferModel/NoHeatTransfer/NoHeatTransfer.hpp"
+#include "lagrangian/intermediate/submodels/Thermodynamic/HeatTransferModel/RanzMarshall/RanzMarshall.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

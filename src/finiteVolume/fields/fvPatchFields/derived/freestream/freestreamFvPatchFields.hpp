@@ -26,8 +26,8 @@ License
 #ifndef freestreamFvPatchFields_H
 #define freestreamFvPatchFields_H
 
-#include "freestreamFvPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvPatchFields/derived/freestream/freestreamFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

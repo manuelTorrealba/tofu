@@ -45,13 +45,13 @@ SourceFiles
 #ifndef radiation_viewFactor_H
 #define radiation_viewFactor_H
 
-#include "radiationModel.H"
-#include "singleCellFvMesh.H"
-#include "scalarMatrices.H"
-#include "globalIndex.H"
-#include "scalarListIOList.H"
-#include "mapDistribute.H"
-#include "volFields.H"
+#include "thermophysicalModels/radiation/radiationModels/radiationModel/radiationModel.hpp"
+#include "finiteVolume/fvMesh/singleCellFvMesh/singleCellFvMesh.hpp"
+#include "OpenFOAM/matrices/scalarMatrices/scalarMatrices.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
+#include "OpenFOAM/primitives/Scalar/lists/scalarListIOList.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -174,7 +174,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "viewFactorI.H"
+#include "thermophysicalModels/radiation/radiationModels/viewFactor/viewFactorI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

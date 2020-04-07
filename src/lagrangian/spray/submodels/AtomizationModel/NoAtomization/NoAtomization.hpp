@@ -32,7 +32,7 @@ Description
 #ifndef NoAtomization_H
 #define NoAtomization_H
 
-#include "AtomizationModel.H"
+#include "lagrangian/spray/submodels/AtomizationModel/AtomizationModel/AtomizationModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

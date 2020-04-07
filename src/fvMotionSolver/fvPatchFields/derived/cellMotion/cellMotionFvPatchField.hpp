@@ -35,8 +35,8 @@ SourceFiles
 #ifndef cellMotionFvPatchField_H
 #define cellMotionFvPatchField_H
 
-#include "Random.H"
-#include "fixedValueFvPatchFields.H"
+#include "OpenFOAM/primitives/Random/Random.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

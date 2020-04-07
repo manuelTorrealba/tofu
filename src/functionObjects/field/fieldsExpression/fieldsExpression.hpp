@@ -37,8 +37,8 @@ SourceFiles
 #ifndef functionObjects_fieldsExpression_H
 #define functionObjects_fieldsExpression_H
 
-#include "fvMeshFunctionObject.H"
-#include "volFieldsFwd.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

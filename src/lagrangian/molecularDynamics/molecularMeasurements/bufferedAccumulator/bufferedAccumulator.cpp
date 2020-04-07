@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "bufferedAccumulator.H"
+#include "lagrangian/molecularDynamics/molecularMeasurements/bufferedAccumulator/bufferedAccumulator.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

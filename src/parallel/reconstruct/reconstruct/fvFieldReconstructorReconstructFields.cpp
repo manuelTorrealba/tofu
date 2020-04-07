@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvFieldReconstructor.H"
-#include "Time.H"
-#include "PtrList.H"
-#include "fvPatchFields.H"
-#include "emptyFvPatch.H"
-#include "emptyFvPatchField.H"
-#include "emptyFvsPatchField.H"
+#include "parallel/reconstruct/reconstruct/fvFieldReconstructor.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFields.hpp"
+#include "finiteVolume/fvMesh/fvPatches/constraint/empty/emptyFvPatch.hpp"
+#include "finiteVolume/fields/fvPatchFields/constraint/empty/emptyFvPatchField.hpp"
+#include "finiteVolume/fields/fvsPatchFields/constraint/empty/emptyFvsPatchField.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

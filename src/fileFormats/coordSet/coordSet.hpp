@@ -35,8 +35,8 @@ SourceFiles
 #ifndef coordSet_H
 #define coordSet_H
 
-#include "pointField.H"
-#include "word.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniformInterpolatedDisplacementPointPatchVectorField.H"
-#include "pointFields.H"
-#include "addToRunTimeSelectionTable.H"
-#include "Time.H"
-#include "polyMesh.H"
-#include "interpolationWeights.H"
-#include "uniformInterpolate.H"
-#include "ReadFields.H"
+#include "fvMotionSolver/pointPatchFields/derived/uniformInterpolatedDisplacement/uniformInterpolatedDisplacementPointPatchVectorField.hpp"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFields.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/interpolations/interpolationWeights/interpolationWeights/interpolationWeights.hpp"
+#include "OpenFOAM/fields/GeometricFields/GeometricField/uniformInterpolate.hpp"
+#include "OpenFOAM/fields/ReadFields/ReadFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

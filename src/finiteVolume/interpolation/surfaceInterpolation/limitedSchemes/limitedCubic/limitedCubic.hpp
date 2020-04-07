@@ -39,7 +39,7 @@ SourceFiles
 #ifndef limitedCubic_H
 #define limitedCubic_H
 
-#include "vector.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearViscousStress.H"
-#include "fvc.H"
-#include "fvm.H"
+#include "TurbulenceModels/turbulenceModels/linearViscousStress/linearViscousStress.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvc.hpp"
+#include "finiteVolume/finiteVolume/fvm/fvm.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

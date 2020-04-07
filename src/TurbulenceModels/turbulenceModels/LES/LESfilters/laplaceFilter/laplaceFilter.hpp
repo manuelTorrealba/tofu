@@ -43,7 +43,7 @@ SourceFiles
 #ifndef laplaceFilter_H
 #define laplaceFilter_H
 
-#include "LESfilter.H"
+#include "TurbulenceModels/turbulenceModels/LES/LESfilters/LESfilter/LESfilter.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

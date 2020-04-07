@@ -36,8 +36,8 @@ SourceFiles
 #ifndef velocityLaplacianFvMotionSolver_H
 #define velocityLaplacianFvMotionSolver_H
 
-#include "velocityMotionSolver.H"
-#include "fvMotionSolver.H"
+#include "dynamicMesh/motionSolvers/velocity/velocityMotionSolver.hpp"
+#include "fvMotionSolver/fvMotionSolvers/fvMotionSolver/fvMotionSolver.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

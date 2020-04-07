@@ -32,8 +32,8 @@ Description
 #ifndef IOsampledSurfaces_H
 #define IOsampledSurfaces_H
 
-#include "sampledSurfaces.H"
-#include "IOOutputFilter.H"
+#include "sampling/sampledSurface/sampledSurfaces/sampledSurfaces.hpp"
+#include "OpenFOAM/db/functionObjects/IOOutputFilter/IOOutputFilter.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

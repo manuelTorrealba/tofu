@@ -23,18 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceSets.H"
-#include "polyMesh.H"
-#include "triSurface.H"
-#include "triSurfaceSearch.H"
-#include "pointSet.H"
-#include "cellSet.H"
-#include "surfaceToCell.H"
-#include "cellToPoint.H"
-#include "cellToCell.H"
-#include "pointToCell.H"
-#include "meshSearch.H"
-#include "cellClassification.H"
+#include "meshTools/surfaceSets/surfaceSets.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "triSurface/triSurface/triSurface.hpp"
+#include "meshTools/triSurface/triSurfaceSearch/triSurfaceSearch.hpp"
+#include "meshTools/sets/topoSets/pointSet.hpp"
+#include "meshTools/sets/topoSets/cellSet.hpp"
+#include "meshTools/sets/cellSources/surfaceToCell/surfaceToCell.hpp"
+#include "meshTools/sets/pointSources/cellToPoint/cellToPoint.hpp"
+#include "meshTools/sets/cellSources/cellToCell/cellToCell.hpp"
+#include "meshTools/sets/cellSources/pointToCell/pointToCell.hpp"
+#include "meshTools/meshSearch/meshSearch.hpp"
+#include "meshTools/cellClassification/cellClassification.hpp"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

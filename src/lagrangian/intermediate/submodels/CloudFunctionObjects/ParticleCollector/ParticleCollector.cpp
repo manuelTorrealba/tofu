@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ParticleCollector.H"
-#include "Pstream.H"
-#include "surfaceWriter.H"
-#include "unitConversion.H"
-#include "Random.H"
-#include "triangle.H"
-#include "cloud.H"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/ParticleCollector/ParticleCollector.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "sampling/sampledSurface/writers/surfaceWriter.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
+#include "OpenFOAM/primitives/Random/Random.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/triangle/triangle.hpp"
+#include "OpenFOAM/fields/cloud/cloud.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

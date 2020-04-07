@@ -32,27 +32,27 @@ Description
 #ifndef fvc_H
 #define fvc_H
 
-#include "fv.H"
+#include "finiteVolume/finiteVolume/fv/fv.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "surfaceInterpolate.H"
-#include "fvcVolumeIntegrate.H"
-#include "fvcSurfaceIntegrate.H"
-#include "fvcAverage.H"
-#include "fvcReconstruct.H"
-#include "fvcDdt.H"
+#include "functionObjects/field/surfaceInterpolate/surfaceInterpolate.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcVolumeIntegrate.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcSurfaceIntegrate.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcAverage.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcReconstruct.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcDdt.hpp"
 #include "fvcDDt.H"
-#include "fvcD2dt2.H"
-#include "fvcDiv.H"
-#include "fvcFlux.H"
-#include "fvcGrad.H"
-#include "fvcMagSqrGradGrad.H"
-#include "fvcSnGrad.H"
-#include "fvcCurl.H"
-#include "fvcLaplacian.H"
-#include "fvcSup.H"
-#include "fvcMeshPhi.H"
+#include "finiteVolume/finiteVolume/fvc/fvcD2dt2.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcDiv.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcFlux.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcGrad.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcMagSqrGradGrad.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcSnGrad.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcCurl.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcLaplacian.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcSup.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcMeshPhi.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

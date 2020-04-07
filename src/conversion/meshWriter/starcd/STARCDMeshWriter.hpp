@@ -38,8 +38,8 @@ SourceFiles
 #ifndef STARCDMeshWriter_H
 #define STARCDMeshWriter_H
 
-#include "meshWriter.H"
-#include "IOstream.H"
+#include "conversion/meshWriter/meshWriter.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

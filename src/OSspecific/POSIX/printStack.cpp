@@ -30,7 +30,11 @@ License
 
 #include <inttypes.h>
 #include <cxxabi.h>
+
+#ifndef __CYGWIN__
 #include <execinfo.h>
+#endif
+
 #include <dlfcn.h>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -88,7 +92,7 @@ inline word addressToWord(const uintptr_t addr)
     return nStream.str();
 }
 
-
+#ifndef __CYGWIN__
 void printSourceFileAndLine
 (
     Ostream& os,
@@ -136,6 +140,7 @@ void printSourceFileAndLine
         }
     }
 }
+#endif
 
 
 fileName absolutePath(const char* fn)
@@ -188,7 +193,7 @@ word demangleSymbol(const char* sn)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-
+#ifndef __CYGWIN__
 void Foam::error::safePrintStack(std::ostream& os)
 {
     // Get raw stack symbols
@@ -250,5 +255,12 @@ void Foam::error::printStack(Ostream& os)
     delete info;
 }
 
+#else
+void Foam::error::printStack(Ostream& os)
+{
+    std::cout << "hola" << std::endl;
+}
+    
+#endif
 
 // ************************************************************************* //

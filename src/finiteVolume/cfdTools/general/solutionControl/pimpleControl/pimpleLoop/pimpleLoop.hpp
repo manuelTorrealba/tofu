@@ -38,7 +38,7 @@ SourceFiles
 #ifndef pimpleLoop_H
 #define pimpleLoop_H
 
-#include "correctorConvergenceControl.H"
+#include "finiteVolume/cfdTools/general/solutionControl/convergenceControl/correctorConvergenceControl/correctorConvergenceControl.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -125,7 +125,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pimpleLoopI.H"
+#include "finiteVolume/cfdTools/general/solutionControl/pimpleControl/pimpleLoop/pimpleLoopI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

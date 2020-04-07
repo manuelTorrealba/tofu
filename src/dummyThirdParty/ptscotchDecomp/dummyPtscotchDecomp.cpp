@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ptscotchDecomp.H"
-#include "addToRunTimeSelectionTable.H"
-#include "Time.H"
+#include "parallel/decompose/ptscotchDecomp/ptscotchDecomp.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
 
 static const char* notImplementedMessage =
 "You are trying to use ptscotch but do not have the "

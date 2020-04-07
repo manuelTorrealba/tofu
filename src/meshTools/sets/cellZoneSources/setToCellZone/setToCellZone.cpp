@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "setToCellZone.H"
-#include "polyMesh.H"
-#include "cellZoneSet.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshTools/sets/cellZoneSources/setToCellZone/setToCellZone.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "meshTools/sets/topoSets/cellZoneSet.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

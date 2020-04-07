@@ -40,7 +40,7 @@ SourceFiles
 #ifndef linear_H
 #define linear_H
 
-#include "autoPtr.H"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -211,7 +211,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "linearI.H"
+#include "thermophysicalModels/specie/equationOfState/linear/linearI.hpp"
 
 #ifdef NoRepository
     #include "linear.C"

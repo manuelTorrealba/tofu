@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "AC3DsurfaceFormatCore.H"
-#include "clock.H"
-#include "IFstream.H"
-#include "IStringStream.H"
+#include "surfMesh/surfaceFormats/ac3d/AC3DsurfaceFormatCore.hpp"
+#include "OpenFOAM/global/clock/clock.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/db/IOstreams/StringStreams/IStringStream.hpp"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

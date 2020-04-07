@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchInjection.H"
-#include "TimeFunction1.H"
-#include "distributionModel.H"
+#include "lagrangian/intermediate/submodels/Kinematic/InjectionModel/PatchInjection/PatchInjection.hpp"
+#include "OpenFOAM/primitives/functions/TimeFunction1/TimeFunction1.hpp"
+#include "lagrangian/distributionModels/distributionModel/distributionModel.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

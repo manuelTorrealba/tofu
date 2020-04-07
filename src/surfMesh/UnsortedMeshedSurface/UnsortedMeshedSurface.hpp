@@ -46,13 +46,13 @@ SourceFiles
 #ifndef UnsortedMeshedSurface_H
 #define UnsortedMeshedSurface_H
 
-#include "MeshedSurface.H"
-#include "surfZoneIdentifierList.H"
-#include "surfZoneList.H"
-#include "surfaceFormatsCore.H"
-#include "runTimeSelectionTables.H"
-#include "memberFunctionSelectionTables.H"
-#include "HashSet.H"
+#include "surfMesh/MeshedSurface/MeshedSurface.hpp"
+#include "surfMesh/surfZone/surfZoneIdentifier/surfZoneIdentifierList.hpp"
+#include "surfMesh/surfZone/surfZone/surfZoneList.hpp"
+#include "surfMesh/surfaceFormats/surfaceFormatsCore.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
+#include "OpenFOAM/db/runTimeSelection/memberFunctions/memberFunctionSelectionTables.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,6 +26,8 @@ License
 #include "OpenFOAM/db/error/error.hpp"
 #include "OpenFOAM/db/dictionary/dictionary.hpp"
 #include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
+#include "OpenFOAM/global/argList/argList.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mapNearestMethod.H"
-#include "pointIndexHit.H"
-#include "indexedOctree.H"
-#include "treeDataCell.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampling/meshToMesh/calcMethod/mapNearest/mapNearestMethod.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/pointIndexHit.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/indexedOctree.hpp"
+#include "OpenFOAM/algorithms/indexedOctree/treeDataCell.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

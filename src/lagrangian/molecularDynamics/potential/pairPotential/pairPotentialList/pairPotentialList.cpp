@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pairPotentialList.H"
-#include "OFstream.H"
-#include "Time.H"
+#include "lagrangian/molecularDynamics/potential/pairPotential/pairPotentialList/pairPotentialList.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/db/Time/Time.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

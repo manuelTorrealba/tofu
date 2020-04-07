@@ -29,10 +29,10 @@ InClass
 #ifndef slicedVolFields_H
 #define slicedVolFields_H
 
-#include "SlicedGeometricField.H"
-#include "slicedFvPatchField.H"
-#include "volMesh.H"
-#include "slicedVolFieldsFwd.H"
+#include "OpenFOAM/fields/GeometricFields/SlicedGeometricField/SlicedGeometricField.hpp"
+#include "finiteVolume/fields/fvPatchFields/basic/sliced/slicedFvPatchField.hpp"
+#include "finiteVolume/volMesh/volMesh.hpp"
+#include "finiteVolume/fields/volFields/slicedVolFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

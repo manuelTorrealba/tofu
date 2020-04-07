@@ -37,10 +37,10 @@ SourceFiles
 #ifndef molecule_H
 #define molecule_H
 
-#include "particle.H"
-#include "IOstream.H"
-#include "autoPtr.H"
-#include "diagTensor.H"
+#include "lagrangian/basic/particle/particle.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOstream.hpp"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/primitives/DiagTensor/diagTensor/diagTensor.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -391,7 +391,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "moleculeI.H"
+#include "lagrangian/molecularDynamics/molecule/molecule/moleculeI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

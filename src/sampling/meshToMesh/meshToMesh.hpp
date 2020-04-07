@@ -42,12 +42,12 @@ SourceFiles
 #ifndef meshToMesh_H
 #define meshToMesh_H
 
-#include "polyMesh.H"
-#include "boundBox.H"
-#include "mapDistribute.H"
-#include "volFieldsFwd.H"
-#include "NamedEnum.H"
-#include "AMIPatchToPatchInterpolation.H"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/meshes/boundBox/boundBox.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.hpp"
+#include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
+#include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
+#include "meshTools/AMIInterpolation/AMIInterpolation/AMIPatchToPatchInterpolation.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -635,7 +635,7 @@ void meshToMesh::mapAndOpTgtToSrc
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "meshToMeshI.H"
+#include "sampling/meshToMesh/meshToMeshI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

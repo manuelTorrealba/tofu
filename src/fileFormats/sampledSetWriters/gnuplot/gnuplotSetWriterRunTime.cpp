@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "gnuplotSetWriter.H"
-#include "writers.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fileFormats/sampledSetWriters/gnuplot/gnuplotSetWriter.hpp"
+#include "fileFormats/sampledSetWriters/writers.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

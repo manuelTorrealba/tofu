@@ -134,6 +134,6 @@ void Foam::HashPtrTable<T, Key, Hash>::operator=
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 
-#include "HashPtrTableIO.C"
+//#include "HashPtrTableIO.C"
 
 // ************************************************************************* //

@@ -55,7 +55,7 @@ SourceFiles
 #ifndef functionObjects_processorField_H
 #define functionObjects_processorField_H
 
-#include "fvMeshFunctionObject.H"
+#include "finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

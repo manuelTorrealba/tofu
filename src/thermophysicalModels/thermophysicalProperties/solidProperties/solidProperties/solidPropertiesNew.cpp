@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solidProperties.H"
-#include "Switch.H"
+#include "thermophysicalModels/thermophysicalProperties/solidProperties/solidProperties/solidProperties.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -27,12 +27,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "enrichedPatch.H"
-#include "boolList.H"
-#include "DynamicList.H"
-#include "labelPair.H"
-#include "primitiveMesh.H"
-#include "HashSet.H"
+#include "dynamicMesh/slidingInterface/enrichedPatch/enrichedPatch.hpp"
+#include "OpenFOAM/primitives/bools/lists/boolList.hpp"
+#include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
+#include "OpenFOAM/primitives/Pair/labelPair.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

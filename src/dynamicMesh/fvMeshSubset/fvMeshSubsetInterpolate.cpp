@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshSubset.H"
-#include "emptyFvsPatchField.H"
-#include "emptyPointPatchField.H"
-#include "emptyFvPatchFields.H"
-#include "directFvPatchFieldMapper.H"
-#include "directPointPatchFieldMapper.H"
-#include "flipOp.H"
+#include "dynamicMesh/fvMeshSubset/fvMeshSubset.hpp"
+#include "finiteVolume/fields/fvsPatchFields/constraint/empty/emptyFvsPatchField.hpp"
+#include "OpenFOAM/fields/pointPatchFields/constraint/empty/emptyPointPatchField.hpp"
+#include "finiteVolume/fields/fvPatchFields/constraint/empty/emptyFvPatchFields.hpp"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/directFvPatchFieldMapper.hpp"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/directPointPatchFieldMapper.hpp"
+#include "OpenFOAM/primitives/ops/flipOp.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

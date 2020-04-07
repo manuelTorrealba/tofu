@@ -35,7 +35,7 @@ Description
 #ifndef linearFitPolynomial_H
 #define linearFitPolynomial_H
 
-#include "vector.H"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

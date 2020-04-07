@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "projectVertex.H"
-#include "unitConversion.H"
-#include "addToRunTimeSelectionTable.H"
-#include "searchableSurfacesQueries.H"
-#include "pointConstraint.H"
+#include "mesh/blockMesh/blockVertices/projectVertex/projectVertex.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "meshTools/searchableSurfaces/searchableSurfacesQueries/searchableSurfacesQueries.hpp"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointConstraint/pointConstraint.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

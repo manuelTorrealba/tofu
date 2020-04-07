@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DispersionRASModel.H"
-#include "demandDrivenData.H"
-#include "turbulenceModel.H"
+#include "lagrangian/turbulence/submodels/Kinematic/DispersionModel/DispersionRASModel/DispersionRASModel.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
+#include "TurbulenceModels/turbulenceModels/turbulenceModel.hpp"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

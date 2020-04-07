@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvPatchFieldMapper.H"
-#include "volFields.H"
-#include "basicThermo.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fixedEnergyFvPatchScalarField.H"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "thermophysicalModels/basic/basicThermo/basicThermo.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "thermophysicalModels/basic/derivedFvPatchFields/fixedEnergy/fixedEnergyFvPatchScalarField.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -26,7 +26,7 @@ License
 #ifndef fixedMeanOutletInletFvPatchFieldsFwd_H
 #define fixedMeanOutletInletFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

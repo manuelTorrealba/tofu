@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "isoSurface.H"
-#include "fvMesh.H"
-#include "mergePoints.H"
-#include "addToRunTimeSelectionTable.H"
-#include "slicedVolFields.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "OFstream.H"
-#include "meshTools.H"
+#include "sampling/sampledSurface/isoSurface/isoSurface.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "OpenFOAM/meshes/meshTools/mergePoints.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "finiteVolume/fields/volFields/slicedVolFields.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

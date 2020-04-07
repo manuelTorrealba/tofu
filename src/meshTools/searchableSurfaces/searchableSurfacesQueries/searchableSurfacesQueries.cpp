@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableSurfacesQueries.H"
-#include "ListOps.H"
-#include "OFstream.H"
-#include "meshTools.H"
-#include "DynamicField.H"
-#include "pointConstraint.H"
-#include "plane.H"
+#include "meshTools/searchableSurfaces/searchableSurfacesQueries/searchableSurfacesQueries.hpp"
+#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "meshTools/meshTools/meshTools.hpp"
+#include "OpenFOAM/fields/Fields/DynamicField/DynamicField.hpp"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointConstraint/pointConstraint.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/plane/plane.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

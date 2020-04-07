@@ -40,9 +40,9 @@ SourceFiles
 #ifndef multivariateIndependentScheme_H
 #define multivariateIndependentScheme_H
 
-#include "multivariateSurfaceInterpolationScheme.H"
-#include "limitedSurfaceInterpolationScheme.H"
-#include "surfaceFields.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/multivariateSchemes/multivariateSurfaceInterpolationScheme/multivariateSurfaceInterpolationScheme.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/limitedSurfaceInterpolationScheme/limitedSurfaceInterpolationScheme.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

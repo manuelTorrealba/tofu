@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "externalPointEdgePoint.H"
+#include "dynamicMesh/pointPatchDist/externalPointEdgePoint.hpp"
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 

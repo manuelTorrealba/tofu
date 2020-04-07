@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rawSurfaceWriter.H"
+#include "sampling/sampledSurface/writers/raw/rawSurfaceWriter.hpp"
 
-#include "OFstream.H"
-#include "OSspecific.H"
-#include "IOmanip.H"
+#include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/include/OSspecific.hpp"
+#include "OpenFOAM/db/IOstreams/IOstreams/IOmanip.hpp"
 
-#include "makeSurfaceWriterMethods.H"
+#include "sampling/sampledSurface/writers/makeSurfaceWriterMethods.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

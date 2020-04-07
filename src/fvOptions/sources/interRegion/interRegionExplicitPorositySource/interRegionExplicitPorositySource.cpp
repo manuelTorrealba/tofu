@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interRegionExplicitPorositySource.H"
-#include "fvMesh.H"
-#include "fvMatrices.H"
-#include "porosityModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvOptions/sources/interRegion/interRegionExplicitPorositySource/interRegionExplicitPorositySource.hpp"
+#include "finiteVolume/fvMesh/fvMesh.hpp"
+#include "finiteVolume/fvMatrices/fvMatrices.hpp"
+#include "finiteVolume/cfdTools/general/porosityModel/porosityModel/porosityModel.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

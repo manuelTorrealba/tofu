@@ -50,9 +50,9 @@ SourceFiles
 #ifndef cylindrical_H
 #define cylindrical_H
 
-#include "point.H"
-#include "vector.H"
-#include "coordinateRotation.H"
+#include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
+#include "meshTools/coordinateSystems/coordinateRotation/coordinateRotation.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

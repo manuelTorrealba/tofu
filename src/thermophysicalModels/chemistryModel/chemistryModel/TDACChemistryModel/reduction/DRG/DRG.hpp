@@ -35,7 +35,7 @@ SourceFiles
 #ifndef DRG_H
 #define DRG_H
 
-#include "chemistryReductionMethod.H"
+#include "thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/reduction/chemistryReductionMethod/chemistryReductionMethod.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

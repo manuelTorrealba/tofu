@@ -84,8 +84,8 @@ SourceFiles
 #ifndef solidification_H
 #define solidification_H
 
-#include "porosityModel.H"
-#include "Function1.H"
+#include "finiteVolume/cfdTools/general/porosityModel/porosityModel/porosityModel.hpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -43,8 +43,8 @@ SourceFiles
 #ifndef hexCellLooper_H
 #define hexCellLooper_H
 
-#include "geomCellLooper.H"
-#include "typeInfo.H"
+#include "dynamicMesh/meshCut/cellLooper/geomCellLooper.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

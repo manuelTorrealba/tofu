@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "LESfilter.H"
+#include "OpenFOAM/db/error/error.hpp"
+#include "TurbulenceModels/turbulenceModels/LES/LESfilters/LESfilter/LESfilter.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -32,8 +32,8 @@ Description
 #ifndef blockList_H
 #define blockList_H
 
-#include "block.H"
-#include "PtrList.H"
+#include "mesh/blockMesh/blocks/block/block.hpp"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

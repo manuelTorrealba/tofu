@@ -28,14 +28,14 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "FacePostProcessing.H"
-#include "ParticleCollector.H"
-#include "ParticleErosion.H"
-#include "ParticleTracks.H"
-#include "ParticleTrap.H"
-#include "PatchCollisionDensity.H"
-#include "PatchPostProcessing.H"
-#include "VoidFraction.H"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/FacePostProcessing/FacePostProcessing.hpp"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/ParticleCollector/ParticleCollector.hpp"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/ParticleErosion/ParticleErosion.hpp"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/ParticleTracks/ParticleTracks.hpp"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/ParticleTrap/ParticleTrap.hpp"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/PatchCollisionDensity/PatchCollisionDensity.hpp"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/PatchPostProcessing/PatchPostProcessing.hpp"
+#include "lagrangian/intermediate/submodels/CloudFunctionObjects/VoidFraction/VoidFraction.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

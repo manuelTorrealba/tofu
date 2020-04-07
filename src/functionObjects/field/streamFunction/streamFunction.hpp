@@ -40,9 +40,9 @@ SourceFiles
 #ifndef functionObjects_streamFunction_H
 #define functionObjects_streamFunction_H
 
-#include "fieldExpression.H"
-#include "surfaceFieldsFwd.H"
-#include "pointFieldsFwd.H"
+#include "functionObjects/field/fieldExpression/fieldExpression.hpp"
+#include "finiteVolume/fields/surfaceFields/surfaceFieldsFwd.hpp"
+#include "OpenFOAM/fields/GeometricFields/pointFields/pointFieldsFwd.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

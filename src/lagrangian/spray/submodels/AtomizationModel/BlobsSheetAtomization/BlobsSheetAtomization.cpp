@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BlobsSheetAtomization.H"
+#include "lagrangian/spray/submodels/AtomizationModel/BlobsSheetAtomization/BlobsSheetAtomization.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

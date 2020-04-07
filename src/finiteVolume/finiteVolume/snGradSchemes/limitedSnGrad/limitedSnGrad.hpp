@@ -48,7 +48,7 @@ SourceFiles
 #ifndef limitedSnGrad_H
 #define limitedSnGrad_H
 
-#include "correctedSnGrad.H"
+#include "finiteVolume/finiteVolume/snGradSchemes/correctedSnGrad/correctedSnGrad.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

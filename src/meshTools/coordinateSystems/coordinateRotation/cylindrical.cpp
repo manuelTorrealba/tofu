@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cylindrical.H"
-#include "axesRotation.H"
-#include "addToRunTimeSelectionTable.H"
-#include "polyMesh.H"
-#include "tensorIOField.H"
+#include "meshTools/coordinateSystems/coordinateRotation/cylindrical.hpp"
+#include "meshTools/coordinateSystems/coordinateRotation/axesRotation.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "OpenFOAM/fields/Fields/tensorField/tensorIOField.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

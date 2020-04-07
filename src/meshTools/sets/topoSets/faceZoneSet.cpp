@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceZoneSet.H"
-#include "mapPolyMesh.H"
-#include "polyMesh.H"
-#include "setToFaceZone.H"
-#include "setsToFaceZone.H"
-#include "syncTools.H"
+#include "meshTools/sets/topoSets/faceZoneSet.hpp"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "meshTools/sets/faceZoneSources/setToFaceZone/setToFaceZone.hpp"
+#include "meshTools/sets/faceZoneSources/setsToFaceZone/setsToFaceZone.hpp"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
 
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

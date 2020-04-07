@@ -35,10 +35,10 @@ SourceFiles
 #ifndef pairPotentialList_H
 #define pairPotentialList_H
 
-#include "PtrList.H"
-#include "word.H"
-#include "pairPotential.H"
-#include "polyMesh.H"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "OpenFOAM/primitives/strings/word/word.hpp"
+#include "lagrangian/molecularDynamics/potential/pairPotential/basic/pairPotential.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -169,7 +169,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pairPotentialListI.H"
+#include "lagrangian/molecularDynamics/potential/pairPotential/pairPotentialList/pairPotentialListI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

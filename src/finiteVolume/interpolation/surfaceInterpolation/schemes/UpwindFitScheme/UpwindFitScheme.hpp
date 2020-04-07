@@ -33,8 +33,8 @@ Description
 #ifndef UpwindFitScheme_H
 #define UpwindFitScheme_H
 
-#include "UpwindFitData.H"
-#include "linear.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/UpwindFitScheme/UpwindFitData.hpp"
+#include "thermophysicalModels/specie/equationOfState/linear/linear.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

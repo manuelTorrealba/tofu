@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pyrolysisChemistryModel.H"
-#include "SolidReaction.H"
-#include "basicThermo.H"
+#include "thermophysicalModels/solidChemistryModel/pyrolysisChemistryModel/pyrolysisChemistryModel.hpp"
+#include "thermophysicalModels/solidSpecie/reaction/SolidReaction/SolidReaction.hpp"
+#include "thermophysicalModels/basic/basicThermo/basicThermo.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

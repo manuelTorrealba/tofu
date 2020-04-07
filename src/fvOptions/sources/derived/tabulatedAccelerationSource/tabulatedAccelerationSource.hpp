@@ -47,9 +47,9 @@ SourceFiles
 #ifndef tabulatedAccelerationSource_H
 #define tabulatedAccelerationSource_H
 
-#include "fvOption.H"
-#include "tabulated6DoFAcceleration.H"
-#include "dimensionedTypes.H"
+#include "finiteVolume/cfdTools/general/fvOptions/fvOption.hpp"
+#include "fvOptions/sources/derived/tabulatedAccelerationSource/tabulated6DoFAcceleration/tabulated6DoFAcceleration.hpp"
+#include "OpenFOAM/dimensionedTypes/dimensionedTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

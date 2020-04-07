@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "bound.H"
-#include "volFields.H"
-#include "fvc.H"
+#include "finiteVolume/cfdTools/general/bound/bound.hpp"
+#include "finiteVolume/fields/volFields/volFields.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvc.hpp"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

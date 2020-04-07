@@ -23,35 +23,35 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeReactionThermo.H"
+#include "thermophysicalModels/reactionThermo/makeReactionThermo.hpp"
 
-#include "rhoReactionThermo.H"
-#include "heRhoThermo.H"
+#include "thermophysicalModels/reactionThermo/rhoReactionThermo/rhoReactionThermo.hpp"
+#include "thermophysicalModels/basic/rhoThermo/heRhoThermo.hpp"
 
-#include "specie.H"
-#include "perfectGas.H"
-#include "incompressiblePerfectGas.H"
-#include "hConstThermo.H"
-#include "janafThermo.H"
-#include "sensibleEnthalpy.H"
-#include "thermo.H"
-#include "rhoConst.H"
-#include "perfectFluid.H"
-#include "adiabaticPerfectFluid.H"
-#include "Boussinesq.H"
+#include "thermophysicalModels/specie/specie/specie.hpp"
+#include "thermophysicalModels/specie/equationOfState/perfectGas/perfectGas.hpp"
+#include "thermophysicalModels/specie/equationOfState/incompressiblePerfectGas/incompressiblePerfectGas.hpp"
+#include "thermophysicalModels/specie/thermo/hConst/hConstThermo.hpp"
+#include "thermophysicalModels/specie/thermo/janaf/janafThermo.hpp"
+#include "thermophysicalModels/specie/thermo/sensibleEnthalpy/sensibleEnthalpy.hpp"
+#include "thermophysicalModels/specie/thermo/thermo/thermo.hpp"
+#include "thermophysicalModels/specie/equationOfState/rhoConst/rhoConst.hpp"
+#include "thermophysicalModels/specie/equationOfState/perfectFluid/perfectFluid.hpp"
+#include "thermophysicalModels/specie/equationOfState/adiabaticPerfectFluid/adiabaticPerfectFluid.hpp"
+#include "thermophysicalModels/specie/equationOfState/Boussinesq/Boussinesq.hpp"
 
-#include "constTransport.H"
-#include "sutherlandTransport.H"
+#include "thermophysicalModels/specie/transport/const/constTransport.hpp"
+#include "thermophysicalModels/specie/transport/sutherland/sutherlandTransport.hpp"
 
-#include "homogeneousMixture.H"
-#include "inhomogeneousMixture.H"
-#include "veryInhomogeneousMixture.H"
-#include "multiComponentMixture.H"
-#include "reactingMixture.H"
-#include "singleStepReactingMixture.H"
-#include "singleComponentMixture.H"
+#include "thermophysicalModels/reactionThermo/mixtures/homogeneousMixture/homogeneousMixture.hpp"
+#include "thermophysicalModels/reactionThermo/mixtures/inhomogeneousMixture/inhomogeneousMixture.hpp"
+#include "thermophysicalModels/reactionThermo/mixtures/veryInhomogeneousMixture/veryInhomogeneousMixture.hpp"
+#include "thermophysicalModels/reactionThermo/mixtures/multiComponentMixture/multiComponentMixture.hpp"
+#include "thermophysicalModels/reactionThermo/mixtures/reactingMixture/reactingMixture.hpp"
+#include "thermophysicalModels/reactionThermo/mixtures/singleStepReactingMixture/singleStepReactingMixture.hpp"
+#include "thermophysicalModels/reactionThermo/mixtures/singleComponentMixture/singleComponentMixture.hpp"
 
-#include "thermoPhysicsTypes.H"
+#include "thermophysicalModels/specie/include/thermoPhysicsTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

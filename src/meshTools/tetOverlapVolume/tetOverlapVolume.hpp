@@ -35,10 +35,10 @@ SourceFiles
 #ifndef tetOverlapVolume_H
 #define tetOverlapVolume_H
 
-#include "FixedList.H"
-#include "labelList.H"
-#include "treeBoundBox.H"
-#include "tetPointRef.H"
+#include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
+#include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/meshes/treeBoundBox/treeBoundBox.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/tetrahedron/tetPointRef.hpp"
 
 namespace Foam
 {

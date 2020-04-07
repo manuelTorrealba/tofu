@@ -26,8 +26,8 @@ License
 #ifndef fixedNormalSlipFvPatchFields_H
 #define fixedNormalSlipFvPatchFields_H
 
-#include "fixedNormalSlipFvPatchField.H"
-#include "fieldTypes.H"
+#include "finiteVolume/fields/fvPatchFields/derived/fixedNormalSlip/fixedNormalSlipFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

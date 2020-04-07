@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "extendedEdgeMesh.H"
-#include "ListListOps.H"
-#include "unitConversion.H"
-#include "PackedBoolList.H"
-#include "PatchTools.H"
-#include "searchableBox.H"
+#include "meshTools/edgeMesh/extendedEdgeMesh/extendedEdgeMesh.hpp"
+#include "OpenFOAM/containers/Lists/ListListOps/ListListOps.hpp"
+#include "OpenFOAM/global/unitConversion/unitConversion.hpp"
+#include "OpenFOAM/containers/Lists/PackedList/PackedBoolList.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/PatchTools/PatchTools.hpp"
+#include "meshTools/searchableSurfaces/searchableBox/searchableBox.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

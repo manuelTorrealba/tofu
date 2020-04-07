@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "levelSet.H"
-#include "cut.H"
-#include "polyMeshTetDecomposition.H"
-#include "tetIndices.H"
+#include "finiteVolume/cfdTools/general/levelSet/levelSet.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/cut/cut.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMeshTetDecomposition/tetIndices.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

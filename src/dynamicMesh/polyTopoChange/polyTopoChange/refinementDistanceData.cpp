@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "refinementDistanceData.H"
+#include "dynamicMesh/polyTopoChange/polyTopoChange/refinementDistanceData.hpp"
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 

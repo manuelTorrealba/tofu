@@ -35,8 +35,8 @@ SourceFiles
 #ifndef hePsiThermo_H
 #define hePsiThermo_H
 
-#include "psiThermo.H"
-#include "heThermo.H"
+#include "thermophysicalModels/basic/psiThermo/psiThermo.hpp"
+#include "thermophysicalModels/basic/heThermo/heThermo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

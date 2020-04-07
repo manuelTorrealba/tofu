@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "partialSlipFvPatchField.H"
-#include "symmTransformField.H"
+#include "finiteVolume/fields/fvPatchFields/derived/partialSlip/partialSlipFvPatchField.hpp"
+#include "OpenFOAM/fields/Fields/symmTransformField/symmTransformField.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

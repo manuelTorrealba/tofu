@@ -52,9 +52,9 @@ See also
 #ifndef solidMixtureProperties_H
 #define solidMixtureProperties_H
 
-#include "solidProperties.H"
-#include "PtrList.H"
-#include "scalarField.H"
+#include "thermophysicalModels/thermophysicalProperties/solidProperties/solidProperties/solidProperties.hpp"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
+#include "OpenFOAM/fields/Fields/scalarField/scalarField.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

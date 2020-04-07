@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermophysicalProperties.H"
+#include "thermophysicalModels/thermophysicalProperties/thermophysicalProperties/thermophysicalProperties.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

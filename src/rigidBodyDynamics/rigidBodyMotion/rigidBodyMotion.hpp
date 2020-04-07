@@ -46,10 +46,10 @@ SourceFiles
 #ifndef rigidBodyMotion_H
 #define rigidBodyMotion_H
 
-#include "rigidBodyModel.H"
-#include "rigidBodyModelState.H"
-#include "pointField.H"
-#include "Switch.H"
+#include "rigidBodyDynamics/rigidBodyModel/rigidBodyModel.hpp"
+#include "rigidBodyDynamics/rigidBodyModelState/rigidBodyModelState.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/point/pointField.hpp"
+#include "OpenFOAM/primitives/bools/Switch/Switch.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -229,7 +229,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "rigidBodyMotionI.H"
+#include "rigidBodyDynamics/rigidBodyMotion/rigidBodyMotionI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

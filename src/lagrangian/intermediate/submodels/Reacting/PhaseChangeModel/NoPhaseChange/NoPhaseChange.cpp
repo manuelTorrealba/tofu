@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoPhaseChange.H"
+#include "lagrangian/intermediate/submodels/Reacting/PhaseChangeModel/NoPhaseChange/NoPhaseChange.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

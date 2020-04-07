@@ -53,10 +53,10 @@ SourceFiles
 #ifndef multiDirRefinement_H
 #define multiDirRefinement_H
 
-#include "refinementIterator.H"
-#include "vectorField.H"
-#include "Map.H"
-#include "className.H"
+#include "dynamicMesh/meshCut/meshModifiers/refinementIterator/refinementIterator.hpp"
+#include "OpenFOAM/fields/Fields/vectorField/vectorField.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
+#include "OpenFOAM/db/typeInfo/className.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

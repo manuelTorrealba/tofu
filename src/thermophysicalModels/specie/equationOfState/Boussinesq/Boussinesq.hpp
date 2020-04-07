@@ -41,7 +41,7 @@ SourceFiles
 #ifndef Boussinesq_H
 #define Boussinesq_H
 
-#include "autoPtr.H"
+#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -226,7 +226,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "BoussinesqI.H"
+#include "thermophysicalModels/specie/equationOfState/Boussinesq/BoussinesqI.hpp"
 
 #ifdef NoRepository
     #include "Boussinesq.C"

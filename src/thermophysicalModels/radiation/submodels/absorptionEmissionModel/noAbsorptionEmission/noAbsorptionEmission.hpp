@@ -35,7 +35,7 @@ SourceFiles
 #ifndef noAbsorptionEmission_H
 #define noAbsorptionEmission_H
 
-#include "absorptionEmissionModel.H"
+#include "thermophysicalModels/radiation/submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModel.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef allReduce_H
 #define allReduce_H
 
-#include "UPstream.H"
+#include "OpenFOAM/db/IOstreams/Pstreams/UPstream.hpp"
 
 #include <mpi.h>
 

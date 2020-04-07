@@ -40,7 +40,7 @@ SourceFiles
 #ifndef forceSuSp_H
 #define forceSuSp_H
 
-#include "Tuple2.H"
+#include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -137,7 +137,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "forceSuSpI.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/forceSuSp/forceSuSpI.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

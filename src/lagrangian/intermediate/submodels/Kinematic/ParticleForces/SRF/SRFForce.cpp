@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SRFForce.H"
+#include "lagrangian/intermediate/submodels/Kinematic/ParticleForces/SRF/SRFForce.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

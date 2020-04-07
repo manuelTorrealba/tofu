@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicReactingMultiphaseCloud.H"
+#include "lagrangian/intermediate/clouds/derived/basicReactingMultiphaseCloud/basicReactingMultiphaseCloud.hpp"
 
-#include "makeParcelTurbulenceDispersionModels.H"
-#include "makeThermoParcelTurbulenceForces.H"
+#include "lagrangian/turbulence/parcels/include/makeParcelTurbulenceDispersionModels.hpp"
+#include "lagrangian/turbulence/parcels/include/makeThermoParcelTurbulenceForces.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

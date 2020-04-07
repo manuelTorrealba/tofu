@@ -35,10 +35,10 @@ SourceFiles
 #ifndef cyclicAMIFvPatch_H
 #define cyclicAMIFvPatch_H
 
-#include "coupledFvPatch.H"
-#include "cyclicAMILduInterface.H"
-#include "cyclicAMIPolyPatch.H"
-#include "fvBoundaryMesh.H"
+#include "finiteVolume/fvMesh/fvPatches/basic/coupled/coupledFvPatch.hpp"
+#include "meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMILduInterfaceField/cyclicAMILduInterface.hpp"
+#include "meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.hpp"
+#include "finiteVolume/fvMesh/fvBoundaryMesh/fvBoundaryMesh.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

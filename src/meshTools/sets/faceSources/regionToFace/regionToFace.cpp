@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionToFace.H"
-#include "polyMesh.H"
-#include "faceSet.H"
-#include "mappedPatchBase.H"
-#include "indirectPrimitivePatch.H"
-#include "PatchTools.H"
-#include "addToRunTimeSelectionTable.H"
-#include "PatchEdgeFaceWave.H"
-#include "patchEdgeFaceRegion.H"
+#include "meshTools/sets/faceSources/regionToFace/regionToFace.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
+#include "meshTools/sets/topoSets/faceSet.hpp"
+#include "meshTools/mappedPatches/mappedPolyPatch/mappedPatchBase.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.hpp"
+#include "OpenFOAM/meshes/primitiveMesh/PatchTools/PatchTools.hpp"
+#include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "meshTools/algorithms/PatchEdgeFaceWave/PatchEdgeFaceWave.hpp"
+#include "meshTools/algorithms/PatchEdgeFaceWave/patchEdgeFaceRegion.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

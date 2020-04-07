@@ -204,7 +204,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "sutherlandTransportI.H"
+#include "thermophysicalModels/specie/transport/sutherland/sutherlandTransportI.hpp"
 
 #ifdef NoRepository
     #include "sutherlandTransport.C"

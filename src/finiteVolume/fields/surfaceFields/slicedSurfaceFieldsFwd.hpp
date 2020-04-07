@@ -29,7 +29,7 @@ InClass
 #ifndef slicedSurfaceFieldsFwd_H
 #define slicedSurfaceFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM/fields/Fields/fieldTypes.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
