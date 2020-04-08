@@ -38,7 +38,6 @@ SourceFiles
 
 #include "OpenFOAM/primitives/strings/word/word.hpp"
 #include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
-#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

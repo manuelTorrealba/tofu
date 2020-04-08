@@ -481,7 +481,7 @@ inline void reverse(UList<T>&);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "UList.C"
+#include "OpenFOAM/containers/Lists/UList/UList.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

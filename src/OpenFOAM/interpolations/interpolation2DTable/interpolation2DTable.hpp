@@ -167,7 +167,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "interpolation2DTable.C"
+#include "OpenFOAM/interpolations/interpolation2DTable/interpolation2DTable.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -617,7 +617,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "syncToolsTemplates.C"
+#include "OpenFOAM/meshes/polyMesh/syncTools/syncToolsTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

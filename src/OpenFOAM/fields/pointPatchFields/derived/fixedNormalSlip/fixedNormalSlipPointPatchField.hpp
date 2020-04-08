@@ -157,7 +157,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fixedNormalSlipPointPatchField.C"
+#include "OpenFOAM/fields/pointPatchFields/derived/fixedNormalSlip/fixedNormalSlipPointPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

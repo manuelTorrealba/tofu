@@ -103,7 +103,7 @@ public:
 #include "OpenFOAM/primitives/functions/Function1/Zero/ZeroConstantI.hpp"
 
 #ifdef NoRepository
-    #include "ZeroConstant.C"
+#include "OpenFOAM/primitives/functions/Function1/Zero/ZeroConstant.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

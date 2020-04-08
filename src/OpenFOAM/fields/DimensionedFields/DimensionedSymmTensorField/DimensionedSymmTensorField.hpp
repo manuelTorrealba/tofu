@@ -37,8 +37,6 @@ SourceFiles
 
 #include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.hpp"
 #include "OpenFOAM/primitives/SymmTensor/symmTensor/symmTensor.hpp"
-#include "OpenFOAM/primitives/SphericalTensor/sphericalTensor/sphericalTensor.hpp"
-#include "OpenFOAM/primitives/Vector/vector/vector.hpp"
 
 #define TEMPLATE template<class GeoMesh>
 #include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedFieldFunctionsM.hpp"
@@ -78,7 +76,7 @@ UNARY_OPERATOR(vector, symmTensor, *, hdual, transform)
 #include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 #ifdef NoRepository
-    #include "DimensionedSymmTensorField.C"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedSymmTensorField/DimensionedSymmTensorField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

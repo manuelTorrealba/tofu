@@ -124,7 +124,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LduInterfaceField.C"
+#include "OpenFOAM/matrices/LduMatrixN/LduMatrix/LduInterfaceField/LduInterfaceField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

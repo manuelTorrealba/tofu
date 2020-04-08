@@ -27,7 +27,6 @@ License
 #include "OpenFOAM/meshes/polyMesh/polyMeshCheck/polyMeshTools.hpp"
 #include "OpenFOAM/global/unitConversion/unitConversion.hpp"
 #include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

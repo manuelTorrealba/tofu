@@ -115,7 +115,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "GlobalIOField.C"
+#include "OpenFOAM/db/IOobjects/GlobalIOField/GlobalIOField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

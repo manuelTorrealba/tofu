@@ -113,7 +113,7 @@ Type det(const SymmetricSquareMatrix<Type>&);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SymmetricSquareMatrix.C"
+#include "OpenFOAM/matrices/SymmetricSquareMatrix/SymmetricSquareMatrix.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

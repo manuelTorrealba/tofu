@@ -102,7 +102,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "TGaussSeidelSmoother.C"
+#include "OpenFOAM/matrices/LduMatrixN/Smoothers/GaussSeidel/TGaussSeidelSmoother.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

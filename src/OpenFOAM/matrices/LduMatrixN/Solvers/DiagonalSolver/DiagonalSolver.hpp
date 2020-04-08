@@ -94,7 +94,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DiagonalSolver.C"
+#include "OpenFOAM/matrices/LduMatrixN/Solvers/DiagonalSolver/DiagonalSolver.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

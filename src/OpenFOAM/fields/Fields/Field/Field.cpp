@@ -874,6 +874,6 @@ Foam::Ostream& Foam::operator<<(Ostream& os, const tmp<Field<Type>>& tf)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-//#include "FieldFunctions.C"
+#include "OpenFOAM/fields/Fields/Field/FieldFunctions.cpp"
 
 // ************************************************************************* //

@@ -115,7 +115,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NoPreconditioner.C"
+#include "OpenFOAM/matrices/LduMatrixN/Preconditioners/NoPreconditioner/NoPreconditioner.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

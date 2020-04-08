@@ -39,9 +39,6 @@ SourceFiles
 #include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
 #include "OpenFOAM/containers/HashTables/HashPtrTable/HashPtrTable.hpp"
 #include "OpenFOAM/graph/curve/curve.hpp"
-#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
-#include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
-#include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

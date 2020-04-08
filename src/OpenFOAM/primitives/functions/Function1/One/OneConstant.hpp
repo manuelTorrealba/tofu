@@ -122,7 +122,7 @@ public:
 #include "OpenFOAM/primitives/functions/Function1/One/OneConstantI.hpp"
 
 #ifdef NoRepository
-    #include "OneConstant.C"
+#include "OpenFOAM/primitives/functions/Function1/One/OneConstant.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -98,7 +98,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PBiCICG.C"
+#include "OpenFOAM/matrices/LduMatrixN/Solvers/PBiCICG/PBiCICG.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

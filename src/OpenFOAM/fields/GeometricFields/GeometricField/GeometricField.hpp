@@ -657,7 +657,7 @@ Ostream& operator<<
 #include "OpenFOAM/fields/GeometricFields/GeometricField/GeometricFieldI.hpp"
 
 #ifdef NoRepository
-    #include "GeometricField.C"
+#include "OpenFOAM/fields/GeometricFields/GeometricField/GeometricField.cpp"
 #endif
 
 #include "OpenFOAM/fields/GeometricFields/GeometricField/GeometricFieldFunctions.hpp"

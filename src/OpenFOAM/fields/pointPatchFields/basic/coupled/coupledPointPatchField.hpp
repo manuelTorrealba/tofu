@@ -144,7 +144,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "coupledPointPatchField.C"
+#include "OpenFOAM/fields/pointPatchFields/basic/coupled/coupledPointPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

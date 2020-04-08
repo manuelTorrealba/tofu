@@ -145,7 +145,7 @@ inline void transformList(const tensorField&, EdgeMap<scalar>&)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "transformList.C"
+#include "OpenFOAM/fields/Fields/transformList/transformList.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -26,8 +26,6 @@ License
 #include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/GAMGAgglomeration/GAMGAgglomeration.hpp"
 #include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.hpp"
 #include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

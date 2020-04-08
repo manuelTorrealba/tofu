@@ -28,7 +28,6 @@ License
 #include "OpenFOAM/global/debug/registerSwitch.hpp"
 #include "OpenFOAM/db/dictionary/dictionary.hpp"
 #include "OpenFOAM/db/IOstreams/IOstreams.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

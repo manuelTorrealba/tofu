@@ -24,7 +24,6 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "OpenFOAM/fields/pointPatchFields/derived/fixedNormalSlip/fixedNormalSlipPointPatchField.hpp"
-#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

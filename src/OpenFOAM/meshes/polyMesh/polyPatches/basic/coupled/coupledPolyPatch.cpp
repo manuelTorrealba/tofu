@@ -27,9 +27,6 @@ License
 #include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
 #include "OpenFOAM/primitives/transform/transform.hpp"
 #include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
-#include "OpenFOAM/db/dictionary/dictionary.hpp"
-#include "OpenFOAM/containers/Lists/UIndirectList/UIndirectList.hpp"
-#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

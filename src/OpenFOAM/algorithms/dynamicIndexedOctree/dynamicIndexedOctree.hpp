@@ -664,7 +664,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "dynamicIndexedOctree.C"
+#include "OpenFOAM/algorithms/dynamicIndexedOctree/dynamicIndexedOctree.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

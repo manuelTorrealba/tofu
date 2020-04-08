@@ -124,7 +124,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DiagonalPreconditioner.C"
+#include "OpenFOAM/matrices/LduMatrixN/Preconditioners/DiagonalPreconditioner/DiagonalPreconditioner.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

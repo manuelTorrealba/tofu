@@ -151,7 +151,7 @@ public:
 #include "OpenFOAM/primitives/functions/Function1/Scale/ScaleI.hpp"
 
 #ifdef NoRepository
-    #include "Scale.C"
+#include "OpenFOAM/primitives/functions/Function1/Scale/Scale.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

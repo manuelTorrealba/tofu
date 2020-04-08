@@ -113,7 +113,7 @@ tmp<FieldField<Field, Type>> transform
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "transformFieldField.C"
+#include "OpenFOAM/fields/FieldFields/transformFieldField/transformFieldField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -91,7 +91,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LLTMatrix.C"
+#include "OpenFOAM/matrices/LLTMatrix/LLTMatrix.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

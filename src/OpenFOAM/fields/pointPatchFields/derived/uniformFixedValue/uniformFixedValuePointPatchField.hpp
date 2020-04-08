@@ -173,7 +173,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "uniformFixedValuePointPatchField.C"
+#include "OpenFOAM/fields/pointPatchFields/derived/uniformFixedValue/uniformFixedValuePointPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

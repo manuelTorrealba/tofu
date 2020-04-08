@@ -134,7 +134,7 @@ tmp<vectorField> transformPoints(const septernion&, const tmp<vectorField>&);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "transformFieldTemplates.C"
+#include "OpenFOAM/fields/Fields/transformField/transformFieldTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

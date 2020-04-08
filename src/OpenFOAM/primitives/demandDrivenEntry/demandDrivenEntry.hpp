@@ -129,7 +129,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "demandDrivenEntry.C"
+#include "OpenFOAM/primitives/demandDrivenEntry/demandDrivenEntry.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

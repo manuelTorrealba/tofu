@@ -186,7 +186,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DictionaryBase.C"
+#include "OpenFOAM/containers/Dictionaries/DictionaryBase/DictionaryBase.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

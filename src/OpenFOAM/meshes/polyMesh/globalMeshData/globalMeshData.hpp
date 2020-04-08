@@ -624,7 +624,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "globalMeshDataTemplates.C"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshDataTemplates.cpp"
 #endif
 
 

@@ -83,7 +83,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Dictionary.C"
+#include "OpenFOAM/containers/Dictionaries/Dictionary/Dictionary.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

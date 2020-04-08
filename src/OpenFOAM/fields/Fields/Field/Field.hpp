@@ -405,7 +405,7 @@ public:
 #include "OpenFOAM/fields/Fields/Field/FieldFunctions.hpp"
 
 #ifdef NoRepository
-    #include "Field.C"
+#include "OpenFOAM/fields/Fields/Field/Field.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -128,7 +128,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "zeroGradientPointPatchField.C"
+#include "OpenFOAM/fields/pointPatchFields/basic/zeroGradient/zeroGradientPointPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

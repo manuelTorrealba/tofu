@@ -103,7 +103,7 @@ void Foam::LPtrList<LListBase, T>::operator=(const LPtrList<LListBase, T>& lst)
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 
-//#include "LPtrListIO.C"
+#include "OpenFOAM/containers/LinkedLists/accessTypes/LPtrList/LPtrListIO.cpp"
 
 
 // ************************************************************************* //

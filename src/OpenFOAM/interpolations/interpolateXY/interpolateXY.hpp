@@ -71,7 +71,7 @@ Type interpolateXY
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "interpolateXY.C"
+#include "OpenFOAM/interpolations/interpolateXY/interpolateXY.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

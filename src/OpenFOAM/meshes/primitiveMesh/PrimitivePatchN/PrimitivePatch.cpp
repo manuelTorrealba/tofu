@@ -588,15 +588,15 @@ operator=
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PrimitivePatchAddressing.C"
-#include "PrimitivePatchEdgeLoops.C"
-#include "PrimitivePatchClear.C"
-#include "PrimitivePatchBdryPoints.C"
-#include "PrimitivePatchLocalPointOrder.C"
-#include "PrimitivePatchMeshData.C"
-#include "PrimitivePatchMeshEdges.C"
-#include "PrimitivePatchPointAddressing.C"
-#include "PrimitivePatchProjectPoints.C"
-#include "PrimitivePatchCheck.C"
+#include "OpenFOAM/meshes/primitiveMesh/PrimitivePatchN/PrimitivePatchAddressing.cpp"
+#include "OpenFOAM/meshes/primitiveMesh/PrimitivePatchN/PrimitivePatchEdgeLoops.cpp"
+#include "OpenFOAM/meshes/primitiveMesh/PrimitivePatchN/PrimitivePatchClear.cpp"
+#include "OpenFOAM/meshes/primitiveMesh/PrimitivePatchN/PrimitivePatchBdryPoints.cpp"
+#include "OpenFOAM/meshes/primitiveMesh/PrimitivePatchN/PrimitivePatchLocalPointOrder.cpp"
+#include "OpenFOAM/meshes/primitiveMesh/PrimitivePatchN/PrimitivePatchMeshData.cpp"
+#include "OpenFOAM/meshes/primitiveMesh/PrimitivePatchN/PrimitivePatchMeshEdges.cpp"
+#include "OpenFOAM/meshes/primitiveMesh/PrimitivePatchN/PrimitivePatchPointAddressing.cpp"
+#include "OpenFOAM/meshes/primitiveMesh/PrimitivePatchN/PrimitivePatchProjectPoints.cpp"
+#include "OpenFOAM/meshes/primitiveMesh/PrimitivePatchN/PrimitivePatchCheck.cpp"
 
 // ************************************************************************* //

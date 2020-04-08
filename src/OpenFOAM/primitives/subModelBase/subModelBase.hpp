@@ -210,7 +210,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "subModelBaseTemplates.C"
+#include "OpenFOAM/primitives/subModelBase/subModelBaseTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

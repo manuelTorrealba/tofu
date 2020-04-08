@@ -41,7 +41,6 @@ SourceFiles
 #define genericPolyPatch_H
 
 #include "OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.hpp"
-#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

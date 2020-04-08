@@ -74,7 +74,7 @@ bool mergePoints
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "mergePoints.C"
+#include "OpenFOAM/meshes/meshTools/mergePoints.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -101,7 +101,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "openFoamTableReader.C"
+#include "OpenFOAM/interpolations/interpolationTable/tableReaders/openFoam/openFoamTableReader.cpp"
 #endif
 
 

@@ -193,7 +193,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "processorPointPatchField.C"
+#include "OpenFOAM/fields/pointPatchFields/constraint/processor/processorPointPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -24,7 +24,6 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "OpenFOAM/db/IOobjects/IOPtrList/IOPtrList.hpp"
-#include "OpenFOAM/db/IOstreams/IOstreams/INew.hpp"
 
 // * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * * //
 

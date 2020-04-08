@@ -137,7 +137,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "cyclicSlipPointPatchField.C"
+#include "OpenFOAM/fields/pointPatchFields/constraint/cyclicSlip/cyclicSlipPointPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

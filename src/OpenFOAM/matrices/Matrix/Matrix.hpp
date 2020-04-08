@@ -380,7 +380,7 @@ tmp<Field<Type>> operator*
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Matrix.C"
+#include "OpenFOAM/matrices/Matrix/Matrix.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

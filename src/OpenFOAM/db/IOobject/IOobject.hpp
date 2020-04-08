@@ -528,7 +528,7 @@ inline fileName typeFilePath(const IOobject& io)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "IOobjectTemplates.C"
+#include "OpenFOAM/db/IOobject/IOobjectTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

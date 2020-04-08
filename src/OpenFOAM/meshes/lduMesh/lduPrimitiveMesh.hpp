@@ -37,7 +37,6 @@ SourceFiles
 
 #include "OpenFOAM/meshes/lduMesh/lduMesh.hpp"
 #include "OpenFOAM/primitives/ints/lists/labelList.hpp"
-#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -272,7 +271,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "lduPrimitiveMeshTemplates.C"
+#include "OpenFOAM/meshes/lduMesh/lduPrimitiveMeshTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

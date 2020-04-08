@@ -563,7 +563,7 @@ public:
 
 #ifndef NoHashTableC
 #ifdef NoRepository
-    #include "HashTable.C"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.cpp"
 #endif
 #endif
 

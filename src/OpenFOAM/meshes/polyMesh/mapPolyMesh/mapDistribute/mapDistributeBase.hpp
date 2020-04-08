@@ -486,7 +486,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "mapDistributeBaseTemplates.C"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributeBaseTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

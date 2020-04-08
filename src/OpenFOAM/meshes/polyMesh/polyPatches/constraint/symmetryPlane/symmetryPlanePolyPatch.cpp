@@ -26,7 +26,6 @@ License
 #include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/symmetryPlane/symmetryPlanePolyPatch.hpp"
 #include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 #include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/symmetry/symmetryPolyPatch.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

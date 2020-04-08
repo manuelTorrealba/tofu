@@ -219,7 +219,7 @@ typedef HashSet<label, Hash<label>> labelHashSet;
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "HashSet.C"
+#include "OpenFOAM/containers/HashTables/HashSet/HashSet.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

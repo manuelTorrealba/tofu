@@ -35,7 +35,6 @@ SourceFiles
 #define volumeType_H
 
 #include "OpenFOAM/containers/NamedEnum/NamedEnum.hpp"
-#include "OpenFOAM/primitives/contiguous/contiguous.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

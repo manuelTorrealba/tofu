@@ -528,7 +528,7 @@ COMPUTED_ASSIGNMENT(scalar, /=)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DimensionedFieldIO.C"
-#include "DimensionedFieldFunctions.C"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedFieldIO.cpp"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedFieldFunctions.cpp"
 
 // ************************************************************************* //

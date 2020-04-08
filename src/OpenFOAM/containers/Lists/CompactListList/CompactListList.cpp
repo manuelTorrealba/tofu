@@ -249,6 +249,6 @@ const
 
 // * * * * * * * * * * * * * * * *  IOStream operators * * * * * * * * * * * //
 
-//#include "CompactListListIO.C"
+#include "OpenFOAM/containers/Lists/CompactListList/CompactListListIO.cpp"
 
 // ************************************************************************* //

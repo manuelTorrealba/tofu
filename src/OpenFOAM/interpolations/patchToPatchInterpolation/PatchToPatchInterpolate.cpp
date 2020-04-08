@@ -26,8 +26,6 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "OpenFOAM/interpolations/patchToPatchInterpolation/patchToPatchInterpolation.hpp"
-
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

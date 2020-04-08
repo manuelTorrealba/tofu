@@ -159,7 +159,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "regionFunctionObjectTemplates.C"
+#include "OpenFOAM/db/functionObjects/regionFunctionObject/regionFunctionObjectTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

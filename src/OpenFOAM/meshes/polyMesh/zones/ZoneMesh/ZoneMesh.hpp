@@ -204,7 +204,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ZoneMesh.C"
+#include "OpenFOAM/meshes/polyMesh/zones/ZoneMesh/ZoneMesh.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

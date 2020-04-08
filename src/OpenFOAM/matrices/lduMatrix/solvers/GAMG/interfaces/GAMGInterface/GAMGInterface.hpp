@@ -287,7 +287,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "GAMGInterfaceTemplates.C"
+#include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaces/GAMGInterface/GAMGInterfaceTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

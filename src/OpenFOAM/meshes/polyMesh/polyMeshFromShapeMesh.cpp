@@ -30,7 +30,6 @@ License
 #include "OpenFOAM/algorithms/indexedOctree/indexedOctree.hpp"
 #include "OpenFOAM/algorithms/indexedOctree/treeDataCell.hpp"
 #include "OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

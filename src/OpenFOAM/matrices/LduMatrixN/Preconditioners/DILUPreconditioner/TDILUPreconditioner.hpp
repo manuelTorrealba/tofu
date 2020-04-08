@@ -116,7 +116,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "TDILUPreconditioner.C"
+#include "OpenFOAM/matrices/LduMatrixN/Preconditioners/DILUPreconditioner/TDILUPreconditioner.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

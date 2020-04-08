@@ -88,7 +88,7 @@ bool Foam::UILList<LListBase, T>::operator!=
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 
-//#include "UILListIO.C"
+#include "OpenFOAM/containers/LinkedLists/accessTypes/UILList/UILListIO.cpp"
 
 
 // ************************************************************************* //

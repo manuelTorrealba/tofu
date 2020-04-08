@@ -27,8 +27,6 @@ License
 #include "OpenFOAM/db/Time/Time.hpp"
 #include "OpenFOAM/include/OSspecific.hpp"
 #include "OpenFOAM/db/IOobjects/IOList/IOList.hpp"
-#include "OpenFOAM/global/fileOperations/fileOperation/fileOperation.hpp"
-#include "OpenFOAM/primitives/strings/lists/wordReListMatcher.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

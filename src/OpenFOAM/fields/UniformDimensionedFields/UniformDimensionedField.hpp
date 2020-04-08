@@ -122,7 +122,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "UniformDimensionedField.C"
+#include "OpenFOAM/fields/UniformDimensionedFields/UniformDimensionedField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

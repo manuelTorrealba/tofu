@@ -242,7 +242,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "tetrahedron.C"
+#include "OpenFOAM/meshes/primitiveShapes/tetrahedron/tetrahedron.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

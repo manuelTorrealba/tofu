@@ -163,7 +163,7 @@ public:
 #include "OpenFOAM/primitives/functions/Function1/Sine/SineI.hpp"
 
 #ifdef NoRepository
-    #include "Sine.C"
+#include "OpenFOAM/primitives/functions/Function1/Sine/Sine.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

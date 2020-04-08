@@ -30,7 +30,6 @@ License
 #include "OpenFOAM/containers/Lists/SortableList/SortableList.hpp"
 #include "OpenFOAM/meshes/meshShapes/edge/EdgeMap.hpp"
 #include "OpenFOAM/meshes/primitiveMesh/primitiveMeshCheck/primitiveMeshTools.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

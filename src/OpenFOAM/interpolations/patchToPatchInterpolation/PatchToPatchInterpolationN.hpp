@@ -228,7 +228,7 @@ public:
 } // End namespace Foam
 
 #ifdef NoRepository
-    #include "PatchToPatchInterpolation.C"
+#include "OpenFOAM/interpolations/patchToPatchInterpolation/PatchToPatchInterpolation.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

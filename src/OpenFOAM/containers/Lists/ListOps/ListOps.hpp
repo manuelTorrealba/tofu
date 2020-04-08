@@ -291,7 +291,7 @@ void inplaceRotateList(ListType<DataType>& list, label n);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ListOpsTemplates.C"
+#include "OpenFOAM/containers/Lists/ListOps/ListOpsTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

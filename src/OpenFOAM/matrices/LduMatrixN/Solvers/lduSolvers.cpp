@@ -28,8 +28,6 @@ License
 #include "OpenFOAM/matrices/LduMatrixN/Solvers/PBiCICG/PBiCICG.hpp"
 #include "OpenFOAM/matrices/LduMatrixN/Solvers/SmoothSolver/SmoothSolver.hpp"
 #include "OpenFOAM/fields/Fields/fieldTypes.hpp"
-#include "OpenFOAM/matrices/LduMatrixN/Solvers/DiagonalSolver/DiagonalSolver.hpp"
-
 
 #define makeLduSolvers(Type, DType, LUType)                                    \
                                                                                \

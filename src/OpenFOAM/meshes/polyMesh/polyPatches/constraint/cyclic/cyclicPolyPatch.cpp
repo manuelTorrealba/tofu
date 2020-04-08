@@ -35,7 +35,6 @@ License
 #include "OpenFOAM/fields/Fields/transformField/transformField.hpp"
 #include "OpenFOAM/fields/Fields/Field/SubField.hpp"
 #include "OpenFOAM/global/unitConversion/unitConversion.hpp"
-#include "OpenFOAM/containers/Lists/IndirectList/IndirectList.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

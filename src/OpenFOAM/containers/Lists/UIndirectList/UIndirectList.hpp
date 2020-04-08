@@ -165,7 +165,7 @@ public:
 #include "OpenFOAM/containers/Lists/UIndirectList/UIndirectListI.hpp"
 
 #ifdef NoRepository
-    #include "UIndirectListIO.C"
+#include "OpenFOAM/containers/Lists/UIndirectList/UIndirectListIO.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -24,7 +24,6 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "OpenFOAM/fields/UniformDimensionedFields/UniformDimensionedField.hpp"
-#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

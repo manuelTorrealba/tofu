@@ -254,7 +254,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Function1.C"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1.cpp"
 #include "OpenFOAM/primitives/functions/Function1/Constant/Constant.hpp"
 #endif
 

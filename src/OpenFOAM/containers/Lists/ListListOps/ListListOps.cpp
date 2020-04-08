@@ -25,8 +25,6 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "OpenFOAM/containers/Lists/ListListOps/ListListOps.hpp"
-
 namespace Foam
 {
 

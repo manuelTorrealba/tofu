@@ -169,8 +169,8 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Polynomial.C"
-    #include "PolynomialIO.C"
+#include "OpenFOAM/primitives/functions/Polynomial/Polynomial.cpp"
+#include "OpenFOAM/primitives/functions/Polynomial/PolynomialIO.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

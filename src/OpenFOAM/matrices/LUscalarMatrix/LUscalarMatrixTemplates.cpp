@@ -25,8 +25,6 @@ License
 
 #include "OpenFOAM/matrices/LUscalarMatrix/LUscalarMatrix.hpp"
 #include "OpenFOAM/fields/Fields/Field/SubField.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

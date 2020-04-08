@@ -95,7 +95,7 @@ DiagonalMatrix<Type> inv(const DiagonalMatrix<Type>&);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DiagonalMatrix.C"
+#include "OpenFOAM/matrices/DiagonalMatrix/DiagonalMatrix.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

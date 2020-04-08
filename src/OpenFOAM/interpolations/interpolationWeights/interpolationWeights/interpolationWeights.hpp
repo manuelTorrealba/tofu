@@ -149,7 +149,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "interpolationWeightsTemplates.C"
+#include "OpenFOAM/interpolations/interpolationWeights/interpolationWeights/interpolationWeightsTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

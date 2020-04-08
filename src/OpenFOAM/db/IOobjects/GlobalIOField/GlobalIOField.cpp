@@ -23,8 +23,6 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "OpenFOAM/db/IOobjects/GlobalIOField/GlobalIOField.hpp"
-
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
 template<class Type>

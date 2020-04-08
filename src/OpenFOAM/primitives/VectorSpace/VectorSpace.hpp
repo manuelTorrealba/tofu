@@ -226,7 +226,7 @@ word name(const VectorSpace<Form, Cmpt, Ncmpts>&);
 #include "OpenFOAM/primitives/VectorSpace/VectorSpaceI.hpp"
 
 #ifdef NoRepository
-    #include "VectorSpace.C"
+#include "OpenFOAM/primitives/VectorSpace/VectorSpace.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

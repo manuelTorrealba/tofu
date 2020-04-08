@@ -66,7 +66,7 @@ BINARY_TYPE_OPERATOR(sphericalTensor, scalar, sphericalTensor, /, '|', divide)
 #include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 #ifdef NoRepository
-    #include "GeometricSphericalTensorField.C"
+#include "OpenFOAM/fields/GeometricFields/GeometricSphericalTensorField/GeometricSphericalTensorField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

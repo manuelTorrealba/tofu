@@ -296,7 +296,7 @@ public:
 #include "OpenFOAM/meshes/meshShapes/triFace/triFaceI.hpp"
 
 #ifdef NoRepository
-    #include "triFaceTemplates.C"
+#include "OpenFOAM/meshes/meshShapes/triFace/triFaceTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

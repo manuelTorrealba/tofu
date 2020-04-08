@@ -115,7 +115,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ProcessorTopology.C"
+#include "OpenFOAM/meshes/ProcessorTopology/ProcessorTopology.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

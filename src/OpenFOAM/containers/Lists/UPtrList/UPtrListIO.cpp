@@ -25,7 +25,6 @@ License
 
 #include "OpenFOAM/containers/Lists/UPtrList/UPtrList.hpp"
 #include "OpenFOAM/db/IOstreams/IOstreams/Ostream.hpp"
-#include "OpenFOAM/db/IOstreams/token/token.hpp"
 
 // * * * * * * * * * * * * * * * Ostream Operators * * * * * * * * * * * * * //
 

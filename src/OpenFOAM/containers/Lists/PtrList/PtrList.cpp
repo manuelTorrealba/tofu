@@ -284,6 +284,6 @@ void Foam::PtrList<T>::operator=(const PtrList<T>& a)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-//#include "PtrListIO.C"
+#include "OpenFOAM/containers/Lists/PtrList/PtrListIO.cpp"
 
 // ************************************************************************* //

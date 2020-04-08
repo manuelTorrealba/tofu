@@ -24,8 +24,6 @@ License
 \*---------------------------------------------------------------------------*/
 
 
-#include "OpenFOAM/interpolations/interpolationLookUpTable/interpolationLookUpTable.hpp"
-
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 
 template<class Type>

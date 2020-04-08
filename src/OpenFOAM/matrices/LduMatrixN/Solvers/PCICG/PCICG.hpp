@@ -98,7 +98,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PCICG.C"
+#include "OpenFOAM/matrices/LduMatrixN/Solvers/PCICG/PCICG.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

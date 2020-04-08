@@ -793,7 +793,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "masterUncollatedFileOperationTemplates.C"
+#include "OpenFOAM/global/fileOperations/masterUncollatedFileOperation/masterUncollatedFileOperationTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

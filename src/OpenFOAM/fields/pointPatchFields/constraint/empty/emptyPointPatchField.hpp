@@ -140,7 +140,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "emptyPointPatchField.C"
+#include "OpenFOAM/fields/pointPatchFields/constraint/empty/emptyPointPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -28,7 +28,6 @@ License
 
 #define TEMPLATE template<template<class> class Field, class Type>
 #include "OpenFOAM/fields/FieldFields/FieldField/FieldFieldFunctionsM.cpp"
-#include "OpenFOAM/containers/Lists/UList/UList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

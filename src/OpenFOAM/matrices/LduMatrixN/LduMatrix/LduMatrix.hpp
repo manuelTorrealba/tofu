@@ -54,11 +54,10 @@ SourceFiles
 #include "OpenFOAM/fields/Fields/Field/Field.hpp"
 #include "OpenFOAM/fields/FieldFields/FieldField/FieldField.hpp"
 #include "OpenFOAM/matrices/LduMatrixN/LduMatrix/LduInterfaceField/LduInterfaceFieldPtrsList.hpp"
-#include "OpenFOAM/matrices/LduMatrixN/LduMatrix/SolverPerformanceN.hpp"
+#include "SolverPerformance.H"
 #include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 #include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
 #include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
-#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -799,7 +798,7 @@ LduMatrix<Type, DType, LUType>::solver::                                       \
 
 #ifdef NoRepository
 #include "OpenFOAM/matrices/LduMatrixN/LduMatrix/LduMatrixI.hpp"
-    #include "LduMatrix.C"
+#include "OpenFOAM/matrices/LduMatrixN/LduMatrix/LduMatrix.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

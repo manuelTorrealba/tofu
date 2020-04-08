@@ -34,7 +34,6 @@ Description
 
 #include "OpenFOAM/fields/Fields/Field/Field.hpp"
 #include "OpenFOAM/containers/HashTables/Map/Map.hpp"
-#include "OpenFOAM/fields/Fields/Field/FieldMapper.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

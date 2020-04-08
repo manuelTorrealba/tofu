@@ -259,7 +259,7 @@ inline bool contiguous<boundBox>() {return contiguous<point>();}
 #include "OpenFOAM/meshes/boundBox/boundBoxI.hpp"
 
 #ifdef NoRepository
-    #include "boundBoxTemplates.C"
+#include "OpenFOAM/meshes/boundBox/boundBoxTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

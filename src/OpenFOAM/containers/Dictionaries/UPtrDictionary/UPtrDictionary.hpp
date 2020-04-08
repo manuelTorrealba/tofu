@@ -76,7 +76,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "UPtrDictionary.C"
+#include "OpenFOAM/containers/Dictionaries/UPtrDictionary/UPtrDictionary.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

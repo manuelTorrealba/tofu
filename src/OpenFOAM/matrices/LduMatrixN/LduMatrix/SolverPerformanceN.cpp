@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "OpenFOAM/matrices/LduMatrixN/LduMatrix/SolverPerformanceN.hpp"
+#include "SolverPerformance.H"
 #include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

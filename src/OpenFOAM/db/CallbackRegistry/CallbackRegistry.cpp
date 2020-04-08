@@ -24,7 +24,6 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "OpenFOAM/db/CallbackRegistry/CallbackRegistry.hpp"
-#include "OpenFOAM/containers/Lists/UList/UList.hpp"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

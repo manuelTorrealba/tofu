@@ -378,7 +378,7 @@ inline bool contiguous<treeBoundBox>() {return contiguous<boundBox>();}
 #include "OpenFOAM/meshes/treeBoundBox/treeBoundBoxI.hpp"
 
 #ifdef NoRepository
-    #include "treeBoundBoxTemplates.C"
+#include "OpenFOAM/meshes/treeBoundBox/treeBoundBoxTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

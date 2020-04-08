@@ -109,6 +109,6 @@ void Foam::LList<LListBase, T>::operator=(std::initializer_list<T> lst)
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 
-//#include "LListIO.C"
+#include "OpenFOAM/containers/LinkedLists/accessTypes/LList/LListIO.cpp"
 
 // ************************************************************************* //

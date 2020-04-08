@@ -69,7 +69,7 @@ BINARY_TYPE_OPERATOR(sphericalTensor, scalar, sphericalTensor, /, divide)
 #include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 #ifdef NoRepository
-    #include "sphericalTensorFieldField.C"
+#include "OpenFOAM/fields/FieldFields/sphericalTensorFieldField/sphericalTensorFieldField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

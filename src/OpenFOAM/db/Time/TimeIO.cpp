@@ -29,9 +29,6 @@ License
 #include "OpenFOAM/global/constants/dimensionedConstants.hpp"
 #include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
 #include "OpenFOAM/global/fileOperations/fileOperation/fileOperation.hpp"
-#include "OpenFOAM/db/IOstreams/StringStreams/IStringStream.hpp"
-#include "OpenFOAM/db/IOstreams/StringStreams/OStringStream.hpp"
-#include "OpenFOAM/global/argList/argList.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

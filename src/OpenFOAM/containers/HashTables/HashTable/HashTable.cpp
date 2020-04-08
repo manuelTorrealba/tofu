@@ -624,7 +624,7 @@ bool Foam::HashTable<T, Key, Hash>::operator!=
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 
-//#include "HashTableIO.C"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTableIO.cpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

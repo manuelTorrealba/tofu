@@ -340,7 +340,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PatchTools.C"
+#include "OpenFOAM/meshes/primitiveMesh/PatchTools/PatchTools.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

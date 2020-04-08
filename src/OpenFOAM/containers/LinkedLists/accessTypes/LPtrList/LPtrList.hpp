@@ -270,7 +270,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LPtrList.C"
+#include "OpenFOAM/containers/LinkedLists/accessTypes/LPtrList/LPtrList.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

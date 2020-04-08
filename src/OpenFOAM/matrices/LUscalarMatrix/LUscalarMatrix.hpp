@@ -139,7 +139,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LUscalarMatrixTemplates.C"
+#include "OpenFOAM/matrices/LUscalarMatrix/LUscalarMatrixTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

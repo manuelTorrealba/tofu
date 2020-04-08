@@ -429,7 +429,7 @@ label longestEdge(const face& f, const pointField& pts);
 #include "OpenFOAM/meshes/meshShapes/face/faceI.hpp"
 
 #ifdef NoRepository
-    #include "faceTemplates.C"
+#include "OpenFOAM/meshes/meshShapes/face/faceTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

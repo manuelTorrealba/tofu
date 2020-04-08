@@ -153,7 +153,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "HashPtrTable.C"
+#include "OpenFOAM/containers/HashTables/HashPtrTable/HashPtrTable.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

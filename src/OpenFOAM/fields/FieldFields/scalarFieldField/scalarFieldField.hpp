@@ -155,7 +155,7 @@ BesselFunc(yn)
 #include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 #ifdef NoRepository
-    #include "scalarFieldField.C"
+#include "OpenFOAM/fields/FieldFields/scalarFieldField/scalarFieldField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

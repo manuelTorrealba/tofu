@@ -112,7 +112,7 @@ tmp<GeometricField<Type, PatchField, GeoMesh>> transform
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "transformGeometricField.C"
+#include "OpenFOAM/fields/GeometricFields/transformGeometricField/transformGeometricField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

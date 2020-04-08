@@ -170,7 +170,7 @@ BesselFunc(yn)
 #include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 #ifdef NoRepository
-    #include "GeometricScalarField.C"
+#include "OpenFOAM/fields/GeometricFields/GeometricScalarField/GeometricScalarField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -25,7 +25,6 @@ License
 
 #include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGSolver.hpp"
 #include "OpenFOAM/primitives/Vector2D/vector2D/vector2D.hpp"
-#include "OpenFOAM/global/argList/argList.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

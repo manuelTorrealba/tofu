@@ -81,7 +81,7 @@ UNARY_OPERATOR(tensor, vector, *, hdual, transform)
 #include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 #ifdef NoRepository
-    #include "DimensionedTensorField.C"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedTensorField/DimensionedTensorField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

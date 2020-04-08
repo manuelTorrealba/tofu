@@ -97,7 +97,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PtrDictionary.C"
+#include "OpenFOAM/containers/Dictionaries/PtrDictionary/PtrDictionary.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

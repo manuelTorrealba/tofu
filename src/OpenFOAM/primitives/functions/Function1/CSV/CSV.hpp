@@ -156,7 +156,7 @@ Foam::scalar CSV<scalar>::readValue(const List<string>& split);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CSV.C"
+#include "OpenFOAM/primitives/functions/Function1/CSV/CSV.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

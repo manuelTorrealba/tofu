@@ -116,7 +116,7 @@ void readUniformFields
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ReadFields.C"
+#include "OpenFOAM/fields/ReadFields/ReadFields.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

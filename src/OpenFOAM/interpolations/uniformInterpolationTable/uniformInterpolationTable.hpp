@@ -200,7 +200,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "uniformInterpolationTable.C"
+#include "OpenFOAM/interpolations/uniformInterpolationTable/uniformInterpolationTable.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

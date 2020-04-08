@@ -25,7 +25,6 @@ License
 
 #include "OpenFOAM/meshes/primitiveMesh/primitiveMesh.hpp"
 #include "OpenFOAM/containers/Lists/SortableList/SortableList.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

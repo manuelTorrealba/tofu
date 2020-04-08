@@ -26,9 +26,6 @@ License
 #include "OpenFOAM/dimensionSet/dimensionSet.hpp"
 #include "OpenFOAM/db/IOstreams/IOstreams.hpp"
 #include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.hpp"
-#include "OpenFOAM/db/IOstreams/StringStreams/IStringStream.hpp"
-#include "OpenFOAM/db/dictionary/dictionary.hpp"
-
 #include <limits>
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

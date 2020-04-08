@@ -24,7 +24,6 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "OpenFOAM/meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

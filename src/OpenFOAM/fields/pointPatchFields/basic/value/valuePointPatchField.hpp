@@ -227,7 +227,7 @@ tmp<Field<Type>> operator+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "valuePointPatchField.C"
+#include "OpenFOAM/fields/pointPatchFields/basic/value/valuePointPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

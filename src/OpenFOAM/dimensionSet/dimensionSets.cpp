@@ -27,7 +27,6 @@ License
 #include "OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.hpp"
 #include "OpenFOAM/global/debug/simpleRegIOobject.hpp"
 #include "OpenFOAM/include/demandDrivenData.hpp"
-#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

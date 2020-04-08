@@ -37,8 +37,6 @@ SourceFiles
 
 #include "OpenFOAM/primitives/ints/label/label.hpp"
 #include "OpenFOAM/containers/Lists/DynamicList/DynamicList.hpp"
-#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
-#include "OpenFOAM/global/debug/debug.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -119,7 +117,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "dlLibraryTableTemplates.C"
+#include "OpenFOAM/db/dynamicLibrary/dlLibraryTable/dlLibraryTableTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

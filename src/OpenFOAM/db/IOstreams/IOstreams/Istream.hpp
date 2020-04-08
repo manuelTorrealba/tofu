@@ -184,7 +184,7 @@ inline Istream& operator>>(Istream& is, IOstreamManip f)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "HashTable.C"
+#include "OpenFOAM/containers/HashTables/HashTable/HashTable.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

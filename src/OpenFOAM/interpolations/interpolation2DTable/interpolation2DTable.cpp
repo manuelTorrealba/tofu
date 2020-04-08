@@ -23,7 +23,6 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "OpenFOAM/interpolations/interpolation2DTable/interpolation2DTable.hpp"
 #include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
 #include "OpenFOAM/interpolations/interpolationTable/tableReaders/openFoam/openFoamTableReader.hpp"
 

@@ -403,7 +403,7 @@ private:
 
 #ifndef NoStaticHashTableC
 #ifdef NoRepository
-    #include "StaticHashTable.C"
+#include "OpenFOAM/containers/HashTables/StaticHashTable/StaticHashTable.cpp"
 #endif
 #endif
 

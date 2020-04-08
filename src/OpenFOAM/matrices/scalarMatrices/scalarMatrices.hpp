@@ -168,7 +168,7 @@ scalarRectangularMatrix SVDinv
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "scalarMatricesTemplates.C"
+#include "OpenFOAM/matrices/scalarMatrices/scalarMatricesTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

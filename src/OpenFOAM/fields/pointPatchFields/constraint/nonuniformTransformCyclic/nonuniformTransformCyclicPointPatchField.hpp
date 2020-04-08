@@ -137,7 +137,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "nonuniformTransformCyclicPointPatchField.C"
+#include "OpenFOAM/fields/pointPatchFields/constraint/nonuniformTransformCyclic/nonuniformTransformCyclicPointPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

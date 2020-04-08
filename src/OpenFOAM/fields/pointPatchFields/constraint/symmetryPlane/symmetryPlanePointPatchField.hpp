@@ -149,7 +149,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "symmetryPlanePointPatchField.C"
+#include "OpenFOAM/fields/pointPatchFields/constraint/symmetryPlane/symmetryPlanePointPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

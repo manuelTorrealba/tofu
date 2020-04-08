@@ -85,7 +85,7 @@ BINARY_TYPE_OPERATOR(vector, vector, tensor, /, '|', divide)
 #include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 #ifdef NoRepository
-    #include "GeometricTensorField.C"
+#include "OpenFOAM/fields/GeometricFields/GeometricTensorField/GeometricTensorField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

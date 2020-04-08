@@ -150,7 +150,7 @@ namespace ListListOps
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ListListOps.C"
+#include "OpenFOAM/containers/Lists/ListListOps/ListListOps.cpp"
 #endif
 
 

@@ -30,8 +30,6 @@ Description
 #include "OpenFOAM/primitives/contiguous/contiguous.hpp"
 #include "OpenFOAM/db/IOstreams/Pstreams/PstreamCombineReduceOps.hpp"
 #include "OpenFOAM/db/IOstreams/Pstreams/UPstream.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/UIPstream.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/UOPstream.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

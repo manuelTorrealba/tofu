@@ -137,7 +137,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "basicSymmetryPointPatchField.C"
+#include "OpenFOAM/fields/pointPatchFields/basic/basicSymmetry/basicSymmetryPointPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

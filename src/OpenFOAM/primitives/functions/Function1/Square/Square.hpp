@@ -170,7 +170,7 @@ public:
 #include "OpenFOAM/primitives/functions/Function1/Square/SquareI.hpp"
 
 #ifdef NoRepository
-    #include "Square.C"
+#include "OpenFOAM/primitives/functions/Function1/Square/Square.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

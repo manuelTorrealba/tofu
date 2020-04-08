@@ -28,7 +28,6 @@ License
 #include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
 #include "OpenFOAM/global/debug/registerSwitch.hpp"
 #include "OpenFOAM/global/fileOperations/fileOperation/fileOperation.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

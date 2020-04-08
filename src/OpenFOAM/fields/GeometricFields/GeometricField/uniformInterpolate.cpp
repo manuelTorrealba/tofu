@@ -24,8 +24,6 @@ License
 \*---------------------------------------------------------------------------*/
 
 
-#include "OpenFOAM/fields/GeometricFields/GeometricField/uniformInterpolate.hpp"
-
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 
 template<class GeoField>

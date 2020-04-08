@@ -135,7 +135,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PolynomialEntry.C"
+#include "OpenFOAM/primitives/functions/Function1/PolynomialEntry/PolynomialEntry.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -39,7 +39,6 @@ SourceFiles
 #define SmoothSolver_H
 
 #include "OpenFOAM/matrices/lduMatrix/lduMatrix/lduMatrix.hpp"
-#include "OpenFOAM/matrices/LduMatrixN/LduMatrix/LduMatrix.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -98,7 +97,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SmoothSolver.C"
+#include "OpenFOAM/matrices/LduMatrixN/Solvers/SmoothSolver/SmoothSolver.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

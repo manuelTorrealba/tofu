@@ -268,6 +268,6 @@ void Foam::DictionaryBase<IDLListType, T>::operator=
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-//#include "DictionaryBaseIO.C"
+#include "OpenFOAM/containers/Dictionaries/DictionaryBase/DictionaryBaseIO.cpp"
 
 // ************************************************************************* //

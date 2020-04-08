@@ -306,7 +306,7 @@ List<T> readList(Istream&);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "List.C"
+#include "OpenFOAM/containers/Lists/List/List.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

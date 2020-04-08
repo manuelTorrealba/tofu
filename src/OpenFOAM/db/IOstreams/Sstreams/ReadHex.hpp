@@ -53,7 +53,7 @@ T ReadHex(ISstream&);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ReadHex.C"
+#include "OpenFOAM/db/IOstreams/Sstreams/ReadHex.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

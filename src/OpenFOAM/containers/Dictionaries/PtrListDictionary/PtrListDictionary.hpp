@@ -111,7 +111,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PtrListDictionary.C"
+#include "OpenFOAM/containers/Dictionaries/PtrListDictionary/PtrListDictionary.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -144,8 +144,8 @@ tmp<Field<label>> Function1Types::Constant<label>::integrate
 #include "OpenFOAM/primitives/functions/Function1/Constant/ConstantI.hpp"
 
 #ifdef NoRepository
-    #include "Constant.C"
-    #include "Function1New.C"
+#include "OpenFOAM/primitives/functions/Function1/Constant/Constant.cpp"
+#include "OpenFOAM/primitives/functions/Function1/Function1/Function1New.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

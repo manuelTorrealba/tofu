@@ -43,7 +43,6 @@ SourceFiles
 #include "OpenFOAM/meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.hpp"
 #include "OpenFOAM/meshes/meshShapes/face/faceListFwd.hpp"
 #include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

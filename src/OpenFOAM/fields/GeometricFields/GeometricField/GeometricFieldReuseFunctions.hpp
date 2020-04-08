@@ -26,9 +26,6 @@ License
 #ifndef GeometricFieldReuseFunctions_H
 #define GeometricFieldReuseFunctions_H
 
-#include "OpenFOAM/fields/GeometricFields/GeometricField/GeometricField.hpp"
-//#include "OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.hpp"
-
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam
@@ -56,8 +53,8 @@ bool reusable(const tmp<GeometricField<Type, PatchField, GeoMesh>>& tgf)
             {
                 if
                 (
-                    //!polyPatch::constraintType(gbf[patchi].patch().type()) && 
-                    !isA<typename PatchField<Type>::Calculated>(gbf[patchi])
+                    !polyPatch::constraintType(gbf[patchi].patch().type())
+                 && !isA<typename PatchField<Type>::Calculated>(gbf[patchi])
                 )
                 {
                     WarningInFunction

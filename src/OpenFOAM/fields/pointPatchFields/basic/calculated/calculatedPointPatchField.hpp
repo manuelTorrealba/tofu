@@ -126,7 +126,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "calculatedPointPatchField.C"
+#include "OpenFOAM/fields/pointPatchFields/basic/calculated/calculatedPointPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

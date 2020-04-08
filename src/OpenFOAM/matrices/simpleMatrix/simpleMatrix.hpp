@@ -162,7 +162,7 @@ simpleMatrix<Type> operator*
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "simpleMatrix.C"
+#include "OpenFOAM/matrices/simpleMatrix/simpleMatrix.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

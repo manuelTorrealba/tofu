@@ -266,7 +266,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "polyBoundaryMeshTemplates.C"
+#include "OpenFOAM/meshes/polyMesh/polyBoundaryMesh/polyBoundaryMeshTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

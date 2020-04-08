@@ -587,7 +587,7 @@ dictionary operator|(const dictionary& dict1, const dictionary& dict2);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "dictionaryTemplates.C"
+#include "OpenFOAM/db/dictionary/dictionaryTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

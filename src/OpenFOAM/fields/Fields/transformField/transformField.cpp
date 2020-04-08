@@ -26,7 +26,6 @@ License
 #include "OpenFOAM/fields/Fields/transformField/transformField.hpp"
 #include "OpenFOAM/fields/Fields/Field/FieldM.hpp"
 #include "OpenFOAM/primitives/DiagTensor/diagTensor/diagTensor.hpp"
-#include "OpenFOAM/fields/Fields/Field/FieldReuseFunctions.hpp"
 
 // * * * * * * * * * * * * * * * global functions  * * * * * * * * * * * * * //
 

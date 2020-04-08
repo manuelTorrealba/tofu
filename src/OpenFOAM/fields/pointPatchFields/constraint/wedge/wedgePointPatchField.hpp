@@ -143,7 +143,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "wedgePointPatchField.C"
+#include "OpenFOAM/fields/pointPatchFields/constraint/wedge/wedgePointPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

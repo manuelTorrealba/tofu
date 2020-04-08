@@ -27,7 +27,6 @@ License
 #include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
 #include "OpenFOAM/global/argList/argList.hpp"
 #include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
-#include "OpenFOAM/global/fileOperations/fileOperation/fileOperation.hpp"
 
 #include <sstream>
 

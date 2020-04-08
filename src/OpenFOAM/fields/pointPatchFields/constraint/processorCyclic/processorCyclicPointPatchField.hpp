@@ -194,7 +194,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "processorCyclicPointPatchField.C"
+#include "OpenFOAM/fields/pointPatchFields/constraint/processorCyclic/processorCyclicPointPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

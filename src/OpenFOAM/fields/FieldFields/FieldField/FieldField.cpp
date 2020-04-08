@@ -387,6 +387,6 @@ Ostream& operator<<(Ostream& os, const tmp<FieldField<Field, Type>>& tf)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-//    #include "FieldFieldFunctions.C"
+#include "OpenFOAM/fields/FieldFields/FieldField/FieldFieldFunctions.cpp"
 
 // ************************************************************************* //

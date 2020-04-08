@@ -148,7 +148,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fixedValuePointPatchField.C"
+#include "OpenFOAM/fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

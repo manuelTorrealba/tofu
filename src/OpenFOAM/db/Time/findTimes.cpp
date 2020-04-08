@@ -29,7 +29,6 @@ Description
 \*---------------------------------------------------------------------------*/
 
 #include "OpenFOAM/db/Time/Time.hpp"
-#include "OpenFOAM/global/fileOperations/fileOperation/fileOperation.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

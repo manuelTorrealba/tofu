@@ -79,7 +79,7 @@ BINARY_TYPE_OPERATOR(tensor, symmTensor, symmTensor, &, '&', dot)
 #include "OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.hpp"
 
 #ifdef NoRepository
-    #include "GeometricSymmTensorField.C"
+#include "OpenFOAM/fields/GeometricFields/GeometricSymmTensorField/GeometricSymmTensorField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

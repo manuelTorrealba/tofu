@@ -473,7 +473,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PrimitivePatch.C"
+#include "OpenFOAM/meshes/primitiveMesh/PrimitivePatchN/PrimitivePatch.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

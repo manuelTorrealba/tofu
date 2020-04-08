@@ -219,7 +219,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SlicedGeometricField.C"
+#include "OpenFOAM/fields/GeometricFields/SlicedGeometricField/SlicedGeometricField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

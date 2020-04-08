@@ -197,7 +197,7 @@ Distribution<Type> operator+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Distribution.C"
+#include "OpenFOAM/containers/Lists/Distribution/Distribution.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

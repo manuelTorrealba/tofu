@@ -157,7 +157,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "timeVaryingUniformFixedValuePointPatchField.C"
+#include "OpenFOAM/fields/pointPatchFields/derived/timeVaryingUniformFixedValue/timeVaryingUniformFixedValuePointPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

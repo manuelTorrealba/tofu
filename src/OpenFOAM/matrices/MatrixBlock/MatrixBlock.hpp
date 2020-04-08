@@ -230,7 +230,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MatrixBlock.C"
+#include "OpenFOAM/matrices/MatrixBlock/MatrixBlock.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

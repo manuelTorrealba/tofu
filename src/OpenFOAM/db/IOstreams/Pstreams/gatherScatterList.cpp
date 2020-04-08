@@ -36,7 +36,6 @@ Description
 #include "OpenFOAM/db/IOstreams/Pstreams/IPstream.hpp"
 #include "OpenFOAM/db/IOstreams/Pstreams/OPstream.hpp"
 #include "OpenFOAM/primitives/contiguous/contiguous.hpp"
-#include "OpenFOAM/global/argList/argList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

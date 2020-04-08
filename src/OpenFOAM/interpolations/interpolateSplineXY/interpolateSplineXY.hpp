@@ -73,7 +73,7 @@ Type interpolateSplineXY
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "interpolateSplineXY.C"
+#include "OpenFOAM/interpolations/interpolateSplineXY/interpolateSplineXY.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

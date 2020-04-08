@@ -87,10 +87,6 @@ public:
         {
             return globalFilePath(type());
         }
-        
-        virtual bool readData(Istream& is);
-        
-        virtual bool writeData(Ostream& os) const;
 };
 
 

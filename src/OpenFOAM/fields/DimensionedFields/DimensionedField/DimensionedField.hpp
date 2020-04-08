@@ -363,7 +363,7 @@ public:
 #include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedFieldFunctions.hpp"
 
 #ifdef NoRepository
-    #include "DimensionedField.C"
+#include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

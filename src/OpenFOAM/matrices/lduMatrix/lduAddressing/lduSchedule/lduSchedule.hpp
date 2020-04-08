@@ -34,7 +34,6 @@ Description
 #define lduSchedule_H
 
 #include "OpenFOAM/containers/Lists/List/List.hpp"
-#include "OpenFOAM/db/IOstreams/token/token.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

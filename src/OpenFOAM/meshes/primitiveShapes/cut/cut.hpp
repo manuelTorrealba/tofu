@@ -529,7 +529,7 @@ typename cut::opAddResult<AboveOp, BelowOp>::type tetCut
 #include "OpenFOAM/meshes/primitiveShapes/cut/cutI.hpp"
 
 #ifdef NoRepository
-    #include "cutTemplates.C"
+#include "OpenFOAM/meshes/primitiveShapes/cut/cutTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

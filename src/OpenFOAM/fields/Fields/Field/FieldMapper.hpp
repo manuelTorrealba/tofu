@@ -33,7 +33,6 @@ Description
 #define FieldMapper_H
 
 #include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributeBase.hpp"
-#include "OpenFOAM/fields/Fields/Field/Field.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

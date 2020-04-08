@@ -27,7 +27,6 @@ License
 #include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
 #include "OpenFOAM/fields/Fields/Field/SubField.hpp"
 #include "OpenFOAM/primitives/transform/transform.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

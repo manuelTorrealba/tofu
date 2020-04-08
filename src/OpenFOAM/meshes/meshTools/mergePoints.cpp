@@ -23,11 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "OpenFOAM/meshes/meshTools/mergePoints.hpp"
 #include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
 #include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
 #include "OpenFOAM/fields/Fields/Field/Field.hpp"
-#include "OpenFOAM/global/argList/argList.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

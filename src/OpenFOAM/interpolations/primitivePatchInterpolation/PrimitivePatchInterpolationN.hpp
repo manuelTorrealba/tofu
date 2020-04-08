@@ -156,7 +156,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PrimitivePatchInterpolation.C"
+#include "OpenFOAM/interpolations/primitivePatchInterpolation/PrimitivePatchInterpolation.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

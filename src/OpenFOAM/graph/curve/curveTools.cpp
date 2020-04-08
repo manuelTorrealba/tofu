@@ -26,14 +26,14 @@ bool stepForwardsToNextPoint
 )
 {
     label ip1n = ip1-1;
-    while (++ip1n < Curve.size()); // && distance(o, Curve[ip1n]) < l);
+    while (++ip1n < Curve.size() && distance(o, Curve[ip1n]) < l);
     label in = ip1n - 1;
 
     bool eoc = true;
 
     if (ip1n < Curve.size() && in >= 0)
     {
-        //eoc = interpolate(Curve[in], Curve[ip1n], o, n, l);
+        eoc = interpolate(Curve[in], Curve[ip1n], o, n, l);
 
         i = in;
         ip1 = ip1n;
@@ -54,14 +54,14 @@ bool stepBackwardsToNextPoint
 )
 {
     label ip1n = ip1+1;
-    //while (--ip1n >= 0 && distance(o, Curve[ip1n]) < l);
+    while (--ip1n >= 0 && distance(o, Curve[ip1n]) < l);
     label in = ip1n + 1;
 
     bool eoc = true;
 
     if (ip1n >= 0 && in < Curve.size())
     {
-        //eoc = interpolate(Curve[in], Curve[ip1n], o, n, l);
+        eoc = interpolate(Curve[in], Curve[ip1n], o, n, l);
 
         i = in;
         ip1 = ip1n;
@@ -128,14 +128,14 @@ bool XstepForwardsToNextPoint
 )
 {
     label ip1n = ip1-1;
-    //while (++ip1n < Curve.size() && mag(o.x() - Curve[ip1n].x()) < l);
+    while (++ip1n < Curve.size() && mag(o.x() - Curve[ip1n].x()) < l);
     label in = ip1n - 1;
 
     bool eoc = true;
 
     if (ip1n < Curve.size() && in >= 0)
     {
-        //eoc = Xinterpolate(Curve[in], Curve[ip1n], o, n, l);
+        eoc = Xinterpolate(Curve[in], Curve[ip1n], o, n, l);
 
         i = in;
         ip1 = ip1n;

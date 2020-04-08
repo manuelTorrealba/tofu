@@ -194,7 +194,7 @@ Ostream& operator<<(Ostream&, const InfoProxy<primitiveEntry>&);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "primitiveEntryTemplates.C"
+#include "OpenFOAM/db/dictionary/primitiveEntry/primitiveEntryTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -261,7 +261,7 @@ inline vectorTensorTransform operator&
 #include "OpenFOAM/primitives/globalIndexAndTransform/vectorTensorTransform/vectorTensorTransformI.hpp"
 
 #ifdef NoRepository
-    #include "vectorTensorTransformTemplates.C"
+#include "OpenFOAM/primitives/globalIndexAndTransform/vectorTensorTransform/vectorTensorTransformTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

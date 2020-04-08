@@ -143,7 +143,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "TimeFunction1.C"
+#include "OpenFOAM/primitives/functions/TimeFunction1/TimeFunction1.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

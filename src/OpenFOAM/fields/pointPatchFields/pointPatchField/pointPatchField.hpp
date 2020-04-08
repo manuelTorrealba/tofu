@@ -45,7 +45,6 @@ SourceFiles
 #include "OpenFOAM/meshes/pointMesh/pointPatches/pointPatch/pointPatch.hpp"
 #include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.hpp"
 #include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -512,7 +511,7 @@ const pointPatchField<Type>& operator+
 #include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFieldFunctions.hpp"
 
 #ifdef NoRepository
-    #include "pointPatchField.C"
+#include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchField.cpp"
 #include "OpenFOAM/fields/pointPatchFields/basic/calculated/calculatedPointPatchField.hpp"
 #endif
 

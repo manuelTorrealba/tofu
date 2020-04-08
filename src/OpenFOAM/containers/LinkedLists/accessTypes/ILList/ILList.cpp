@@ -149,7 +149,7 @@ void Foam::ILList<LListBase, T>::operator=(const ILList<LListBase, T>& lst)
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 
-//#include "ILListIO.C"
+#include "OpenFOAM/containers/LinkedLists/accessTypes/ILList/ILListIO.cpp"
 
 
 // ************************************************************************* //

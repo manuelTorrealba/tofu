@@ -246,7 +246,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "codedFixedValuePointPatchField.C"
+#include "OpenFOAM/fields/pointPatchFields/derived/codedFixedValue/codedFixedValuePointPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

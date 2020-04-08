@@ -26,8 +26,6 @@ License
 #ifndef FieldReuseFunctions_H
 #define FieldReuseFunctions_H
 
-#include "OpenFOAM/fields/Fields/Field/Field.hpp"
-
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

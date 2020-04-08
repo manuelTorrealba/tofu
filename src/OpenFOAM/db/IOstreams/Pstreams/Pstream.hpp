@@ -349,10 +349,10 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "gatherScatter.C"
-    #include "combineGatherScatter.C"
-    #include "gatherScatterList.C"
-    #include "exchange.C"
+#include "OpenFOAM/db/IOstreams/Pstreams/gatherScatter.cpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/combineGatherScatter.cpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/gatherScatterList.cpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/exchange.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

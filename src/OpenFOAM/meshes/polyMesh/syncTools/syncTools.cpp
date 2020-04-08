@@ -24,7 +24,6 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "OpenFOAM/meshes/polyMesh/syncTools/syncTools.hpp"
-#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.hpp"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

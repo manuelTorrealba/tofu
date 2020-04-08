@@ -257,7 +257,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "globalIndexTemplates.C"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndexTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

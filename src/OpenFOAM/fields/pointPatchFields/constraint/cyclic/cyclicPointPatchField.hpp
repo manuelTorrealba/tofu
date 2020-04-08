@@ -182,7 +182,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "cyclicPointPatchField.C"
+#include "OpenFOAM/fields/pointPatchFields/constraint/cyclic/cyclicPointPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

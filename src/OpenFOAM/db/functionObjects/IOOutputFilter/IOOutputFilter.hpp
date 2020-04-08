@@ -51,7 +51,6 @@ namespace Foam
 
 // Forward declaration of classes
 class mapPolyMesh;
-class polyMesh;
 
 /*---------------------------------------------------------------------------*\
                        Class IOOutputFilter Declaration
@@ -144,7 +143,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "IOOutputFilter.C"
+#include "OpenFOAM/db/functionObjects/IOOutputFilter/IOOutputFilter.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -159,7 +159,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "processorLduInterfaceTemplates.C"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/processorLduInterfaceTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

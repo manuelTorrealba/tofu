@@ -221,7 +221,7 @@ public:
 #include "OpenFOAM/interpolations/interpolationLookUpTable/interpolationLookUpTableI.hpp"
 
 #ifdef NoRepository
-    #include "interpolationLookUpTable.C"
+#include "OpenFOAM/interpolations/interpolationLookUpTable/interpolationLookUpTable.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

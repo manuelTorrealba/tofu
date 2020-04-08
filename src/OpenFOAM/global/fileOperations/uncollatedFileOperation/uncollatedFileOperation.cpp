@@ -34,8 +34,8 @@ License
 #include "OpenFOAM/global/fileOperations/fileOperationInitialise/unthreadedInitialise.hpp"
 #include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
 #include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.cpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.cpp"
 
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */

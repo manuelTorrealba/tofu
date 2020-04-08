@@ -25,9 +25,6 @@ License
 
 #include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGSolver.hpp"
 #include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaces/GAMGInterface/GAMGInterface.hpp"
-#include "OpenFOAM/db/IOstreams/StringStreams/IStringStream.hpp"
-#include "OpenFOAM/db/IOstreams/StringStreams/OStringStream.hpp"
-#include "OpenFOAM/global/argList/argList.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

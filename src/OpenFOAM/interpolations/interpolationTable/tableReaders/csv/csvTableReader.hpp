@@ -122,7 +122,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "csvTableReader.C"
+#include "OpenFOAM/interpolations/interpolationTable/tableReaders/csv/csvTableReader.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

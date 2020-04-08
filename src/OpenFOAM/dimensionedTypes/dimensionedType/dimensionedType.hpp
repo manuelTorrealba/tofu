@@ -337,7 +337,7 @@ PRODUCT_OPERATOR(scalarProduct, &&, dotdot)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "dimensionedType.C"
+#include "OpenFOAM/dimensionedTypes/dimensionedType/dimensionedType.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

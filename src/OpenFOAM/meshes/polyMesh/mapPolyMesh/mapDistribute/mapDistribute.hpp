@@ -652,7 +652,7 @@ void mapDistribute::transform::operator()
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "mapDistributeTemplates.C"
+#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributeTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

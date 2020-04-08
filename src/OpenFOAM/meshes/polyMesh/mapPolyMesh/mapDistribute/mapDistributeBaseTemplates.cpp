@@ -23,19 +23,6 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributeBase.hpp"
-#include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.hpp"
-#include "OpenFOAM/primitives/globalIndexAndTransform/globalIndexAndTransform.hpp"
-#include "OpenFOAM/fields/Fields/transformField/transformField.hpp"
-#include "OpenFOAM/meshes/ProcessorTopology/commSchedule.hpp"
-#include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
-#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
-#include "OpenFOAM/containers/Lists/ListOps/ListOps.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.hpp"
-#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.hpp"
-#include "OpenFOAM/global/argList/argList.hpp"
-#include "OpenFOAM/containers/Lists/UIndirectList/UIndirectList.hpp"
-#include "OpenFOAM/meshes/primitiveShapes/cut/cut.hpp"
 #include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
 #include "OpenFOAM/db/IOstreams/Pstreams/PstreamBuffers.hpp"
 #include "OpenFOAM/db/IOstreams/Pstreams/PstreamCombineReduceOps.hpp"
