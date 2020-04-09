@@ -32,6 +32,7 @@ License
 #include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduSchedule/lduSchedule.hpp"
 #include "OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.hpp"
 #include "OpenFOAM/primitives/strings/lists/stringListOps.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

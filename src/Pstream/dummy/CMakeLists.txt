@@ -2,7 +2,7 @@ cmake_minimum_required (VERSION 2.8)
 
 project (Pstream)
 
-add_definitions(-DWM_LABEL_SIZE=64 -DWM_DP)
+add_definitions(-DWM_LABEL_SIZE=64 -DWM_DP -DNoRepository)
 
 include_directories(../../)
 

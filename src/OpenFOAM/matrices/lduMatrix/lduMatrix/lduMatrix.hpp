@@ -59,6 +59,7 @@ SourceFiles
 #include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 #include "OpenFOAM/matrices/LduMatrixN/LduMatrix/solverPerformance.hpp"
 #include "OpenFOAM/db/IOstreams/IOstreams/InfoProxy.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

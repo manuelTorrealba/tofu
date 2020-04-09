@@ -32,6 +32,7 @@ License
 #include "OpenFOAM/db/dictionary/entry/entry.hpp"
 #include "OpenFOAM/db/dictionary/dictionary.hpp"
 #include "OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchField.hpp"
+#include "OpenFOAM/include/demandDrivenData.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

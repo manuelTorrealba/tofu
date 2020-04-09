@@ -28,6 +28,9 @@ License
 #include "OpenFOAM/matrices/LUscalarMatrix/procLduMatrix.hpp"
 #include "OpenFOAM/matrices/LUscalarMatrix/procLduInterface.hpp"
 #include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/cyclicLduInterface.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.hpp"
+#include "OpenFOAM/global/argList/argList.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

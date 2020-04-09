@@ -40,6 +40,7 @@ SourceFiles
 
 #include "OpenFOAM/primitives/bools/bool/bool.hpp"
 #include "OpenFOAM/meshes/primitiveShapes/point/point.hpp"
+#include "OpenFOAM/db/IOstreams/token/token.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

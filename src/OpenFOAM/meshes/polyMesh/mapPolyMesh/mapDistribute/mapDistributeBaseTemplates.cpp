@@ -93,7 +93,7 @@ T Foam::mapDistributeBase::accessAndFlip
         }
         else if (index < 0)
         {
-            t = negOp(fld[-index-1]);
+            t = fld[-index-1]; //TODO =negOp(fld[-index-1]);
         }
         else
         {

@@ -35,6 +35,8 @@ License
 #include "OpenFOAM/algorithms/indexedOctree/treeDataCell.hpp"
 #include "OpenFOAM/meshes/MeshObject/MeshObject.hpp"
 #include "OpenFOAM/meshes/pointMesh/pointMesh.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
+#include "OpenFOAM/fields/Fields/Field/SubField.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

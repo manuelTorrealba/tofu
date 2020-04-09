@@ -33,6 +33,9 @@ License
 #include "OpenFOAM/primitives/ints/lists/labelIOList.hpp"
 #include "OpenFOAM/meshes/meshTools/mergePoints.hpp"
 #include "OpenFOAM/primitives/globalIndexAndTransform/globalIndexAndTransform.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/IPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/OPstream.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

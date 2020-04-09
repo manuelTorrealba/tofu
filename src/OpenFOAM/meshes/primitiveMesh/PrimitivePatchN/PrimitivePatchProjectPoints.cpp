@@ -28,7 +28,7 @@ Description
 \*---------------------------------------------------------------------------*/
 
 #include "OpenFOAM/primitives/bools/lists/boolList.hpp"
-#include "PointHit.H"
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/PointHitN.hpp"
 #include "OpenFOAM/meshes/primitiveShapes/objectHit/objectHit.hpp"
 #include "OpenFOAM/meshes/bandCompression/bandCompression.hpp"
 

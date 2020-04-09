@@ -28,6 +28,7 @@ Description
 
 #include "OpenFOAM/fields/Fields/complexFields/complexFields.hpp"
 #include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/db/IOstreams/token/token.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

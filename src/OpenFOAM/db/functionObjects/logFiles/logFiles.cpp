@@ -26,6 +26,7 @@ License
 #include "OpenFOAM/db/functionObjects/logFiles/logFiles.hpp"
 #include "OpenFOAM/db/Time/Time.hpp"
 #include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

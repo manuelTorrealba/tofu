@@ -28,6 +28,9 @@ License
 #include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.hpp"
 #include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
 #include "OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/UIPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/UOPstream.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

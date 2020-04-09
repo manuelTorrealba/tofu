@@ -45,6 +45,7 @@ SourceFiles
 #include "OpenFOAM/meshes/pointMesh/pointPatches/pointPatch/pointPatch.hpp"
 #include "OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.hpp"
 #include "OpenFOAM/memory/autoPtr/autoPtr.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

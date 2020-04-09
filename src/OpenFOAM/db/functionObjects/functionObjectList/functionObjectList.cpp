@@ -33,6 +33,7 @@ License
 #include "OpenFOAM/primitives/Tuple2/Tuple2.hpp"
 #include "OpenFOAM/global/etcFiles/etcFiles.hpp"
 #include "OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.hpp"
+#include "OpenFOAM/global/fileOperations/fileOperation/fileOperation.hpp"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

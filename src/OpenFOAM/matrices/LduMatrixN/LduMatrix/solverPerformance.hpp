@@ -35,7 +35,7 @@ SourceFiles
 #ifndef solverPerformance_H
 #define solverPerformance_H
 
-#include "SolverPerformance.H"
+#include "OpenFOAM/matrices/LduMatrixN/LduMatrix/SolverPerformanceN.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

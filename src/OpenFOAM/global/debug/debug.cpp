@@ -96,7 +96,7 @@ Foam::dictionary& Foam::debug::controlDict()
 {
     if (!controlDictPtr_)
     {
-        string controlDictString(getEnv("FOAM_CONTROLDICT"));
+        string controlDictString(getenv("FOAM_CONTROLDICT"));
         if (!controlDictString.empty())
         {
             // Read from environment

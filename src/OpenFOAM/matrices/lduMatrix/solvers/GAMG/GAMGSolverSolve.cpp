@@ -27,6 +27,8 @@ License
 #include "OpenFOAM/matrices/lduMatrix/solvers/PCG/PCG.hpp"
 #include "OpenFOAM/matrices/lduMatrix/solvers/PBiCGStab/PBiCGStab.hpp"
 #include "OpenFOAM/fields/Fields/Field/SubField.hpp"
+#include "OpenFOAM/global/argList/argList.hpp"
+#include "OpenFOAM/db/IOstreams/StringStreams/IStringStream.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

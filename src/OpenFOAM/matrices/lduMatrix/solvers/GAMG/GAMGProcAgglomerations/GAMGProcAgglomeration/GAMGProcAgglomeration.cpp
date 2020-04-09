@@ -26,6 +26,7 @@ License
 #include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGProcAgglomerations/GAMGProcAgglomeration/GAMGProcAgglomeration.hpp"
 #include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/GAMGAgglomeration/GAMGAgglomeration.hpp"
 #include "OpenFOAM/meshes/lduMesh/lduMesh.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

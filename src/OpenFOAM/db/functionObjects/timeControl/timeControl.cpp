@@ -25,6 +25,7 @@ License
 
 #include "OpenFOAM/db/functionObjects/timeControl/timeControl.hpp"
 #include "OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.hpp"
+#include "OpenFOAM/db/IOstreams/Pstreams/Pstream.hpp"
 
 // * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * * //
 

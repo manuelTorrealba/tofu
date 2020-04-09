@@ -37,6 +37,8 @@ SourceFiles
 
 #include "OpenFOAM/meshes/lduMesh/lduMesh.hpp"
 #include "OpenFOAM/primitives/ints/lists/labelList.hpp"
+#include "OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/lduInterface.hpp"
+#include "OpenFOAM/containers/Lists/PtrList/PtrList.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

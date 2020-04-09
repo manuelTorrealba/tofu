@@ -26,6 +26,11 @@ License
 #include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/GAMGAgglomeration/GAMGAgglomeration.hpp"
 #include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaces/GAMGInterface/GAMGInterface.hpp"
 #include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaces/processorGAMGInterface/processorGAMGInterface.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
+#include "OpenFOAM/global/argList/argList.hpp"
+#include "OpenFOAM/containers/Lists/UList/UList.hpp"
+#include "OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.hpp"
+#include "OpenFOAM/containers/HashTables/Map/Map.hpp"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -25,6 +25,7 @@ License
 
 #include "OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/dummyAgglomeration/dummyAgglomeration.hpp"
 #include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
+#include "OpenFOAM/db/dictionary/dictionary.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -38,6 +38,7 @@ SourceFiles
 
 #include "OpenFOAM/primitives/strings/word/word.hpp"
 #include "OpenFOAM/containers/Lists/FixedList/FixedList.hpp"
+#include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -294,7 +295,7 @@ const scalar solverPerformance##Type::vsmall_(vSmall);                         \
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SolverPerformance.C"
+    #include "OpenFOAM/matrices/LduMatrixN/LduMatrix/SolverPerformanceN.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

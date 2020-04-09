@@ -25,6 +25,7 @@ License
 
 #include "OpenFOAM/db/objectRegistry/objectRegistry.hpp"
 #include "OpenFOAM/db/Time/Time.hpp"
+#include "OpenFOAM/global/argList/argList.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -30,6 +30,8 @@ Description
 #include "OpenFOAM/db/Time/Time.hpp"
 #include "OpenFOAM/include/OSspecific.hpp"
 #include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
+#include "OpenFOAM/global/argList/argList.hpp"
+#include "OpenFOAM/global/fileOperations/fileOperation/fileOperation.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

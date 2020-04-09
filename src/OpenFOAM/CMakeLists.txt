@@ -2,7 +2,7 @@ cmake_minimum_required (VERSION 3.0)
 
 project (OpenFOAM)
 
-add_definitions(-DWM_LABEL_SIZE=64 -DWM_DP)
+add_definitions(-DWM_LABEL_SIZE=64 -DWM_DP -DNoRepository)
 
 include_directories(../)
 
@@ -591,3 +591,8 @@ meshes/data/data.cpp
 
 add_library(OpenFOAM STATIC ${SOURCE_FILES})
 
+
+add_custom_command(TARGET OpenFOAM
+                   POST_BUILD
+                   COMMAND ${CMAKE_COMMAND} -E
+                   copy $<TARGET_FILE:OpenFOAM> ${CMAKE_SOURCE_DIR}/../../lib/$<TARGET_FILE_NAME:OpenFOAM>)

@@ -2,7 +2,7 @@ cmake_minimum_required (VERSION 2.8)
 
 project (OSSpecific)
 
-add_definitions(-DWM_LABEL_SIZE=64 -DWM_DP)
+add_definitions(-DWM_LABEL_SIZE=64 -DWM_DP -DNoRepository)
 
 include_directories(../)
 
@@ -21,6 +21,7 @@ set(SOURCE_FILES
 ./POSIX/clockTime/clockTime.cpp
 ./POSIX/memInfo/memInfo.cpp
 ./POSIX/printStack.cpp
+./POSIX/fileMonitor.cpp
 )
 
 add_library(OSSpecific STATIC ${SOURCE_FILES} ${HEADER_FILES})
