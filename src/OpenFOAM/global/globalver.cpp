@@ -34,8 +34,8 @@ Description
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 #include "OpenFOAM/global/foamVersion.hpp"
 
-const char* const Foam::FOAMversion = "tofu_1.0";
-const char* const Foam::FOAMbuild = "manuelTorrealba_tofu_1.0";
+const char* const Foam::FOAMversion = "tofu";
+const char* const Foam::FOAMbuild = "manuelTorrealba";
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Setup an error handler for the global new operator

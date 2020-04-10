@@ -76,6 +76,7 @@ fileHandler:
 renamed headers:
 #include "OpenFOAM/meshes/primitiveShapes/objectHit/PointHitN.hpp"
 #include "OpenFOAM/matrices/LduMatrixN/LduMatrix/SolverPerformanceN.hpp"
+#include "OpenFOAM/meshes/primitiveShapes/objectHit/PointIndexHitN.hpp"
 
 debug:
 #include "OpenFOAM/global/debug/debug.hpp"

@@ -256,9 +256,14 @@ void Foam::error::printStack(Ostream& os)
 }
 
 #else
+    
+void Foam::error::safePrintStack(std::ostream& os)
+{
+    std::cout << "hola" << std::endl; // TODO
+}
 void Foam::error::printStack(Ostream& os)
 {
-    std::cout << "hola" << std::endl;
+    std::cout << "hola" << std::endl; // TODO
 }
     
 #endif

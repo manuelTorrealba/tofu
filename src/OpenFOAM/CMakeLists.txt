@@ -198,8 +198,8 @@ ${strings}/keyType/keyType.cpp
 ${strings}/wordRe/wordRe.cpp
 ${strings}/lists/hashedWordList.cpp
 ${strings}/stringOps/stringOps.cpp
-# primitives/hashes/Hasher/Hasher.cpp
-# ${ops}/flipOp.cpp
+primitives/hashes/Hasher/Hasher.cpp
+${ops}/flipOp.cpp
 ${sha1}/SHA1.cpp
 ${sha1}/SHA1Digest.cpp
 primitives/Random/Random.cpp
