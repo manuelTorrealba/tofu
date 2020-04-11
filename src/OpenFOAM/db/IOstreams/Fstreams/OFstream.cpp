@@ -25,7 +25,7 @@ License
 
 #include "OpenFOAM/db/IOstreams/Fstreams/OFstream.hpp"
 #include "OpenFOAM/include/OSspecific.hpp"
-#include "OpenFOAM/db/IOstreams/gzstream/gzstream.h"
+#include "OpenFOAM/db/IOstreams/gzstream/gzstream.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

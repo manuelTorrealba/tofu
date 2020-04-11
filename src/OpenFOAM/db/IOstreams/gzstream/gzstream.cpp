@@ -26,7 +26,7 @@
 // "The Standard C++ Library".
 // ============================================================================
 
-#include "gzstream.h"
+#include "OpenFOAM/db/IOstreams/gzstream/gzstream.hpp"
 #include <iostream>
 #include <string.h>  // for memcpy
 
