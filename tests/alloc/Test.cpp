@@ -50,7 +50,7 @@ inline int List<T>::size() const
 }
 
 
-#include <stream.h>
+#include <iostream>
 
 main()
 {
@@ -58,7 +58,7 @@ main()
 
     intList list(10);
 
-    cout << list.size() << "\n";
+    std::cout << list.size() << "\n";
 
     return 0;
 }
