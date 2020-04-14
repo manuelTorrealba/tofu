@@ -187,7 +187,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MeshedSurfaceProxy.C"
+#include "surfMesh/MeshedSurfaceProxy/MeshedSurfaceProxy.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -89,7 +89,7 @@ protected:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "AC3DsurfaceFormatCoreTemplates.C"
+#include "surfMesh/surfaceFormats/ac3d/AC3DsurfaceFormatCoreTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

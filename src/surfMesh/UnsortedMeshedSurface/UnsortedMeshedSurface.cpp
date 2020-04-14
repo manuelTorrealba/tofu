@@ -761,6 +761,6 @@ Foam::MeshedSurfaceProxy<Face>() const
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "UnsortedMeshedSurfaceNew.C"
+#include "surfMesh/UnsortedMeshedSurface/UnsortedMeshedSurfaceNew.cpp"
 
 // ************************************************************************* //

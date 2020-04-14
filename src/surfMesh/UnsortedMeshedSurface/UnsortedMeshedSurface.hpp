@@ -382,7 +382,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "UnsortedMeshedSurface.C"
+#include "surfMesh/UnsortedMeshedSurface/UnsortedMeshedSurface.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

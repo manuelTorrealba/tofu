@@ -24,7 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "surfMesh/surfaceFormats/stl/STLsurfaceFormatCore.hpp"
-#include "gzstream.h"
+#include "OpenFOAM/db/IOstreams/gzstream/gzstream.hpp"
 #include "OpenFOAM/include/OSspecific.hpp"
 #include "OpenFOAM/containers/HashTables/Map/Map.hpp"
 #include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"

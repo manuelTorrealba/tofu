@@ -1164,8 +1164,8 @@ Foam::MeshedSurface<Face>::operator Foam::MeshedSurfaceProxy<Face>() const
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "MeshedSurfaceZones.C"
-#include "MeshedSurfaceIO.C"
-#include "MeshedSurfaceNew.C"
+#include "surfMesh/MeshedSurface/MeshedSurfaceZones.cpp"
+#include "surfMesh/MeshedSurface/MeshedSurfaceIO.cpp"
+#include "surfMesh/MeshedSurface/MeshedSurfaceNew.cpp"
 
 // ************************************************************************* //
