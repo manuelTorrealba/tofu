@@ -36,6 +36,7 @@ Description
 #include "OpenFOAM/db/IOobject/IOobject.hpp"
 #include "OpenFOAM/containers/HashTables/HashSet/HashSet.hpp"
 #include "OpenFOAM/db/IOstreams/StringStreams/IStringStream.hpp"
+#include "OpenFOAM/include/OSspecific.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -96,7 +97,7 @@ Foam::dictionary& Foam::debug::controlDict()
 {
     if (!controlDictPtr_)
     {
-        string controlDictString(getenv("FOAM_CONTROLDICT"));
+        string controlDictString(getEnv("FOAM_CONTROLDICT"));
         if (!controlDictString.empty())
         {
             // Read from environment
