@@ -369,7 +369,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "vtkUnstructuredReaderTemplates.C"
+    #include "fileFormats/vtk/vtkUnstructuredReaderTemplates.cpp"
 #endif
 
 
