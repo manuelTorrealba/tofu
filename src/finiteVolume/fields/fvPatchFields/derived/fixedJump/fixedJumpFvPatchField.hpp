@@ -192,7 +192,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fixedJumpFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/derived/fixedJump/fixedJumpFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

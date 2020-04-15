@@ -169,7 +169,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "mappedFixedInternalValueFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/derived/mappedFixedInternalValue/mappedFixedInternalValueFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

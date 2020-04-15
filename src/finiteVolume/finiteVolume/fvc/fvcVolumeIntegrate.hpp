@@ -114,7 +114,7 @@ namespace fvc
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvcVolumeIntegrate.C"
+#include "finiteVolume/finiteVolume/fvc/fvcVolumeIntegrate.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

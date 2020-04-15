@@ -263,7 +263,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "sweptFaceAreaWeightAMI.C"
+#include "meshTools/AMIInterpolation/AMIInterpolation/AMIMethod/sweptFaceAreaWeightAMI/sweptFaceAreaWeightAMI.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

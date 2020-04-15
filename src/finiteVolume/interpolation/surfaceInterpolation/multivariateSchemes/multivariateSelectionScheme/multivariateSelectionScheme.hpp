@@ -148,7 +148,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "multivariateSelectionScheme.C"
+#include "finiteVolume/interpolation/surfaceInterpolation/multivariateSchemes/multivariateSelectionScheme/multivariateSelectionScheme.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

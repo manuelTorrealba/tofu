@@ -25,7 +25,7 @@ License
 
 #include "finiteVolume/finiteVolume/fv/fv.hpp"
 #include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
-#include "thermophysicalModels/specie/equationOfState/linear/linear.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/linear/linear.hpp"
 #include "finiteVolume/fvMatrices/fvMatrix/fvMatrix.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

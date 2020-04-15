@@ -224,7 +224,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "mappedFieldFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/derived/mappedField/mappedFieldFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

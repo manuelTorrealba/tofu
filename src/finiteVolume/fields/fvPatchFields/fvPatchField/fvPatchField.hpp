@@ -592,7 +592,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchField.cpp"
 #include "finiteVolume/fields/fvPatchFields/basic/calculated/calculatedFvPatchField.hpp"
 #endif
 

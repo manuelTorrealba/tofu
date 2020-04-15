@@ -159,7 +159,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "correctorConvergenceControlTemplates.C"
+#include "finiteVolume/cfdTools/general/solutionControl/convergenceControl/correctorConvergenceControl/correctorConvergenceControlTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

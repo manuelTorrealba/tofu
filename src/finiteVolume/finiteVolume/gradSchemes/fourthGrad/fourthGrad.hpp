@@ -107,7 +107,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fourthGrad.C"
+#include "finiteVolume/finiteVolume/gradSchemes/fourthGrad/fourthGrad.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

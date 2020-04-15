@@ -8,7 +8,7 @@
 #include "finiteVolume/finiteVolume/fvc/fvc.hpp"
 #include "finiteVolume/fvMatrices/fvMatrices.hpp"
 #include "finiteVolume/finiteVolume/fvm/fvm.hpp"
-#include "thermophysicalModels/specie/equationOfState/linear/linear.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/linear/linear.hpp"
 #include "OpenFOAM/fields/UniformDimensionedFields/uniformDimensionedFields.hpp"
 #include "finiteVolume/fields/fvPatchFields/basic/calculated/calculatedFvPatchFields.hpp"
 #include "finiteVolume/fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchFields.hpp"

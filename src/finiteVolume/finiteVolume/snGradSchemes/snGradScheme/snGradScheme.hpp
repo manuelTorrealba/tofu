@@ -218,7 +218,7 @@ makeSnGradTypeScheme(SS, tensor)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "snGradScheme.C"
+#include "finiteVolume/finiteVolume/snGradSchemes/snGradScheme/snGradScheme.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

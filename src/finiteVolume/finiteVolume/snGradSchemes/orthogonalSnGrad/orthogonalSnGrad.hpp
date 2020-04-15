@@ -124,7 +124,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "orthogonalSnGrad.C"
+#include "finiteVolume/finiteVolume/snGradSchemes/orthogonalSnGrad/orthogonalSnGrad.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

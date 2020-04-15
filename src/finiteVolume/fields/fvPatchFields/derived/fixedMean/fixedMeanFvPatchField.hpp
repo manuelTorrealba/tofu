@@ -164,7 +164,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fixedMeanFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/derived/fixedMean/fixedMeanFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

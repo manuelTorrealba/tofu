@@ -147,7 +147,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "gaussConvectionScheme.C"
+#include "finiteVolume/finiteVolume/convectionSchemes/gaussConvectionScheme/gaussConvectionScheme.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

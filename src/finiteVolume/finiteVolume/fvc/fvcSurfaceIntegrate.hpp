@@ -94,7 +94,7 @@ namespace fvc
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvcSurfaceIntegrate.C"
+#include "finiteVolume/finiteVolume/fvc/fvcSurfaceIntegrate.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

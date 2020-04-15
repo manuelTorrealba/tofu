@@ -175,7 +175,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "processorCyclicFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/constraint/processorCyclic/processorCyclicFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

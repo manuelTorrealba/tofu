@@ -390,8 +390,8 @@ fvMesh::validComponents<sphericalTensor>() const;
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvMeshTemplates.C"
-    #include "fvPatchFvMeshTemplates.C"
+#include "finiteVolume/fvMesh/fvMeshTemplates.cpp"
+#include "finiteVolume/fvMesh/fvPatches/fvPatch/fvPatchFvMeshTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

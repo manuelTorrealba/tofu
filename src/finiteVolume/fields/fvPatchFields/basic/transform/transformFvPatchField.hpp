@@ -176,7 +176,7 @@ tmp<scalarField> transformFvPatchField<scalar>::gradientInternalCoeffs() const;
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "transformFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/basic/transform/transformFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

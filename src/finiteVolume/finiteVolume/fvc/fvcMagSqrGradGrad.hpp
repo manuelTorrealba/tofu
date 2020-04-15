@@ -71,7 +71,7 @@ namespace fvc
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvcMagSqrGradGrad.C"
+#include "finiteVolume/finiteVolume/fvc/fvcMagSqrGradGrad.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

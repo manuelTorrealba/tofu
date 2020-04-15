@@ -278,8 +278,8 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "AMIMethod.C"
-    #include "AMIMethodNew.C"
+#include "meshTools/AMIInterpolation/AMIInterpolation/AMIMethod/AMIMethod/AMIMethod.cpp"
+#include "meshTools/AMIInterpolation/AMIInterpolation/AMIMethod/AMIMethod/AMIMethodNew.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -203,7 +203,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "emptyFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/constraint/empty/emptyFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

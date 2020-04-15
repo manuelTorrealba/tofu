@@ -24,7 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
-#include "regionModels/surfaceFilmModels/submodels/thermo/phaseChangeModel/solidification/solidification.hpp"
+#include "finiteVolume/cfdTools/general/porosityModel/solidification/solidification.hpp"
 #include "OpenFOAM/fields/GeometricFields/geometricOneField/geometricOneField.hpp"
 #include "finiteVolume/fvMatrices/fvMatrices.hpp"
 

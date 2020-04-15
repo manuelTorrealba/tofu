@@ -563,7 +563,7 @@ Ostream& operator<<(Ostream& os, const extendedEdgeMesh::sideVolumeType& vt);
 #include "meshTools/edgeMesh/extendedEdgeMesh/extendedEdgeMeshI.hpp"
 
 #ifdef NoRepository
-    #include "extendedEdgeMeshTemplates.C"
+#include "meshTools/edgeMesh/extendedEdgeMesh/extendedEdgeMeshTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

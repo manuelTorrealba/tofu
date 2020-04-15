@@ -358,7 +358,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PatchEdgeFaceWave.C"
+#include "meshTools/algorithms/PatchEdgeFaceWave/PatchEdgeFaceWave.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -209,7 +209,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "uniformInletOutletFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/derived/uniformInletOutlet/uniformInletOutletFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

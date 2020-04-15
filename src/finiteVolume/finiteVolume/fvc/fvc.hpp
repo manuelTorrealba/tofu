@@ -36,13 +36,13 @@ Description
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "functionObjects/field/surfaceInterpolate/surfaceInterpolate.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.hpp"
 #include "finiteVolume/finiteVolume/fvc/fvcVolumeIntegrate.hpp"
 #include "finiteVolume/finiteVolume/fvc/fvcSurfaceIntegrate.hpp"
 #include "finiteVolume/finiteVolume/fvc/fvcAverage.hpp"
 #include "finiteVolume/finiteVolume/fvc/fvcReconstruct.hpp"
 #include "finiteVolume/finiteVolume/fvc/fvcDdt.hpp"
-#include "fvcDDt.H"
+#include "finiteVolume/finiteVolume/fvc/fvcDdtL.hpp"
 #include "finiteVolume/finiteVolume/fvc/fvcD2dt2.hpp"
 #include "finiteVolume/finiteVolume/fvc/fvcDiv.hpp"
 #include "finiteVolume/finiteVolume/fvc/fvcFlux.hpp"

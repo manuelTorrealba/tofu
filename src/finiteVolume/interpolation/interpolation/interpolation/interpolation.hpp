@@ -183,7 +183,7 @@ makeInterpolationType(SS, tensor)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "interpolation.C"
+#include "finiteVolume/interpolation/interpolation/interpolation/interpolation.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

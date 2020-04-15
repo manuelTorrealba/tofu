@@ -136,7 +136,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "EulerD2dt2Scheme.C"
+#include "finiteVolume/finiteVolume/d2dt2Schemes/EulerD2dt2Scheme/EulerD2dt2Scheme.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

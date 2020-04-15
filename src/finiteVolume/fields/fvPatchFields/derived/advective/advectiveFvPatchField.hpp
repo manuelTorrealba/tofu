@@ -229,7 +229,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "advectiveFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/derived/advective/advectiveFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

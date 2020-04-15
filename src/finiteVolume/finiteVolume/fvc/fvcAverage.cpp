@@ -26,7 +26,7 @@ License
 #include "finiteVolume/finiteVolume/fvc/fvcAverage.hpp"
 #include "finiteVolume/finiteVolume/fvc/fvcSurfaceIntegrate.hpp"
 #include "finiteVolume/fvMesh/fvMesh.hpp"
-#include "thermophysicalModels/specie/equationOfState/linear/linear.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/linear/linear.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

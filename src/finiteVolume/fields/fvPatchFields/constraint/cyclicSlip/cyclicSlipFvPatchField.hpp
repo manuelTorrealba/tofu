@@ -141,7 +141,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "cyclicSlipFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/constraint/cyclicSlip/cyclicSlipFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

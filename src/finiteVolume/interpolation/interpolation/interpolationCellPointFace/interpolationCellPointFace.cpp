@@ -27,9 +27,11 @@ License
 #include "finiteVolume/fields/volFields/volFields.hpp"
 #include "OpenFOAM/meshes/polyMesh/polyMesh.hpp"
 #include "finiteVolume/interpolation/volPointInterpolation/volPointInterpolation.hpp"
-#include "thermophysicalModels/specie/equationOfState/linear/linear.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/linear/linear.hpp"
 #include "finiteVolume/interpolation/interpolation/interpolationCellPointFace/findCellPointFaceTet.hpp"
 #include "finiteVolume/interpolation/interpolation/interpolationCellPointFace/findCellPointFaceTriangle.hpp"
+#include "finiteVolume/surfaceMesh/surfaceMesh.hpp"
+#include "finiteVolume/fields/fvsPatchFields/fvsPatchField/fvsPatchField.hpp"
 
 // * * * * * * * * * * * * * * * * Constructor * * * * * * * * * * * * * * * //
 

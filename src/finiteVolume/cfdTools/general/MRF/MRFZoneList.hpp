@@ -219,7 +219,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MRFZoneListTemplates.C"
+#include "finiteVolume/cfdTools/general/MRF/MRFZoneListTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

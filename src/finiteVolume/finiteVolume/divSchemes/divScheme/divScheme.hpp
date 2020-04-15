@@ -38,7 +38,7 @@ SourceFiles
 #include "OpenFOAM/memory/tmp/tmp.hpp"
 #include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
 #include "finiteVolume/fields/surfaceFields/surfaceFieldsFwd.hpp"
-#include "thermophysicalModels/specie/equationOfState/linear/linear.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/linear/linear.hpp"
 #include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 #include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
 
@@ -187,7 +187,7 @@ makeFvDivTypeScheme(SS, tensor)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "divScheme.C"
+#include "finiteVolume/finiteVolume/divSchemes/divScheme/divScheme.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

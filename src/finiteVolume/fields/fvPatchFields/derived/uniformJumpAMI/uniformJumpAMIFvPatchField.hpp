@@ -177,7 +177,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "uniformJumpAMIFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/derived/uniformJumpAMI/uniformJumpAMIFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

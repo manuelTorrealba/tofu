@@ -156,7 +156,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fixedInternalValueFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/derived/fixedInternalValueFvPatchField/fixedInternalValueFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

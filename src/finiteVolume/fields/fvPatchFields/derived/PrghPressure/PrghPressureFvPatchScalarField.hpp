@@ -151,7 +151,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PrghPressureFvPatchScalarField.C"
+#include "finiteVolume/fields/fvPatchFields/derived/PrghPressure/PrghPressureFvPatchScalarField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

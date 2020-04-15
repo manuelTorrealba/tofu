@@ -27,7 +27,7 @@ License
 #include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
 #include "finiteVolume/finiteVolume/fvc/fvcGrad.hpp"
 #include "finiteVolume/fields/fvPatchFields/basic/coupled/coupledFvPatchFields.hpp"
-#include "functionObjects/field/surfaceInterpolate/surfaceInterpolate.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -209,7 +209,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "regionCoupledBaseTemplates.C"
+#include "meshTools/regionCoupled/patches/regionCoupledPolyPatch/regionCoupledBaseTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

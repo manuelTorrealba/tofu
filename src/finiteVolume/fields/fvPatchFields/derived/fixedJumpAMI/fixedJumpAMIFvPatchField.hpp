@@ -186,7 +186,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fixedJumpAMIFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/derived/fixedJumpAMI/fixedJumpAMIFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -232,7 +232,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "solidificationTemplates.C"
+#include "finiteVolume/cfdTools/general/porosityModel/solidification/solidificationTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

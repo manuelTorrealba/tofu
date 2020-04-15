@@ -184,7 +184,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "limitedSnGrad.C"
+#include "finiteVolume/finiteVolume/snGradSchemes/limitedSnGrad/limitedSnGrad.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

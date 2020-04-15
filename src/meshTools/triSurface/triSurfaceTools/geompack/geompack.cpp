@@ -8,7 +8,7 @@
 
 using namespace std;
 
-# include "geompack.H"
+# include "meshTools/triSurface/triSurfaceTools/geompack/geompack.hpp"
 
 //******************************************************************************
 

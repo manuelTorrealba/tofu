@@ -99,7 +99,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "extendedFaceToCellStencilTemplates.C"
+#include "finiteVolume/fvMesh/extendedStencil/faceToCell/extendedFaceToCellStencilTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

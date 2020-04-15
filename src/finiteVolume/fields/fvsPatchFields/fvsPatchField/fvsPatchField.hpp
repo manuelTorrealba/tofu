@@ -385,7 +385,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvsPatchField.C"
+#include "finiteVolume/fields/fvsPatchFields/fvsPatchField/fvsPatchField.cpp"
 #include "finiteVolume/fields/fvsPatchFields/basic/calculated/calculatedFvsPatchField.hpp"
 #endif
 

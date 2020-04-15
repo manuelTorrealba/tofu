@@ -135,7 +135,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "nonuniformTransformCyclicFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/constraint/nonuniformTransformCyclic/nonuniformTransformCyclicFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

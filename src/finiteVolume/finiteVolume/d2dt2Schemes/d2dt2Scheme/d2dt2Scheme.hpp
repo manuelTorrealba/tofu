@@ -204,7 +204,7 @@ makeFvD2dt2TypeScheme(SS, tensor)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "d2dt2Scheme.C"
+#include "finiteVolume/finiteVolume/d2dt2Schemes/d2dt2Scheme/d2dt2Scheme.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

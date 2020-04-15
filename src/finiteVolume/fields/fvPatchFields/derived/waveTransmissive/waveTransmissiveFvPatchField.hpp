@@ -205,7 +205,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "waveTransmissiveFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/derived/waveTransmissive/waveTransmissiveFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

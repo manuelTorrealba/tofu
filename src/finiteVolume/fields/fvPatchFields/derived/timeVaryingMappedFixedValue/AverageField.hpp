@@ -88,7 +88,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "AverageField.C"
+#include "finiteVolume/fields/fvPatchFields/derived/timeVaryingMappedFixedValue/AverageField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

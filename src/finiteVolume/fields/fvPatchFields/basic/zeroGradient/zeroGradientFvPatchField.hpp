@@ -181,7 +181,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "zeroGradientFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

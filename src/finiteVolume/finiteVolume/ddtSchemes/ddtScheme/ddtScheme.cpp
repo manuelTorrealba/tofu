@@ -25,9 +25,10 @@ License
 
 #include "finiteVolume/finiteVolume/fv/fv.hpp"
 #include "OpenFOAM/containers/HashTables/HashTable/HashTable.hpp"
-#include "functionObjects/field/surfaceInterpolate/surfaceInterpolate.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.hpp"
 #include "finiteVolume/fvMatrices/fvMatrix/fvMatrix.hpp"
 #include "finiteVolume/fvMesh/fvPatches/constraint/cyclicAMI/cyclicAMIFvPatch.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

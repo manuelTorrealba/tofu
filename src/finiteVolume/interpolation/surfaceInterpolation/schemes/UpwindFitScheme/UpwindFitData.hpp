@@ -125,7 +125,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "UpwindFitData.C"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/UpwindFitScheme/UpwindFitData.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

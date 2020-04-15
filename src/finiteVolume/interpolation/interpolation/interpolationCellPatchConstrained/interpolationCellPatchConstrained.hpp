@@ -100,7 +100,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "interpolationCellPatchConstrained.C"
+#include "finiteVolume/interpolation/interpolation/interpolationCellPatchConstrained/interpolationCellPatchConstrained.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

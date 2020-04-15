@@ -152,7 +152,7 @@ void basicSymmetryFvPatchField<scalar>::evaluate
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "basicSymmetryFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/basic/basicSymmetry/basicSymmetryFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -102,7 +102,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "interpolationPointMVC.C"
+#include "finiteVolume/interpolation/interpolation/interpolationPointMVC/interpolationPointMVC.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

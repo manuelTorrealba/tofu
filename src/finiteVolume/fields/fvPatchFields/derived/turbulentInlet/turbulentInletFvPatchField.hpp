@@ -239,7 +239,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "turbulentInletFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/derived/turbulentInlet/turbulentInletFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

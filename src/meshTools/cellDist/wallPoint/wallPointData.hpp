@@ -208,7 +208,7 @@ inline bool contiguous<wallPointData<tensor>>()
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "wallPointData.C"
+#include "meshTools/cellDist/wallPoint/wallPointData.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

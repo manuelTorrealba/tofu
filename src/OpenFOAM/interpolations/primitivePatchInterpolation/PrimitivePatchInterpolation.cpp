@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PrimitivePatchInterpolation.H"
+#include "OpenFOAM/interpolations/primitivePatchInterpolation/PrimitivePatchInterpolationN.hpp"
 #include "OpenFOAM/meshes/meshShapes/face/faceList.hpp"
 #include "OpenFOAM/include/demandDrivenData.hpp"
 

@@ -456,7 +456,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "mappedPatchBaseTemplates.C"
+#include "meshTools/mappedPatches/mappedPolyPatch/mappedPatchBaseTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

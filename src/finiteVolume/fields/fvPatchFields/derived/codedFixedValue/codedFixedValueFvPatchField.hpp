@@ -239,7 +239,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "codedFixedValueFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/derived/codedFixedValue/codedFixedValueFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

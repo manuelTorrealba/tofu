@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvcDDt.H"
+#include "finiteVolume/finiteVolume/fvc/fvcDdtL.hpp"
 #include "finiteVolume/finiteVolume/fvc/fvcDiv.hpp"
 #include "finiteVolume/fvMesh/fvMesh.hpp"
 

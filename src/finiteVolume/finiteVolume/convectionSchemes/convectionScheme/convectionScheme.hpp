@@ -250,7 +250,7 @@ makeMultivariateFvConvectionTypeScheme(SS, tensor)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "convectionScheme.C"
+#include "finiteVolume/finiteVolume/convectionSchemes/convectionScheme/convectionScheme.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

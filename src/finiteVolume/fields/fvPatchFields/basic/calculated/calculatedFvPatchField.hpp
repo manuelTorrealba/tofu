@@ -182,7 +182,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "calculatedFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/basic/calculated/calculatedFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
