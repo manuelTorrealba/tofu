@@ -8,4 +8,4 @@ set(SOURCE_FILES main.cpp)
 
 add_executable(tests ${SOURCE_FILES})
 
-target_link_libraries(tests OpenFOAM OSSpecific Pstream z)
+target_link_libraries(tests OpenFOAM OSSpecific Pstream z dl)

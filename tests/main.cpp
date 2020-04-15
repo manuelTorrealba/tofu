@@ -1,9 +1,11 @@
 
 //#include "OpenFOAM/db/IOstreams/StringStreams/IStringStream.hpp"
-#include "OpenFOAM/global/foamVersion.hpp"
+
 //#include "OpenFOAM/interpolations/interpolateSplineXY/interpolateSplineXY.hpp"
 
+#include <iostream>
 #include <stdio.h>
+#include "OpenFOAM/global/foamVersion.hpp"
 
 int main(int narg, char** arg) {
 
@@ -23,8 +25,17 @@ int main(int narg, char** arg) {
     // Foam::scalarField yOld(yOld_ss);
     // Foam::Field<Foam::scalar> yNew = Foam::interpolateSplineXY(xNew, xOld, yOld);
     
-    //std::cout << yNew.str() << std::endl;
-    printf(Foam::FOAMversion);
+    //std::cout << Foam::FOAMversion << std::endl;
+    //printf(Foam::FOAMversion);
+	//std::string foamversion(Foam::FOAMversion);
+
+    std::cout << "hola0" << std::endl; 
+    if (!Foam::FOAMversion) {
+        std::cout << "Foam version empty" << std::endl;
+    }
+    std::cout << "hola" << std::endl;
+
+    //printf("hola mundo");
 	return 1;
 
 }
