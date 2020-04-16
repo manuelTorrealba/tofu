@@ -5,6 +5,7 @@ project (OpenFOAM)
 add_definitions(-DWM_LABEL_SIZE=64 -DWM_DP -DNoRepository)
 
 include_directories(../)
+link_directories (../../lib)
 
 set(triSurfaceTools triSurface/triSurfaceTools)
 set(geometricSurfacePatch triSurface/geometricSurfacePatch)
@@ -42,6 +43,7 @@ triSurfaceFields/triSurfaceFields.cpp
 )
 
 add_library(triSurface STATIC ${SOURCE_FILES})
+target_link_libraries(triSurface fileFormats surfMesh)
 
 add_custom_command(TARGET triSurface
                    POST_BUILD

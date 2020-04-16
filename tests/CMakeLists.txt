@@ -24,7 +24,7 @@ set(SOUCE_FILES_ALLOC1
 add_executable(alloc1 ${SOUCE_FILES_ALLOC1})
 target_link_libraries(alloc1 OpenFOAM OSSpecific Pstream z)
 add_test(NAME alloc1
-         COMMAND alloc1.exe --exe $<TARGET_FILE:foamVersion>)
+         COMMAND alloc1.exe --exe $<TARGET_FILE:alloc1>)
 
 set(SOUCE_FILES_BINSUM
 ./BinSum/Test-BinSum.cpp
@@ -32,7 +32,7 @@ set(SOUCE_FILES_BINSUM
 add_executable(binSum ${SOUCE_FILES_BINSUM})
 target_link_libraries(binSum OpenFOAM OSSpecific Pstream z)
 add_test(NAME binSum
-         COMMAND binSum.exe --exe $<TARGET_FILE:foamVersion>)
+         COMMAND binSum.exe --exe $<TARGET_FILE:binSum>)
 
 set(SOUCE_FILES_TESTCALLBACK
 ./callback/Test-callback.cpp
@@ -40,4 +40,29 @@ set(SOUCE_FILES_TESTCALLBACK
 add_executable(callback ${SOUCE_FILES_TESTCALLBACK})
 target_link_libraries(callback OpenFOAM OSSpecific Pstream z)
 add_test(NAME callback
-         COMMAND callback.exe --exe $<TARGET_FILE:foamVersion>)
+         COMMAND callback.exe --exe $<TARGET_FILE:callback>)
+
+set(SOUCE_FILES_TESTCirculator
+./Circulator/Test-Circulator.cpp
+)
+add_executable(Circulator ${SOUCE_FILES_TESTCirculator})
+target_link_libraries(Circulator OpenFOAM OSSpecific Pstream z)
+add_test(NAME Circulator
+         COMMAND Circulator.exe --exe $<TARGET_FILE:Circulator>)
+         
+         
+set(SOUCE_FILES_MATRIX
+./Matrix/Test-Matrix.cpp
+)
+add_executable(matrix ${SOUCE_FILES_MATRIX})
+target_link_libraries(matrix OpenFOAM OSSpecific Pstream z)
+add_test(NAME matrix
+         COMMAND matrix.exe --exe $<TARGET_FILE:matrix>)
+
+set(SOUCE_FILES_MESH
+./mesh/Test-Mesh.cpp
+)
+add_executable(mesh ${SOUCE_FILES_MATRIX})
+target_link_libraries(mesh OpenFOAM OSSpecific Pstream z finiteVolume fileFormats meshTools surfMesh triSurface)
+add_test(NAME mesh
+         COMMAND mesh.exe --exe $<TARGET_FILE:mesh>)

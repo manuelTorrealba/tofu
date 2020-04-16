@@ -112,7 +112,7 @@ int main(int argc, char *argv[])
     Info<< "Compare " << a << " and " << d << " Match = " << face::compare(a, d)
         << endl;
 
-    face g(labelList(5, 1));
+    face g(labelList(long(5), 1));
     face h(g);
     Info<< "Compare " << g << " and " << h << " Match = " << face::compare(g, h)
         << endl;
