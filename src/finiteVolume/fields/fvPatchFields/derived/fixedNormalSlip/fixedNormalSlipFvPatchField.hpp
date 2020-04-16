@@ -234,7 +234,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fixedNormalSlipFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/derived/fixedNormalSlip/fixedNormalSlipFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

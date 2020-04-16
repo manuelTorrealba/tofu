@@ -218,7 +218,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "singleCellFvMeshInterpolate.C"
+#include "finiteVolume/fvMesh/singleCellFvMesh/singleCellFvMeshInterpolate.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

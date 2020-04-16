@@ -118,7 +118,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "GTSsurfaceFormat.C"
+#include "surfMesh/surfaceFormats/gts/GTSsurfaceFormat.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

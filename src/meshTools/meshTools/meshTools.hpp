@@ -345,7 +345,7 @@ namespace meshTools
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "meshToolsTemplates.C"
+#include "meshTools/meshTools/meshToolsTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

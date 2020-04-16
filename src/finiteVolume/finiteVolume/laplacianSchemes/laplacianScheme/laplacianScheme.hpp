@@ -38,7 +38,7 @@ SourceFiles
 #include "OpenFOAM/memory/tmp/tmp.hpp"
 #include "finiteVolume/fields/volFields/volFieldsFwd.hpp"
 #include "finiteVolume/fields/surfaceFields/surfaceFieldsFwd.hpp"
-#include "thermophysicalModels/specie/equationOfState/linear/linear.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/linear/linear.hpp"
 #include "finiteVolume/finiteVolume/snGradSchemes/correctedSnGrad/correctedSnGrad.hpp"
 #include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 #include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
@@ -251,7 +251,7 @@ makeFvLaplacianTypeScheme(SS, tensor, tensor)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "laplacianScheme.C"
+#include "finiteVolume/finiteVolume/laplacianSchemes/laplacianScheme/laplacianScheme.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

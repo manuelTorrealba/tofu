@@ -36,7 +36,7 @@ SourceFiles
 #ifndef cubic_H
 #define cubic_H
 
-#include "thermophysicalModels/specie/equationOfState/linear/linear.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/linear/linear.hpp"
 #include "finiteVolume/finiteVolume/gradSchemes/gaussGrad/gaussGrad.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

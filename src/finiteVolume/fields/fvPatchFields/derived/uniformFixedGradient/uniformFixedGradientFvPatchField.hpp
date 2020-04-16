@@ -175,7 +175,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "uniformFixedGradientFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/derived/uniformFixedGradient/uniformFixedGradientFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

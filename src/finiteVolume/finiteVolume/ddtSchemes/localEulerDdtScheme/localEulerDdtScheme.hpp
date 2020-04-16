@@ -294,7 +294,7 @@ tmp<surfaceScalarField> localEulerDdtScheme<scalar>::fvcDdtPhiCorr
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "localEulerDdtScheme.C"
+#include "finiteVolume/finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

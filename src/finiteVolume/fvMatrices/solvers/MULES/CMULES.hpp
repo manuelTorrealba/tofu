@@ -174,7 +174,7 @@ void limitCorr
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CMULESTemplates.C"
+#include "finiteVolume/fvMatrices/solvers/MULES/CMULESTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

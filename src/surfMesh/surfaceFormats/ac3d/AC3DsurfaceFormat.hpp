@@ -125,7 +125,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "AC3DsurfaceFormat.C"
+#include "surfMesh/surfaceFormats/ac3d/AC3DsurfaceFormat.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

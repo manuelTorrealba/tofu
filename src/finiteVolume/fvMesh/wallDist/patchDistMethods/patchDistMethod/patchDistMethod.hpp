@@ -168,7 +168,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "patchDistMethodTemplates.C"
+#include "finiteVolume/fvMesh/wallDist/patchDistMethods/patchDistMethod/patchDistMethodTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -224,7 +224,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fixedValueFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

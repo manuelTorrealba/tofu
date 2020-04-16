@@ -191,7 +191,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DarcyForchheimerTemplates.C"
+#include "finiteVolume/cfdTools/general/porosityModel/DarcyForchheimer/DarcyForchheimerTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

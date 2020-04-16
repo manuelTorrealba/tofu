@@ -27,7 +27,7 @@ License
 #include "surfMesh/surfaceFormats/stl/STLtriangle.hpp"
 #include "OpenFOAM/db/IOstreams/Fstreams/IFstream.hpp"
 #include "OpenFOAM/include/OSspecific.hpp"
-#include "gzstream.h"
+#include "OpenFOAM/db/IOstreams/gzstream/gzstream.hpp"
 #include "OpenFOAM/primitives/Vector/floatVector/floatVector.hpp"
 #include "OpenFOAM/meshes/meshTools/mergePoints.hpp"
 

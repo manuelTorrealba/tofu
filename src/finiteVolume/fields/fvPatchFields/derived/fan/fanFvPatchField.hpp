@@ -209,7 +209,7 @@ fanFvPatchField<scalar>::fanFvPatchField
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fanFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/derived/fan/fanFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

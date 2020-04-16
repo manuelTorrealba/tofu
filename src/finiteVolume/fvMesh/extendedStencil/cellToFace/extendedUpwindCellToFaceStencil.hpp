@@ -193,7 +193,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "extendedUpwindCellToFaceStencilTemplates.C"
+#include "finiteVolume/fvMesh/extendedStencil/cellToFace/extendedUpwindCellToFaceStencilTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -234,7 +234,7 @@ tmp<surfaceScalarField> boundedDdtScheme<scalar>::fvcDdtPhiCorr
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "boundedDdtScheme.C"
+#include "finiteVolume/finiteVolume/ddtSchemes/boundedDdtScheme/boundedDdtScheme.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

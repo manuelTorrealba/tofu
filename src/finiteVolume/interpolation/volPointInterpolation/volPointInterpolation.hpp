@@ -257,7 +257,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "volPointInterpolate.C"
+#include "finiteVolume/interpolation/volPointInterpolation/volPointInterpolate.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

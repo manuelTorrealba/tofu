@@ -38,7 +38,7 @@ SourceFiles
 
 #include "finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.hpp"
 #include "finiteVolume/interpolation/surfaceInterpolation/schemes/skewCorrected/skewCorrectionVectors.hpp"
-#include "thermophysicalModels/specie/equationOfState/linear/linear.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/linear/linear.hpp"
 #include "finiteVolume/finiteVolume/gradSchemes/gaussGrad/gaussGrad.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -228,7 +228,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "cyclicAMIFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/constraint/cyclicAMI/cyclicAMIFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -113,7 +113,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "leastSquaresGrad.C"
+#include "finiteVolume/finiteVolume/gradSchemes/leastSquaresGrad/leastSquaresGrad.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

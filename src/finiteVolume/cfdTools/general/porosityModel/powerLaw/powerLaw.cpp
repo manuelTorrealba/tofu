@@ -24,7 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.hpp"
-#include "transportModels/incompressible/viscosityModels/powerLaw/powerLaw.hpp"
+#include "finiteVolume/cfdTools/general/porosityModel/powerLaw/powerLaw.hpp"
 #include "OpenFOAM/fields/GeometricFields/geometricOneField/geometricOneField.hpp"
 #include "finiteVolume/fvMatrices/fvMatrices.hpp"
 

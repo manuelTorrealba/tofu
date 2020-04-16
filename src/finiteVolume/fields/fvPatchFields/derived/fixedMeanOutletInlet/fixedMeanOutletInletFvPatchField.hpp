@@ -172,7 +172,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fixedMeanOutletInletFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/derived/fixedMeanOutletInlet/fixedMeanOutletInletFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

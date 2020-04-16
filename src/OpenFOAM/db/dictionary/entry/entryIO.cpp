@@ -88,6 +88,7 @@ bool Foam::entry::getKeyword(keyType& keyword, Istream& is)
         }
         else
         {
+            std::cout << is << std::endl;
             // Otherwise the token is invalid
             cerr<< "--> FOAM Warning : " << std::endl
                 << "    From function "

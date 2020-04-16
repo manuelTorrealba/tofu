@@ -190,7 +190,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "inletOutletFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/derived/inletOutlet/inletOutletFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

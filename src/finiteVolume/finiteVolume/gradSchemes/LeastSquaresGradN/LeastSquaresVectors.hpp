@@ -121,7 +121,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LeastSquaresVectors.C"
+#include "finiteVolume/finiteVolume/gradSchemes/LeastSquaresGradN/LeastSquaresVectors.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

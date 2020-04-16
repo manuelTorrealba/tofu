@@ -149,7 +149,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "mapNearestAMI.C"
+#include "meshTools/AMIInterpolation/AMIInterpolation/AMIMethod/mapNearestAMI/mapNearestAMI.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

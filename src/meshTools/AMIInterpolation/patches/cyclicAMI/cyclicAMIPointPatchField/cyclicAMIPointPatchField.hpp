@@ -37,7 +37,7 @@ SourceFiles
 
 #include "OpenFOAM/fields/pointPatchFields/basic/coupled/coupledPointPatchField.hpp"
 #include "meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPointPatch/cyclicAMIPointPatch.hpp"
-#include "PrimitivePatchInterpolation.H"
+#include "OpenFOAM/interpolations/primitivePatchInterpolation/PrimitivePatchInterpolationN.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -232,7 +232,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "cyclicAMIPointPatchField.C"
+#include "meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPointPatchField/cyclicAMIPointPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

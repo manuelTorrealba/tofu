@@ -238,7 +238,7 @@ namespace fvc
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "surfaceInterpolate.C"
+#include "finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -150,7 +150,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "cyclicACMIFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/constraint/cyclicACMI/cyclicACMIFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

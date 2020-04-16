@@ -110,7 +110,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "gaussDivScheme.C"
+#include "finiteVolume/finiteVolume/divSchemes/gaussDivScheme/gaussDivScheme.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

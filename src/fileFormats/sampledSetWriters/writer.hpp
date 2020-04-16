@@ -209,7 +209,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "writer.C"
+    #include "fileFormats/sampledSetWriters/writer.cpp"
 #endif
 
 

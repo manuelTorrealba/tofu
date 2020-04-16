@@ -216,7 +216,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fixedProfileFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/derived/fixedProfile/fixedProfileFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

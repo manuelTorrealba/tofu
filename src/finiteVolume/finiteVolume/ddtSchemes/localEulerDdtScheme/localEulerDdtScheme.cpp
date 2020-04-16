@@ -24,7 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "finiteVolume/finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.hpp"
-#include "functionObjects/field/surfaceInterpolate/surfaceInterpolate.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.hpp"
 #include "finiteVolume/fvMatrices/fvMatrices.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

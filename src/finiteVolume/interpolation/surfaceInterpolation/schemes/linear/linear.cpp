@@ -27,7 +27,7 @@ Description
 \*---------------------------------------------------------------------------*/
 
 #include "finiteVolume/fvMesh/fvMesh.hpp"
-#include "thermophysicalModels/specie/equationOfState/linear/linear.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/linear/linear.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

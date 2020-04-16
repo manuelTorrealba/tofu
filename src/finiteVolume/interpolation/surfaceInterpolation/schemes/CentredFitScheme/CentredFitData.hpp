@@ -111,7 +111,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CentredFitData.C"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/CentredFitScheme/CentredFitData.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

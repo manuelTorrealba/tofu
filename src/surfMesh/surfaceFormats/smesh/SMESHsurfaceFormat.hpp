@@ -104,7 +104,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SMESHsurfaceFormat.C"
+#include "surfMesh/surfaceFormats/smesh/SMESHsurfaceFormat.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

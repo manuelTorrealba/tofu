@@ -244,7 +244,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "slicedFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/basic/sliced/slicedFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

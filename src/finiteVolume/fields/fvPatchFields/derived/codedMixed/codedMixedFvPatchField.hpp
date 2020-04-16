@@ -251,7 +251,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "codedMixedFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/derived/codedMixed/codedMixedFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

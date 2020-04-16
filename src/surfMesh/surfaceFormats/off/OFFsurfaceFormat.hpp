@@ -124,7 +124,7 @@ public:
 
 
 #ifdef NoRepository
-    #include "OFFsurfaceFormat.C"
+#include "surfMesh/surfaceFormats/off/OFFsurfaceFormat.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

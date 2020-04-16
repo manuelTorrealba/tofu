@@ -118,7 +118,7 @@ tmp<volScalarField> levelSetFraction
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "levelSetTemplates.C"
+#include "finiteVolume/cfdTools/general/levelSet/levelSetTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

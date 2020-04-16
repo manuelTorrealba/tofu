@@ -128,7 +128,7 @@ void constrainPressure
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "constrainPressure.C"
+#include "finiteVolume/cfdTools/general/constrainPressure/constrainPressure.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -2392,6 +2392,6 @@ Foam::Ostream& Foam::operator<<(Ostream& os, const fvMatrix<Type>& fvm)
 
 // * * * * * * * * * * * * * * * * Solvers * * * * * * * * * * * * * * * * * //
 
-#include "fvMatrixSolve.C"
+#include "finiteVolume/fvMatrices/fvMatrix/fvMatrixSolve.cpp"
 
 // ************************************************************************* //

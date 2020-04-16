@@ -24,7 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "finiteVolume/fvMesh/wallDist/patchDistMethods/advectionDiffusion/advectionDiffusionPatchDistMethod.hpp"
-#include "functionObjects/field/surfaceInterpolate/surfaceInterpolate.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.hpp"
 #include "finiteVolume/finiteVolume/fvc/fvcGrad.hpp"
 #include "finiteVolume/finiteVolume/fvc/fvcDiv.hpp"
 #include "finiteVolume/finiteVolume/fvm/fvmDiv.hpp"
@@ -34,6 +34,7 @@ License
 
 #include "finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.hpp"
 #include "finiteVolume/fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.hpp"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

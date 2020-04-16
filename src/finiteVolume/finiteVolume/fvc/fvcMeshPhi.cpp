@@ -26,7 +26,7 @@ License
 #include "finiteVolume/finiteVolume/fvc/fvcMeshPhi.hpp"
 #include "finiteVolume/fvMesh/fvMesh.hpp"
 #include "finiteVolume/finiteVolume/ddtSchemes/ddtScheme/ddtScheme.hpp"
-#include "functionObjects/field/surfaceInterpolate/surfaceInterpolate.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

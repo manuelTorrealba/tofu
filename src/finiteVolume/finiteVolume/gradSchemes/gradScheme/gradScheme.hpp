@@ -210,7 +210,7 @@ makeFvGradTypeScheme(SS, vector)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "gradScheme.C"
+#include "finiteVolume/finiteVolume/gradSchemes/gradScheme/gradScheme.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

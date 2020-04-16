@@ -24,7 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "finiteVolume/finiteVolume/laplacianSchemes/gaussLaplacianScheme/gaussLaplacianScheme.hpp"
-#include "functionObjects/field/surfaceInterpolate/surfaceInterpolate.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.hpp"
 #include "finiteVolume/finiteVolume/fvc/fvcDiv.hpp"
 #include "finiteVolume/finiteVolume/fvc/fvcGrad.hpp"
 #include "finiteVolume/fvMatrices/fvMatrices.hpp"

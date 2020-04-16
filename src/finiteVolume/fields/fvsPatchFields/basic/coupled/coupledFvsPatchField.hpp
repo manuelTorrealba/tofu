@@ -136,7 +136,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "coupledFvsPatchField.C"
+#include "finiteVolume/fields/fvsPatchFields/basic/coupled/coupledFvsPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

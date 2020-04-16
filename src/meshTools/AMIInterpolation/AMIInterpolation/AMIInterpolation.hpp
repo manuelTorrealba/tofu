@@ -651,8 +651,8 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "AMIInterpolation.C"
-    #include "AMIInterpolationParallelOps.C"
+#include "meshTools/AMIInterpolation/AMIInterpolation/AMIInterpolation.cpp"
+#include "meshTools/AMIInterpolation/AMIInterpolation/AMIInterpolationParallelOps.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

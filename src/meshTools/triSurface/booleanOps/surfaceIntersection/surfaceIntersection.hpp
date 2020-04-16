@@ -294,7 +294,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "surfaceIntersectionTemplates.C"
+#include "meshTools/triSurface/booleanOps/surfaceIntersection/surfaceIntersectionTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

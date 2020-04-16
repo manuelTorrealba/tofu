@@ -250,7 +250,7 @@ tmp<surfaceScalarField> backwardDdtScheme<scalar>::fvcDdtPhiCorr
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "backwardDdtScheme.C"
+#include "finiteVolume/finiteVolume/ddtSchemes/backwardDdtScheme/backwardDdtScheme.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

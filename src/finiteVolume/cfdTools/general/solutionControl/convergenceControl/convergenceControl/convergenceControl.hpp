@@ -167,7 +167,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "convergenceControlTemplates.C"
+#include "finiteVolume/cfdTools/general/solutionControl/convergenceControl/convergenceControl/convergenceControlTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

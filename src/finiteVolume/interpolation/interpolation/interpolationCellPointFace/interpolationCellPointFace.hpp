@@ -33,6 +33,7 @@ Description
 #define interpolationCellPointFace_H
 
 #include "finiteVolume/interpolation/interpolation/interpolation/interpolation.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/linear/linear.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -112,7 +113,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "interpolationCellPointFace.C"
+#include "finiteVolume/interpolation/interpolation/interpolationCellPointFace/interpolationCellPointFace.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

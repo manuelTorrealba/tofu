@@ -235,7 +235,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "partialSlipFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/derived/partialSlip/partialSlipFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

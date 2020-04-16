@@ -204,7 +204,7 @@ void pointConstraints::constrainCorners<label>
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "pointConstraintsTemplates.C"
+#include "finiteVolume/interpolation/volPointInterpolation/pointConstraintsTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

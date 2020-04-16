@@ -1,4 +1,4 @@
-#include "stream.h"
+#include <iostream>
 #include <unistd.h>
 #include <stdlib.h>
 
@@ -6,7 +6,7 @@ main()
 {
     int *ptrs[500000];
 
-    cerr << "allocating ints\n";
+    std::cerr << "allocating ints\n";
 
     for (int i=0; i<500000; i++)
     {
@@ -15,14 +15,14 @@ main()
 
 //    for (;;);
 
-    cerr << "deallocating ints\n";
+    std::cerr << "deallocating ints\n";
 
-    for (i=0; i<500000; i++)
+    for (int i=0; i<500000; i++)
     {
         free(ptrs[i]);
     }
 
-    cerr << "allocating double\n";
+    std::cerr << "allocating double\n";
 
     double* array = (double*)malloc(500000*sizeof(double));
 

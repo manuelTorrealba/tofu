@@ -247,7 +247,7 @@ tmp<surfaceScalarField> CoEulerDdtScheme<scalar>::fvcDdtPhiCorr
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CoEulerDdtScheme.C"
+#include "finiteVolume/finiteVolume/ddtSchemes/CoEulerDdtScheme/CoEulerDdtScheme.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

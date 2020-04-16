@@ -26,7 +26,7 @@ License
 #include "finiteVolume/finiteVolume/snGradSchemes/correctedSnGrad/correctedSnGrad.hpp"
 #include "finiteVolume/fields/volFields/volFields.hpp"
 #include "finiteVolume/fields/surfaceFields/surfaceFields.hpp"
-#include "thermophysicalModels/specie/equationOfState/linear/linear.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/linear/linear.hpp"
 #include "finiteVolume/finiteVolume/fvc/fvcGrad.hpp"
 #include "finiteVolume/finiteVolume/gradSchemes/gaussGrad/gaussGrad.hpp"
 

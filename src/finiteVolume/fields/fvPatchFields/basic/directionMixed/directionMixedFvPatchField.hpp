@@ -242,7 +242,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "directionMixedFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/basic/directionMixed/directionMixedFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

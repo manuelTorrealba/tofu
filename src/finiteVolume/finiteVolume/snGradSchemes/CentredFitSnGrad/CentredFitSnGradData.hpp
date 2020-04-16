@@ -117,7 +117,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CentredFitSnGradData.C"
+#include "finiteVolume/finiteVolume/snGradSchemes/CentredFitSnGrad/CentredFitSnGradData.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

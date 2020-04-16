@@ -217,7 +217,7 @@ void limitSum
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MULESTemplates.C"
+#include "finiteVolume/fvMatrices/solvers/MULES/MULESTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

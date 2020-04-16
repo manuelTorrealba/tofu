@@ -168,7 +168,7 @@ void wedgeFvPatchField<scalar>::evaluate
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "wedgeFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/constraint/wedge/wedgeFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

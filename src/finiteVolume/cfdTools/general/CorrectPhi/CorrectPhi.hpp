@@ -95,7 +95,7 @@ namespace Foam
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CorrectPhi.C"
+#include "finiteVolume/cfdTools/general/CorrectPhi/CorrectPhi.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

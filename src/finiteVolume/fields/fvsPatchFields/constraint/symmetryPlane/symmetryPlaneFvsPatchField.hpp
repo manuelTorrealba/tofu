@@ -129,7 +129,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "symmetryPlaneFvsPatchField.C"
+#include "finiteVolume/fields/fvsPatchFields/constraint/symmetryPlane/symmetryPlaneFvsPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

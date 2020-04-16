@@ -47,6 +47,6 @@ Foam::interpolation<Type>::interpolation
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "interpolationNew.C"
+#include "finiteVolume/interpolation/interpolation/interpolation/interpolationNew.cpp"
 
 // ************************************************************************* //

@@ -180,7 +180,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "faceAreaWeightAMI.C"
+#include "meshTools/AMIInterpolation/AMIInterpolation/AMIMethod/faceAreaWeightAMI/faceAreaWeightAMI.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

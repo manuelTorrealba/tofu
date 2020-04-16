@@ -232,7 +232,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "coupledFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/basic/coupled/coupledFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -270,7 +270,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "treeDataPrimitivePatch.C"
+#include "meshTools/indexedOctree/treeDataPrimitivePatch.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

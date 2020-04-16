@@ -234,7 +234,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fixedGradientFvPatchField.C"
+#include "finiteVolume/fields/fvPatchFields/basic/fixedGradient/fixedGradientFvPatchField.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -279,7 +279,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvPatchTemplates.C"
+#include "finiteVolume/fvMesh/fvPatches/fvPatch/fvPatchTemplates.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -108,7 +108,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "interpolationCellPoint.C"
+#include "finiteVolume/interpolation/interpolation/interpolationCellPoint/interpolationCellPoint.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

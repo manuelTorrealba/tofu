@@ -34,7 +34,7 @@ Description
 #define CentredFitScheme_H
 
 #include "finiteVolume/interpolation/surfaceInterpolation/schemes/CentredFitScheme/CentredFitData.hpp"
-#include "thermophysicalModels/specie/equationOfState/linear/linear.hpp"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/linear/linear.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -155,7 +155,7 @@ limitedSurfaceInterpolationScheme<TYPE>::addMeshFluxConstructorToTable         \
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PhiScheme.C"
+#include "finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/PhiScheme/PhiScheme.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

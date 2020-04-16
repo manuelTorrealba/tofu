@@ -173,7 +173,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "FitData.C"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/FitData/FitData.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
