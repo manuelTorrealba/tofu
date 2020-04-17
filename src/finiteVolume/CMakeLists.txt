@@ -350,7 +350,7 @@ ${gradSchemes}/gradScheme/gradSchemes.cpp
 ${gradSchemes}/gaussGrad/gaussGrads.cpp
 ${gradSchemes}/leastSquaresGrad/leastSquaresVectors.cpp
 ${gradSchemes}/leastSquaresGrad/leastSquaresGrads.cpp
-${gradSchemes}/LeastSquaresGrad/LeastSquaresGrads.cpp
+${gradSchemes}/LeastSquaresGradN/LeastSquaresGrads.cpp
 ${gradSchemes}/fourthGrad/fourthGrads.cpp
 ${limitedGradSchemes}/faceLimitedGrad/faceLimitedGrads.cpp
 ${limitedGradSchemes}/cellLimitedGrad/cellLimitedGrads.cpp
