@@ -1,17 +1,13 @@
-cmake_minimum_required (VERSION 3.0)
 
-project (OpenFOAM)
-
-add_definitions(-DWM_LABEL_SIZE=64 -DWM_DP -DNoRepository)
-
-include_directories(../)
-link_directories (../../lib)
+include_directories(../../core)
+include_directories(../../cfd)
+include_directories(../../mesh)
 
 set(triSurfaceTools triSurface/triSurfaceTools)
 set(geometricSurfacePatch triSurface/geometricSurfacePatch)
 set(interfaces triSurface/interfaces)
 
-set(SOURCE_FILES
+set(SOURCE_FILES_TRISURFACE
 faceTriangulation/faceTriangulation.cpp
 meshTriangulation/meshTriangulation.cpp
 triSurface/triSurface.cpp
@@ -42,10 +38,10 @@ tools/labelledTri/sortLabelledTri.cpp
 triSurfaceFields/triSurfaceFields.cpp
 )
 
-add_library(triSurface STATIC ${SOURCE_FILES})
+add_library(triSurface STATIC ${SOURCE_FILES_TRISURFACE})
 target_link_libraries(triSurface fileFormats surfMesh)
 
 add_custom_command(TARGET triSurface
                    POST_BUILD
                    COMMAND ${CMAKE_COMMAND} -E
-                   copy $<TARGET_FILE:triSurface> ${CMAKE_SOURCE_DIR}/../../lib/$<TARGET_FILE_NAME:triSurface>)
+                   copy $<TARGET_FILE:triSurface> ${CMAKE_SOURCE_DIR}/../lib/$<TARGET_FILE_NAME:triSurface>)

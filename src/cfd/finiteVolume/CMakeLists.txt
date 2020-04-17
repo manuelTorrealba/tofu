@@ -1,11 +1,7 @@
-cmake_minimum_required (VERSION 3.0)
 
-project (OpenFOAM)
-
-add_definitions(-DWM_LABEL_SIZE=64 -DWM_DP -DNoRepository)
-
-include_directories(../)
-link_directories (../../lib)
+include_directories(../../core)
+include_directories(../../cfd)
+include_directories(../../mesh)
 
 set(fvBoundaryMesh fvMesh/fvBoundaryMesh)
 set(fvPatches fvMesh/fvPatches)
@@ -50,7 +46,7 @@ set(SRF ${general}/SRF)
 set(fvOptions ${general}/fvOptions)
 
 
-set(SOURCE_FILES
+set(SOURCE_FILES_FINITEVOLUME
 fvMesh/fvMeshGeometry.cpp
 fvMesh/fvMesh.cpp
 fvMesh/singleCellFvMesh/singleCellFvMesh.cpp
@@ -420,10 +416,10 @@ ${fvOptions}/fvOptionList.cpp
 ${fvOptions}/fvOptions.cpp
 )
 
-add_library(finiteVolume STATIC ${SOURCE_FILES})
-target_link_libraries(finiteVolume OpenFOAM triSurface meshTools)
+add_library(finiteVolume STATIC ${SOURCE_FILES_FINITEVOLUME})
+#target_link_libraries(finiteVolume OpenFOAM triSurface meshTools)
 
 add_custom_command(TARGET finiteVolume
                    POST_BUILD
                    COMMAND ${CMAKE_COMMAND} -E
-                   copy $<TARGET_FILE:finiteVolume> ${CMAKE_SOURCE_DIR}/../../lib/$<TARGET_FILE_NAME:finiteVolume>)
+                   copy $<TARGET_FILE:finiteVolume> ${CMAKE_SOURCE_DIR}/../lib/$<TARGET_FILE_NAME:finiteVolume>)

@@ -1,12 +1,9 @@
-cmake_minimum_required (VERSION 2.8)
 
-project (OSSpecific)
+include_directories(../../core)
+include_directories(../../cfd)
+include_directories(../../mesh)
 
-add_definitions(-DWM_LABEL_SIZE=64 -DWM_DP -DNoRepository)
-
-include_directories(../)
-
-set(SOURCE_FILES
+set(SOURCE_FILES_OSSPECIFIC
 ./POSIX/signals/sigFpe.cpp
 ./POSIX/signals/sigSegv.cpp
 ./POSIX/signals/sigInt.cpp
@@ -24,9 +21,9 @@ set(SOURCE_FILES
 ./POSIX/fileMonitor.cpp
 )
 
-add_library(OSSpecific STATIC ${SOURCE_FILES} ${HEADER_FILES})
+add_library(OSSpecific STATIC ${SOURCE_FILES_OSSPECIFIC})
 
 add_custom_command(TARGET OSSpecific
                    POST_BUILD
                    COMMAND ${CMAKE_COMMAND} -E
-                   copy $<TARGET_FILE:OSSpecific> ${CMAKE_SOURCE_DIR}/../../lib/$<TARGET_FILE_NAME:OSSpecific>)
+                   copy $<TARGET_FILE:OSSpecific> ${CMAKE_SOURCE_DIR}/../lib/$<TARGET_FILE_NAME:OSSpecific>)

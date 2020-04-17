@@ -1,15 +1,11 @@
-cmake_minimum_required (VERSION 3.0)
 
-project (OpenFOAM)
-
-add_definitions(-DWM_LABEL_SIZE=64 -DWM_DP -DNoRepository)
-
-include_directories(../)
-link_directories (../../lib)
+include_directories(../../core)
+include_directories(../../cfd)
+include_directories(../../mesh)
 
 set(surfaceFormats surfaceFormats)
 
-set(SOURCE_FILES
+set(SOURCE_FILES_SURFMESH
 surfZone/surfZone/surfZone.cpp
 surfZone/surfZone/surfZoneIOList.cpp
 surfZone/surfZoneIdentifier/surfZoneIdentifier.cpp
@@ -50,10 +46,10 @@ ${surfaceFormats}/x3d/X3DsurfaceFormatCore.cpp
 ${surfaceFormats}/x3d/X3DsurfaceFormatRunTime.cpp
 )
 
-add_library(surfMesh STATIC ${SOURCE_FILES})
-target_link_libraries(surfMesh fileFormats)
+add_library(surfMesh STATIC ${SOURCE_FILES_SURFMESH})
+#target_link_libraries(surfMesh fileFormats)
 
 add_custom_command(TARGET surfMesh
                    POST_BUILD
                    COMMAND ${CMAKE_COMMAND} -E
-                   copy $<TARGET_FILE:surfMesh> ${CMAKE_SOURCE_DIR}/../../lib/$<TARGET_FILE_NAME:surfMesh>)
+                   copy $<TARGET_FILE:surfMesh> ${CMAKE_SOURCE_DIR}/../lib/$<TARGET_FILE_NAME:surfMesh>)

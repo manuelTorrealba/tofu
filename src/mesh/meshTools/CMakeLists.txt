@@ -1,10 +1,7 @@
-cmake_minimum_required (VERSION 3.0)
 
-project (OpenFOAM)
-
-add_definitions(-DWM_LABEL_SIZE=64 -DWM_DP -DNoRepository)
-
-include_directories(../)
+include_directories(../../core)
+include_directories(../../cfd)
+include_directories(../../mesh)
 
 set(em edgeMesh)
 set(edgeMeshFormats ${em}/edgeMeshFormats)
@@ -32,7 +29,7 @@ set(AMICycPatches ${AMI}/patches/cyclicAMI)
 set(ACMICycPatches ${AMI}/patches/cyclicACMI)
 
 
-set(SOURCE_FILES
+set(SOURCE_FILES_MESHTOOLS
 ${em}/edgeMesh.cpp
 ${em}/edgeMeshIO.cpp
 ${em}/edgeMeshNew.cpp
@@ -229,9 +226,9 @@ regionCoupled/GAMG/interfaceFields/regionCoupledGAMGInterfaceField/regionCoupled
 tetOverlapVolume/tetOverlapVolume.cpp
 )
 
-add_library(meshTools STATIC ${SOURCE_FILES})
+add_library(meshTools STATIC ${SOURCE_FILES_MESHTOOLS})
 
 add_custom_command(TARGET meshTools
                    POST_BUILD
                    COMMAND ${CMAKE_COMMAND} -E
-                   copy $<TARGET_FILE:meshTools> ${CMAKE_SOURCE_DIR}/../../lib/$<TARGET_FILE_NAME:meshTools>)
+                   copy $<TARGET_FILE:meshTools> ${CMAKE_SOURCE_DIR}/../lib/$<TARGET_FILE_NAME:meshTools>)
