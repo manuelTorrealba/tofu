@@ -11,10 +11,15 @@ add_subdirectory(core/fileFormats)
 add_subdirectory(mesh/meshTools)
 add_subdirectory(mesh/surfMesh)
 add_subdirectory(mesh/triSurface)
+add_subdirectory(mesh/mesh/extrudeModel)
+add_subdirectory(mesh/mesh/blockMesh)
+add_subdirectory(mesh/dynamicMesh)
 
 add_subdirectory(cfd/finiteVolume)
 
 add_subdirectory(apps/icoFoam)
+add_subdirectory(apps/blockMesh)
+
 #LIB = ${FOAM_LIBBIN}/libOpenFOAM
 
 #add_library(OpenFOAM STATIC ${SOURCE_FILES})
