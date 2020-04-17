@@ -5,6 +5,7 @@ project (OpenFOAM)
 add_definitions(-DWM_LABEL_SIZE=64 -DWM_DP -DNoRepository)
 
 include_directories(../)
+link_directories (../../lib)
 
 set(surfaceFormats surfaceFormats)
 
@@ -50,6 +51,7 @@ ${surfaceFormats}/x3d/X3DsurfaceFormatRunTime.cpp
 )
 
 add_library(surfMesh STATIC ${SOURCE_FILES})
+target_link_libraries(surfMesh fileFormats)
 
 add_custom_command(TARGET surfMesh
                    POST_BUILD

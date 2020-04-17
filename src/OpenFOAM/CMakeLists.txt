@@ -5,6 +5,7 @@ project (OpenFOAM)
 add_definitions(-DWM_LABEL_SIZE=64 -DWM_DP -DNoRepository)
 
 include_directories(../)
+link_directories (../../lib)
 
  set(fileops global/fileOperations)
  set(bools primitives/bools)
@@ -590,7 +591,7 @@ meshes/data/data.cpp
 #LIB = ${FOAM_LIBBIN}/libOpenFOAM
 
 add_library(OpenFOAM STATIC ${SOURCE_FILES})
-
+target_link_libraries(OpenFOAM OSSpecific Pstream z)
 
 add_custom_command(TARGET OpenFOAM
                    POST_BUILD

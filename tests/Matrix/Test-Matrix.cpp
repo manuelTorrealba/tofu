@@ -138,7 +138,7 @@ int main(int argc, char *argv[])
         }
 
         scalarSquareMatrix sm(squareMatrix);
-        labelList rhs(3, 0);
+        labelList rhs(long(3), 0);
         label sign;
         LUDecompose(sm, rhs, sign);
 

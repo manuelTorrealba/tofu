@@ -5,6 +5,7 @@ project (OpenFOAM)
 add_definitions(-DWM_LABEL_SIZE=64 -DWM_DP -DNoRepository)
 
 include_directories(../)
+link_directories (../../lib)
 
 set(fvBoundaryMesh fvMesh/fvBoundaryMesh)
 set(fvPatches fvMesh/fvPatches)
@@ -420,6 +421,7 @@ ${fvOptions}/fvOptions.cpp
 )
 
 add_library(finiteVolume STATIC ${SOURCE_FILES})
+target_link_libraries(finiteVolume OpenFOAM triSurface meshTools)
 
 add_custom_command(TARGET finiteVolume
                    POST_BUILD
