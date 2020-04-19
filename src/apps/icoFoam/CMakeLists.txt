@@ -17,7 +17,7 @@ add_executable(icoFoam ${SOURCE_FILES_ICOFOAM})
 #target_link_libraries(meshTools fileFormats surfMesh)
 #target_link_libraries(finiteVolume OpenFOAM triSurface meshTools)
 
-target_link_libraries(icoFoam finiteVolume meshTools triSurface surfMesh fileFormats OpenFOAM OSSpecific Pstream z)
+target_link_libraries(icoFoam finiteVolume meshTools triSurface surfMesh fileFormats OpenFOAM OSSpecific Pstream z dl)
 
 
 add_custom_command(TARGET icoFoam

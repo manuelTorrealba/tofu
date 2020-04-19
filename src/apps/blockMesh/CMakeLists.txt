@@ -17,7 +17,7 @@ add_executable(blockMesher ${SOURCE_FILES_BLOCKMESHER})
 #target_link_libraries(meshTools fileFormats surfMesh)
 #target_link_libraries(finiteVolume OpenFOAM triSurface meshTools)
 
-target_link_libraries(blockMesher blockMesh dynamicMesh finiteVolume meshTools triSurface surfMesh fileFormats OpenFOAM OSSpecific Pstream z)
+target_link_libraries(blockMesher blockMesh dynamicMesh finiteVolume meshTools triSurface surfMesh fileFormats OpenFOAM OSSpecific Pstream z dl)
 
 
 add_custom_command(TARGET blockMesher

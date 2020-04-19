@@ -15,7 +15,8 @@ triSurface/triSurfaceAddressing.cpp
 triSurface/stitchTriangles.cpp
 ${interfaces}/STL/writeSTL.cpp
 ${interfaces}/STL/readSTL.cpp
-${interfaces}/STL/readSTLASCII.L
+#${interfaces}/STL/readSTLASCII.L
+${interfaces}/STL/lex.yy.cc
 ${interfaces}/STL/readSTLBINARY.cpp
 ${interfaces}/GTS/writeGTS.cpp
 ${interfaces}/GTS/readGTS.cpp

@@ -42,7 +42,7 @@ Description
 #include "finiteVolume/finiteVolume/fvc/fvcAverage.hpp"
 #include "finiteVolume/finiteVolume/fvc/fvcReconstruct.hpp"
 #include "finiteVolume/finiteVolume/fvc/fvcDdt.hpp"
-#include "finiteVolume/finiteVolume/fvc/fvcDdtL.hpp"
+#include "finiteVolume/finiteVolume/fvc/fvcDDtL.hpp"
 #include "finiteVolume/finiteVolume/fvc/fvcD2dt2.hpp"
 #include "finiteVolume/finiteVolume/fvc/fvcDiv.hpp"
 #include "finiteVolume/finiteVolume/fvc/fvcFlux.hpp"

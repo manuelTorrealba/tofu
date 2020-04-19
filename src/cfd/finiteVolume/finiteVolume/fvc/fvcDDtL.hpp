@@ -73,7 +73,7 @@ namespace fvc
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#include "finiteVolume/finiteVolume/fvc/fvcDdtL.cpp"
+#include "finiteVolume/finiteVolume/fvc/fvcDDtL.cpp"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

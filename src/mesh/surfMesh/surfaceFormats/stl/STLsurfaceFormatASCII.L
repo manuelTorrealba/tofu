@@ -31,7 +31,7 @@ License
    ------ local definitions
  \* ------------------------------------------------------------------------ */
 
-#include "STLsurfaceFormatCore.H"
+#include "surfMesh/surfaceFormats/stl/STLsurfaceFormatCore.hpp"
 
 using namespace Foam;
 
