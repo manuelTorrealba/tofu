@@ -17,10 +17,10 @@ cyclicSector/cyclicSector.cpp
 wedge/wedge.cpp
 )
 
-add_library(extrudeModel STATIC ${SOURCE_FILES_EXTRUDEMODEL})
-#LIB_LIBS = -lmeshTools
+add_library(extrudeModel SHARED ${SOURCE_FILES_EXTRUDEMODEL})
+target_link_libraries(extrudeModel meshTools)
     
 add_custom_command(TARGET extrudeModel
                    POST_BUILD
                    COMMAND ${CMAKE_COMMAND} -E
-                   copy $<TARGET_FILE:extrudeModel> ${CMAKE_SOURCE_DIR}/../lib/$<TARGET_FILE_NAME:extrudeModel>)
+                   copy $<TARGET_FILE:extrudeModel> ${CMAKE_SOURCE_DIR}/../bin/$<TARGET_FILE_NAME:extrudeModel>)

@@ -20,9 +20,10 @@ ${setWriters}/xmgrace/xmgraceSetWriterRunTime.cpp
 ${setWriters}/csv/csvSetWriterRunTime.cpp
 )
 
-add_library(fileFormats STATIC ${SOURCE_FILES_FILEFORMATS})
+add_library(fileFormats SHARED ${SOURCE_FILES_FILEFORMATS})
+target_link_libraries(fileFormats OpenFOAM)
 
 add_custom_command(TARGET fileFormats
                    POST_BUILD
                    COMMAND ${CMAKE_COMMAND} -E
-                   copy $<TARGET_FILE:fileFormats> ${CMAKE_SOURCE_DIR}/../lib/$<TARGET_FILE_NAME:fileFormats>)
+                   copy $<TARGET_FILE:fileFormats> ${CMAKE_SOURCE_DIR}/../bin/$<TARGET_FILE_NAME:fileFormats>)

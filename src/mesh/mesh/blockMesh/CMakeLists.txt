@@ -38,10 +38,10 @@ blockMesh/blockMeshMergeFast.cpp
 blockMeshTools/blockMeshTools.cpp
 )
 
-add_library(blockMesh STATIC ${SOURCE_FILES_BLOCKMESH})
-#LIB_LIBS = -lmeshTools -lfileFormats -lsurfMesh
+add_library(blockMesh SHARED ${SOURCE_FILES_BLOCKMESH})
+target_link_libraries(blockMesh meshTools fileFormats surfMesh)
     
 add_custom_command(TARGET blockMesh
                    POST_BUILD
                    COMMAND ${CMAKE_COMMAND} -E
-                   copy $<TARGET_FILE:blockMesh> ${CMAKE_SOURCE_DIR}/../lib/$<TARGET_FILE_NAME:blockMesh>)
+                   copy $<TARGET_FILE:blockMesh> ${CMAKE_SOURCE_DIR}/../bin/$<TARGET_FILE_NAME:blockMesh>)

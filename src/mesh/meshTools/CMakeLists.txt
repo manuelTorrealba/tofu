@@ -226,9 +226,10 @@ regionCoupled/GAMG/interfaceFields/regionCoupledGAMGInterfaceField/regionCoupled
 tetOverlapVolume/tetOverlapVolume.cpp
 )
 
-add_library(meshTools STATIC ${SOURCE_FILES_MESHTOOLS})
+add_library(meshTools SHARED ${SOURCE_FILES_MESHTOOLS})
+target_link_libraries(meshTools triSurface fileFormats surfMesh)
 
 add_custom_command(TARGET meshTools
                    POST_BUILD
                    COMMAND ${CMAKE_COMMAND} -E
-                   copy $<TARGET_FILE:meshTools> ${CMAKE_SOURCE_DIR}/../lib/$<TARGET_FILE_NAME:meshTools>)
+                   copy $<TARGET_FILE:meshTools> ${CMAKE_SOURCE_DIR}/../bin/$<TARGET_FILE_NAME:meshTools>)

@@ -41,6 +41,7 @@ SourceFiles
 #include "OpenFOAM/graph/curve/curve.hpp"
 #include "OpenFOAM/db/typeInfo/typeInfo.hpp"
 #include "OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.hpp"
+#include "OpenFOAM/db/error/error.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

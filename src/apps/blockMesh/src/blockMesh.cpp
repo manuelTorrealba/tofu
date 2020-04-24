@@ -55,6 +55,7 @@ Usage
 #include "mesh/blockMesh/blockMesh/blockMesh.hpp"
 #include "dynamicMesh/polyTopoChange/attachPolyTopoChanger/attachPolyTopoChanger.hpp"
 #include "dynamicMesh/polyTopoChange/polyTopoChange/polyTopoChange.hpp"
+#include "OpenFOAM/meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.hpp"
 #include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.hpp"
 #include "OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.hpp"
 

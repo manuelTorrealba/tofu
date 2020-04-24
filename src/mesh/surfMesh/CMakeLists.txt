@@ -46,10 +46,10 @@ ${surfaceFormats}/x3d/X3DsurfaceFormatCore.cpp
 ${surfaceFormats}/x3d/X3DsurfaceFormatRunTime.cpp
 )
 
-add_library(surfMesh STATIC ${SOURCE_FILES_SURFMESH})
-#target_link_libraries(surfMesh fileFormats)
+add_library(surfMesh SHARED ${SOURCE_FILES_SURFMESH})
+target_link_libraries(surfMesh fileFormats OpenFOAM)
 
 add_custom_command(TARGET surfMesh
                    POST_BUILD
                    COMMAND ${CMAKE_COMMAND} -E
-                   copy $<TARGET_FILE:surfMesh> ${CMAKE_SOURCE_DIR}/../lib/$<TARGET_FILE_NAME:surfMesh>)
+                   copy $<TARGET_FILE:surfMesh> ${CMAKE_SOURCE_DIR}/../bin/$<TARGET_FILE_NAME:surfMesh>)

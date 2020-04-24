@@ -416,10 +416,10 @@ ${fvOptions}/fvOptionList.cpp
 ${fvOptions}/fvOptions.cpp
 )
 
-add_library(finiteVolume STATIC ${SOURCE_FILES_FINITEVOLUME})
-#target_link_libraries(finiteVolume OpenFOAM triSurface meshTools)
+add_library(finiteVolume SHARED ${SOURCE_FILES_FINITEVOLUME})
+target_link_libraries(finiteVolume triSurface meshTools OpenFOAM)
 
 add_custom_command(TARGET finiteVolume
                    POST_BUILD
                    COMMAND ${CMAKE_COMMAND} -E
-                   copy $<TARGET_FILE:finiteVolume> ${CMAKE_SOURCE_DIR}/../lib/$<TARGET_FILE_NAME:finiteVolume>)
+                   copy $<TARGET_FILE:finiteVolume> ${CMAKE_SOURCE_DIR}/../bin/$<TARGET_FILE_NAME:finiteVolume>)

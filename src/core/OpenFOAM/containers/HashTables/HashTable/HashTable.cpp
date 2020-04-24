@@ -143,7 +143,7 @@ Foam::HashTable<T, Key, Hash>::find
     const Key& key
 )
 {
-    if (nElmts_)
+    if (this && nElmts_)
     {
         const label hashIdx = hashKeyIndex(key);
 

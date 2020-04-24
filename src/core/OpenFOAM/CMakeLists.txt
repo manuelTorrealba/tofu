@@ -154,8 +154,8 @@ primitives/Tensor/lists/symmTensorList.cpp
 primitives/Tensor/lists/tensorList.cpp
 primitives/Vector/complexVector/complexVector.cpp
 # #if !defined(WM_SP)
-# #primitives/Vector/floatVector/floatVector.cpp
-# #primitives/Tensor/floatTensor/floatTensor.cpp
+primitives/Vector/floatVector/floatVector.cpp
+primitives/Tensor/floatTensor/floatTensor.cpp
 # #endif
 primitives/Vector/labelVector/labelVector.cpp
 primitives/Vector/vector/vector.cpp
@@ -583,10 +583,10 @@ ${writers}/jplotGraph/jplotGraph.cpp
 meshes/data/data.cpp
 )
 
-add_library(OpenFOAM STATIC ${SOURCE_FILES_OPENFOAM})
-#target_link_libraries(OpenFOAM OSSpecific Pstream z)
+add_library(OpenFOAM SHARED ${SOURCE_FILES_OPENFOAM})
+target_link_libraries(OpenFOAM OSSpecific Pstream z)
 
 add_custom_command(TARGET OpenFOAM
                    POST_BUILD
                    COMMAND ${CMAKE_COMMAND} -E
-                   copy $<TARGET_FILE:OpenFOAM> ${CMAKE_SOURCE_DIR}/../lib/$<TARGET_FILE_NAME:OpenFOAM>)
+                   copy $<TARGET_FILE:OpenFOAM> ${CMAKE_SOURCE_DIR}/../bin/$<TARGET_FILE_NAME:OpenFOAM>)

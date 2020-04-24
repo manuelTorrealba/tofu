@@ -31,7 +31,8 @@ namespace Foam
 {
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
-
+// TODO: template function redefinition, why?
+/*
 template<>
 void processorFvPatchField<scalar>::initInterfaceMatrixUpdate
 (
@@ -90,8 +91,10 @@ void processorFvPatchField<scalar>::initInterfaceMatrixUpdate
 
     const_cast<processorFvPatchField<scalar>&>(*this).updatedMatrix() = false;
 }
+*/
 
-
+// TODO: template function redefinition, why?
+/*
 template<>
 void processorFvPatchField<scalar>::updateInterfaceMatrix
 (
@@ -150,7 +153,7 @@ void processorFvPatchField<scalar>::updateInterfaceMatrix
 
     const_cast<processorFvPatchField<scalar>&>(*this).updatedMatrix() = true;
 }
-
+*/
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

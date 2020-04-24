@@ -92,55 +92,6 @@ inline word addressToWord(const uintptr_t addr)
     return nStream.str();
 }
 
-#ifndef __CYGWIN__
-void printSourceFileAndLine
-(
-    Ostream& os,
-    const fileName& filename,
-    Dl_info *info,
-    void *addr
-)
-{
-    uintptr_t address = uintptr_t(addr);
-    word myAddress = addressToWord(address);
-
-    if (filename.ext() == "so")
-    {
-        // Convert address into offset into dynamic library
-        uintptr_t offset = uintptr_t(info->dli_fbase);
-        intptr_t relativeAddress = address - offset;
-        myAddress = addressToWord(relativeAddress);
-    }
-
-    if (filename[0] == '/')
-    {
-        string line = pOpen
-        (
-            "addr2line -f --demangle=auto --exe "
-          + filename
-          + " "
-          + myAddress,
-            1
-        );
-
-        if (line == "")
-        {
-            os  << " addr2line failed";
-        }
-        else if (line == "??:0")
-        {
-            os  << " in " << filename;
-        }
-        else
-        {
-            string cwdLine(line.replaceAll(cwd() + '/', ""));
-            string homeLine(cwdLine.replaceAll(home(), '~'));
-
-            os  << " at " << homeLine.c_str();
-        }
-    }
-}
-#endif
 
 
 fileName absolutePath(const char* fn)
@@ -192,27 +143,55 @@ word demangleSymbol(const char* sn)
 } // End namespace Foam
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-
 #ifndef __CYGWIN__
-void Foam::error::safePrintStack(std::ostream& os)
+
+void printSourceFileAndLine
+(
+    Ostream& os,
+    const fileName& filename,
+    Dl_info *info,
+    void *addr
+)
 {
-    // Get raw stack symbols
-    void *array[100];
-    size_t size = backtrace(array, 100);
-    char **strings = backtrace_symbols(array, size);
+    uintptr_t address = uintptr_t(addr);
+    word myAddress = addressToWord(address);
 
-    // See if they contain function between () e.g. "(__libc_start_main+0xd0)"
-    // and see if cplus_demangle can make sense of part before +
-    for (size_t i = 0; i < size; i++)
+    if (filename.ext() == "so")
     {
-        string msg(strings[i]);
-        fileName programFile;
-        word address;
+        // Convert address into offset into dynamic library
+        uintptr_t offset = uintptr_t(info->dli_fbase);
+        intptr_t relativeAddress = address - offset;
+        myAddress = addressToWord(relativeAddress);
+    }
 
-        os  << '#' << label(i) << '\t' << msg << std::endl;
+    if (filename[0] == '/')
+    {
+        string line = pOpen
+        (
+            "addr2line -f --demangle=auto --exe "
+          + filename
+          + " "
+          + myAddress,
+            1
+        );
+
+        if (line == "")
+        {
+            os  << " addr2line failed";
+        }
+        else if (line == "??:0")
+        {
+            os  << " in " << filename;
+        }
+        else
+        {
+            string cwdLine(line.replaceAll(cwd() + '/', ""));
+            string homeLine(cwdLine.replaceAll(home(), '~'));
+
+            os  << " at " << homeLine.c_str();
+        }
     }
 }
-
 
 void Foam::error::printStack(Ostream& os)
 {
@@ -255,17 +234,39 @@ void Foam::error::printStack(Ostream& os)
     delete info;
 }
 
+
+void Foam::error::safePrintStack(std::ostream& os)
+{
+    // Get raw stack symbols
+    void *array[100];
+    size_t size = backtrace(array, 100);
+    char **strings = backtrace_symbols(array, size);
+
+    // See if they contain function between () e.g. "(__libc_start_main+0xd0)"
+    // and see if cplus_demangle can make sense of part before +
+    for (size_t i = 0; i < size; i++)
+    {
+        string msg(strings[i]);
+        fileName programFile;
+        word address;
+
+        os  << '#' << label(i) << '\t' << msg << std::endl;
+    }
+}
+
 #else
+    
+void Foam::error::printStack(Ostream& os)
+{
+    std::cout << "error in printStack" << std::endl; // TODO
+}
+    
     
 void Foam::error::safePrintStack(std::ostream& os)
 {
-    std::cout << "hola" << std::endl; // TODO
+    std::cout << "error in safePrintStack" << std::endl; // TODO
 }
-void Foam::error::printStack(Ostream& os)
-{
-    std::cout << "hola" << std::endl; // TODO
-}
-    
+
 #endif
 
 // ************************************************************************* //

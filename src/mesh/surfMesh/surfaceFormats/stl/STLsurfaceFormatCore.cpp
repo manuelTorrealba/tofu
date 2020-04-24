@@ -203,6 +203,10 @@ bool Foam::fileFormats::STLsurfaceFormatCore::readBINARY
     return true;
 }
 
+bool Foam::fileFormats::STLsurfaceFormatCore::readASCII(istream&, const off_t) {
+	//TODO: not implemented!
+	return false;
+}
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

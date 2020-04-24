@@ -347,6 +347,12 @@ Foam::polyMesh* Foam::blockMesh::createTopology
     word defaultPatchName = "defaultFaces";
     word defaultPatchType = emptyPolyPatch::typeName;
 
+    if (verboseOutput)
+    {
+        std::cout << "Mesh Description Path: " << meshDescription.filePath() << std::endl; //TODO
+        std::cout << "Mesh Description Name: " << meshDescription.name() << std::endl; //TODO
+    }
+
     // Read the names/types for the unassigned patch faces
     // this is a bit heavy handed (and ugly), but there is currently
     // no easy way to rename polyMesh patches subsequently
@@ -412,13 +418,22 @@ Foam::polyMesh* Foam::blockMesh::createTopology
         Info<< "Creating topology blocks" << endl;
     }
     {
+        Info << "blocksLookup start" << endl;
+        ITstream blocksLookup = meshDescription.lookup("blocks");
+        Ostream& myostream = Info;
+        blocksLookup.print(myostream);
+        Info << "blocksLookup end" << endl;
+        Info << "blockiNew start" << endl;
+        block::iNew blockiNew = block::iNew(meshDescription, vertices_, edges_, faces_);
+        Info << "blockiNew end" << endl;
         blockList blocks
         (
             meshDescription.lookup("blocks"),
             block::iNew(meshDescription, vertices_, edges_, faces_)
         );
-
+        Info << "transfer blocks start" << endl;
         transfer(blocks);
+        Info << "transfer blocks end" << endl;
     }
 
 

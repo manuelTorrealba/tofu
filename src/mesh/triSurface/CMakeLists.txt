@@ -39,10 +39,10 @@ tools/labelledTri/sortLabelledTri.cpp
 triSurfaceFields/triSurfaceFields.cpp
 )
 
-add_library(triSurface STATIC ${SOURCE_FILES_TRISURFACE})
+add_library(triSurface SHARED ${SOURCE_FILES_TRISURFACE})
 target_link_libraries(triSurface fileFormats surfMesh)
 
 add_custom_command(TARGET triSurface
                    POST_BUILD
                    COMMAND ${CMAKE_COMMAND} -E
-                   copy $<TARGET_FILE:triSurface> ${CMAKE_SOURCE_DIR}/../lib/$<TARGET_FILE_NAME:triSurface>)
+                   copy $<TARGET_FILE:triSurface> ${CMAKE_SOURCE_DIR}/../bin/$<TARGET_FILE_NAME:triSurface>)

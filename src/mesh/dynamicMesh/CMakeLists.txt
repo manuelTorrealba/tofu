@@ -119,11 +119,11 @@ pointPatchDist/externalPointEdgePoint.cpp
 pointPatchDist/pointPatchDist.cpp
 )
 
-add_library(dynamicMesh STATIC ${SOURCE_FILES_DYNAMICMESH})
-#LIB_LIBS = -lfiniteVolume -ltriSurface -lextrudeModel
+add_library(dynamicMesh SHARED ${SOURCE_FILES_DYNAMICMESH})
+target_link_libraries(dynamicMesh finiteVolume triSurface extrudeModel)
 
     
 add_custom_command(TARGET dynamicMesh
                    POST_BUILD
                    COMMAND ${CMAKE_COMMAND} -E
-                   copy $<TARGET_FILE:dynamicMesh> ${CMAKE_SOURCE_DIR}/../lib/$<TARGET_FILE_NAME:dynamicMesh>)
+                   copy $<TARGET_FILE:dynamicMesh> ${CMAKE_SOURCE_DIR}/../bin/$<TARGET_FILE_NAME:dynamicMesh>)
