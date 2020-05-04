@@ -13,8 +13,13 @@ add_subdirectory(mesh/meshTools)
 add_subdirectory(mesh/mesh/extrudeModel)
 add_subdirectory(mesh/mesh/blockMesh)
 add_subdirectory(mesh/dynamicMesh)
+add_subdirectory(mesh/lagrangian)
 
 add_subdirectory(cfd/finiteVolume)
+add_subdirectory(cfd/genericPatchFields)
+
+add_subdirectory(core/foamToVTK)
 
 add_subdirectory(apps/icoFoam)
 add_subdirectory(apps/blockMesh)
+add_subdirectory(apps/writeFoamToVTK)
