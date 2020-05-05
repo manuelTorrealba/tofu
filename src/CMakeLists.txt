@@ -19,6 +19,8 @@ add_subdirectory(cfd/finiteVolume)
 add_subdirectory(cfd/genericPatchFields)
 
 add_subdirectory(core/foamToVTK)
+add_subdirectory(core/parallel)
+add_subdirectory(mesh/mesh/snappyHexMesh)
 
 add_subdirectory(apps/icoFoam)
 add_subdirectory(apps/blockMesh)
