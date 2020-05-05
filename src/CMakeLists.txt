@@ -18,10 +18,16 @@ add_subdirectory(mesh/lagrangian)
 add_subdirectory(cfd/finiteVolume)
 add_subdirectory(cfd/genericPatchFields)
 
+add_subdirectory(mesh/conversion)
+add_subdirectory(mesh/sampling)
+
 add_subdirectory(core/foamToVTK)
 add_subdirectory(core/parallel)
 add_subdirectory(mesh/mesh/snappyHexMesh)
 
+
 add_subdirectory(apps/icoFoam)
 add_subdirectory(apps/blockMesh)
 add_subdirectory(apps/writeFoamToVTK)
+add_subdirectory(apps/snappyHexMesher)
+add_subdirectory(apps/surfaceFeatures)
