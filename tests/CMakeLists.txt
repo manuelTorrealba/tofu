@@ -3,7 +3,7 @@ cmake_minimum_required (VERSION 3.0)
 include_directories(../src/core)
 include_directories(../src/cfd)
 include_directories(../src/mesh)
-link_directories (../lib)
+link_directories (../bin)
 
 add_definitions(-DWM_LABEL_SIZE=64 -DWM_DP -DNoRepository)
 
